@@ -1,0 +1,6 @@
+[submodule "third_party/git/git_repo"]
+	path = third_party/git/git_repo
+	url = https://github.com/git/git.git
+[submodule "third_party/llvm/llvm-project"]
+	path = third_party/llvm/llvm-project
+	url = https://github.com/llvm/llvm-project

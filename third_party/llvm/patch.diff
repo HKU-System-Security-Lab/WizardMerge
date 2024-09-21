@@ -1,0 +1,676 @@
+diff --git a/clang/include/clang/CodeGen/BackendUtil.h b/clang/include/clang/CodeGen/BackendUtil.h
+index 43de07cc145b..17952ae4576e 100644
+--- a/clang/include/clang/CodeGen/BackendUtil.h
++++ b/clang/include/clang/CodeGen/BackendUtil.h
+@@ -33,7 +33,8 @@ namespace clang {
+     Backend_EmitLL,        ///< Emit human-readable LLVM assembly
+     Backend_EmitNothing,   ///< Don't emit anything (benchmarking mode)
+     Backend_EmitMCNull,    ///< Run CodeGen, but don't emit anything
+-    Backend_EmitObj        ///< Emit native object files
++    Backend_EmitObj,       ///< Emit native object files
++    Backend_ParseRange,    ///< Parse ranges and dump
+   };
+ 
+   void EmitBackendOutput(DiagnosticsEngine &Diags, const HeaderSearchOptions &,
+diff --git a/clang/lib/CodeGen/BackendUtil.cpp b/clang/lib/CodeGen/BackendUtil.cpp
+index 52bcd971dc8c..15ad36aab3dc 100644
+--- a/clang/lib/CodeGen/BackendUtil.cpp
++++ b/clang/lib/CodeGen/BackendUtil.cpp
+@@ -85,6 +85,9 @@
+ #include "llvm/Transforms/Utils/SymbolRewriter.h"
+ #include "llvm/Transforms/Utils/UniqueInternalLinkageNames.h"
+ #include <memory>
++/* Added code by @Chenxiong starts */
++ #include "llvm/Transforms/Scalar/DePartDumpIR.h"
++/* Added code by @Chenxiong ends */
+ using namespace clang;
+ using namespace llvm;
+ 
+@@ -837,6 +840,14 @@ void EmitAssemblyHelper::CreatePasses(legacy::PassManager &MPM,
+ 
+   PMBuilder.populateFunctionPassManager(FPM);
+   PMBuilder.populateModulePassManager(MPM);
++
++  /* Added code by @Chenxiong starts */
++	if(PMBuilder.OptLevel < 1) {
++		FPM.add(createSROAPass());
++		MPM.add(createPromoteMemoryToRegisterPass());
++	}
++	MPM.add(createDePartDumpIRPass());
++	/* Added code by @Chenxiong ends */
+ }
+ 
+ static void setCommandLineOpts(const CodeGenOptions &CodeGenOpts) {
+@@ -1411,6 +1422,7 @@ void EmitAssemblyHelper::EmitAssemblyWithNewPassManager(
+       if (!DwoOS)
+         return;
+     }
++    CodeGenPasses.add(createDePartDumpIRPass());
+     if (!AddEmitPasses(CodeGenPasses, Action, *OS,
+                        DwoOS ? &DwoOS->os() : nullptr))
+       // FIXME: Should we handle this error differently?
+diff --git a/clang/lib/CodeGen/CGDebugInfo.cpp b/clang/lib/CodeGen/CGDebugInfo.cpp
+index 99944afaad14..980d667565ce 100644
+--- a/clang/lib/CodeGen/CGDebugInfo.cpp
++++ b/clang/lib/CodeGen/CGDebugInfo.cpp
+@@ -47,6 +47,12 @@
+ #include "llvm/Support/MD5.h"
+ #include "llvm/Support/Path.h"
+ #include "llvm/Support/TimeProfiler.h"
++
++#include <memory>
++#include <sys/types.h>
++#include <sys/stat.h>
++#include <fstream>
++
+ using namespace clang;
+ using namespace clang::CodeGen;
+ 
+@@ -1053,6 +1059,7 @@ CGDebugInfo::getOrCreateRecordFwdDecl(const RecordType *Ty,
+   llvm::DICompositeType *RetTy = DBuilder.createReplaceableCompositeType(
+       getTagForRecord(RD), RDName, Ctx, DefUnit, Line, 0, Size, Align, Flags,
+       Identifier);
++
+   if (CGM.getCodeGenOpts().DebugFwdTemplateParams)
+     if (auto *TSpecial = dyn_cast<ClassTemplateSpecializationDecl>(RD))
+       DBuilder.replaceArrays(RetTy, llvm::DINodeArray(),
+@@ -1210,9 +1217,13 @@ llvm::DIType *CGDebugInfo::CreateType(const TypedefType *Ty,
+ 
+   uint32_t Align = getDeclAlignIfRequired(Ty->getDecl(), CGM.getContext());
+   // Typedefs are derived from some other type.
+-  return DBuilder.createTypedef(Underlying, Ty->getDecl()->getName(),
++
++  auto *ptr = DBuilder.createTypedef(Underlying, Ty->getDecl()->getName(),
+                                 getOrCreateFile(Loc), getLineNumber(Loc),
+                                 getDeclContextDescriptor(Ty->getDecl()), Align);
++                    
++  auto *TD = Ty->getDecl() ? dyn_cast<TypedefDecl>(Ty->getDecl()) : nullptr;
++  return ptr;
+ }
+ 
+ static unsigned getDwarfCC(CallingConv CC) {
+@@ -3042,9 +3053,11 @@ llvm::DIType *CGDebugInfo::CreateTypeDefinition(const EnumType *Ty) {
+   unsigned Line = getLineNumber(ED->getLocation());
+   llvm::DIScope *EnumContext = getDeclContextDescriptor(ED);
+   llvm::DIType *ClassTy = getOrCreateType(ED->getIntegerType(), DefUnit);
+-  return DBuilder.createEnumerationType(EnumContext, ED->getName(), DefUnit,
++  auto *ptr = DBuilder.createEnumerationType(EnumContext, ED->getName(), DefUnit,
+                                         Line, Size, Align, EltArray, ClassTy,
+                                         Identifier, ED->isScoped());
++  
++  return ptr;
+ }
+ 
+ llvm::DIMacro *CGDebugInfo::CreateMacro(llvm::DIMacroFile *Parent,
+@@ -3593,6 +3606,7 @@ llvm::DISubprogram *CGDebugInfo::getFunctionFwdDeclOrStub(GlobalDecl GD,
+       DContext, Name, LinkageName, Unit, Line,
+       getOrCreateFunctionType(GD.getDecl(), FnType, Unit), 0, Flags, SPFlags,
+       TParamsArray.get(), getFunctionDeclaration(FD));
++
+   const FunctionDecl *CanonDecl = FD->getCanonicalDecl();
+   FwdDeclReplaceMap.emplace_back(std::piecewise_construct,
+                                  std::make_tuple(CanonDecl),
+@@ -3624,6 +3638,7 @@ CGDebugInfo::getGlobalVariableForwardDeclaration(const VarDecl *VD) {
+   auto *GV = DBuilder.createTempGlobalVariableFwdDecl(
+       DContext, Name, LinkageName, Unit, Line, getOrCreateType(T, Unit),
+       !VD->isExternallyVisible(), nullptr, TemplateParameters, Align);
++
+   FwdDeclReplaceMap.emplace_back(
+       std::piecewise_construct,
+       std::make_tuple(cast<VarDecl>(VD->getCanonicalDecl())),
+@@ -3891,6 +3906,7 @@ void CGDebugInfo::emitFunctionStart(GlobalDecl GD, SourceLocation Loc,
+   llvm::DISubprogram *SP = DBuilder.createFunction(
+       FDContext, Name, LinkageName, Unit, LineNo, DIFnType, ScopeLine,
+       FlagsForDef, SPFlagsForDef, TParamsArray.get(), Decl);
++    
+   Fn->setSubprogram(SP);
+   // We might get here with a VarDecl in the case we're generating
+   // code for the initialization of globals. Do not record these decls
+@@ -3959,6 +3975,14 @@ void CGDebugInfo::EmitFunctionDecl(GlobalDecl GD, SourceLocation Loc,
+       getOrCreateFunctionType(D, FnType, Unit), ScopeLine, Flags, SPFlags,
+       TParamsArray.get(), getFunctionDeclaration(D));
+ 
++  // const auto *FD = D ? dyn_cast<FunctionDecl>(D) : nullptr;
++  // if (should_dump_range && FD) {
++  //   llvm::errs() << "[EmitFunctionDecl] ";
++  //   SP->dump();
++  //   addNewRange(FD, LinkageName.str(), Name.str());
++  //   llvm::errs() << "\n";
++  // }
++
+   if (IsDeclForCallSite)
+     Fn->setSubprogram(SP);
+ 
+diff --git a/clang/lib/CodeGen/CGDebugInfo.h b/clang/lib/CodeGen/CGDebugInfo.h
+index afd5b50c182a..05ae45bc6074 100644
+--- a/clang/lib/CodeGen/CGDebugInfo.h
++++ b/clang/lib/CodeGen/CGDebugInfo.h
+@@ -31,6 +31,8 @@
+ #include "llvm/IR/ValueHandle.h"
+ #include "llvm/Support/Allocator.h"
+ 
++#include <set>
++
+ namespace llvm {
+ class MDNode;
+ }
+@@ -549,6 +551,20 @@ private:
+     llvm::DIType *WrappedType;
+   };
+ 
++  // Dump all the ranges to files. 
++  void dumpRangeToFile();
++
++  void addNewRange(const VarDecl *VD, std::string Identifier, std::string name);
++  void addNewRange(const EnumDecl *ED, std::string Identifier, std::string name);
++  void addNewRange(const RecordDecl *RD, std::string Identifier, std::string name);
++  void addNewRange(const FunctionDecl *FD, std::string Identifier, std::string name);
++  void addNewRange(const TypedefDecl *TD, std::string Identifier, std::string name);
++  std::set<std::string> included_files;
++  std::set<std::tuple<std::string, unsigned int, 
++            unsigned int, std::string, std::string> > ranges;
++  bool should_dump_range;
++  char *dump_path;
++
+   /// Build up structure info for the byref.  See \a BuildByRefType.
+   BlockByRefType EmitTypeForVarWithBlocksAttr(const VarDecl *VD,
+                                               uint64_t *OffSet);
+diff --git a/clang/lib/CodeGen/CodeGenAction.cpp b/clang/lib/CodeGen/CodeGenAction.cpp
+index 778d4df3c2e9..96d96aaeb7e2 100644
+--- a/clang/lib/CodeGen/CodeGenAction.cpp
++++ b/clang/lib/CodeGen/CodeGenAction.cpp
+@@ -14,6 +14,7 @@
+ #include "clang/AST/ASTContext.h"
+ #include "clang/AST/DeclCXX.h"
+ #include "clang/AST/DeclGroup.h"
++#include "clang/AST/RecursiveASTVisitor.h"
+ #include "clang/Basic/DiagnosticFrontend.h"
+ #include "clang/Basic/FileManager.h"
+ #include "clang/Basic/LangStandard.h"
+@@ -47,6 +48,11 @@
+ #include "llvm/Transforms/IPO/Internalize.h"
+ 
+ #include <memory>
++#include <sys/types.h>
++#include <sys/stat.h>
++// #include <fcntl.h>
++// #include <sys/file.h>
++#include <fstream>
+ using namespace clang;
+ using namespace llvm;
+ 
+@@ -101,6 +107,290 @@ namespace clang {
+         });
+     }
+ 
++  bool checkEnvs() {
++    char *pMode = getenv("Frontend_Mode");
++    if (pMode == NULL)
++      return false;
++    if (strncmp(pMode, "DumpRange", 9) != 0)
++      return false;
++    char *pOutDir = getenv("Frontend_DumpRange_Out");
++    if (pOutDir == NULL)
++      return false;
++    struct stat info;
++    if (stat(pOutDir, &info) != 0)
++      return false;
++    else if (info.st_mode & S_IFDIR)
++      return true;
++    return false;
++  }
++
++  bool fileExists(const std::string& filename) {
++    std::ifstream file(filename);
++    return file.good();
++  }
++
++  bool endsWith(std::string const &str, std::string const &suffix) {
++    if (str.length() < suffix.length()) {
++        return false;
++    }
++    return str.compare(str.length() - suffix.length(), suffix.length(), suffix) == 0;
++  }
++
++  template <typename T>
++  std::pair<unsigned int, unsigned int> getRange(T *decl, const SourceManager &SM) {
++    clang::SourceLocation begin = decl->getBeginLoc();
++    clang::SourceLocation end = decl->getEndLoc();
++    clang::PresumedLoc PLoc_begin = SM.getPresumedLoc(begin);
++    clang::PresumedLoc PLoc_end = SM.getPresumedLoc(end);
++
++    assert((!PLoc_begin.isInvalid()) && (!PLoc_end.isInvalid()) && "Invalid PLoc");
++    assert(PLoc_begin.getFilename() == PLoc_end.getFilename() &&
++            "getRange: file names do not match!");
++    
++    return std::make_pair(PLoc_begin.getLine(), PLoc_end.getLine());
++  }
++
++  std::string getPriorName(NamedDecl *ND) {
++    return ND->getNameAsString().size() ? ND->getNameAsString() : "*";
++  }
++
++  llvm::StringRef getRealPathForLocation(clang::SourceLocation sl, const SourceManager &sourceManager) {
++    // sl.dump(sourceManager);
++    
++    // Special handler for macro
++    // Otherwise getFileEntryForID would return nullptr.
++    if (sl.isMacroID()) {
++      sl = sourceManager.getExpansionLoc(sl);
++    }
++    clang::FileID fileID = sourceManager.getFileID(sl);
++    // llvm::errs() << sl.isFileID() << " " << sl.isMacroID() << "\n";
++    return sourceManager.getFileEntryForID(fileID)->tryGetRealPathName();
++    // llvm::errs() << fe << "\n";
++  }
++
++  template <typename T>
++  std::tuple<std::string, unsigned int, unsigned int> getFullLocation(T *decl, const SourceManager &SM) {
++    clang::SourceLocation begin = decl->getBeginLoc();
++    clang::SourceLocation end = decl->getEndLoc();
++    clang::PresumedLoc PLoc_begin = SM.getPresumedLoc(begin);
++    clang::PresumedLoc PLoc_end = SM.getPresumedLoc(end);
++
++    // decl->getDeclName().dump();
++
++    // llvm::errs() << std::string(PLoc_begin.getFilename()) << " " << std::string(PLoc_end.getFilename()) << " ::::::::\n";
++    // llvm::errs() << PLoc_begin.getLine() << " ~ " << PLoc_end.getLine() << " :::::::\n";
++    llvm::StringRef full_path_begin = getRealPathForLocation(begin, SM);
++    llvm::StringRef full_path_end = getRealPathForLocation(end, SM);
++    // llvm::errs() << full_path_begin.str()  << " <> " << full_path_end.str() << " :::::::\n";
++    // if (full_path_begin.empty()) {
++    //   llvm::errs() << std::string(PLoc_begin.getFilename()) << " " << std::string(PLoc_end.getFilename()) << " ----\n";
++    // }
++
++    // if (full_path_end.empty()) {
++    //   llvm::errs() << std::string(PLoc_begin.getFilename()) << " " << std::string(PLoc_end.getFilename()) << " ++++\n";
++    // }
++    assert((!PLoc_begin.isInvalid()) && (!PLoc_end.isInvalid()) && "Invalid PLoc");
++    if (full_path_begin.str() != full_path_end.str() ) {
++      return std::make_tuple("", 0, 0);
++    }    
++
++    return std::make_tuple(full_path_begin.str(), PLoc_begin.getLine(), PLoc_end.getLine());
++  }
++
++  void replace(std::string& str, const std::string& from, const std::string& to) {
++    if(from.empty())
++      return;
++    size_t start_pos = 0;
++    while((start_pos = str.find(from, start_pos)) != std::string::npos) {
++      str.replace(start_pos, from.length(), to);
++      start_pos += to.length();
++    }
++  }
++
++  void doParseRangeAndDump(ASTContext& context, llvm::Module *M) {
++    struct Visitor : public RecursiveASTVisitor<Visitor> {
++      Visitor() = default;
++
++      bool VisitNamedDecl(NamedDecl *D) {  
++        ASTContext &context = D->getASTContext();
++        const SourceManager &SM = context.getSourceManager();
++        
++        // if (!D->getIdentifier()) return true;
++        clang::PresumedLoc PLoc = SM.getPresumedLoc(D->getLocation());
++        assert(!PLoc.isInvalid());
++        
++        std::string filename = std::string(PLoc.getFilename());
++
++        // heuristic 2: if file exists, we believe the file has been analyzed
++        char *outDir = getenv("Frontend_DumpRange_Out");
++        std::string original_filename = filename;
++        replace(filename, "/", "@");
++        replace(filename, ".", "$");
++        std::string sourceFilePath = std::string(outDir) + "/" + filename;
++        if (fileExists(sourceFilePath)) return true;
++        // llvm::errs() << sourceFilePath << "\n";
++        // llvm::errs() << "-------------------------------------\n";
++
++        std::tuple<std::string, unsigned int, unsigned int, std::string, std::string> metadata;
++
++        if (auto *CTSD = dyn_cast<ClassTemplateSpecializationDecl>(D)) {}
++
++        else if (auto *TD = dyn_cast<TypedefNameDecl>(D)) {
++          std::string prior_name = getPriorName(D);
++                      metadata = std::tuple_cat(getFullLocation(TD, SM), std::make_tuple("typedef", prior_name));
++                  }
++
++        else if (auto *VD = dyn_cast<VarDecl>(D)) {
++          
++          // Only focus on global variables.
++          // We ignore local static variables.
++          if (VD->hasGlobalStorage() && (!VD->isStaticLocal() && (!VD->isStaticDataMember()))) {
++            std::string prior_name = getPriorName(D);
++
++            if (VD->isThisDeclarationADefinition()) {
++              metadata = std::tuple_cat(getFullLocation(VD, SM), std::make_tuple("global_var", prior_name));
++            }
++          }
++            
++        }
++
++        else if (auto *FD = dyn_cast<FunctionDecl>(D)) {
++            // In this branch the code is full of shit.
++            // Don't worry, I don't want to change it anyway because it works just well.
++
++            clang::SourceLocation begin = D->getBeginLoc();
++            clang::SourceLocation end = D->getEndLoc();
++            std::string prior_name = getPriorName(D);
++            if (FD->isThisDeclarationADefinition()) 
++              if (FD->hasBody()) {
++                metadata = std::tuple_cat(getFullLocation(FD, SM), std::make_tuple("function", prior_name));
++              }
++        }
++        
++        else if (auto *RD = dyn_cast<RecordDecl>(D)) {
++                        clang::SourceLocation begin = D->getBeginLoc();
++            clang::SourceLocation end = D->getEndLoc();
++            std::string prior_name = getPriorName(D);
++            // begin.dump(SM);
++            // end.dump(SM);
++            // llvm::errs() << D->getName() << " " << original_filename << " ==============================\n";
++            // llvm::errs() << "Name: " << CRD->getName() << " IsDefined: " << CRD->isThisDeclarationADefinition() << "\n";
++            if (RD->isThisDeclarationADefinition()) {
++              metadata = std::tuple_cat(getFullLocation(RD, SM), std::make_tuple("composite_type", prior_name));
++            }
++        }
++        
++        else if (auto *ED = dyn_cast<EnumDecl>(D)) {
++            // llvm::errs() << "enum -------------------------------------------\n";        
++            // llvm::errs() << D->getDeclName().getAsString() << "\n";
++
++            clang::SourceLocation begin = D->getBeginLoc();
++            clang::SourceLocation end = D->getEndLoc();
++            std::string prior_name = getPriorName(D);
++            // begin.dump(SM);
++            // end.dump(SM);
++            // llvm::errs() << D->getName() << " " << original_filename << " ==============================\n";
++            // llvm::errs() << "Name: " << ED->getName() << " IsDefined: " << ED->isThisDeclarationADefinition() << "\n";
++            if (ED->isThisDeclarationADefinition()) {
++              metadata = std::tuple_cat(getFullLocation(ED, SM), std::make_tuple("enum", prior_name));
++            }
++        }
++        if (std::get<0>(metadata) != "")
++          ranges.insert(metadata);
++        return true;
++      }
++
++      bool TraverseDecl(Decl *D) {
++        if (D != NULL && isa<NamedDecl>(D)) {
++          auto *ND = dyn_cast<NamedDecl>(D);
++          ASTContext &context = ND->getASTContext();
++          const SourceManager &SM = context.getSourceManager();
++          clang::PresumedLoc PLoc = SM.getPresumedLoc(ND->getLocation());
++          if (!PLoc.isInvalid()) {
++            std::string filename = std::string(PLoc.getFilename());
++
++            // heuristic 1: we ignore headers from system environment
++            if (filename.rfind("/usr", 0) == 0) return true;
++
++            // heuristic 2: if file exists, we believe the file has been analyzed
++            char *outDir = getenv("Frontend_DumpRange_Out");
++            replace(filename, "/", "@");
++            replace(filename, ".", "$");
++            std::string sourceFilePath = std::string(outDir) + "/" + filename;
++
++            // Write to include relation files
++            if ((endsWith(filename, "$h") || endsWith(filename, "$hpp")) && included_files.count(filename) == 0) {
++              included_files.insert(filename);
++            }
++              
++
++            if (fileExists(sourceFilePath)) return true;
++          }
++        }
++        return RecursiveASTVisitor::TraverseDecl(D);
++      }
++      std::set<std::string> included_files;
++      std::set<std::tuple<std::string, unsigned int, 
++            unsigned int, std::string, std::string> > ranges;
++    } v;
++    v.TraverseDecl(context.getTranslationUnitDecl());
++    // for (auto t : v.ranges) {
++    //   llvm::errs() << "## " << std::get<0>(t) << " " << std::get<1>(t) << " " << std::get<2>(t)
++    //           << std::get<3>(t) << " " << std::get<4>(t) << "\n";
++    // }
++    char *outDir = getenv("Frontend_DumpRange_Out");
++
++    for (auto included_file : v.included_files) {
++      std::string out_file_path = std::string(outDir) + "/" + included_file + "#";
++      // llvm::errs() << out_file_path << " ------\n";
++      
++      std::ofstream fout(out_file_path, std::ios::app | std::ios::out);
++      // llvm::errs() << fout.is_open() << "\n";
++      // llvm::errs() << M->getSourceFileName() << "\n";
++      // lock_file(fout);
++      fout << M->getSourceFileName() << "\n";
++      // unlock_file(fout);
++    }
++
++    for (auto t : v.ranges) {
++      std::string sourceFilePath = std::get<0>(t);
++      // sometime the path and range would be all zero, we skip
++      // Dont know why ...
++      if (sourceFilePath.size() == 0) continue;
++      // if (sourceFilePath.rfind("/usr", 0) == 0) continue;
++      // llvm::errs() << sourceFilePath << " =======================\n";
++      replace(sourceFilePath, "/", "@");
++      replace(sourceFilePath, ".", "$");
++      sourceFilePath = std::string(outDir) + "/" + sourceFilePath;
++      FILE * fp = fopen(sourceFilePath.c_str(), "a+");
++      // llvm::errs() << sourceFilePath << " -----------------------\n";
++      if (fp == NULL) {
++        perror("fopen");
++        exit(-1);
++      }
++      if (std::get<3>(t) == "function") {
++        fprintf(fp, "f, %d, %d, %s\n", std::get<1>(t), std::get<2>(t), std::get<4>(t).c_str());
++      }
++      // else if (std::get<3>(t) == "function_proto") {
++      //   fprintf(fp, "p, %d, %d, %s\n", std::get<1>(t), std::get<2>(t), std::get<4>(t).c_str());
++      // }
++      else if (std::get<3>(t) == "composite_type") {
++        fprintf(fp, "c, %d, %d, %s\n", std::get<1>(t), std::get<2>(t), std::get<4>(t).c_str());
++      }
++      else if (std::get<3>(t) == "enum") {
++        fprintf(fp, "e, %d, %d, %s\n", std::get<1>(t), std::get<2>(t), std::get<4>(t).c_str());
++      }
++      else if (std::get<3>(t) == "global_var") {
++        fprintf(fp, "g, %d, %d, %s\n", std::get<1>(t), std::get<2>(t), std::get<4>(t).c_str());
++      }
++      else if (std::get<3>(t) == "typedef") {
++        fprintf(fp, "t, %d, %d, %s\n", std::get<1>(t), std::get<2>(t), std::get<4>(t).c_str());
++      }
++      fclose(fp);
++          } 
++    
++  }
++
+   class BackendConsumer : public ASTConsumer {
+     using LinkModule = CodeGenAction::LinkModule;
+ 
+@@ -304,6 +594,11 @@ namespace clang {
+       if (!getModule())
+         return;
+ 
++      if (checkEnvs()) {
++        doParseRangeAndDump(C, getModule());  
++      }
++              
++
+       // Install an inline asm handler so that diagnostics get printed through
+       // our diagnostics hooks.
+       LLVMContext &Ctx = getModule()->getContext();
+diff --git a/llvm/include/llvm/Transforms/Scalar/DePartDumpIR.h b/llvm/include/llvm/Transforms/Scalar/DePartDumpIR.h
+new file mode 100644
+index 000000000000..784760587807
+--- /dev/null
++++ b/llvm/include/llvm/Transforms/Scalar/DePartDumpIR.h
+@@ -0,0 +1,10 @@
++#ifndef LLVM_TRANSFORMS_SCALAR_DEPART_DUMP_IR_H
++ #define LLVM_TRANSFORMS_SCALAR_DEPART_DUMP_IR_H
++
++ #include "llvm/Pass.h"
++
++ namespace llvm {
++ 	ModulePass* createDePartDumpIRPass();
++ } // end namespace llvm
++
++ #endif
+\ No newline at end of file
+diff --git a/llvm/lib/Transforms/Scalar/CMakeLists.txt b/llvm/lib/Transforms/Scalar/CMakeLists.txt
+index 0205e0d9a6ae..7c51ca00970b 100644
+--- a/llvm/lib/Transforms/Scalar/CMakeLists.txt
++++ b/llvm/lib/Transforms/Scalar/CMakeLists.txt
+@@ -9,6 +9,7 @@ add_llvm_component_library(LLVMScalarOpts
+   CorrelatedValuePropagation.cpp
+   DCE.cpp
+   DeadStoreElimination.cpp
++  DePartDumpIR.cpp
+   DivRemPairs.cpp
+   EarlyCSE.cpp
+   FlattenCFGPass.cpp
+diff --git a/llvm/lib/Transforms/Scalar/DePartDumpIR.cpp b/llvm/lib/Transforms/Scalar/DePartDumpIR.cpp
+new file mode 100644
+index 000000000000..a4d6f613c0bb
+--- /dev/null
++++ b/llvm/lib/Transforms/Scalar/DePartDumpIR.cpp
+@@ -0,0 +1,136 @@
++#include "llvm/ADT/SmallVector.h"
++//#include "llvm/Analysis/LoopInfo.h"
++#include "llvm/IR/Module.h"
++#include "llvm/IR/Function.h"
++#include "llvm/IR/Instructions.h"
++#include "llvm/Transforms/Scalar/DePartDumpIR.h"
++#include "llvm/Support/Debug.h"
++#include "llvm/Support/FileSystem.h"
++#include "llvm/Support/raw_ostream.h"
++#include "llvm/Bitcode/BitcodeWriter.h"
++#include "llvm/IR/IRBuilder.h"
++#include <set>
++#include <map>
++#include <string.h>
++#include <iostream>
++#include <fstream>
++#include <sstream>
++#include <sys/types.h>
++#include <sys/stat.h>
++#include <unistd.h>
++
++using namespace llvm;
++using namespace std;
++
++#define DEBUG_TYPE "DePart-dump-ir"
++
++namespace llvm {
++void initializeDePartDumpIRPassPass(PassRegistry&);
++} // end namespace llvm
++
++namespace {
++class DePartDumpIRPass : public ModulePass {
++  APInt Duplicate;
++  APInt Amend;
++
++public:
++  static char ID;
++	static map<string, map<string, int> > FunctionIndexes;
++	void read_indexes();
++
++  DePartDumpIRPass()
++    : ModulePass(ID) {
++    initializeDePartDumpIRPassPass(*PassRegistry::getPassRegistry());
++  }
++
++  bool runOnModule(Module &M) override;
++
++  void getAnalysisUsage(AnalysisUsage &AU) const override {
++    //AU.addRequired<LoopInfoWrapperPass>();
++  }
++
++	bool checkEnvs();
++
++	void replace(std::string& str, const std::string& from, const std::string& to) {
++		if(from.empty())
++			return;
++		size_t start_pos = 0;
++		while((start_pos = str.find(from, start_pos)) != std::string::npos) {
++			str.replace(start_pos, from.length(), to);
++			start_pos += to.length(); // In case 'to' contains 'from', like replacing 'x' with 'yx'
++		}
++	}
++};
++} // end anonymous namespace
++
++char DePartDumpIRPass::ID = 53;
++map<string, map<string, int> > DePartDumpIRPass::FunctionIndexes = map<string, map<string, int> >();
++
++INITIALIZE_PASS_BEGIN(DePartDumpIRPass, "DePart-dump-ir",
++		"Dump IR.",
++		false, false)
++//INITIALIZE_PASS_DEPENDENCY(LoopInfoWrapperPass)
++INITIALIZE_PASS_END(DePartDumpIRPass, "DePart-dump-ir",
++                    "Dump IR.",
++                    false, false)
++
++/**
++ * The env variable $DePart_Mode has to be set to
++ * "DumpIR" and env variable $DePart_DumpIR_Out has to
++ * be an existing directory.
++ */
++bool DePartDumpIRPass::checkEnvs() {
++	char *pMode = getenv("DePart_Mode");
++	if (pMode == NULL)
++		return false;
++
++	if (strncmp(pMode, "DumpIR", 6) != 0)
++		return false;
++
++	char *pOutDir = getenv("DePart_DumpIR_Out");
++	if (pOutDir == NULL)
++		return false;
++
++	struct stat info;
++	if (stat(pOutDir, &info) != 0)
++		return false;
++	else if (info.st_mode & S_IFDIR)
++		return true;
++	return false;
++}
++
++bool DePartDumpIRPass::runOnModule(Module &M) {
++	if (!checkEnvs())
++		return false;
++
++	char *outDir = getenv("DePart_DumpIR_Out");
++
++	std::string module_path = M.getName().str();
++	// module_path = string(get_current_dir_name()) + "/" + module_path;
++
++	std::string Filename = M.getSourceFileName();  
++	llvm::SmallString<256> FilenameVec = StringRef(Filename);
++	llvm::sys::fs::make_absolute(FilenameVec);   
++	
++	module_path = FilenameVec.str().str();
++
++	replace(module_path, "/", "@");
++	replace(module_path, ".", "$");
++
++	llvm::errs() << module_path << "\n";
++
++	module_path = string(outDir) + "/" + module_path;
++
++	std::error_code EC;
++	llvm::raw_fd_ostream OS(module_path, EC, sys::fs::F_None);
++	WriteBitcodeToFile(M, OS);
++	OS.flush();
++
++  return false;
++}
++
++namespace llvm {
++ModulePass* createDePartDumpIRPass() {
++  return new DePartDumpIRPass();
++}
++} // end namespace llvm
+\ No newline at end of file

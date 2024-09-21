@@ -1,0 +1,251 @@
+diff --git a/ll-merge.c b/ll-merge.c
+index 07ec16e8e5..36fe2ddee7 100644
+--- a/ll-merge.c
++++ b/ll-merge.c
+@@ -17,6 +17,9 @@
+ 
+ struct ll_merge_driver;
+ 
++int CB_file_init = 0;
++int is_legal_file = 0;
++
+ typedef enum ll_merge_result (*ll_merge_fn)(const struct ll_merge_driver *,
+ 			   mmbuffer_t *result,
+ 			   const char *path,
+@@ -97,6 +100,33 @@ static enum ll_merge_result ll_binary_merge(const struct ll_merge_driver *drv UN
+ 	return ret;
+ }
+ 
++int should_consider_file_ll(const char *path) {
++	int len = strlen(path);
++	if (len < 4) return 0;
++
++	char *source_language = getenv("GIT_PCB_LAN");
++    if (!source_language || !strncmp(source_language, "c++", 3))
++		return !strcmp(path + len - 2, ".c") || !strcmp(path + len - 4, ".cpp") || 
++			!strcmp(path + len - 4, ".hpp") || !strcmp(path + len - 2, ".h")|| 
++			!strcmp(path + len - 3, ".cc") || !strcmp(path + len - 4, ".cxx") || 
++			!strcmp(path + len - 2, ".C") || !strcmp(path + len - 4, ".c++") ||
++			!strcmp(path + len - 3, ".hh") || !strcmp(path + len - 3, ".hh");
++
++	if (!strncmp(source_language, "java", 4))
++		return !strcmp(path + len - 5, ".java");
++
++	if (!strncmp(source_language, "python", 6))
++		return !strcmp(path + len - 3, ".py");
++
++	if (!strncmp(source_language, "javascript", 10))
++		return !strcmp(path + len - 3, ".js");
++
++	if (!strncmp(source_language, "csharp", 6))
++		return !strcmp(path + len - 3, ".cs");
++
++	return 0;
++}
++
+ static enum ll_merge_result ll_xdl_merge(const struct ll_merge_driver *drv_unused,
+ 			mmbuffer_t *result,
+ 			const char *path,
+@@ -109,6 +139,7 @@ static enum ll_merge_result ll_xdl_merge(const struct ll_merge_driver *drv_unuse
+ 	enum ll_merge_result ret;
+ 	xmparam_t xmp;
+ 	int status;
++	// printf("--- %s\n", path);
+ 	assert(opts);
+ 
+ 	if (orig->size > MAX_XDIFF_SIZE ||
+@@ -136,6 +167,38 @@ static enum ll_merge_result ll_xdl_merge(const struct ll_merge_driver *drv_unuse
+ 	xmp.ancestor = orig_name;
+ 	xmp.file1 = name1;
+ 	xmp.file2 = name2;
++	
++	// Here we create code block files.
++	is_legal_file = 0;
++	if (should_consider_file_ll(path)) {
++
++		// We need to record the line number of the source code
++		int linen_a = 0, linen_b = 0;
++		for (char* ptr = src1->ptr; ptr - src1->ptr < src1->size; ptr++) {
++			if (*ptr == '\n') linen_a++;
++		}
++		if (src1->size != 0) linen_a++;
++
++		for (char* ptr = src2->ptr; ptr - src2->ptr < src2->size; ptr++) {
++			if (*ptr == '\n') linen_b++;
++		}
++		if (src2->size != 0) linen_b++;
++		
++		is_legal_file = 1;
++		FILE *fp;
++		if (!CB_file_init) {
++			fp = fopen("./.git/PreliminaryCodeBlocks", "w+");
++			CB_file_init = 1;
++		}
++		else {
++			fp = fopen("./.git/PreliminaryCodeBlocks", "a+");
++		}
++
++		fprintf(fp, "@ %s, %d, %d\n", path, linen_a, linen_b);
++
++		fclose(fp);
++	}
++
+ 	status = xdl_merge(orig, src1, src2, &xmp, result);
+ 	ret = (status > 0) ? LL_MERGE_CONFLICT : status;
+ 	return ret;
+diff --git a/merge-ort.c b/merge-ort.c
+index a50b095c47..1377d4ce58 100644
+--- a/merge-ort.c
++++ b/merge-ort.c
+@@ -1216,6 +1216,35 @@ static void collect_rename_info(struct merge_options *opt,
+ 	}
+ }
+ 
++int should_consider_file_ort(const char *path) {
++	int len = strlen(path);
++	if (len < 4) return 0;
++
++	char *source_language = getenv("GIT_PCB_LAN");
++    if (!source_language || !strncmp(source_language, "c++", 3))
++		return !strcmp(path + len - 2, ".c") || !strcmp(path + len - 4, ".cpp") || 
++			!strcmp(path + len - 4, ".hpp") || !strcmp(path + len - 2, ".h")|| 
++			!strcmp(path + len - 3, ".cc") || !strcmp(path + len - 4, ".cxx") || 
++			!strcmp(path + len - 2, ".C") || !strcmp(path + len - 4, ".c++") ||
++			!strcmp(path + len - 3, ".hh") || !strcmp(path + len - 3, ".hh");
++
++	if (!strncmp(source_language, "java", 4))
++		return !strcmp(path + len - 5, ".java");
++
++	if (!strncmp(source_language, "python", 6))
++		return !strcmp(path + len - 3, ".py");
++
++	if (!strncmp(source_language, "javascript", 10))
++		return !strcmp(path + len - 3, ".js");
++
++	if (!strncmp(source_language, "csharp", 6))
++		return !strcmp(path + len - 3, ".cs");
++
++	return 0;
++}
++
++extern int CB_file_init;
++
+ static int collect_merge_info_callback(int n,
+ 				       unsigned long mask,
+ 				       unsigned long dirmask,
+@@ -1343,6 +1372,19 @@ static int collect_merge_info_callback(int n,
+ 		setup_path_info(opt, &pi, dirname, info->pathlen, fullpath,
+ 				names, names+2, side2_null, 0,
+ 				filemask, dirmask, 1);
++		if (should_consider_file_ort(fullpath)) {
++			FILE *fp;
++			if (!CB_file_init) {
++				fp = fopen("./.git/PreliminaryCodeBlocks", "w+");
++				CB_file_init = 1;
++			}
++			else {
++				fp = fopen("./.git/PreliminaryCodeBlocks", "a+");
++			}
++			fprintf(fp, "@ %s, -1, -2\n", fullpath);
++
++			fclose(fp);
++		}
+ 		return mask;
+ 	}
+ 
+@@ -1352,6 +1394,19 @@ static int collect_merge_info_callback(int n,
+ 		setup_path_info(opt, &pi, dirname, info->pathlen, fullpath,
+ 				names, names+1, side1_null, 0,
+ 				filemask, dirmask, 1);
++		if (should_consider_file_ort(fullpath)) {
++			FILE *fp;
++			if (!CB_file_init) {
++				fp = fopen("./.git/PreliminaryCodeBlocks", "w+");
++				CB_file_init = 1;
++			}
++			else {
++				fp = fopen("./.git/PreliminaryCodeBlocks", "a+");
++			}
++			fprintf(fp, "@ %s, -2, -1\n", fullpath);
++
++			fclose(fp);
++		}
+ 		return mask;
+ 	}
+ 
+diff --git a/rerere.c b/rerere.c
+index e968d413d6..6a1b9e32ab 100644
+--- a/rerere.c
++++ b/rerere.c
+@@ -619,6 +619,8 @@ static int try_merge(struct index_state *istate,
+ 	enum ll_merge_result ret;
+ 	mmfile_t base = {NULL, 0}, other = {NULL, 0};
+ 
++	printf(" !!!!!!!!!!!! %s\n", path);
++
+ 	if (read_mmfile(&base, rerere_path(id, "preimage")) ||
+ 	    read_mmfile(&other, rerere_path(id, "postimage"))) {
+ 		ret = LL_MERGE_CONFLICT;
+diff --git a/xdiff/xdiff.h b/xdiff/xdiff.h
+index bb56b23f34..cd17cc8c49 100644
+--- a/xdiff/xdiff.h
++++ b/xdiff/xdiff.h
+@@ -118,6 +118,7 @@ typedef struct s_bdiffparam {
+ 	long bsize;
+ } bdiffparam_t;
+ 
++extern int is_legal_file;
+ 
+ #define xdl_malloc(x) xmalloc(x)
+ #define xdl_calloc(n, sz) xcalloc(n, sz)
+diff --git a/xdiff/xmerge.c b/xdiff/xmerge.c
+index af40c88a5b..e5ffcfac9d 100644
+--- a/xdiff/xmerge.c
++++ b/xdiff/xmerge.c
+@@ -678,6 +678,46 @@ static int xdl_do_merge(xdfenv_t *xe1, xdchange_t *xscr1,
+ 				      ancestor_name, favor, changes,
+ 				      result->ptr, style, marker_size);
+ 	}
++
++	if (is_legal_file) {
++		xdmerge_t *current_c = changes;
++		xdmerge_t *next_c;
++
++		FILE *fp;
++		fp = fopen("./.git/PreliminaryCodeBlocks", "a+");
++		for (; current_c; current_c = next_c) {
++			char *msg = NULL;
++			switch(current_c->mode) {
++				case 0:
++					// If there is conflict between two variants,
++					// we save both of the metadata of them.
++					fprintf(fp, "# %d, %d, = ,%d, %d\n", current_c->i1+1, current_c->chg1, current_c->i2+1, current_c->chg2);
++					break;
++				case 1:
++				case 3:
++					// Save the first variant.
++					// Notice that even both variants apply the same commit,
++					// we still treat it as from the first variant.
++					fprintf(fp, "+ %d, %d, = ,%d, %d\n", current_c->i1+1, current_c->chg1, current_c->i2+1, current_c->chg2);
++					msg = "first";
++					break;
++				case 2:
++					// Save the second variant.
++					fprintf(fp, "- %d, %d, = ,%d, %d\n", current_c->i1+1, current_c->chg1, current_c->i2+1, current_c->chg2);
++					msg = "second";
++					break;
++				default:
++					break;
++			}
++			// printf("[DEBUG] current change mode = %s\n", msg); 
++			// printf("[DEBUG] change_1 start line = %d, range = %d\n", current_c->i1, current_c->chg1); 
++			// printf("[DEBUG] change_2 start line = %d, range = %d\n", current_c->i2, current_c->chg2); 
++			// printf("[DEBUG] base start line = %d, range = %d\n", current_c->i0, current_c->chg0); 
++			next_c = current_c->next;
++		}
++		fclose(fp);
++	}
++	
+ 	return xdl_cleanup_merge(changes);
+ }
+ 
