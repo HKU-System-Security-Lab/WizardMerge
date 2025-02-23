@@ -1,0 +1,253 @@
+@ storage/innobase/include/api0api.h, -2, -1
+@ storage/innobase/include/api0misc.h, -2, -1
+@ storage/innobase/include/arch0arch.h, -2, -1
+@ storage/innobase/include/arch0log.h, -2, -1
+@ storage/innobase/include/btr0btr.h, -2, -1
+@ storage/innobase/include/btr0cur.h, -2, -1
+@ storage/innobase/include/btr0pcur.h, -2, -1
+@ storage/innobase/include/btr0sea.h, -2, -1
+@ storage/innobase/include/btr0types.h, -2, -1
+@ storage/innobase/include/buf0buf.h, -2, -1
+@ storage/innobase/include/buf0checksum.h, -2, -1
+@ storage/innobase/include/buf0flu.h, -2, -1
+@ storage/innobase/include/buf0lru.h, -2, -1
+@ storage/innobase/include/buf0rea.h, -2, -1
+@ storage/innobase/include/buf0types.h, -2, -1
+@ storage/innobase/include/clone0clone.h, -2, -1
+@ storage/innobase/include/clone0desc.h, -2, -1
+@ storage/innobase/include/clone0repl.h, -2, -1
+@ storage/innobase/include/clone0snapshot.h, -2, -1
+@ storage/innobase/include/data0data.h, -2, -1
+@ storage/innobase/include/data0type.h, -2, -1
+@ storage/innobase/include/ddl0impl-cursor.h, -2, -1
+@ storage/innobase/include/dict0boot.h, -2, -1
+@ storage/innobase/include/dict0dd.h, -2, -1
+@ storage/innobase/include/dict0dict.h, -2, -1
+@ storage/innobase/include/dict0mem.h, -2, -1
+@ storage/innobase/include/dict0sdi.h, -2, -1
+@ storage/innobase/include/dict0stats.h, -2, -1
+@ storage/innobase/include/dict0stats_bg.h, -2, -1
+@ storage/innobase/include/dict0types.h, -2, -1
+@ storage/innobase/include/dict0upgrade.h, -2, -1
+@ storage/innobase/include/dyn0buf.h, -2, -1
+@ storage/innobase/include/dyn0types.h, -2, -1
+@ storage/innobase/include/eval0eval.h, -2, -1
+@ storage/innobase/include/fil0fil.h, -2, -1
+@ storage/innobase/include/fil0types.h, -2, -1
+@ storage/innobase/include/fsp0file.h, -2, -1
+@ storage/innobase/include/fsp0fsp.h, -2, -1
+@ storage/innobase/include/fsp0types.h, -2, -1
+@ storage/innobase/include/fts0ast.h, -2, -1
+@ storage/innobase/include/fts0fts.h, -2, -1
+@ storage/innobase/include/fts0opt.h, -2, -1
+@ storage/innobase/include/fts0plugin.h, -2, -1
+@ storage/innobase/include/fts0priv.h, -2, -1
+@ storage/innobase/include/fts0tokenize.h, -2, -1
+@ storage/innobase/include/fts0types.h, -2, -1
+@ storage/innobase/include/fut0lst.h, -2, -1
+@ storage/innobase/include/gis0geo.h, -2, -1
+@ storage/innobase/include/gis0rtree.h, -2, -1
+@ storage/innobase/include/gis0type.h, -2, -1
+@ storage/innobase/include/ha0ha.h, -2, -1
+@ storage/innobase/include/ha0storage.h, -2, -1
+@ storage/innobase/include/ha_prototypes.h, -2, -1
+@ storage/innobase/include/handler0alter.h, -2, -1
+@ storage/innobase/include/hash0hash.h, -2, -1
+@ storage/innobase/include/ibuf0ibuf.h, -2, -1
+@ storage/innobase/include/lob0first.h, -2, -1
+@ storage/innobase/include/lob0impl.h, -2, -1
+@ storage/innobase/include/lob0lob.h, -2, -1
+@ storage/innobase/include/lock0priv.h, -2, -1
+@ storage/innobase/include/log0recv.h, -2, -1
+@ storage/innobase/include/mach0data.h, -2, -1
+@ storage/innobase/include/mem0mem.h, -2, -1
+@ storage/innobase/include/mtr0log.h, -2, -1
+@ storage/innobase/include/mtr0mtr.h, -2, -1
+@ storage/innobase/include/mtr0types.h, -2, -1
+@ storage/innobase/include/os0event.h, -2, -1
+@ storage/innobase/include/os0file.h, -2, -1
+@ storage/innobase/include/os0once.h, -2, -1
+@ storage/innobase/include/page0cur.h, -2, -1
+@ storage/innobase/include/page0page.h, -2, -1
+@ storage/innobase/include/page0size.h, -2, -1
+@ storage/innobase/include/page0types.h, -2, -1
+@ storage/innobase/include/page0zip.h, -2, -1
+@ storage/innobase/include/pars0opt.h, -2, -1
+@ storage/innobase/include/pars0pars.h, -2, -1
+@ storage/innobase/include/pars0sym.h, -2, -1
+@ storage/innobase/include/que0que.h, -2, -1
+@ storage/innobase/include/rem0rec.h, -2, -1
+@ storage/innobase/include/rem0types.h, -2, -1
+@ storage/innobase/include/row0ext.h, -2, -1
+@ storage/innobase/include/row0ins.h, -2, -1
+@ storage/innobase/include/row0mysql.h, -2, -1
+@ storage/innobase/include/row0pread.h, -2, -1
+@ storage/innobase/include/row0quiesce.h, -2, -1
+@ storage/innobase/include/row0row.h, -2, -1
+@ storage/innobase/include/row0sel.h, -2, -1
+@ storage/innobase/include/row0upd.h, -2, -1
+@ storage/innobase/include/row0vers.h, -2, -1
+@ storage/innobase/include/srv0srv.h, -2, -1
+@ storage/innobase/include/srv0start.h, -2, -1
+@ storage/innobase/include/sync0arr.h, -2, -1
+@ storage/innobase/include/sync0arr_impl.h, -2, -1
+@ storage/innobase/include/sync0policy.h, -2, -1
+@ storage/innobase/include/sync0rw.h, -2, -1
+@ storage/innobase/include/sync0sharded_rw.h, -2, -1
+@ storage/innobase/include/trx0i_s.h, -2, -1
+@ storage/innobase/include/trx0purge.h, -2, -1
+@ storage/innobase/include/trx0rec.h, -2, -1
+@ storage/innobase/include/trx0roll.h, -2, -1
+@ storage/innobase/include/trx0rseg.h, -2, -1
+@ storage/innobase/include/trx0trx.h, -2, -1
+@ storage/innobase/include/trx0types.h, -2, -1
+@ storage/innobase/include/trx0undo.h, -2, -1
+@ storage/innobase/include/usr0sess.h, -2, -1
+@ storage/innobase/include/ut0byte.h, -2, -1
+@ storage/innobase/include/ut0counter.h, -2, -1
+@ storage/innobase/include/ut0list.h, -2, -1
+@ storage/innobase/include/ut0new.h, -2, -1
+@ storage/innobase/include/ut0pool.h, -2, -1
+@ storage/innobase/include/ut0rbt.h, -2, -1
+@ storage/innobase/include/ut0rnd.h, -2, -1
+@ storage/innobase/include/ut0ut.h, -2, -1
+@ storage/innobase/include/ut0vec.h, -2, -1
+@ storage/innobase/include/ut0wqueue.h, -2, -1
+@ storage/innobase/include/zlob0first.h, -2, -1
+@ storage/innobase/include/zlob0index.h, -2, -1
+@ storage/innobase/lock/lock0prdt.cc, -2, -1
+@ storage/innobase/lock/lock0wait.cc, -2, -1
+@ storage/innobase/row/row0ext.cc, -2, -1
+@ storage/innobase/row/row0import.cc, -2, -1
+@ storage/innobase/row/row0ins.cc, -2, -1
+@ storage/innobase/row/row0log.cc, -2, -1
+@ storage/innobase/row/row0mysql.cc, -2, -1
+@ storage/innobase/row/row0pread-histogram.cc, -2, -1
+@ storage/innobase/row/row0pread.cc, -2, -1
+@ storage/innobase/row/row0purge.cc, -2, -1
+@ storage/innobase/row/row0quiesce.cc, -2, -1
+@ storage/innobase/row/row0row.cc, -2, -1
+@ storage/innobase/row/row0sel.cc, -2, -1
+@ storage/innobase/row/row0uins.cc, -2, -1
+@ storage/innobase/row/row0umod.cc, -2, -1
+@ storage/innobase/row/row0undo.cc, -2, -1
+@ storage/innobase/row/row0upd.cc, -2, -1
+@ storage/innobase/trx/trx0i_s.cc, -2, -1
+@ storage/innobase/trx/trx0purge.cc, -2, -1
+@ storage/innobase/trx/trx0rec.cc, -2, -1
+@ storage/innobase/trx/trx0roll.cc, -2, -1
+@ storage/innobase/trx/trx0rseg.cc, -2, -1
+@ storage/innobase/trx/trx0undo.cc, -2, -1
+@ storage/innobase/trx/trx0trx.cc, 3513, 3509
++ 261, 2, = ,261, 1
++ 457, 2, = ,456, 1
++ 523, 1, = ,521, 1
++ 627, 1, = ,625, 1
+- 1056, 4, = ,1054, 0
++ 2436, 1, = ,2430, 1
++ 2501, 1, = ,2495, 1
++ 2565, 1, = ,2559, 1
++ 2573, 1, = ,2567, 1
++ 2589, 1, = ,2583, 1
++ 2598, 1, = ,2592, 1
++ 2603, 1, = ,2597, 1
++ 2657, 1, = ,2651, 1
++ 2671, 1, = ,2665, 1
++ 2675, 1, = ,2669, 1
++ 2834, 0, = ,2828, 2
++ 2838, 1, = ,2834, 1
++ 2841, 1, = ,2837, 1
++ 3022, 1, = ,3018, 1
++ 3493, 1, = ,3489, 1
+@ storage/innobase/trx/trx0sys.cc, 780, 778
++ 410, 1, = ,410, 1
++ 438, 1, = ,438, 1
+- 501, 2, = ,501, 0
+@ storage/innobase/row/row0vers.cc, 1474, 1472
++ 101, 1, = ,101, 1
++ 235, 1, = ,235, 1
++ 249, 1, = ,249, 1
++ 302, 0, = ,302, 1
++ 490, 1, = ,491, 1
+- 502, 4, = ,503, 1
++ 510, 1, = ,508, 1
++ 512, 1, = ,510, 1
++ 586, 2, = ,584, 2
++ 590, 1, = ,588, 1
++ 706, 1, = ,704, 1
++ 801, 1, = ,799, 1
++ 823, 1, = ,821, 1
++ 977, 1, = ,975, 1
++ 979, 4, = ,977, 4
++ 1013, 1, = ,1011, 1
++ 1026, 1, = ,1024, 1
++ 1068, 1, = ,1066, 1
++ 1077, 1, = ,1075, 1
++ 1097, 1, = ,1095, 1
++ 1132, 1, = ,1130, 1
++ 1149, 1, = ,1147, 1
++ 1166, 1, = ,1164, 1
++ 1224, 1, = ,1222, 1
++ 1289, 1, = ,1287, 1
++ 1440, 1, = ,1438, 1
+@ storage/innobase/lock/lock0lock.cc, 6424, 6474
+# 211, 12, = ,211, 2
+- 816, 0, = ,806, 66
+- 845, 1, = ,901, 1
++ 2040, 2, = ,2096, 1
++ 2555, 0, = ,2610, 1
++ 2566, 1, = ,2622, 1
++ 2588, 1, = ,2644, 1
++ 2659, 1, = ,2715, 1
++ 2751, 1, = ,2807, 1
++ 2837, 0, = ,2893, 1
++ 2842, 1, = ,2899, 1
++ 3750, 1, = ,3807, 1
++ 4190, 3, = ,4247, 2
++ 4199, 3, = ,4255, 3
++ 4302, 3, = ,4358, 3
++ 4421, 1, = ,4477, 1
++ 4729, 1, = ,4785, 1
++ 5138, 2, = ,5194, 2
++ 5201, 4, = ,5257, 4
++ 5218, 1, = ,5274, 1
+- 5547, 7, = ,5603, 1
+@ storage/innobase/include/trx0sys.h, 639, 668
+- 165, 7, = ,165, 0
++ 266, 1, = ,259, 1
++ 269, 1, = ,262, 1
++ 273, 9, = ,266, 21
++ 298, 1, = ,303, 1
++ 300, 1, = ,305, 1
++ 302, 1, = ,307, 3
++ 305, 9, = ,312, 12
++ 319, 1, = ,329, 2
++ 325, 15, = ,336, 32
++ 344, 1, = ,372, 1
++ 348, 1, = ,376, 1
++ 350, 1, = ,378, 1
+- 560, 3, = ,588, 0
++ 607, 0, = ,632, 3
++ 608, 1, = ,636, 4
++ 611, 6, = ,642, 4
++ 619, 4, = ,648, 2
++ 625, 3, = ,652, 4
++ 630, 3, = ,658, 4
+@ storage/innobase/include/lock0lock.h, 1068, 1092
++ 412, 4, = ,412, 4
++ 632, 1, = ,632, 1
++ 636, 3, = ,636, 3
++ 671, 1, = ,671, 1
+- 824, 8, = ,824, 0
+- 833, 0, = ,825, 13
++ 856, 2, = ,861, 3
++ 859, 8, = ,865, 8
++ 868, 3, = ,874, 5
++ 872, 24, = ,880, 32
++ 897, 6, = ,913, 10
++ 942, 1, = ,962, 1
++ 1006, 3, = ,1026, 2
++ 1012, 3, = ,1031, 5
++ 1016, 1, = ,1037, 4
++ 1048, 2, = ,1072, 2
++ 1056, 3, = ,1080, 3

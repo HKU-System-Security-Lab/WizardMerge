@@ -1,0 +1,77 @@
+@ arch/powerpc/kernel/iommu.c, -2, -1
+@ arch/powerpc/kernel/stacktrace.c, -1, -2
+@ drivers/iommu/exynos-iommu.c, -2, -1
+@ drivers/iommu/fsl_pamu_domain.c, -2, -1
+@ drivers/iommu/intel/iommu.h, -1, -2
+@ drivers/iommu/iommu.c, -2, -1
+@ drivers/iommu/iova.c, -2, -1
+@ drivers/iommu/ipmmu-vmsa.c, -2, -1
+@ drivers/iommu/msm_iommu.c, -2, -1
+@ drivers/iommu/mtk_iommu_v1.c, -2, -1
+@ drivers/iommu/omap-iommu.c, -2, -1
+@ drivers/iommu/omap-iommu.h, -2, -1
+@ drivers/iommu/rockchip-iommu.c, -2, -1
+@ drivers/iommu/s390-iommu.c, -2, -1
+@ drivers/iommu/sprd-iommu.c, -2, -1
+@ drivers/iommu/sun50i-iommu.c, -2, -1
+@ drivers/iommu/tegra-smmu.c, -2, -1
+@ include/linux/acpi.h, -1, -2
+@ include/linux/bpf.h, -1, -2
+@ include/linux/cgroup-defs.h, -1, -2
+@ include/linux/cpu.h, -1, -2
+@ include/linux/dma-fence.h, -1, -2
+@ include/linux/fs.h, -1, -2
+@ include/linux/fs_context.h, -1, -2
+@ include/linux/hugetlb.h, -1, -2
+@ include/linux/interrupt.h, -1, -2
+@ include/linux/iommu.h, -2, -1
+@ include/linux/libata.h, -1, -2
+@ include/linux/maple_tree.h, -1, -2
+@ include/linux/mcb.h, -1, -2
+@ include/linux/perf_event.h, -1, -2
+@ include/linux/pgtable.h, -1, -2
+@ include/linux/quota.h, -1, -2
+@ include/linux/quotaops.h, -1, -2
+@ include/linux/skbuff.h, -1, -2
+@ include/linux/swiotlb.h, -1, -2
+@ include/linux/virtio_net.h, -1, -2
+@ drivers/iommu/mtk_iommu.c, 1811, 1790
+- 265, 1, = ,265, 1
+- 646, 2, = ,646, 2
+- 680, 2, = ,680, 1
++ 692, 1, = ,691, 1
++ 696, 0, = ,695, 3
++ 777, 22, = ,779, 0
++ 1018, 2, = ,998, 1
+@ drivers/iommu/intel/iommu.c, 5126, 5111
+- 3001, 7, = ,3001, 0
+- 3027, 6, = ,3020, 0
+- 3064, 3, = ,3051, 0
++ 4032, 1, = ,4016, 0
++ 4035, 0, = ,4018, 1
++ 4044, 0, = ,4028, 2
++ 4077, 1, = ,4063, 1
++ 4805, 1, = ,4791, 0
+@ drivers/iommu/apple-dart.c, 1331, 1304
++ 199, 0, = ,199, 1
++ 219, 0, = ,220, 1
++ 569, 1, = ,571, 1
++ 572, 0, = ,574, 1
++ 577, 3, = ,580, 0
++ 600, 2, = ,600, 2
++ 607, 5, = ,607, 4
++ 655, 2, = ,654, 2
++ 663, 1, = ,662, 8
+# 667, 3, = ,673, 5
++ 671, 3, = ,679, 14
++ 676, 45, = ,695, 0
++ 746, 1, = ,720, 1
++ 750, 0, = ,724, 4
++ 756, 3, = ,734, 3
++ 760, 6, = ,738, 0
++ 801, 0, = ,773, 2
++ 942, 1, = ,916, 1
++ 976, 3, = ,950, 1
++ 988, 1, = ,960, 1
++ 1142, 0, = ,1114, 2
++ 1165, 2, = ,1139, 1

@@ -1,0 +1,45 @@
+@ ext/opcache/ZendAccelerator.c, -2, -1
+@ ext/opcache/ZendAccelerator.h, -2, -1
+@ ext/opcache/jit/zend_jit.c, -2, -1
+@ ext/opcache/jit/zend_jit.h, -2, -1
+@ ext/opcache/jit/zend_jit_disasm.c, -2, -1
+@ ext/opcache/jit/zend_jit_helpers.c, -2, -1
+@ ext/opcache/jit/zend_jit_internal.h, -2, -1
+@ ext/opcache/jit/zend_jit_perf_dump.c, -2, -1
+@ ext/opcache/shared_alloc_mmap.c, -2, -1
+@ ext/opcache/zend_accelerator_hash.h, -2, -1
+@ ext/opcache/zend_accelerator_module.c, -2, -1
+@ ext/opcache/zend_accelerator_util_funcs.c, -2, -1
+@ ext/opcache/zend_accelerator_util_funcs.h, -2, -1
+@ ext/opcache/zend_file_cache.c, -2, -1
+@ ext/opcache/zend_file_cache.h, -2, -1
+@ ext/opcache/zend_persist.c, -2, -1
+@ ext/opcache/zend_persist_calc.c, -2, -1
+@ ext/opcache/zend_shared_alloc.c, -2, -1
+@ ext/opcache/zend_shared_alloc.h, -2, -1
+@ ext/opcache/jit/zend_jit_trace.c, 8433, 8374
++ 319, 0, = ,319, 1
++ 574, 1, = ,575, 3
++ 1823, 2, = ,1826, 0
++ 1827, 13, = ,1828, 0
++ 1893, 0, = ,1881, 1
+- 4949, 7, = ,4938, 2
+- 4957, 0, = ,4941, 2
+- 5052, 5, = ,5038, 1
+- 5058, 0, = ,5040, 2
+- 5148, 5, = ,5132, 1
+- 5154, 0, = ,5134, 2
++ 5451, 0, = ,5433, 1
++ 5470, 1, = ,5453, 7
++ 6075, 1, = ,6064, 1
++ 6139, 1, = ,6128, 1
++ 6148, 0, = ,6137, 40
++ 6186, 11, = ,6215, 0
+- 6331, 1, = ,6349, 8
+# 6377, 1, = ,6402, 4
++ 6648, 3, = ,6676, 0
++ 6652, 21, = ,6677, 10
++ 7191, 72, = ,7205, 0
++ 7643, 1, = ,7585, 0
++ 8089, 1, = ,8030, 1
++ 8203, 1, = ,8144, 1

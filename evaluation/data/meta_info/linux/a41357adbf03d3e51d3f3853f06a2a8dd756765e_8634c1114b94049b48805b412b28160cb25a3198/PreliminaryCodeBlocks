@@ -1,0 +1,26 @@
+@ drivers/platform/x86/asus-nb-wmi.c, -2, -1
+@ drivers/platform/x86/asus-wmi.c, -2, -1
+@ drivers/platform/x86/asus-wmi.h, -2, -1
+@ drivers/platform/x86/sel3350-platform.c, -2, -1
+@ drivers/platform/x86/think-lmi.c, -2, -1
+@ drivers/platform/x86/think-lmi.h, -2, -1
+@ drivers/platform/x86/thinkpad_acpi.c, -2, -1
+@ drivers/platform/x86/mlx-platform.c, 6664, 6666
+- 371, 1, = ,371, 1
+- 387, 1, = ,387, 1
+- 412, 1, = ,412, 1
+- 6294, 1, = ,6294, 1
+- 6305, 1, = ,6305, 1
+- 6313, 1, = ,6313, 1
+- 6410, 1, = ,6410, 1
+- 6432, 1, = ,6432, 1
+- 6474, 1, = ,6474, 1
+- 6517, 0, = ,6517, 1
+- 6524, 0, = ,6525, 1
+- 6545, 1, = ,6547, 1
+- 6600, 1, = ,6602, 1
+- 6604, 1, = ,6606, 1
++ 6609, 1, = ,6611, 1
+- 6617, 1, = ,6619, 0
+# 6619, 1, = ,6620, 2
++ 6635, 1, = ,6637, 1

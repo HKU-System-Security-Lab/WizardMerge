@@ -1,0 +1,316 @@
+@ router/src/routing/src/classic_auth_caching_sha2_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_auth_native_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_auth_native_forwarder.h, -2, -1
+@ router/src/routing/src/classic_binlog_dump_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_binlog_dump_forwarder.h, -2, -1
+@ router/src/routing/src/classic_change_user_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_change_user_forwarder.h, -2, -1
+@ router/src/routing/src/classic_change_user_sender.cc, -2, -1
+@ router/src/routing/src/classic_change_user_sender.h, -2, -1
+@ router/src/routing/src/classic_clone_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_command.h, -1, -2
+@ router/src/routing/src/classic_connect.cc, -2, -1
+@ router/src/routing/src/classic_connect.h, -2, -1
+@ router/src/routing/src/classic_connection.cc, -2, -1
+@ router/src/routing/src/classic_connection_base.cc, -2, -1
+@ router/src/routing/src/classic_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_frame.cc, -2, -1
+@ router/src/routing/src/classic_frame.h, -2, -1
+@ router/src/routing/src/classic_greeting_forwarder.h, -2, -1
+@ router/src/routing/src/classic_greeting_receiver.cc, -2, -1
+@ router/src/routing/src/classic_greeting_receiver.h, -2, -1
+@ router/src/routing/src/classic_init_schema_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_init_schema_forwarder.h, -2, -1
+@ router/src/routing/src/classic_kill_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_kill_forwarder.h, -2, -1
+@ router/src/routing/src/classic_lazy_connect.cc, -2, -1
+@ router/src/routing/src/classic_lazy_connect.h, -2, -1
+@ router/src/routing/src/classic_list_fields_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_list_fields_forwarder.h, -2, -1
+@ router/src/routing/src/classic_ping_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_ping_forwarder.h, -2, -1
+@ router/src/routing/src/classic_query_forwarder.h, -2, -1
+@ router/src/routing/src/classic_register_replica_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_reload_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_reload_forwarder.h, -2, -1
+@ router/src/routing/src/classic_reset_connection_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_reset_connection_sender.cc, -2, -1
+@ router/src/routing/src/classic_reset_connection_sender.h, -2, -1
+@ router/src/routing/src/classic_set_option_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_set_option_forwarder.h, -2, -1
+@ router/src/routing/src/classic_statistics_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_statistics_forwarder.h, -2, -1
+@ router/src/routing/src/classic_stmt_execute_forwarder.h, -2, -1
+@ router/src/routing/src/classic_stmt_param_append_data_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_stmt_prepare_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_stmt_prepare_forwarder.h, -2, -1
+@ router/src/routing/src/connection.cc, -2, -1
+@ router/src/routing/src/connection.h, -2, -1
+@ router/src/routing/src/context.h, -2, -1
+@ router/src/routing/src/dest_metadata_cache.cc, -2, -1
+@ router/src/routing/src/dest_metadata_cache.h, -2, -1
+@ router/src/routing/src/destination_ssl_context.cc, -2, -1
+@ router/src/routing/src/destination_ssl_context.h, -2, -1
+@ router/src/routing/src/mysql_routing.cc, -2, -1
+@ router/src/routing/src/mysql_routing.h, -2, -1
+@ router/src/routing/src/mysql_routing_base.h, -2, -1
+@ router/src/routing/src/plugin_config.cc, -2, -1
+@ router/src/routing/src/processor.cc, -2, -1
+@ router/src/routing/src/processor.h, -2, -1
+@ router/src/routing/src/routing.cc, -2, -1
+@ router/src/routing/src/routing_component.cc, -2, -1
+@ router/src/routing/src/routing_config.h, -2, -1
+@ router/src/routing/src/routing_plugin.cc, -2, -1
+@ router/src/routing/src/show_warnings_parser.h, -2, -1
+@ router/src/routing/src/sql_lexer.cc, -2, -1
+@ router/src/routing/src/sql_lexer_error.h, -2, -1
+@ router/src/routing/src/sql_lexer_input_stream.h, -2, -1
+@ router/src/routing/src/sql_lexer_thd.h, -2, -1
+@ router/src/routing/src/sql_parser.h, -2, -1
+@ router/src/routing/src/stmt_classifier.h, -2, -1
+@ router/src/routing/src/x_connection.cc, -2, -1
+@ router/src/routing/src/x_connection.h, -2, -1
+@ router/tests/integration/test_routing_reuse.cc, -2, -1
+@ router/tests/integration/test_routing_sharing.cc, -2, -1
+@ router/tests/integration/test_routing_sharing_constrained_pools.cc, -2, -1
+@ router/tests/integration/test_routing_sharing_restart.cc, -2, -1
+@ router/tests/integration/test_routing_direct.cc, 4075, 4202
+- 50, 0, = ,50, 1
+- 66, 0, = ,67, 1
+- 341, 0, = ,343, 42
++ 413, 2, = ,457, 1
++ 540, 1, = ,583, 0
++ 754, 2, = ,796, 1
++ 1242, 41, = ,1283, 0
++ 2218, 1, = ,2218, 0
++ 2224, 1, = ,2223, 0
++ 2230, 2, = ,2228, 1
++ 2241, 2, = ,2238, 1
++ 2358, 1, = ,2354, 1
++ 2366, 1, = ,2362, 1
++ 2372, 1, = ,2368, 1
++ 2378, 1, = ,2374, 1
++ 2384, 1, = ,2380, 1
++ 2389, 1, = ,2385, 1
++ 2422, 1, = ,2418, 1
++ 2732, 1, = ,2728, 1
++ 3548, 69, = ,3544, 0
+- 3623, 0, = ,3550, 200
+@ router/src/routing/src/forwarding_processor.h, 171, 129
++ 28, 3, = ,28, 0
++ 40, 6, = ,37, 0
++ 75, 32, = ,66, 0
++ 120, 2, = ,79, 1
++ 130, 2, = ,88, 1
+- 134, 0, = ,91, 7
++ 157, 6, = ,121, 0
+@ router/src/routing/src/forwarding_processor.cc, 216, 182
+# 29, 2, = ,29, 1
+# 36, 1, = ,35, 1
++ 95, 4, = ,94, 0
++ 110, 5, = ,105, 0
++ 124, 1, = ,114, 1
++ 126, 2, = ,116, 1
++ 129, 2, = ,118, 1
++ 136, 1, = ,124, 1
++ 141, 2, = ,129, 1
+- 148, 0, = ,135, 28
++ 167, 49, = ,182, 0
+@ router/src/routing/src/classic_stmt_execute_forwarder.cc, 503, 330
++ 40, 4, = ,40, 0
++ 117, 8, = ,113, 0
++ 152, 3, = ,140, 0
++ 157, 27, = ,142, 2
++ 187, 76, = ,147, 0
++ 268, 2, = ,152, 2
+- 273, 1, = ,157, 3
++ 298, 2, = ,184, 2
++ 323, 1, = ,209, 1
++ 326, 1, = ,212, 8
++ 340, 1, = ,233, 1
++ 378, 1, = ,271, 0
++ 395, 1, = ,287, 2
++ 398, 4, = ,291, 0
++ 404, 16, = ,293, 0
++ 427, 1, = ,300, 0
++ 435, 2, = ,307, 0
++ 441, 0, = ,311, 2
++ 443, 10, = ,315, 0
++ 455, 14, = ,317, 0
++ 474, 11, = ,322, 0
++ 489, 10, = ,326, 0
+@ router/src/routing/src/classic_query_forwarder.cc, 3181, 1044
++ 28, 1, = ,28, 0
++ 31, 2, = ,30, 0
++ 36, 7, = ,33, 0
++ 46, 5, = ,36, 0
++ 52, 3, = ,37, 0
+# 56, 2, = ,38, 0
++ 59, 4, = ,39, 0
++ 64, 4, = ,40, 0
++ 75, 3, = ,47, 0
++ 81, 5, = ,50, 33
++ 87, 32, = ,84, 1
++ 122, 1, = ,88, 1
++ 149, 24, = ,115, 31
++ 175, 64, = ,148, 1
++ 259, 3, = ,169, 2
++ 274, 2, = ,183, 0
++ 284, 16, = ,191, 0
++ 334, 16, = ,225, 0
++ 368, 1, = ,243, 0
++ 372, 0, = ,246, 1
++ 390, 4, = ,265, 0
++ 404, 10, = ,275, 0
++ 416, 1, = ,277, 0
++ 453, 6, = ,313, 0
++ 466, 1, = ,320, 0
++ 470, 9, = ,323, 0
++ 480, 3, = ,324, 2
++ 487, 3, = ,330, 2
++ 501, 1, = ,343, 1
++ 511, 3, = ,353, 3
++ 516, 1, = ,358, 1
++ 518, 2, = ,360, 2
++ 533, 14, = ,375, 0
++ 554, 0, = ,382, 5
++ 564, 97, = ,397, 0
++ 680, 10, = ,416, 0
++ 693, 1, = ,419, 1
++ 724, 2, = ,450, 2
++ 749, 1, = ,475, 1
++ 761, 1, = ,487, 1
++ 820, 499, = ,546, 2
++ 1330, 1, = ,559, 1
++ 1334, 400, = ,563, 0
++ 1736, 2, = ,565, 2
++ 1739, 7, = ,568, 1
++ 1749, 7, = ,572, 1
++ 1757, 11, = ,574, 3
++ 1770, 2, = ,579, 13
++ 1773, 3, = ,593, 1
++ 1777, 45, = ,595, 0
++ 1828, 4, = ,601, 2
++ 1833, 4, = ,604, 1
++ 1838, 8, = ,606, 0
++ 1852, 11, = ,612, 0
++ 1864, 1, = ,613, 1
++ 1867, 7, = ,616, 5
++ 1878, 11, = ,625, 0
++ 1891, 113, = ,627, 1
++ 2006, 530, = ,630, 2
++ 2584, 74, = ,680, 0
++ 2661, 0, = ,683, 1
++ 2662, 3, = ,685, 2
++ 2666, 2, = ,688, 0
++ 2676, 1, = ,696, 1
++ 2698, 3, = ,718, 0
++ 2708, 108, = ,725, 0
++ 2817, 2, = ,726, 1
+- 2823, 2, = ,731, 2
+- 2828, 1, = ,736, 3
++ 2898, 3, = ,808, 0
++ 2922, 2, = ,829, 54
++ 2925, 4, = ,884, 0
++ 2982, 1, = ,937, 0
++ 3011, 12, = ,965, 0
++ 3024, 0, = ,966, 11
++ 3025, 32, = ,978, 0
++ 3063, 1, = ,984, 0
++ 3095, 0, = ,1015, 8
++ 3096, 1, = ,1024, 2
++ 3098, 33, = ,1027, 0
++ 3134, 11, = ,1030, 0
++ 3149, 8, = ,1034, 0
++ 3167, 14, = ,1044, 0
+@ router/src/routing/src/classic_greeting_forwarder.cc, 2124, 2017
+- 29, 0, = ,29, 1
++ 33, 1, = ,34, 0
+- 37, 0, = ,37, 1
++ 58, 3, = ,59, 0
++ 112, 6, = ,110, 3
++ 122, 19, = ,117, 22
++ 337, 2, = ,335, 0
++ 353, 2, = ,349, 0
++ 377, 7, = ,371, 0
++ 407, 0, = ,394, 4
++ 421, 11, = ,412, 0
++ 533, 5, = ,513, 1
++ 539, 1, = ,515, 0
++ 609, 2, = ,584, 0
++ 665, 6, = ,638, 0
++ 717, 3, = ,684, 0
++ 871, 1, = ,835, 1
++ 874, 3, = ,838, 3
++ 885, 4, = ,849, 3
++ 894, 5, = ,857, 1
++ 901, 3, = ,860, 1
++ 909, 9, = ,866, 0
++ 1007, 3, = ,955, 0
++ 1017, 8, = ,962, 0
++ 1076, 4, = ,1013, 0
++ 1122, 2, = ,1055, 0
++ 1195, 2, = ,1126, 0
++ 1204, 7, = ,1133, 0
++ 1252, 2, = ,1174, 0
++ 1287, 1, = ,1207, 1
++ 1325, 2, = ,1245, 1
++ 1344, 17, = ,1263, 0
++ 1364, 0, = ,1266, 2
+- 1709, 9, = ,1613, 0
+- 1747, 0, = ,1642, 17
+- 1749, 1, = ,1661, 3
+- 1751, 2, = ,1665, 5
+- 1754, 8, = ,1671, 1
+- 1763, 2, = ,1673, 10
+- 1766, 2, = ,1684, 1
+- 1769, 3, = ,1686, 4
+- 1773, 1, = ,1691, 3
+- 1775, 2, = ,1695, 2
+- 1778, 11, = ,1698, 1
+- 1807, 1, = ,1717, 1
++ 1815, 4, = ,1725, 3
++ 1824, 5, = ,1733, 1
++ 1831, 3, = ,1736, 1
++ 1837, 6, = ,1740, 0
++ 1925, 3, = ,1822, 0
++ 2081, 2, = ,1975, 1
+@ router/src/routing/src/classic_connection_base.h, 711, 572
++ 28, 1, = ,28, 0
++ 34, 1, = ,33, 0
++ 48, 1, = ,46, 0
++ 181, 36, = ,178, 0
++ 242, 11, = ,203, 0
++ 280, 3, = ,230, 2
++ 321, 4, = ,270, 0
+- 393, 1, = ,338, 1
+- 396, 1, = ,341, 1
++ 407, 5, = ,352, 0
++ 479, 5, = ,419, 1
++ 485, 15, = ,421, 1
++ 537, 5, = ,459, 0
++ 572, 22, = ,489, 0
++ 605, 10, = ,500, 0
++ 621, 2, = ,506, 1
++ 665, 3, = ,549, 0
++ 688, 20, = ,569, 0
+@ router/src/routing/src/classic_command.cc, 623, 570
+- 31, 0, = ,31, 1
++ 35, 1, = ,36, 0
+- 58, 0, = ,58, 1
+- 74, 4, = ,75, 0
+- 320, 1, = ,317, 4
+- 322, 6, = ,322, 3
+- 329, 1, = ,326, 2
+- 331, 1, = ,329, 3
+- 333, 9, = ,333, 1
+- 343, 1, = ,335, 3
+- 345, 2, = ,339, 8
+- 348, 34, = ,348, 0
+- 386, 2, = ,352, 2
+- 473, 0, = ,439, 5
+- 475, 4, = ,446, 1
++ 482, 6, = ,450, 0
++ 508, 1, = ,470, 0
++ 534, 12, = ,495, 0
++ 564, 2, = ,513, 0

@@ -1,0 +1,72 @@
+@ storage/innobase/clone/clone0api.cc, -2, -1
+@ storage/innobase/clone/clone0clone.cc, -2, -1
+@ storage/innobase/clone/clone0copy.cc, -2, -1
+@ storage/innobase/clone/clone0desc.cc, -2, -1
+@ storage/innobase/clone/clone0snapshot.cc, -2, -1
+@ storage/innobase/include/arch0arch.h, -2, -1
+@ storage/innobase/include/arch0log.h, -2, -1
+@ storage/innobase/include/buf0buf.h, -2, -1
+@ storage/innobase/include/buf0dblwr.h, -2, -1
+@ storage/innobase/include/buf0flu.h, -2, -1
+@ storage/innobase/include/clone0clone.h, -1, -2
+@ storage/innobase/include/clone0desc.h, -2, -1
+@ storage/innobase/include/clone0snapshot.h, -2, -1
+@ storage/innobase/include/dict0dict.h, -2, -1
+@ storage/innobase/include/fil0fil.h, -2, -1
+@ storage/innobase/include/fsp0file.h, -2, -1
+@ storage/innobase/include/fsp0sysspace.h, -2, -1
+@ storage/innobase/include/lob0impl.h, -2, -1
+@ storage/innobase/include/log0log.h, -2, -1
+@ storage/innobase/include/log0recv.h, -2, -1
+@ storage/innobase/include/log0test.h, -2, -1
+@ storage/innobase/include/log0types.h, -2, -1
+@ storage/innobase/include/mtr0mtr.h, -2, -1
+@ storage/innobase/include/os0enc.h, -2, -1
+@ storage/innobase/include/os0file.h, -2, -1
+@ storage/innobase/include/os0thread-create.h, -2, -1
+@ storage/innobase/include/srv0srv.h, -2, -1
+@ storage/innobase/include/srv0start.h, -2, -1
+@ storage/innobase/include/sync0sync.h, -2, -1
+@ storage/innobase/include/sync0types.h, -2, -1
+@ storage/innobase/include/trx0purge.h, -2, -1
+@ storage/innobase/include/trx0trx.h, -2, -1
+@ storage/innobase/include/ut0cpu_cache.h, -2, -1
+@ storage/innobase/include/ut0dbg.h, -2, -1
+@ storage/innobase/include/ut0link_buf.h, -2, -1
+@ storage/innobase/include/ut0mutex.h, -2, -1
+@ storage/innobase/include/ut0new.h, -2, -1
+@ storage/innobase/clone/clone0apply.cc, 1774, 1780
++ 39, 1, = ,39, 1
++ 103, 1, = ,103, 0
++ 109, 1, = ,108, 1
++ 217, 1, = ,216, 0
++ 258, 7, = ,256, 1
++ 292, 10, = ,284, 2
++ 316, 2, = ,300, 1
++ 361, 0, = ,344, 2
++ 362, 21, = ,347, 6
++ 386, 1, = ,356, 3
++ 390, 3, = ,362, 3
++ 487, 1, = ,459, 0
++ 490, 1, = ,461, 1
++ 840, 5, = ,811, 3
++ 1042, 1, = ,1011, 1
++ 1090, 1, = ,1059, 2
++ 1240, 0, = ,1210, 20
+- 1244, 3, = ,1234, 24
+- 1248, 0, = ,1259, 2
+- 1249, 1, = ,1262, 5
+- 1251, 6, = ,1268, 3
+- 1258, 2, = ,1272, 1
+- 1261, 7, = ,1274, 2
+- 1269, 4, = ,1277, 32
+- 1275, 0, = ,1311, 1
+- 1279, 0, = ,1316, 1
+- 1281, 1, = ,1319, 1
++ 1291, 1, = ,1329, 3
+- 1317, 0, = ,1357, 6
+- 1322, 1, = ,1368, 1
+# 1334, 42, = ,1380, 1
+- 1423, 1, = ,1428, 2
++ 1480, 1, = ,1486, 1
++ 1659, 1, = ,1665, 1

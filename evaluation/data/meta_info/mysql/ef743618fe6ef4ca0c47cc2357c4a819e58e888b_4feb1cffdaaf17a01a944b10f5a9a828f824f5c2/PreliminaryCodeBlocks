@@ -1,0 +1,76 @@
+@ router/src/routing/src/connection_container.cc, -2, -1
+@ router/src/routing/src/context.cc, -2, -1
+@ router/src/routing/src/context.h, -2, -1
+@ router/src/routing/src/dest_metadata_cache.cc, -2, -1
+@ router/src/routing/src/dest_metadata_cache.h, -2, -1
+@ router/src/routing/src/dest_next_available.cc, -2, -1
+@ router/src/routing/src/dest_next_available.h, -2, -1
+@ router/src/routing/src/dest_round_robin.cc, -2, -1
+@ router/src/routing/src/dest_round_robin.h, -2, -1
+@ router/src/routing/src/destination.cc, -2, -1
+@ router/src/routing/src/destination.h, -2, -1
+@ router/src/routing/src/destination_ssl_context.h, -2, -1
+@ router/src/routing/src/mysql_routing_base.h, -2, -1
+@ router/src/routing/src/plugin_config.cc, -2, -1
+@ router/src/routing/src/plugin_config.h, -2, -1
+@ router/src/routing/src/routing.cc, -2, -1
+@ router/src/routing/src/routing_component.cc, -2, -1
+@ router/src/routing/src/routing_plugin.cc, -2, -1
+@ router/src/routing/src/mysql_routing.h, 389, 390
++ 28, 3, = ,28, 0
++ 74, 1, = ,71, 0
++ 120, 1, = ,116, 1
++ 138, 0, = ,134, 1
++ 157, 0, = ,154, 1
++ 261, 1, = ,259, 1
++ 270, 0, = ,268, 1
++ 275, 1, = ,274, 2
++ 277, 1, = ,277, 0
++ 313, 2, = ,312, 0
++ 365, 1, = ,362, 1
+- 367, 0, = ,364, 4
++ 385, 1, = ,386, 1
+@ router/src/routing/src/mysql_routing.cc, 1683, 1652
++ 44, 0, = ,44, 1
++ 51, 1, = ,52, 0
++ 65, 1, = ,65, 0
++ 76, 1, = ,75, 0
++ 117, 3, = ,115, 3
++ 123, 2, = ,121, 2
++ 155, 2, = ,153, 3
+- 353, 1, = ,352, 2
+- 363, 1, = ,363, 4
+- 377, 0, = ,380, 4
+- 646, 0, = ,653, 4
++ 660, 8, = ,671, 0
++ 674, 16, = ,677, 1
++ 701, 3, = ,689, 0
++ 705, 1, = ,690, 0
++ 716, 11, = ,700, 1
+- 807, 0, = ,781, 1
++ 826, 1, = ,801, 2
+- 831, 1, = ,807, 2
++ 833, 0, = ,810, 1
+- 840, 0, = ,818, 1
++ 874, 1, = ,853, 1
+- 1057, 1, = ,1036, 1
++ 1090, 0, = ,1069, 1
+- 1101, 0, = ,1081, 2
++ 1143, 1, = ,1125, 1
++ 1145, 11, = ,1127, 1
++ 1159, 1, = ,1131, 2
++ 1166, 1, = ,1139, 1
++ 1200, 1, = ,1173, 1
++ 1204, 1, = ,1177, 1
++ 1222, 2, = ,1195, 0
++ 1228, 2, = ,1199, 1
++ 1231, 1, = ,1201, 1
+- 1252, 0, = ,1222, 3
++ 1267, 3, = ,1240, 3
+# 1297, 4, = ,1270, 4
+# 1308, 3, = ,1281, 4
++ 1318, 6, = ,1292, 0
++ 1568, 1, = ,1536, 1
++ 1575, 1, = ,1543, 2
++ 1597, 2, = ,1566, 3
++ 1602, 1, = ,1572, 0

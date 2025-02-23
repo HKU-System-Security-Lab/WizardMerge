@@ -1,0 +1,586 @@
+@ client/client_priv.h, -2, -1
+@ client/client_query_attributes.cc, -2, -1
+@ client/client_query_attributes.h, -2, -1
+@ client/multi_factor_passwordopt-vars.cc, -2, -1
+@ client/mysql.cc, -2, -1
+@ client/mysql_config_editor.cc, -2, -1
+@ client/mysql_secure_installation.cc, -2, -1
+@ client/mysql_ssl_rsa_setup.cc, -2, -1
+@ client/mysqladmin.cc, -2, -1
+@ client/mysqldump.cc, -2, -1
+@ client/mysqlimport.cc, -2, -1
+@ client/mysqlshow.cc, -2, -1
+@ client/mysqlslap.cc, -2, -1
+@ client/mysqltest.cc, -2, -1
+@ client/pattern_matcher.cc, -2, -1
+@ client/pattern_matcher.h, -2, -1
+@ libbinlogevents/include/binlog_event.h, -1, -2
+@ libbinlogevents/include/compression/base.h, -1, -2
+@ libbinlogevents/include/compression/decompressor.h, -1, -2
+@ libbinlogevents/include/compression/factory.h, -1, -2
+@ libbinlogevents/include/compression/none_comp.h, -1, -2
+@ libbinlogevents/include/compression/none_dec.h, -1, -2
+@ libbinlogevents/include/compression/zstd_comp.h, -1, -2
+@ libbinlogevents/include/compression/zstd_dec.h, -1, -2
+@ libbinlogevents/include/control_events.h, -1, -2
+@ libbinlogevents/include/rows_event.h, -2, -1
+@ libbinlogevents/src/control_events.cpp, -1, -2
+@ libbinlogevents/src/trx_boundary_parser.cpp, -2, -1
+@ sql/auto_thd.cc, -2, -1
+@ sql/basic_istream.cc, -2, -1
+@ sql/basic_istream.h, -2, -1
+@ sql/basic_ostream.cc, -1, -2
+@ sql/binlog.h, -2, -1
+@ sql/binlog_istream.h, -1, -2
+@ sql/binlog_ostream.h, -1, -2
+@ sql/binlog_reader.cc, -1, -2
+@ sql/binlog_reader.h, -1, -2
+@ sql/bootstrap.cc, -2, -1
+@ sql/command_service.cc, -2, -1
+@ sql/create_field.cc, -2, -1
+@ sql/create_field.h, -2, -1
+@ sql/dd_sp.cc, -2, -1
+@ sql/dd_sql_view.cc, -2, -1
+@ sql/dd_table_share.cc, -2, -1
+@ sql/dd_table_share.h, -2, -1
+@ sql/debug_sync.cc, -2, -1
+@ sql/debug_sync.h, -2, -1
+@ sql/default_values.cc, -2, -1
+@ sql/derror.cc, -2, -1
+@ sql/dynamic_ids.cc, -2, -1
+@ sql/event_data_objects.cc, -2, -1
+@ sql/event_parse_data.cc, -2, -1
+@ sql/event_queue.cc, -2, -1
+@ sql/event_scheduler.cc, -2, -1
+@ sql/events.cc, -2, -1
+@ sql/field.cc, -2, -1
+@ sql/field.h, -2, -1
+@ sql/field_conv.cc, -2, -1
+@ sql/filesort.cc, -2, -1
+@ sql/gstream.cc, -2, -1
+@ sql/gstream.h, -2, -1
+@ sql/handler.cc, -2, -1
+@ sql/handler.h, -2, -1
+@ sql/hostname_cache.cc, -2, -1
+@ sql/item.cc, -2, -1
+@ sql/item.h, -2, -1
+@ sql/item_cmpfunc.cc, -2, -1
+@ sql/item_create.cc, -2, -1
+@ sql/item_func.cc, -2, -1
+@ sql/item_func.h, -2, -1
+@ sql/item_geofunc.cc, -2, -1
+@ sql/item_geofunc_buffer.cc, -2, -1
+@ sql/item_geofunc_internal.cc, -2, -1
+@ sql/item_inetfunc.cc, -2, -1
+@ sql/item_inetfunc.h, -2, -1
+@ sql/item_json_func.cc, -2, -1
+@ sql/item_json_func.h, -2, -1
+@ sql/item_pfs_func.cc, -2, -1
+@ sql/item_regexp_func.cc, -2, -1
+@ sql/item_regexp_func.h, -2, -1
+@ sql/item_strfunc.cc, -2, -1
+@ sql/item_strfunc.h, -2, -1
+@ sql/item_subselect.cc, -2, -1
+@ sql/item_sum.cc, -2, -1
+@ sql/item_sum.h, -2, -1
+@ sql/item_timefunc.cc, -2, -1
+@ sql/item_timefunc.h, -2, -1
+@ sql/item_xmlfunc.cc, -2, -1
+@ sql/json_diff.cc, -2, -1
+@ sql/key.cc, -2, -1
+@ sql/key_spec.cc, -2, -1
+@ sql/key_spec.h, -2, -1
+@ sql/keycaches.cc, -2, -1
+@ sql/lex.h, -2, -1
+@ sql/lock.cc, -2, -1
+@ sql/locked_tables_list.cc, -2, -1
+@ sql/log.cc, -2, -1
+@ sql/log.h, -2, -1
+@ sql/mdl.cc, -2, -1
+@ sql/mdl.h, -2, -1
+@ sql/my_decimal.cc, -2, -1
+@ sql/my_decimal.h, -2, -1
+@ sql/mysql_tzinfo_to_sql.cc, -2, -1
+@ sql/mysqld.cc, -2, -1
+@ sql/mysqld.h, -2, -1
+@ sql/named_pipe.cc, -2, -1
+@ sql/opt_costconstantcache.cc, -2, -1
+@ sql/opt_costconstants.cc, -2, -1
+@ sql/opt_explain.cc, -2, -1
+@ sql/opt_explain.h, -2, -1
+@ sql/opt_explain_format.cc, -2, -1
+@ sql/opt_explain_format.h, -2, -1
+@ sql/opt_explain_json.cc, -2, -1
+@ sql/opt_explain_json.h, -2, -1
+@ sql/opt_explain_traditional.cc, -2, -1
+@ sql/opt_hints.cc, -2, -1
+@ sql/opt_hints.h, -2, -1
+@ sql/opt_trace.cc, -2, -1
+@ sql/opt_trace2server.cc, -2, -1
+@ sql/opt_trace_context.h, -2, -1
+@ sql/parse_file.cc, -2, -1
+@ sql/parse_tree_column_attrs.h, -2, -1
+@ sql/parse_tree_helpers.cc, -2, -1
+@ sql/parse_tree_helpers.h, -2, -1
+@ sql/parse_tree_hints.cc, -2, -1
+@ sql/parse_tree_items.cc, -2, -1
+@ sql/parse_tree_items.h, -2, -1
+@ sql/parse_tree_nodes.cc, -2, -1
+@ sql/parse_tree_nodes.h, -2, -1
+@ sql/parse_tree_partitions.cc, -2, -1
+@ sql/parser_service.cc, -2, -1
+@ sql/partition_info.cc, -2, -1
+@ sql/persisted_variable.cc, -2, -1
+@ sql/protocol.h, -2, -1
+@ sql/protocol_callback.cc, -2, -1
+@ sql/protocol_callback.h, -2, -1
+@ sql/protocol_classic.cc, -2, -1
+@ sql/protocol_classic.h, -2, -1
+@ sql/query_result.cc, -2, -1
+@ sql/query_result.h, -2, -1
+@ sql/replication.h, -2, -1
+@ sql/rpl_applier_reader.cc, -2, -1
+@ sql/rpl_async_conn_failover.cc, -2, -1
+@ sql/rpl_async_conn_failover_add_managed_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_add_source_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_delete_managed_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_delete_source_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_table_operations.h, -2, -1
+@ sql/rpl_binlog_sender.h, -1, -2
+@ sql/rpl_channel_service_interface.cc, -2, -1
+@ sql/rpl_context.cc, -1, -2
+@ sql/rpl_context.h, -1, -2
+@ sql/rpl_filter.cc, -2, -1
+@ sql/rpl_gtid.h, -2, -1
+@ sql/rpl_gtid_misc.cc, -2, -1
+@ sql/rpl_gtid_mode.cc, -2, -1
+@ sql/rpl_gtid_persist.cc, -2, -1
+@ sql/rpl_gtid_set.cc, -2, -1
+@ sql/rpl_gtid_specification.cc, -2, -1
+@ sql/rpl_handler.cc, -2, -1
+@ sql/rpl_info.cc, -2, -1
+@ sql/rpl_info_factory.cc, -2, -1
+@ sql/rpl_info_file.cc, -2, -1
+@ sql/rpl_info_table.cc, -2, -1
+@ sql/rpl_info_table_access.cc, -2, -1
+@ sql/rpl_mi.cc, -2, -1
+@ sql/rpl_mi.h, -2, -1
+@ sql/rpl_record.cc, -2, -1
+@ sql/rpl_replica.h, -2, -1
+@ sql/rpl_replica_commit_order_manager.cc, -2, -1
+@ sql/rpl_replica_until_options.cc, -2, -1
+@ sql/rpl_reporting.h, -2, -1
+@ sql/rpl_rli.cc, -2, -1
+@ sql/rpl_rli.h, -2, -1
+@ sql/rpl_rli_pdb.h, -2, -1
+@ sql/rpl_source.cc, -2, -1
+@ sql/rpl_sys_table_access.cc, -2, -1
+@ sql/rpl_sys_table_access.h, -2, -1
+@ sql/rpl_table_access.cc, -2, -1
+@ sql/rpl_transaction_write_set_ctx.cc, -2, -1
+@ sql/rpl_trx_boundary_parser.cc, -2, -1
+@ sql/rpl_utility.cc, -2, -1
+@ sql/rpl_write_set_handler.cc, -2, -1
+@ sql/rules_table_service.cc, -2, -1
+@ sql/session_tracker.cc, -2, -1
+@ sql/set_var.cc, -2, -1
+@ sql/set_var.h, -2, -1
+@ sql/sp.cc, -2, -1
+@ sql/sp_cache.cc, -2, -1
+@ sql/sp_head.cc, -2, -1
+@ sql/sp_head.h, -2, -1
+@ sql/sp_instr.cc, -2, -1
+@ sql/sp_instr.h, -2, -1
+@ sql/sp_pcontext.cc, -2, -1
+@ sql/sp_rcontext.h, -2, -1
+@ sql/spatial.cc, -2, -1
+@ sql/sql_admin.cc, -2, -1
+@ sql/sql_admin.h, -2, -1
+@ sql/sql_alloc_error_handler.cc, -2, -1
+@ sql/sql_alter.cc, -2, -1
+@ sql/sql_alter.h, -2, -1
+@ sql/sql_alter_instance.cc, -2, -1
+@ sql/sql_audit.cc, -2, -1
+@ sql/sql_audit.h, -2, -1
+@ sql/sql_backup_lock.cc, -2, -1
+@ sql/sql_base.cc, -2, -1
+@ sql/sql_base.h, -2, -1
+@ sql/sql_binlog.cc, -2, -1
+@ sql/sql_bitmap.h, -2, -1
+@ sql/sql_call.cc, -2, -1
+@ sql/sql_check_constraint.cc, -2, -1
+@ sql/sql_class.cc, -2, -1
+@ sql/sql_connect.cc, -2, -1
+@ sql/sql_const_folding.cc, -2, -1
+@ sql/sql_constraint.cc, -2, -1
+@ sql/sql_db.cc, -2, -1
+@ sql/sql_digest.cc, -2, -1
+@ sql/sql_do.cc, -2, -1
+@ sql/sql_error.cc, -2, -1
+@ sql/sql_error.h, -2, -1
+@ sql/sql_executor.cc, -2, -1
+@ sql/sql_get_diagnostics.cc, -2, -1
+@ sql/sql_handler.cc, -2, -1
+@ sql/sql_help.cc, -2, -1
+@ sql/sql_initialize.cc, -2, -1
+@ sql/sql_insert.cc, -2, -1
+@ sql/sql_lex.cc, -2, -1
+@ sql/sql_lex.h, -2, -1
+@ sql/sql_lex_hints.h, -2, -1
+@ sql/sql_load.cc, -2, -1
+@ sql/sql_load.h, -2, -1
+@ sql/sql_locale.cc, -2, -1
+@ sql/sql_manager.cc, -2, -1
+@ sql/sql_optimizer.cc, -2, -1
+@ sql/sql_parse.cc, -2, -1
+@ sql/sql_parse.h, -2, -1
+@ sql/sql_partition.cc, -2, -1
+@ sql/sql_partition_admin.cc, -2, -1
+@ sql/sql_plugin.cc, -2, -1
+@ sql/sql_plugin_var.cc, -2, -1
+@ sql/sql_prepare.cc, -2, -1
+@ sql/sql_profile.cc, -2, -1
+@ sql/sql_query_rewrite.cc, -2, -1
+@ sql/sql_reload.cc, -2, -1
+@ sql/sql_restart_server.cc, -2, -1
+@ sql/sql_rewrite.cc, -2, -1
+@ sql/sql_select.cc, -2, -1
+@ sql/sql_servers.cc, -2, -1
+@ sql/sql_show.cc, -2, -1
+@ sql/sql_show_processlist.cc, -2, -1
+@ sql/sql_show_status.cc, -2, -1
+@ sql/sql_signal.cc, -2, -1
+@ sql/sql_system_table_check.h, -2, -1
+@ sql/sql_table.cc, -2, -1
+@ sql/sql_tablespace.cc, -2, -1
+@ sql/sql_test.cc, -2, -1
+@ sql/sql_thd_api.cc, -2, -1
+@ sql/sql_thd_internal_api.cc, -2, -1
+@ sql/sql_thd_internal_api.h, -2, -1
+@ sql/sql_time.cc, -2, -1
+@ sql/sql_time.h, -2, -1
+@ sql/sql_tmp_table.cc, -2, -1
+@ sql/sql_trigger.cc, -2, -1
+@ sql/sql_truncate.cc, -2, -1
+@ sql/sql_udf.cc, -2, -1
+@ sql/sql_update.cc, -2, -1
+@ sql/sql_view.cc, -2, -1
+@ sql/srv_session.cc, -2, -1
+@ sql/srv_session.h, -2, -1
+@ sql/ssl_acceptor_context_data.cc, -2, -1
+@ sql/ssl_acceptor_context_operator.cc, -2, -1
+@ sql/ssl_init_callback.cc, -2, -1
+@ sql/ssl_init_callback.h, -2, -1
+@ sql/strfunc.cc, -2, -1
+@ sql/strfunc.h, -2, -1
+@ sql/string_service.cc, -2, -1
+@ sql/sys_vars.h, -2, -1
+@ sql/system_variables.h, -2, -1
+@ sql/table.cc, -2, -1
+@ sql/table.h, -2, -1
+@ sql/table_function.cc, -2, -1
+@ sql/table_trigger_dispatcher.cc, -2, -1
+@ sql/tc_log.cc, -2, -1
+@ sql/thr_malloc.cc, -2, -1
+@ sql/time_zone_common.cc, -2, -1
+@ sql/transaction.cc, -2, -1
+@ sql/transaction_info.h, -2, -1
+@ sql/trigger.cc, -2, -1
+@ sql/trigger_chain.cc, -2, -1
+@ sql/trigger_creation_ctx.cc, -2, -1
+@ sql/tztime.cc, -2, -1
+@ sql/window.cc, -2, -1
+@ sql/xa.cc, -2, -1
+@ sql/xa_aux.h, -2, -1
+@ unittest/gunit/base_mock_handler.h, -2, -1
+@ unittest/gunit/character_set_deprecation-t.cc, -2, -1
+@ unittest/gunit/charset_bug28956360-t.cc, -2, -1
+@ unittest/gunit/charset_bug32788301-t.cc, -2, -1
+@ unittest/gunit/collation_loader-t.cc, -2, -1
+@ unittest/gunit/dd.h, -2, -1
+@ unittest/gunit/decimal-t.cc, -2, -1
+@ unittest/gunit/decoy_user-t.cc, -2, -1
+@ unittest/gunit/explain_filename-t.cc, -2, -1
+@ unittest/gunit/fake_string_iterator.h, -2, -1
+@ unittest/gunit/fake_table.h, -2, -1
+@ unittest/gunit/field-t.cc, -2, -1
+@ unittest/gunit/field_date-t.cc, -2, -1
+@ unittest/gunit/field_datetime-t.cc, -2, -1
+@ unittest/gunit/field_long-t.cc, -2, -1
+@ unittest/gunit/field_newdecimal-t.cc, -2, -1
+@ unittest/gunit/get_diagnostics-t.cc, -2, -1
+@ unittest/gunit/gis_algos-t.cc, -2, -1
+@ unittest/gunit/gis_transform-t.cc, -2, -1
+@ unittest/gunit/gunit_test_main.cc, -2, -1
+@ unittest/gunit/histogram_selectivity-t.cc, -2, -1
+@ unittest/gunit/histograms-t.cc, -2, -1
+@ unittest/gunit/hypergraph_optimizer-t.cc, -2, -1
+@ unittest/gunit/item-t.cc, -2, -1
+@ unittest/gunit/item_func_regexp-t.cc, -2, -1
+@ unittest/gunit/item_like-t.cc, -2, -1
+@ unittest/gunit/item_timefunc-t.cc, -2, -1
+@ unittest/gunit/json_path-t.cc, -2, -1
+@ unittest/gunit/like_range-t.cc, -2, -1
+@ unittest/gunit/m_string-t.cc, -2, -1
+@ unittest/gunit/mdl-t.cc, -2, -1
+@ unittest/gunit/my_decimal-t.cc, -2, -1
+@ unittest/gunit/my_gcvt-t.cc, -2, -1
+@ unittest/gunit/opt_costconstants-t.cc, -2, -1
+@ unittest/gunit/opt_costmodel-t.cc, -2, -1
+@ unittest/gunit/opt_range-t.cc, -2, -1
+@ unittest/gunit/opt_trace-t.cc, -2, -1
+@ unittest/gunit/pattern_matcher-t.cc, -2, -1
+@ unittest/gunit/protocol_classic-t.cc, -2, -1
+@ unittest/gunit/security_context-t.cc, -2, -1
+@ unittest/gunit/segfault-t.cc, -2, -1
+@ unittest/gunit/sha2_password-t.cc, -2, -1
+@ unittest/gunit/skip_trailing.h, -2, -1
+@ unittest/gunit/sql_list-t.cc, -2, -1
+@ unittest/gunit/string-tests.cc, -2, -1
+@ unittest/gunit/strings_strnxfrm-t.cc, -2, -1
+@ unittest/gunit/strings_utf8-t.cc, -2, -1
+@ unittest/gunit/strings_valid_check-t.cc, -2, -1
+@ unittest/gunit/strnxfrm.cc, -2, -1
+@ unittest/gunit/strnxfrm.h, -2, -1
+@ unittest/gunit/strtod-t.cc, -2, -1
+@ unittest/gunit/strtoll-t.cc, -2, -1
+@ unittest/gunit/temptable_allocator-t.cc, -2, -1
+@ unittest/gunit/test_utils.cc, -2, -1
+@ unittest/gunit/wild_case_compare-t.cc, -2, -1
+@ unittest/gunit/win_tests-t.cc, -2, -1
+@ sql/sys_vars.cc, 7703, 7688
++ 56, 0, = ,56, 1
++ 58, 1, = ,59, 0
+- 74, 0, = ,74, 1
++ 91, 3, = ,92, 0
++ 95, 1, = ,93, 0
+- 109, 1, = ,106, 0
++ 144, 1, = ,140, 0
+- 1512, 1, = ,1507, 1
+- 2900, 2, = ,2895, 2
++ 7693, 10, = ,7688, 0
+@ sql/sql_class.h, 4810, 4774
++ 48, 1, = ,48, 0
++ 50, 1, = ,49, 0
++ 54, 0, = ,52, 1
++ 77, 1, = ,76, 0
++ 81, 1, = ,79, 0
++ 98, 1, = ,95, 0
++ 103, 1, = ,99, 0
++ 114, 1, = ,109, 0
++ 927, 4, = ,921, 0
++ 2812, 1, = ,2802, 1
++ 4049, 3, = ,4039, 2
++ 4700, 1, = ,4689, 0
+# 4704, 25, = ,4692, 1
+@ sql/rpl_rli_pdb.cc, 2610, 2601
+- 57, 0, = ,57, 1
++ 74, 2, = ,75, 0
+- 1953, 1, = ,1952, 0
+- 1959, 0, = ,1957, 1
+- 1960, 0, = ,1959, 4
+- 1970, 1, = ,1973, 1
+- 1982, 1, = ,1985, 0
+- 1991, 1, = ,1993, 4
+- 1997, 1, = ,2002, 1
+- 2002, 2, = ,2007, 1
+- 2022, 1, = ,2026, 1
+- 2027, 1, = ,2031, 1
+- 2037, 8, = ,2041, 1
++ 2126, 9, = ,2123, 3
+@ sql/rpl_replica.cc, 11338, 11342
++ 48, 1, = ,48, 0
++ 57, 1, = ,56, 0
+- 79, 1, = ,77, 0
++ 82, 0, = ,79, 2
++ 90, 0, = ,89, 1
++ 95, 1, = ,95, 0
++ 100, 1, = ,99, 0
++ 163, 3, = ,161, 0
++ 206, 0, = ,201, 6
++ 6688, 1, = ,6689, 0
+- 7272, 2, = ,7272, 6
+@ sql/rpl_mta_submode.cc, 1081, 1033
+- 30, 0, = ,30, 1
+# 31, 1, = ,32, 1
++ 36, 0, = ,37, 1
++ 40, 1, = ,42, 0
++ 43, 1, = ,44, 0
++ 60, 1, = ,60, 0
+- 187, 43, = ,186, 0
+- 232, 2, = ,188, 0
+- 240, 4, = ,194, 3
+- 245, 1, = ,198, 2
+- 251, 2, = ,205, 1
+- 254, 1, = ,207, 0
+- 259, 1, = ,211, 1
+- 263, 1, = ,215, 0
+- 275, 1, = ,226, 0
+- 287, 3, = ,237, 5
+- 309, 1, = ,261, 1
+@ sql/rpl_group_replication.cc, 711, 698
+# 32, 0, = ,32, 2
++ 34, 0, = ,36, 1
++ 35, 2, = ,38, 0
++ 39, 1, = ,40, 0
+- 46, 1, = ,46, 0
++ 60, 2, = ,59, 0
+- 597, 1, = ,594, 1
++ 701, 10, = ,698, 0
+@ sql/rpl_binlog_sender.cc, 1518, 1518
+# 34, 0, = ,34, 2
++ 38, 0, = ,40, 1
++ 44, 1, = ,47, 0
+- 53, 1, = ,55, 0
++ 66, 1, = ,67, 0
+- 347, 1, = ,347, 1
+- 1111, 1, = ,1111, 1
+@ sql/log_event.h, 4406, 4402
++ 71, 2, = ,71, 0
+- 203, 7, = ,201, 0
+- 883, 0, = ,874, 5
+@ sql/log_event.cc, 14335, 14342
+- 37, 0, = ,37, 1
++ 48, 1, = ,49, 1
++ 54, 0, = ,55, 1
++ 62, 1, = ,64, 0
++ 64, 3, = ,65, 0
++ 69, 1, = ,67, 0
+- 76, 2, = ,73, 3
++ 85, 2, = ,83, 0
++ 166, 1, = ,162, 0
+- 178, 1, = ,173, 1
++ 194, 2, = ,189, 0
+- 872, 4, = ,865, 4
+- 1286, 2, = ,1279, 5
+- 3408, 0, = ,3404, 1
++ 10449, 2, = ,10446, 3
++ 10465, 2, = ,10463, 1
+- 14000, 15, = ,13997, 15
+- 14016, 1, = ,14013, 0
+- 14018, 1, = ,14014, 1
+- 14144, 3, = ,14140, 4
+- 14149, 1, = ,14146, 5
+- 14151, 8, = ,14152, 14
+@ sql/binlog.cc, 11596, 11687
++ 35, 1, = ,35, 0
++ 38, 0, = ,37, 1
++ 41, 3, = ,41, 0
+- 46, 0, = ,43, 1
++ 47, 1, = ,45, 0
+- 62, 0, = ,59, 1
+- 63, 1, = ,61, 1
++ 84, 1, = ,82, 0
+- 90, 0, = ,87, 1
+- 93, 1, = ,91, 0
++ 142, 1, = ,139, 0
+- 725, 4, = ,721, 7
+- 779, 1, = ,778, 1
+- 794, 1, = ,793, 1
+- 805, 1, = ,804, 1
+- 839, 1, = ,838, 1
+- 885, 5, = ,884, 5
+- 929, 1, = ,928, 1
+- 1031, 1, = ,1030, 12
+- 1551, 1, = ,1561, 1
+- 1553, 1, = ,1563, 1
+- 1988, 8, = ,1998, 24
+- 1997, 2, = ,2023, 12
+- 2000, 3, = ,2036, 24
+- 2004, 6, = ,2061, 38
+- 2011, 2, = ,2100, 14
+- 2014, 3, = ,2115, 17
+- 2018, 9, = ,2133, 6
+- 2028, 17, = ,2140, 14
+- 2047, 1, = ,2156, 2
+- 2049, 1, = ,2159, 2
+- 2051, 2, = ,2162, 12
+- 2054, 12, = ,2175, 15
+- 2068, 8, = ,2192, 1
+- 2078, 8, = ,2195, 3
+- 2087, 3, = ,2199, 1
+- 2092, 7, = ,2202, 27
+- 3256, 1, = ,3386, 0
+- 3308, 6, = ,3437, 1
+- 3315, 19, = ,3439, 0
+- 3335, 1, = ,3440, 3
+- 3339, 1, = ,3446, 0
+- 3341, 2, = ,3447, 0
+- 3344, 1, = ,3448, 0
+- 3347, 2, = ,3450, 0
+- 3352, 2, = ,3453, 0
+- 3356, 2, = ,3455, 0
+- 3361, 7, = ,3458, 1
+- 3909, 1, = ,4000, 1
+@ sql/basic_ostream.h, 186, 209
++ 25, 0, = ,25, 1
+# 26, 2, = ,27, 2
+- 173, 1, = ,174, 7
+- 176, 2, = ,183, 6
+- 180, 3, = ,191, 15
+@ libbinlogevents/include/compression/compressor.h, 82, 267
++ 26, 1, = ,26, 0
+- 28, 1, = ,27, 4
+- 30, 3, = ,32, 1
+- 34, 2, = ,34, 1
+- 37, 3, = ,36, 42
+- 41, 6, = ,79, 6
+- 48, 3, = ,86, 5
+- 52, 4, = ,92, 1
+- 57, 3, = ,94, 2
+- 61, 2, = ,97, 8
+- 64, 7, = ,106, 21
+- 72, 3, = ,128, 134
+- 77, 3, = ,264, 1
+@ client/mysqlbinlog.cc, 3503, 3528
+- 34, 1, = ,34, 0
+- 46, 0, = ,45, 1
+- 53, 1, = ,53, 1
++ 55, 1, = ,55, 0
++ 63, 3, = ,62, 0
+- 68, 0, = ,64, 1
+- 143, 1, = ,140, 0
+- 150, 3, = ,146, 0
+- 160, 1, = ,153, 0
+- 163, 4, = ,155, 4
+- 168, 1, = ,160, 12
+- 173, 4, = ,176, 0
+- 178, 2, = ,177, 2
+- 184, 1, = ,183, 1
+- 186, 1, = ,185, 1
+- 189, 0, = ,188, 1
+- 190, 2, = ,190, 2
+- 194, 7, = ,194, 4
+- 203, 0, = ,200, 4
+- 204, 3, = ,205, 3
+- 208, 2, = ,209, 5
+- 212, 1, = ,216, 3
+- 239, 1, = ,245, 0
+- 256, 2, = ,261, 1
+- 270, 1, = ,274, 2
+- 1858, 1, = ,1863, 9
+- 2730, 1, = ,2743, 1
+- 2733, 3, = ,2746, 3
+- 3032, 2, = ,3045, 0
+- 3050, 2, = ,3061, 3
+- 3064, 9, = ,3076, 13
+- 3103, 3, = ,3119, 2
+- 3110, 1, = ,3125, 1
+- 3393, 1, = ,3408, 0
+- 3396, 2, = ,3410, 8
+- 3401, 1, = ,3421, 1
+- 3407, 4, = ,3427, 5
+- 3415, 1, = ,3436, 1
+- 3417, 2, = ,3438, 9
+- 3421, 6, = ,3449, 3
+- 3428, 2, = ,3453, 2
+- 3431, 1, = ,3456, 1
+- 3434, 1, = ,3459, 1
+- 3437, 1, = ,3462, 2
+- 3441, 2, = ,3467, 1
+- 3444, 2, = ,3469, 2
+- 3447, 1, = ,3472, 0
+- 3457, 3, = ,3481, 4
+- 3461, 4, = ,3486, 2
+- 3496, 0, = ,3519, 5
+- 3497, 4, = ,3525, 1

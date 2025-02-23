@@ -1,0 +1,626 @@
+@ drivers/gpio/gpio-altera.c, -2, -1
+@ drivers/gpio/gpio-amdpt.c, -2, -1
+@ drivers/gpio/gpio-brcmstb.c, -2, -1
+@ drivers/gpio/gpio-cadence.c, -2, -1
+@ drivers/gpio/gpio-davinci.c, -2, -1
+@ drivers/gpio/gpio-dln2.c, -2, -1
+@ drivers/gpio/gpio-dwapb.c, -2, -1
+@ drivers/gpio/gpio-eic-sprd.c, -2, -1
+@ drivers/gpio/gpio-f7188x.c, -2, -1
+@ drivers/gpio/gpio-ftgpio010.c, -2, -1
+@ drivers/gpio/gpio-fxl6408.c, -2, -1
+@ drivers/gpio/gpio-grgpio.c, -2, -1
+@ drivers/gpio/gpio-hisi.c, -2, -1
+@ drivers/gpio/gpio-loongson-64bit.c, -2, -1
+@ drivers/gpio/gpio-lpc18xx.c, -2, -1
+@ drivers/gpio/gpio-mb86s7x.c, -2, -1
+@ drivers/gpio/gpio-mm-lantiq.c, -2, -1
+@ drivers/gpio/gpio-mmio.c, -2, -1
+@ drivers/gpio/gpio-mockup.c, -2, -1
+@ drivers/gpio/gpio-mpc5200.c, -2, -1
+@ drivers/gpio/gpio-mpc8xxx.c, -2, -1
+@ drivers/gpio/gpio-mvebu.c, -2, -1
+@ drivers/gpio/gpio-omap.c, -2, -1
+@ drivers/gpio/gpio-pca953x.c, -2, -1
+@ drivers/gpio/gpio-rcar.c, -2, -1
+@ drivers/gpio/gpio-rockchip.c, -2, -1
+@ drivers/gpio/gpio-sim.c, -2, -1
+@ drivers/gpio/gpio-tb10x.c, -2, -1
+@ drivers/gpio/gpio-ts5500.c, -2, -1
+@ drivers/gpio/gpio-uniphier.c, -2, -1
+@ drivers/gpio/gpio-vf610.c, -2, -1
+@ drivers/gpio/gpio-xgene-sb.c, -2, -1
+@ drivers/gpio/gpio-xgs-iproc.c, -2, -1
+@ drivers/gpio/gpio-xilinx.c, -2, -1
+@ drivers/gpio/gpio-zynq.c, -2, -1
+@ drivers/gpio/gpiolib-acpi.c, -2, -1
+@ drivers/gpio/gpiolib-cdev.c, -2, -1
+@ drivers/gpio/gpiolib-of.c, -2, -1
+@ drivers/gpio/gpiolib-swnode.c, -2, -1
+@ drivers/gpio/gpiolib-sysfs.c, -2, -1
+@ drivers/gpio/gpiolib.c, -2, -1
+@ drivers/gpio/gpiolib.h, -2, -1
+@ drivers/i2c/busses/i2c-aspeed.c, -2, -1
+@ drivers/i2c/busses/i2c-stm32f7.c, -2, -1
+@ drivers/i2c/busses/i2c-xgene-slimpro.c, -2, -1
+@ drivers/i2c/i2c-core.h, -2, -1
+@ drivers/platform/chrome/cros_ec.c, -2, -1
+@ drivers/platform/chrome/cros_ec.h, -2, -1
+@ drivers/platform/chrome/cros_ec_chardev.c, -2, -1
+@ drivers/platform/chrome/cros_ec_debugfs.c, -2, -1
+@ drivers/platform/chrome/cros_ec_lightbar.c, -2, -1
+@ drivers/platform/chrome/cros_ec_lpc.c, -2, -1
+@ drivers/platform/chrome/cros_ec_proto.c, -2, -1
+@ drivers/platform/chrome/cros_ec_proto_test.c, -2, -1
+@ drivers/platform/chrome/cros_ec_sysfs.c, -2, -1
+@ drivers/platform/chrome/cros_ec_vbc.c, -2, -1
+@ drivers/platform/chrome/cros_typec_switch.c, -2, -1
+@ drivers/platform/chrome/cros_typec_vdm.c, -2, -1
+@ drivers/platform/chrome/cros_typec_vdm.h, -2, -1
+@ drivers/platform/chrome/cros_usbpd_logger.c, -2, -1
+@ drivers/platform/chrome/cros_usbpd_notify.c, -2, -1
+@ drivers/power/supply/88pm860x_battery.c, -2, -1
+@ drivers/power/supply/ab8500_btemp.c, -2, -1
+@ drivers/power/supply/ab8500_chargalg.c, -2, -1
+@ drivers/power/supply/ab8500_charger.c, -2, -1
+@ drivers/power/supply/ab8500_fg.c, -2, -1
+@ drivers/power/supply/acer_a500_battery.c, -2, -1
+@ drivers/power/supply/act8945a_charger.c, -2, -1
+@ drivers/power/supply/axp20x_ac_power.c, -2, -1
+@ drivers/power/supply/axp20x_usb_power.c, -2, -1
+@ drivers/power/supply/bq24190_charger.c, -2, -1
+@ drivers/power/supply/bq24257_charger.c, -2, -1
+@ drivers/power/supply/bq2515x_charger.c, -2, -1
+@ drivers/power/supply/bq256xx_charger.c, -2, -1
+@ drivers/power/supply/bq25980_charger.c, -2, -1
+@ drivers/power/supply/charger-manager.c, -2, -1
+@ drivers/power/supply/cpcap-battery.c, -2, -1
+@ drivers/power/supply/cpcap-charger.c, -2, -1
+@ drivers/power/supply/da9030_battery.c, -2, -1
+@ drivers/power/supply/da9052-battery.c, -2, -1
+@ drivers/power/supply/da9150-charger.c, -2, -1
+@ drivers/power/supply/goldfish_battery.c, -2, -1
+@ drivers/power/supply/ipaq_micro_battery.c, -2, -1
+@ drivers/power/supply/isp1704_charger.c, -2, -1
+@ drivers/power/supply/lp8788-charger.c, -2, -1
+@ drivers/power/supply/max14577_charger.c, -2, -1
+@ drivers/power/supply/max17040_battery.c, -2, -1
+@ drivers/power/supply/max17042_battery.c, -2, -1
+@ drivers/power/supply/max77650-charger.c, -2, -1
+@ drivers/power/supply/max77693_charger.c, -2, -1
+@ drivers/power/supply/max8925_power.c, -2, -1
+@ drivers/power/supply/mt6370-charger.c, -2, -1
+@ drivers/power/supply/pcf50633-charger.c, -2, -1
+@ drivers/power/supply/power_supply_core.c, -2, -1
+@ drivers/power/supply/power_supply_sysfs.c, -2, -1
+@ drivers/power/supply/qcom_pmi8998_charger.c, -2, -1
+@ drivers/power/supply/qcom_smbb.c, -2, -1
+@ drivers/power/supply/rk817_charger.c, -2, -1
+@ drivers/power/supply/rt5033_charger.c, -2, -1
+@ drivers/power/supply/rx51_battery.c, -2, -1
+@ drivers/power/supply/sbs-battery.c, -2, -1
+@ drivers/power/supply/sc2731_charger.c, -2, -1
+@ drivers/power/supply/surface_battery.c, -2, -1
+@ drivers/power/supply/surface_charger.c, -2, -1
+@ drivers/power/supply/tps65090-charger.c, -2, -1
+@ drivers/power/supply/twl4030_charger.c, -2, -1
+@ drivers/power/supply/twl4030_madc_battery.c, -2, -1
+@ drivers/power/supply/wm831x_backup.c, -2, -1
+@ drivers/power/supply/wm831x_power.c, -2, -1
+@ drivers/power/supply/wm8350_power.c, -2, -1
+@ drivers/power/supply/wm97xx_battery.c, -2, -1
+@ drivers/spi/spi-ar934x.c, -2, -1
+@ drivers/spi/spi-armada-3700.c, -2, -1
+@ drivers/spi/spi-aspeed-smc.c, -2, -1
+@ drivers/spi/spi-at91-usart.c, -2, -1
+@ drivers/spi/spi-ath79.c, -2, -1
+@ drivers/spi/spi-axi-spi-engine.c, -2, -1
+@ drivers/spi/spi-bcm2835.c, -2, -1
+@ drivers/spi/spi-bcm2835aux.c, -2, -1
+@ drivers/spi/spi-cadence-quadspi.c, -2, -1
+@ drivers/spi/spi-cadence.c, -2, -1
+@ drivers/spi/spi-cavium-thunderx.c, -2, -1
+@ drivers/spi/spi-davinci.c, -2, -1
+@ drivers/spi/spi-dw-bt1.c, -2, -1
+@ drivers/spi/spi-dw-mmio.c, -2, -1
+@ drivers/spi/spi-fsl-dspi.c, -2, -1
+@ drivers/spi/spi-geni-qcom.c, -2, -1
+@ drivers/spi/spi-lantiq-ssc.c, -2, -1
+@ drivers/spi/spi-lm70llp.c, -2, -1
+@ drivers/spi/spi-lp8841-rtc.c, -2, -1
+@ drivers/spi/spi-meson-spicc.c, -2, -1
+@ drivers/spi/spi-meson-spifc.c, -2, -1
+@ drivers/spi/spi-microchip-core-qspi.c, -2, -1
+@ drivers/spi/spi-microchip-core.c, -2, -1
+@ drivers/spi/spi-mpc512x-psc.c, -2, -1
+@ drivers/spi/spi-mpc52xx-psc.c, -2, -1
+@ drivers/spi/spi-mpc52xx.c, -2, -1
+@ drivers/spi/spi-mt65xx.c, -2, -1
+@ drivers/spi/spi-mt7621.c, -2, -1
+@ drivers/spi/spi-mtk-nor.c, -2, -1
+@ drivers/spi/spi-mtk-snfi.c, -2, -1
+@ drivers/spi/spi-mux.c, -2, -1
+@ drivers/spi/spi-mxic.c, -2, -1
+@ drivers/spi/spi-mxs.c, -2, -1
+@ drivers/spi/spi-npcm-fiu.c, -2, -1
+@ drivers/spi/spi-npcm-pspi.c, -2, -1
+@ drivers/spi/spi-nxp-fspi.c, -2, -1
+@ drivers/spi/spi-oc-tiny.c, -2, -1
+@ drivers/spi/spi-omap-uwire.c, -2, -1
+@ drivers/spi/spi-omap2-mcspi.c, -2, -1
+@ drivers/spi/spi-orion.c, -2, -1
+@ drivers/spi/spi-pci1xxxx.c, -2, -1
+@ drivers/spi/spi-pic32-sqi.c, -2, -1
+@ drivers/spi/spi-pic32.c, -2, -1
+@ drivers/spi/spi-pl022.c, -2, -1
+@ drivers/spi/spi-qup.c, -2, -1
+@ drivers/spi/spi-rockchip.c, -2, -1
+@ drivers/spi/spi-rzv2m-csi.c, -2, -1
+@ drivers/spi/spi-stm32.c, -2, -1
+@ drivers/spi/spi-tegra20-slink.c, -2, -1
+@ drivers/spi/spi.c, -2, -1
+@ drivers/spi/spidev.c, -2, -1
+@ drivers/thunderbolt/clx.c, -1, -2
+@ drivers/thunderbolt/dma_test.c, -1, -2
+@ drivers/thunderbolt/path.c, -1, -2
+@ drivers/thunderbolt/quirks.c, -1, -2
+@ drivers/thunderbolt/retimer.c, -1, -2
+@ drivers/thunderbolt/switch.c, -1, -2
+@ drivers/thunderbolt/tb.h, -1, -2
+@ drivers/thunderbolt/tb_regs.h, -1, -2
+@ drivers/thunderbolt/tunnel.c, -1, -2
+@ drivers/thunderbolt/tunnel.h, -1, -2
+@ drivers/thunderbolt/usb4.c, -1, -2
+@ drivers/usb/core/devio.c, -2, -1
+@ drivers/usb/core/hcd-pci.c, -1, -2
+@ drivers/usb/core/hub.c, -1, -2
+@ drivers/usb/core/hub.h, -1, -2
+@ drivers/usb/core/port.c, -1, -2
+@ drivers/usb/gadget/function/f_fs.c, -2, -1
+@ drivers/usb/gadget/function/f_midi.c, -2, -1
+@ drivers/usb/gadget/function/f_ncm.c, -1, -2
+@ drivers/usb/gadget/function/f_tcm.c, -2, -1
+@ drivers/usb/gadget/function/f_uac2.c, -1, -2
+@ drivers/usb/gadget/function/f_uvc.c, -1, -2
+@ drivers/usb/gadget/function/u_ether.c, -1, -2
+@ drivers/usb/gadget/function/u_uac2.h, -1, -2
+@ drivers/usb/gadget/legacy/raw_gadget.c, -1, -2
+@ drivers/usb/host/ohci.h, -2, -1
+@ drivers/usb/host/pci-quirks.c, -1, -2
+@ drivers/usb/host/pci-quirks.h, -1, -2
+@ drivers/usb/host/xhci-debugfs.c, -1, -2
+@ drivers/usb/host/xhci-ext-caps.h, -1, -2
+@ drivers/usb/host/xhci-hub.c, -1, -2
+@ drivers/usb/host/xhci-mem.c, -1, -2
+@ drivers/usb/host/xhci-mtk-sch.c, -1, -2
+@ drivers/usb/host/xhci-mtk.h, -1, -2
+@ drivers/usb/host/xhci-pci.c, -1, -2
+@ drivers/usb/host/xhci-plat.c, -1, -2
+@ drivers/usb/host/xhci-ring.c, -1, -2
+@ drivers/usb/host/xhci-trace.h, -1, -2
+@ drivers/usb/host/xhci.c, -1, -2
+@ drivers/usb/typec/anx7411.c, -1, -2
+@ drivers/usb/typec/class.c, -1, -2
+@ drivers/usb/typec/class.h, -1, -2
+@ drivers/usb/typec/pd.c, -1, -2
+@ drivers/usb/typec/port-mapper.c, -1, -2
+@ drivers/usb/usbip/stub_dev.c, -1, -2
+@ drivers/usb/usbip/usbip_common.h, -2, -1
+@ drivers/usb/usbip/vhci_hcd.c, -1, -2
+@ include/linux/acpi.h, -2, -1
+@ include/linux/arm_ffa.h, -2, -1
+@ include/linux/badblocks.h, -2, -1
+@ include/linux/binfmts.h, -2, -1
+@ include/linux/bitmap.h, -2, -1
+@ include/linux/blk-mq.h, -2, -1
+@ include/linux/blkdev.h, -2, -1
+@ include/linux/bootmem_info.h, -2, -1
+@ include/linux/bpf-cgroup-defs.h, -2, -1
+@ include/linux/bpf-cgroup.h, -2, -1
+@ include/linux/bpf.h, -2, -1
+@ include/linux/bpf_mem_alloc.h, -2, -1
+@ include/linux/bpf_verifier.h, -2, -1
+@ include/linux/brcmphy.h, -2, -1
+@ include/linux/btf.h, -2, -1
+@ include/linux/buffer_head.h, -2, -1
+@ include/linux/buildid.h, -2, -1
+@ include/linux/cacheinfo.h, -2, -1
+@ include/linux/cgroup-defs.h, -2, -1
+@ include/linux/cgroup.h, -2, -1
+@ include/linux/cleanup.h, -2, -1
+@ include/linux/clk-provider.h, -2, -1
+@ include/linux/compat.h, -2, -1
+@ include/linux/compiler-clang.h, -2, -1
+@ include/linux/compiler-gcc.h, -2, -1
+@ include/linux/compiler.h, -2, -1
+@ include/linux/compiler_types.h, -2, -1
+@ include/linux/console.h, -2, -1
+@ include/linux/const.h, -2, -1
+@ include/linux/cpu.h, -2, -1
+@ include/linux/cpufreq.h, -2, -1
+@ include/linux/cpuhotplug.h, -2, -1
+@ include/linux/cpumask.h, -2, -1
+@ include/linux/crash_core.h, -2, -1
+@ include/linux/crash_dump.h, -2, -1
+@ include/linux/cred.h, -2, -1
+@ include/linux/crypto.h, -2, -1
+@ include/linux/damon.h, -2, -1
+@ include/linux/dax.h, -2, -1
+@ include/linux/dcache.h, -2, -1
+@ include/linux/device-mapper.h, -2, -1
+@ include/linux/device.h, -2, -1
+@ include/linux/efi.h, -2, -1
+@ include/linux/ethtool.h, -2, -1
+@ include/linux/exportfs.h, -2, -1
+@ include/linux/fb.h, -2, -1
+@ include/linux/fdtable.h, -2, -1
+@ include/linux/filter.h, -2, -1
+@ include/linux/fortify-string.h, -2, -1
+@ include/linux/fs.h, -2, -1
+@ include/linux/fs_stack.h, -2, -1
+@ include/linux/fscrypt.h, -2, -1
+@ include/linux/fsnotify.h, -2, -1
+@ include/linux/fwnode.h, -2, -1
+@ include/linux/generic-radix-tree.h, -2, -1
+@ include/linux/gfp.h, -2, -1
+@ include/linux/hid-sensor-ids.h, -2, -1
+@ include/linux/hid.h, -2, -1
+@ include/linux/highmem.h, -2, -1
+@ include/linux/hisi_acc_qm.h, -2, -1
+@ include/linux/hugetlb.h, -2, -1
+@ include/linux/hugetlb_cgroup.h, -2, -1
+@ include/linux/hw_random.h, -2, -1
+@ include/linux/ieee80211.h, -2, -1
+@ include/linux/igmp.h, -2, -1
+@ include/linux/intel_tpmi.h, -2, -1
+@ include/linux/interrupt.h, -2, -1
+@ include/linux/io-pgtable.h, -2, -1
+@ include/linux/io_uring.h, -2, -1
+@ include/linux/io_uring_types.h, -2, -1
+@ include/linux/iommu.h, -2, -1
+@ include/linux/ioport.h, -2, -1
+@ include/linux/iosys-map.h, -2, -1
+@ include/linux/iova_bitmap.h, -2, -1
+@ include/linux/ipv6.h, -2, -1
+@ include/linux/irq.h, -2, -1
+@ include/linux/irqdomain.h, -2, -1
+@ include/linux/iversion.h, -2, -1
+@ include/linux/jbd2.h, -2, -1
+@ include/linux/kasan.h, -2, -1
+@ include/linux/kernfs.h, -2, -1
+@ include/linux/kexec.h, -2, -1
+@ include/linux/key.h, -2, -1
+@ include/linux/kprobes.h, -2, -1
+@ include/linux/kstrtox.h, -2, -1
+@ include/linux/kthread.h, -2, -1
+@ include/linux/kvm_host.h, -2, -1
+@ include/linux/libata.h, -2, -1
+@ include/linux/linkmode.h, -2, -1
+@ include/linux/list.h, -2, -1
+@ include/linux/llist.h, -2, -1
+@ include/linux/logic_pio.h, -2, -1
+@ include/linux/lsm_hook_defs.h, -2, -1
+@ include/linux/mei_cl_bus.h, -2, -1
+@ include/linux/memblock.h, -2, -1
+@ include/linux/memcontrol.h, -2, -1
+@ include/linux/memory-tiers.h, -2, -1
+@ include/linux/mempolicy.h, -2, -1
+@ include/linux/micrel_phy.h, -2, -1
+@ include/linux/migrate.h, -2, -1
+@ include/linux/minmax.h, -2, -1
+@ include/linux/mm.h, -2, -1
+@ include/linux/mm_inline.h, -2, -1
+@ include/linux/mm_types.h, -2, -1
+@ include/linux/mmu_notifier.h, -2, -1
+@ include/linux/mmzone.h, -2, -1
+@ include/linux/mod_devicetable.h, -2, -1
+@ include/linux/module_symbol.h, -2, -1
+@ include/linux/moduleparam.h, -2, -1
+@ include/linux/mount.h, -2, -1
+@ include/linux/msi.h, -2, -1
+@ include/linux/namei.h, -2, -1
+@ include/linux/netdevice.h, -2, -1
+@ include/linux/netfilter.h, -2, -1
+@ include/linux/nfs4.h, -2, -1
+@ include/linux/numa.h, -2, -1
+@ include/linux/nvme-auth.h, -2, -1
+@ include/linux/nvme-tcp.h, -2, -1
+@ include/linux/nvme.h, -2, -1
+@ include/linux/nvmem-consumer.h, -2, -1
+@ include/linux/nvmem-provider.h, -2, -1
+@ include/linux/objtool.h, -2, -1
+@ include/linux/oid_registry.h, -2, -1
+@ include/linux/overflow.h, -2, -1
+@ include/linux/page-flags.h, -2, -1
+@ include/linux/pagemap.h, -2, -1
+@ include/linux/parport.h, -2, -1
+@ include/linux/pci.h, -2, -1
+@ include/linux/pci_ids.h, -2, -1
+@ include/linux/percpu.h, -2, -1
+@ include/linux/percpu_counter.h, -2, -1
+@ include/linux/perf_event.h, -2, -1
+@ include/linux/phy.h, -2, -1
+@ include/linux/phylink.h, -2, -1
+@ include/linux/pipe_fs_i.h, -2, -1
+@ include/linux/pktcdvd.h, -2, -1
+@ include/linux/pm.h, -2, -1
+@ include/linux/pm_domain.h, -2, -1
+@ include/linux/pm_opp.h, -2, -1
+@ include/linux/pnp.h, -2, -1
+@ include/linux/posix-clock.h, -2, -1
+@ include/linux/power_supply.h, -2, -1
+@ include/linux/preempt.h, -2, -1
+@ include/linux/property.h, -2, -1
+@ include/linux/pseudo_fs.h, -2, -1
+@ include/linux/rcupdate.h, -2, -1
+@ include/linux/rcutiny.h, -2, -1
+@ include/linux/rcutree.h, -2, -1
+@ include/linux/reboot.h, -2, -1
+@ include/linux/resctrl.h, -2, -1
+@ include/linux/rethook.h, -2, -1
+@ include/linux/rmap.h, -2, -1
+@ include/linux/rtc.h, -2, -1
+@ include/linux/sched.h, -2, -1
+@ include/linux/scmi_protocol.h, -2, -1
+@ include/linux/security.h, -2, -1
+@ include/linux/seq_buf.h, -2, -1
+@ include/linux/seq_file.h, -2, -1
+@ include/linux/seqlock.h, -2, -1
+@ include/linux/serial_core.h, -2, -1
+@ include/linux/shmem_fs.h, -2, -1
+@ include/linux/shrinker.h, -2, -1
+@ include/linux/skbuff.h, -2, -1
+@ include/linux/slab.h, -2, -1
+@ include/linux/smp.h, -2, -1
+@ include/linux/socket.h, -2, -1
+@ include/linux/sockptr.h, -2, -1
+@ include/linux/spmi.h, -2, -1
+@ include/linux/stmmac.h, -2, -1
+@ include/linux/string.h, -2, -1
+@ include/linux/string_helpers.h, -2, -1
+@ include/linux/stringify.h, -2, -1
+@ include/linux/swap.h, -2, -1
+@ include/linux/syscalls.h, -2, -1
+@ include/linux/sysctl.h, -2, -1
+@ include/linux/sysfs.h, -2, -1
+@ include/linux/tcp.h, -2, -1
+@ include/linux/thermal.h, -2, -1
+@ include/linux/thunderbolt.h, -1, -2
+@ include/linux/tick.h, -2, -1
+@ include/linux/timer.h, -2, -1
+@ include/linux/topology.h, -2, -1
+@ include/linux/torture.h, -2, -1
+@ include/linux/trace_events.h, -2, -1
+@ include/linux/trace_seq.h, -2, -1
+@ include/linux/tracefs.h, -2, -1
+@ include/linux/tty.h, -2, -1
+@ include/linux/ucs2_string.h, -2, -1
+@ include/linux/udp.h, -2, -1
+@ include/linux/uio.h, -2, -1
+@ include/linux/units.h, -2, -1
+@ include/linux/usb.h, -1, -2
+@ include/linux/user_namespace.h, -2, -1
+@ include/linux/userfaultfd_k.h, -2, -1
+@ include/linux/verification.h, -2, -1
+@ include/linux/virtio_net.h, -2, -1
+@ include/linux/virtio_vsock.h, -2, -1
+@ include/linux/wait.h, -2, -1
+@ include/linux/watch_queue.h, -2, -1
+@ include/linux/workqueue.h, -2, -1
+@ include/uapi/linux/bpf.h, -2, -1
+@ include/uapi/linux/btrfs.h, -2, -1
+@ include/uapi/linux/btrfs_tree.h, -2, -1
+@ include/uapi/linux/counter.h, -2, -1
+@ include/uapi/linux/devlink.h, -2, -1
+@ include/uapi/linux/elf.h, -2, -1
+@ include/uapi/linux/fs.h, -2, -1
+@ include/uapi/linux/fscrypt.h, -2, -1
+@ include/uapi/linux/futex.h, -2, -1
+@ include/uapi/linux/gsmmux.h, -2, -1
+@ include/uapi/linux/gtp.h, -2, -1
+@ include/uapi/linux/hash_info.h, -2, -1
+@ include/uapi/linux/if_bridge.h, -2, -1
+@ include/uapi/linux/if_link.h, -2, -1
+@ include/uapi/linux/io_uring.h, -2, -1
+@ include/uapi/linux/iommufd.h, -2, -1
+@ include/uapi/linux/kfd_ioctl.h, -2, -1
+@ include/uapi/linux/kvm.h, -2, -1
+@ include/uapi/linux/landlock.h, -2, -1
+@ include/uapi/linux/mei.h, -2, -1
+@ include/uapi/linux/mempolicy.h, -2, -1
+@ include/uapi/linux/mptcp.h, -2, -1
+@ include/uapi/linux/netdev.h, -2, -1
+@ include/uapi/linux/netlink.h, -2, -1
+@ include/uapi/linux/nl80211.h, -2, -1
+@ include/uapi/linux/pci_regs.h, -2, -1
+@ include/uapi/linux/pkt_sched.h, -2, -1
+@ include/uapi/linux/prctl.h, -2, -1
+@ include/uapi/linux/ptp_clock.h, -2, -1
+@ include/uapi/linux/rtnetlink.h, -2, -1
+@ include/uapi/linux/serial_core.h, -2, -1
+@ include/uapi/linux/serial_reg.h, -2, -1
+@ include/uapi/linux/snmp.h, -2, -1
+@ include/uapi/linux/tcp.h, -2, -1
+@ include/uapi/linux/user_events.h, -2, -1
+@ include/uapi/linux/userfaultfd.h, -2, -1
+@ include/uapi/linux/vfio.h, -2, -1
+@ include/uapi/linux/vm_sockets.h, -2, -1
+@ include/uapi/linux/xfrm.h, -2, -1
+@ drivers/usb/typec/altmodes/displayport.c, 656, 657
+- 89, 1, = ,89, 0
+- 91, 0, = ,90, 4
++ 156, 5, = ,159, 5
++ 176, 2, = ,179, 1
++ 309, 2, = ,311, 1
++ 628, 2, = ,629, 2
+@ drivers/usb/host/xhci.h, 2816, 2783
+- 528, 1, = ,528, 1
+- 561, 27, = ,561, 0
+- 1548, 0, = ,1521, 1
++ 1669, 1, = ,1643, 1
+- 1672, 6, = ,1646, 2
+- 2081, 4, = ,2051, 0
+- 2087, 1, = ,2053, 0
+- 2122, 0, = ,2087, 2
+@ drivers/usb/gadget/legacy/inode.c, 2137, 2152
+- 34, 0, = ,34, 6
+- 1514, 1, = ,1520, 10
++ 1972, 1, = ,1987, 1
+@ drivers/thunderbolt/tb.c, 2468, 2928
+- 19, 2, = ,19, 25
+- 193, 1, = ,216, 1
+- 258, 1, = ,281, 1
+- 264, 1, = ,287, 1
+- 288, 2, = ,311, 10
+- 291, 0, = ,322, 2
+- 292, 1, = ,325, 6
+- 294, 0, = ,332, 1
+- 296, 0, = ,335, 2
+- 556, 1, = ,597, 1
+- 575, 2, = ,616, 19
+- 578, 2, = ,636, 1
+- 581, 1, = ,638, 0
+- 583, 3, = ,639, 1
+- 590, 2, = ,644, 4
+- 594, 3, = ,650, 0
+- 599, 0, = ,652, 218
+- 604, 1, = ,875, 1
+- 609, 21, = ,880, 4
+- 631, 3, = ,885, 7
+- 635, 11, = ,893, 6
+- 647, 55, = ,900, 4
+- 732, 1, = ,934, 1
+- 739, 1, = ,941, 1
+- 741, 1, = ,943, 1
+- 745, 2, = ,947, 2
+- 797, 2, = ,999, 2
+- 859, 0, = ,1061, 219
+- 967, 1, = ,1388, 0
+- 969, 6, = ,1389, 1
+- 976, 4, = ,1391, 0
+- 1043, 0, = ,1454, 5
+- 1095, 1, = ,1511, 2
+- 1191, 1, = ,1608, 1
+- 1199, 1, = ,1616, 1
+- 1201, 1, = ,1618, 1
+- 1212, 2, = ,1629, 3
+- 1215, 1, = ,1633, 1
+- 1221, 1, = ,1639, 2
+- 1285, 1, = ,1704, 1
+- 1290, 0, = ,1709, 1
+- 1292, 5, = ,1712, 0
+- 1314, 1, = ,1729, 2
+- 1317, 2, = ,1733, 1
+- 1320, 1, = ,1735, 0
+- 1325, 1, = ,1739, 1
+- 1329, 1, = ,1743, 1
+- 1372, 1, = ,1786, 2
+- 1394, 0, = ,1809, 7
+- 1402, 1, = ,1824, 1
+- 1417, 0, = ,1839, 13
+- 1704, 1, = ,2139, 2
+- 1784, 2, = ,2220, 2
+- 1826, 2, = ,2262, 2
+- 1831, 3, = ,2267, 4
+- 1840, 0, = ,2277, 5
+- 1864, 1, = ,2306, 2
+- 1868, 2, = ,2311, 2
+- 1873, 0, = ,2316, 11
+- 1875, 0, = ,2329, 4
++ 1910, 1, = ,2368, 1
++ 1917, 1, = ,2375, 1
++ 1926, 1, = ,2384, 1
++ 1935, 1, = ,2393, 1
+- 1940, 1, = ,2398, 1
+- 1951, 1, = ,2409, 2
+- 1953, 1, = ,2412, 2
+- 1955, 2, = ,2415, 3
++ 1962, 2, = ,2423, 0
+- 2184, 1, = ,2643, 2
+@ drivers/power/supply/tps65217_charger.c, 284, 286
+- 240, 1, = ,240, 1
++ 256, 1, = ,256, 1
++ 262, 0, = ,262, 2
++ 272, 1, = ,274, 1
+@ drivers/platform/chrome/cros_ec_typec.c, 1279, 1307
++ 83, 1, = ,83, 1
++ 90, 1, = ,90, 1
++ 97, 1, = ,97, 1
++ 104, 1, = ,104, 1
++ 274, 3, = ,274, 3
++ 290, 2, = ,290, 2
+- 495, 0, = ,495, 2
+- 527, 0, = ,529, 26
+@ drivers/gpio/gpio-ljca.c, 454, 495
+- 9, 0, = ,9, 1
+- 16, 1, = ,17, 0
+- 18, 1, = ,18, 0
+- 21, 0, = ,20, 1
+- 23, 6, = ,23, 6
+- 39, 2, = ,39, 2
+- 43, 2, = ,43, 2
+- 46, 1, = ,46, 3
+- 51, 1, = ,53, 1
+- 53, 1, = ,55, 1
+- 56, 1, = ,58, 0
+- 58, 1, = ,59, 1
+- 64, 0, = ,65, 1
+- 65, 1, = ,67, 1
+- 68, 1, = ,70, 1
+- 75, 1, = ,77, 2
+- 77, 1, = ,80, 2
+- 85, 2, = ,89, 2
+- 88, 1, = ,92, 2
+- 93, 3, = ,98, 4
+- 101, 4, = ,107, 3
+- 106, 3, = ,111, 5
+- 110, 2, = ,117, 0
+- 113, 3, = ,118, 2
+- 118, 2, = ,122, 1
+- 121, 1, = ,124, 2
+- 129, 2, = ,133, 2
+- 132, 1, = ,136, 2
+- 150, 1, = ,155, 3
+- 153, 2, = ,160, 1
+- 158, 0, = ,164, 1
+- 159, 1, = ,166, 7
+- 169, 1, = ,182, 1
+- 174, 0, = ,187, 2
+- 177, 0, = ,192, 10
+- 200, 1, = ,225, 2
+- 211, 1, = ,237, 2
+- 217, 1, = ,244, 2
+- 219, 1, = ,247, 2
+- 227, 3, = ,256, 4
+- 231, 1, = ,261, 2
+- 236, 3, = ,267, 3
+- 248, 1, = ,279, 2
+- 250, 1, = ,282, 1
+- 252, 2, = ,284, 1
+- 259, 1, = ,290, 2
+- 261, 1, = ,293, 2
+- 302, 1, = ,335, 2
+- 305, 1, = ,339, 2
+- 310, 1, = ,345, 2
+- 313, 1, = ,349, 2
+- 335, 2, = ,372, 1
+- 343, 1, = ,379, 1
+- 366, 1, = ,402, 2
+- 368, 0, = ,405, 1
+- 372, 1, = ,410, 1
+- 376, 3, = ,414, 6
+- 384, 1, = ,425, 0
+- 387, 0, = ,427, 1
+- 392, 1, = ,433, 1
+- 396, 3, = ,437, 3
+- 401, 2, = ,442, 2
+- 416, 1, = ,457, 1
+# 424, 1, = ,465, 1
+- 426, 1, = ,467, 1
+- 429, 1, = ,470, 2
+- 434, 4, = ,476, 3
+- 439, 1, = ,480, 1
+- 441, 2, = ,482, 1
+# 444, 1, = ,484, 2
+- 446, 1, = ,487, 1
+- 448, 3, = ,489, 3

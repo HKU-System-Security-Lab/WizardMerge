@@ -1,0 +1,75 @@
+@ arch/x86/boot/compressed/acpi.c, -1, -2
+@ arch/x86/boot/compressed/cmdline.c, -1, -2
+@ arch/x86/boot/compressed/kaslr.c, -1, -2
+@ arch/x86/boot/compressed/mem.c, -1, -2
+@ arch/x86/boot/compressed/misc.c, -1, -2
+@ arch/x86/boot/compressed/misc.h, -1, -2
+@ arch/x86/boot/compressed/pgtable_64.c, -1, -2
+@ arch/x86/include/asm/alternative.h, -2, -1
+@ arch/x86/include/asm/cmpxchg.h, -2, -1
+@ arch/x86/include/asm/cpu.h, -2, -1
+@ arch/x86/include/asm/efi.h, -2, -1
+@ arch/x86/include/asm/i8259.h, -2, -1
+@ arch/x86/include/asm/init.h, -1, -2
+@ arch/x86/include/asm/intel-family.h, -2, -1
+@ arch/x86/include/asm/kvm_host.h, -2, -1
+@ arch/x86/include/asm/linkage.h, -2, -1
+@ arch/x86/include/asm/local.h, -2, -1
+@ arch/x86/include/asm/mce.h, -2, -1
+@ arch/x86/include/asm/mmu_context.h, -2, -1
+@ arch/x86/include/asm/mshyperv.h, -2, -1
+@ arch/x86/include/asm/msr-index.h, -2, -1
+@ arch/x86/include/asm/nospec-branch.h, -2, -1
+@ arch/x86/include/asm/paravirt_types.h, -2, -1
+@ arch/x86/include/asm/perf_event.h, -2, -1
+@ arch/x86/include/asm/pgtable.h, -2, -1
+@ arch/x86/include/asm/processor.h, -2, -1
+@ arch/x86/include/asm/prom.h, -2, -1
+@ arch/x86/include/asm/smp.h, -2, -1
+@ arch/x86/include/asm/spec-ctrl.h, -2, -1
+@ arch/x86/include/asm/svm.h, -2, -1
+@ arch/x86/include/asm/uaccess.h, -2, -1
+@ arch/x86/kernel/alternative.c, -2, -1
+@ arch/x86/kernel/amd_nb.c, -2, -1
+@ arch/x86/kernel/callthunks.c, -2, -1
+@ arch/x86/kernel/devicetree.c, -2, -1
+@ arch/x86/kernel/head64.c, -1, -2
+@ arch/x86/kernel/i8259.c, -2, -1
+@ arch/x86/kernel/kgdb.c, -2, -1
+@ arch/x86/kernel/paravirt.c, -2, -1
+@ arch/x86/kernel/process.c, -2, -1
+@ arch/x86/kernel/setup.c, -2, -1
+@ arch/x86/kernel/sev-shared.c, -2, -1
+@ arch/x86/kernel/sev.c, -2, -1
+@ arch/x86/kernel/shstk.c, -2, -1
+@ arch/x86/kernel/smp.c, -2, -1
+@ arch/x86/kernel/smpboot.c, -2, -1
+@ arch/x86/kernel/topology.c, -2, -1
+@ arch/x86/kernel/tsc_sync.c, -2, -1
+@ arch/x86/kernel/unwind_orc.c, -2, -1
+@ drivers/firmware/efi/efi.c, -2, -1
+@ drivers/firmware/efi/libstub/unaccepted_memory.c, -2, -1
+@ drivers/firmware/efi/libstub/x86-stub.h, -2, -1
+@ drivers/firmware/efi/unaccepted_memory.c, -2, -1
+@ drivers/firmware/efi/libstub/x86-stub.c, 987, 956
+- 452, 3, = ,452, 2
+- 472, 21, = ,471, 1
+- 495, 1, = ,474, 0
+- 504, 2, = ,482, 2
+- 507, 11, = ,485, 1
+- 521, 2, = ,489, 0
++ 608, 1, = ,574, 3
++ 610, 0, = ,578, 1
+# 852, 2, = ,821, 2
+@ arch/x86/include/asm/boot.h, 91, 76
++ 43, 0, = ,43, 2
++ 44, 8, = ,46, 5
++ 53, 24, = ,52, 8
+- 88, 0, = ,71, 2
+@ arch/x86/boot/compressed/sev.c, 629, 619
++ 106, 10, = ,106, 0
+- 618, 1, = ,608, 1
+@ arch/x86/boot/compressed/ident_map_64.c, 388, 381
++ 62, 8, = ,62, 0
+- 162, 2, = ,154, 3
+- 171, 1, = ,164, 1

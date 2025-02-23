@@ -1,0 +1,12 @@
+@ llvm/unittests/ProfileData/CoverageMappingTest.cpp, -1, -2
+@ llvm/unittests/ProfileData/InstrProfTest.cpp, -2, -1
+@ llvm/lib/ProfileData/InstrProf.cpp, 1733, 1703
++ 483, 3, = ,483, 1
++ 493, 24, = ,491, 0
+# 589, 3, = ,563, 1
+# 597, 36, = ,569, 34
+@ llvm/include/llvm/ProfileData/InstrProf.h, 1366, 1358
+# 490, 10, = ,490, 11
++ 502, 7, = ,503, 0
++ 563, 1, = ,557, 0
++ 686, 1, = ,679, 0

@@ -1,0 +1,845 @@
+@ browser/app/nsBrowserApp.cpp, -2, -1
+@ browser/app/winlauncher/DllBlocklistInit.cpp, -2, -1
+@ browser/app/winlauncher/DllBlocklistInit.h, -2, -1
+@ dom/base/BodyConsumer.cpp, -2, -1
+@ dom/base/BodyConsumer.h, -2, -1
+@ dom/base/BodyUtil.cpp, -2, -1
+@ dom/base/BodyUtil.h, -2, -1
+@ dom/base/CCGCScheduler.cpp, -2, -1
+@ dom/base/CCGCScheduler.h, -2, -1
+@ dom/base/ChromeUtils.cpp, -1, -2
+@ dom/base/Document.cpp, -2, -1
+@ dom/base/Document.h, -2, -1
+@ dom/base/LinkStyle.cpp, -2, -1
+@ dom/base/LinkStyle.h, -2, -1
+@ dom/base/Navigator.cpp, -2, -1
+@ dom/base/Navigator.h, -2, -1
+@ dom/base/PostMessageEvent.cpp, -2, -1
+@ dom/base/ResizeObserver.cpp, -2, -1
+@ dom/base/StructuredCloneHolder.cpp, -2, -1
+@ dom/base/nsContentSink.cpp, -2, -1
+@ dom/base/nsContentUtils.cpp, -2, -1
+@ dom/base/nsContentUtils.h, -2, -1
+@ dom/base/nsDOMWindowUtils.cpp, -2, -1
+@ dom/base/nsFocusManager.cpp, -2, -1
+@ dom/base/nsFrameLoader.cpp, -2, -1
+@ dom/base/nsGlobalWindowInner.cpp, -2, -1
+@ dom/base/nsGlobalWindowInner.h, -2, -1
+@ dom/base/nsGlobalWindowOuter.cpp, -2, -1
+@ dom/base/nsGlobalWindowOuter.h, -2, -1
+@ dom/base/nsIGlobalObject.h, -2, -1
+@ dom/base/nsINode.cpp, -2, -1
+@ dom/base/nsINode.h, -2, -1
+@ dom/base/nsIScriptObjectPrincipal.h, -2, -1
+@ dom/base/nsJSEnvironment.cpp, -2, -1
+@ dom/base/nsJSUtils.cpp, -2, -1
+@ dom/base/nsRange.cpp, -2, -1
+@ dom/base/nsTreeSanitizer.cpp, -2, -1
+@ dom/base/nsTreeSanitizer.h, -2, -1
+@ dom/base/nsWrapperCache.cpp, -2, -1
+@ dom/bindings/BindingUtils.cpp, -2, -1
+@ dom/bindings/DOMJSClass.h, -2, -1
+@ dom/bindings/ToJSValue.h, -2, -1
+@ dom/canvas/CanvasRenderingContext2D.cpp, -2, -1
+@ dom/canvas/CanvasRenderingContext2D.h, -2, -1
+@ dom/canvas/CanvasUtils.cpp, -2, -1
+@ dom/canvas/CanvasUtils.h, -2, -1
+@ dom/canvas/ClientWebGLContext.cpp, -2, -1
+@ dom/canvas/ClientWebGLContext.h, -2, -1
+@ dom/canvas/DrawTargetWebgl.cpp, -2, -1
+@ dom/canvas/DrawTargetWebgl.h, -2, -1
+@ dom/canvas/HostWebGLContext.h, -2, -1
+@ dom/canvas/ImageBitmap.cpp, -2, -1
+@ dom/canvas/ImageBitmap.h, -2, -1
+@ dom/canvas/ImageUtils.cpp, -2, -1
+@ dom/canvas/OffscreenCanvasDisplayHelper.cpp, -2, -1
+@ dom/canvas/OffscreenCanvasRenderingContext2D.cpp, -2, -1
+@ dom/canvas/OffscreenCanvasRenderingContext2D.h, -2, -1
+@ dom/canvas/TexUnpackBlob.cpp, -2, -1
+@ dom/canvas/WebGLChild.cpp, -2, -1
+@ dom/canvas/WebGLContext.cpp, -2, -1
+@ dom/canvas/WebGLContext.h, -2, -1
+@ dom/canvas/WebGLIpdl.h, -2, -1
+@ dom/canvas/WebGLParent.cpp, -2, -1
+@ dom/canvas/WebGLParent.h, -2, -1
+@ dom/canvas/WebGLQueueParamTraits.h, -2, -1
+@ dom/canvas/WebGLTypes.h, -2, -1
+@ dom/canvas/nsICanvasRenderingContextInternal.cpp, -2, -1
+@ dom/canvas/nsICanvasRenderingContextInternal.h, -2, -1
+@ dom/indexedDB/ActorsChild.cpp, -2, -1
+@ dom/indexedDB/ActorsParent.cpp, -2, -1
+@ dom/indexedDB/ActorsParent.h, -2, -1
+@ dom/indexedDB/ActorsParentCommon.cpp, -2, -1
+@ dom/indexedDB/FileInfoManager.h, -2, -1
+@ dom/indexedDB/IDBDatabase.cpp, -2, -1
+@ dom/indexedDB/IDBDatabase.h, -2, -1
+@ dom/indexedDB/IDBFactory.cpp, -2, -1
+@ dom/indexedDB/IDBFactory.h, -2, -1
+@ dom/indexedDB/IDBRequest.cpp, -2, -1
+@ dom/indexedDB/IDBRequest.h, -2, -1
+@ dom/indexedDB/IndexedDatabaseManager.cpp, -2, -1
+@ dom/indexedDB/IndexedDatabaseManager.h, -2, -1
+@ dom/ipc/BrowserChild.cpp, -2, -1
+@ dom/ipc/BrowserParent.cpp, -2, -1
+@ dom/ipc/BrowserParent.h, -2, -1
+@ dom/ipc/ContentChild.cpp, -2, -1
+@ dom/ipc/ContentChild.h, -2, -1
+@ dom/ipc/ContentParent.cpp, -2, -1
+@ dom/ipc/ContentParent.h, -2, -1
+@ dom/ipc/ProcessActor.cpp, -1, -2
+@ dom/ipc/WindowGlobalActor.cpp, -1, -2
+@ dom/push/PushManager.cpp, -2, -1
+@ dom/push/PushManager.h, -2, -1
+@ dom/script/ScriptLoadHandler.cpp, -2, -1
+@ dom/script/ScriptLoadHandler.h, -2, -1
+@ dom/script/ScriptLoader.h, -2, -1
+@ dom/security/ReferrerInfo.cpp, -2, -1
+@ dom/security/nsContentSecurityManager.cpp, -2, -1
+@ dom/security/nsContentSecurityManager.h, -2, -1
+@ dom/security/nsContentSecurityUtils.cpp, -2, -1
+@ dom/security/nsMixedContentBlocker.cpp, -2, -1
+@ dom/system/IOUtils.h, -2, -1
+@ dom/system/OSFileConstants.cpp, -1, -2
+@ dom/system/nsDeviceSensors.cpp, -2, -1
+@ dom/xul/XULResizerElement.cpp, -2, -1
+@ dom/xul/XULResizerElement.h, -2, -1
+@ dom/xul/nsXULPrototypeCache.cpp, -1, -2
+@ gfx/2d/2D.h, -2, -1
+@ gfx/2d/MacIOSurface.cpp, -2, -1
+@ gfx/2d/MacIOSurface.h, -2, -1
+@ gfx/layers/AnimationHelper.cpp, -2, -1
+@ gfx/layers/BufferTexture.cpp, -2, -1
+@ gfx/layers/BufferTexture.h, -2, -1
+@ gfx/layers/CanvasRenderer.cpp, -2, -1
+@ gfx/layers/CanvasRenderer.h, -2, -1
+@ gfx/layers/CompositorTypes.h, -2, -1
+@ gfx/layers/FrameMetrics.h, -2, -1
+@ gfx/layers/ImageContainer.cpp, -2, -1
+@ gfx/layers/ImageTypes.h, -2, -1
+@ gfx/layers/LayersTypes.cpp, -2, -1
+@ gfx/layers/LayersTypes.h, -2, -1
+@ gfx/layers/NativeLayerCA.h, -2, -1
+@ gfx/layers/NativeLayerWayland.cpp, -2, -1
+@ gfx/layers/PersistentBufferProvider.cpp, -2, -1
+@ gfx/layers/PersistentBufferProvider.h, -2, -1
+@ gfx/layers/RepaintRequest.h, -2, -1
+@ gfx/layers/ShareableCanvasRenderer.cpp, -2, -1
+@ gfx/layers/ShareableCanvasRenderer.h, -2, -1
+@ gfx/layers/apz/src/APZCTreeManager.cpp, -2, -1
+@ gfx/layers/apz/src/APZCTreeManager.h, -2, -1
+@ gfx/layers/apz/src/AsyncPanZoomController.cpp, -2, -1
+@ gfx/layers/apz/src/AsyncPanZoomController.h, -2, -1
+@ gfx/layers/apz/src/IAPZHitTester.cpp, -2, -1
+@ gfx/layers/apz/src/IAPZHitTester.h, -2, -1
+@ gfx/layers/apz/src/SimpleVelocityTracker.cpp, -2, -1
+@ gfx/layers/apz/src/SmoothMsdScrollAnimation.cpp, -2, -1
+@ gfx/layers/apz/src/SmoothMsdScrollAnimation.h, -2, -1
+@ gfx/layers/ipc/CompositableForwarder.h, -2, -1
+@ gfx/layers/ipc/CompositableTransactionParent.cpp, -2, -1
+@ gfx/layers/ipc/CompositableTransactionParent.h, -2, -1
+@ gfx/layers/ipc/CompositorBridgeChild.cpp, -2, -1
+@ gfx/layers/ipc/CompositorBridgeChild.h, -2, -1
+@ gfx/layers/ipc/CompositorBridgeParent.cpp, -2, -1
+@ gfx/layers/ipc/CompositorBridgeParent.h, -2, -1
+@ gfx/layers/ipc/ISurfaceAllocator.cpp, -2, -1
+@ gfx/layers/ipc/ISurfaceAllocator.h, -2, -1
+@ gfx/layers/ipc/ImageBridgeChild.cpp, -2, -1
+@ gfx/layers/ipc/ImageBridgeChild.h, -2, -1
+@ gfx/layers/ipc/ImageBridgeParent.cpp, -2, -1
+@ gfx/layers/ipc/ImageBridgeParent.h, -2, -1
+@ gfx/layers/ipc/LayersMessageUtils.h, -2, -1
+@ gfx/layers/ipc/RefCountedShmem.cpp, -2, -1
+@ gfx/layers/ipc/UiCompositorControllerParent.cpp, -2, -1
+@ gfx/layers/ipc/VideoBridgeChild.cpp, -2, -1
+@ gfx/layers/ipc/VideoBridgeChild.h, -2, -1
+@ gfx/layers/ipc/VideoBridgeParent.cpp, -2, -1
+@ gfx/layers/ipc/VideoBridgeParent.h, -2, -1
+@ gfx/thebes/gfxBaseSharedMemorySurface.h, -2, -1
+@ gfx/thebes/gfxDWriteFontList.cpp, -2, -1
+@ gfx/thebes/gfxEnv.h, -2, -1
+@ gfx/thebes/gfxFT2FontList.cpp, -2, -1
+@ gfx/thebes/gfxFcPlatformFontList.cpp, -2, -1
+@ gfx/thebes/gfxFont.cpp, -2, -1
+@ gfx/thebes/gfxFont.h, -2, -1
+@ gfx/thebes/gfxFontEntry.cpp, -2, -1
+@ gfx/thebes/gfxFontEntry.h, -2, -1
+@ gfx/thebes/gfxFontUtils.cpp, -2, -1
+@ gfx/thebes/gfxFontUtils.h, -2, -1
+@ gfx/thebes/gfxGDIFontList.cpp, -2, -1
+@ gfx/thebes/gfxGlyphExtents.cpp, -2, -1
+@ gfx/thebes/gfxGlyphExtents.h, -2, -1
+@ gfx/thebes/gfxGradientCache.cpp, -2, -1
+@ gfx/thebes/gfxPlatform.h, -2, -1
+@ gfx/thebes/gfxPlatformFontList.cpp, -2, -1
+@ gfx/thebes/gfxPlatformFontList.h, -2, -1
+@ gfx/thebes/gfxPlatformGtk.cpp, -2, -1
+@ gfx/thebes/gfxPlatformGtk.h, -2, -1
+@ gfx/thebes/gfxTextRun.cpp, -2, -1
+@ gfx/thebes/gfxTextRun.h, -2, -1
+@ gfx/thebes/gfxUserFontSet.cpp, -2, -1
+@ gfx/thebes/gfxUserFontSet.h, -2, -1
+@ ipc/glue/BackgroundChildImpl.cpp, -2, -1
+@ ipc/glue/BackgroundChildImpl.h, -2, -1
+@ ipc/glue/BackgroundParentImpl.cpp, -2, -1
+@ ipc/glue/BackgroundParentImpl.h, -2, -1
+@ ipc/glue/GeckoChildProcessHost.cpp, -2, -1
+@ ipc/glue/IPCMessageUtilsSpecializations.h, -2, -1
+@ ipc/glue/IdleSchedulerChild.cpp, -2, -1
+@ ipc/glue/IdleSchedulerParent.cpp, -2, -1
+@ ipc/glue/IdleSchedulerParent.h, -2, -1
+@ ipc/glue/ProtocolUtils.cpp, -2, -1
+@ ipc/glue/ProtocolUtils.h, -2, -1
+@ ipc/glue/SharedMemory.h, -2, -1
+@ ipc/glue/SharedMemoryBasic_android.h, -2, -1
+@ ipc/glue/SharedMemoryBasic_chromium.h, -2, -1
+@ ipc/glue/SharedMemoryBasic_mach.h, -2, -1
+@ ipc/glue/Shmem.cpp, -2, -1
+@ ipc/glue/Shmem.h, -2, -1
+@ ipc/glue/UtilityAudioDecoderChild.cpp, -2, -1
+@ ipc/glue/UtilityAudioDecoderChild.h, -2, -1
+@ ipc/glue/UtilityAudioDecoderParent.cpp, -2, -1
+@ js/xpconnect/loader/ScriptPreloader.h, -2, -1
+@ js/xpconnect/loader/mozJSSubScriptLoader.cpp, -1, -2
+@ js/xpconnect/loader/nsImportModule.cpp, -1, -2
+@ js/xpconnect/src/BackstagePass.h, -2, -1
+@ js/xpconnect/src/ExportHelpers.cpp, -2, -1
+@ js/xpconnect/src/Sandbox.cpp, -2, -1
+@ js/xpconnect/src/SandboxPrivate.h, -2, -1
+@ js/xpconnect/src/XPCComponents.cpp, -1, -2
+@ js/xpconnect/src/XPCException.cpp, -2, -1
+@ js/xpconnect/src/XPCShellImpl.cpp, -2, -1
+@ js/xpconnect/src/XPCWrappedNativeJSOps.cpp, -2, -1
+@ js/xpconnect/src/xpcprivate.h, -2, -1
+@ js/xpconnect/tests/components/native/xpctest_module.cpp, -2, -1
+@ js/xpconnect/tests/components/native/xpctest_params.cpp, -1, -2
+@ js/xpconnect/tests/components/native/xpctest_private.h, -2, -1
+@ js/xpconnect/tests/components/native/xpctest_returncode.cpp, -1, -2
+@ layout/generic/BlockReflowState.cpp, -2, -1
+@ layout/generic/BlockReflowState.h, -2, -1
+@ layout/generic/ReflowInput.cpp, -2, -1
+@ layout/generic/ReflowInput.h, -2, -1
+@ layout/generic/ScrollPositionUpdate.cpp, -2, -1
+@ layout/generic/ScrollPositionUpdate.h, -2, -1
+@ layout/generic/ScrollSnap.cpp, -2, -1
+@ layout/generic/ScrollSnap.h, -2, -1
+@ layout/generic/ViewportFrame.cpp, -2, -1
+@ layout/generic/nsAbsoluteContainingBlock.cpp, -2, -1
+@ layout/generic/nsBlockDebugFlags.h, -2, -1
+@ layout/generic/nsBlockFrame.cpp, -2, -1
+@ layout/generic/nsBlockFrame.h, -2, -1
+@ layout/generic/nsBlockReflowContext.cpp, -2, -1
+@ layout/generic/nsBlockReflowContext.h, -2, -1
+@ layout/generic/nsCanvasFrame.cpp, -2, -1
+@ layout/generic/nsCanvasFrame.h, -2, -1
+@ layout/generic/nsFloatManager.cpp, -2, -1
+@ layout/generic/nsFloatManager.h, -2, -1
+@ layout/generic/nsHTMLCanvasFrame.cpp, -2, -1
+@ layout/generic/nsIFrame.cpp, -2, -1
+@ layout/generic/nsIFrame.h, -2, -1
+@ layout/generic/nsIScrollableFrame.h, -2, -1
+@ layout/generic/nsImageFrame.cpp, -2, -1
+@ layout/generic/nsImageFrame.h, -2, -1
+@ layout/generic/nsLineLayout.cpp, -2, -1
+@ layout/generic/nsPageContentFrame.cpp, -2, -1
+@ layout/generic/nsSubDocumentFrame.cpp, -2, -1
+@ layout/generic/nsTextFrame.cpp, -2, -1
+@ layout/generic/nsVideoFrame.cpp, -2, -1
+@ layout/painting/nsCSSRendering.cpp, -2, -1
+@ layout/painting/nsCSSRendering.h, -2, -1
+@ layout/painting/nsCSSRenderingBorders.cpp, -2, -1
+@ layout/painting/nsDisplayList.h, -2, -1
+@ layout/painting/nsDisplayListInvalidation.cpp, -2, -1
+@ layout/painting/nsDisplayListInvalidation.h, -2, -1
+@ layout/painting/nsImageRenderer.cpp, -2, -1
+@ layout/svg/CSSClipPathInstance.cpp, -2, -1
+@ layout/svg/SVGGeometryFrame.cpp, -2, -1
+@ layout/svg/SVGGeometryFrame.h, -2, -1
+@ layout/svg/SVGImageContext.cpp, -2, -1
+@ layout/svg/SVGImageContext.h, -2, -1
+@ layout/svg/SVGImageFrame.cpp, -2, -1
+@ layout/svg/SVGObserverUtils.cpp, -2, -1
+@ layout/svg/SVGOuterSVGFrame.cpp, -2, -1
+@ layout/svg/SVGTextFrame.cpp, -2, -1
+@ memory/build/mozjemalloc.cpp, -2, -1
+@ modules/libpref/Preferences.cpp, -2, -1
+@ mozglue/build/AsanOptions.cpp, -1, -2
+@ netwerk/dns/ChildDNSService.cpp, -2, -1
+@ netwerk/dns/DNSPacket.cpp, -2, -1
+@ netwerk/dns/DNSPacket.h, -2, -1
+@ netwerk/dns/TRR.cpp, -2, -1
+@ netwerk/dns/nsDNSService2.cpp, -2, -1
+@ netwerk/dns/nsHostRecord.h, -2, -1
+@ netwerk/dns/nsHostResolver.cpp, -2, -1
+@ security/manager/ssl/SSLServerCertVerification.cpp, -2, -1
+@ security/manager/ssl/nsNSSComponent.cpp, -2, -1
+@ security/manager/ssl/nsNSSIOLayer.cpp, -2, -1
+@ security/manager/ssl/nsNSSIOLayer.h, -2, -1
+@ security/manager/ssl/nsSiteSecurityService.cpp, -2, -1
+@ security/manager/ssl/nsSiteSecurityService.h, -2, -1
+@ storage/mozStorageAsyncStatementJSHelper.cpp, -2, -1
+@ storage/mozStorageStatementJSHelper.cpp, -2, -1
+@ toolkit/components/backgroundtasks/BackgroundTasks.cpp, -2, -1
+@ toolkit/components/backgroundtasks/BackgroundTasks.h, -2, -1
+@ toolkit/components/ctypes/ctypes.cpp, -1, -2
+@ toolkit/xre/nsAppRunner.h, -2, -1
+@ toolkit/xre/nsXREDirProvider.cpp, -2, -1
+@ toolkit/xre/nsXREDirProvider.h, -2, -1
+@ uriloader/exthandler/ContentHandlerService.cpp, -1, -2
+@ uriloader/exthandler/ContentHandlerService.h, -1, -2
+@ uriloader/exthandler/ExternalHelperAppParent.h, -2, -1
+@ uriloader/exthandler/nsExternalHelperAppService.h, -2, -1
+@ uriloader/exthandler/nsOSHelperAppServiceChild.cpp, -2, -1
+@ widget/GfxDriverInfo.cpp, -2, -1
+@ widget/GfxDriverInfo.h, -2, -1
+@ widget/GfxInfoBase.h, -2, -1
+@ widget/MouseEvents.h, -2, -1
+@ widget/Theme.cpp, -2, -1
+@ widget/VsyncDispatcher.cpp, -2, -1
+@ widget/VsyncDispatcher.h, -2, -1
+@ widget/android/EventDispatcher.cpp, -2, -1
+@ widget/android/GeckoViewSupport.h, -2, -1
+@ widget/android/WebExecutorSupport.cpp, -2, -1
+@ widget/android/nsWindow.cpp, -2, -1
+@ widget/android/nsWindow.h, -2, -1
+@ widget/cocoa/nsNativeThemeColors.h, -2, -1
+@ widget/gtk/DMABufSurface.cpp, -2, -1
+@ widget/gtk/MozContainerWayland.cpp, -2, -1
+@ widget/gtk/ScreenHelperGTK.cpp, -2, -1
+@ widget/gtk/ScreenHelperGTK.h, -2, -1
+@ widget/gtk/WaylandBuffer.cpp, -2, -1
+@ widget/gtk/nsGtkUtils.h, -2, -1
+@ widget/gtk/nsWindow.cpp, -2, -1
+@ widget/gtk/nsWindow.h, -2, -1
+@ widget/nsBaseClipboard.cpp, -2, -1
+@ widget/nsBaseClipboard.h, -2, -1
+@ widget/nsBaseDragService.cpp, -2, -1
+@ widget/nsBaseWidget.cpp, -2, -1
+@ widget/nsBaseWidget.h, -2, -1
+@ widget/nsIWidget.h, -2, -1
+@ widget/nsNativeTheme.cpp, -2, -1
+@ widget/nsPrintSettingsImpl.h, -2, -1
+@ widget/nsPrintSettingsService.cpp, -2, -1
+@ widget/nsWidgetInitData.h, -2, -1
+@ widget/windows/ToastNotification.cpp, -2, -1
+@ widget/windows/ToastNotification.h, -2, -1
+@ widget/windows/ToastNotificationHandler.cpp, -2, -1
+@ widget/windows/ToastNotificationHandler.h, -2, -1
+@ widget/windows/WinMessages.h, -2, -1
+@ widget/windows/WinWindowOcclusionTracker.cpp, -2, -1
+@ widget/windows/nsFilePicker.cpp, -2, -1
+@ widget/windows/nsWindow.cpp, -2, -1
+@ widget/windows/nsWindow.h, -2, -1
+@ widget/windows/nsWindowDefs.h, -2, -1
+@ widget/windows/nsWindowGfx.cpp, -2, -1
+@ xpcom/build/IOInterposer.cpp, -2, -1
+@ xpcom/build/IOInterposer.h, -2, -1
+@ xpcom/build/PoisonIOInterposerWin.cpp, -2, -1
+@ xpcom/build/nsXPCOM.h, -2, -1
+@ xpcom/components/GenericFactory.h, -2, -1
+@ xpcom/components/ManifestParser.cpp, -1, -2
+@ xpcom/components/ModuleUtils.h, -2, -1
+@ dom/ipc/jsactor/JSActorManager.cpp, -1, -2
+@ xpcom/components/nsComponentManager.h, 219, 279
++ 54, 0, = ,54, 2
+# 140, 0, = ,142, 48
+- 158, 0, = ,208, 4
+- 171, 0, = ,225, 2
++ 201, 0, = ,257, 3
++ 204, 1, = ,263, 1
++ 212, 1, = ,271, 2
+@ xpcom/components/nsComponentManager.cpp, 1561, 1970
+- 41, 0, = ,41, 1
++ 166, 1, = ,167, 1
++ 205, 2, = ,206, 2
++ 208, 1, = ,209, 6
+# 261, 1, = ,267, 1
++ 269, 0, = ,275, 21
++ 337, 0, = ,364, 2
++ 339, 0, = ,368, 15
++ 442, 1, = ,486, 0
++ 449, 0, = ,492, 2
+# 489, 0, = ,534, 143
+- 515, 0, = ,703, 74
+# 538, 0, = ,800, 43
+# 552, 0, = ,857, 2
++ 555, 0, = ,862, 1
++ 620, 1, = ,928, 1
++ 1203, 1, = ,1511, 1
++ 1207, 1, = ,1515, 1
++ 1259, 0, = ,1567, 21
++ 1291, 0, = ,1620, 6
++ 1335, 0, = ,1670, 1
+# 1339, 0, = ,1675, 5
+# 1345, 0, = ,1686, 2
++ 1353, 0, = ,1696, 4
++ 1354, 1, = ,1701, 15
++ 1359, 0, = ,1720, 33
++ 1374, 1, = ,1768, 2
++ 1412, 0, = ,1807, 14
+@ xpcom/components/Module.h, 77, 168
++ 11, 0, = ,11, 3
++ 14, 1, = ,17, 0
+# 16, 2, = ,18, 4
++ 19, 6, = ,23, 12
++ 27, 6, = ,37, 2
++ 34, 23, = ,40, 123
++ 59, 15, = ,165, 0
+@ xpcom/build/nsXULAppAPI.h, 469, 482
++ 31, 0, = ,31, 1
++ 222, 0, = ,223, 5
++ 255, 0, = ,261, 7
+@ xpcom/build/XPCOMInit.cpp, 797, 823
+- 21, 1, = ,21, 1
++ 43, 0, = ,43, 2
++ 154, 0, = ,156, 24
+- 666, 1, = ,692, 1
+@ widget/windows/GfxInfo.cpp, 2050, 2088
++ 1787, 1, = ,1787, 1
+# 1793, 0, = ,1793, 38
+@ widget/nsXPLookAndFeel.cpp, 1454, 1454
+# 458, 10, = ,458, 10
+@ widget/gtk/GfxInfo.cpp, 1242, 1231
+# 830, 4, = ,830, 22
++ 837, 19, = ,855, 1
++ 857, 2, = ,857, 1
++ 864, 1, = ,863, 1
++ 866, 1, = ,865, 1
++ 872, 1, = ,871, 1
++ 874, 10, = ,873, 1
++ 1014, 4, = ,1004, 3
+@ widget/gtk/DMABufLibWrapper.h, 223, 225
++ 193, 0, = ,193, 2
+@ widget/gtk/DMABufLibWrapper.cpp, 332, 342
++ 272, 0, = ,272, 10
+@ widget/GfxInfoBase.cpp, 1998, 2000
++ 239, 0, = ,239, 3
++ 510, 0, = ,513, 3
+# 1260, 1, = ,1266, 3
++ 1400, 0, = ,1408, 1
++ 1551, 1, = ,1560, 1
++ 1584, 2, = ,1593, 1
++ 1602, 1, = ,1610, 1
++ 1867, 6, = ,1875, 0
+@ uriloader/exthandler/nsExternalHelperAppService.cpp, 3716, 3705
++ 17, 2, = ,17, 0
++ 26, 1, = ,24, 0
++ 134, 1, = ,131, 1
++ 140, 3, = ,137, 2
++ 144, 1, = ,140, 1
++ 755, 1, = ,751, 1
++ 1288, 1, = ,1284, 0
++ 1467, 1, = ,1462, 1
++ 1648, 2, = ,1643, 3
++ 1863, 3, = ,1859, 0
++ 2054, 1, = ,2047, 1
++ 2059, 1, = ,2052, 1
++ 2091, 1, = ,2084, 1
++ 2108, 1, = ,2101, 1
++ 2118, 1, = ,2111, 1
++ 2173, 3, = ,2166, 4
++ 2206, 3, = ,2200, 4
++ 2227, 2, = ,2222, 2
++ 2269, 1, = ,2264, 1
++ 2311, 1, = ,2306, 1
++ 2360, 2, = ,2355, 2
++ 2366, 1, = ,2361, 1
++ 2368, 1, = ,2363, 0
++ 2453, 1, = ,2447, 1
++ 2459, 1, = ,2453, 1
++ 2469, 6, = ,2463, 2
++ 2476, 1, = ,2466, 1
++ 2478, 1, = ,2468, 0
++ 2750, 1, = ,2739, 0
++ 2799, 2, = ,2787, 3
++ 2821, 1, = ,2810, 1
++ 2839, 2, = ,2828, 2
++ 2855, 2, = ,2844, 2
++ 2869, 2, = ,2858, 2
++ 2884, 2, = ,2873, 2
++ 2897, 1, = ,2886, 1
++ 2916, 2, = ,2905, 2
++ 2959, 2, = ,2948, 2
+@ toolkit/xre/nsEmbedFunctions.cpp, 985, 985
++ 929, 1, = ,929, 1
+@ toolkit/xre/nsAppRunner.cpp, 6205, 6253
++ 2066, 0, = ,2066, 24
++ 4876, 2, = ,4900, 26
+@ security/manager/ssl/StaticHPKPins.h, 1129, 1129
+# 1128, 1, = ,1128, 1
+@ modules/libjar/nsJARChannel.cpp, 1346, 1335
++ 200, 1, = ,200, 0
++ 838, 2, = ,837, 1
++ 844, 9, = ,842, 0
++ 1031, 1, = ,1020, 1
++ 1253, 1, = ,1242, 1
+@ memory/build/Mutex.h, 188, 181
++ 19, 23, = ,19, 0
+- 43, 0, = ,20, 22
+# 44, 4, = ,43, 5
++ 89, 1, = ,89, 1
++ 112, 1, = ,112, 1
++ 140, 1, = ,140, 1
++ 143, 1, = ,143, 1
++ 145, 3, = ,145, 1
++ 171, 4, = ,169, 2
++ 176, 4, = ,172, 1
+@ layout/svg/SVGUtils.cpp, 1706, 1704
++ 807, 3, = ,807, 6
++ 811, 7, = ,814, 2
++ 819, 1, = ,817, 1
+@ layout/painting/nsDisplayList.cpp, 8639, 8681
++ 2179, 2, = ,2179, 2
++ 2188, 1, = ,2188, 1
++ 3430, 0, = ,3430, 2
++ 3565, 1, = ,3567, 1
++ 3570, 0, = ,3572, 2
++ 3599, 0, = ,3603, 8
++ 4037, 1, = ,4049, 6
++ 4039, 6, = ,4056, 2
++ 4229, 0, = ,4242, 5
++ 4244, 0, = ,4262, 2
++ 4254, 1, = ,4274, 1
++ 4258, 0, = ,4278, 2
++ 5214, 8, = ,5236, 0
++ 5229, 4, = ,5243, 2
++ 5259, 4, = ,5271, 2
++ 5280, 4, = ,5290, 2
++ 5298, 1, = ,5306, 1
++ 5303, 1, = ,5311, 1
++ 7925, 0, = ,7933, 2
++ 7952, 0, = ,7962, 12
++ 7976, 0, = ,7998, 2
++ 8335, 0, = ,8359, 16
+# 8349, 1, = ,8389, 2
++ 8357, 0, = ,8398, 1
+@ layout/generic/nsGfxScrollFrame.h, 1869, 1774
++ 62, 2, = ,62, 0
++ 112, 1, = ,110, 0
++ 278, 3, = ,275, 1
++ 325, 9, = ,320, 4
++ 414, 3, = ,404, 2
++ 486, 6, = ,475, 1
++ 532, 2, = ,516, 1
++ 673, 7, = ,656, 0
++ 688, 4, = ,664, 0
++ 832, 31, = ,804, 0
++ 865, 6, = ,806, 0
++ 872, 2, = ,807, 5
++ 876, 1, = ,814, 0
++ 888, 2, = ,825, 1
++ 898, 1, = ,834, 0
++ 1002, 4, = ,937, 0
++ 1114, 5, = ,1045, 2
++ 1199, 2, = ,1127, 1
++ 1202, 2, = ,1129, 1
++ 1309, 1, = ,1235, 1
++ 1313, 6, = ,1239, 0
++ 1455, 4, = ,1375, 0
++ 1598, 5, = ,1514, 2
++ 1680, 2, = ,1593, 1
++ 1683, 2, = ,1595, 1
++ 1796, 1, = ,1707, 1
++ 1800, 6, = ,1711, 0
+@ layout/generic/nsGfxScrollFrame.cpp, 8318, 8124
++ 589, 1, = ,589, 1
++ 1002, 1, = ,1002, 1
++ 1530, 5, = ,1530, 1
++ 1809, 3, = ,1805, 1
++ 1999, 2, = ,1993, 1
++ 2012, 2, = ,2005, 1
++ 2102, 4, = ,2094, 0
++ 2123, 1, = ,2111, 0
++ 2132, 4, = ,2119, 2
++ 2228, 4, = ,2213, 0
++ 2234, 1, = ,2215, 0
++ 2326, 1, = ,2306, 0
++ 2411, 2, = ,2390, 1
++ 2444, 2, = ,2422, 1
++ 2448, 5, = ,2425, 2
++ 2478, 3, = ,2452, 2
++ 2523, 7, = ,2496, 4
++ 2534, 1, = ,2504, 1
++ 2539, 4, = ,2509, 1
++ 2554, 3, = ,2521, 4
++ 2558, 1, = ,2526, 1
++ 2560, 1, = ,2528, 1
++ 2569, 8, = ,2537, 4
++ 2581, 2, = ,2545, 1
++ 2586, 1, = ,2549, 1
++ 2589, 3, = ,2552, 2
++ 2593, 9, = ,2555, 1
++ 2604, 1, = ,2558, 1
++ 2609, 1, = ,2563, 1
++ 2623, 1, = ,2577, 1
++ 2637, 2, = ,2591, 1
++ 2644, 1, = ,2597, 1
++ 2663, 1, = ,2616, 1
++ 2667, 1, = ,2620, 2
++ 2670, 1, = ,2624, 1
++ 4918, 4, = ,4872, 4
++ 4972, 1, = ,4926, 0
++ 4987, 5, = ,4940, 1
++ 5004, 5, = ,4953, 1
++ 5061, 4, = ,5006, 2
++ 5094, 11, = ,5037, 3
++ 5322, 3, = ,5257, 2
++ 5812, 8, = ,5746, 0
++ 5934, 4, = ,5860, 3
++ 7491, 2, = ,7416, 1
++ 7502, 2, = ,7426, 0
++ 7704, 5, = ,7626, 6
++ 7718, 18, = ,7641, 0
++ 7740, 2, = ,7645, 1
++ 7745, 2, = ,7649, 1
++ 7756, 2, = ,7659, 4
++ 7763, 1, = ,7668, 1
++ 7769, 2, = ,7674, 3
++ 7773, 3, = ,7679, 3
++ 7782, 2, = ,7688, 2
++ 7787, 2, = ,7693, 2
++ 7793, 1, = ,7699, 1
++ 7802, 1, = ,7708, 1
++ 7808, 3, = ,7714, 3
++ 7813, 3, = ,7719, 3
++ 7818, 2, = ,7724, 2
++ 7823, 2, = ,7729, 2
++ 7829, 1, = ,7735, 1
++ 7840, 12, = ,7746, 9
++ 7859, 4, = ,7762, 6
++ 7879, 1, = ,7784, 1
++ 7883, 1, = ,7788, 1
++ 7939, 2, = ,7844, 1
++ 7964, 1, = ,7868, 1
++ 7968, 1, = ,7872, 1
++ 7973, 39, = ,7877, 10
++ 8013, 67, = ,7888, 1
++ 8138, 3, = ,7947, 2
++ 8195, 2, = ,8003, 1
++ 8218, 1, = ,8025, 1
++ 8269, 1, = ,8076, 0
++ 8275, 1, = ,8081, 1
+@ js/xpconnect/src/nsXPConnect.cpp, 1097, 1091
+- 22, 1, = ,22, 0
++ 29, 1, = ,28, 0
+- 95, 1, = ,93, 1
+- 176, 1, = ,174, 1
++ 516, 4, = ,514, 0
+@ js/xpconnect/src/XPCWrappedNativeScope.cpp, 497, 492
+- 19, 0, = ,19, 1
++ 22, 1, = ,23, 0
++ 174, 5, = ,174, 0
+@ js/xpconnect/src/XPCJSRuntime.cpp, 3202, 3320
+- 21, 1, = ,21, 1
++ 60, 1, = ,60, 1
++ 106, 1, = ,106, 0
++ 1953, 0, = ,1952, 4
+- 2298, 2, = ,2301, 2
+- 2530, 2, = ,2533, 2
++ 2533, 0, = ,2536, 6
++ 2579, 2, = ,2588, 2
++ 2582, 3, = ,2591, 116
++ 2586, 4, = ,2708, 0
++ 2591, 1, = ,2709, 2
++ 2593, 1, = ,2712, 0
+- 3183, 1, = ,3301, 1
+@ js/xpconnect/src/XPCJSContext.cpp, 1498, 1499
+- 18, 1, = ,18, 1
++ 779, 1, = ,779, 1
++ 805, 1, = ,805, 0
++ 809, 0, = ,808, 1
++ 1006, 2, = ,1006, 3
+@ js/xpconnect/loader/mozJSComponentLoader.h, 245, 238
+- 7, 2, = ,7, 2
+- 14, 0, = ,14, 1
++ 15, 0, = ,16, 1
++ 19, 0, = ,21, 1
+- 22, 0, = ,25, 1
+- 25, 1, = ,29, 1
+- 35, 1, = ,39, 1
+- 49, 0, = ,53, 1
+- 51, 0, = ,56, 4
+- 58, 2, = ,67, 2
++ 84, 14, = ,93, 0
++ 111, 2, = ,106, 0
+- 114, 2, = ,107, 2
+- 120, 1, = ,113, 1
++ 127, 2, = ,120, 0
+- 135, 2, = ,126, 2
+- 138, 1, = ,129, 2
+- 146, 2, = ,138, 3
+- 160, 1, = ,153, 3
+- 163, 1, = ,158, 12
+- 170, 0, = ,176, 2
++ 188, 0, = ,196, 3
+- 192, 0, = ,203, 4
++ 197, 20, = ,212, 3
+- 219, 1, = ,217, 1
+- 222, 0, = ,220, 3
++ 224, 4, = ,225, 0
++ 235, 3, = ,232, 0
++ 239, 1, = ,233, 0
+@ js/xpconnect/loader/mozJSComponentLoader.cpp, 1770, 1764
+- 36, 0, = ,36, 2
+- 37, 1, = ,39, 1
++ 43, 0, = ,45, 1
++ 47, 0, = ,50, 1
++ 51, 1, = ,55, 3
++ 66, 0, = ,72, 2
+- 84, 2, = ,92, 2
+- 262, 1, = ,270, 1
+- 264, 2, = ,272, 3
++ 267, 4, = ,276, 0
+# 273, 3, = ,278, 2
+- 290, 1, = ,294, 1
+- 292, 1, = ,296, 1
+- 294, 1, = ,298, 1
++ 327, 9, = ,331, 0
++ 341, 5, = ,336, 5
+- 381, 2, = ,376, 2
+- 399, 1, = ,394, 1
+- 402, 2, = ,397, 1
+- 411, 1, = ,405, 1
+- 413, 2, = ,407, 98
+- 417, 2, = ,507, 2
+- 434, 1, = ,524, 1
+- 436, 1, = ,526, 1
+- 440, 1, = ,530, 1
+- 451, 1, = ,541, 1
+# 470, 15, = ,560, 1
+- 486, 0, = ,562, 1
++ 489, 4, = ,566, 0
+- 496, 1, = ,569, 1
+- 498, 3, = ,571, 3
+- 542, 2, = ,615, 2
+- 545, 1, = ,618, 1
+- 552, 0, = ,625, 8
+- 555, 3, = ,636, 3
++ 570, 5, = ,651, 0
++ 579, 3, = ,655, 0
++ 593, 8, = ,666, 0
+- 613, 1, = ,678, 1
+- 625, 1, = ,690, 1
+- 633, 1, = ,698, 1
+- 635, 1, = ,700, 1
+- 650, 2, = ,715, 2
+- 674, 1, = ,739, 1
+- 688, 4, = ,753, 2
+- 705, 1, = ,768, 1
+- 733, 1, = ,796, 1
+- 763, 4, = ,826, 5
+- 779, 1, = ,843, 1
+- 786, 1, = ,850, 1
+- 812, 1, = ,876, 1
+- 839, 2, = ,903, 2
+- 919, 1, = ,983, 1
+- 989, 1, = ,1053, 1
++ 1000, 1, = ,1064, 0
++ 1002, 4, = ,1065, 0
+- 1009, 0, = ,1068, 5
+- 1012, 1, = ,1076, 1
+- 1023, 3, = ,1087, 3
+- 1041, 4, = ,1105, 4
+- 1094, 2, = ,1158, 2
+- 1099, 1, = ,1163, 1
+- 1112, 1, = ,1176, 1
+- 1127, 2, = ,1191, 2
+- 1132, 1, = ,1196, 1
+- 1142, 2, = ,1206, 2
+- 1147, 1, = ,1211, 1
+- 1161, 1, = ,1225, 2
+- 1168, 1, = ,1233, 1
+- 1173, 1, = ,1238, 1
+# 1195, 14, = ,1260, 10
+# 1213, 3, = ,1274, 4
++ 1219, 1, = ,1281, 1
+- 1226, 3, = ,1288, 25
+- 1254, 4, = ,1338, 3
+- 1380, 1, = ,1463, 1
+- 1384, 4, = ,1467, 5
+- 1396, 1, = ,1480, 1
++ 1409, 10, = ,1493, 0
++ 1478, 1, = ,1552, 3
+- 1518, 1, = ,1594, 1
++ 1529, 6, = ,1605, 0
++ 1551, 7, = ,1621, 0
++ 1559, 1, = ,1622, 0
+# 1576, 30, = ,1638, 1
++ 1616, 1, = ,1649, 1
++ 1631, 6, = ,1664, 0
++ 1656, 4, = ,1683, 1
++ 1662, 4, = ,1686, 1
++ 1668, 7, = ,1689, 0
+- 1693, 1, = ,1707, 1
+- 1698, 1, = ,1712, 1
+# 1712, 36, = ,1726, 1
+- 1755, 0, = ,1734, 15
+@ js/xpconnect/loader/ComponentModuleLoader.h, 117, 107
+- 13, 1, = ,13, 1
++ 51, 2, = ,51, 0
++ 88, 4, = ,86, 0
++ 102, 1, = ,96, 1
++ 105, 6, = ,99, 2
+@ js/xpconnect/loader/ComponentModuleLoader.cpp, 265, 237
+- 12, 1, = ,12, 1
+- 87, 1, = ,87, 1
+- 96, 1, = ,96, 1
+- 107, 1, = ,107, 1
++ 114, 14, = ,114, 0
++ 131, 1, = ,117, 1
++ 171, 14, = ,157, 0
+@ gfx/thebes/gfxPlatform.cpp, 3691, 3637
++ 14, 1, = ,14, 0
++ 25, 1, = ,24, 0
++ 53, 1, = ,51, 0
++ 378, 1, = ,375, 1
++ 382, 1, = ,379, 1
++ 954, 1, = ,951, 0
++ 1296, 4, = ,1292, 0
++ 1331, 1, = ,1323, 0
++ 1349, 3, = ,1340, 0
++ 2267, 1, = ,2255, 0
++ 2274, 15, = ,2261, 0
++ 2372, 1, = ,2344, 0
++ 2376, 1, = ,2347, 0
++ 2401, 20, = ,2371, 10
++ 2422, 1, = ,2382, 0
++ 2718, 1, = ,2677, 1
+# 2736, 37, = ,2695, 37
++ 2815, 5, = ,2774, 0
++ 2886, 4, = ,2840, 0
++ 3554, 1, = ,3504, 0
++ 3556, 3, = ,3505, 0
+@ gfx/thebes/DeviceManagerDx.cpp, 1369, 1351
++ 36, 1, = ,36, 0
++ 498, 0, = ,497, 1
++ 501, 3, = ,501, 0
++ 508, 21, = ,505, 6
+@ gfx/layers/apz/src/WRHitTester.cpp, 248, 213
++ 170, 1, = ,170, 0
++ 205, 34, = ,204, 0
+@ gfx/config/gfxVars.h, 230, 229
++ 87, 1, = ,87, 1
+# 95, 3, = ,95, 2
+@ gfx/config/gfxFeature.h, 163, 163
++ 42, 1, = ,42, 1
+@ gfx/2d/DrawTargetCairo.cpp, 2012, 2002
++ 887, 11, = ,887, 1
+@ dom/system/IOUtils.cpp, 2589, 2478
++ 44, 1, = ,44, 0
++ 47, 2, = ,46, 0
++ 60, 2, = ,57, 0
++ 850, 26, = ,845, 0
++ 1788, 80, = ,1757, 0
+@ dom/script/ScriptLoader.cpp, 3733, 3679
++ 175, 1, = ,175, 1
++ 282, 7, = ,282, 0
+- 1682, 0, = ,1675, 14
+# 2009, 15, = ,2016, 0
++ 2695, 6, = ,2687, 0
+# 3256, 36, = ,3242, 2
+- 3299, 1, = ,3251, 0
+- 3314, 1, = ,3265, 0
++ 3553, 4, = ,3503, 0
+@ dom/ipc/WindowGlobalParent.cpp, 1575, 1576
+- 36, 0, = ,36, 1
++ 1383, 1, = ,1384, 1

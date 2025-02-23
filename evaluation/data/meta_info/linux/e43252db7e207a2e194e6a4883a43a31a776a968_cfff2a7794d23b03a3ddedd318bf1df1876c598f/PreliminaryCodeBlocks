@@ -1,0 +1,18 @@
+@ sound/soc/codecs/cs35l41-lib.c, -2, -1
+@ sound/soc/codecs/cs35l41.c, -2, -1
+@ sound/soc/codecs/cs35l45.c, -1, -2
+@ sound/soc/codecs/cs35l56-shared.c, -1, -2
+@ sound/soc/codecs/cs42l43.c, -1, -2
+@ sound/soc/codecs/cs43130.h, -2, -1
+@ sound/soc/codecs/rt5645.c, -1, -2
+@ sound/soc/codecs/sigmadsp.c, -2, -1
+@ sound/soc/codecs/wcd-clsh-v2.c, -1, -2
+@ sound/soc/soc-component.c, -2, -1
+@ sound/soc/soc-compress.c, -2, -1
+@ sound/soc/soc-generic-dmaengine-pcm.c, -2, -1
+@ sound/soc/soc-pcm.c, -2, -1
+@ sound/soc/soc-topology.c, -2, -1
+@ sound/soc/amd/yc/acp6x-mach.c, 397, 404
+# 220, 1, = ,220, 8
++ 254, 7, = ,261, 0
+- 331, 0, = ,331, 7

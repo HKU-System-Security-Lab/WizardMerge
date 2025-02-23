@@ -1,0 +1,3561 @@
+@ accessible/base/ARIAMap.h, -2, -1
+@ accessible/base/AccAttributes.h, -2, -1
+@ accessible/base/CacheConstants.h, -2, -1
+@ accessible/base/CachedTableAccessible.cpp, -2, -1
+@ accessible/base/HTMLMarkupMap.h, -2, -1
+@ accessible/base/TextLeafRange.cpp, -2, -1
+@ accessible/base/nsAccessibilityService.cpp, -2, -1
+@ accessible/base/nsAccessibilityService.h, -2, -1
+@ accessible/generic/ARIAGridAccessible.cpp, -2, -1
+@ accessible/generic/ARIAGridAccessible.h, -2, -1
+@ accessible/generic/BaseAccessibles.h, -2, -1
+@ accessible/generic/DocAccessible.h, -2, -1
+@ accessible/generic/HyperTextAccessible.h, -2, -1
+@ accessible/html/HTMLCanvasAccessible.cpp, -2, -1
+@ accessible/html/HTMLCanvasAccessible.h, -2, -1
+@ accessible/html/HTMLElementAccessibles.cpp, -2, -1
+@ accessible/html/HTMLElementAccessibles.h, -2, -1
+@ accessible/html/HTMLLinkAccessible.cpp, -2, -1
+@ accessible/html/HTMLLinkAccessible.h, -2, -1
+@ accessible/html/HTMLListAccessible.cpp, -2, -1
+@ accessible/html/HTMLListAccessible.h, -2, -1
+@ accessible/html/HTMLSelectAccessible.cpp, -2, -1
+@ accessible/html/HTMLSelectAccessible.h, -2, -1
+@ accessible/html/HTMLTableAccessible.cpp, -2, -1
+@ accessible/html/HTMLTableAccessible.h, -2, -1
+@ accessible/ipc/DocAccessibleParent.h, -1, -2
+@ config/msvc-stl-wrapper.template.h, -2, -1
+@ docshell/base/BrowsingContext.h, -2, -1
+@ docshell/base/nsDSURIContentListener.cpp, -2, -1
+@ docshell/base/nsDocShell.h, -2, -1
+@ docshell/base/nsDocShellLoadState.cpp, -2, -1
+@ docshell/base/nsDocShellLoadState.h, -2, -1
+@ dom/base/BarProps.cpp, -2, -1
+@ dom/base/ChromeUtils.cpp, -2, -1
+@ dom/base/ContentIterator.cpp, -2, -1
+@ dom/base/ContentIterator.h, -2, -1
+@ dom/base/CustomElementRegistry.cpp, -2, -1
+@ dom/base/CustomElementRegistry.h, -2, -1
+@ dom/base/DOMIntersectionObserver.cpp, -2, -1
+@ dom/base/Document.h, -2, -1
+@ dom/base/DocumentOrShadowRoot.cpp, -2, -1
+@ dom/base/Element.cpp, -2, -1
+@ dom/base/Element.h, -2, -1
+@ dom/base/FragmentOrElement.cpp, -2, -1
+@ dom/base/FragmentOrElement.h, -2, -1
+@ dom/base/FuzzingFunctions.cpp, -2, -1
+@ dom/base/Highlight.cpp, -2, -1
+@ dom/base/Highlight.h, -2, -1
+@ dom/base/HighlightRegistry.cpp, -2, -1
+@ dom/base/HighlightRegistry.h, -2, -1
+@ dom/base/IdleRequest.cpp, -2, -1
+@ dom/base/LinkStyle.cpp, -2, -1
+@ dom/base/LinkStyle.h, -2, -1
+@ dom/base/Location.h, -2, -1
+@ dom/base/LocationBase.cpp, -2, -1
+@ dom/base/LocationBase.h, -2, -1
+@ dom/base/MimeType.cpp, -2, -1
+@ dom/base/MimeType.h, -2, -1
+@ dom/base/Navigator.cpp, -2, -1
+@ dom/base/PostMessageEvent.cpp, -2, -1
+@ dom/base/RadioGroupManager.cpp, -2, -1
+@ dom/base/RadioGroupManager.h, -2, -1
+@ dom/base/ScreenOrientation.cpp, -2, -1
+@ dom/base/ScriptableContentIterator.h, -2, -1
+@ dom/base/ShadowRoot.h, -2, -1
+@ dom/base/StructuredCloneHolder.cpp, -2, -1
+@ dom/base/ThirdPartyUtil.cpp, -2, -1
+@ dom/base/Timeout.cpp, -2, -1
+@ dom/base/TimeoutManager.cpp, -2, -1
+@ dom/base/WindowDestroyedEvent.cpp, -2, -1
+@ dom/base/WindowDestroyedEvent.h, -2, -1
+@ dom/base/WindowNamedPropertiesHandler.cpp, -2, -1
+@ dom/base/nsAttrValue.cpp, -2, -1
+@ dom/base/nsAttrValue.h, -2, -1
+@ dom/base/nsAttrValueInlines.h, -2, -1
+@ dom/base/nsCCUncollectableMarker.cpp, -2, -1
+@ dom/base/nsContentList.h, -2, -1
+@ dom/base/nsContentPermissionHelper.cpp, -2, -1
+@ dom/base/nsContentSink.cpp, -2, -1
+@ dom/base/nsContentSink.h, -2, -1
+@ dom/base/nsCopySupport.cpp, -2, -1
+@ dom/base/nsDOMMutationObserver.h, -2, -1
+@ dom/base/nsDOMTokenList.cpp, -2, -1
+@ dom/base/nsDOMWindowUtils.cpp, -2, -1
+@ dom/base/nsDeprecatedOperationList.h, -2, -1
+@ dom/base/nsFocusManager.cpp, -2, -1
+@ dom/base/nsGlobalWindowInner.cpp, -2, -1
+@ dom/base/nsGlobalWindowInner.h, -2, -1
+@ dom/base/nsGlobalWindowOuter.h, -2, -1
+@ dom/base/nsINode.cpp, -2, -1
+@ dom/base/nsINode.h, -2, -1
+@ dom/base/nsJSEnvironment.cpp, -2, -1
+@ dom/base/nsJSUtils.cpp, -2, -1
+@ dom/base/nsMimeTypeArray.cpp, -2, -1
+@ dom/base/nsNameSpaceManager.h, -2, -1
+@ dom/base/nsNodeInfoManager.cpp, -2, -1
+@ dom/base/nsNodeInfoManager.h, -2, -1
+@ dom/base/nsObjectLoadingContent.cpp, -2, -1
+@ dom/base/nsPIDOMWindow.h, -2, -1
+@ dom/base/nsPluginArray.cpp, -2, -1
+@ dom/base/nsScreen.cpp, -2, -1
+@ dom/base/nsScreen.h, -2, -1
+@ dom/base/nsSyncLoadService.cpp, -2, -1
+@ dom/base/nsTreeSanitizer.cpp, -2, -1
+@ dom/base/nsWindowMemoryReporter.cpp, -2, -1
+@ dom/base/nsWindowMemoryReporter.h, -2, -1
+@ dom/base/nsWindowRoot.cpp, -2, -1
+@ dom/base/nsWrapperCache.h, -2, -1
+@ dom/canvas/CanvasRenderingContext2D.h, -2, -1
+@ dom/canvas/ClientWebGLContext.cpp, -2, -1
+@ dom/canvas/OffscreenCanvas.cpp, -2, -1
+@ dom/canvas/OffscreenCanvas.h, -2, -1
+@ dom/canvas/WebGLChild.cpp, -2, -1
+@ dom/canvas/WebGLChild.h, -2, -1
+@ dom/canvas/WebGLContext.cpp, -2, -1
+@ dom/canvas/WebGLContext.h, -2, -1
+@ dom/canvas/WebGLContextValidate.cpp, -2, -1
+@ dom/events/ContentEventHandler.cpp, -2, -1
+@ dom/events/ContentEventHandler.h, -2, -1
+@ dom/events/Event.h, -2, -1
+@ dom/events/EventListenerManager.cpp, -2, -1
+@ dom/events/EventListenerManager.h, -2, -1
+@ dom/events/EventNameList.h, -2, -1
+@ dom/events/GlobalKeyListener.cpp, -2, -1
+@ dom/events/GlobalKeyListener.h, -2, -1
+@ dom/events/IMEContentObserver.cpp, -2, -1
+@ dom/events/IMEContentObserver.h, -2, -1
+@ dom/events/IMEStateManager.cpp, -2, -1
+@ dom/events/InternalMutationEvent.h, -2, -1
+@ dom/events/KeyEventHandler.cpp, -2, -1
+@ dom/events/KeyNameList.h, -2, -1
+@ dom/events/KeyboardEvent.cpp, -2, -1
+@ dom/events/MouseEvent.cpp, -2, -1
+@ dom/events/PhysicalKeyCodeNameList.h, -2, -1
+@ dom/events/Touch.cpp, -2, -1
+@ dom/events/UIEvent.cpp, -2, -1
+@ dom/fs/parent/FileSystemContentTypeGuess.cpp, -2, -1
+@ dom/fs/parent/FileSystemContentTypeGuess.h, -2, -1
+@ dom/fs/parent/datamodel/FileSystemDatabaseManagerVersion001.cpp, -2, -1
+@ dom/fs/parent/datamodel/FileSystemDatabaseManagerVersion001.h, -2, -1
+@ dom/fs/parent/datamodel/FileSystemDatabaseManagerVersion002.cpp, -2, -1
+@ dom/html/HTMLBodyElement.cpp, -2, -1
+@ dom/html/HTMLButtonElement.cpp, -2, -1
+@ dom/html/HTMLDialogElement.cpp, -2, -1
+@ dom/html/HTMLDialogElement.h, -2, -1
+@ dom/html/HTMLEmbedElement.cpp, -2, -1
+@ dom/html/HTMLEmbedElement.h, -2, -1
+@ dom/html/HTMLFormControlsCollection.cpp, -2, -1
+@ dom/html/HTMLFormElement.h, -2, -1
+@ dom/html/HTMLFrameSetElement.cpp, -2, -1
+@ dom/html/HTMLImageElement.cpp, -2, -1
+@ dom/html/HTMLInputElement.cpp, -2, -1
+@ dom/html/HTMLLinkElement.cpp, -2, -1
+@ dom/html/HTMLMediaElement.cpp, -2, -1
+@ dom/html/HTMLSlotElement.cpp, -2, -1
+@ dom/html/HTMLStyleElement.cpp, -2, -1
+@ dom/html/ImageDocument.h, -2, -1
+@ dom/html/MediaDocument.cpp, -2, -1
+@ dom/html/MediaDocument.h, -2, -1
+@ dom/html/TextControlState.cpp, -2, -1
+@ dom/html/TextInputListener.h, -2, -1
+@ dom/html/TextTrackManager.cpp, -2, -1
+@ dom/html/VideoDocument.cpp, -2, -1
+@ dom/html/nsGenericHTMLElement.cpp, -2, -1
+@ dom/html/nsHTMLDocument.cpp, -2, -1
+@ dom/html/nsHTMLDocument.h, -2, -1
+@ dom/ipc/BrowserChild.h, -2, -1
+@ dom/ipc/BrowserHost.cpp, -2, -1
+@ dom/ipc/ClonedErrorHolder.cpp, -2, -1
+@ dom/ipc/ClonedErrorHolder.h, -2, -1
+@ dom/ipc/ContentChild.h, -2, -1
+@ dom/ipc/ContentParent.h, -2, -1
+@ dom/ipc/ContentProcess.cpp, -2, -1
+@ dom/ipc/EffectsInfo.h, -2, -1
+@ dom/ipc/ProcessIsolation.cpp, -2, -1
+@ dom/media/ADTSDemuxer.cpp, -2, -1
+@ dom/media/AudioConfig.cpp, -2, -1
+@ dom/media/AudioConfig.h, -2, -1
+@ dom/media/AudioSampleFormat.h, -2, -1
+@ dom/media/BufferReader.h, -2, -1
+@ dom/media/CubebUtils.cpp, -2, -1
+@ dom/media/DecoderTraits.cpp, -2, -1
+@ dom/media/DecoderTraits.h, -2, -1
+@ dom/media/GraphDriver.cpp, -2, -1
+@ dom/media/MediaData.h, -2, -1
+@ dom/media/MediaDecoderStateMachine.cpp, -2, -1
+@ dom/media/MediaFormatReader.cpp, -2, -1
+@ dom/media/MediaFormatReader.h, -2, -1
+@ dom/media/MediaInfo.h, -2, -1
+@ dom/media/MediaManager.cpp, -2, -1
+@ dom/media/TimeUnits.cpp, -2, -1
+@ dom/media/TimeUnits.h, -2, -1
+@ dom/media/VideoUtils.cpp, -2, -1
+@ dom/media/VideoUtils.h, -2, -1
+@ dom/media/gmp/GMPChild.cpp, -2, -1
+@ dom/media/gmp/GMPChild.h, -2, -1
+@ dom/media/gmp/GMPContentChild.h, -2, -1
+@ dom/media/gmp/GMPContentParent.cpp, -2, -1
+@ dom/media/gmp/GMPContentParent.h, -2, -1
+@ dom/media/gmp/GMPProcessChild.cpp, -2, -1
+@ dom/media/gmp/GMPProcessChild.h, -2, -1
+@ dom/media/gmp/GMPProcessParent.cpp, -2, -1
+@ dom/media/gmp/GMPProcessParent.h, -2, -1
+@ dom/media/gmp/GMPService.cpp, -2, -1
+@ dom/media/gmp/GMPService.h, -2, -1
+@ dom/media/gmp/GMPServiceChild.cpp, -2, -1
+@ dom/media/gmp/GMPServiceChild.h, -2, -1
+@ dom/media/gmp/GMPServiceParent.h, -2, -1
+@ dom/media/gtest/TestAudioDeviceEnumerator.cpp, -2, -1
+@ dom/media/gtest/TestAudioInputSource.cpp, -2, -1
+@ dom/media/gtest/TestDeviceInputTrack.cpp, -2, -1
+@ dom/media/gtest/TestMP3Demuxer.cpp, -2, -1
+@ dom/media/gtest/TestMediaDataDecoder.cpp, -2, -1
+@ dom/media/gtest/TestTimeUnit.cpp, -2, -1
+@ dom/media/mediasink/AudioSink.cpp, -2, -1
+@ dom/media/mediasink/AudioSink.h, -2, -1
+@ dom/media/mediasink/AudioSinkWrapper.h, -2, -1
+@ dom/media/mediasink/MediaSink.h, -2, -1
+@ dom/media/mediasink/VideoSink.cpp, -2, -1
+@ dom/media/mediasink/VideoSink.h, -2, -1
+@ dom/media/mp4/DecoderData.cpp, -2, -1
+@ dom/media/mp4/MP4Metadata.cpp, -2, -1
+@ dom/media/mp4/MoofParser.h, -2, -1
+@ dom/serviceworkers/ServiceWorkerPrivate.cpp, -2, -1
+@ dom/workers/RuntimeService.cpp, -2, -1
+@ dom/workers/ScriptLoader.cpp, -2, -1
+@ dom/workers/Worker.cpp, -2, -1
+@ dom/workers/WorkerError.cpp, -2, -1
+@ dom/workers/WorkerError.h, -2, -1
+@ dom/workers/WorkerLoadInfo.cpp, -2, -1
+@ dom/workers/WorkerLoadInfo.h, -2, -1
+@ dom/workers/WorkerPrivate.cpp, -2, -1
+@ dom/workers/WorkerPrivate.h, -2, -1
+@ gfx/2d/DrawTargetRecording.cpp, -2, -1
+@ gfx/2d/HelpersD2D.h, -2, -1
+@ gfx/2d/PathRecording.cpp, -2, -1
+@ gfx/2d/PathRecording.h, -2, -1
+@ gfx/layers/D3D9SurfaceImage.cpp, -2, -1
+@ gfx/thebes/DeviceManagerDx.cpp, -2, -1
+@ gfx/thebes/DeviceManagerDx.h, -2, -1
+@ gfx/thebes/PrintTargetPDF.cpp, -2, -1
+@ gfx/thebes/PrintTargetPDF.h, -2, -1
+@ gfx/thebes/d3dkmtQueryStatistics.h, -2, -1
+@ gfx/thebes/gfxFont.cpp, -2, -1
+@ gfx/thebes/gfxFont.h, -2, -1
+@ gfx/thebes/gfxMacFont.cpp, -2, -1
+@ gfx/thebes/gfxPlatform.cpp, -2, -1
+@ gfx/thebes/gfxWindowsPlatform.cpp, -2, -1
+@ gfx/thebes/gfxWindowsPlatform.h, -2, -1
+@ js/public/AllocPolicy.h, -2, -1
+@ js/public/CompileOptions.h, -2, -1
+@ js/public/ErrorReport.h, -2, -1
+@ js/public/HeapAPI.h, -2, -1
+@ js/public/JitCodeAPI.h, -2, -1
+@ js/public/MemoryMetrics.h, -2, -1
+@ js/public/Modules.h, -2, -1
+@ js/public/OffThreadScriptCompilation.h, -2, -1
+@ js/public/RealmOptions.h, -2, -1
+@ js/public/SavedFrameAPI.h, -2, -1
+@ js/public/TracingAPI.h, -2, -1
+@ js/public/UbiNode.h, -2, -1
+@ js/src/builtin/AtomicsObject.cpp, -2, -1
+@ js/src/builtin/Boolean.cpp, -2, -1
+@ js/src/builtin/Eval.cpp, -2, -1
+@ js/src/builtin/FinalizationRegistryObject.cpp, -2, -1
+@ js/src/builtin/HandlerFunction-inl.h, -2, -1
+@ js/src/builtin/MapObject.cpp, -2, -1
+@ js/src/builtin/MapObject.h, -2, -1
+@ js/src/builtin/ModuleObject.cpp, -2, -1
+@ js/src/builtin/ModuleObject.h, -2, -1
+@ js/src/builtin/Object.cpp, -2, -1
+@ js/src/builtin/Promise.cpp, -2, -1
+@ js/src/builtin/ReflectParse.cpp, -2, -1
+@ js/src/builtin/RegExp.cpp, -2, -1
+@ js/src/builtin/RegExp.h, -2, -1
+@ js/src/builtin/ShadowRealm.cpp, -2, -1
+@ js/src/builtin/String.cpp, -2, -1
+@ js/src/builtin/Symbol.cpp, -2, -1
+@ js/src/builtin/TestingFunctions.cpp, -2, -1
+@ js/src/builtin/TestingUtility.cpp, -2, -1
+@ js/src/frontend/AsyncEmitter.cpp, -2, -1
+@ js/src/frontend/BytecodeCompiler.cpp, -2, -1
+@ js/src/frontend/BytecodeCompiler.h, -2, -1
+@ js/src/frontend/BytecodeEmitter.cpp, -2, -1
+@ js/src/frontend/BytecodeSection.cpp, -2, -1
+@ js/src/frontend/BytecodeSection.h, -2, -1
+@ js/src/frontend/CompilationStencil.h, -2, -1
+@ js/src/frontend/CompileScript.cpp, -2, -1
+@ js/src/frontend/EitherParser.h, -2, -1
+@ js/src/frontend/EmitterScope.cpp, -2, -1
+@ js/src/frontend/ErrorReporter.h, -2, -1
+@ js/src/frontend/Frontend2.cpp, -2, -1
+@ js/src/frontend/FrontendContext.cpp, -2, -1
+@ js/src/frontend/FrontendContext.h, -2, -1
+@ js/src/frontend/FunctionEmitter.cpp, -2, -1
+@ js/src/frontend/ObjectEmitter.cpp, -2, -1
+@ js/src/frontend/ParseContext.cpp, -2, -1
+@ js/src/frontend/ParseContext.h, -2, -1
+@ js/src/frontend/Parser.cpp, -2, -1
+@ js/src/frontend/Parser.h, -2, -1
+@ js/src/frontend/ParserAtom.cpp, -2, -1
+@ js/src/frontend/ParserAtom.h, -2, -1
+@ js/src/frontend/PrivateOpEmitter.cpp, -2, -1
+@ js/src/frontend/SharedContext.h, -2, -1
+@ js/src/frontend/SourceNotes.h, -2, -1
+@ js/src/frontend/Stencil.cpp, -2, -1
+@ js/src/frontend/Stencil.h, -2, -1
+@ js/src/frontend/TokenStream.cpp, -2, -1
+@ js/src/frontend/TokenStream.h, -2, -1
+@ js/src/frontend/UsedNameTracker.h, -2, -1
+@ js/src/gc/AtomMarking.cpp, -2, -1
+@ js/src/gc/Barrier.h, -2, -1
+@ js/src/gc/Compacting.cpp, -2, -1
+@ js/src/gc/GCMarker.h, -2, -1
+@ js/src/gc/Marking-inl.h, -2, -1
+@ js/src/gc/Marking.cpp, -2, -1
+@ js/src/gc/Nursery.cpp, -2, -1
+@ js/src/gc/Nursery.h, -2, -1
+@ js/src/gc/ParallelMarking.cpp, -2, -1
+@ js/src/gc/Statistics.cpp, -2, -1
+@ js/src/gc/StoreBuffer.cpp, -2, -1
+@ js/src/gc/StoreBuffer.h, -2, -1
+@ js/src/gc/Sweeping.cpp, -2, -1
+@ js/src/gc/Tenuring.cpp, -2, -1
+@ js/src/gc/Tenuring.h, -2, -1
+@ js/src/gc/Tracer.h, -2, -1
+@ js/src/gc/Zone.cpp, -2, -1
+@ js/src/gc/Zone.h, -2, -1
+@ js/src/jit/ABIFunctionList-inl.h, -2, -1
+@ js/src/jit/AutoWritableJitCode.h, -2, -1
+@ js/src/jit/BacktrackingAllocator.cpp, -2, -1
+@ js/src/jit/BaselineBailouts.cpp, -2, -1
+@ js/src/jit/BaselineCacheIRCompiler.cpp, -2, -1
+@ js/src/jit/BaselineCacheIRCompiler.h, -2, -1
+@ js/src/jit/BaselineCodeGen.cpp, -2, -1
+@ js/src/jit/BaselineDebugModeOSR.cpp, -2, -1
+@ js/src/jit/BaselineIC.cpp, -2, -1
+@ js/src/jit/BaselineJIT.cpp, -2, -1
+@ js/src/jit/BaselineJIT.h, -2, -1
+@ js/src/jit/BytecodeAnalysis.cpp, -2, -1
+@ js/src/jit/CacheIR.cpp, -2, -1
+@ js/src/jit/CacheIRCompiler.cpp, -2, -1
+@ js/src/jit/CacheIRCompiler.h, -2, -1
+@ js/src/jit/CacheIRGenerator.h, -2, -1
+@ js/src/jit/CacheIRHealth.cpp, -2, -1
+@ js/src/jit/CacheIRSpewer.cpp, -2, -1
+@ js/src/jit/CacheIRWriter.h, -2, -1
+@ js/src/jit/CodeGenerator.h, -2, -1
+@ js/src/jit/CompileInfo.h, -2, -1
+@ js/src/jit/CompileWrappers.cpp, -2, -1
+@ js/src/jit/CompileWrappers.h, -2, -1
+@ js/src/jit/InlinableNatives.cpp, -2, -1
+@ js/src/jit/InlinableNatives.h, -2, -1
+@ js/src/jit/InterpreterEntryTrampoline.cpp, -2, -1
+@ js/src/jit/Ion.cpp, -2, -1
+@ js/src/jit/Ion.h, -2, -1
+@ js/src/jit/IonAnalysis.cpp, -2, -1
+@ js/src/jit/IonCacheIRCompiler.cpp, -2, -1
+@ js/src/jit/IonCacheIRCompiler.h, -2, -1
+@ js/src/jit/IonTypes.h, -2, -1
+@ js/src/jit/JitCode.h, -2, -1
+@ js/src/jit/JitFrames.cpp, -2, -1
+@ js/src/jit/JitFrames.h, -2, -1
+@ js/src/jit/JitRuntime.h, -2, -1
+@ js/src/jit/JitScript.cpp, -2, -1
+@ js/src/jit/JitZone.h, -2, -1
+@ js/src/jit/JitcodeMap.cpp, -2, -1
+@ js/src/jit/LIR.cpp, -2, -1
+@ js/src/jit/LIR.h, -2, -1
+@ js/src/jit/Lowering.cpp, -2, -1
+@ js/src/jit/MIR.cpp, -2, -1
+@ js/src/jit/MIR.h, -2, -1
+@ js/src/jit/MIRGraph.cpp, -2, -1
+@ js/src/jit/MIRGraph.h, -2, -1
+@ js/src/jit/MacroAssembler-inl.h, -2, -1
+@ js/src/jit/MacroAssembler.cpp, -2, -1
+@ js/src/jit/MacroAssembler.h, -2, -1
+@ js/src/jit/PerfSpewer.cpp, -2, -1
+@ js/src/jit/Recover.cpp, -2, -1
+@ js/src/jit/Recover.h, -2, -1
+@ js/src/jit/RegisterAllocator.cpp, -2, -1
+@ js/src/jit/Safepoints.cpp, -2, -1
+@ js/src/jit/Safepoints.h, -2, -1
+@ js/src/jit/StackSlotAllocator.h, -2, -1
+@ js/src/jit/TrialInlining.cpp, -2, -1
+@ js/src/jit/TypePolicy.cpp, -2, -1
+@ js/src/jit/VMFunctionList-inl.h, -2, -1
+@ js/src/jit/VMFunctions.cpp, -2, -1
+@ js/src/jit/VMFunctions.h, -2, -1
+@ js/src/jit/WarpBuilder.cpp, -2, -1
+@ js/src/jit/WarpBuilderShared.h, -2, -1
+@ js/src/jit/WarpCacheIRTranspiler.cpp, -2, -1
+@ js/src/jit/WarpOracle.cpp, -2, -1
+@ js/src/jit/WarpSnapshot.cpp, -2, -1
+@ js/src/jsapi.cpp, -2, -1
+@ js/src/jsapi.h, -2, -1
+@ js/src/jsdate.cpp, -2, -1
+@ js/src/jsexn.cpp, -2, -1
+@ js/src/jsfriendapi.cpp, -2, -1
+@ js/src/jsfriendapi.h, -2, -1
+@ js/src/jsmath.cpp, -2, -1
+@ js/src/jsnum.cpp, -2, -1
+@ js/src/vm/ArgumentsObject.cpp, -2, -1
+@ js/src/vm/AsyncFunction.cpp, -2, -1
+@ js/src/vm/AsyncIteration.cpp, -2, -1
+@ js/src/vm/BigIntType.cpp, -2, -1
+@ js/src/vm/BoundFunctionObject.cpp, -2, -1
+@ js/src/vm/BytecodeUtil-inl.h, -2, -1
+@ js/src/vm/BytecodeUtil.cpp, -2, -1
+@ js/src/vm/Caches.h, -2, -1
+@ js/src/vm/CommonPropertyNames.h, -2, -1
+@ js/src/vm/CompilationAndEvaluation.cpp, -2, -1
+@ js/src/vm/EnvironmentObject.cpp, -2, -1
+@ js/src/vm/EnvironmentObject.h, -2, -1
+@ js/src/vm/ErrorObject-inl.h, -2, -1
+@ js/src/vm/ErrorObject.cpp, -2, -1
+@ js/src/vm/ErrorObject.h, -2, -1
+@ js/src/vm/ErrorReporting.cpp, -2, -1
+@ js/src/vm/ErrorReporting.h, -2, -1
+@ js/src/vm/FrameIter.cpp, -2, -1
+@ js/src/vm/FrameIter.h, -2, -1
+@ js/src/vm/GeckoProfiler.cpp, -2, -1
+@ js/src/vm/GeneratorObject.cpp, -2, -1
+@ js/src/vm/GlobalObject.cpp, -2, -1
+@ js/src/vm/GlobalObject.h, -2, -1
+@ js/src/vm/HelperThreadState.h, -2, -1
+@ js/src/vm/HelperThreads.h, -2, -1
+@ js/src/vm/Initialization.cpp, -2, -1
+@ js/src/vm/Interpreter-inl.h, -2, -1
+@ js/src/vm/JSAtomState.h, -2, -1
+@ js/src/vm/JSAtomUtils.cpp, -2, -1
+@ js/src/vm/JSContext.cpp, -2, -1
+@ js/src/vm/JSContext.h, -2, -1
+@ js/src/vm/JSFunction-inl.h, -2, -1
+@ js/src/vm/JSFunction.cpp, -2, -1
+@ js/src/vm/JSONParser.cpp, -2, -1
+@ js/src/vm/JSONParser.h, -2, -1
+@ js/src/vm/JSObject-inl.h, -2, -1
+@ js/src/vm/JSObject.cpp, -2, -1
+@ js/src/vm/JSObject.h, -2, -1
+@ js/src/vm/JSScript.cpp, -2, -1
+@ js/src/vm/JSScript.h, -2, -1
+@ js/src/vm/JitActivation.cpp, -2, -1
+@ js/src/vm/MemoryMetrics.cpp, -2, -1
+@ js/src/vm/Modules.cpp, -2, -1
+@ js/src/vm/ObjectFlags-inl.h, -2, -1
+@ js/src/vm/ObjectFlags.h, -2, -1
+@ js/src/vm/OffThreadScriptCompilation.cpp, -2, -1
+@ js/src/vm/PIC.cpp, -2, -1
+@ js/src/vm/PlainObject.cpp, -2, -1
+@ js/src/vm/PlainObject.h, -2, -1
+@ js/src/vm/Realm.cpp, -2, -1
+@ js/src/vm/Realm.h, -2, -1
+@ js/src/vm/RegExpObject.cpp, -2, -1
+@ js/src/vm/RegExpObject.h, -2, -1
+@ js/src/vm/RegExpShared.h, -2, -1
+@ js/src/vm/SavedFrame.h, -2, -1
+@ js/src/vm/SavedStacks.cpp, -2, -1
+@ js/src/vm/SavedStacks.h, -2, -1
+@ js/src/vm/Scope.cpp, -2, -1
+@ js/src/vm/SelfHosting.cpp, -2, -1
+@ js/src/vm/SharedStencil.h, -2, -1
+@ js/src/vm/StringObject-inl.h, -2, -1
+@ js/src/vm/ToSource.cpp, -2, -1
+@ js/src/vm/WellKnownAtom.cpp, -2, -1
+@ js/src/vm/WellKnownAtom.h, -2, -1
+@ js/src/wasm/AsmJS.cpp, -2, -1
+@ js/src/wasm/WasmBCClass-inl.h, -2, -1
+@ js/src/wasm/WasmBCClass.h, -2, -1
+@ js/src/wasm/WasmBCFrame.cpp, -2, -1
+@ js/src/wasm/WasmBCFrame.h, -2, -1
+@ js/src/wasm/WasmBCStkMgmt-inl.h, -2, -1
+@ js/src/wasm/WasmBaselineCompile.cpp, -2, -1
+@ js/src/wasm/WasmBinary.h, -2, -1
+@ js/src/wasm/WasmBuiltins.cpp, -2, -1
+@ js/src/wasm/WasmCodegenTypes.h, -2, -1
+@ js/src/wasm/WasmCompile.cpp, -2, -1
+@ js/src/wasm/WasmCompileArgs.h, -2, -1
+@ js/src/wasm/WasmConstants.h, -2, -1
+@ js/src/wasm/WasmDebug.cpp, -2, -1
+@ js/src/wasm/WasmDebug.h, -2, -1
+@ js/src/wasm/WasmDebugFrame.cpp, -2, -1
+@ js/src/wasm/WasmFeatures.cpp, -2, -1
+@ js/src/wasm/WasmFeatures.h, -2, -1
+@ js/src/wasm/WasmFrame.h, -2, -1
+@ js/src/wasm/WasmFrameIter.cpp, -2, -1
+@ js/src/wasm/WasmFrameIter.h, -2, -1
+@ js/src/wasm/WasmGC.cpp, -2, -1
+@ js/src/wasm/WasmGcObject.cpp, -2, -1
+@ js/src/wasm/WasmGenerator.cpp, -2, -1
+@ js/src/wasm/WasmInitExpr.cpp, -2, -1
+@ js/src/wasm/WasmInstance.cpp, -2, -1
+@ js/src/wasm/WasmInstance.h, -2, -1
+@ js/src/wasm/WasmIonCompile.cpp, -2, -1
+@ js/src/wasm/WasmJS.cpp, -2, -1
+@ js/src/wasm/WasmJS.h, -2, -1
+@ js/src/wasm/WasmOpIter.cpp, -2, -1
+@ js/src/wasm/WasmOpIter.h, -2, -1
+@ js/src/wasm/WasmProcess.cpp, -2, -1
+@ js/src/wasm/WasmSerialize.cpp, -2, -1
+@ js/src/wasm/WasmSignalHandlers.cpp, -2, -1
+@ js/src/wasm/WasmStubs.cpp, -2, -1
+@ js/src/wasm/WasmTable.cpp, -2, -1
+@ js/src/wasm/WasmTable.h, -2, -1
+@ js/src/wasm/WasmTypeDef.h, -2, -1
+@ js/src/wasm/WasmUtility.h, -2, -1
+@ js/src/wasm/WasmValType.cpp, -2, -1
+@ js/src/wasm/WasmValType.h, -2, -1
+@ js/src/wasm/WasmValue.cpp, -2, -1
+@ js/src/wasm/WasmValue.h, -2, -1
+@ layout/base/AutoProfilerStyleMarker.h, -2, -1
+@ layout/base/Baseline.cpp, -2, -1
+@ layout/base/ContainStyleScopeManager.h, -2, -1
+@ layout/base/FrameProperties.h, -2, -1
+@ layout/base/MotionPathUtils.cpp, -2, -1
+@ layout/base/MotionPathUtils.h, -2, -1
+@ layout/base/PresShell.cpp, -2, -1
+@ layout/base/PresShell.h, -2, -1
+@ layout/base/PresShellForwards.h, -2, -1
+@ layout/base/RestyleManager.cpp, -2, -1
+@ layout/base/RestyleManager.h, -2, -1
+@ layout/base/StaticPresData.cpp, -2, -1
+@ layout/base/nsCSSFrameConstructor.cpp, -2, -1
+@ layout/base/nsCSSFrameConstructor.h, -2, -1
+@ layout/base/nsCaret.cpp, -2, -1
+@ layout/base/nsChangeHint.h, -2, -1
+@ layout/base/nsCounterManager.h, -2, -1
+@ layout/base/nsDocumentViewer.cpp, -2, -1
+@ layout/base/nsLayoutUtils.cpp, -2, -1
+@ layout/base/nsPresArena.cpp, -2, -1
+@ layout/base/nsPresContext.cpp, -2, -1
+@ layout/base/nsPresContext.h, -2, -1
+@ layout/base/nsRefreshDriver.cpp, -2, -1
+@ layout/base/nsRefreshDriver.h, -2, -1
+@ layout/forms/HTMLSelectEventListener.cpp, -2, -1
+@ layout/forms/nsButtonFrameRenderer.cpp, -2, -1
+@ layout/forms/nsFileControlFrame.cpp, -1, -2
+@ layout/forms/nsTextControlFrame.cpp, -2, -1
+@ layout/forms/nsTextControlFrame.h, -2, -1
+@ layout/svg/FilterInstance.cpp, -2, -1
+@ layout/svg/FilterInstance.h, -2, -1
+@ layout/svg/SVGContextPaint.cpp, -2, -1
+@ layout/svg/SVGObserverUtils.h, -2, -1
+@ layout/svg/SVGUtils.cpp, -2, -1
+@ layout/xul/nsSliderFrame.h, -2, -1
+@ layout/xul/nsXULPopupManager.cpp, -2, -1
+@ modules/libpref/Preferences.cpp, -2, -1
+@ netwerk/dns/TRR.cpp, -2, -1
+@ netwerk/dns/nsDNSService2.cpp, -2, -1
+@ netwerk/ipc/NeckoChild.cpp, -2, -1
+@ netwerk/ipc/NeckoParent.cpp, -2, -1
+@ netwerk/ipc/NeckoParent.h, -2, -1
+@ netwerk/protocol/http/AlternateServices.cpp, -2, -1
+@ netwerk/protocol/http/EarlyHintPreloader.cpp, -2, -1
+@ netwerk/protocol/http/Http3Session.cpp, -2, -1
+@ netwerk/protocol/http/Http3WebTransportSession.cpp, -2, -1
+@ netwerk/protocol/http/Http3WebTransportSession.h, -2, -1
+@ netwerk/protocol/http/HttpBaseChannel.cpp, -2, -1
+@ netwerk/protocol/http/HttpBaseChannel.h, -2, -1
+@ netwerk/protocol/http/HttpChannelChild.cpp, -2, -1
+@ netwerk/protocol/http/HttpChannelParent.cpp, -2, -1
+@ netwerk/protocol/http/HttpChannelParent.h, -2, -1
+@ netwerk/protocol/http/HttpTransactionChild.cpp, -2, -1
+@ netwerk/protocol/http/HttpTransactionParent.cpp, -2, -1
+@ netwerk/protocol/http/InterceptedHttpChannel.cpp, -2, -1
+@ netwerk/protocol/http/TimingStruct.h, -2, -1
+@ netwerk/protocol/http/nsCORSListenerProxy.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpChannel.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpChannel.h, -2, -1
+@ netwerk/protocol/http/nsHttpHandler.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpResponseHead.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpResponseHead.h, -2, -1
+@ netwerk/protocol/http/nsHttpTransaction.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpTransaction.h, -2, -1
+@ netwerk/protocol/websocket/WebSocketChannelChild.cpp, -2, -1
+@ netwerk/protocol/websocket/WebSocketChannelParent.cpp, -2, -1
+@ netwerk/protocol/websocket/WebSocketChannelParent.h, -2, -1
+@ parser/html/nsHtml5AttributeName.cpp, -2, -1
+@ parser/html/nsHtml5AttributeName.h, -2, -1
+@ parser/html/nsHtml5DocumentBuilder.cpp, -2, -1
+@ parser/html/nsHtml5ElementName.cpp, -2, -1
+@ parser/html/nsHtml5ElementName.h, -2, -1
+@ parser/html/nsHtml5HtmlAttributes.cpp, -2, -1
+@ parser/html/nsHtml5Parser.cpp, -2, -1
+@ parser/html/nsHtml5Parser.h, -2, -1
+@ parser/html/nsHtml5Portability.cpp, -2, -1
+@ parser/html/nsHtml5SpeculativeLoad.cpp, -2, -1
+@ parser/html/nsHtml5SpeculativeLoad.h, -2, -1
+@ parser/html/nsHtml5TreeBuilder.cpp, -2, -1
+@ parser/html/nsHtml5TreeBuilder.h, -2, -1
+@ parser/html/nsHtml5TreeBuilderCppSupplement.h, -2, -1
+@ parser/html/nsHtml5TreeOpExecutor.h, -2, -1
+@ parser/html/nsHtml5TreeOperation.cpp, -2, -1
+@ security/manager/ssl/CommonSocketControl.cpp, -2, -1
+@ security/manager/ssl/CommonSocketControl.h, -2, -1
+@ security/manager/ssl/EnterpriseRoots.cpp, -2, -1
+@ security/manager/ssl/nsSecureBrowserUI.cpp, -2, -1
+@ toolkit/components/extensions/ExtensionPolicyService.cpp, -2, -1
+@ toolkit/components/extensions/ExtensionPolicyService.h, -2, -1
+@ toolkit/components/extensions/webrequest/ChannelWrapper.h, -2, -1
+@ toolkit/components/extensions/webrequest/WebNavigationContent.cpp, -2, -1
+@ toolkit/mozapps/extensions/AddonManagerWebAPI.cpp, -2, -1
+@ toolkit/xre/GeckoArgs.h, -2, -1
+@ toolkit/xre/nsAppRunner.cpp, -2, -1
+@ toolkit/xre/nsEmbedFunctions.cpp, -2, -1
+@ toolkit/xre/nsUpdateDriver.cpp, -2, -1
+@ toolkit/xre/nsWindowsWMain.cpp, -2, -1
+@ widget/BasicEvents.h, -2, -1
+@ widget/ContentEvents.h, -2, -1
+@ widget/MiscEvents.h, -2, -1
+@ widget/MouseEvents.h, -2, -1
+@ widget/NativeKeyToDOMCodeName.h, -2, -1
+@ widget/NativeKeyToDOMKeyName.h, -2, -1
+@ widget/PuppetWidget.cpp, -2, -1
+@ widget/ScreenManager.h, -2, -1
+@ widget/SwipeTracker.cpp, -2, -1
+@ widget/SwipeTracker.h, -2, -1
+@ widget/TextEventDispatcher.cpp, -2, -1
+@ widget/TextEvents.h, -2, -1
+@ widget/TextRecognition.cpp, -2, -1
+@ widget/TouchEvents.h, -2, -1
+@ widget/WidgetEventImpl.cpp, -2, -1
+@ widget/nsGUIEventIPC.h, -2, -1
+@ widget/nsNativeTheme.cpp, -2, -1
+@ widget/nsXPLookAndFeel.cpp, -2, -1
+@ xpcom/base/CycleCollectedJSRuntime.h, -2, -1
+@ xpcom/base/nsConsoleService.cpp, -2, -1
+@ xpfe/appshell/AppWindow.cpp, -2, -1
+@ xpfe/appshell/nsWindowMediator.cpp, -2, -1
+@ dom/system/IOUtils.cpp, -2, -1
+@ js/src/jit/mips-shared/CodeGenerator-mips-shared.cpp, -2, -1
+@ netwerk/test/gtest/TestHttpResponseHead.cpp, -2, -1
+@ toolkit/components/glean/xpcom/FOG.cpp, -2, -1
+@ dom/media/encoder/OpusTrackEncoder.cpp, -2, -1
+@ toolkit/components/resistfingerprinting/KeyCodeConsensus_En_US.h, -2, -1
+@ toolkit/components/resistfingerprinting/nsRFPService.cpp, -2, -1
+@ toolkit/components/resistfingerprinting/nsRFPService.h, -2, -1
+@ dom/media/webm/WebMDemuxer.cpp, -2, -1
+@ dom/media/webm/WebMDemuxer.h, -2, -1
+@ gfx/src/nsColor.cpp, -2, -1
+@ gfx/src/nsColor.h, -2, -1
+@ gfx/src/nsFont.cpp, -2, -1
+@ gfx/src/nsFont.h, -2, -1
+@ gfx/src/nsFontCache.cpp, -2, -1
+@ gfx/src/nsFontMetrics.cpp, -2, -1
+@ gfx/src/nsRect.h, -2, -1
+@ js/src/jit/arm64/Assembler-arm64.cpp, -2, -1
+@ js/src/jit/arm64/CodeGenerator-arm64.cpp, -2, -1
+@ js/src/jit/arm64/MacroAssembler-arm64.cpp, -2, -1
+@ js/src/jit/arm64/MacroAssembler-arm64.h, -2, -1
+@ js/src/jit/arm64/vixl/Assembler-vixl.cpp, -2, -1
+@ third_party/jpeg-xl/lib/extras/dec/apng.cc, -2, -1
+@ third_party/jpeg-xl/lib/extras/dec/color_hints.cc, -2, -1
+@ third_party/jpeg-xl/lib/extras/dec/color_hints.h, -2, -1
+@ third_party/jpeg-xl/lib/extras/dec/decode.cc, -2, -1
+@ third_party/jpeg-xl/lib/extras/dec/jxl.cc, -2, -1
+@ third_party/jpeg-xl/lib/extras/enc/apng.cc, -2, -1
+@ third_party/jpeg-xl/lib/extras/enc/encode.cc, -2, -1
+@ third_party/jpeg-xl/lib/extras/enc/encode.h, -2, -1
+@ third_party/jpeg-xl/lib/extras/enc/jxl.cc, -2, -1
+@ third_party/jpeg-xl/lib/extras/enc/jxl.h, -2, -1
+@ third_party/jpeg-xl/lib/extras/exif.cc, -2, -1
+@ third_party/jpeg-xl/lib/include/jxl/encode.h, -2, -1
+@ third_party/jpeg-xl/lib/jxl/dec_ans.h, -2, -1
+@ third_party/jpeg-xl/lib/jxl/dec_tone_mapping-inl.h, -2, -1
+@ third_party/jpeg-xl/lib/jxl/decode_test.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/enc_ac_strategy.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/enc_ac_strategy.h, -2, -1
+@ third_party/jpeg-xl/lib/jxl/enc_adaptive_quantization.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/enc_group.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/enc_params.h, -2, -1
+@ third_party/jpeg-xl/lib/jxl/encode.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/encode_test.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/jpeg/dec_jpeg_data_writer.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/jpeg/dec_jpeg_data_writer.h, -2, -1
+@ third_party/jpeg-xl/lib/jxl/jpeg/dec_jpeg_serialization_state.h, -2, -1
+@ third_party/jpeg-xl/lib/jxl/jpeg/jpeg_data.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/jxl_test.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/modular/encoding/encoding.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/render_pipeline/render_pipeline_test.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/splines.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/test_utils.cc, -2, -1
+@ third_party/jpeg-xl/lib/jxl/test_utils.h, -2, -1
+@ third_party/jpeg-xl/plugins/gimp/file-jxl-save.cc, -2, -1
+@ third_party/drm/drm/xf86drm.h, -2, -1
+@ dom/media/utils/PerformanceRecorder.h, -2, -1
+@ layout/generic/PrintedSheetFrame.cpp, -2, -1
+@ layout/generic/PrintedSheetFrame.h, -2, -1
+@ layout/generic/ScrollSnap.cpp, -2, -1
+@ layout/generic/nsBlockFrame.cpp, -2, -1
+@ layout/generic/nsCanvasFrame.cpp, -2, -1
+@ layout/generic/nsFlexContainerFrame.cpp, -2, -1
+@ layout/generic/nsFrameSelection.cpp, -2, -1
+@ layout/generic/nsFrameSelection.h, -2, -1
+@ layout/generic/nsGridContainerFrame.h, -2, -1
+@ layout/generic/nsIFrame.cpp, -2, -1
+@ layout/generic/nsIFrame.h, -2, -1
+@ layout/generic/nsPageFrame.cpp, -2, -1
+@ layout/generic/nsPageFrame.h, -2, -1
+@ layout/generic/nsPageSequenceFrame.cpp, -2, -1
+@ layout/generic/nsSubDocumentFrame.cpp, -2, -1
+@ layout/generic/nsTextFrame.cpp, -2, -1
+@ layout/generic/nsTextFrame.h, -2, -1
+@ layout/generic/nsTextPaintStyle.cpp, -2, -1
+@ layout/generic/nsTextPaintStyle.h, -2, -1
+@ layout/generic/nsTextRunTransformations.cpp, -2, -1
+@ dom/crypto/CryptoBuffer.cpp, -2, -1
+@ dom/crypto/CryptoBuffer.h, -2, -1
+@ parser/htmlparser/nsElementTable.cpp, -2, -1
+@ parser/htmlparser/nsHTMLTagList.h, -2, -1
+@ parser/htmlparser/nsHTMLTags.h, -2, -1
+@ parser/htmlparser/nsParserBase.h, -2, -1
+@ js/src/jsapi-tests/testCompileScript.cpp, -2, -1
+@ js/src/jsapi-tests/testErrorCopying.cpp, -2, -1
+@ js/src/jsapi-tests/testException.cpp, -2, -1
+@ js/src/jsapi-tests/testPrintError.cpp, -2, -1
+@ js/src/jsapi-tests/testSavedStacks.cpp, -2, -1
+@ ipc/glue/BackgroundUtils.cpp, -2, -1
+@ ipc/glue/BackgroundUtils.h, -2, -1
+@ ipc/glue/DataPipe.cpp, -2, -1
+@ ipc/glue/ForkServer.cpp, -2, -1
+@ ipc/glue/GeckoChildProcessHost.cpp, -2, -1
+@ ipc/glue/IPCMessageUtilsSpecializations.h, -2, -1
+@ ipc/glue/IPCStreamUtils.cpp, -2, -1
+@ ipc/glue/InputStreamUtils.cpp, -2, -1
+@ ipc/glue/ProtocolUtils.cpp, -2, -1
+@ ipc/glue/WindowsMessageLoop.cpp, -2, -1
+@ ipc/ipdl/test/gtest/TestManyHandles.cpp, -2, -1
+@ gfx/layers/wr/WebRenderBridgeParent.cpp, -2, -1
+@ gfx/layers/wr/WebRenderLayerManager.cpp, -2, -1
+@ gfx/layers/wr/WebRenderLayerManager.h, -2, -1
+@ gfx/layers/wr/WebRenderScrollData.cpp, -2, -1
+@ gfx/layers/wr/WebRenderScrollData.h, -2, -1
+@ gfx/layers/wr/WebRenderScrollDataWrapper.h, -2, -1
+@ mobile/android/components/geckoview/GeckoViewExternalAppService.cpp, -2, -1
+@ extensions/permissions/PermissionDelegateHandler.cpp, -2, -1
+@ extensions/permissions/PermissionManager.cpp, -2, -1
+@ third_party/sipcc/sipcc_sdp.h, -2, -1
+@ gfx/vr/ipc/VRManagerChild.cpp, -2, -1
+@ dom/media/ipc/MFCDMParent.cpp, -2, -1
+@ dom/media/ipc/MFCDMParent.h, -2, -1
+@ dom/media/ipc/MFMediaEngineParent.cpp, -2, -1
+@ dom/media/ipc/MFMediaEngineUtils.h, -2, -1
+@ dom/media/ipc/MediaIPCUtils.h, -2, -1
+@ dom/media/ipc/RemoteMediaData.cpp, -2, -1
+@ dom/media/ipc/RemoteMediaData.h, -2, -1
+@ image/decoders/icon/nsIconURI.cpp, -2, -1
+@ image/imgLoader.cpp, -2, -1
+@ dom/media/platforms/agnostic/OpusDecoder.cpp, -2, -1
+@ dom/media/platforms/agnostic/TheoraDecoder.cpp, -2, -1
+@ dom/media/platforms/agnostic/TheoraDecoder.h, -2, -1
+@ dom/media/platforms/agnostic/VorbisDecoder.cpp, -2, -1
+@ dom/media/platforms/agnostic/VorbisDecoder.h, -2, -1
+@ dom/media/platforms/agnostic/bytestreams/AnnexB.cpp, -2, -1
+@ dom/media/platforms/android/RemoteDataDecoder.cpp, -2, -1
+@ dom/media/platforms/apple/AppleATDecoder.cpp, -2, -1
+@ dom/media/platforms/apple/AppleDecoderModule.cpp, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegAudioDecoder.cpp, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegAudioDecoder.h, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegDataDecoder.cpp, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegDataDecoder.h, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegDecoderModule.h, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegLibWrapper.cpp, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegLibWrapper.h, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegLibs.h, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegVideoDecoder.cpp, -2, -1
+@ dom/media/platforms/ffmpeg/FFmpegVideoDecoder.h, -2, -1
+@ dom/media/platforms/wmf/MFCDMProxy.cpp, -2, -1
+@ dom/media/platforms/wmf/MFCDMProxy.h, -2, -1
+@ dom/media/platforms/wmf/MFCDMSession.cpp, -2, -1
+@ dom/media/platforms/wmf/MFContentProtectionManager.cpp, -2, -1
+@ dom/media/platforms/wmf/MFContentProtectionManager.h, -2, -1
+@ dom/media/platforms/wrappers/AudioTrimmer.cpp, -2, -1
+@ dom/media/platforms/wrappers/AudioTrimmer.h, -2, -1
+@ js/src/jit/mips32/Assembler-mips32.cpp, -2, -1
+@ dom/quota/QuotaCommon.h, -2, -1
+@ third_party/sqlite3/src/sqlite3.c, -2, -1
+@ third_party/sqlite3/src/sqlite3.h, -2, -1
+@ dom/webauthn/AuthenticatorAssertionResponse.cpp, -2, -1
+@ dom/webauthn/AuthenticatorAssertionResponse.h, -2, -1
+@ dom/webauthn/AuthenticatorAttestationResponse.cpp, -2, -1
+@ dom/webauthn/AuthenticatorAttestationResponse.h, -2, -1
+@ dom/webauthn/AuthenticatorResponse.cpp, -2, -1
+@ dom/webauthn/AuthenticatorResponse.h, -2, -1
+@ dom/webauthn/PublicKeyCredential.cpp, -2, -1
+@ dom/webauthn/PublicKeyCredential.h, -2, -1
+@ dom/webauthn/WebAuthnCBORUtil.cpp, -2, -1
+@ dom/webauthn/WebAuthnCBORUtil.h, -2, -1
+@ dom/webauthn/WebAuthnController.cpp, -2, -1
+@ dom/webauthn/WebAuthnManager.cpp, -2, -1
+@ dom/webauthn/WebAuthnTransactionParent.cpp, -2, -1
+@ dom/webauthn/WebAuthnUtil.cpp, -2, -1
+@ dom/webauthn/WebAuthnUtil.h, -2, -1
+@ netwerk/cookie/CookieJarSettings.cpp, -2, -1
+@ browser/components/attribution/nsMacAttribution.cpp, -2, -1
+@ dom/geolocation/Geolocation.cpp, -2, -1
+@ toolkit/components/windowwatcher/nsWindowWatcher.cpp, -2, -1
+@ toolkit/components/places/Database.cpp, -2, -1
+@ toolkit/components/places/Database.h, -2, -1
+@ toolkit/components/places/nsNavHistory.cpp, -2, -1
+@ toolkit/components/places/nsNavHistory.h, -2, -1
+@ toolkit/components/places/nsNavHistoryResult.cpp, -2, -1
+@ toolkit/components/places/nsNavHistoryResult.h, -2, -1
+@ toolkit/components/places/nsPlacesTables.h, -2, -1
+@ toolkit/components/places/nsPlacesTriggers.h, -2, -1
+@ dom/animation/Animation.cpp, -2, -1
+@ dom/animation/AnimationEventDispatcher.cpp, -2, -1
+@ dom/animation/AnimationEventDispatcher.h, -2, -1
+@ dom/animation/AnimationUtils.cpp, -2, -1
+@ dom/animation/KeyframeEffect.cpp, -2, -1
+@ dom/animation/KeyframeEffect.h, -2, -1
+@ netwerk/protocol/gio/GIOChannelParent.cpp, -2, -1
+@ netwerk/protocol/gio/GIOChannelParent.h, -2, -1
+@ netwerk/protocol/gio/nsGIOProtocolHandler.cpp, -2, -1
+@ dom/promise/Promise.cpp, -2, -1
+@ gfx/ots/src/glyf.cc, -2, -1
+@ gfx/ots/src/glyf.h, -2, -1
+@ dom/media/webvtt/TextTrack.cpp, -2, -1
+@ dom/media/webvtt/TextTrackList.cpp, -2, -1
+@ xpcom/components/Module.h, -2, -1
+@ xpcom/components/nsComponentManager.cpp, -2, -1
+@ toolkit/xre/dllservices/mozglue/interceptor/PatcherDetour.h, -2, -1
+@ toolkit/xre/dllservices/mozglue/interceptor/TargetFunction.h, -2, -1
+@ accessible/basetypes/Accessible.cpp, -2, -1
+@ accessible/basetypes/Accessible.h, -2, -1
+@ accessible/basetypes/HyperTextAccessibleBase.h, -2, -1
+@ js/src/jit/x86/Assembler-x86.cpp, -2, -1
+@ js/src/jit/x86/MacroAssembler-x86.cpp, -2, -1
+@ js/src/jit/x86/MacroAssembler-x86.h, -2, -1
+@ gfx/tests/gtest/TestConfigManager.cpp, -2, -1
+@ dom/svg/SVGAnimationElement.h, -2, -1
+@ dom/svg/SVGCircleElement.h, -2, -1
+@ dom/svg/SVGDocument.cpp, -2, -1
+@ dom/svg/SVGEllipseElement.h, -2, -1
+@ dom/svg/SVGGeometryElement.h, -2, -1
+@ dom/svg/SVGPathElement.cpp, -2, -1
+@ dom/svg/SVGPathElement.h, -2, -1
+@ dom/svg/SVGPolygonElement.h, -2, -1
+@ dom/svg/SVGRectElement.h, -2, -1
+@ dom/svg/SVGStyleElement.cpp, -2, -1
+@ security/manager/ssl/tests/gtest/HMACTest.cpp, -2, -1
+@ dom/media/mp3/MP3Demuxer.cpp, -2, -1
+@ toolkit/components/antitracking/AntiTrackingUtils.cpp, -2, -1
+@ toolkit/components/antitracking/AntiTrackingUtils.h, -2, -1
+@ toolkit/components/antitracking/ContentBlockingNotifier.cpp, -2, -1
+@ toolkit/components/antitracking/DynamicFpiRedirectHeuristic.cpp, -2, -1
+@ toolkit/components/antitracking/StorageAccess.cpp, -2, -1
+@ toolkit/components/antitracking/StorageAccessAPIHelper.cpp, -2, -1
+@ toolkit/components/antitracking/bouncetrackingprotection/BounceTrackingProtection.cpp, -2, -1
+@ toolkit/components/antitracking/bouncetrackingprotection/BounceTrackingProtection.h, -2, -1
+@ toolkit/components/antitracking/bouncetrackingprotection/BounceTrackingState.cpp, -2, -1
+@ toolkit/components/antitracking/bouncetrackingprotection/BounceTrackingState.h, -2, -1
+@ js/src/threading/ProtectedData.cpp, -2, -1
+@ js/src/threading/ProtectedData.h, -2, -1
+@ security/certverifier/ExtendedValidation.cpp, -2, -1
+@ security/certverifier/NSSCertDBTrustDomain.cpp, -2, -1
+@ netwerk/wifi/nsWifiMonitor.cpp, -2, -1
+@ js/xpconnect/loader/ChromeScriptLoader.cpp, -2, -1
+@ js/xpconnect/loader/ScriptPreloader.cpp, -2, -1
+@ js/xpconnect/loader/ScriptPreloader.h, -2, -1
+@ js/xpconnect/loader/mozJSLoaderUtils.cpp, -2, -1
+@ js/xpconnect/loader/mozJSLoaderUtils.h, -2, -1
+@ js/xpconnect/loader/mozJSModuleLoader.cpp, -2, -1
+@ js/xpconnect/src/ExportHelpers.cpp, -2, -1
+@ js/xpconnect/src/Sandbox.cpp, -2, -1
+@ js/xpconnect/src/SandboxPrivate.h, -2, -1
+@ js/xpconnect/src/XPCComponents.cpp, -2, -1
+@ js/xpconnect/src/XPCJSContext.cpp, -2, -1
+@ js/xpconnect/src/XPCJSRuntime.cpp, -2, -1
+@ js/xpconnect/src/nsXPConnect.cpp, -2, -1
+@ js/xpconnect/src/xpcpublic.h, -2, -1
+@ js/xpconnect/wrappers/AccessCheck.cpp, -2, -1
+@ js/xpconnect/wrappers/WrapperFactory.cpp, -2, -1
+@ js/xpconnect/wrappers/XrayWrapper.cpp, -2, -1
+@ dom/mathml/MathMLElement.cpp, -2, -1
+@ uriloader/base/nsDocLoader.cpp, -2, -1
+@ uriloader/exthandler/ExternalHelperAppParent.cpp, -2, -1
+@ uriloader/exthandler/ExternalHelperAppParent.h, -2, -1
+@ uriloader/exthandler/nsExternalHelperAppService.cpp, -2, -1
+@ uriloader/exthandler/nsExternalHelperAppService.h, -2, -1
+@ uriloader/preload/PreloadService.cpp, -2, -1
+@ uriloader/preload/PreloadService.h, -2, -1
+@ uriloader/preload/gtest/TestFetchPreloader.cpp, -2, -1
+@ dom/media/gmp/rlz/lib/machine_id.cc, -2, -1
+@ dom/credentialmanagement/CredentialsContainer.cpp, -2, -1
+@ accessible/xul/XULElementAccessibles.cpp, -2, -1
+@ accessible/xul/XULElementAccessibles.h, -2, -1
+@ accessible/xul/XULFormControlAccessible.h, -2, -1
+@ accessible/xul/XULMenuAccessible.cpp, -2, -1
+@ accessible/xul/XULTabAccessible.cpp, -2, -1
+@ accessible/xul/XULTabAccessible.h, -2, -1
+@ toolkit/xre/test/gtest/TestAssembleCommandLineWin.cpp, -2, -1
+@ widget/gtk/AsyncDBus.cpp, -2, -1
+@ widget/gtk/AsyncDBus.h, -2, -1
+@ widget/gtk/GfxInfo.cpp, -2, -1
+@ widget/gtk/MozContainer.cpp, -2, -1
+@ widget/gtk/MozContainer.h, -2, -1
+@ widget/gtk/MozContainerWayland.cpp, -2, -1
+@ widget/gtk/MozContainerWayland.h, -2, -1
+@ widget/gtk/NativeKeyBindings.cpp, -2, -1
+@ widget/gtk/ScreenHelperGTK.cpp, -2, -1
+@ widget/gtk/ScreenHelperGTK.h, -2, -1
+@ widget/gtk/WakeLockListener.cpp, -2, -1
+@ widget/gtk/WakeLockListener.h, -2, -1
+@ widget/gtk/gtk3drawing.cpp, -2, -1
+@ widget/gtk/gtkdrawing.h, -2, -1
+@ widget/gtk/mozwayland/mozwayland.c, -2, -1
+@ widget/gtk/nsAppShell.cpp, -2, -1
+@ widget/gtk/nsAppShell.h, -2, -1
+@ widget/gtk/nsGtkKeyUtils.cpp, -2, -1
+@ widget/gtk/nsLookAndFeel.cpp, -2, -1
+@ widget/gtk/nsNativeThemeGTK.cpp, -2, -1
+@ widget/gtk/nsUserIdleServiceGTK.cpp, -2, -1
+@ widget/gtk/nsUserIdleServiceGTK.h, -2, -1
+@ widget/gtk/nsWaylandDisplay.cpp, -2, -1
+@ widget/gtk/nsWaylandDisplay.h, -2, -1
+@ widget/gtk/nsWidgetFactory.cpp, -2, -1
+@ widget/gtk/nsWindow.cpp, -2, -1
+@ widget/gtk/nsWindow.h, -2, -1
+@ dom/audiochannel/AudioChannelService.cpp, -2, -1
+@ security/nss/lib/nss/nss.h, -2, -1
+@ security/nss/lib/softoken/pkcs11c.c, -2, -1
+@ security/nss/lib/softoken/softkver.h, -2, -1
+@ security/nss/lib/util/nssutil.h, -2, -1
+@ security/nss/lib/zlib/adler32.c, -2, -1
+@ security/nss/lib/zlib/compress.c, -2, -1
+@ security/nss/lib/zlib/crc32.c, -2, -1
+@ security/nss/lib/zlib/deflate.c, -2, -1
+@ security/nss/lib/zlib/deflate.h, -2, -1
+@ security/nss/lib/zlib/gzclose.c, -2, -1
+@ security/nss/lib/zlib/gzguts.h, -2, -1
+@ security/nss/lib/zlib/gzlib.c, -2, -1
+@ security/nss/lib/zlib/gzread.c, -2, -1
+@ security/nss/lib/zlib/gzwrite.c, -2, -1
+@ security/nss/lib/zlib/infback.c, -2, -1
+@ security/nss/lib/zlib/inffast.c, -2, -1
+@ security/nss/lib/zlib/inffast.h, -2, -1
+@ security/nss/lib/zlib/inflate.c, -2, -1
+@ security/nss/lib/zlib/inftrees.c, -2, -1
+@ security/nss/lib/zlib/inftrees.h, -2, -1
+@ security/nss/lib/zlib/trees.c, -2, -1
+@ security/nss/lib/zlib/uncompr.c, -2, -1
+@ security/nss/lib/zlib/zconf.h, -2, -1
+@ security/nss/lib/zlib/zlib.h, -2, -1
+@ security/nss/lib/zlib/zutil.c, -2, -1
+@ security/nss/lib/zlib/zutil.h, -2, -1
+@ js/src/util/DumpFunctions.cpp, -2, -1
+@ js/src/util/StringBuffer.cpp, -2, -1
+@ js/src/util/StringBuffer.h, -2, -1
+@ js/src/util/StructuredSpewer.cpp, -2, -1
+@ js/src/util/Text.cpp, -2, -1
+@ js/src/util/Text.h, -2, -1
+@ js/src/shell/ShellModuleObjectWrapper.cpp, -2, -1
+@ js/src/shell/js.cpp, -2, -1
+@ js/src/shell/jsshell.h, -2, -1
+@ js/src/jit/none/MacroAssembler-none.h, -2, -1
+@ netwerk/base/DefaultURI.cpp, -2, -1
+@ netwerk/base/LoadInfo.cpp, -2, -1
+@ netwerk/base/LoadInfo.h, -2, -1
+@ netwerk/base/TRRLoadInfo.cpp, -2, -1
+@ netwerk/base/mozurl/MozURL.h, -2, -1
+@ netwerk/base/nsBaseChannel.cpp, -2, -1
+@ netwerk/base/nsBaseChannel.h, -2, -1
+@ netwerk/base/nsIOService.cpp, -2, -1
+@ netwerk/base/nsIOService.h, -2, -1
+@ netwerk/base/nsNetUtil.cpp, -2, -1
+@ netwerk/base/nsNetUtil.h, -2, -1
+@ netwerk/base/nsSimpleURI.cpp, -2, -1
+@ netwerk/base/nsSimpleURI.h, -2, -1
+@ netwerk/base/nsStandardURL.cpp, -2, -1
+@ netwerk/base/nsURLHelper.cpp, -2, -1
+@ netwerk/base/nsURLHelper.h, -2, -1
+@ dom/xul/nsXULElement.cpp, -2, -1
+@ dom/xul/nsXULPrototypeDocument.cpp, -2, -1
+@ js/src/irregexp/RegExpAPI.cpp, -2, -1
+@ js/src/irregexp/RegExpAPI.h, -2, -1
+@ js/src/irregexp/RegExpNativeMacroAssembler.cpp, -2, -1
+@ dom/url/URL.cpp, -2, -1
+@ dom/url/URLMainThread.cpp, -2, -1
+@ dom/url/URLWorker.cpp, -2, -1
+@ dom/media/mediasource/ContainerParser.cpp, -2, -1
+@ dom/media/mediasource/MediaSource.cpp, -2, -1
+@ dom/media/mediasource/MediaSourceDemuxer.cpp, -2, -1
+@ dom/media/mediasource/SourceBuffer.cpp, -2, -1
+@ dom/media/mediasource/TrackBuffersManager.cpp, -2, -1
+@ dom/media/mediasource/TrackBuffersManager.h, -2, -1
+@ dom/console/Console.cpp, -2, -1
+@ memory/build/Mutex.cpp, -2, -1
+@ memory/build/Mutex.h, -2, -1
+@ memory/build/mozjemalloc.cpp, -2, -1
+@ memory/replace/phc/test/gtest/TestPHC.cpp, -2, -1
+@ netwerk/protocol/data/nsDataChannel.cpp, -2, -1
+@ netwerk/protocol/data/nsDataChannel.h, -2, -1
+@ netwerk/protocol/data/nsDataHandler.cpp, -2, -1
+@ netwerk/protocol/data/nsDataHandler.h, -2, -1
+@ media/webrtc/signaling/gtest/jsep_session_unittest.cpp, -2, -1
+@ media/webrtc/signaling/gtest/mediapipeline_unittest.cpp, -2, -1
+@ modules/zlib/src/adler32.c, -2, -1
+@ modules/zlib/src/compress.c, -2, -1
+@ modules/zlib/src/crc32.c, -2, -1
+@ modules/zlib/src/deflate.c, -2, -1
+@ modules/zlib/src/deflate.h, -2, -1
+@ modules/zlib/src/gzclose.c, -2, -1
+@ modules/zlib/src/gzguts.h, -2, -1
+@ modules/zlib/src/gzlib.c, -2, -1
+@ modules/zlib/src/gzread.c, -2, -1
+@ modules/zlib/src/gzwrite.c, -2, -1
+@ modules/zlib/src/infback.c, -2, -1
+@ modules/zlib/src/inffast.c, -2, -1
+@ modules/zlib/src/inffast.h, -2, -1
+@ modules/zlib/src/inflate.c, -2, -1
+@ modules/zlib/src/inftrees.c, -2, -1
+@ modules/zlib/src/inftrees.h, -2, -1
+@ modules/zlib/src/trees.c, -2, -1
+@ modules/zlib/src/uncompr.c, -2, -1
+@ modules/zlib/src/zconf.h, -2, -1
+@ modules/zlib/src/zlib.h, -2, -1
+@ modules/zlib/src/zutil.c, -2, -1
+@ modules/zlib/src/zutil.h, -2, -1
+@ modules/fdlibm/src/fdlibm.h, -2, -1
+@ modules/fdlibm/src/math_private.h, -2, -1
+@ layout/xul/tree/nsTreeBodyFrame.cpp, -2, -1
+@ xpcom/threads/TimerThread.cpp, -2, -1
+@ xpcom/threads/TimerThread.h, -2, -1
+@ xpcom/threads/nsTimerImpl.cpp, -2, -1
+@ dom/serializers/nsPlainTextSerializer.cpp, -2, -1
+@ dom/serializers/nsXMLContentSerializer.cpp, -2, -1
+@ dom/media/ogg/OggCodecState.cpp, -2, -1
+@ dom/media/ogg/OggCodecState.h, -2, -1
+@ dom/media/ogg/OggDemuxer.cpp, -2, -1
+@ dom/media/ogg/OggDemuxer.h, -2, -1
+@ dom/media/ogg/OpusParser.cpp, -2, -1
+@ dom/media/ogg/OpusParser.h, -2, -1
+@ toolkit/components/uniffi-bindgen-gecko-js/src/templates/UniFFIScaffolding.cpp, -2, -1
+@ js/src/proxy/BaseProxyHandler.cpp, -2, -1
+@ js/src/proxy/OpaqueCrossCompartmentWrapper.cpp, -2, -1
+@ js/src/proxy/ScriptedProxyHandler.cpp, -2, -1
+@ js/src/proxy/ScriptedProxyHandler.h, -2, -1
+@ dom/file/ipc/RemoteLazyInputStream.cpp, -2, -1
+@ dom/file/uri/BlobURLInputStream.cpp, -2, -1
+@ dom/file/uri/BlobURLProtocolHandler.cpp, -2, -1
+@ dom/file/uri/BlobURLProtocolHandler.h, -2, -1
+@ js/loader/ModuleLoadRequest.cpp, -2, -1
+@ js/loader/ModuleLoadRequest.h, -2, -1
+@ js/loader/ModuleLoaderBase.cpp, -2, -1
+@ js/loader/ModuleLoaderBase.h, -2, -1
+@ js/loader/ScriptLoadRequest.cpp, -2, -1
+@ js/loader/ScriptLoadRequest.h, -2, -1
+@ accessible/atk/nsMaiInterfaceText.cpp, -2, -1
+@ js/src/fuzz-tests/testWasm.cpp, -2, -1
+@ js/src/fuzz-tests/tests.cpp, -2, -1
+@ toolkit/components/remote/WinRemoteMessage.cpp, -2, -1
+@ toolkit/components/remote/WinRemoteMessage.h, -2, -1
+@ toolkit/components/remote/nsGTKRemoteServer.cpp, -2, -1
+@ dom/media/mediacontrol/ContentMediaController.cpp, -2, -1
+@ caps/nsScriptSecurityManager.cpp, -2, -1
+@ devtools/shared/heapsnapshot/DeserializedNode.h, -2, -1
+@ devtools/shared/heapsnapshot/HeapSnapshot.cpp, -2, -1
+@ devtools/shared/heapsnapshot/tests/gtest/DeserializedStackFrameUbiStackFrames.cpp, -2, -1
+@ dom/media/eme/MediaKeySystemAccess.cpp, -2, -1
+@ dom/media/eme/MediaKeySystemAccessManager.cpp, -2, -1
+@ dom/smil/TimeEvent.cpp, -2, -1
+@ dom/vr/VREventObserver.cpp, -2, -1
+@ dom/vr/XRSession.cpp, -2, -1
+@ dom/vr/XRSystem.cpp, -2, -1
+@ dom/webtransport/parent/WebTransportParent.cpp, -2, -1
+@ dom/webtransport/parent/WebTransportParent.h, -2, -1
+@ gfx/cairo/cairo/src/cairo-pdf-interchange.c, -2, -1
+@ gfx/cairo/cairo/src/cairo-pdf-surface.c, -2, -1
+@ dom/media/webcodecs/EncodedVideoChunk.cpp, -2, -1
+@ dom/media/webcodecs/VideoDecoder.cpp, -2, -1
+@ dom/media/webcodecs/VideoFrame.cpp, -2, -1
+@ dom/media/webcodecs/WebCodecsUtils.cpp, -2, -1
+@ dom/media/webcodecs/WebCodecsUtils.h, -2, -1
+@ dom/messagechannel/MessagePort.cpp, -2, -1
+@ gfx/webrender_bindings/RenderD3D11TextureHost.cpp, -2, -1
+@ gfx/webrender_bindings/RenderD3D11TextureHost.h, -2, -1
+@ dom/permission/PermissionObserver.cpp, -2, -1
+@ dom/indexedDB/IDBFactory.cpp, -2, -1
+@ dom/indexedDB/IndexedDatabaseManager.cpp, -2, -1
+@ dom/xslt/xslt/txMozillaTextOutput.cpp, -2, -1
+@ dom/xslt/xslt/txMozillaXMLOutput.cpp, -2, -1
+@ dom/xslt/xslt/txMozillaXSLTProcessor.cpp, -2, -1
+@ js/src/vtune/VTuneWrapper.cpp, -2, -1
+@ media/ffvpx/compat/w32pthreads.h, -2, -1
+@ media/ffvpx/config_android32.h, -2, -1
+@ media/ffvpx/config_android64.h, -2, -1
+@ media/ffvpx/config_android_x86_64.h, -2, -1
+@ media/ffvpx/config_audio.h, -2, -1
+@ media/ffvpx/config_components_audio_only.h, -2, -1
+@ media/ffvpx/config_components_audio_video.h, -2, -1
+@ media/ffvpx/config_darwin64.h, -2, -1
+@ media/ffvpx/config_darwin_aarch64.h, -2, -1
+@ media/ffvpx/config_generic.h, -2, -1
+@ media/ffvpx/config_unix32.h, -2, -1
+@ media/ffvpx/config_unix64.h, -2, -1
+@ media/ffvpx/config_unix_aarch64.h, -2, -1
+@ media/ffvpx/config_win32.h, -2, -1
+@ media/ffvpx/config_win64.h, -2, -1
+@ media/ffvpx/config_win64_aarch64.h, -2, -1
+@ media/ffvpx/libavcodec/allcodecs.c, -2, -1
+@ media/ffvpx/libavcodec/av1_parse.h, -2, -1
+@ media/ffvpx/libavcodec/av1_parser.c, -2, -1
+@ media/ffvpx/libavcodec/av1dec.c, -2, -1
+@ media/ffvpx/libavcodec/av1dec.h, -2, -1
+@ media/ffvpx/libavcodec/avcodec.c, -2, -1
+@ media/ffvpx/libavcodec/avcodec.h, -2, -1
+@ media/ffvpx/libavcodec/bitstream_filters.c, -2, -1
+@ media/ffvpx/libavcodec/bsf.c, -2, -1
+@ media/ffvpx/libavcodec/bytestream.h, -2, -1
+@ media/ffvpx/libavcodec/cbs.c, -2, -1
+@ media/ffvpx/libavcodec/cbs.h, -2, -1
+@ media/ffvpx/libavcodec/cbs_av1.c, -2, -1
+@ media/ffvpx/libavcodec/cbs_av1.h, -2, -1
+@ media/ffvpx/libavcodec/cbs_av1_syntax_template.c, -2, -1
+@ media/ffvpx/libavcodec/cbs_internal.h, -2, -1
+@ media/ffvpx/libavcodec/codec.h, -2, -1
+@ media/ffvpx/libavcodec/codec_desc.c, -2, -1
+@ media/ffvpx/libavcodec/codec_desc.h, -2, -1
+@ media/ffvpx/libavcodec/codec_id.h, -2, -1
+@ media/ffvpx/libavcodec/codec_list.c, -2, -1
+@ media/ffvpx/libavcodec/codec_par.c, -2, -1
+@ media/ffvpx/libavcodec/codec_par.h, -2, -1
+@ media/ffvpx/libavcodec/dct.h, -2, -1
+@ media/ffvpx/libavcodec/decode.c, -2, -1
+@ media/ffvpx/libavcodec/decode.h, -2, -1
+@ media/ffvpx/libavcodec/encode.c, -2, -1
+@ media/ffvpx/libavcodec/encode.h, -2, -1
+@ media/ffvpx/libavcodec/fdctdsp.c, -2, -1
+@ media/ffvpx/libavcodec/fdctdsp.h, -2, -1
+@ media/ffvpx/libavcodec/flacdec.c, -2, -1
+@ media/ffvpx/libavcodec/h264chroma.h, -2, -1
+@ media/ffvpx/libavcodec/hwaccels.h, -2, -1
+@ media/ffvpx/libavcodec/hwconfig.h, -2, -1
+@ media/ffvpx/libavcodec/internal.h, -2, -1
+@ media/ffvpx/libavcodec/jfdctfst.c, -2, -1
+@ media/ffvpx/libavcodec/jfdctint_template.c, -2, -1
+@ media/ffvpx/libavcodec/libdav1d.c, -2, -1
+@ media/ffvpx/libavcodec/me_cmp.h, -2, -1
+@ media/ffvpx/libavcodec/options_table.h, -2, -1
+@ media/ffvpx/libavcodec/packet_internal.h, -2, -1
+@ media/ffvpx/libavcodec/parser.c, -2, -1
+@ media/ffvpx/libavcodec/parsers.c, -2, -1
+@ media/ffvpx/libavcodec/profiles.c, -2, -1
+@ media/ffvpx/libavcodec/profiles.h, -2, -1
+@ media/ffvpx/libavcodec/pthread_frame.c, -2, -1
+@ media/ffvpx/libavcodec/threadframe.h, -2, -1
+@ media/ffvpx/libavcodec/utils.c, -2, -1
+@ media/ffvpx/libavcodec/vaapi_av1.c, -2, -1
+@ media/ffvpx/libavcodec/vaapi_decode.c, -2, -1
+@ media/ffvpx/libavcodec/vaapi_vp8.c, -2, -1
+@ media/ffvpx/libavcodec/vaapi_vp9.c, -2, -1
+@ media/ffvpx/libavcodec/version.h, -2, -1
+@ media/ffvpx/libavcodec/version_major.h, -2, -1
+@ media/ffvpx/libavcodec/vorbis_parser.c, -2, -1
+@ media/ffvpx/libavcodec/vp8.c, -2, -1
+@ media/ffvpx/libavcodec/vp8data.h, -2, -1
+@ media/ffvpx/libavcodec/vp9.c, -2, -1
+@ media/ffvpx/libavcodec/x86/mathops.h, -2, -1
+@ media/ffvpx/libavutil/aarch64/cpu.c, -2, -1
+@ media/ffvpx/libavutil/aarch64/cpu.h, -2, -1
+@ media/ffvpx/libavutil/avassert.h, -2, -1
+@ media/ffvpx/libavutil/bprint.c, -2, -1
+@ media/ffvpx/libavutil/bprint.h, -2, -1
+@ media/ffvpx/libavutil/channel_layout.c, -2, -1
+@ media/ffvpx/libavutil/cpu.c, -2, -1
+@ media/ffvpx/libavutil/cpu.h, -2, -1
+@ media/ffvpx/libavutil/ffversion.h, -2, -1
+@ media/ffvpx/libavutil/frame.c, -2, -1
+@ media/ffvpx/libavutil/frame.h, -2, -1
+@ media/ffvpx/libavutil/hwcontext_vaapi.c, -2, -1
+@ media/ffvpx/libavutil/internal.h, -2, -1
+@ media/ffvpx/libavutil/intreadwrite.h, -2, -1
+@ media/ffvpx/libavutil/mathematics.c, -2, -1
+@ media/ffvpx/libavutil/mathematics.h, -2, -1
+@ media/ffvpx/libavutil/pixdesc.c, -2, -1
+@ media/ffvpx/libavutil/pixfmt.h, -2, -1
+@ media/ffvpx/libavutil/timer.h, -2, -1
+@ media/ffvpx/libavutil/version.h, -2, -1
+@ dom/media/systemservices/CamerasParent.cpp, -2, -1
+@ dom/media/systemservices/MediaChild.cpp, -2, -1
+@ dom/media/systemservices/VideoEngine.cpp, -2, -1
+@ dom/media/systemservices/video_engine/desktop_capture_impl.cc, -2, -1
+@ dom/media/systemservices/video_engine/pipewire_camera_impl.cc, -2, -1
+@ dom/media/systemservices/video_engine/pipewire_camera_impl.h, -2, -1
+@ dom/media/webaudio/AnalyserNode.cpp, -2, -1
+@ dom/media/webaudio/AudioBufferSourceNode.cpp, -2, -1
+@ dom/media/webaudio/AudioEventTimeline.cpp, -2, -1
+@ dom/media/webaudio/AudioWorkletNode.cpp, -2, -1
+@ dom/media/webaudio/BiquadFilterNode.cpp, -2, -1
+@ dom/media/webaudio/FFTBlock.cpp, -2, -1
+@ dom/media/webaudio/FFTBlock.h, -2, -1
+@ dom/media/webaudio/OscillatorNode.cpp, -2, -1
+@ dom/media/webaudio/PannerNode.cpp, -2, -1
+@ dom/media/webaudio/StereoPannerNode.cpp, -2, -1
+@ dom/media/webaudio/WebAudioUtils.cpp, -2, -1
+@ dom/media/webaudio/WebAudioUtils.h, -2, -1
+@ dom/media/webaudio/blink/Biquad.cpp, -2, -1
+@ dom/media/webaudio/blink/DynamicsCompressor.cpp, -2, -1
+@ dom/media/webaudio/blink/DynamicsCompressorKernel.cpp, -2, -1
+@ dom/media/webaudio/blink/HRTFElevation.cpp, -2, -1
+@ dom/media/webaudio/blink/IIRFilter.cpp, -2, -1
+@ dom/media/webaudio/blink/PeriodicWave.cpp, -2, -1
+@ third_party/libwebrtc/api/array_view.h, -2, -1
+@ third_party/libwebrtc/api/data_channel_interface.cc, -2, -1
+@ third_party/libwebrtc/api/data_channel_interface.h, -2, -1
+@ third_party/libwebrtc/api/field_trials_view.h, -2, -1
+@ third_party/libwebrtc/api/frame_transformer_interface.h, -2, -1
+@ third_party/libwebrtc/api/legacy_stats_types.cc, -2, -1
+@ third_party/libwebrtc/api/legacy_stats_types.h, -2, -1
+@ third_party/libwebrtc/api/neteq/neteq_controller.h, -2, -1
+@ third_party/libwebrtc/api/notifier.h, -2, -1
+@ third_party/libwebrtc/api/peer_connection_interface.h, -2, -1
+@ third_party/libwebrtc/api/rtp_parameters.cc, -2, -1
+@ third_party/libwebrtc/api/rtp_parameters.h, -2, -1
+@ third_party/libwebrtc/api/test/mock_data_channel.h, -2, -1
+@ third_party/libwebrtc/api/test/mock_transformable_video_frame.h, -2, -1
+@ third_party/libwebrtc/api/test/pclf/media_configuration.h, -2, -1
+@ third_party/libwebrtc/api/test/video/test_video_track_source.cc, -2, -1
+@ third_party/libwebrtc/api/test/video/test_video_track_source.h, -2, -1
+@ third_party/libwebrtc/api/test/video_codec_stats.h, -2, -1
+@ third_party/libwebrtc/api/test/video_quality_analyzer_interface.h, -2, -1
+@ third_party/libwebrtc/api/video/builtin_video_bitrate_allocator_factory.cc, -2, -1
+@ third_party/libwebrtc/api/video_codecs/test/video_decoder_factory_template_tests.cc, -2, -1
+@ third_party/libwebrtc/api/video_codecs/test/video_encoder_factory_template_tests.cc, -2, -1
+@ third_party/libwebrtc/api/video_codecs/video_codec.cc, -2, -1
+@ third_party/libwebrtc/api/video_codecs/video_codec.h, -2, -1
+@ third_party/libwebrtc/api/video_codecs/video_decoder_factory_template_dav1d_adapter.h, -2, -1
+@ third_party/libwebrtc/api/video_codecs/video_encoder_factory_template.h, -2, -1
+@ third_party/libwebrtc/audio/audio_receive_stream.cc, -2, -1
+@ third_party/libwebrtc/audio/audio_receive_stream.h, -2, -1
+@ third_party/libwebrtc/audio/audio_receive_stream_unittest.cc, -2, -1
+@ third_party/libwebrtc/audio/audio_send_stream.cc, -2, -1
+@ third_party/libwebrtc/audio/audio_send_stream.h, -2, -1
+@ third_party/libwebrtc/audio/audio_send_stream_tests.cc, -2, -1
+@ third_party/libwebrtc/audio/audio_send_stream_unittest.cc, -2, -1
+@ third_party/libwebrtc/audio/audio_state.cc, -2, -1
+@ third_party/libwebrtc/audio/audio_state.h, -2, -1
+@ third_party/libwebrtc/audio/channel_receive.cc, -2, -1
+@ third_party/libwebrtc/audio/channel_receive.h, -2, -1
+@ third_party/libwebrtc/audio/channel_send.cc, -2, -1
+@ third_party/libwebrtc/audio/channel_send.h, -2, -1
+@ third_party/libwebrtc/audio/test/audio_end_to_end_test.cc, -2, -1
+@ third_party/libwebrtc/audio/test/audio_end_to_end_test.h, -2, -1
+@ third_party/libwebrtc/audio/test/audio_stats_test.cc, -2, -1
+@ third_party/libwebrtc/audio/test/low_bandwidth_audio_test.cc, -2, -1
+@ third_party/libwebrtc/audio/test/nack_test.cc, -2, -1
+@ third_party/libwebrtc/audio/test/pc_low_bandwidth_audio_test.cc, -2, -1
+@ third_party/libwebrtc/audio/voip/audio_ingress.cc, -2, -1
+@ third_party/libwebrtc/call/audio_receive_stream.h, -2, -1
+@ third_party/libwebrtc/call/audio_send_stream.h, -2, -1
+@ third_party/libwebrtc/call/bitrate_estimator_tests.cc, -2, -1
+@ third_party/libwebrtc/call/call.cc, -2, -1
+@ third_party/libwebrtc/call/call_perf_tests.cc, -2, -1
+@ third_party/libwebrtc/call/call_unittest.cc, -2, -1
+@ third_party/libwebrtc/call/degraded_call.cc, -2, -1
+@ third_party/libwebrtc/call/packet_receiver.h, -2, -1
+@ third_party/libwebrtc/call/rampup_tests.cc, -2, -1
+@ third_party/libwebrtc/call/rtp_transport_controller_send.cc, -2, -1
+@ third_party/libwebrtc/call/rtp_transport_controller_send.h, -2, -1
+@ third_party/libwebrtc/call/rtp_transport_controller_send_interface.h, -2, -1
+@ third_party/libwebrtc/call/rtp_video_sender.cc, -2, -1
+@ third_party/libwebrtc/call/rtp_video_sender_unittest.cc, -2, -1
+@ third_party/libwebrtc/call/test/mock_rtp_transport_controller_send.h, -2, -1
+@ third_party/libwebrtc/call/version.cc, -2, -1
+@ third_party/libwebrtc/common_audio/signal_processing/filter_ar_fast_q12.c, -2, -1
+@ third_party/libwebrtc/examples/peerconnection/client/conductor.cc, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/encoder/rtc_event_log_encoder_new_format.cc, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/encoder/rtc_event_log_encoder_unittest.cc, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/events/logged_rtp_rtcp.h, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/events/rtc_event_rtp_packet_incoming.h, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/events/rtc_event_rtp_packet_outgoing.h, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/rtc_event_log_parser.cc, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/rtc_event_log_unittest.cc, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/rtc_event_log_unittest_helper.cc, -2, -1
+@ third_party/libwebrtc/logging/rtc_event_log/rtc_event_log_unittest_helper.h, -2, -1
+@ third_party/libwebrtc/media/base/fake_media_engine.cc, -2, -1
+@ third_party/libwebrtc/media/base/media_channel.h, -2, -1
+@ third_party/libwebrtc/media/base/media_constants.cc, -2, -1
+@ third_party/libwebrtc/media/base/video_adapter.cc, -2, -1
+@ third_party/libwebrtc/media/base/video_adapter_unittest.cc, -2, -1
+@ third_party/libwebrtc/media/engine/webrtc_video_engine.cc, -2, -1
+@ third_party/libwebrtc/media/engine/webrtc_video_engine.h, -2, -1
+@ third_party/libwebrtc/media/engine/webrtc_video_engine_unittest.cc, -2, -1
+@ third_party/libwebrtc/media/engine/webrtc_voice_engine.cc, -2, -1
+@ third_party/libwebrtc/media/engine/webrtc_voice_engine.h, -2, -1
+@ third_party/libwebrtc/media/engine/webrtc_voice_engine_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/builtin_audio_decoder_factory_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/g722/audio_decoder_g722.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/abs_quant.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/bw_expand.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/cb_mem_energy.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/cb_mem_energy_augmentation.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/cb_mem_energy_calc.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/cb_search.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/cb_search_core.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/chebyshev.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/comp_corr.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/create_augmented_vec.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/decoder_interpolate_lsf.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/do_plc.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/encode.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/energy_inverse.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/enh_upsample.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/enhancer.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/filtered_cb_vecs.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/frame_classify.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/gain_dequant.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/gain_quant.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/get_sync_seq.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/index_conv_dec.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/index_conv_enc.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/init_decode.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/init_encode.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/interpolate_samples.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/lpc_encode.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/lsf_interpolate_to_poly_dec.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/lsf_interpolate_to_poly_enc.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/lsf_to_lsp.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/lsf_to_poly.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/lsp_to_lsf.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/my_corr.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/nearest_neighbor.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/pack_bits.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/poly_to_lsf.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/poly_to_lsp.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/refiner.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/simple_interpolate_lsf.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/simple_lpc_analysis.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/simple_lsf_dequant.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/simple_lsf_quant.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/smooth.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/sort_sq.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/split_vq.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/state_construct.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/state_search.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/swap_bytes.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/unpack_bits.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/vq3.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/vq4.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/window32_w32.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/ilbc/xcorr_coef.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/opus/opus_interface.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/codecs/red/audio_encoder_copy_red_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/include/audio_coding_module_typedefs.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/accelerate.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/audio_multi_vector.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/audio_vector.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/buffer_level_filter.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/comfort_noise.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/decision_logic.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/decision_logic.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/decision_logic_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/expand.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/histogram.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/merge.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/nack_tracker.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/nack_tracker.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/nack_tracker_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/neteq_impl.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/neteq_impl.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/neteq_impl_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/neteq_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/packet_buffer.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/packet_buffer.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/packet_buffer_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/red_payload_splitter_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/fake_decode_from_file.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/fake_decode_from_file.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/neteq_event_log_input.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/neteq_event_log_input.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/neteq_replacement_input.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/neteq_test.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/neteq_test_factory.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/packet.h, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/rtp_file_source.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/neteq/tools/rtp_generator.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_coding/test/EncodeDecodeTest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_device/include/test_audio_device.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_device/include/test_audio_device.h, -2, -1
+@ third_party/libwebrtc/modules/audio_device/linux/audio_device_alsa_linux.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_device/mac/audio_device_mac.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_device/win/audio_device_core_win.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_device/win/audio_device_core_win.h, -2, -1
+@ third_party/libwebrtc/modules/audio_device/win/core_audio_utility_win_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_mixer/audio_mixer_impl.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_mixer/audio_mixer_impl.h, -2, -1
+@ third_party/libwebrtc/modules/audio_mixer/audio_mixer_impl_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aec3/adaptive_fir_filter_avx2.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aec3/adaptive_fir_filter_erl_avx2.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aec3/echo_path_variability.h, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aec3/fft_data_avx2.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aec3/multi_channel_content_detector.h, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aec3/multi_channel_content_detector_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aec3/reverb_model.h, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aec3/vector_math_avx2.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aecm/aecm_core.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aecm/aecm_core_c.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/aecm/aecm_core_mips.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/agc/legacy/analog_agc.h, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/agc2/rnn_vad/rnn_fc.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/agc2/rnn_vad/vector_math_avx2.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/echo_detector/mean_variance_estimator.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/gain_control_impl.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/logging/apm_data_dumper.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/logging/apm_data_dumper.h, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/ns/noise_suppressor.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/ns/prior_signal_model_estimator.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/ns/quantile_noise_estimator.h, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/ns/speech_probability_estimator.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/ns/wiener_filter.cc, -2, -1
+@ third_party/libwebrtc/modules/audio_processing/test/conversational_speech/generator.cc, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/goog_cc/delay_based_bwe.cc, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/goog_cc/goog_cc_network_control_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/goog_cc/probe_controller.cc, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/goog_cc/probe_controller.h, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/goog_cc/probe_controller_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/include/receive_side_congestion_controller.h, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/pcc/bitrate_controller.cc, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/receive_side_congestion_controller.cc, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/rtp/transport_feedback_adapter.cc, -2, -1
+@ third_party/libwebrtc/modules/congestion_controller/rtp/transport_feedback_demuxer.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_and_cursor_composer.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_capture_metrics_helper.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_capture_options.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_frame.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_frame_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/full_screen_application_handler.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/full_screen_window_detector.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/linux/wayland/screencast_portal.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/linux/x11/window_capturer_x11.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/mac/full_screen_mac_application_handler.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/mac/screen_capturer_mac.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/mac/window_list_utils.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/mouse_cursor_monitor_win.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/screen_capturer_helper.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/screen_capturer_integration_test.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/screen_capturer_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/screen_capturer_win.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/dxgi_output_duplicator.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/dxgi_output_duplicator.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/full_screen_win_application_handler.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/screen_capture_utils.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/screen_capture_utils.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/screen_capturer_win_directx.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/screen_capturer_win_directx.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/screen_capturer_win_gdi.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/screen_capturer_win_magnifier.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/wgc_capture_session.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/win/wgc_capture_session.h, -2, -1
+@ third_party/libwebrtc/modules/pacing/pacing_controller.cc, -2, -1
+@ third_party/libwebrtc/modules/pacing/pacing_controller.h, -2, -1
+@ third_party/libwebrtc/modules/pacing/pacing_controller_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/pacing/packet_router.cc, -2, -1
+@ third_party/libwebrtc/modules/pacing/packet_router.h, -2, -1
+@ third_party/libwebrtc/modules/pacing/packet_router_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/pacing/prioritized_packet_queue.cc, -2, -1
+@ third_party/libwebrtc/modules/pacing/prioritized_packet_queue.h, -2, -1
+@ third_party/libwebrtc/modules/pacing/prioritized_packet_queue_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/pacing/task_queue_paced_sender.cc, -2, -1
+@ third_party/libwebrtc/modules/pacing/task_queue_paced_sender.h, -2, -1
+@ third_party/libwebrtc/modules/pacing/task_queue_paced_sender_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/aimd_rate_control.cc, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/aimd_rate_control.h, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/aimd_rate_control_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/overuse_detector.cc, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/overuse_detector.h, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/overuse_detector_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/remote_bitrate_estimator_abs_send_time.cc, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/remote_bitrate_estimator_single_stream.cc, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/remote_estimator_proxy.cc, -2, -1
+@ third_party/libwebrtc/modules/remote_bitrate_estimator/remote_estimator_proxy.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/include/flexfec_receiver.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/include/flexfec_sender.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/include/report_block_data.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/include/report_block_data.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/deprecated/deprecated_rtp_sender_egress.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/flexfec_receiver.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/flexfec_sender.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/nack_rtx_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/receive_statistics_impl.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/receive_statistics_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtcp_packet/receiver_report_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtcp_packet/report_block.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtcp_packet/report_block.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtcp_packet/report_block_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtcp_receiver.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtcp_receiver_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtcp_sender_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_dependency_descriptor_extension_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_packet_received.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_rtcp_impl.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_rtcp_impl2.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_rtcp_impl_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_rtcp_interface.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_audio.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_audio.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_audio_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_egress.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_video.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_video.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_video_frame_transformer_delegate.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_sender_video_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_video_layers_allocation_extension_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_video_stream_receiver_frame_transformer_delegate.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/rtp_video_stream_receiver_frame_transformer_delegate_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/source_tracker.cc, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/source_tracker.h, -2, -1
+@ third_party/libwebrtc/modules/rtp_rtcp/source/source_tracker_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/third_party/g711/g711.h, -2, -1
+@ third_party/libwebrtc/modules/video_capture/linux/device_info_v4l2.cc, -2, -1
+@ third_party/libwebrtc/modules/video_capture/linux/pipewire_session.cc, -2, -1
+@ third_party/libwebrtc/modules/video_capture/linux/pipewire_session.h, -2, -1
+@ third_party/libwebrtc/modules/video_capture/linux/video_capture_v4l2.cc, -2, -1
+@ third_party/libwebrtc/modules/video_capture/video_capture.h, -2, -1
+@ third_party/libwebrtc/modules/video_capture/windows/device_info_ds.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/av1/libaom_av1_encoder.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/av1/libaom_av1_encoder_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/test/video_codec_analyzer.h, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/test/video_codec_stats_impl.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/test/video_codec_stats_impl.h, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/test/video_codec_test.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/test/video_codec_tester_impl_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/test/videocodec_test_fixture_impl.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/codecs/test/videoprocessor_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/deprecated/session_info.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/generic_decoder.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/packet_buffer.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/receiver.h, -2, -1
+@ third_party/libwebrtc/modules/video_coding/receiver_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/rtp_frame_reference_finder.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/rtp_vp9_ref_finder_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/timing/jitter_estimator.h, -2, -1
+@ third_party/libwebrtc/modules/video_coding/timing/timestamp_extrapolator.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/timing/timestamp_extrapolator_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/utility/bandwidth_quality_scaler_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/utility/ivf_file_reader_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/utility/ivf_file_writer.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/utility/quality_scaler_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/video_codec_initializer.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/video_codec_initializer_unittest.cc, -2, -1
+@ third_party/libwebrtc/modules/video_coding/video_coding_impl.h, -2, -1
+@ third_party/libwebrtc/modules/video_coding/video_receiver.cc, -2, -1
+@ third_party/libwebrtc/net/dcsctp/packet/sctp_packet.cc, -2, -1
+@ third_party/libwebrtc/net/dcsctp/packet/sctp_packet.h, -2, -1
+@ third_party/libwebrtc/net/dcsctp/packet/sctp_packet_test.cc, -2, -1
+@ third_party/libwebrtc/net/dcsctp/public/dcsctp_handover_state.h, -2, -1
+@ third_party/libwebrtc/net/dcsctp/public/dcsctp_options.h, -2, -1
+@ third_party/libwebrtc/net/dcsctp/socket/dcsctp_socket.cc, -2, -1
+@ third_party/libwebrtc/net/dcsctp/socket/dcsctp_socket_test.cc, -2, -1
+@ third_party/libwebrtc/net/dcsctp/socket/heartbeat_handler_test.cc, -2, -1
+@ third_party/libwebrtc/net/dcsctp/socket/stream_reset_handler_test.cc, -2, -1
+@ third_party/libwebrtc/p2p/base/ice_transport_internal.h, -2, -1
+@ third_party/libwebrtc/p2p/base/p2p_transport_channel_unittest.cc, -2, -1
+@ third_party/libwebrtc/p2p/base/port_unittest.cc, -2, -1
+@ third_party/libwebrtc/p2p/base/pseudo_tcp_unittest.cc, -2, -1
+@ third_party/libwebrtc/p2p/base/stun_port.cc, -2, -1
+@ third_party/libwebrtc/p2p/base/stun_port_unittest.cc, -2, -1
+@ third_party/libwebrtc/p2p/base/turn_port.cc, -2, -1
+@ third_party/libwebrtc/p2p/base/turn_port_unittest.cc, -2, -1
+@ third_party/libwebrtc/p2p/client/basic_port_allocator.cc, -2, -1
+@ third_party/libwebrtc/p2p/client/basic_port_allocator_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/data_channel_controller.cc, -2, -1
+@ third_party/libwebrtc/pc/data_channel_controller.h, -2, -1
+@ third_party/libwebrtc/pc/data_channel_controller_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/data_channel_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/ice_server_parsing.cc, -2, -1
+@ third_party/libwebrtc/pc/ice_server_parsing_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/jitter_buffer_delay.cc, -2, -1
+@ third_party/libwebrtc/pc/jitter_buffer_delay.h, -2, -1
+@ third_party/libwebrtc/pc/jsep_transport_collection.h, -2, -1
+@ third_party/libwebrtc/pc/jsep_transport_controller.cc, -2, -1
+@ third_party/libwebrtc/pc/jsep_transport_controller.h, -2, -1
+@ third_party/libwebrtc/pc/jsep_transport_controller_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/legacy_stats_collector.cc, -2, -1
+@ third_party/libwebrtc/pc/legacy_stats_collector.h, -2, -1
+@ third_party/libwebrtc/pc/legacy_stats_collector_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/media_session.cc, -2, -1
+@ third_party/libwebrtc/pc/media_session.h, -2, -1
+@ third_party/libwebrtc/pc/media_session_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection.h, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_bundle_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_crypto_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_end_to_end_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_factory_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_header_extension_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_ice_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_integrationtest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_interface_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_internal.h, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_rampup_tests.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_rtp_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_signaling_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/peer_connection_simulcast_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/proxy.h, -2, -1
+@ third_party/libwebrtc/pc/rtc_stats_collector.cc, -2, -1
+@ third_party/libwebrtc/pc/rtc_stats_collector.h, -2, -1
+@ third_party/libwebrtc/pc/rtc_stats_collector_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/rtp_transport.cc, -2, -1
+@ third_party/libwebrtc/pc/rtp_transport_internal.h, -2, -1
+@ third_party/libwebrtc/pc/rtp_transport_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/sctp_data_channel.cc, -2, -1
+@ third_party/libwebrtc/pc/sctp_data_channel.h, -2, -1
+@ third_party/libwebrtc/pc/sdp_offer_answer.cc, -2, -1
+@ third_party/libwebrtc/pc/sdp_offer_answer.h, -2, -1
+@ third_party/libwebrtc/pc/sdp_offer_answer_unittest.cc, -2, -1
+@ third_party/libwebrtc/pc/slow_peer_connection_integration_test.cc, -2, -1
+@ third_party/libwebrtc/pc/test/fake_audio_capture_module.cc, -2, -1
+@ third_party/libwebrtc/pc/test/fake_audio_capture_module.h, -2, -1
+@ third_party/libwebrtc/pc/test/fake_data_channel_controller.h, -2, -1
+@ third_party/libwebrtc/pc/test/fake_peer_connection_base.h, -2, -1
+@ third_party/libwebrtc/pc/test/fake_peer_connection_for_stats.h, -2, -1
+@ third_party/libwebrtc/pc/test/fake_periodic_video_source.h, -2, -1
+@ third_party/libwebrtc/pc/test/fake_periodic_video_track_source.h, -2, -1
+@ third_party/libwebrtc/pc/test/integration_test_helpers.cc, -2, -1
+@ third_party/libwebrtc/pc/test/integration_test_helpers.h, -2, -1
+@ third_party/libwebrtc/pc/test/mock_peer_connection_internal.h, -2, -1
+@ third_party/libwebrtc/pc/test/peer_connection_test_wrapper.cc, -2, -1
+@ third_party/libwebrtc/pc/test/peer_connection_test_wrapper.h, -2, -1
+@ third_party/libwebrtc/pc/test/rtp_transport_test_util.h, -2, -1
+@ third_party/libwebrtc/pc/video_rtp_track_source.cc, -2, -1
+@ third_party/libwebrtc/pc/video_rtp_track_source.h, -2, -1
+@ third_party/libwebrtc/pc/video_track_source.cc, -2, -1
+@ third_party/libwebrtc/pc/video_track_source.h, -2, -1
+@ third_party/libwebrtc/pc/webrtc_sdp.cc, -2, -1
+@ third_party/libwebrtc/pc/webrtc_sdp_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/async_packet_socket.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/async_packet_socket.h, -2, -1
+@ third_party/libwebrtc/rtc_base/async_resolver.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/async_tcp_socket.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/callback_list_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/checks.h, -2, -1
+@ third_party/libwebrtc/rtc_base/event_tracer_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/experiments/balanced_degradation_settings.h, -2, -1
+@ third_party/libwebrtc/rtc_base/experiments/balanced_degradation_settings_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/experiments/cpu_speed_experiment.h, -2, -1
+@ third_party/libwebrtc/rtc_base/experiments/encoder_info_settings.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/experiments/field_trial_list.h, -2, -1
+@ third_party/libwebrtc/rtc_base/experiments/struct_parameters_parser_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/fake_network.h, -2, -1
+@ third_party/libwebrtc/rtc_base/ip_address.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/logging.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/logging.h, -2, -1
+@ third_party/libwebrtc/rtc_base/network.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/network.h, -2, -1
+@ third_party/libwebrtc/rtc_base/network_route.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/network_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/numerics/event_based_exponential_moving_average.h, -2, -1
+@ third_party/libwebrtc/rtc_base/numerics/safe_minmax.h, -2, -1
+@ third_party/libwebrtc/rtc_base/openssl_utility_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/proxy_server.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/rate_statistics.h, -2, -1
+@ third_party/libwebrtc/rtc_base/strings/string_format.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/strong_alias_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/synchronization/mutex.h, -2, -1
+@ third_party/libwebrtc/rtc_base/thread_unittest.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/unique_id_generator.h, -2, -1
+@ third_party/libwebrtc/rtc_base/units/unit_base.h, -2, -1
+@ third_party/libwebrtc/rtc_base/weak_ptr.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/weak_ptr.h, -2, -1
+@ third_party/libwebrtc/rtc_base/win/create_direct3d_device.cc, -2, -1
+@ third_party/libwebrtc/rtc_base/win32_window.cc, -2, -1
+@ third_party/libwebrtc/rtc_tools/data_channel_benchmark/data_channel_benchmark.cc, -2, -1
+@ third_party/libwebrtc/rtc_tools/data_channel_benchmark/peer_connection_client.cc, -2, -1
+@ third_party/libwebrtc/rtc_tools/rtc_event_log_visualizer/analyze_audio.cc, -2, -1
+@ third_party/libwebrtc/rtc_tools/rtc_event_log_visualizer/analyzer.cc, -2, -1
+@ third_party/libwebrtc/rtc_tools/rtc_event_log_visualizer/main.cc, -2, -1
+@ third_party/libwebrtc/rtc_tools/rtp_generator/rtp_generator.cc, -2, -1
+@ third_party/libwebrtc/rtc_tools/video_replay.cc, -2, -1
+@ third_party/libwebrtc/sdk/media_constraints.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/logging/RTCCallbackLogger.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCConfiguration+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCDataChannel+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCDtmfSender+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCFieldTrials.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCMediaStreamTrack+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCPeerConnection+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCPeerConnection.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCPeerConnectionFactory+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCRtpReceiver+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCRtpSender.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCRtpTransceiver+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCSessionDescription+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/api/peerconnection/RTCStatisticsReport+Private.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/base/RTCLogging.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/base/RTCVideoEncoder.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/base/RTCVideoFrame.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/components/video_codec/helpers.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/components/video_codec/nalu_rewriter.cc, -2, -1
+@ third_party/libwebrtc/sdk/objc/components/video_codec/nalu_rewriter.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/api/video_capturer.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/api/video_decoder_factory.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/api/video_encoder_factory.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/api/video_frame.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/api/video_frame_buffer.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/api/video_renderer.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/src/audio/audio_device_module_ios.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/src/objc_video_decoder_factory.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/src/objc_video_encoder_factory.h, -2, -1
+@ third_party/libwebrtc/sdk/objc/native/src/objc_video_frame.h, -2, -1
+@ third_party/libwebrtc/test/call_test.cc, -2, -1
+@ third_party/libwebrtc/test/call_test.h, -2, -1
+@ third_party/libwebrtc/test/frame_generator_capturer.cc, -2, -1
+@ third_party/libwebrtc/test/frame_generator_capturer.h, -2, -1
+@ third_party/libwebrtc/test/frame_generator_capturer_unittest.cc, -2, -1
+@ third_party/libwebrtc/test/mac_capturer.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer.cc, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer_frame_in_flight.cc, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer_frame_in_flight.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer_frames_comparator.cc, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer_frames_comparator_test.cc, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer_internal_shared_objects.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer_shared_objects.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer_stream_state.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/default_video_quality_analyzer_test.cc, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/example_video_quality_analyzer.cc, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/example_video_quality_analyzer.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/video_quality_analyzer_injection_helper.cc, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/analyzer/video/video_quality_analyzer_injection_helper.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/media/test_video_capturer_video_track_source.h, -2, -1
+@ third_party/libwebrtc/test/pc/e2e/peer_connection_e2e_smoke_test.cc, -2, -1
+@ third_party/libwebrtc/test/peer_scenario/peer_scenario_client.cc, -2, -1
+@ third_party/libwebrtc/test/peer_scenario/peer_scenario_client.h, -2, -1
+@ third_party/libwebrtc/test/scenario/audio_stream.cc, -2, -1
+@ third_party/libwebrtc/test/scenario/call_client.cc, -2, -1
+@ third_party/libwebrtc/test/scenario/call_client.h, -2, -1
+@ third_party/libwebrtc/test/scenario/scenario.cc, -2, -1
+@ third_party/libwebrtc/test/scenario/video_stream.cc, -2, -1
+@ third_party/libwebrtc/test/test_video_capturer.cc, -2, -1
+@ third_party/libwebrtc/test/test_video_capturer.h, -2, -1
+@ third_party/libwebrtc/test/vcm_capturer.cc, -2, -1
+@ third_party/libwebrtc/test/vcm_capturer.h, -2, -1
+@ third_party/libwebrtc/third_party/opus/src/include/opus.h, -2, -1
+@ third_party/libwebrtc/third_party/opus/src/include/opus_multistream.h, -2, -1
+@ third_party/libwebrtc/video/cpu_scaling_tests.cc, -2, -1
+@ third_party/libwebrtc/video/decode_synchronizer.cc, -2, -1
+@ third_party/libwebrtc/video/encoder_bitrate_adjuster.cc, -2, -1
+@ third_party/libwebrtc/video/encoder_bitrate_adjuster.h, -2, -1
+@ third_party/libwebrtc/video/encoder_overshoot_detector.cc, -2, -1
+@ third_party/libwebrtc/video/encoder_overshoot_detector.h, -2, -1
+@ third_party/libwebrtc/video/encoder_overshoot_detector_unittest.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/bandwidth_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/call_operation_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/codec_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/extended_reports_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/fec_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/frame_encryption_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/histogram_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/multi_codec_receive_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/multi_stream_tester.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/network_state_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/resolution_bitrate_limits_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/retransmission_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/rtp_rtcp_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/ssrc_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/stats_tests.cc, -2, -1
+@ third_party/libwebrtc/video/end_to_end_tests/transport_feedback_tests.cc, -2, -1
+@ third_party/libwebrtc/video/full_stack_tests.cc, -2, -1
+@ third_party/libwebrtc/video/picture_id_tests.cc, -2, -1
+@ third_party/libwebrtc/video/quality_scaling_tests.cc, -2, -1
+@ third_party/libwebrtc/video/send_statistics_proxy_unittest.cc, -2, -1
+@ third_party/libwebrtc/video/video_analyzer.cc, -2, -1
+@ third_party/libwebrtc/video/video_quality_test.cc, -2, -1
+@ third_party/libwebrtc/video/video_send_stream.cc, -2, -1
+@ third_party/libwebrtc/video/video_send_stream.h, -2, -1
+@ third_party/libwebrtc/video/video_send_stream_impl.cc, -2, -1
+@ third_party/libwebrtc/video/video_send_stream_impl.h, -2, -1
+@ third_party/libwebrtc/video/video_send_stream_impl_unittest.cc, -2, -1
+@ third_party/libwebrtc/video/video_send_stream_tests.cc, -2, -1
+@ third_party/libwebrtc/webrtc_lib_link_test.cc, -2, -1
+@ mfbt/HashTable.h, -2, -1
+@ mfbt/WindowsVersion.h, -2, -1
+@ xpcom/build/Omnijar.cpp, -2, -1
+@ xpcom/build/Omnijar.h, -2, -1
+@ xpcom/build/XPCOMInit.cpp, -2, -1
+@ mozglue/baseprofiler/core/ProfilerMarkers.cpp, -2, -1
+@ mozglue/baseprofiler/public/BaseProfilerMarkersPrerequisites.h, -2, -1
+@ mozglue/baseprofiler/public/BaseProfilerState.h, -2, -1
+@ mozglue/build/TsanOptions.cpp, -2, -1
+@ mozglue/misc/Mutex_posix.cpp, -2, -1
+@ mozglue/misc/RuntimeExceptionModule.cpp, -2, -1
+@ mozglue/misc/TimeStamp_posix.cpp, -2, -1
+@ mozglue/misc/decimal/Decimal.cpp, -2, -1
+@ mozglue/misc/decimal/Decimal.h, -2, -1
+@ toolkit/crashreporter/client/crashreporter_win.cpp, -2, -1
+@ toolkit/crashreporter/nsExceptionHandler.cpp, -2, -1
+@ dom/xhr/XMLHttpRequest.cpp, -2, -1
+@ dom/xhr/XMLHttpRequestMainThread.cpp, -2, -1
+@ dom/xhr/XMLHttpRequestMainThread.h, -2, -1
+@ dom/xml/XMLDocument.cpp, -2, -1
+@ dom/xml/XMLDocument.h, -2, -1
+@ dom/xml/nsXMLContentSink.cpp, -2, -1
+@ dom/media/wave/WaveDemuxer.cpp, -2, -1
+@ dom/media/wave/WaveDemuxer.h, -2, -1
+@ js/src/jit/x86-shared/CodeGenerator-x86-shared.cpp, -2, -1
+@ js/src/jit/x86-shared/MacroAssembler-x86-shared.cpp, -2, -1
+@ gfx/config/gfxConfigManager.cpp, -2, -1
+@ gfx/config/gfxConfigManager.h, -2, -1
+@ gfx/config/gfxVars.h, -2, -1
+@ layout/painting/RetainedDisplayListBuilder.cpp, -2, -1
+@ layout/painting/WindowRenderer.cpp, -2, -1
+@ layout/painting/WindowRenderer.h, -2, -1
+@ layout/painting/nsCSSRendering.cpp, -2, -1
+@ layout/painting/nsCSSRenderingGradients.cpp, -2, -1
+@ layout/painting/nsDisplayList.cpp, -2, -1
+@ layout/painting/nsDisplayList.h, -2, -1
+@ media/openmax_dl/dl/api/armCOMM_s.h, -2, -1
+@ dom/workers/remoteworkers/RemoteWorkerChild.cpp, -2, -1
+@ layout/mathml/nsMathMLContainerFrame.cpp, -2, -1
+@ layout/mathml/nsMathMLContainerFrame.h, -2, -1
+@ layout/mathml/nsMathMLParts.h, -2, -1
+@ layout/mathml/nsMathMLmfracFrame.cpp, -2, -1
+@ layout/mathml/nsMathMLmmultiscriptsFrame.cpp, -2, -1
+@ layout/mathml/nsMathMLmrootFrame.cpp, -2, -1
+@ layout/mathml/nsMathMLmunderoverFrame.cpp, -2, -1
+@ xpcom/ds/nsHashKeys.h, -2, -1
+@ xpcom/ds/nsObserverService.cpp, -2, -1
+@ xpcom/ds/nsPointerHashKeys.h, -2, -1
+@ xpcom/ds/nsTArray.h, -2, -1
+@ xpcom/ds/nsTHashMap.h, -2, -1
+@ dom/webgpu/Adapter.cpp, -2, -1
+@ dom/webgpu/Buffer.cpp, -2, -1
+@ dom/webgpu/CanvasContext.cpp, -2, -1
+@ dom/webgpu/CanvasContext.h, -2, -1
+@ dom/webgpu/ComputePassEncoder.cpp, -2, -1
+@ dom/webgpu/ComputePassEncoder.h, -2, -1
+@ dom/webgpu/Device.cpp, -2, -1
+@ dom/webgpu/Queue.cpp, -2, -1
+@ dom/webgpu/Queue.h, -2, -1
+@ dom/webgpu/ShaderModule.cpp, -2, -1
+@ dom/webgpu/ShaderModule.h, -2, -1
+@ dom/webgpu/SupportedLimits.cpp, -2, -1
+@ dom/webgpu/SupportedLimits.h, -2, -1
+@ dom/webgpu/ipc/WebGPUChild.cpp, -2, -1
+@ dom/webgpu/ipc/WebGPUChild.h, -2, -1
+@ dom/webgpu/ipc/WebGPUParent.cpp, -2, -1
+@ dom/webgpu/ipc/WebGPUParent.h, -2, -1
+@ js/src/debugger/Debugger.cpp, -2, -1
+@ js/src/debugger/Debugger.h, -2, -1
+@ js/src/debugger/Frame.cpp, -2, -1
+@ js/src/debugger/Object.cpp, -2, -1
+@ js/src/debugger/Object.h, -2, -1
+@ js/src/debugger/Script.cpp, -2, -1
+@ js/src/debugger/Source.cpp, -2, -1
+@ security/sandbox/chromium/sandbox/win/src/broker_services.cc, -2, -1
+@ security/sandbox/common/test/SandboxTest.cpp, -2, -1
+@ security/sandbox/common/test/SandboxTest.h, -2, -1
+@ security/sandbox/common/test/SandboxTestingChildTests.h, -2, -1
+@ security/sandbox/mac/SandboxPolicyContent.h, -2, -1
+@ security/sandbox/mac/SandboxPolicyGMP.h, -2, -1
+@ security/sandbox/mac/SandboxPolicyRDD.h, -2, -1
+@ security/sandbox/mac/SandboxPolicySocket.h, -2, -1
+@ security/sandbox/mac/SandboxPolicyUtility.h, -2, -1
+@ js/src/builtin/intl/Collator.cpp, -2, -1
+@ js/src/builtin/intl/DateTimeFormat.cpp, -2, -1
+@ js/src/builtin/intl/DisplayNames.cpp, -2, -1
+@ js/src/builtin/intl/IntlObject.cpp, -2, -1
+@ js/src/builtin/intl/ListFormat.cpp, -2, -1
+@ js/src/builtin/intl/Locale.cpp, -2, -1
+@ js/src/builtin/intl/NumberFormat.cpp, -2, -1
+@ js/src/builtin/intl/PluralRules.cpp, -2, -1
+@ js/src/builtin/intl/RelativeTimeFormat.cpp, -2, -1
+@ widget/windows/KeyboardLayout.cpp, -2, -1
+@ widget/windows/KeyboardLayout.h, -2, -1
+@ widget/windows/TSFTextStore.cpp, -2, -1
+@ widget/windows/TaskbarPreview.cpp, -2, -1
+@ widget/windows/WinIMEHandler.cpp, -2, -1
+@ widget/windows/WinMouseScrollHandler.cpp, -2, -1
+@ widget/windows/WinUtils.cpp, -2, -1
+@ widget/windows/WinUtils.h, -2, -1
+@ widget/windows/WindowsUIUtils.cpp, -2, -1
+@ widget/windows/nsNativeThemeWin.cpp, -2, -1
+@ widget/windows/nsWindow.cpp, -2, -1
+@ widget/windows/nsWindow.h, -2, -1
+@ widget/windows/nsWindowGfx.cpp, -2, -1
+@ dom/bindings/BindingUtils.cpp, -2, -1
+@ dom/bindings/CallbackObject.cpp, -2, -1
+@ dom/bindings/Exceptions.cpp, -2, -1
+@ dom/bindings/WebIDLGlobalNameHash.cpp, -2, -1
+@ dom/bindings/nsScriptError.cpp, -2, -1
+@ dom/bindings/nsScriptErrorWithStack.cpp, -2, -1
+@ netwerk/protocol/webtransport/WebTransportSessionProxy.cpp, -2, -1
+@ netwerk/protocol/webtransport/WebTransportSessionProxy.h, -2, -1
+@ js/src/jit/wasm32/MacroAssembler-wasm32.h, -2, -1
+@ accessible/windows/ia2/ia2Accessible.cpp, -2, -1
+@ accessible/windows/ia2/ia2Accessible.h, -2, -1
+@ accessible/windows/ia2/ia2AccessibleHypertext.cpp, -2, -1
+@ accessible/windows/ia2/ia2AccessibleHypertext.h, -2, -1
+@ accessible/windows/ia2/ia2AccessibleText.cpp, -2, -1
+@ accessible/windows/ia2/ia2AccessibleText.h, -2, -1
+@ accessible/windows/msaa/CompatibilityUIA.cpp, -2, -1
+@ accessible/windows/msaa/MsaaAccessible.cpp, -2, -1
+@ accessible/windows/msaa/MsaaAccessible.h, -2, -1
+@ accessible/windows/msaa/MsaaIdGenerator.h, -2, -1
+@ accessible/windows/msaa/Platform.cpp, -2, -1
+@ accessible/windows/sdn/sdnAccessible.cpp, -2, -1
+@ editor/libeditor/EditorBase.cpp, -2, -1
+@ editor/libeditor/EditorEventListener.cpp, -2, -1
+@ editor/libeditor/HTMLEditHelpers.h, -2, -1
+@ editor/libeditor/HTMLEditSubActionHandler.cpp, -2, -1
+@ editor/libeditor/HTMLEditUtils.cpp, -2, -1
+@ editor/libeditor/HTMLEditor.cpp, -2, -1
+@ editor/libeditor/HTMLEditor.h, -2, -1
+@ editor/libeditor/TextEditor.cpp, -2, -1
+@ editor/spellchecker/FilteredContentIterator.h, -2, -1
+@ dom/workers/sharedworkers/SharedWorker.cpp, -2, -1
+@ dom/security/featurepolicy/FeaturePolicyUtils.cpp, -2, -1
+@ dom/security/nsCSPContext.cpp, -2, -1
+@ dom/security/nsCSPParser.cpp, -2, -1
+@ dom/security/nsContentSecurityUtils.cpp, -2, -1
+@ modules/libjar/nsJAR.cpp, -2, -1
+@ modules/libjar/nsJARURI.cpp, -2, -1
+@ modules/libjar/nsZipArchive.cpp, -2, -1
+@ modules/libjar/nsZipArchive.h, -2, -1
+@ dom/websocket/WebSocket.cpp, -2, -1
+@ storage/BaseVFS.cpp, -2, -1
+@ widget/cocoa/MediaKeysEventSourceFactory.cpp, -2, -1
+@ widget/cocoa/nsCocoaUtils.h, -2, -1
+@ widget/cocoa/nsMenuX.h, -2, -1
+@ widget/cocoa/nsNativeThemeColors.h, -2, -1
+@ layout/build/nsContentDLF.cpp, -2, -1
+@ layout/build/nsLayoutStatics.cpp, -2, -1
+@ layout/inspector/InspectorUtils.cpp, -2, -1
+@ layout/inspector/InspectorUtils.h, -2, -1
+@ toolkit/xre/dllservices/tests/AssemblyPayloads.h, -2, -1
+@ toolkit/xre/dllservices/tests/TestDllInterceptor.cpp, -2, -1
+@ js/src/builtin/temporal/Calendar.cpp, -2, -1
+@ accessible/xpcom/xpcAccessibleHyperText.cpp, -2, -1
+@ toolkit/components/viaduct/ViaductRequest.cpp, -2, -1
+@ gfx/angle/checkout/src/common/debug.cpp, -2, -1
+@ dom/fetch/FetchDriver.cpp, -2, -1
+@ dom/fetch/InternalHeaders.cpp, -2, -1
+@ dom/fetch/InternalHeaders.h, -2, -1
+@ js/src/jit/loong64/Assembler-loong64.cpp, -2, -1
+@ js/src/jit/loong64/CodeGenerator-loong64.cpp, -2, -1
+@ js/src/jit/loong64/MacroAssembler-loong64.cpp, -2, -1
+@ js/src/jit/loong64/MacroAssembler-loong64.h, -2, -1
+@ js/src/jit/shared/CodeGenerator-shared.cpp, -2, -1
+@ js/src/jit/shared/CodeGenerator-shared.h, -2, -1
+@ js/src/jit/shared/LIR-shared.h, -2, -1
+@ netwerk/cache2/CacheIOThread.cpp, -2, -1
+@ js/public/experimental/CompileScript.h, -2, -1
+@ js/public/experimental/JSStencil.h, -2, -1
+@ intl/components/src/ICU4CGlue.h, -2, -1
+@ intl/hyphenation/glue/nsHyphenationManager.h, -2, -1
+@ intl/locale/nsLanguageAtomService.h, -2, -1
+@ intl/lwbrk/LineBreaker.cpp, -2, -1
+@ intl/lwbrk/Segmenter.cpp, -2, -1
+@ intl/lwbrk/Segmenter.h, -2, -1
+@ intl/lwbrk/WordBreaker.cpp, -2, -1
+@ intl/lwbrk/gtest/TestSegmenter.cpp, -2, -1
+@ dom/script/ModuleLoader.cpp, -2, -1
+@ dom/script/ScriptLoadContext.cpp, -2, -1
+@ dom/script/ScriptLoader.cpp, -2, -1
+@ netwerk/protocol/res/RemoteStreamGetter.cpp, -2, -1
+@ netwerk/protocol/res/RemoteStreamGetter.h, -2, -1
+@ netwerk/protocol/res/SubstitutingJARURI.h, -2, -1
+@ toolkit/components/aboutwindowsmessages/AboutWindowsMessages.cpp, -2, -1
+@ js/src/jit/arm/Assembler-arm.cpp, -2, -1
+@ js/src/jit/arm/CodeGenerator-arm.cpp, -2, -1
+@ js/src/jit/arm/MacroAssembler-arm.cpp, -2, -1
+@ js/src/jit/arm/MacroAssembler-arm.h, -2, -1
+@ gfx/ipc/CrossProcessPaint.cpp, -2, -1
+@ gfx/layers/d3d11/CompositorD3D11.cpp, -2, -1
+@ gfx/layers/d3d11/TextureD3D11.cpp, -2, -1
+@ gfx/layers/d3d11/TextureD3D11.h, -2, -1
+@ hal/Hal.cpp, -2, -1
+@ hal/Hal.h, -2, -1
+@ hal/HalTypes.h, -2, -1
+@ js/src/jit/mips64/Assembler-mips64.cpp, -2, -1
+@ js/src/jit/mips64/MacroAssembler-mips64.cpp, -2, -1
+@ js/src/jit/mips64/MacroAssembler-mips64.h, -2, -1
+@ js/src/jit/x64/Assembler-x64.cpp, -2, -1
+@ js/src/jit/x64/MacroAssembler-x64.cpp, -2, -1
+@ js/src/jit/x64/MacroAssembler-x64.h, -2, -1
+@ gfx/gl/GLContext.cpp, -2, -1
+@ gfx/gl/GLLibraryEGL.cpp, -2, -1
+@ gfx/gl/SharedSurfaceANGLE.cpp, -2, -1
+@ gfx/gl/SharedSurfaceD3D11Interop.cpp, -2, -1
+@ toolkit/components/formautofill/FormAutofillNative.cpp, -2, -1
+@ layout/style/CSS.cpp, -2, -1
+@ layout/style/CSSPropFlags.h, -2, -1
+@ layout/style/CounterStyleManager.h, -2, -1
+@ layout/style/GeckoBindings.cpp, -2, -1
+@ layout/style/GeckoBindings.h, -2, -1
+@ layout/style/ImageLoader.cpp, -2, -1
+@ layout/style/Loader.cpp, -2, -1
+@ layout/style/Loader.h, -2, -1
+@ layout/style/MediaQueryList.cpp, -2, -1
+@ layout/style/MediaQueryList.h, -2, -1
+@ layout/style/ServoStyleConstsForwards.h, -2, -1
+@ layout/style/ServoStyleConstsInlines.h, -2, -1
+@ layout/style/ServoStyleSet.cpp, -2, -1
+@ layout/style/ServoStyleSet.h, -2, -1
+@ layout/style/ShadowParts.h, -2, -1
+@ layout/style/SheetLoadData.h, -2, -1
+@ layout/style/StreamLoader.cpp, -2, -1
+@ layout/style/StreamLoader.h, -2, -1
+@ layout/style/StyleAnimationValue.cpp, -2, -1
+@ layout/style/StyleAnimationValue.h, -2, -1
+@ layout/style/StyleColorInlines.h, -2, -1
+@ layout/style/StyleSheet.cpp, -2, -1
+@ layout/style/StyleSheet.h, -2, -1
+@ layout/style/TimelineCollection.h, -2, -1
+@ layout/style/TimelineManager.cpp, -2, -1
+@ layout/style/nsAnimationManager.cpp, -2, -1
+@ layout/style/nsCSSProps.cpp, -2, -1
+@ layout/style/nsCSSProps.h, -2, -1
+@ layout/style/nsCSSPseudoElements.cpp, -2, -1
+@ layout/style/nsCSSPseudoElements.h, -2, -1
+@ layout/style/nsComputedDOMStyle.cpp, -2, -1
+@ layout/style/nsComputedDOMStyle.h, -2, -1
+@ layout/style/nsStyleStruct.cpp, -2, -1
+@ layout/style/nsStyleStruct.h, -2, -1
+@ layout/style/nsStyleTransformMatrix.cpp, -2, -1
+@ layout/style/nsStyleTransformMatrix.h, -2, -1
+@ layout/style/nsStyleUtil.cpp, -2, -1
+@ layout/style/test/gtest/StyloParsingBench.cpp, -2, -1
+@ tools/profiler/core/PowerCounters-win.cpp, -2, -1
+@ tools/profiler/core/ProfileBuffer.cpp, -2, -1
+@ tools/profiler/core/ProfilerMarkers.cpp, -2, -1
+@ tools/profiler/core/platform.cpp, -2, -1
+@ tools/profiler/public/ProfilerMarkers.h, -2, -1
+@ tools/profiler/public/ProfilerState.h, -2, -1
+@ tools/profiler/tests/gtest/GeckoProfiler.cpp, -2, -1
+@ dom/media/webrtc/MediaEnginePrefs.h, -2, -1
+@ dom/media/webrtc/MediaEngineWebRTCAudio.cpp, -2, -1
+@ dom/media/webrtc/common/browser_logging/WebRtcLog.cpp, -2, -1
+@ dom/media/webrtc/jsapi/PacketDumper.cpp, -2, -1
+@ dom/media/webrtc/jsapi/PacketDumper.h, -2, -1
+@ dom/media/webrtc/jsapi/PeerConnectionImpl.cpp, -2, -1
+@ dom/media/webrtc/jsapi/PeerConnectionImpl.h, -2, -1
+@ dom/media/webrtc/jsapi/RTCDtlsTransport.cpp, -2, -1
+@ dom/media/webrtc/jsapi/RTCDtlsTransport.h, -2, -1
+@ dom/media/webrtc/jsapi/RTCEncodedVideoFrame.cpp, -2, -1
+@ dom/media/webrtc/jsapi/RTCRtpReceiver.cpp, -2, -1
+@ dom/media/webrtc/jsapi/RTCRtpScriptTransformer.cpp, -2, -1
+@ dom/media/webrtc/jsapi/RTCRtpSender.cpp, -2, -1
+@ dom/media/webrtc/jsapi/RTCRtpSender.h, -2, -1
+@ dom/media/webrtc/jsapi/RTCRtpTransceiver.cpp, -2, -1
+@ dom/media/webrtc/jsapi/RTCRtpTransceiver.h, -2, -1
+@ dom/media/webrtc/jsep/JsepSessionImpl.cpp, -2, -1
+@ dom/media/webrtc/jsep/JsepSessionImpl.h, -2, -1
+@ dom/media/webrtc/jsep/JsepTransceiver.h, -2, -1
+@ dom/media/webrtc/libwebrtcglue/AudioConduit.cpp, -2, -1
+@ dom/media/webrtc/libwebrtcglue/AudioConduit.h, -2, -1
+@ dom/media/webrtc/libwebrtcglue/MediaConduitInterface.h, -2, -1
+@ dom/media/webrtc/libwebrtcglue/VideoConduit.cpp, -2, -1
+@ dom/media/webrtc/libwebrtcglue/VideoConduit.h, -2, -1
+@ dom/media/webrtc/transport/ipc/WebrtcTCPSocket.cpp, -2, -1
+@ dom/media/webrtc/transport/nr_socket_prsock.cpp, -2, -1
+@ dom/media/webrtc/transportbridge/MediaPipeline.cpp, -2, -1
+@ dom/media/webrtc/transportbridge/MediaPipeline.h, -2, -1
+@ dom/gamepad/GamepadManager.cpp, -2, -1
+@ dom/gamepad/GamepadServiceTest.cpp, -2, -1
+@ js/src/jit/riscv64/Assembler-riscv64.cpp, -2, -1
+@ js/src/jit/riscv64/CodeGenerator-riscv64.cpp, -2, -1
+@ gfx/layers/apz/src/APZCTreeManager.cpp, -2, -1
+@ gfx/layers/apz/src/APZCTreeManager.h, -2, -1
+@ gfx/layers/apz/src/APZSampler.cpp, -2, -1
+@ gfx/layers/apz/src/APZUtils.h, -2, -1
+@ gfx/layers/apz/src/AsyncPanZoomController.cpp, -2, -1
+@ gfx/layers/apz/src/AsyncPanZoomController.h, -2, -1
+@ gfx/layers/apz/src/GenericScrollAnimation.cpp, -2, -1
+@ gfx/layers/apz/src/GenericScrollAnimation.h, -2, -1
+@ gfx/layers/apz/src/HitTestingTreeNode.cpp, -2, -1
+@ gfx/layers/apz/src/HitTestingTreeNode.h, -2, -1
+@ gfx/layers/apz/src/KeyboardMap.cpp, -2, -1
+@ gfx/layers/apz/src/SmoothScrollAnimation.cpp, -2, -1
+@ gfx/layers/apz/src/WheelScrollAnimation.cpp, -2, -1
+@ gfx/layers/apz/test/gtest/APZTestCommon.h, -2, -1
+@ gfx/layers/apz/test/gtest/InputUtils.h, -2, -1
+@ gfx/layers/apz/test/gtest/TestAxisLock.cpp, -2, -1
+@ gfx/layers/apz/test/gtest/TestInputQueue.cpp, -2, -1
+@ gfx/layers/apz/test/gtest/TestOverscroll.cpp, -2, -1
+@ gfx/layers/apz/test/gtest/TestSnapping.cpp, -2, -1
+@ gfx/layers/apz/test/gtest/TestSnappingOnMomentum.cpp, -2, -1
+@ gfx/layers/apz/test/gtest/TestTransformNotifications.cpp, -2, -1
+@ gfx/layers/apz/util/APZEventState.cpp, -2, -1
+@ accessible/base/ARIAMap.h, -2, -1
+@ accessible/base/AccAttributes.h, -2, -1
+@ accessible/base/CacheConstants.h, -2, -1
+@ accessible/base/CachedTableAccessible.cpp, -2, -1
+@ accessible/base/HTMLMarkupMap.h, -2, -1
+@ accessible/base/TextLeafRange.cpp, -2, -1
+@ accessible/base/nsAccessibilityService.cpp, -2, -1
+@ accessible/base/nsAccessibilityService.h, -2, -1
+@ accessible/generic/ARIAGridAccessible.cpp, -2, -1
+@ accessible/generic/ARIAGridAccessible.h, -2, -1
+@ accessible/generic/BaseAccessibles.h, -2, -1
+@ accessible/generic/DocAccessible.h, -2, -1
+@ accessible/generic/HyperTextAccessible.h, -2, -1
+@ accessible/html/HTMLCanvasAccessible.cpp, -2, -1
+@ accessible/html/HTMLCanvasAccessible.h, -2, -1
+@ accessible/html/HTMLElementAccessibles.cpp, -2, -1
+@ accessible/html/HTMLElementAccessibles.h, -2, -1
+@ accessible/html/HTMLLinkAccessible.cpp, -2, -1
+@ accessible/html/HTMLLinkAccessible.h, -2, -1
+@ accessible/html/HTMLListAccessible.cpp, -2, -1
+@ accessible/html/HTMLListAccessible.h, -2, -1
+@ accessible/html/HTMLSelectAccessible.cpp, -2, -1
+@ accessible/html/HTMLSelectAccessible.h, -2, -1
+@ accessible/html/HTMLTableAccessible.cpp, -2, -1
+@ accessible/html/HTMLTableAccessible.h, -2, -1
+@ accessible/ipc/DocAccessibleParent.h, -1, -2
+@ config/msvc-stl-wrapper.template.h, -2, -1
+@ docshell/base/BrowsingContext.h, -2, -1
+@ docshell/base/nsDSURIContentListener.cpp, -2, -1
+@ docshell/base/nsDocShell.h, -2, -1
+@ docshell/base/nsDocShellLoadState.cpp, -2, -1
+@ docshell/base/nsDocShellLoadState.h, -2, -1
+@ dom/base/BarProps.cpp, -2, -1
+@ dom/base/ChromeUtils.cpp, -2, -1
+@ dom/base/ContentIterator.cpp, -2, -1
+@ dom/base/ContentIterator.h, -2, -1
+@ dom/base/CustomElementRegistry.cpp, -2, -1
+@ dom/base/CustomElementRegistry.h, -2, -1
+@ dom/base/DOMIntersectionObserver.cpp, -2, -1
+@ dom/base/Document.h, -2, -1
+@ dom/base/DocumentOrShadowRoot.cpp, -2, -1
+@ dom/base/Element.cpp, -2, -1
+@ dom/base/Element.h, -2, -1
+@ dom/base/FragmentOrElement.cpp, -2, -1
+@ dom/base/FragmentOrElement.h, -2, -1
+@ dom/base/FuzzingFunctions.cpp, -2, -1
+@ dom/base/Highlight.cpp, -2, -1
+@ dom/base/Highlight.h, -2, -1
+@ dom/base/HighlightRegistry.cpp, -2, -1
+@ dom/base/HighlightRegistry.h, -2, -1
+@ dom/base/IdleRequest.cpp, -2, -1
+@ dom/base/LinkStyle.cpp, -2, -1
+@ dom/base/LinkStyle.h, -2, -1
+@ dom/base/Location.h, -2, -1
+@ dom/base/LocationBase.cpp, -2, -1
+@ dom/base/LocationBase.h, -2, -1
+@ dom/base/MimeType.cpp, -2, -1
+@ dom/base/MimeType.h, -2, -1
+@ dom/base/Navigator.cpp, -2, -1
+@ dom/base/PostMessageEvent.cpp, -2, -1
+@ dom/base/RadioGroupManager.cpp, -2, -1
+@ dom/base/RadioGroupManager.h, -2, -1
+@ dom/base/ScreenOrientation.cpp, -2, -1
+@ dom/base/ScriptableContentIterator.h, -2, -1
+@ dom/base/ShadowRoot.h, -2, -1
+@ dom/base/StructuredCloneHolder.cpp, -2, -1
+@ dom/base/ThirdPartyUtil.cpp, -2, -1
+@ dom/base/Timeout.cpp, -2, -1
+@ dom/base/TimeoutManager.cpp, -2, -1
+@ dom/base/WindowDestroyedEvent.cpp, -2, -1
+@ dom/base/WindowDestroyedEvent.h, -2, -1
+@ dom/base/WindowNamedPropertiesHandler.cpp, -2, -1
+@ dom/base/nsAttrValue.cpp, -2, -1
+@ dom/base/nsAttrValue.h, -2, -1
+@ dom/base/nsAttrValueInlines.h, -2, -1
+@ dom/base/nsCCUncollectableMarker.cpp, -2, -1
+@ dom/base/nsContentList.h, -2, -1
+@ dom/base/nsContentPermissionHelper.cpp, -2, -1
+@ dom/base/nsContentSink.cpp, -2, -1
+@ dom/base/nsContentSink.h, -2, -1
+@ dom/base/nsCopySupport.cpp, -2, -1
+@ dom/base/nsDOMMutationObserver.h, -2, -1
+@ dom/base/nsDOMTokenList.cpp, -2, -1
+@ dom/base/nsDOMWindowUtils.cpp, -2, -1
+@ dom/base/nsDeprecatedOperationList.h, -2, -1
+@ dom/base/nsFocusManager.cpp, -2, -1
+@ dom/base/nsGlobalWindowInner.cpp, -2, -1
+@ dom/base/nsGlobalWindowInner.h, -2, -1
+@ dom/base/nsGlobalWindowOuter.h, -2, -1
+@ dom/base/nsINode.cpp, -2, -1
+@ dom/base/nsINode.h, -2, -1
+@ dom/base/nsJSEnvironment.cpp, -2, -1
+@ dom/base/nsJSUtils.cpp, -2, -1
+@ dom/base/nsMimeTypeArray.cpp, -2, -1
+@ dom/base/nsNameSpaceManager.h, -2, -1
+@ dom/base/nsNodeInfoManager.cpp, -2, -1
+@ dom/base/nsNodeInfoManager.h, -2, -1
+@ dom/base/nsObjectLoadingContent.cpp, -2, -1
+@ dom/base/nsPIDOMWindow.h, -2, -1
+@ dom/base/nsPluginArray.cpp, -2, -1
+@ dom/base/nsScreen.cpp, -2, -1
+@ dom/base/nsScreen.h, -2, -1
+@ dom/base/nsSyncLoadService.cpp, -2, -1
+@ dom/base/nsTreeSanitizer.cpp, -2, -1
+@ dom/base/nsWindowMemoryReporter.cpp, -2, -1
+@ dom/base/nsWindowMemoryReporter.h, -2, -1
+@ dom/base/nsWindowRoot.cpp, -2, -1
+@ dom/base/nsWrapperCache.h, -2, -1
+@ dom/canvas/CanvasRenderingContext2D.h, -2, -1
+@ dom/canvas/ClientWebGLContext.cpp, -2, -1
+@ dom/canvas/OffscreenCanvas.cpp, -2, -1
+@ dom/canvas/OffscreenCanvas.h, -2, -1
+@ dom/canvas/WebGLChild.cpp, -2, -1
+@ dom/canvas/WebGLChild.h, -2, -1
+@ dom/canvas/WebGLContext.cpp, -2, -1
+@ dom/canvas/WebGLContext.h, -2, -1
+@ dom/canvas/WebGLContextValidate.cpp, -2, -1
+@ dom/events/ContentEventHandler.cpp, -2, -1
+@ dom/events/ContentEventHandler.h, -2, -1
+@ dom/events/Event.h, -2, -1
+@ dom/events/EventListenerManager.cpp, -2, -1
+@ dom/events/EventListenerManager.h, -2, -1
+@ dom/events/EventNameList.h, -2, -1
+@ dom/events/GlobalKeyListener.cpp, -2, -1
+@ dom/events/GlobalKeyListener.h, -2, -1
+@ dom/events/IMEContentObserver.cpp, -2, -1
+@ dom/events/IMEContentObserver.h, -2, -1
+@ dom/events/IMEStateManager.cpp, -2, -1
+@ dom/events/InternalMutationEvent.h, -2, -1
+@ dom/events/KeyEventHandler.cpp, -2, -1
+@ dom/events/KeyNameList.h, -2, -1
+@ dom/events/KeyboardEvent.cpp, -2, -1
+@ dom/events/MouseEvent.cpp, -2, -1
+@ dom/events/PhysicalKeyCodeNameList.h, -2, -1
+@ dom/events/Touch.cpp, -2, -1
+@ dom/events/UIEvent.cpp, -2, -1
+@ dom/fs/parent/FileSystemContentTypeGuess.cpp, -2, -1
+@ dom/fs/parent/FileSystemContentTypeGuess.h, -2, -1
+@ dom/fs/parent/datamodel/FileSystemDatabaseManagerVersion001.cpp, -2, -1
+@ dom/fs/parent/datamodel/FileSystemDatabaseManagerVersion001.h, -2, -1
+@ dom/fs/parent/datamodel/FileSystemDatabaseManagerVersion002.cpp, -2, -1
+@ dom/html/HTMLBodyElement.cpp, -2, -1
+@ dom/html/HTMLButtonElement.cpp, -2, -1
+@ dom/html/HTMLDialogElement.cpp, -2, -1
+@ dom/html/HTMLDialogElement.h, -2, -1
+@ dom/html/HTMLEmbedElement.cpp, -2, -1
+@ dom/html/HTMLEmbedElement.h, -2, -1
+@ dom/html/HTMLFormControlsCollection.cpp, -2, -1
+@ dom/html/HTMLFormElement.h, -2, -1
+@ dom/html/HTMLFrameSetElement.cpp, -2, -1
+@ dom/html/HTMLImageElement.cpp, -2, -1
+@ dom/html/HTMLInputElement.cpp, -2, -1
+@ dom/html/HTMLLinkElement.cpp, -2, -1
+@ dom/html/HTMLMediaElement.cpp, -2, -1
+@ dom/html/HTMLSlotElement.cpp, -2, -1
+@ dom/html/HTMLStyleElement.cpp, -2, -1
+@ dom/html/ImageDocument.h, -2, -1
+@ dom/html/MediaDocument.cpp, -2, -1
+@ dom/html/MediaDocument.h, -2, -1
+@ dom/html/TextControlState.cpp, -2, -1
+@ dom/html/TextInputListener.h, -2, -1
+@ dom/html/TextTrackManager.cpp, -2, -1
+@ dom/html/VideoDocument.cpp, -2, -1
+@ dom/html/nsGenericHTMLElement.cpp, -2, -1
+@ dom/html/nsHTMLDocument.cpp, -2, -1
+@ dom/html/nsHTMLDocument.h, -2, -1
+@ dom/ipc/BrowserChild.h, -2, -1
+@ dom/ipc/BrowserHost.cpp, -2, -1
+@ dom/ipc/ClonedErrorHolder.cpp, -2, -1
+@ dom/ipc/ClonedErrorHolder.h, -2, -1
+@ dom/ipc/ContentChild.h, -2, -1
+@ dom/ipc/ContentParent.h, -2, -1
+@ dom/ipc/ContentProcess.cpp, -2, -1
+@ dom/ipc/EffectsInfo.h, -2, -1
+@ dom/ipc/ProcessIsolation.cpp, -2, -1
+@ dom/media/ADTSDemuxer.cpp, -2, -1
+@ dom/media/AudioConfig.cpp, -2, -1
+@ dom/media/AudioConfig.h, -2, -1
+@ dom/media/AudioSampleFormat.h, -2, -1
+@ dom/media/BufferReader.h, -2, -1
+@ dom/media/CubebUtils.cpp, -2, -1
+@ dom/media/DecoderTraits.cpp, -2, -1
+@ dom/media/DecoderTraits.h, -2, -1
+@ dom/media/GraphDriver.cpp, -2, -1
+@ dom/media/MediaData.h, -2, -1
+@ dom/media/MediaDecoderStateMachine.cpp, -2, -1
+@ dom/media/MediaFormatReader.cpp, -2, -1
+@ dom/media/MediaFormatReader.h, -2, -1
+@ dom/media/MediaInfo.h, -2, -1
+@ dom/media/MediaManager.cpp, -2, -1
+@ dom/media/TimeUnits.cpp, -2, -1
+@ dom/media/TimeUnits.h, -2, -1
+@ dom/media/VideoUtils.cpp, -2, -1
+@ dom/media/VideoUtils.h, -2, -1
+@ dom/media/gmp/GMPChild.cpp, -2, -1
+@ dom/media/gmp/GMPChild.h, -2, -1
+@ dom/media/gmp/GMPContentChild.h, -2, -1
+@ dom/media/gmp/GMPContentParent.cpp, -2, -1
+@ dom/media/gmp/GMPContentParent.h, -2, -1
+@ dom/media/gmp/GMPProcessChild.cpp, -2, -1
+@ dom/media/gmp/GMPProcessChild.h, -2, -1
+@ dom/media/gmp/GMPProcessParent.cpp, -2, -1
+@ dom/media/gmp/GMPProcessParent.h, -2, -1
+@ dom/media/gmp/GMPService.cpp, -2, -1
+@ dom/media/gmp/GMPService.h, -2, -1
+@ dom/media/gmp/GMPServiceChild.cpp, -2, -1
+@ dom/media/gmp/GMPServiceChild.h, -2, -1
+@ dom/media/gmp/GMPServiceParent.h, -2, -1
+@ dom/media/gtest/TestAudioDeviceEnumerator.cpp, -2, -1
+@ dom/media/gtest/TestAudioInputSource.cpp, -2, -1
+@ dom/media/gtest/TestDeviceInputTrack.cpp, -2, -1
+@ dom/media/gtest/TestMP3Demuxer.cpp, -2, -1
+@ dom/media/gtest/TestMediaDataDecoder.cpp, -2, -1
+@ dom/media/gtest/TestTimeUnit.cpp, -2, -1
+@ dom/media/mediasink/AudioSink.cpp, -2, -1
+@ dom/media/mediasink/AudioSink.h, -2, -1
+@ dom/media/mediasink/AudioSinkWrapper.h, -2, -1
+@ dom/media/mediasink/MediaSink.h, -2, -1
+@ dom/media/mediasink/VideoSink.cpp, -2, -1
+@ dom/media/mediasink/VideoSink.h, -2, -1
+@ dom/media/mp4/DecoderData.cpp, -2, -1
+@ dom/media/mp4/MP4Metadata.cpp, -2, -1
+@ dom/media/mp4/MoofParser.h, -2, -1
+@ dom/serviceworkers/ServiceWorkerPrivate.cpp, -2, -1
+@ dom/workers/RuntimeService.cpp, -2, -1
+@ dom/workers/ScriptLoader.cpp, -2, -1
+@ dom/workers/Worker.cpp, -2, -1
+@ dom/workers/WorkerError.cpp, -2, -1
+@ dom/workers/WorkerError.h, -2, -1
+@ dom/workers/WorkerLoadInfo.cpp, -2, -1
+@ dom/workers/WorkerLoadInfo.h, -2, -1
+@ dom/workers/WorkerPrivate.cpp, -2, -1
+@ dom/workers/WorkerPrivate.h, -2, -1
+@ gfx/2d/DrawTargetRecording.cpp, -2, -1
+@ gfx/2d/HelpersD2D.h, -2, -1
+@ gfx/2d/PathRecording.cpp, -2, -1
+@ gfx/2d/PathRecording.h, -2, -1
+@ gfx/layers/D3D9SurfaceImage.cpp, -2, -1
+@ gfx/thebes/DeviceManagerDx.cpp, -2, -1
+@ gfx/thebes/DeviceManagerDx.h, -2, -1
+@ gfx/thebes/PrintTargetPDF.cpp, -2, -1
+@ gfx/thebes/PrintTargetPDF.h, -2, -1
+@ gfx/thebes/d3dkmtQueryStatistics.h, -2, -1
+@ gfx/thebes/gfxFont.cpp, -2, -1
+@ gfx/thebes/gfxFont.h, -2, -1
+@ gfx/thebes/gfxMacFont.cpp, -2, -1
+@ gfx/thebes/gfxPlatform.cpp, -2, -1
+@ gfx/thebes/gfxWindowsPlatform.cpp, -2, -1
+@ gfx/thebes/gfxWindowsPlatform.h, -2, -1
+@ js/public/AllocPolicy.h, -2, -1
+@ js/public/CompileOptions.h, -2, -1
+@ js/public/ErrorReport.h, -2, -1
+@ js/public/HeapAPI.h, -2, -1
+@ js/public/JitCodeAPI.h, -2, -1
+@ js/public/MemoryMetrics.h, -2, -1
+@ js/public/Modules.h, -2, -1
+@ js/public/OffThreadScriptCompilation.h, -2, -1
+@ js/public/RealmOptions.h, -2, -1
+@ js/public/SavedFrameAPI.h, -2, -1
+@ js/public/TracingAPI.h, -2, -1
+@ js/public/UbiNode.h, -2, -1
+@ js/src/builtin/AtomicsObject.cpp, -2, -1
+@ js/src/builtin/Boolean.cpp, -2, -1
+@ js/src/builtin/Eval.cpp, -2, -1
+@ js/src/builtin/FinalizationRegistryObject.cpp, -2, -1
+@ js/src/builtin/HandlerFunction-inl.h, -2, -1
+@ js/src/builtin/MapObject.cpp, -2, -1
+@ js/src/builtin/MapObject.h, -2, -1
+@ js/src/builtin/ModuleObject.cpp, -2, -1
+@ js/src/builtin/ModuleObject.h, -2, -1
+@ js/src/builtin/Object.cpp, -2, -1
+@ js/src/builtin/Promise.cpp, -2, -1
+@ js/src/builtin/ReflectParse.cpp, -2, -1
+@ js/src/builtin/RegExp.cpp, -2, -1
+@ js/src/builtin/RegExp.h, -2, -1
+@ js/src/builtin/ShadowRealm.cpp, -2, -1
+@ js/src/builtin/String.cpp, -2, -1
+@ js/src/builtin/Symbol.cpp, -2, -1
+@ js/src/builtin/TestingFunctions.cpp, -2, -1
+@ js/src/builtin/TestingUtility.cpp, -2, -1
+@ js/src/frontend/AsyncEmitter.cpp, -2, -1
+@ js/src/frontend/BytecodeCompiler.cpp, -2, -1
+@ js/src/frontend/BytecodeCompiler.h, -2, -1
+@ js/src/frontend/BytecodeEmitter.cpp, -2, -1
+@ js/src/frontend/BytecodeSection.cpp, -2, -1
+@ js/src/frontend/BytecodeSection.h, -2, -1
+@ js/src/frontend/CompilationStencil.h, -2, -1
+@ js/src/frontend/CompileScript.cpp, -2, -1
+@ js/src/frontend/EitherParser.h, -2, -1
+@ js/src/frontend/EmitterScope.cpp, -2, -1
+@ js/src/frontend/ErrorReporter.h, -2, -1
+@ js/src/frontend/Frontend2.cpp, -2, -1
+@ js/src/frontend/FrontendContext.cpp, -2, -1
+@ js/src/frontend/FrontendContext.h, -2, -1
+@ js/src/frontend/FunctionEmitter.cpp, -2, -1
+@ js/src/frontend/ObjectEmitter.cpp, -2, -1
+@ js/src/frontend/ParseContext.cpp, -2, -1
+@ js/src/frontend/ParseContext.h, -2, -1
+@ js/src/frontend/Parser.cpp, -2, -1
+@ js/src/frontend/Parser.h, -2, -1
+@ js/src/frontend/ParserAtom.cpp, -2, -1
+@ js/src/frontend/ParserAtom.h, -2, -1
+@ js/src/frontend/PrivateOpEmitter.cpp, -2, -1
+@ js/src/frontend/SharedContext.h, -2, -1
+@ js/src/frontend/SourceNotes.h, -2, -1
+@ js/src/frontend/Stencil.cpp, -2, -1
+@ js/src/frontend/Stencil.h, -2, -1
+@ js/src/frontend/TokenStream.cpp, -2, -1
+@ js/src/frontend/TokenStream.h, -2, -1
+@ js/src/frontend/UsedNameTracker.h, -2, -1
+@ js/src/gc/AtomMarking.cpp, -2, -1
+@ js/src/gc/Barrier.h, -2, -1
+@ js/src/gc/Compacting.cpp, -2, -1
+@ js/src/gc/GCMarker.h, -2, -1
+@ js/src/gc/Marking-inl.h, -2, -1
+@ js/src/gc/Marking.cpp, -2, -1
+@ js/src/gc/Nursery.cpp, -2, -1
+@ js/src/gc/Nursery.h, -2, -1
+@ js/src/gc/ParallelMarking.cpp, -2, -1
+@ js/src/gc/Statistics.cpp, -2, -1
+@ js/src/gc/StoreBuffer.cpp, -2, -1
+@ js/src/gc/StoreBuffer.h, -2, -1
+@ js/src/gc/Sweeping.cpp, -2, -1
+@ js/src/gc/Tenuring.cpp, -2, -1
+@ js/src/gc/Tenuring.h, -2, -1
+@ js/src/gc/Tracer.h, -2, -1
+@ js/src/gc/Zone.cpp, -2, -1
+@ js/src/gc/Zone.h, -2, -1
+@ js/src/jit/ABIFunctionList-inl.h, -2, -1
+@ js/src/jit/AutoWritableJitCode.h, -2, -1
+@ js/src/jit/BacktrackingAllocator.cpp, -2, -1
+@ js/src/jit/BaselineBailouts.cpp, -2, -1
+@ js/src/jit/BaselineCacheIRCompiler.cpp, -2, -1
+@ js/src/jit/BaselineCacheIRCompiler.h, -2, -1
+@ js/src/jit/BaselineCodeGen.cpp, -2, -1
+@ js/src/jit/BaselineDebugModeOSR.cpp, -2, -1
+@ js/src/jit/BaselineIC.cpp, -2, -1
+@ js/src/jit/BaselineJIT.cpp, -2, -1
+@ js/src/jit/BaselineJIT.h, -2, -1
+@ js/src/jit/BytecodeAnalysis.cpp, -2, -1
+@ js/src/jit/CacheIR.cpp, -2, -1
+@ js/src/jit/CacheIRCompiler.cpp, -2, -1
+@ js/src/jit/CacheIRCompiler.h, -2, -1
+@ js/src/jit/CacheIRGenerator.h, -2, -1
+@ js/src/jit/CacheIRHealth.cpp, -2, -1
+@ js/src/jit/CacheIRSpewer.cpp, -2, -1
+@ js/src/jit/CacheIRWriter.h, -2, -1
+@ js/src/jit/CodeGenerator.h, -2, -1
+@ js/src/jit/CompileInfo.h, -2, -1
+@ js/src/jit/CompileWrappers.cpp, -2, -1
+@ js/src/jit/CompileWrappers.h, -2, -1
+@ js/src/jit/InlinableNatives.cpp, -2, -1
+@ js/src/jit/InlinableNatives.h, -2, -1
+@ js/src/jit/InterpreterEntryTrampoline.cpp, -2, -1
+@ js/src/jit/Ion.cpp, -2, -1
+@ js/src/jit/Ion.h, -2, -1
+@ js/src/jit/IonAnalysis.cpp, -2, -1
+@ js/src/jit/IonCacheIRCompiler.cpp, -2, -1
+@ js/src/jit/IonCacheIRCompiler.h, -2, -1
+@ js/src/jit/IonTypes.h, -2, -1
+@ js/src/jit/JitCode.h, -2, -1
+@ js/src/jit/JitFrames.cpp, -2, -1
+@ js/src/jit/JitFrames.h, -2, -1
+@ js/src/jit/JitRuntime.h, -2, -1
+@ js/src/jit/JitScript.cpp, -2, -1
+@ js/src/jit/JitZone.h, -2, -1
+@ js/src/jit/JitcodeMap.cpp, -2, -1
+@ js/src/jit/LIR.cpp, -2, -1
+@ js/src/jit/LIR.h, -2, -1
+@ js/src/jit/Lowering.cpp, -2, -1
+@ js/src/jit/MIR.cpp, -2, -1
+@ js/src/jit/MIR.h, -2, -1
+@ js/src/jit/MIRGraph.cpp, -2, -1
+@ js/src/jit/MIRGraph.h, -2, -1
+@ js/src/jit/MacroAssembler-inl.h, -2, -1
+@ js/src/jit/MacroAssembler.cpp, -2, -1
+@ js/src/jit/MacroAssembler.h, -2, -1
+@ js/src/jit/PerfSpewer.cpp, -2, -1
+@ js/src/jit/Recover.cpp, -2, -1
+@ js/src/jit/Recover.h, -2, -1
+@ js/src/jit/RegisterAllocator.cpp, -2, -1
+@ js/src/jit/Safepoints.cpp, -2, -1
+@ js/src/jit/Safepoints.h, -2, -1
+@ js/src/jit/StackSlotAllocator.h, -2, -1
+@ js/src/jit/TrialInlining.cpp, -2, -1
+@ js/src/jit/TypePolicy.cpp, -2, -1
+@ js/src/jit/VMFunctionList-inl.h, -2, -1
+@ js/src/jit/VMFunctions.cpp, -2, -1
+@ js/src/jit/VMFunctions.h, -2, -1
+@ js/src/jit/WarpBuilder.cpp, -2, -1
+@ js/src/jit/WarpBuilderShared.h, -2, -1
+@ js/src/jit/WarpCacheIRTranspiler.cpp, -2, -1
+@ js/src/jit/WarpOracle.cpp, -2, -1
+@ js/src/jit/WarpSnapshot.cpp, -2, -1
+@ js/src/jsapi.cpp, -2, -1
+@ js/src/jsapi.h, -2, -1
+@ js/src/jsdate.cpp, -2, -1
+@ js/src/jsexn.cpp, -2, -1
+@ js/src/jsfriendapi.cpp, -2, -1
+@ js/src/jsfriendapi.h, -2, -1
+@ js/src/jsmath.cpp, -2, -1
+@ js/src/jsnum.cpp, -2, -1
+@ js/src/vm/ArgumentsObject.cpp, -2, -1
+@ js/src/vm/AsyncFunction.cpp, -2, -1
+@ js/src/vm/AsyncIteration.cpp, -2, -1
+@ js/src/vm/BigIntType.cpp, -2, -1
+@ js/src/vm/BoundFunctionObject.cpp, -2, -1
+@ js/src/vm/BytecodeUtil-inl.h, -2, -1
+@ js/src/vm/BytecodeUtil.cpp, -2, -1
+@ js/src/vm/Caches.h, -2, -1
+@ js/src/vm/CommonPropertyNames.h, -2, -1
+@ js/src/vm/CompilationAndEvaluation.cpp, -2, -1
+@ js/src/vm/EnvironmentObject.cpp, -2, -1
+@ js/src/vm/EnvironmentObject.h, -2, -1
+@ js/src/vm/ErrorObject-inl.h, -2, -1
+@ js/src/vm/ErrorObject.cpp, -2, -1
+@ js/src/vm/ErrorObject.h, -2, -1
+@ js/src/vm/ErrorReporting.cpp, -2, -1
+@ js/src/vm/ErrorReporting.h, -2, -1
+@ js/src/vm/FrameIter.cpp, -2, -1
+@ js/src/vm/FrameIter.h, -2, -1
+@ js/src/vm/GeckoProfiler.cpp, -2, -1
+@ js/src/vm/GeneratorObject.cpp, -2, -1
+@ js/src/vm/GlobalObject.cpp, -2, -1
+@ js/src/vm/GlobalObject.h, -2, -1
+@ js/src/vm/HelperThreadState.h, -2, -1
+@ js/src/vm/HelperThreads.h, -2, -1
+@ js/src/vm/Initialization.cpp, -2, -1
+@ js/src/vm/Interpreter-inl.h, -2, -1
+@ js/src/vm/JSAtomState.h, -2, -1
+@ js/src/vm/JSAtomUtils.cpp, -2, -1
+@ js/src/vm/JSContext.cpp, -2, -1
+@ js/src/vm/JSContext.h, -2, -1
+@ js/src/vm/JSFunction-inl.h, -2, -1
+@ js/src/vm/JSFunction.cpp, -2, -1
+@ js/src/vm/JSONParser.cpp, -2, -1
+@ js/src/vm/JSONParser.h, -2, -1
+@ js/src/vm/JSObject-inl.h, -2, -1
+@ js/src/vm/JSObject.cpp, -2, -1
+@ js/src/vm/JSObject.h, -2, -1
+@ js/src/vm/JSScript.cpp, -2, -1
+@ js/src/vm/JSScript.h, -2, -1
+@ js/src/vm/JitActivation.cpp, -2, -1
+@ js/src/vm/MemoryMetrics.cpp, -2, -1
+@ js/src/vm/Modules.cpp, -2, -1
+@ js/src/vm/ObjectFlags-inl.h, -2, -1
+@ js/src/vm/ObjectFlags.h, -2, -1
+@ js/src/vm/OffThreadScriptCompilation.cpp, -2, -1
+@ js/src/vm/PIC.cpp, -2, -1
+@ js/src/vm/PlainObject.cpp, -2, -1
+@ js/src/vm/PlainObject.h, -2, -1
+@ js/src/vm/Realm.cpp, -2, -1
+@ js/src/vm/Realm.h, -2, -1
+@ js/src/vm/RegExpObject.cpp, -2, -1
+@ js/src/vm/RegExpObject.h, -2, -1
+@ js/src/vm/RegExpShared.h, -2, -1
+@ js/src/vm/SavedFrame.h, -2, -1
+@ js/src/vm/SavedStacks.cpp, -2, -1
+@ js/src/vm/SavedStacks.h, -2, -1
+@ js/src/vm/Scope.cpp, -2, -1
+@ js/src/vm/SelfHosting.cpp, -2, -1
+@ js/src/vm/SharedStencil.h, -2, -1
+@ js/src/vm/StringObject-inl.h, -2, -1
+@ js/src/vm/ToSource.cpp, -2, -1
+@ js/src/vm/WellKnownAtom.cpp, -2, -1
+@ js/src/vm/WellKnownAtom.h, -2, -1
+@ js/src/wasm/AsmJS.cpp, -2, -1
+@ js/src/wasm/WasmBCClass-inl.h, -2, -1
+@ js/src/wasm/WasmBCClass.h, -2, -1
+@ js/src/wasm/WasmBCFrame.cpp, -2, -1
+@ js/src/wasm/WasmBCFrame.h, -2, -1
+@ js/src/wasm/WasmBCStkMgmt-inl.h, -2, -1
+@ js/src/wasm/WasmBaselineCompile.cpp, -2, -1
+@ js/src/wasm/WasmBinary.h, -2, -1
+@ js/src/wasm/WasmBuiltins.cpp, -2, -1
+@ js/src/wasm/WasmCodegenTypes.h, -2, -1
+@ js/src/wasm/WasmCompile.cpp, -2, -1
+@ js/src/wasm/WasmCompileArgs.h, -2, -1
+@ js/src/wasm/WasmConstants.h, -2, -1
+@ js/src/wasm/WasmDebug.cpp, -2, -1
+@ js/src/wasm/WasmDebug.h, -2, -1
+@ js/src/wasm/WasmDebugFrame.cpp, -2, -1
+@ js/src/wasm/WasmFeatures.cpp, -2, -1
+@ js/src/wasm/WasmFeatures.h, -2, -1
+@ js/src/wasm/WasmFrame.h, -2, -1
+@ js/src/wasm/WasmFrameIter.cpp, -2, -1
+@ js/src/wasm/WasmFrameIter.h, -2, -1
+@ js/src/wasm/WasmGC.cpp, -2, -1
+@ js/src/wasm/WasmGcObject.cpp, -2, -1
+@ js/src/wasm/WasmGenerator.cpp, -2, -1
+@ js/src/wasm/WasmInitExpr.cpp, -2, -1
+@ js/src/wasm/WasmInstance.cpp, -2, -1
+@ js/src/wasm/WasmInstance.h, -2, -1
+@ js/src/wasm/WasmIonCompile.cpp, -2, -1
+@ js/src/wasm/WasmJS.cpp, -2, -1
+@ js/src/wasm/WasmJS.h, -2, -1
+@ js/src/wasm/WasmOpIter.cpp, -2, -1
+@ js/src/wasm/WasmOpIter.h, -2, -1
+@ js/src/wasm/WasmProcess.cpp, -2, -1
+@ js/src/wasm/WasmSerialize.cpp, -2, -1
+@ js/src/wasm/WasmSignalHandlers.cpp, -2, -1
+@ js/src/wasm/WasmStubs.cpp, -2, -1
+@ js/src/wasm/WasmTable.cpp, -2, -1
+@ js/src/wasm/WasmTable.h, -2, -1
+@ js/src/wasm/WasmTypeDef.h, -2, -1
+@ js/src/wasm/WasmUtility.h, -2, -1
+@ js/src/wasm/WasmValType.cpp, -2, -1
+@ js/src/wasm/WasmValType.h, -2, -1
+@ js/src/wasm/WasmValue.cpp, -2, -1
+@ js/src/wasm/WasmValue.h, -2, -1
+@ layout/base/AutoProfilerStyleMarker.h, -2, -1
+@ layout/base/Baseline.cpp, -2, -1
+@ layout/base/ContainStyleScopeManager.h, -2, -1
+@ layout/base/FrameProperties.h, -2, -1
+@ layout/base/MotionPathUtils.cpp, -2, -1
+@ layout/base/MotionPathUtils.h, -2, -1
+@ layout/base/PresShell.cpp, -2, -1
+@ layout/base/PresShell.h, -2, -1
+@ layout/base/PresShellForwards.h, -2, -1
+@ layout/base/RestyleManager.cpp, -2, -1
+@ layout/base/RestyleManager.h, -2, -1
+@ layout/base/StaticPresData.cpp, -2, -1
+@ layout/base/nsCSSFrameConstructor.cpp, -2, -1
+@ layout/base/nsCSSFrameConstructor.h, -2, -1
+@ layout/base/nsCaret.cpp, -2, -1
+@ layout/base/nsChangeHint.h, -2, -1
+@ layout/base/nsCounterManager.h, -2, -1
+@ layout/base/nsDocumentViewer.cpp, -2, -1
+@ layout/base/nsLayoutUtils.cpp, -2, -1
+@ layout/base/nsPresArena.cpp, -2, -1
+@ layout/base/nsPresContext.cpp, -2, -1
+@ layout/base/nsPresContext.h, -2, -1
+@ layout/base/nsRefreshDriver.cpp, -2, -1
+@ layout/base/nsRefreshDriver.h, -2, -1
+@ layout/forms/HTMLSelectEventListener.cpp, -2, -1
+@ layout/forms/nsButtonFrameRenderer.cpp, -2, -1
+@ layout/forms/nsFileControlFrame.cpp, -1, -2
+@ layout/forms/nsTextControlFrame.cpp, -2, -1
+@ layout/forms/nsTextControlFrame.h, -2, -1
+@ layout/svg/FilterInstance.cpp, -2, -1
+@ layout/svg/FilterInstance.h, -2, -1
+@ layout/svg/SVGContextPaint.cpp, -2, -1
+@ layout/svg/SVGObserverUtils.h, -2, -1
+@ layout/svg/SVGUtils.cpp, -2, -1
+@ layout/xul/nsSliderFrame.h, -2, -1
+@ layout/xul/nsXULPopupManager.cpp, -2, -1
+@ modules/libpref/Preferences.cpp, -2, -1
+@ netwerk/dns/TRR.cpp, -2, -1
+@ netwerk/dns/nsDNSService2.cpp, -2, -1
+@ netwerk/ipc/NeckoChild.cpp, -2, -1
+@ netwerk/ipc/NeckoParent.cpp, -2, -1
+@ netwerk/ipc/NeckoParent.h, -2, -1
+@ netwerk/protocol/http/AlternateServices.cpp, -2, -1
+@ netwerk/protocol/http/EarlyHintPreloader.cpp, -2, -1
+@ netwerk/protocol/http/Http3Session.cpp, -2, -1
+@ netwerk/protocol/http/Http3WebTransportSession.cpp, -2, -1
+@ netwerk/protocol/http/Http3WebTransportSession.h, -2, -1
+@ netwerk/protocol/http/HttpBaseChannel.cpp, -2, -1
+@ netwerk/protocol/http/HttpBaseChannel.h, -2, -1
+@ netwerk/protocol/http/HttpChannelChild.cpp, -2, -1
+@ netwerk/protocol/http/HttpChannelParent.cpp, -2, -1
+@ netwerk/protocol/http/HttpChannelParent.h, -2, -1
+@ netwerk/protocol/http/HttpTransactionChild.cpp, -2, -1
+@ netwerk/protocol/http/HttpTransactionParent.cpp, -2, -1
+@ netwerk/protocol/http/InterceptedHttpChannel.cpp, -2, -1
+@ netwerk/protocol/http/TimingStruct.h, -2, -1
+@ netwerk/protocol/http/nsCORSListenerProxy.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpChannel.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpChannel.h, -2, -1
+@ netwerk/protocol/http/nsHttpHandler.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpResponseHead.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpResponseHead.h, -2, -1
+@ netwerk/protocol/http/nsHttpTransaction.cpp, -2, -1
+@ netwerk/protocol/http/nsHttpTransaction.h, -2, -1
+@ netwerk/protocol/websocket/WebSocketChannelChild.cpp, -2, -1
+@ netwerk/protocol/websocket/WebSocketChannelParent.cpp, -2, -1
+@ netwerk/protocol/websocket/WebSocketChannelParent.h, -2, -1
+@ parser/html/nsHtml5AttributeName.cpp, -2, -1
+@ parser/html/nsHtml5AttributeName.h, -2, -1
+@ parser/html/nsHtml5DocumentBuilder.cpp, -2, -1
+@ parser/html/nsHtml5ElementName.cpp, -2, -1
+@ parser/html/nsHtml5ElementName.h, -2, -1
+@ parser/html/nsHtml5HtmlAttributes.cpp, -2, -1
+@ parser/html/nsHtml5Parser.cpp, -2, -1
+@ parser/html/nsHtml5Parser.h, -2, -1
+@ parser/html/nsHtml5Portability.cpp, -2, -1
+@ parser/html/nsHtml5SpeculativeLoad.cpp, -2, -1
+@ parser/html/nsHtml5SpeculativeLoad.h, -2, -1
+@ parser/html/nsHtml5TreeBuilder.cpp, -2, -1
+@ parser/html/nsHtml5TreeBuilder.h, -2, -1
+@ parser/html/nsHtml5TreeBuilderCppSupplement.h, -2, -1
+@ parser/html/nsHtml5TreeOpExecutor.h, -2, -1
+@ parser/html/nsHtml5TreeOperation.cpp, -2, -1
+@ security/manager/ssl/CommonSocketControl.cpp, -2, -1
+@ security/manager/ssl/CommonSocketControl.h, -2, -1
+@ security/manager/ssl/EnterpriseRoots.cpp, -2, -1
+@ security/manager/ssl/nsSecureBrowserUI.cpp, -2, -1
+@ toolkit/components/extensions/ExtensionPolicyService.cpp, -2, -1
+@ toolkit/components/extensions/ExtensionPolicyService.h, -2, -1
+@ toolkit/components/extensions/webrequest/ChannelWrapper.h, -2, -1
+@ toolkit/components/extensions/webrequest/WebNavigationContent.cpp, -2, -1
+@ toolkit/mozapps/extensions/AddonManagerWebAPI.cpp, -2, -1
+@ toolkit/xre/GeckoArgs.h, -2, -1
+@ toolkit/xre/nsAppRunner.cpp, -2, -1
+@ toolkit/xre/nsEmbedFunctions.cpp, -2, -1
+@ toolkit/xre/nsUpdateDriver.cpp, -2, -1
+@ toolkit/xre/nsWindowsWMain.cpp, -2, -1
+@ widget/BasicEvents.h, -2, -1
+@ widget/ContentEvents.h, -2, -1
+@ widget/MiscEvents.h, -2, -1
+@ widget/MouseEvents.h, -2, -1
+@ widget/NativeKeyToDOMCodeName.h, -2, -1
+@ widget/NativeKeyToDOMKeyName.h, -2, -1
+@ widget/PuppetWidget.cpp, -2, -1
+@ widget/ScreenManager.h, -2, -1
+@ widget/SwipeTracker.cpp, -2, -1
+@ widget/SwipeTracker.h, -2, -1
+@ widget/TextEventDispatcher.cpp, -2, -1
+@ widget/TextEvents.h, -2, -1
+@ widget/TextRecognition.cpp, -2, -1
+@ widget/TouchEvents.h, -2, -1
+@ widget/WidgetEventImpl.cpp, -2, -1
+@ widget/nsGUIEventIPC.h, -2, -1
+@ widget/nsNativeTheme.cpp, -2, -1
+@ widget/nsXPLookAndFeel.cpp, -2, -1
+@ xpcom/base/CycleCollectedJSRuntime.h, -2, -1
+@ xpcom/base/nsConsoleService.cpp, -2, -1
+@ xpfe/appshell/AppWindow.cpp, -2, -1
+@ xpfe/appshell/nsWindowMediator.cpp, -2, -1
+@ widget/nsBaseWidget.cpp, 3479, 3483
++ 104, 0, = ,104, 4
+@ toolkit/components/uniffi-js/UniFFIFixtureScaffolding.cpp, 1069, 1069
++ 156, 1, = ,156, 1
+@ toolkit/components/sessionstore/SessionStoreUtils.cpp, 1948, 1948
++ 52, 1, = ,52, 1
+@ security/manager/ssl/StaticHPKPins.h, 883, 883
+# 882, 1, = ,882, 1
+@ parser/html/nsHtml5TreeOpExecutor.cpp, 1404, 1406
++ 1225, 5, = ,1225, 7
++ 1245, 6, = ,1247, 6
+@ netwerk/ipc/DocumentLoadListener.cpp, 3002, 3005
++ 163, 2, = ,163, 0
++ 192, 2, = ,190, 0
++ 2142, 0, = ,2138, 7
+@ layout/xul/nsSliderFrame.cpp, 1637, 1635
++ 51, 1, = ,51, 0
++ 64, 0, = ,63, 1
++ 109, 0, = ,109, 1
++ 702, 2, = ,703, 1
++ 709, 1, = ,709, 1
++ 711, 1, = ,711, 1
++ 713, 1, = ,713, 0
++ 716, 1, = ,715, 1
++ 718, 1, = ,717, 1
++ 720, 1, = ,719, 0
+@ layout/svg/SVGObserverUtils.cpp, 1875, 1842
++ 21, 1, = ,21, 0
++ 1225, 2, = ,1224, 0
++ 1413, 29, = ,1410, 0
++ 1580, 1, = ,1548, 0
+@ js/src/wasm/WasmValidate.cpp, 3314, 3281
++ 217, 21, = ,217, 0
++ 660, 12, = ,639, 0
+@ js/src/vm/StructuredClone.cpp, 4183, 4182
++ 48, 1, = ,48, 0
++ 1802, 1, = ,1801, 1
++ 1986, 1, = ,1985, 1
++ 3467, 0, = ,3466, 1
++ 3473, 2, = ,3473, 3
++ 3607, 4, = ,3608, 2
+@ js/src/vm/Iteration.cpp, 2188, 2189
++ 41, 0, = ,41, 1
++ 2006, 1, = ,2007, 1
++ 2017, 1, = ,2018, 1
++ 2028, 1, = ,2029, 1
++ 2041, 1, = ,2042, 1
++ 2048, 1, = ,2049, 1
++ 2078, 1, = ,2079, 1
++ 2145, 1, = ,2146, 1
+@ js/src/vm/HelperThreads.cpp, 2199, 2505
++ 16, 1, = ,16, 2
++ 18, 0, = ,19, 1
++ 22, 1, = ,24, 1
++ 38, 0, = ,40, 1
++ 317, 0, = ,320, 3
++ 327, 1, = ,333, 2
++ 342, 0, = ,349, 1
++ 437, 1, = ,445, 1
++ 448, 1, = ,456, 1
++ 454, 5, = ,462, 2
++ 467, 1, = ,472, 1
++ 472, 1, = ,477, 1
++ 475, 1, = ,480, 1
++ 536, 0, = ,541, 5
++ 554, 0, = ,564, 28
++ 598, 1, = ,636, 2
++ 620, 1, = ,659, 2
+# 635, 13, = ,675, 13
++ 649, 1, = ,689, 6
+# 651, 6, = ,696, 13
++ 661, 1, = ,713, 2
++ 668, 1, = ,721, 1
++ 678, 1, = ,731, 1
++ 686, 1, = ,739, 3
++ 688, 1, = ,743, 1
++ 694, 1, = ,749, 1
++ 700, 0, = ,755, 115
++ 701, 1, = ,871, 1
++ 704, 1, = ,874, 1
++ 709, 1, = ,879, 16
++ 718, 1, = ,903, 1
++ 720, 3, = ,905, 3
++ 730, 3, = ,915, 45
++ 737, 1, = ,964, 2
++ 743, 4, = ,971, 7
++ 753, 1, = ,984, 1
++ 763, 1, = ,994, 2
++ 765, 1, = ,997, 74
++ 864, 1, = ,1169, 1
++ 887, 1, = ,1192, 1
++ 901, 1, = ,1206, 1
++ 905, 1, = ,1210, 1
++ 956, 1, = ,1261, 1
++ 963, 1, = ,1268, 1
++ 1106, 1, = ,1411, 1
++ 1841, 0, = ,2146, 1
+@ js/src/jit/CodeGenerator.cpp, 19159, 18949
++ 42, 0, = ,42, 1
++ 55, 1, = ,56, 0
++ 61, 1, = ,61, 0
++ 963, 1, = ,962, 1
++ 1892, 1, = ,1891, 0
++ 1920, 4, = ,1918, 4
++ 2144, 4, = ,2142, 5
++ 2236, 1, = ,2235, 1
+- 2409, 3, = ,2408, 1
++ 2418, 3, = ,2415, 0
++ 2450, 0, = ,2444, 14
+- 2470, 0, = ,2478, 3
++ 2471, 1, = ,2482, 1
++ 2492, 3, = ,2503, 0
++ 2497, 4, = ,2505, 3
++ 2502, 7, = ,2509, 9
++ 2510, 40, = ,2519, 12
++ 2589, 0, = ,2570, 3
++ 2710, 5, = ,2694, 0
+# 2786, 3, = ,2765, 2
+# 2791, 3, = ,2769, 2
++ 2863, 1, = ,2840, 1
++ 2865, 1, = ,2842, 1
++ 2933, 1, = ,2910, 1
++ 2935, 1, = ,2912, 1
++ 2943, 1, = ,2920, 1
++ 2965, 1, = ,2942, 1
++ 2973, 8, = ,2950, 0
++ 2986, 1, = ,2955, 1
++ 3033, 5, = ,3002, 0
++ 3039, 0, = ,3003, 3
++ 3123, 1, = ,3090, 1
++ 3125, 1, = ,3092, 1
++ 3134, 9, = ,3101, 1
++ 3152, 1, = ,3111, 1
++ 3196, 1, = ,3155, 1
++ 3296, 1, = ,3255, 1
++ 3298, 1, = ,3257, 1
++ 3307, 28, = ,3266, 0
++ 3359, 4, = ,3290, 1
++ 3413, 3, = ,3341, 1
++ 3916, 1, = ,3842, 0
++ 4597, 12, = ,4522, 0
++ 7276, 1, = ,7189, 1
++ 7283, 0, = ,7196, 5
++ 7286, 2, = ,7204, 1
++ 7940, 2, = ,7857, 2
++ 8564, 1, = ,8481, 1
++ 8792, 1, = ,8709, 1
++ 8815, 1, = ,8732, 0
++ 8853, 10, = ,8769, 0
++ 8868, 10, = ,8774, 0
++ 8892, 6, = ,8788, 0
++ 8912, 6, = ,8802, 0
++ 8924, 12, = ,8808, 0
++ 8967, 1, = ,8839, 0
++ 8996, 15, = ,8867, 0
++ 9119, 1, = ,8975, 1
++ 9170, 1, = ,9026, 1
++ 9284, 3, = ,9140, 8
++ 11406, 1, = ,11267, 1
++ 11408, 1, = ,11269, 1
++ 11618, 1, = ,11479, 1
++ 11738, 1, = ,11599, 1
++ 11744, 1, = ,11605, 1
++ 12058, 1, = ,11919, 1
++ 13614, 1, = ,13475, 1
++ 13790, 3, = ,13651, 3
++ 13896, 2, = ,13757, 2
++ 13906, 2, = ,13767, 2
++ 13926, 1, = ,13787, 1
++ 13935, 2, = ,13796, 2
++ 13938, 2, = ,13799, 2
++ 13942, 2, = ,13803, 2
++ 13948, 2, = ,13809, 2
++ 14001, 1, = ,13862, 0
++ 14102, 1, = ,13962, 1
++ 14215, 2, = ,14075, 2
++ 14225, 0, = ,14085, 1
++ 14553, 71, = ,14414, 0
++ 17433, 1, = ,17223, 1
++ 17435, 1, = ,17225, 1
++ 17611, 1, = ,17401, 1
++ 18910, 2, = ,18700, 2
++ 18913, 1, = ,18703, 0
++ 18915, 2, = ,18704, 10
++ 18918, 1, = ,18715, 13
++ 18925, 22, = ,18734, 3
+@ js/src/gc/GCAPI.cpp, 800, 803
++ 18, 1, = ,18, 1
++ 101, 2, = ,101, 5
+@ js/src/gc/GC.cpp, 5115, 5119
++ 222, 0, = ,222, 1
++ 1381, 24, = ,1382, 0
++ 1407, 1, = ,1384, 2
++ 1412, 1, = ,1390, 7
+# 1454, 0, = ,1438, 22
++ 1455, 1, = ,1461, 1
++ 1487, 2, = ,1493, 1
++ 1505, 2, = ,1510, 1
+@ js/src/frontend/StencilXdr.h, 218, 218
++ 18, 1, = ,18, 1
++ 91, 1, = ,91, 1
++ 185, 1, = ,185, 1
++ 188, 1, = ,188, 1
++ 194, 1, = ,194, 1
+@ js/src/frontend/StencilXdr.cpp, 1536, 1534
++ 21, 1, = ,21, 0
++ 605, 1, = ,604, 1
++ 1220, 1, = ,1219, 1
++ 1308, 1, = ,1307, 1
++ 1314, 1, = ,1313, 1
++ 1316, 1, = ,1315, 1
++ 1330, 1, = ,1329, 1
++ 1335, 1, = ,1334, 1
++ 1481, 2, = ,1480, 1
+@ js/src/builtin/JSON.cpp, 2120, 2122
++ 38, 3, = ,38, 4
++ 1614, 1, = ,1615, 1
++ 1826, 1, = ,1827, 1
++ 1830, 1, = ,1831, 1
++ 2057, 1, = ,2058, 1
++ 2100, 2, = ,2101, 2
++ 2118, 1, = ,2119, 2
+@ js/src/builtin/Array.h, 258, 258
++ 85, 3, = ,85, 3
+@ js/src/builtin/Array.cpp, 5552, 5564
++ 48, 0, = ,48, 1
++ 1035, 1, = ,1036, 1
++ 1268, 1, = ,1269, 1
++ 1290, 1, = ,1291, 1
++ 1395, 1, = ,1396, 1
++ 1405, 1, = ,1406, 1
++ 4843, 3, = ,4844, 3
++ 5148, 3, = ,5149, 0
++ 5155, 0, = ,5153, 13
++ 5260, 2, = ,5271, 2
++ 5267, 0, = ,5278, 2
++ 5378, 2, = ,5391, 1
+@ js/public/WasmFeatures.h, 248, 221
++ 88, 5, = ,88, 0
++ 120, 1, = ,115, 0
++ 131, 1, = ,125, 0
++ 142, 1, = ,135, 0
++ 153, 1, = ,145, 0
++ 164, 1, = ,155, 0
++ 175, 1, = ,165, 0
++ 186, 1, = ,175, 0
++ 197, 1, = ,185, 0
++ 201, 11, = ,188, 0
++ 219, 1, = ,195, 0
++ 230, 1, = ,205, 0
+# 232, 12, = ,206, 11
+@ js/public/GCAPI.h, 1350, 1350
++ 606, 1, = ,606, 1
+@ gfx/thebes/gfxTextRun.cpp, 3854, 3853
++ 2736, 1, = ,2736, 0
+@ gfx/2d/ScaledFontMac.cpp, 792, 794
++ 19, 0, = ,19, 1
++ 97, 1, = ,98, 2
+@ gfx/2d/PathD2D.cpp, 431, 432
+- 172, 0, = ,172, 3
++ 174, 12, = ,177, 9
+- 259, 0, = ,259, 1
+@ dom/prototype/PrototypeDocumentContentSink.cpp, 1116, 1117
++ 384, 1, = ,384, 1
++ 394, 0, = ,394, 2
++ 396, 1, = ,398, 1
++ 423, 8, = ,425, 0
++ 448, 0, = ,442, 9
++ 476, 1, = ,479, 1
++ 521, 2, = ,524, 0
++ 524, 3, = ,525, 3
+@ dom/notification/Notification.cpp, 2319, 2320
++ 44, 0, = ,44, 1
+@ dom/media/mp4/MoofParser.cpp, 1285, 1287
++ 15, 0, = ,15, 1
++ 17, 12, = ,18, 18
++ 1040, 6, = ,1047, 1
+@ dom/media/mediasink/AudioSinkWrapper.cpp, 580, 593
+# 463, 2, = ,463, 5
++ 496, 0, = ,499, 3
++ 576, 0, = ,582, 7
+@ dom/media/gtest/TestAudioTrackGraph.cpp, 2557, 2542
++ 2463, 8, = ,2463, 0
++ 2511, 7, = ,2503, 0
+@ dom/media/gtest/MockCubeb.h, 551, 542
++ 202, 0, = ,202, 1
++ 204, 2, = ,205, 1
++ 213, 1, = ,213, 1
++ 220, 2, = ,220, 1
+# 251, 2, = ,250, 1
++ 262, 0, = ,260, 1
++ 293, 8, = ,292, 0
++ 303, 0, = ,294, 1
++ 305, 2, = ,297, 0
++ 309, 1, = ,299, 0
++ 381, 1, = ,370, 1
++ 391, 1, = ,380, 1
++ 402, 1, = ,391, 5
++ 422, 2, = ,415, 0
+@ dom/media/gtest/MockCubeb.cpp, 689, 684
++ 12, 2, = ,12, 0
++ 140, 3, = ,138, 1
++ 184, 1, = ,180, 1
++ 235, 1, = ,231, 1
++ 237, 2, = ,233, 4
+# 241, 1, = ,239, 6
++ 243, 8, = ,246, 1
++ 263, 1, = ,259, 0
++ 268, 3, = ,263, 1
++ 346, 0, = ,339, 4
++ 350, 1, = ,347, 5
++ 379, 2, = ,380, 3
++ 384, 1, = ,386, 9
++ 386, 1, = ,396, 2
++ 400, 1, = ,411, 0
++ 403, 1, = ,413, 1
++ 412, 17, = ,422, 1
++ 431, 3, = ,425, 1
++ 589, 1, = ,581, 4
++ 614, 2, = ,609, 3
++ 642, 1, = ,638, 0
++ 647, 1, = ,642, 2
++ 650, 2, = ,646, 5
++ 653, 1, = ,652, 0
++ 655, 0, = ,653, 3
++ 656, 0, = ,657, 4
++ 667, 4, = ,672, 1
++ 672, 2, = ,674, 0
++ 675, 4, = ,675, 0
++ 685, 1, = ,681, 0
+@ dom/media/gmp/GMPServiceParent.cpp, 1986, 1939
++ 114, 1, = ,114, 0
++ 332, 24, = ,331, 0
++ 361, 10, = ,336, 0
++ 1832, 3, = ,1797, 4
++ 1836, 6, = ,1802, 4
++ 1847, 7, = ,1811, 5
++ 1860, 2, = ,1822, 2
++ 1863, 6, = ,1825, 4
++ 1872, 5, = ,1832, 3
++ 1880, 1, = ,1838, 1
++ 1882, 5, = ,1840, 2
++ 1892, 1, = ,1847, 2
++ 1894, 3, = ,1850, 2
++ 1900, 0, = ,1855, 2
++ 1901, 2, = ,1858, 2
++ 1908, 3, = ,1865, 1
++ 1916, 4, = ,1871, 2
+@ dom/media/gmp/GMPParent.h, 247, 245
++ 90, 2, = ,90, 0
+@ dom/media/gmp/GMPParent.cpp, 1223, 1212
++ 408, 11, = ,408, 0
++ 1109, 2, = ,1098, 2
++ 1157, 2, = ,1146, 2
+@ dom/ipc/WindowGlobalParent.cpp, 1631, 1664
++ 45, 0, = ,45, 1
++ 1106, 1, = ,1107, 0
++ 1112, 1, = ,1112, 1
++ 1121, 5, = ,1121, 0
++ 1297, 4, = ,1292, 0
++ 1396, 7, = ,1387, 0
++ 1404, 1, = ,1388, 50
+@ dom/ipc/ContentParent.cpp, 8252, 8251
++ 2067, 4, = ,2067, 0
++ 3296, 2, = ,3292, 2
++ 3315, 2, = ,3311, 1
++ 4713, 1, = ,4708, 1
++ 4728, 1, = ,4723, 1
++ 5077, 2, = ,5072, 3
++ 5083, 0, = ,5079, 4
++ 5084, 1, = ,5084, 1
++ 6167, 2, = ,6167, 1
++ 6194, 1, = ,6193, 1
++ 6220, 1, = ,6219, 1
++ 6234, 1, = ,6233, 1
++ 6236, 1, = ,6235, 1
++ 6483, 2, = ,6482, 2
++ 6498, 3, = ,6497, 3
++ 7754, 1, = ,7753, 1
++ 7762, 1, = ,7761, 1
+@ dom/ipc/ContentChild.cpp, 4992, 4993
++ 2653, 3, = ,2653, 0
++ 2657, 1, = ,2654, 1
++ 2659, 1, = ,2656, 1
++ 2723, 1, = ,2720, 1
++ 3294, 1, = ,3291, 1
++ 3299, 1, = ,3296, 1
++ 4287, 1, = ,4284, 1
++ 4293, 0, = ,4290, 4
+@ dom/ipc/BrowserChild.cpp, 3844, 3850
++ 108, 1, = ,108, 1
++ 317, 0, = ,317, 1
++ 464, 1, = ,465, 1
++ 2436, 1, = ,2437, 1
++ 2446, 1, = ,2447, 1
++ 2717, 1, = ,2718, 1
++ 2744, 0, = ,2745, 2
++ 2747, 1, = ,2750, 1
++ 2756, 1, = ,2759, 2
++ 2761, 1, = ,2765, 2
++ 3207, 1, = ,3212, 2
+@ dom/html/ImageDocument.cpp, 815, 812
++ 148, 3, = ,148, 2
++ 800, 3, = ,799, 1
++ 806, 1, = ,803, 1
+@ dom/html/HTMLFormElement.cpp, 2190, 2279
++ 1089, 0, = ,1089, 38
++ 1171, 0, = ,1209, 52
++ 1185, 2, = ,1275, 1
++ 1222, 2, = ,1311, 2
++ 1230, 2, = ,1319, 2
++ 1362, 2, = ,1451, 2
++ 1711, 2, = ,1800, 2
++ 1925, 1, = ,2014, 1
++ 2081, 1, = ,2170, 1
+@ dom/events/EventStateManager.h, 1262, 1257
+- 37, 2, = ,37, 0
++ 691, 0, = ,689, 1
++ 697, 4, = ,696, 4
+- 1153, 8, = ,1152, 0
+- 1198, 3, = ,1189, 3
+- 1212, 0, = ,1203, 4
+@ dom/events/EventStateManager.cpp, 6749, 6709
+- 40, 1, = ,40, 0
+- 77, 1, = ,76, 0
+- 173, 56, = ,171, 0
+- 333, 0, = ,275, 3
+- 463, 4, = ,408, 4
++ 525, 1, = ,470, 1
+- 726, 1, = ,671, 1
+- 731, 1, = ,676, 1
+- 735, 1, = ,680, 1
+- 1116, 15, = ,1061, 0
++ 1332, 1, = ,1262, 5
+- 3437, 7, = ,3371, 10
+- 3445, 2, = ,3382, 0
+- 5235, 17, = ,5170, 16
+- 5253, 0, = ,5187, 1
+- 5254, 16, = ,5189, 41
+- 5889, 3, = ,5849, 1
+- 5893, 2, = ,5851, 2
+- 5897, 3, = ,5855, 1
+- 5901, 2, = ,5857, 2
+- 5905, 3, = ,5861, 1
+- 5909, 2, = ,5863, 2
++ 6471, 2, = ,6425, 3
++ 6483, 0, = ,6438, 2
++ 6506, 0, = ,6463, 3
+@ dom/events/Event.cpp, 900, 874
++ 39, 1, = ,39, 1
+# 440, 28, = ,440, 5
++ 470, 3, = ,447, 0
+@ dom/canvas/ImageBitmap.cpp, 2305, 2301
++ 593, 2, = ,593, 1
+# 649, 2, = ,648, 2
++ 934, 2, = ,933, 0
++ 937, 2, = ,934, 2
++ 1244, 2, = ,1241, 1
+@ dom/canvas/CanvasRenderingContext2D.cpp, 6734, 6700
++ 119, 1, = ,119, 1
++ 132, 1, = ,132, 0
++ 1428, 1, = ,1427, 1
++ 1650, 1, = ,1649, 1
++ 1686, 3, = ,1685, 2
++ 2743, 26, = ,2741, 0
++ 2782, 2, = ,2754, 1
++ 4754, 2, = ,4725, 2
++ 6343, 5, = ,6314, 0
+@ dom/base/nsGlobalWindowOuter.cpp, 7425, 7417
++ 9, 2, = ,9, 1
++ 276, 12, = ,275, 7
++ 290, 8, = ,284, 8
++ 302, 13, = ,296, 13
++ 1700, 1, = ,1694, 1
++ 2149, 1, = ,2143, 1
++ 2174, 2, = ,2168, 1
++ 2711, 1, = ,2704, 1
++ 2745, 3, = ,2738, 2
++ 2792, 1, = ,2784, 1
++ 2915, 1, = ,2907, 1
++ 3175, 1, = ,3167, 1
++ 5436, 1, = ,5428, 1
++ 6173, 1, = ,6165, 1
++ 6199, 1, = ,6191, 1
++ 6309, 1, = ,6301, 2
++ 6332, 7, = ,6325, 10
++ 6411, 4, = ,6407, 0
++ 6483, 1, = ,6475, 1
++ 6922, 1, = ,6914, 1
++ 7057, 1, = ,7049, 1
++ 7095, 1, = ,7087, 1
++ 7216, 1, = ,7208, 1
++ 7225, 1, = ,7217, 1
+@ dom/base/nsFrameLoader.cpp, 3901, 3900
++ 44, 2, = ,44, 1
+@ dom/base/nsContentUtils.h, 3735, 3726
++ 46, 0, = ,46, 1
++ 120, 0, = ,121, 1
++ 127, 0, = ,129, 3
++ 240, 0, = ,245, 3
+- 522, 0, = ,530, 9
++ 1691, 5, = ,1708, 0
++ 2477, 1, = ,2489, 2
++ 2763, 2, = ,2776, 2
++ 2767, 2, = ,2780, 2
++ 2775, 2, = ,2788, 2
++ 3437, 27, = ,3450, 0
++ 3527, 0, = ,3513, 4
++ 3565, 1, = ,3555, 2
+@ dom/base/nsContentUtils.cpp, 11312, 11320
++ 178, 1, = ,178, 0
++ 221, 1, = ,220, 1
++ 429, 4, = ,428, 5
++ 452, 1, = ,452, 2
++ 883, 2, = ,884, 7
++ 887, 1, = ,893, 1
++ 916, 1, = ,922, 2
++ 924, 1, = ,931, 2
++ 931, 1, = ,939, 2
++ 958, 2, = ,967, 1
++ 971, 0, = ,979, 7
++ 977, 1, = ,992, 1
++ 987, 2, = ,1002, 2
++ 998, 3, = ,1013, 5
++ 1929, 2, = ,1946, 4
++ 2864, 2, = ,2883, 0
++ 2869, 2, = ,2886, 2
+- 3015, 0, = ,3032, 48
++ 4551, 0, = ,4616, 7
++ 4560, 2, = ,4632, 4
++ 4563, 0, = ,4637, 2
++ 4564, 1, = ,4640, 9
++ 4566, 1, = ,4650, 1
++ 4569, 7, = ,4653, 6
++ 6766, 1, = ,6849, 1
++ 7516, 2, = ,7599, 2
++ 7540, 1, = ,7623, 1
++ 8486, 0, = ,8569, 3
++ 11217, 78, = ,11303, 0
+@ dom/base/Location.cpp, 652, 650
++ 25, 2, = ,25, 1
++ 43, 5, = ,42, 6
++ 51, 5, = ,51, 1
++ 69, 1, = ,65, 2
++ 72, 3, = ,69, 3
++ 82, 1, = ,79, 1
++ 120, 5, = ,117, 0
++ 134, 0, = ,126, 1
++ 145, 1, = ,138, 8
+# 547, 1, = ,547, 1
++ 616, 1, = ,616, 1
++ 649, 2, = ,649, 0
+@ dom/base/Document.cpp, 18777, 18692
++ 228, 2, = ,228, 0
++ 1340, 0, = ,1338, 3
++ 1363, 0, = ,1364, 1
++ 2298, 0, = ,2300, 11
++ 2747, 2, = ,2760, 1
++ 2757, 1, = ,2769, 1
++ 2790, 4, = ,2802, 0
++ 4326, 1, = ,4334, 3
++ 6307, 4, = ,6317, 2
++ 7417, 0, = ,7425, 11
++ 7441, 3, = ,7460, 7
++ 7445, 14, = ,7468, 0
++ 12058, 1, = ,12067, 1
++ 12114, 0, = ,12123, 1
++ 12611, 3, = ,12621, 2
++ 12625, 1, = ,12634, 1
++ 14135, 29, = ,14144, 0
++ 14168, 2, = ,14148, 2
++ 14793, 1, = ,14773, 1
++ 14945, 1, = ,14925, 1
++ 17289, 0, = ,17269, 1
++ 17292, 0, = ,17273, 15
++ 17293, 3, = ,17289, 2
++ 17297, 2, = ,17292, 5
++ 17300, 10, = ,17298, 11
++ 17311, 16, = ,17310, 9
++ 17328, 2, = ,17320, 4
++ 17331, 5, = ,17325, 23
++ 17337, 69, = ,17349, 6
++ 17542, 0, = ,17491, 4
++ 17551, 1, = ,17504, 1
++ 17553, 0, = ,17506, 1
++ 17555, 2, = ,17509, 1
++ 18358, 1, = ,18311, 1
++ 18363, 1, = ,18316, 1
++ 18634, 20, = ,18587, 0
++ 18655, 1, = ,18588, 1
++ 18659, 1, = ,18592, 2
++ 18663, 13, = ,18597, 3
++ 18760, 9, = ,18684, 0
+@ dom/base/AutoPrintEventDispatcher.h, 65, 63
+# 38, 3, = ,38, 1
+@ docshell/base/nsDocShellTreeOwner.cpp, 1341, 1349
++ 927, 0, = ,927, 4
++ 978, 0, = ,982, 4
+@ docshell/base/nsDocShell.cpp, 13953, 13915
++ 208, 2, = ,208, 1
++ 1283, 2, = ,1282, 3
++ 1313, 2, = ,1313, 3
++ 1553, 1, = ,1554, 1
++ 1579, 7, = ,1580, 0
++ 2436, 2, = ,2430, 2
++ 2450, 2, = ,2444, 2
++ 2535, 4, = ,2529, 5
++ 2620, 2, = ,2615, 2
++ 4017, 6, = ,4012, 0
++ 4209, 2, = ,4198, 0
++ 4257, 2, = ,4244, 0
++ 4594, 1, = ,4579, 1
++ 5246, 2, = ,5231, 0
++ 8211, 1, = ,8194, 1
++ 8589, 3, = ,8572, 0
++ 9170, 2, = ,9150, 2
++ 10529, 12, = ,10509, 3
++ 10550, 3, = ,10521, 0
++ 13070, 2, = ,13038, 0
++ 13074, 2, = ,13040, 0
++ 13183, 2, = ,13147, 0
+@ docshell/base/BrowsingContext.cpp, 3875, 3834
++ 74, 1, = ,74, 0
++ 368, 6, = ,367, 0
++ 626, 1, = ,619, 0
++ 1058, 2, = ,1050, 0
++ 1085, 17, = ,1075, 0
++ 1443, 3, = ,1416, 0
++ 3474, 1, = ,3444, 1
++ 3560, 1, = ,3530, 1
++ 3790, 11, = ,3760, 0
+@ accessible/ipc/RemoteAccessible.h, 513, 512
++ 300, 1, = ,300, 1
++ 311, 1, = ,311, 1
++ 373, 0, = ,373, 3
++ 378, 4, = ,381, 0
++ 394, 1, = ,393, 1
+- 402, 3, = ,401, 3
+- 406, 1, = ,405, 1
+@ accessible/ipc/RemoteAccessible.cpp, 2060, 2056
++ 188, 1, = ,188, 1
++ 227, 1, = ,227, 1
++ 231, 1, = ,231, 1
++ 235, 1, = ,235, 1
++ 248, 1, = ,248, 1
++ 255, 2, = ,255, 2
++ 303, 2, = ,303, 1
++ 315, 1, = ,314, 1
++ 326, 1, = ,325, 1
++ 337, 1, = ,336, 1
++ 509, 1, = ,508, 1
++ 616, 2, = ,615, 1
++ 644, 1, = ,642, 1
++ 660, 1, = ,658, 1
++ 679, 1, = ,677, 1
++ 707, 1, = ,705, 1
++ 719, 1, = ,717, 1
++ 729, 1, = ,727, 1
++ 738, 1, = ,736, 1
++ 795, 1, = ,793, 1
++ 863, 1, = ,861, 1
++ 1098, 1, = ,1096, 1
++ 1133, 1, = ,1131, 1
++ 1258, 1, = ,1256, 1
++ 1271, 2, = ,1269, 1
++ 1283, 1, = ,1280, 1
++ 1300, 1, = ,1297, 1
++ 1315, 1, = ,1312, 0
++ 1324, 0, = ,1320, 1
++ 1328, 2, = ,1325, 2
++ 1347, 2, = ,1344, 2
++ 1358, 1, = ,1355, 1
++ 1369, 1, = ,1366, 1
++ 1447, 1, = ,1444, 1
++ 1466, 2, = ,1463, 2
++ 1493, 1, = ,1490, 1
++ 1527, 1, = ,1524, 1
++ 1534, 1, = ,1531, 1
+# 1539, 10, = ,1536, 10
++ 1574, 1, = ,1571, 1
++ 1584, 2, = ,1581, 2
++ 1597, 1, = ,1594, 1
++ 1607, 1, = ,1604, 1
++ 1645, 1, = ,1642, 1
++ 1652, 2, = ,1649, 2
++ 1668, 1, = ,1665, 1
++ 1689, 1, = ,1686, 1
++ 1695, 1, = ,1692, 1
++ 1718, 1, = ,1715, 1
++ 1772, 1, = ,1769, 1
++ 1791, 1, = ,1788, 1
++ 1799, 1, = ,1796, 1
++ 1821, 1, = ,1818, 1
++ 1969, 1, = ,1966, 1
++ 1979, 1, = ,1976, 1
++ 1987, 2, = ,1984, 1
++ 1990, 1, = ,1986, 1
+@ accessible/ipc/DocAccessibleParent.cpp, 1283, 1262
+- 83, 2, = ,83, 1
+- 90, 1, = ,89, 1
+- 94, 18, = ,93, 1
+- 113, 3, = ,95, 4
+- 117, 1, = ,100, 1
+- 119, 1, = ,102, 1
+- 121, 19, = ,104, 0
+- 142, 0, = ,106, 26
+- 144, 29, = ,134, 0
+- 174, 1, = ,135, 1
+- 178, 1, = ,139, 2
+- 190, 1, = ,152, 1
+- 200, 2, = ,162, 10
+- 203, 1, = ,173, 1
+- 206, 23, = ,176, 6
+- 230, 3, = ,183, 10
+- 234, 2, = ,194, 0
+- 237, 10, = ,195, 12
+- 248, 0, = ,208, 19
++ 1179, 1, = ,1158, 1
+@ accessible/ipc/DocAccessibleChild.h, 177, 183
+- 51, 1, = ,51, 2
++ 142, 1, = ,143, 0
++ 148, 0, = ,148, 1
+- 156, 1, = ,157, 6
+@ accessible/ipc/DocAccessibleChild.cpp, 431, 425
+- 7, 1, = ,7, 0
+- 40, 13, = ,39, 22
+- 55, 3, = ,63, 0
+- 59, 8, = ,64, 9
+- 68, 1, = ,74, 0
+- 70, 5, = ,75, 5
+- 77, 1, = ,82, 3
+- 79, 0, = ,86, 2
+- 81, 18, = ,90, 4
+- 102, 3, = ,97, 1
+- 109, 1, = ,102, 2
++ 401, 1, = ,395, 0
++ 414, 0, = ,407, 1
+@ accessible/html/HTMLFormControlAccessible.h, 386, 388
++ 10, 1, = ,10, 1
++ 55, 1, = ,55, 1
++ 87, 1, = ,87, 1
++ 94, 1, = ,94, 1
++ 132, 1, = ,132, 1
++ 191, 1, = ,191, 1
++ 210, 1, = ,210, 1
++ 221, 1, = ,221, 1
++ 239, 1, = ,239, 1
++ 250, 1, = ,250, 1
++ 253, 1, = ,253, 1
++ 255, 1, = ,255, 2
++ 349, 1, = ,350, 1
++ 352, 1, = ,353, 1
++ 357, 1, = ,358, 1
++ 362, 1, = ,363, 2
+@ accessible/html/HTMLFormControlAccessible.cpp, 977, 978
++ 46, 2, = ,46, 2
++ 166, 1, = ,166, 1
++ 177, 1, = ,177, 1
++ 193, 1, = ,193, 1
++ 233, 2, = ,233, 2
++ 261, 1, = ,261, 1
++ 279, 1, = ,279, 2
++ 349, 1, = ,350, 1
++ 354, 1, = ,355, 1
+# 439, 13, = ,440, 13
++ 467, 1, = ,468, 1
++ 478, 1, = ,479, 1
++ 503, 1, = ,504, 1
++ 626, 1, = ,627, 1
++ 657, 1, = ,658, 1
++ 670, 1, = ,671, 1
++ 673, 1, = ,674, 1
++ 690, 1, = ,691, 1
++ 693, 1, = ,694, 1
++ 706, 1, = ,707, 1
++ 730, 1, = ,731, 1
++ 733, 1, = ,734, 1
+@ accessible/generic/LocalAccessible.cpp, 4168, 4166
++ 3214, 1, = ,3214, 1
++ 3216, 13, = ,3216, 1
+- 3231, 0, = ,3219, 12
++ 3232, 1, = ,3232, 1
++ 3234, 1, = ,3234, 1
++ 3240, 1, = ,3240, 1
++ 3242, 1, = ,3242, 1
++ 3255, 4, = ,3255, 4
++ 3271, 1, = ,3271, 1
++ 3273, 1, = ,3273, 1
++ 3284, 1, = ,3284, 1
++ 3286, 1, = ,3286, 1
++ 3397, 1, = ,3397, 1
++ 3434, 2, = ,3434, 1
++ 3452, 2, = ,3451, 1
++ 3457, 1, = ,3455, 1
++ 3459, 1, = ,3457, 1
++ 3470, 1, = ,3468, 1
++ 3474, 1, = ,3472, 1
++ 3479, 1, = ,3477, 1
++ 3488, 1, = ,3486, 1
++ 3490, 1, = ,3488, 1
++ 3525, 1, = ,3523, 1
++ 3527, 1, = ,3525, 1
++ 3567, 1, = ,3565, 1
++ 3592, 1, = ,3590, 1
++ 3600, 1, = ,3598, 1
++ 3619, 1, = ,3617, 1
++ 3621, 1, = ,3619, 1
++ 3628, 1, = ,3626, 1
++ 3630, 1, = ,3628, 1
++ 3636, 1, = ,3634, 1
++ 3638, 1, = ,3636, 1
++ 3652, 1, = ,3650, 1
++ 3659, 1, = ,3657, 1
++ 3661, 1, = ,3659, 1
++ 3683, 1, = ,3681, 1
++ 3685, 1, = ,3683, 1
++ 3691, 1, = ,3689, 1
++ 3693, 1, = ,3691, 1
++ 3699, 1, = ,3697, 1
++ 3701, 1, = ,3699, 1
++ 3707, 1, = ,3705, 1
++ 3712, 1, = ,3710, 1
++ 3714, 1, = ,3712, 1
++ 3720, 1, = ,3718, 1
++ 3722, 1, = ,3720, 1
++ 3730, 1, = ,3728, 1
++ 3732, 1, = ,3730, 1
++ 3740, 1, = ,3738, 1
++ 3742, 1, = ,3740, 1
++ 3752, 1, = ,3750, 1
++ 3754, 1, = ,3752, 1
++ 3759, 1, = ,3757, 1
++ 3761, 1, = ,3759, 1
++ 3771, 1, = ,3769, 1
++ 3773, 1, = ,3771, 1
++ 3791, 1, = ,3789, 1
++ 3793, 1, = ,3791, 1
++ 3808, 1, = ,3806, 1
++ 3812, 1, = ,3810, 1
++ 3854, 1, = ,3852, 1
++ 3862, 1, = ,3860, 1
++ 3871, 1, = ,3869, 1
++ 3887, 1, = ,3885, 1
++ 3908, 1, = ,3906, 1
++ 3911, 1, = ,3909, 1
++ 3917, 1, = ,3915, 1
+@ accessible/generic/DocAccessible.cpp, 2795, 2795
++ 82, 1, = ,82, 1
++ 523, 1, = ,523, 1
+- 1632, 1, = ,1632, 1

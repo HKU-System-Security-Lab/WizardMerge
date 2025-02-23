@@ -1,0 +1,227 @@
+@ drivers/gpu/drm/drm_atomic.c, -2, -1
+@ drivers/gpu/drm/drm_atomic_helper.c, -2, -1
+@ drivers/gpu/drm/drm_auth.c, -2, -1
+@ drivers/gpu/drm/drm_bridge.c, -2, -1
+@ drivers/gpu/drm/drm_bridge_connector.c, -2, -1
+@ drivers/gpu/drm/drm_buddy.c, -2, -1
+@ drivers/gpu/drm/drm_client.c, -2, -1
+@ drivers/gpu/drm/drm_connector.c, -2, -1
+@ drivers/gpu/drm/drm_crtc_internal.h, -2, -1
+@ drivers/gpu/drm/drm_debugfs.c, -2, -1
+@ drivers/gpu/drm/drm_drv.c, -2, -1
+@ drivers/gpu/drm/drm_edid.c, -2, -1
+@ drivers/gpu/drm/drm_file.c, -2, -1
+@ drivers/gpu/drm/drm_framebuffer.c, -2, -1
+@ drivers/gpu/drm/drm_gem.c, -2, -1
+@ drivers/gpu/drm/drm_internal.h, -2, -1
+@ drivers/gpu/drm/drm_ioctl.c, -2, -1
+@ drivers/gpu/drm/drm_mode_config.c, -2, -1
+@ drivers/gpu/drm/drm_panel_orientation_quirks.c, -2, -1
+@ drivers/gpu/drm/drm_sysfs.c, -2, -1
+@ drivers/gpu/drm/drm_vblank_work.c, -2, -1
+@ drivers/gpu/drm/msm/adreno/a6xx.xml.h, -1, -2
+@ drivers/gpu/drm/msm/adreno/a6xx_gmu.c, -1, -2
+@ drivers/gpu/drm/msm/adreno/a6xx_gmu.h, -1, -2
+@ drivers/gpu/drm/msm/adreno/a6xx_gmu.xml.h, -1, -2
+@ drivers/gpu/drm/msm/adreno/a6xx_gpu.c, -1, -2
+@ drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c, -1, -2
+@ drivers/gpu/drm/msm/adreno/a6xx_gpu_state.h, -1, -2
+@ drivers/gpu/drm/msm/adreno/a6xx_hfi.c, -1, -2
+@ drivers/gpu/drm/msm/adreno/adreno_gpu.c, -1, -2
+@ drivers/gpu/drm/msm/adreno/adreno_gpu.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_core_irq.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_crtc.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_encoder.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_encoder_phys.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_encoder_phys_cmd.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_encoder_phys_vid.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_encoder_phys_wb.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_catalog.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_catalog.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_interrupts.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_intf.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_intf.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_pingpong.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_pingpong.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_sspp.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_sspp.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_top.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_util.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_util.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_wb.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_wb.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_plane.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_rm.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_trace.h, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_vbif.c, -1, -2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_vbif.h, -1, -2
+@ drivers/gpu/drm/msm/disp/mdp5/mdp5_smp.c, -1, -2
+@ drivers/gpu/drm/msm/dp/dp_display.h, -1, -2
+@ drivers/gpu/drm/msm/dp/dp_drm.c, -1, -2
+@ drivers/gpu/drm/msm/dp/dp_drm.h, -1, -2
+@ drivers/gpu/drm/msm/dp/dp_link.c, -1, -2
+@ drivers/gpu/drm/msm/dp/dp_panel.c, -1, -2
+@ drivers/gpu/drm/msm/dp/dp_panel.h, -1, -2
+@ drivers/gpu/drm/msm/dsi/dsi.h, -1, -2
+@ drivers/gpu/drm/msm/dsi/dsi.xml.h, -1, -2
+@ drivers/gpu/drm/msm/dsi/dsi_host.c, -1, -2
+@ drivers/gpu/drm/msm/dsi/dsi_manager.c, -1, -2
+@ drivers/gpu/drm/msm/hdmi/hdmi.h, -1, -2
+@ drivers/gpu/drm/msm/hdmi/hdmi_bridge.c, -1, -2
+@ drivers/gpu/drm/msm/hdmi/hdmi_hpd.c, -1, -2
+@ drivers/gpu/drm/msm/hdmi/hdmi_phy.c, -2, -1
+@ drivers/gpu/drm/msm/msm_debugfs.c, -1, -2
+@ drivers/gpu/drm/msm/msm_drv.h, -1, -2
+@ drivers/gpu/drm/msm/msm_kms.h, -1, -2
+@ drivers/gpu/drm/msm/msm_mdss.c, -2, -1
+@ drivers/gpu/drm/msm/msm_ringbuffer.h, -1, -2
+@ drivers/gpu/drm/msm/msm_drv.c, 1349, 1030
+- 10, 1, = ,10, 0
+- 12, 1, = ,11, 0
+- 14, 1, = ,12, 0
+- 16, 2, = ,13, 0
+- 21, 1, = ,16, 0
+- 23, 1, = ,17, 0
+- 25, 1, = ,18, 0
+- 28, 3, = ,20, 0
+- 32, 1, = ,21, 0
+- 59, 10, = ,47, 0
+- 86, 112, = ,64, 0
+- 203, 2, = ,69, 0
+- 215, 1, = ,79, 2
+- 225, 6, = ,90, 0
+- 233, 2, = ,92, 0
+- 238, 17, = ,95, 2
+- 268, 36, = ,110, 0
+- 409, 2, = ,215, 0
+- 447, 1, = ,251, 5
+- 451, 1, = ,259, 1
+- 460, 5, = ,268, 0
+- 468, 4, = ,271, 2
+- 473, 2, = ,274, 0
+- 478, 51, = ,277, 2
+- 535, 7, = ,285, 0
+- 548, 1, = ,291, 2
+- 550, 0, = ,294, 1
+- 560, 2, = ,305, 1
+- 641, 22, = ,385, 0
+- 1105, 27, = ,827, 0
+- 1233, 1, = ,928, 2
+- 1243, 0, = ,939, 1
+- 1278, 1, = ,975, 1
++ 1281, 1, = ,978, 1
++ 1284, 0, = ,981, 2
+- 1286, 16, = ,985, 0
+# 1304, 2, = ,987, 1
+- 1308, 1, = ,990, 0
+@ drivers/gpu/drm/msm/hdmi/hdmi.c, 593, 583
+- 163, 1, = ,163, 0
+- 166, 5, = ,165, 0
+- 176, 3, = ,170, 2
+- 180, 1, = ,173, 0
+- 218, 2, = ,210, 0
+- 223, 5, = ,213, 0
+- 398, 0, = ,383, 3
++ 554, 1, = ,542, 1
++ 561, 0, = ,549, 2
++ 575, 1, = ,565, 1
+@ drivers/gpu/drm/msm/dsi/dsi.c, 274, 264
+- 20, 0, = ,20, 5
+- 129, 0, = ,134, 1
++ 164, 1, = ,170, 1
++ 170, 0, = ,176, 2
++ 188, 1, = ,196, 1
+- 213, 1, = ,221, 0
+- 216, 5, = ,223, 0
+- 226, 1, = ,228, 1
+- 240, 3, = ,242, 2
+- 244, 2, = ,245, 1
+- 252, 1, = ,252, 1
+- 255, 2, = ,255, 0
+- 258, 8, = ,256, 0
+@ drivers/gpu/drm/msm/dp/dp_display.c, 1769, 1757
+- 91, 1, = ,91, 0
+- 344, 15, = ,343, 0
+- 382, 1, = ,366, 1
+- 384, 0, = ,368, 4
+- 411, 0, = ,399, 3
+- 517, 1, = ,508, 1
+- 606, 1, = ,597, 1
+- 654, 1, = ,645, 1
+- 664, 1, = ,655, 1
+- 673, 1, = ,664, 1
+- 715, 1, = ,706, 1
+- 736, 1, = ,727, 1
+- 741, 1, = ,732, 1
+- 802, 1, = ,793, 1
+- 1208, 1, = ,1199, 1
+- 1264, 1, = ,1255, 1
++ 1299, 1, = ,1290, 1
++ 1307, 0, = ,1298, 2
++ 1416, 1, = ,1409, 1
+- 1470, 1, = ,1463, 1
+- 1490, 1, = ,1483, 1
+- 1542, 1, = ,1535, 0
+- 1560, 3, = ,1552, 2
+- 1565, 1, = ,1556, 0
+- 1569, 2, = ,1559, 0
+@ drivers/gpu/drm/msm/disp/mdp5/mdp5_kms.c, 1009, 998
+- 557, 1, = ,557, 1
+- 559, 1, = ,559, 1
+- 565, 5, = ,565, 0
+- 571, 0, = ,566, 1
+- 579, 9, = ,575, 0
+- 790, 1, = ,777, 1
+- 795, 8, = ,782, 0
+- 804, 1, = ,783, 0
+- 810, 25, = ,788, 0
+- 841, 3, = ,794, 0
+- 934, 1, = ,884, 2
+- 938, 0, = ,889, 4
+- 942, 1, = ,897, 34
++ 945, 1, = ,933, 1
++ 949, 0, = ,937, 1
+- 975, 2, = ,964, 2
+# 989, 2, = ,978, 2
+@ drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c, 594, 592
+- 138, 2, = ,138, 0
+- 383, 1, = ,381, 1
+- 387, 1, = ,385, 1
+- 394, 6, = ,392, 0
+- 406, 1, = ,398, 0
+- 411, 22, = ,402, 0
+- 441, 18, = ,410, 0
+- 473, 2, = ,424, 1
+- 476, 1, = ,426, 1
+- 554, 2, = ,504, 2
+- 560, 1, = ,510, 47
++ 563, 1, = ,559, 1
++ 566, 0, = ,562, 2
+# 576, 2, = ,574, 2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_kms.c, 1401, 1392
+- 392, 2, = ,392, 1
+- 832, 8, = ,831, 0
+- 843, 4, = ,834, 0
+- 1082, 24, = ,1069, 0
+- 1244, 2, = ,1207, 1
+- 1250, 21, = ,1212, 0
+- 1283, 1, = ,1224, 0
+- 1288, 9, = ,1228, 0
+- 1302, 1, = ,1233, 59
++ 1305, 1, = ,1294, 1
++ 1308, 0, = ,1297, 2
+- 1356, 2, = ,1347, 2
+# 1383, 2, = ,1374, 2
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_interrupts.h, 81, 85
+- 39, 1, = ,39, 11
+- 47, 1, = ,57, 0
+- 55, 1, = ,64, 0
+# 60, 5, = ,68, 1
+@ drivers/gpu/drm/msm/adreno/adreno_device.c, 889, 922
+- 334, 1, = ,334, 1
+- 457, 0, = ,457, 1
+- 462, 0, = ,463, 1
+- 493, 0, = ,495, 30
++ 754, 1, = ,786, 1
++ 757, 0, = ,789, 1
++ 871, 1, = ,904, 1

@@ -1,0 +1,434 @@
+@ drivers/net/Space.c, -2, -1
+@ drivers/net/gtp.c, -2, -1
+@ drivers/net/macsec.c, -2, -1
+@ drivers/net/veth.c, -2, -1
+@ drivers/net/virtio_net.c, -2, -1
+@ drivers/net/vrf.c, -2, -1
+@ drivers/net/wireless/ath/ath10k/ce.h, -1, -2
+@ drivers/net/wireless/ath/ath10k/debug.c, -1, -2
+@ drivers/net/wireless/ath/ath10k/htt.h, -1, -2
+@ drivers/net/wireless/ath/ath10k/htt_rx.c, -1, -2
+@ drivers/net/wireless/ath/ath10k/htt_tx.c, -1, -2
+@ drivers/net/wireless/ath/ath10k/pci.c, -2, -1
+@ drivers/net/wireless/ath/ath11k/core.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/core.h, -1, -2
+@ drivers/net/wireless/ath/ath11k/dp.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/dp_rx.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/hal.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/hal_rx.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/hal_rx.h, -1, -2
+@ drivers/net/wireless/ath/ath11k/hal_tx.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/mac.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/mhi.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/spectral.c, -1, -2
+@ drivers/net/wireless/ath/ath11k/wmi.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/core.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/core.h, -1, -2
+@ drivers/net/wireless/ath/ath12k/dp.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/dp_mon.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/dp_rx.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/dp_tx.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/hal.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/hw.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/hw.h, -1, -2
+@ drivers/net/wireless/ath/ath12k/mac.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/mac.h, -1, -2
+@ drivers/net/wireless/ath/ath12k/pci.c, -2, -1
+@ drivers/net/wireless/ath/ath12k/peer.h, -1, -2
+@ drivers/net/wireless/ath/ath12k/rx_desc.h, -1, -2
+@ drivers/net/wireless/ath/ath12k/wmi.c, -1, -2
+@ drivers/net/wireless/ath/ath12k/wmi.h, -1, -2
+@ drivers/net/wireless/mediatek/mt76/mt7915/init.c, -1, -2
+@ drivers/net/wireless/mediatek/mt76/mt7915/mmio.c, -2, -1
+@ drivers/net/wireless/mediatek/mt76/usb.c, -2, -1
+@ drivers/staging/rtl8723bs/os_dep/ioctl_linux.c, -2, -1
+@ drivers/staging/rtl8723bs/os_dep/recv_linux.c, -2, -1
+@ include/linux/aer.h, -2, -1
+@ include/linux/amd-iommu.h, -2, -1
+@ include/linux/arm-smccc.h, -2, -1
+@ include/linux/audit.h, -2, -1
+@ include/linux/backing-dev.h, -2, -1
+@ include/linux/bio.h, -2, -1
+@ include/linux/blk-mq.h, -2, -1
+@ include/linux/blkdev.h, -2, -1
+@ include/linux/bpf.h, -2, -1
+@ include/linux/bpf_verifier.h, -2, -1
+@ include/linux/brcmphy.h, -2, -1
+@ include/linux/btf.h, -2, -1
+@ include/linux/btf_ids.h, -2, -1
+@ include/linux/buffer_head.h, -2, -1
+@ include/linux/cacheflush.h, -2, -1
+@ include/linux/cfi.h, -2, -1
+@ include/linux/cgroup-defs.h, -2, -1
+@ include/linux/clk-provider.h, -2, -1
+@ include/linux/compiler_types.h, -2, -1
+@ include/linux/console.h, -2, -1
+@ include/linux/coresight.h, -2, -1
+@ include/linux/counter.h, -2, -1
+@ include/linux/cpufreq.h, -2, -1
+@ include/linux/cpuhotplug.h, -2, -1
+@ include/linux/crash_core.h, -2, -1
+@ include/linux/cred.h, -2, -1
+@ include/linux/damon.h, -2, -1
+@ include/linux/dax.h, -2, -1
+@ include/linux/dev_printk.h, -2, -1
+@ include/linux/device.h, -2, -1
+@ include/linux/dlm_plock.h, -2, -1
+@ include/linux/dma-map-ops.h, -2, -1
+@ include/linux/dma-mapping.h, -2, -1
+@ include/linux/dmar.h, -2, -1
+@ include/linux/dynamic_debug.h, -2, -1
+@ include/linux/efi.h, -2, -1
+@ include/linux/elf-fdpic.h, -2, -1
+@ include/linux/evm.h, -2, -1
+@ include/linux/export-internal.h, -2, -1
+@ include/linux/export.h, -2, -1
+@ include/linux/extcon.h, -2, -1
+@ include/linux/fb.h, -2, -1
+@ include/linux/filter.h, -2, -1
+@ include/linux/fortify-string.h, -2, -1
+@ include/linux/fs.h, -2, -1
+@ include/linux/fsnotify_backend.h, -2, -1
+@ include/linux/ftrace.h, -2, -1
+@ include/linux/gameport.h, -2, -1
+@ include/linux/genl_magic_func.h, -2, -1
+@ include/linux/genl_magic_struct.h, -2, -1
+@ include/linux/hid-roccat.h, -2, -1
+@ include/linux/hid.h, -2, -1
+@ include/linux/highmem.h, -2, -1
+@ include/linux/huge_mm.h, -2, -1
+@ include/linux/hugetlb.h, -2, -1
+@ include/linux/hw_breakpoint.h, -2, -1
+@ include/linux/hyperv.h, -2, -1
+@ include/linux/i2c.h, -2, -1
+@ include/linux/ieee80211.h, -1, -2
+@ include/linux/if_team.h, -2, -1
+@ include/linux/igmp.h, -2, -1
+@ include/linux/instruction_pointer.h, -2, -1
+@ include/linux/intel_tpmi.h, -2, -1
+@ include/linux/interconnect-provider.h, -2, -1
+@ include/linux/interrupt.h, -2, -1
+@ include/linux/io_uring.h, -2, -1
+@ include/linux/io_uring_types.h, -2, -1
+@ include/linux/iomap.h, -2, -1
+@ include/linux/iommu.h, -2, -1
+@ include/linux/iommufd.h, -2, -1
+@ include/linux/ipv6.h, -2, -1
+@ include/linux/jbd2.h, -2, -1
+@ include/linux/jiffies.h, -2, -1
+@ include/linux/kasan.h, -2, -1
+@ include/linux/kernel.h, -2, -1
+@ include/linux/kernfs.h, -2, -1
+@ include/linux/kexec.h, -2, -1
+@ include/linux/kfence.h, -2, -1
+@ include/linux/kobject.h, -2, -1
+@ include/linux/ksm.h, -2, -1
+@ include/linux/kthread.h, -2, -1
+@ include/linux/kvm_host.h, -2, -1
+@ include/linux/leds.h, -2, -1
+@ include/linux/libata.h, -2, -1
+@ include/linux/limits.h, -2, -1
+@ include/linux/lsm_hook_defs.h, -2, -1
+@ include/linux/lsm_hooks.h, -2, -1
+@ include/linux/maple_tree.h, -2, -1
+@ include/linux/math.h, -2, -1
+@ include/linux/memblock.h, -2, -1
+@ include/linux/memcontrol.h, -2, -1
+@ include/linux/memory-tiers.h, -2, -1
+@ include/linux/memory.h, -2, -1
+@ include/linux/memory_hotplug.h, -2, -1
+@ include/linux/mhi.h, -2, -1
+@ include/linux/micrel_phy.h, -2, -1
+@ include/linux/minmax.h, -2, -1
+@ include/linux/misc_cgroup.h, -2, -1
+@ include/linux/mm.h, -2, -1
+@ include/linux/mm_inline.h, -2, -1
+@ include/linux/mm_types.h, -2, -1
+@ include/linux/mm_types_task.h, -2, -1
+@ include/linux/mman.h, -2, -1
+@ include/linux/mmap_lock.h, -2, -1
+@ include/linux/mmu_notifier.h, -2, -1
+@ include/linux/mmzone.h, -2, -1
+@ include/linux/module_symbol.h, -2, -1
+@ include/linux/moduleloader.h, -2, -1
+@ include/linux/netdevice.h, -2, -1
+@ include/linux/nfs_fs_sb.h, -2, -1
+@ include/linux/nfs_page.h, -2, -1
+@ include/linux/nmi.h, -2, -1
+@ include/linux/nvmem-consumer.h, -2, -1
+@ include/linux/of.h, -2, -1
+@ include/linux/of_platform.h, -2, -1
+@ include/linux/oid_registry.h, -2, -1
+@ include/linux/overflow.h, -2, -1
+@ include/linux/page-flags.h, -2, -1
+@ include/linux/page_ext.h, -2, -1
+@ include/linux/page_idle.h, -2, -1
+@ include/linux/page_table_check.h, -2, -1
+@ include/linux/pagemap.h, -2, -1
+@ include/linux/pci.h, -2, -1
+@ include/linux/pci_ids.h, -2, -1
+@ include/linux/peci.h, -2, -1
+@ include/linux/percpu.h, -2, -1
+@ include/linux/percpu_counter.h, -2, -1
+@ include/linux/perf_event.h, -2, -1
+@ include/linux/pgtable.h, -2, -1
+@ include/linux/phy.h, -2, -1
+@ include/linux/phylink.h, -2, -1
+@ include/linux/pid_namespace.h, -2, -1
+@ include/linux/platform_device.h, -2, -1
+@ include/linux/pm.h, -2, -1
+@ include/linux/proc_fs.h, -2, -1
+@ include/linux/pwm.h, -2, -1
+@ include/linux/range.h, -2, -1
+@ include/linux/remoteproc.h, -2, -1
+@ include/linux/resume_user_mode.h, -2, -1
+@ include/linux/rmap.h, -2, -1
+@ include/linux/rpmsg.h, -2, -1
+@ include/linux/rtc.h, -2, -1
+@ include/linux/sched.h, -2, -1
+@ include/linux/secretmem.h, -2, -1
+@ include/linux/security.h, -2, -1
+@ include/linux/sed-opal.h, -2, -1
+@ include/linux/seqlock.h, -2, -1
+@ include/linux/serial_core.h, -2, -1
+@ include/linux/slab.h, -2, -1
+@ include/linux/stmmac.h, -2, -1
+@ include/linux/string_choices.h, -2, -1
+@ include/linux/string_helpers.h, -2, -1
+@ include/linux/swap.h, -2, -1
+@ include/linux/swapfile.h, -2, -1
+@ include/linux/swapops.h, -2, -1
+@ include/linux/swiotlb.h, -2, -1
+@ include/linux/switchtec.h, -2, -1
+@ include/linux/syscalls.h, -2, -1
+@ include/linux/sysctl.h, -2, -1
+@ include/linux/sysfb.h, -2, -1
+@ include/linux/sysrq.h, -2, -1
+@ include/linux/tca6416_keypad.h, -2, -1
+@ include/linux/tcp.h, -2, -1
+@ include/linux/thermal.h, -2, -1
+@ include/linux/ti_wilink_st.h, -2, -1
+@ include/linux/trace_events.h, -2, -1
+@ include/linux/tracefs.h, -2, -1
+@ include/linux/tty.h, -2, -1
+@ include/linux/tty_buffer.h, -2, -1
+@ include/linux/tty_driver.h, -2, -1
+@ include/linux/tty_flip.h, -2, -1
+@ include/linux/tty_ldisc.h, -2, -1
+@ include/linux/tty_port.h, -2, -1
+@ include/linux/udp.h, -2, -1
+@ include/linux/usb.h, -2, -1
+@ include/linux/userfaultfd_k.h, -2, -1
+@ include/linux/vdpa.h, -2, -1
+@ include/linux/vfio.h, -2, -1
+@ include/linux/vgaarb.h, -2, -1
+@ include/linux/virtio.h, -2, -1
+@ include/linux/virtio_vsock.h, -2, -1
+@ include/linux/workqueue.h, -2, -1
+@ include/linux/xarray.h, -2, -1
+@ include/net/Space.h, -2, -1
+@ include/net/cfg80211.h, -1, -2
+@ include/net/devlink.h, -2, -1
+@ include/net/dsa.h, -2, -1
+@ include/net/dst.h, -2, -1
+@ include/net/flow_offload.h, -2, -1
+@ include/net/if_inet6.h, -2, -1
+@ include/net/inet_sock.h, -2, -1
+@ include/net/ip.h, -2, -1
+@ include/net/ip6_fib.h, -2, -1
+@ include/net/ip6_route.h, -2, -1
+@ include/net/ip_fib.h, -2, -1
+@ include/net/ip_tunnels.h, -2, -1
+@ include/net/ipv6.h, -2, -1
+@ include/net/mac80211.h, -1, -2
+@ include/net/neighbour.h, -2, -1
+@ include/net/net_namespace.h, -2, -1
+@ include/net/nexthop.h, -2, -1
+@ include/net/pkt_sched.h, -2, -1
+@ include/net/regulatory.h, -1, -2
+@ include/net/route.h, -2, -1
+@ include/net/sch_generic.h, -2, -1
+@ include/net/scm.h, -2, -1
+@ include/net/sock.h, -2, -1
+@ include/net/tcp.h, -2, -1
+@ include/net/udp_tunnel.h, -2, -1
+@ include/net/udplite.h, -2, -1
+@ include/net/xdp.h, -2, -1
+@ include/net/xdp_sock.h, -2, -1
+@ include/net/xfrm.h, -2, -1
+@ include/uapi/linux/bpf.h, -2, -1
+@ include/uapi/linux/cgroupstats.h, -2, -1
+@ include/uapi/linux/devlink.h, -2, -1
+@ include/uapi/linux/dlm_plock.h, -2, -1
+@ include/uapi/linux/elf-fdpic.h, -2, -1
+@ include/uapi/linux/elf.h, -2, -1
+@ include/uapi/linux/fsi.h, -2, -1
+@ include/uapi/linux/fuse.h, -2, -1
+@ include/uapi/linux/gsmmux.h, -2, -1
+@ include/uapi/linux/if_link.h, -2, -1
+@ include/uapi/linux/io_uring.h, -2, -1
+@ include/uapi/linux/iommufd.h, -2, -1
+@ include/uapi/linux/ioprio.h, -2, -1
+@ include/uapi/linux/kexec.h, -2, -1
+@ include/uapi/linux/kvm.h, -2, -1
+@ include/uapi/linux/netdev.h, -2, -1
+@ include/uapi/linux/nl80211.h, -1, -2
+@ include/uapi/linux/pkt_sched.h, -2, -1
+@ include/uapi/linux/rpmsg.h, -2, -1
+@ include/uapi/linux/sed-opal.h, -2, -1
+@ include/uapi/linux/serial_core.h, -2, -1
+@ include/uapi/linux/stddef.h, -2, -1
+@ include/uapi/linux/sync_file.h, -2, -1
+@ include/uapi/linux/tcp.h, -2, -1
+@ include/uapi/linux/ublk_cmd.h, -2, -1
+@ include/uapi/linux/userfaultfd.h, -2, -1
+@ include/uapi/linux/vfio.h, -2, -1
+@ include/uapi/linux/vhost_types.h, -2, -1
+@ include/uapi/linux/videodev2.h, -2, -1
+@ net/mac80211/agg-rx.c, -1, -2
+@ net/mac80211/agg-tx.c, -1, -2
+@ net/mac80211/airtime.c, -1, -2
+@ net/mac80211/cfg.c, -1, -2
+@ net/mac80211/chan.c, -1, -2
+@ net/mac80211/debugfs.c, -1, -2
+@ net/mac80211/debugfs_key.c, -1, -2
+@ net/mac80211/debugfs_netdev.c, -1, -2
+@ net/mac80211/debugfs_sta.c, -1, -2
+@ net/mac80211/driver-ops.c, -1, -2
+@ net/mac80211/driver-ops.h, -1, -2
+@ net/mac80211/drop.h, -1, -2
+@ net/mac80211/ethtool.c, -1, -2
+@ net/mac80211/ht.c, -1, -2
+@ net/mac80211/ibss.c, -1, -2
+@ net/mac80211/ieee80211_i.h, -1, -2
+@ net/mac80211/iface.c, -1, -2
+@ net/mac80211/key.c, -1, -2
+@ net/mac80211/key.h, -1, -2
+@ net/mac80211/link.c, -1, -2
+@ net/mac80211/main.c, -1, -2
+@ net/mac80211/mesh.c, -1, -2
+@ net/mac80211/mesh_pathtbl.c, -1, -2
+@ net/mac80211/mlme.c, -1, -2
+@ net/mac80211/ocb.c, -1, -2
+@ net/mac80211/offchannel.c, -1, -2
+@ net/mac80211/pm.c, -1, -2
+@ net/mac80211/rc80211_minstrel_ht.c, -1, -2
+@ net/mac80211/rx.c, -1, -2
+@ net/mac80211/s1g.c, -1, -2
+@ net/mac80211/scan.c, -1, -2
+@ net/mac80211/spectmgmt.c, -1, -2
+@ net/mac80211/sta_info.c, -1, -2
+@ net/mac80211/sta_info.h, -1, -2
+@ net/mac80211/status.c, -1, -2
+@ net/mac80211/trace.h, -1, -2
+@ net/mac80211/tx.c, -1, -2
+@ net/mac80211/util.c, -1, -2
+@ net/mac80211/wep.c, -1, -2
+@ net/mac80211/wpa.c, -1, -2
+@ net/socket.c, -2, -1
+@ net/sysctl_net.c, -2, -1
+@ net/mac80211/tdls.c, 2114, 2098
+- 24, 1, = ,24, 1
+- 33, 1, = ,33, 2
+- 39, 1, = ,40, 0
+- 1183, 1, = ,1183, 1
+- 1211, 1, = ,1211, 0
+- 1221, 1, = ,1220, 0
+- 1223, 1, = ,1221, 0
+- 1227, 3, = ,1224, 3
+- 1233, 1, = ,1230, 0
+- 1357, 1, = ,1353, 2
+- 1359, 1, = ,1356, 1
+- 1387, 1, = ,1384, 0
+- 1450, 0, = ,1446, 2
+- 1470, 2, = ,1468, 0
+- 1478, 2, = ,1474, 1
+- 1482, 1, = ,1477, 0
+- 1484, 5, = ,1478, 2
+- 1494, 1, = ,1485, 0
+- 1498, 1, = ,1488, 0
+- 1517, 1, = ,1506, 0
+- 1519, 1, = ,1507, 0
+- 1522, 0, = ,1509, 2
+- 1524, 2, = ,1513, 1
+- 1528, 2, = ,1516, 3
+- 1533, 3, = ,1522, 2
+- 1537, 3, = ,1525, 1
+- 1672, 0, = ,1658, 2
+- 1676, 1, = ,1664, 0
+- 1706, 1, = ,1693, 0
+- 1720, 1, = ,1706, 2
+- 1726, 1, = ,1713, 1
+- 1732, 1, = ,1719, 1
+- 1737, 3, = ,1724, 0
+- 1801, 0, = ,1785, 2
+- 1810, 1, = ,1796, 0
+- 1873, 1, = ,1858, 0
+- 1899, 0, = ,1883, 2
+- 1987, 1, = ,1973, 0
+- 2034, 1, = ,2019, 0
+@ drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c, 2843, 2840
++ 98, 1, = ,98, 1
++ 105, 1, = ,105, 1
++ 129, 2, = ,129, 2
++ 250, 1, = ,250, 1
++ 253, 1, = ,253, 1
++ 269, 0, = ,269, 1
++ 278, 2, = ,279, 2
++ 281, 1, = ,282, 1
++ 316, 1, = ,317, 1
++ 348, 3, = ,349, 3
++ 451, 1, = ,452, 1
++ 453, 1, = ,454, 1
++ 455, 1, = ,456, 1
++ 457, 1, = ,458, 1
++ 461, 4, = ,462, 4
++ 489, 1, = ,490, 1
++ 710, 1, = ,711, 1
++ 780, 1, = ,781, 1
++ 829, 1, = ,830, 1
++ 947, 3, = ,948, 3
++ 1021, 4, = ,1022, 4
++ 1124, 4, = ,1125, 3
++ 1222, 1, = ,1222, 1
++ 1276, 1, = ,1276, 1
++ 1290, 1, = ,1290, 1
++ 1332, 1, = ,1332, 1
++ 1439, 1, = ,1439, 1
++ 1459, 1, = ,1459, 1
++ 1462, 1, = ,1462, 1
++ 1468, 1, = ,1468, 1
++ 1471, 1, = ,1471, 1
++ 1637, 1, = ,1637, 1
++ 1712, 1, = ,1712, 1
++ 1810, 2, = ,1810, 2
++ 1817, 1, = ,1817, 2
++ 1853, 0, = ,1854, 1
++ 1854, 1, = ,1856, 1
++ 1864, 1, = ,1866, 1
++ 2065, 2, = ,2067, 2
++ 2175, 1, = ,2177, 1
++ 2229, 1, = ,2231, 1
++ 2269, 1, = ,2271, 1
++ 2273, 2, = ,2275, 2
++ 2276, 1, = ,2278, 1
++ 2296, 1, = ,2298, 1
++ 2301, 3, = ,2303, 2
+# 2320, 3, = ,2321, 2
+- 2326, 1, = ,2326, 3
++ 2335, 4, = ,2337, 3
++ 2400, 4, = ,2401, 2
++ 2428, 4, = ,2427, 2
++ 2453, 3, = ,2450, 2
++ 2538, 3, = ,2534, 4
++ 2566, 1, = ,2563, 1
+@ drivers/net/wireless/ath/ath11k/pci.c, 1049, 1047
++ 585, 2, = ,585, 2
++ 594, 4, = ,594, 2
+- 857, 0, = ,855, 6
+- 860, 1, = ,864, 1
+- 881, 6, = ,885, 0
+- 895, 1, = ,893, 1
+- 901, 1, = ,899, 1
+- 906, 3, = ,904, 0
+- 921, 0, = ,916, 3

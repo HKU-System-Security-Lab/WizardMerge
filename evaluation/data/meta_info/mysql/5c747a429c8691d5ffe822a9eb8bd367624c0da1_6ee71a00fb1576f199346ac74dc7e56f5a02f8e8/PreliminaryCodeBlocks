@@ -1,0 +1,520 @@
+@ storage/ndb/src/kernel/SimBlockList.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdict/Dbdict.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdict/SchemaFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdict/printSchemaFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/mutexes.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/print_file.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/record_types.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/suma/Suma.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/suma/SumaInit.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.hpp, -2, -1
+@ storage/ndb/src/kernel/main.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArenaPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArenaPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Array.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArrayPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CArray.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Callback.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ClusterConfiguration.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ClusterConfiguration.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingSemaphore.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLCHashTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLHashTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLHashTable2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DataBuffer.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DataBuffer2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DynArr256.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/DynArr256.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Emulator.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Emulator.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/FastScheduler.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/GlobalData.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/GlobalData.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/IntrusiveList.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/IntrusiveList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyDescriptor.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable2Ref.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LHLevel.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LHLevel.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LinearPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LockQueue.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LockQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignalImpl.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Mutex.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Mutex.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbSeqLock.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbdSuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbdSuperPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Ndbinfo.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Ndbinfo.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbinfoTables.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Pool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Pool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Prio.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/RWPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/RWPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/RequestTracker.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Rope.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Rope.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeMutex.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeMutex.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SectionReader.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SectionReader.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SegmentList.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SegmentList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimBlockList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SuperPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ThreadConfig.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ThreadConfig.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TimeQueue.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TimeQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallbackKernel.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/VMSignal.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/VMSignal.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WOPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/WOPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WaitQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WatchDog.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/WatchDog.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/bench_pool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/dummy_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/dummy_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt-asm.h, -2, -1
+@ storage/ndb/src/kernel/vm/mt-lock.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt-send-t.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt_thr_config.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt_thr_config.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc_impl.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc_impl.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/pc.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/testSuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/test_context.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/test_context.hpp, -2, -1
+@ storage/ndb/src/ndbclient_exports.cpp, -2, -1
+@ storage/ndb/src/ndbclient_link_test.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SignalCounter.hpp, 183, 183
+# 2, 1, = ,2, 1
+- 80, 1, = ,80, 1
+- 109, 1, = ,109, 1
+- 114, 1, = ,114, 1
+@ storage/ndb/src/kernel/vm/SafeCounter.hpp, 342, 342
+# 2, 1, = ,2, 1
++ 123, 1, = ,123, 1
+- 313, 1, = ,313, 1
+@ storage/ndb/src/kernel/vm/SafeCounter.cpp, 193, 198
+# 2, 1, = ,2, 1
++ 141, 2, = ,141, 2
+- 157, 0, = ,157, 5
+@ storage/ndb/src/kernel/blocks/suma/Suma.cpp, 7379, 7267
++ 53, 1, = ,53, 0
++ 199, 14, = ,198, 5
++ 222, 8, = ,212, 2
++ 265, 1, = ,249, 0
++ 375, 9, = ,358, 0
++ 808, 1, = ,782, 1
++ 1123, 19, = ,1097, 0
++ 2628, 6, = ,2583, 2
++ 2655, 5, = ,2606, 0
++ 2686, 5, = ,2632, 7
++ 2695, 36, = ,2643, 0
++ 2747, 1, = ,2659, 1
++ 2764, 9, = ,2676, 3
++ 2787, 1, = ,2693, 2
++ 2796, 5, = ,2703, 3
++ 2808, 2, = ,2713, 15
++ 2813, 4, = ,2731, 1
++ 2818, 0, = ,2733, 19
++ 2819, 1, = ,2753, 1
++ 2821, 2, = ,2755, 0
++ 2824, 19, = ,2756, 1
++ 2844, 0, = ,2758, 8
++ 2845, 4, = ,2767, 7
++ 2850, 5, = ,2775, 6
++ 2856, 2, = ,2782, 2
++ 2859, 47, = ,2785, 3
++ 2908, 3, = ,2790, 24
++ 3184, 1, = ,3087, 1
++ 3186, 1, = ,3089, 0
++ 3189, 7, = ,3091, 0
++ 3269, 6, = ,3164, 3
++ 3375, 3, = ,3267, 2
++ 3395, 1, = ,3286, 0
++ 3402, 7, = ,3292, 5
++ 5637, 1, = ,5525, 1
++ 5715, 2, = ,5603, 1
++ 6909, 1, = ,6796, 1
++ 6915, 6, = ,6802, 0
++ 6923, 0, = ,6804, 2
++ 6926, 2, = ,6809, 2
++ 6946, 0, = ,6829, 1
++ 6947, 0, = ,6831, 3
+- 7219, 0, = ,7106, 1
+@ storage/ndb/src/kernel/blocks/dbdict/Dbdict.cpp, 34789, 33162
++ 477, 1, = ,477, 0
++ 544, 50, = ,543, 13
++ 857, 1, = ,819, 0
++ 916, 9, = ,877, 0
++ 935, 1, = ,887, 0
++ 944, 3, = ,895, 1
++ 1190, 1, = ,1139, 1
++ 1203, 1, = ,1152, 1
++ 1206, 1, = ,1155, 1
++ 2698, 1, = ,2647, 0
++ 2700, 1, = ,2648, 0
++ 3238, 1, = ,3185, 0
++ 4132, 1, = ,4078, 0
++ 4642, 1, = ,4587, 0
++ 4694, 1, = ,4638, 0
++ 4919, 1, = ,4862, 0
++ 5248, 5, = ,5190, 1
++ 5618, 1, = ,5556, 1
++ 5620, 1, = ,5558, 1
++ 5622, 1, = ,5560, 1
++ 5624, 1, = ,5562, 1
++ 5692, 2, = ,5630, 1
++ 5764, 57, = ,5701, 1
++ 5822, 3, = ,5703, 1
++ 5832, 11, = ,5711, 0
++ 5849, 3, = ,5717, 0
++ 5859, 1, = ,5724, 1
++ 5865, 10, = ,5730, 0
++ 5880, 1, = ,5735, 0
++ 5895, 12, = ,5749, 0
++ 5911, 35, = ,5753, 0
++ 5949, 2, = ,5756, 2
++ 5953, 15, = ,5760, 1
++ 5969, 2, = ,5762, 0
++ 5972, 18, = ,5763, 1
++ 5995, 1, = ,5769, 1
++ 5997, 8, = ,5771, 8
++ 6022, 4, = ,5796, 2
++ 6027, 1, = ,5799, 1
++ 6029, 1, = ,5801, 2
++ 6032, 0, = ,5805, 1
++ 6111, 6, = ,5885, 0
++ 6119, 74, = ,5887, 0
++ 6269, 1, = ,5963, 1
++ 6312, 1, = ,6006, 1
++ 6679, 1, = ,6373, 0
++ 6689, 1, = ,6382, 0
++ 6722, 1, = ,6414, 0
++ 6729, 1, = ,6420, 0
++ 6777, 1, = ,6467, 0
++ 6830, 2, = ,6519, 0
++ 6853, 1, = ,6540, 0
++ 6883, 1, = ,6569, 1
++ 6905, 10, = ,6591, 0
++ 7020, 6, = ,6696, 2
++ 7045, 14, = ,6717, 0
++ 7132, 1, = ,6790, 0
++ 7206, 27, = ,6863, 0
++ 7238, 103, = ,6868, 0
++ 7397, 22, = ,6924, 1
++ 7580, 1, = ,7086, 0
++ 7597, 1, = ,7102, 0
++ 7712, 1, = ,7216, 0
++ 7778, 17, = ,7281, 0
++ 7877, 2, = ,7363, 0
++ 7888, 2, = ,7372, 1
++ 7965, 1, = ,7448, 0
++ 7977, 1, = ,7459, 0
++ 7989, 2, = ,7470, 1
++ 8034, 1, = ,7514, 0
++ 8045, 2, = ,7524, 1
++ 8096, 1, = ,7574, 0
++ 8140, 1, = ,7617, 0
++ 8153, 9, = ,7629, 1
++ 8168, 5, = ,7636, 0
++ 8184, 1, = ,7647, 0
++ 8196, 1, = ,7658, 0
++ 8207, 1, = ,7668, 0
++ 8293, 1, = ,7753, 0
++ 8317, 1, = ,7776, 0
++ 8337, 12, = ,7795, 0
++ 8564, 1, = ,8010, 0
++ 8572, 1, = ,8017, 0
++ 8726, 1, = ,8170, 0
++ 8857, 28, = ,8300, 0
++ 8890, 69, = ,8305, 0
++ 9169, 1, = ,8515, 0
++ 9183, 1, = ,8528, 0
++ 9295, 1, = ,8639, 0
++ 9309, 1, = ,8652, 0
++ 9404, 1, = ,8746, 0
++ 9412, 1, = ,8753, 0
++ 9523, 1, = ,8863, 0
++ 9528, 1, = ,8867, 0
++ 9625, 7, = ,8963, 0
++ 9667, 1, = ,8998, 0
++ 9670, 7, = ,9000, 0
++ 9681, 1, = ,9004, 1
++ 9688, 3, = ,9011, 0
++ 9830, 26, = ,9150, 1
++ 9865, 18, = ,9160, 0
++ 9905, 1, = ,9182, 0
++ 9908, 22, = ,9184, 0
++ 9940, 0, = ,9194, 3
++ 9953, 1, = ,9210, 1
++ 9961, 1, = ,9218, 1
++ 9964, 4, = ,9221, 2
++ 9969, 0, = ,9224, 1
++ 10188, 1, = ,9444, 1
++ 10191, 5, = ,9447, 0
++ 10214, 0, = ,9465, 1
++ 10225, 101, = ,9477, 1
++ 10336, 2, = ,9488, 2
++ 10388, 1, = ,9540, 1
++ 10395, 3, = ,9547, 0
++ 10399, 1, = ,9548, 0
++ 10401, 17, = ,9549, 4
++ 10454, 2, = ,9589, 2
++ 10461, 1, = ,9596, 0
++ 10482, 262, = ,9616, 0
++ 10749, 1, = ,9621, 0
++ 10798, 1, = ,9669, 0
++ 10804, 1, = ,9674, 0
++ 10829, 1, = ,9698, 0
++ 10858, 1, = ,9726, 0
++ 10905, 3, = ,9772, 1
++ 10909, 1, = ,9774, 0
++ 10918, 1, = ,9782, 0
++ 10937, 5, = ,9800, 1
++ 10950, 1, = ,9809, 0
++ 11018, 1, = ,9876, 0
++ 11023, 1, = ,9880, 0
++ 11047, 0, = ,9903, 1
++ 11048, 1, = ,9905, 1
++ 11052, 1, = ,9909, 0
++ 11055, 16, = ,9911, 0
++ 11078, 2, = ,9918, 1
++ 11082, 12, = ,9921, 1
++ 11106, 1, = ,9934, 0
++ 11173, 1, = ,10000, 0
++ 11322, 1, = ,10148, 0
++ 11345, 9, = ,10170, 0
++ 11358, 1, = ,10174, 1
++ 11416, 1, = ,10232, 0
++ 11448, 1, = ,10263, 0
++ 11452, 18, = ,10266, 0
++ 11473, 8, = ,10269, 0
++ 11490, 3, = ,10278, 1
++ 11494, 1, = ,10280, 0
++ 11505, 1, = ,10290, 0
++ 11518, 5, = ,10302, 0
++ 11535, 1, = ,10314, 1
++ 11609, 1, = ,10388, 1
++ 11625, 1, = ,10404, 1
++ 11718, 2, = ,10497, 0
++ 11746, 1, = ,10523, 0
++ 11756, 1, = ,10532, 0
++ 11768, 1, = ,10543, 0
++ 11777, 1, = ,10551, 0
++ 11783, 1, = ,10556, 0
++ 11798, 1, = ,10570, 1
++ 11816, 2, = ,10588, 0
++ 11836, 1, = ,10606, 1
++ 11923, 1, = ,10693, 0
++ 11951, 1, = ,10720, 0
++ 11961, 1, = ,10729, 0
++ 11971, 1, = ,10738, 0
++ 11981, 1, = ,10747, 0
++ 13128, 1, = ,11893, 0
++ 13233, 10, = ,11997, 0
++ 13490, 8, = ,12244, 0
++ 13500, 2, = ,12246, 0
++ 13503, 2, = ,12247, 1
++ 13508, 6, = ,12251, 0
++ 13849, 1, = ,12586, 0
++ 13859, 1, = ,12595, 0
++ 13929, 1, = ,12664, 0
++ 14314, 1, = ,13048, 0
++ 14324, 1, = ,13057, 0
++ 14375, 1, = ,13107, 0
++ 14486, 12, = ,13217, 0
++ 14721, 1, = ,13440, 1
++ 14725, 10, = ,13444, 0
++ 15468, 16, = ,14177, 0
++ 15629, 1, = ,14322, 0
++ 15638, 1, = ,14330, 0
++ 15647, 1, = ,14338, 0
++ 15656, 1, = ,14346, 0
++ 15707, 1, = ,14396, 0
++ 16332, 1, = ,15020, 0
++ 16422, 1, = ,15109, 0
++ 16431, 1, = ,15117, 0
++ 16440, 1, = ,15125, 0
++ 16449, 1, = ,15133, 0
++ 16508, 1, = ,15191, 0
++ 16598, 9, = ,15280, 0
++ 17003, 1, = ,15676, 0
++ 17012, 1, = ,15684, 0
++ 17021, 1, = ,15692, 0
++ 17030, 1, = ,15700, 0
++ 17046, 1, = ,15715, 0
++ 17301, 1, = ,15969, 0
++ 17453, 10, = ,16120, 0
++ 17592, 1, = ,16249, 0
++ 17601, 1, = ,16257, 0
++ 17610, 1, = ,16265, 0
++ 17620, 1, = ,16274, 0
++ 17921, 1, = ,16574, 0
++ 18156, 1, = ,16808, 0
++ 18184, 1, = ,16835, 0
++ 18781, 1, = ,17431, 0
++ 18840, 1, = ,17489, 0
++ 18923, 1, = ,17571, 0
++ 18961, 1, = ,17608, 0
++ 19086, 1, = ,17732, 0
++ 19245, 1, = ,17890, 0
++ 19312, 1, = ,17956, 0
++ 19447, 1, = ,18090, 0
++ 19557, 1, = ,18199, 0
++ 19611, 1, = ,18252, 0
++ 19732, 1, = ,18372, 0
++ 19899, 1, = ,18538, 0
++ 19946, 1, = ,18584, 0
++ 20025, 1, = ,18662, 0
++ 20273, 1, = ,18909, 0
++ 20537, 1, = ,19172, 1
++ 20551, 1, = ,19186, 0
++ 20608, 55, = ,19242, 0
++ 20705, 1, = ,19284, 0
++ 21247, 1, = ,19825, 0
++ 21256, 1, = ,19833, 0
++ 21265, 1, = ,19841, 0
++ 21275, 1, = ,19850, 0
++ 21327, 1, = ,19901, 0
++ 21519, 1, = ,20092, 0
++ 21881, 1, = ,20453, 0
++ 21890, 1, = ,20461, 0
++ 21899, 1, = ,20469, 0
++ 21909, 1, = ,20478, 0
++ 22128, 1, = ,20696, 0
++ 22264, 1, = ,20831, 0
+- 22282, 0, = ,20848, 1
++ 22336, 1, = ,20903, 0
++ 22564, 1, = ,21130, 0
++ 22607, 1, = ,21172, 0
++ 23391, 1, = ,21955, 0
++ 23606, 1, = ,22169, 1
++ 24289, 1, = ,22852, 0
++ 24298, 1, = ,22860, 0
++ 24345, 1, = ,22906, 0
++ 24899, 1, = ,23459, 0
++ 24909, 1, = ,23468, 0
++ 24956, 1, = ,23514, 0
++ 25227, 1, = ,23784, 0
++ 25236, 1, = ,23792, 0
++ 25324, 1, = ,23879, 0
++ 25669, 1, = ,24223, 0
++ 25678, 1, = ,24231, 0
++ 25750, 1, = ,24302, 0
++ 25864, 0, = ,24415, 1
++ 25870, 26, = ,24422, 0
++ 25897, 3, = ,24423, 1
++ 26310, 1, = ,24834, 0
++ 26319, 1, = ,24842, 0
++ 26328, 1, = ,24850, 0
++ 26337, 1, = ,24858, 0
++ 26376, 1, = ,24896, 0
++ 26814, 1, = ,25333, 0
++ 26823, 1, = ,25341, 0
++ 26871, 1, = ,25388, 1
++ 28055, 1, = ,26572, 0
++ 28064, 1, = ,26580, 0
++ 28073, 1, = ,26588, 0
++ 28081, 1, = ,26595, 0
++ 28122, 1, = ,26635, 0
++ 28388, 1, = ,26900, 0
++ 28397, 1, = ,26908, 0
++ 28406, 1, = ,26916, 0
++ 28415, 1, = ,26924, 0
++ 28462, 1, = ,26970, 0
++ 28874, 1, = ,27381, 0
++ 28883, 1, = ,27389, 0
++ 29277, 1, = ,27782, 1
++ 29296, 1, = ,27801, 1
++ 29389, 23, = ,27894, 0
++ 29684, 1, = ,28166, 1
++ 29750, 1, = ,28232, 0
++ 29961, 1, = ,28442, 0
++ 30080, 5, = ,28560, 0
++ 30216, 1, = ,28691, 0
++ 30254, 1, = ,28728, 0
+- 30277, 0, = ,28750, 2
++ 30541, 0, = ,29016, 3
++ 30543, 10, = ,29021, 0
++ 30560, 1, = ,29028, 0
++ 32211, 1, = ,30678, 0
++ 32874, 1, = ,31340, 0
++ 32889, 2, = ,31354, 1
++ 32953, 1, = ,31417, 0
++ 32985, 1, = ,31448, 0
++ 33042, 1, = ,31504, 0
++ 33215, 1, = ,31676, 0
++ 33234, 1, = ,31694, 0
++ 33251, 1, = ,31710, 0
++ 33266, 1, = ,31724, 0
++ 33283, 1, = ,31740, 0
++ 33619, 1, = ,32075, 0
++ 33663, 3, = ,32118, 1
++ 33672, 18, = ,32125, 0
++ 33747, 1, = ,32182, 1
++ 33755, 0, = ,32190, 1
++ 33757, 5, = ,32193, 0
++ 33763, 13, = ,32194, 3
++ 33777, 43, = ,32198, 2
++ 33832, 1, = ,32212, 2
++ 33843, 1, = ,32224, 1
++ 34039, 1, = ,32420, 1
++ 34535, 3, = ,32916, 0
++ 34615, 4, = ,32993, 0
++ 34666, 2, = ,33040, 1

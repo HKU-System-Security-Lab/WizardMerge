@@ -1,0 +1,56 @@
+@ storage/ndb/src/kernel/SimBlockList.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Filename.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Ndbfs.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Ndbfs.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/OpenFiles.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Pool.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/VoidFs.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Win32AsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Win32AsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/print_file.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/record_types.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.hpp, -2, -1
+@ storage/ndb/src/kernel/main.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.hpp, -2, -1
+@ storage/ndb/src/ndbclient_exports.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Filename.cpp, 231, 255
++ 65, 2, = ,65, 0
++ 75, 1, = ,73, 0
++ 82, 1, = ,79, 0
++ 137, 2, = ,133, 0
++ 140, 8, = ,134, 3
++ 149, 2, = ,138, 2
++ 153, 1, = ,142, 1
+- 172, 0, = ,161, 12
+- 174, 0, = ,175, 18
+- 176, 1, = ,195, 1
++ 181, 1, = ,200, 1
+# 189, 4, = ,208, 10
++ 208, 1, = ,233, 0

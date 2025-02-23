@@ -1,0 +1,130 @@
+@ storage/ndb/src/kernel/SimBlockList.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbspj/DbspjProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbspj/DbspjProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/mutexes.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/print_file.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/record_types.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.hpp, -2, -1
+@ storage/ndb/src/kernel/main.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.hpp, -2, -1
+@ storage/ndb/src/ndbclient_exports.cpp, -2, -1
+@ storage/ndb/src/ndbclient_link_test.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbspj/DbspjMain.cpp, 9529, 9560
+# 2, 1, = ,2, 1
++ 22, 1, = ,22, 1
++ 42, 1, = ,42, 0
+- 91, 0, = ,90, 71
+- 142, 1, = ,212, 1
++ 219, 12, = ,289, 0
++ 404, 1, = ,462, 0
++ 426, 19, = ,483, 0
+- 479, 0, = ,517, 2
++ 728, 10, = ,768, 0
++ 808, 5, = ,838, 0
++ 1119, 5, = ,1144, 0
++ 1470, 0, = ,1490, 1
++ 1471, 2, = ,1492, 0
++ 1474, 3, = ,1493, 2
+- 1706, 0, = ,1724, 1
++ 2500, 1, = ,2519, 1
+- 2655, 0, = ,2674, 1
+- 2667, 1, = ,2687, 1
+- 2813, 1, = ,2833, 1
+- 2842, 1, = ,2862, 1
+- 2868, 1, = ,2888, 1
+- 2901, 1, = ,2921, 1
+- 2931, 1, = ,2951, 1
+- 3098, 1, = ,3118, 1
++ 3819, 9, = ,3839, 3
++ 4027, 1, = ,4041, 1
++ 4061, 1, = ,4075, 1
++ 4274, 2, = ,4288, 0
++ 5130, 4, = ,5142, 0
++ 5138, 3, = ,5146, 0
++ 5143, 0, = ,5148, 1
++ 5145, 0, = ,5151, 3
++ 5147, 0, = ,5156, 2
++ 5161, 24, = ,5172, 0
+- 5318, 0, = ,5305, 1
++ 5376, 1, = ,5364, 1
+- 5799, 0, = ,5787, 3
+- 5801, 0, = ,5792, 1
++ 6149, 2, = ,6141, 0
++ 6152, 0, = ,6142, 2
++ 6154, 1, = ,6146, 2
++ 6156, 37, = ,6149, 1
++ 6199, 12, = ,6156, 1
+# 6220, 2, = ,6166, 1
++ 6246, 6, = ,6191, 0
++ 6258, 1, = ,6197, 1
+- 6267, 1, = ,6206, 1
++ 6279, 0, = ,6218, 1
++ 6286, 1, = ,6226, 1
+- 6289, 0, = ,6229, 1
++ 6361, 4, = ,6302, 0
++ 6371, 0, = ,6308, 1
++ 6405, 1, = ,6343, 0
++ 6407, 2, = ,6344, 0
++ 6411, 6, = ,6346, 0
++ 6418, 0, = ,6347, 1
++ 6420, 1, = ,6350, 1
++ 6424, 5, = ,6354, 1
++ 6431, 5, = ,6357, 3
++ 6437, 19, = ,6361, 2
++ 6457, 3, = ,6364, 1
++ 6462, 46, = ,6367, 0
++ 6510, 1, = ,6369, 0
++ 6512, 1, = ,6370, 1
++ 6515, 2, = ,6373, 26
++ 6518, 1, = ,6400, 1
++ 6521, 0, = ,6403, 142
++ 7152, 2, = ,7176, 0
++ 7668, 4, = ,7690, 2
+- 7788, 1, = ,7808, 0
+- 7926, 0, = ,7945, 12
+@ storage/ndb/src/kernel/blocks/dbspj/DbspjInit.cpp, 99, 106
+# 2, 1, = ,2, 1
+- 40, 0, = ,40, 2
++ 55, 3, = ,57, 0
++ 68, 0, = ,67, 8
+@ storage/ndb/src/kernel/blocks/dbspj/Dbspj.hpp, 1576, 1617
+# 2, 1, = ,2, 1
++ 22, 1, = ,22, 1
+- 36, 0, = ,36, 1
+# 53, 2, = ,54, 4
++ 76, 0, = ,79, 2
+- 104, 2, = ,109, 15
+# 108, 1, = ,126, 0
++ 139, 2, = ,156, 0
++ 682, 2, = ,697, 1
++ 688, 1, = ,702, 0
++ 695, 2, = ,708, 1
+- 708, 0, = ,720, 1
+- 709, 0, = ,722, 12
+- 718, 0, = ,743, 1
+- 1065, 0, = ,1091, 12
+- 1075, 0, = ,1113, 1
+- 1295, 0, = ,1334, 1
+- 1296, 0, = ,1336, 1

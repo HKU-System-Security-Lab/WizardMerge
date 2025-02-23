@@ -1,0 +1,681 @@
+@ storage/ndb/include/kernel/AttributeDescriptor.hpp, -2, -1
+@ storage/ndb/include/kernel/AttributeHeader.hpp, -2, -1
+@ storage/ndb/include/kernel/AttributeList.hpp, -2, -1
+@ storage/ndb/include/kernel/BlockNumbers.h, -2, -1
+@ storage/ndb/include/kernel/GlobalSignalNumbers.h, -2, -1
+@ storage/ndb/include/kernel/Interpreter.hpp, -2, -1
+@ storage/ndb/include/kernel/LogLevel.hpp, -2, -1
+@ storage/ndb/include/kernel/NodeBitmask.hpp, -2, -1
+@ storage/ndb/include/kernel/NodeInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/NodeState.hpp, -2, -1
+@ storage/ndb/include/kernel/RefConvert.hpp, -2, -1
+@ storage/ndb/include/kernel/kernel_config_parameters.h, -2, -1
+@ storage/ndb/include/kernel/kernel_types.h, -2, -1
+@ storage/ndb/include/kernel/ndb_limits.h, -2, -1
+@ storage/ndb/include/kernel/signaldata/AbortAll.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AccFrag.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AccLock.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AccScan.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AccSizeAltReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AllocMem.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AllocNodeId.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AlterIndx.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AlterIndxImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AlterTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AlterTable.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ApiBroadcast.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ApiRegSignalData.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ApiVersion.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ArbitSignalData.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/AttrInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BackupContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BackupImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BackupLockTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BackupSignalData.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BlockCommitOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BuildFK.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BuildFKImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BuildIndx.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/BuildIndxImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CallbackSignal.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CheckNodeGroups.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CloseComReqConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CmInit.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CmRegSignalData.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CmvmiCfgConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CntrMasterConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CntrMasterReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CntrStart.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ConfigChange.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ConfigParamId.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ContinueFragmented.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CopyActive.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CopyData.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CopyFrag.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CopyGCIReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CopyTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateEvnt.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateFK.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateFKImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateFilegroup.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateFilegroupImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateFragmentation.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateHashMap.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateIndx.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateIndxImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateNodegroup.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateNodegroupImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateObj.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateTable.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateTrig.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/CreateTrigImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DataFileOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DbinfoScan.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DbspjErr.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DiAddTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DiGetNodes.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictLock.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictObjOp.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictSchemaInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictSignal.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictSizeAltReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictStart.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictTabInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictTakeover.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihAddFrag.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihFragCount.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihGetTabInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihRestart.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihScanTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihSizeAltReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihStartTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DihSwitchReplica.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DisconnectRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropFK.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropFKImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropFilegroup.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropFilegroupImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropIndx.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropIndxImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropNodegroup.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropNodegroupImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropObj.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropTabFile.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropTable.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropTrig.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DropTrigImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DumpStateOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/EmptyLcp.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/EnableCom.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/EventReport.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/EventSubscribeReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ExecFragReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/Extent.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FailRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FireTrigOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FsAppendReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FsCloseReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FsConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FsOpenReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FsReadWriteReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FsRef.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/FsRemoveReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/GCP.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/GetConfig.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/GetTabInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/HashMapImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/HotSpareRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/IndexStatSignal.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/IndxAttrInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/IndxKeyInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/InvalidateNodeLCPConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/InvalidateNodeLCPReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/IsolateOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/KeyInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/LCP.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/LgmanContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ListTables.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/LqhFrag.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/LqhKey.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/LqhSizeAltReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/LqhTransConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/LqhTransReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/MasterGCP.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/MasterLCP.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/NFCompleteRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/NdbSttor.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/NdbfsContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/NextScan.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/NodeFailRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/NodePing.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/NodeRecoveryStatusRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/NodeStateSignalData.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/PackedSignal.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/PgmanContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/PrepDropTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/PrepFailReqRef.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/QueryTree.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ReadConfig.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ReadNodesConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/RelTabMem.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ReleasePages.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/RestoreContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/RestoreImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ResumeReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/RouteOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ScanFrag.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/ScanTab.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SchemaTrans.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SchemaTransImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SetLogLevelOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SetVarReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SignalData.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SignalDataPrint.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SignalDroppedRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SrFragidConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StartFragReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StartInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StartMe.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StartOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StartPerm.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StartRec.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StopForCrash.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StopMe.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StopPerm.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/StopReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SumaImpl.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/Sync.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/SystemError.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TabCommit.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TakeOver.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TamperOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcCommit.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcHbRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcIndx.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcKeyConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcKeyFailConf.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcKeyRef.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcKeyReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcRollbackRep.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TcSizeAltReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TestOrd.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TransIdAI.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TrigAttrInfo.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TsmanContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TupCommit.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TupFrag.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TupKey.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TupSizeAltReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TuxBound.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TuxContinueB.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TuxMaint.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/TuxSizeAltReq.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/Upgrade.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/UtilDelete.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/UtilExecute.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/UtilLock.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/UtilPrepare.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/UtilRelease.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/UtilSequence.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/WaitGCP.hpp, -2, -1
+@ storage/ndb/include/kernel/statedesc.hpp, -2, -1
+@ storage/ndb/include/kernel/trigger_definitions.h, -2, -1
+@ storage/ndb/include/ndb_constants.h, -2, -1
+@ storage/ndb/include/ndb_global.h, -2, -1
+@ storage/ndb/include/ndb_init.h, -2, -1
+@ storage/ndb/include/ndb_net.h, -2, -1
+@ storage/ndb/src/kernel/SimBlockList.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdih/Dbdih.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdih/DbdihInit.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdih/Sysfile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdih/printFragfile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdih/printSysfile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/AttributeOffset.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/Dbtup.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupAbort.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupBuffer.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupClient.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupCommit.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupDebug.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupDiskAlloc.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupExecQuery.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupFixAlloc.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupIndex.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupMeta.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupPagMan.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupPageMap.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupRoutines.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupScan.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupStoredProcDef.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupTabDesMan.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupTrigger.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupVarAlloc.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/Undo_buffer.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/Undo_buffer.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/test_dynbm.c, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/test_varpage.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/tuppage.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/tuppage.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/mutexes.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbcntr/Ndbcntr.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbcntr/NdbcntrInit.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbcntr/NdbcntrSysTable.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/print_file.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/record_types.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/suma/Suma.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/suma/SumaInit.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.hpp, -2, -1
+@ storage/ndb/src/kernel/main.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArenaPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArenaPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Array.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArrayPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CArray.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Callback.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ClusterConfiguration.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ClusterConfiguration.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingSemaphore.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLCHashTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLHashTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLHashTable2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DataBuffer.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DataBuffer2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DynArr256.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/DynArr256.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Emulator.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Emulator.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/FastScheduler.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/GlobalData.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/GlobalData.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/IntrusiveList.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/IntrusiveList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyDescriptor.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable2Ref.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LHLevel.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LHLevel.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LinearPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LockQueue.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LockQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignalImpl.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Mutex.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Mutex.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbSeqLock.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbdSuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbdSuperPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Ndbinfo.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Ndbinfo.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbinfoTables.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Pool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Pool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Prio.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/RWPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/RWPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/RequestTracker.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Rope.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Rope.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeCounter.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeCounter.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeMutex.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeMutex.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SectionReader.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SectionReader.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SegmentList.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SegmentList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SignalCounter.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimBlockList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SuperPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ThreadConfig.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ThreadConfig.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TimeQueue.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TimeQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallbackKernel.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/VMSignal.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/VMSignal.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WOPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/WOPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WaitQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WatchDog.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/WatchDog.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/bench_pool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/dummy_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/dummy_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt-asm.h, -2, -1
+@ storage/ndb/src/kernel/vm/mt-lock.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt-send-t.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt_thr_config.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt_thr_config.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc_impl.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc_impl.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/pc.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/testSuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/test_context.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/test_context.hpp, -2, -1
+@ storage/ndb/src/ndbclient_exports.cpp, -2, -1
+@ storage/ndb/src/ndbclient_link_test.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock.cpp, 4849, 4694
++ 2, 1, = ,2, 1
++ 86, 1, = ,86, 0
++ 142, 5, = ,141, 0
++ 281, 1, = ,275, 0
++ 540, 2, = ,533, 2
++ 543, 1, = ,536, 0
++ 545, 1, = ,537, 3
++ 548, 135, = ,542, 0
++ 2035, 2, = ,1894, 1
++ 2047, 11, = ,1905, 4
+- 4244, 2, = ,4095, 2
+- 4248, 0, = ,4099, 4
+- 4256, 0, = ,4111, 2
++ 4659, 14, = ,4516, 2
+@ storage/ndb/src/kernel/blocks/suma/Suma.cpp, 7375, 7264
++ 53, 1, = ,53, 0
++ 199, 14, = ,198, 5
++ 222, 8, = ,212, 2
++ 374, 9, = ,358, 0
++ 807, 1, = ,782, 1
++ 1122, 19, = ,1097, 0
+- 1155, 0, = ,1111, 1
++ 2624, 6, = ,2581, 2
++ 2651, 5, = ,2604, 0
++ 2682, 5, = ,2630, 7
++ 2691, 36, = ,2641, 0
++ 2743, 1, = ,2657, 1
++ 2760, 9, = ,2674, 3
++ 2783, 1, = ,2691, 2
++ 2792, 5, = ,2701, 3
++ 2804, 2, = ,2711, 15
++ 2809, 4, = ,2729, 1
++ 2814, 0, = ,2731, 19
++ 2815, 1, = ,2751, 1
++ 2817, 2, = ,2753, 0
++ 2820, 19, = ,2754, 1
++ 2840, 0, = ,2756, 8
++ 2841, 4, = ,2765, 7
++ 2846, 5, = ,2773, 6
++ 2852, 2, = ,2780, 2
++ 2855, 47, = ,2783, 3
++ 2904, 3, = ,2788, 24
++ 3180, 1, = ,3085, 1
++ 3182, 1, = ,3087, 0
++ 3185, 7, = ,3089, 0
++ 3265, 6, = ,3162, 3
++ 3371, 3, = ,3265, 2
++ 3391, 1, = ,3284, 0
++ 3398, 7, = ,3290, 5
++ 5633, 1, = ,5523, 1
++ 5711, 2, = ,5601, 1
+@ storage/ndb/src/kernel/blocks/ndbcntr/NdbcntrMain.cpp, 5180, 5181
++ 331, 1, = ,331, 1
++ 392, 1, = ,392, 1
++ 396, 1, = ,396, 1
+- 1789, 0, = ,1789, 1
++ 3343, 1, = ,3344, 1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupGen.cpp, 958, 960
+# 2, 1, = ,2, 1
+- 349, 0, = ,349, 1
++ 423, 1, = ,424, 1
++ 461, 1, = ,462, 1
++ 524, 0, = ,525, 1
+@ storage/ndb/src/kernel/blocks/dbdih/DbdihMain.cpp, 28445, 26200
++ 95, 1, = ,95, 0
++ 796, 1, = ,795, 1
++ 1463, 3, = ,1462, 2
++ 1524, 1, = ,1522, 1
++ 1708, 0, = ,1706, 1
++ 1712, 2, = ,1711, 0
++ 1718, 13, = ,1715, 0
++ 1746, 2, = ,1730, 1
++ 4388, 0, = ,4371, 1
++ 4389, 1, = ,4373, 1
++ 4394, 6, = ,4378, 0
++ 4485, 1, = ,4463, 1
++ 4625, 1, = ,4603, 1
++ 4763, 1, = ,4741, 1
++ 4880, 0, = ,4858, 6
++ 4921, 5, = ,4905, 36
++ 5433, 2, = ,5448, 1
++ 6483, 1, = ,6497, 0
++ 6623, 1, = ,6636, 1
++ 7072, 228, = ,7085, 0
++ 9135, 3, = ,8920, 1
++ 9142, 1, = ,8925, 0
++ 9362, 1, = ,9144, 1
++ 9374, 6, = ,9156, 0
++ 9636, 1, = ,9412, 1
++ 12195, 1, = ,11971, 2
++ 12199, 1, = ,11976, 1
++ 12201, 4, = ,11978, 3
++ 12206, 1, = ,11982, 1
++ 12209, 9, = ,11985, 1
++ 12261, 135, = ,12029, 0
++ 12398, 0, = ,12031, 1
++ 12409, 2, = ,12043, 1
++ 12412, 1, = ,12045, 0
++ 12415, 12, = ,12047, 1
++ 12443, 1, = ,12064, 0
++ 12451, 1, = ,12071, 0
++ 12459, 1, = ,12078, 0
++ 12465, 2, = ,12083, 0
++ 12477, 1, = ,12093, 0
++ 12480, 15, = ,12095, 0
++ 12502, 3, = ,12102, 6
++ 12513, 2, = ,12116, 0
++ 12517, 1, = ,12118, 6
+# 12525, 163, = ,12131, 5
++ 12691, 2, = ,12139, 1
++ 12698, 1, = ,12145, 1
++ 12704, 1, = ,12151, 1
++ 12711, 31, = ,12158, 2
++ 12743, 6, = ,12161, 2
++ 12752, 1, = ,12166, 1
++ 12754, 2, = ,12168, 1
++ 12757, 4, = ,12170, 3
++ 12764, 15, = ,12176, 1
++ 12785, 1, = ,12183, 1
++ 12788, 1, = ,12186, 0
++ 12804, 10, = ,12201, 2
++ 12819, 3, = ,12208, 1
++ 12823, 18, = ,12210, 1
++ 12846, 2, = ,12216, 0
++ 12858, 2, = ,12226, 0
++ 12863, 1, = ,12229, 0
++ 12867, 1, = ,12232, 2
++ 12872, 1, = ,12238, 1
++ 12875, 2, = ,12241, 0
++ 12878, 2, = ,12242, 2
++ 12884, 1, = ,12248, 1
++ 12887, 2, = ,12251, 2
++ 12891, 87, = ,12255, 0
++ 12981, 10, = ,12258, 10
++ 12993, 6, = ,12270, 1
++ 13001, 45, = ,12273, 1
++ 13069, 10, = ,12297, 0
++ 13081, 4, = ,12299, 0
++ 13105, 235, = ,12319, 0
++ 13367, 0, = ,12346, 9
++ 13368, 3, = ,12356, 1
++ 13373, 0, = ,12359, 3
++ 13376, 6, = ,12365, 0
++ 13465, 6, = ,12448, 0
++ 13492, 2, = ,12469, 1
++ 13499, 1, = ,12475, 1
++ 13520, 1, = ,12496, 0
++ 13547, 5, = ,12522, 0
++ 13570, 2, = ,12540, 2
++ 13575, 6, = ,12545, 2
++ 13646, 0, = ,12612, 1
++ 13647, 7, = ,12614, 1
++ 13657, 1, = ,12618, 0
++ 13673, 1, = ,12633, 3
++ 13691, 28, = ,12653, 0
++ 13788, 1, = ,12722, 1
++ 13812, 1, = ,12746, 3
++ 14039, 4, = ,12975, 0
++ 14124, 1, = ,13056, 0
++ 14162, 1, = ,13093, 0
++ 14170, 1, = ,13100, 0
++ 14181, 1, = ,13110, 0
++ 14195, 1, = ,13123, 3
++ 14216, 1, = ,13146, 0
++ 14218, 1, = ,13147, 0
++ 14226, 1, = ,13154, 32
++ 14228, 1, = ,13187, 0
++ 14231, 1, = ,13189, 0
++ 14237, 14, = ,13194, 11
++ 14283, 5, = ,13237, 20
++ 14310, 1, = ,13279, 0
++ 14318, 1, = ,13286, 1
++ 14324, 1, = ,13292, 0
++ 14412, 1, = ,13379, 1
++ 14457, 1, = ,13424, 0
++ 14464, 2, = ,13430, 1
++ 14474, 4, = ,13439, 0
++ 14607, 2, = ,13568, 10
++ 14673, 453, = ,13642, 0
++ 15139, 3, = ,13655, 0
++ 15143, 5, = ,13656, 1
++ 15154, 12, = ,13663, 0
++ 15174, 10, = ,13671, 1
++ 15187, 14, = ,13675, 0
++ 15207, 1, = ,13681, 0
++ 15209, 17, = ,13682, 1
++ 15230, 1, = ,13687, 1
++ 15235, 1, = ,13692, 6
++ 15238, 4, = ,13700, 3
++ 15244, 7, = ,13705, 1
++ 15253, 29, = ,13708, 0
++ 15295, 1, = ,13721, 1
++ 15305, 1, = ,13731, 1
++ 15309, 1, = ,13735, 0
++ 15315, 8, = ,13740, 0
++ 15324, 15, = ,13741, 2
++ 15359, 2, = ,13763, 1
++ 15362, 12, = ,13765, 0
++ 15376, 130, = ,13767, 0
++ 15528, 531, = ,13789, 0
++ 16060, 1, = ,13790, 1
++ 16078, 9, = ,13808, 0
++ 16092, 1, = ,13813, 0
++ 16106, 2, = ,13826, 1
++ 16113, 5, = ,13832, 0
++ 16142, 1, = ,13856, 1
++ 16279, 4, = ,13993, 0
++ 16284, 0, = ,13994, 6
++ 16287, 1, = ,14003, 23
++ 16289, 0, = ,14027, 12
++ 16291, 0, = ,14041, 126
++ 16294, 0, = ,14170, 1
++ 16295, 4, = ,14172, 0
++ 16301, 0, = ,14174, 1
++ 16303, 1, = ,14177, 12
++ 18972, 5, = ,16857, 0
++ 18998, 4, = ,16878, 0
++ 19479, 1, = ,17355, 0
++ 19938, 6, = ,17813, 1
++ 19945, 2, = ,17815, 1
++ 22275, 4, = ,20144, 3
++ 22282, 3, = ,20150, 3
++ 22330, 4, = ,20198, 3
++ 22337, 3, = ,20204, 3
++ 22714, 4, = ,20581, 0
++ 22832, 1, = ,20695, 1
++ 22843, 1, = ,20706, 1
++ 22849, 1, = ,20712, 0
++ 23509, 1, = ,21371, 0
++ 23586, 1, = ,21447, 0
++ 23619, 1, = ,21479, 1
++ 23621, 2, = ,21481, 0
++ 23625, 2, = ,21483, 0
++ 23663, 1, = ,21519, 1
++ 23672, 1, = ,21528, 1
++ 23767, 1, = ,21623, 0
++ 23785, 1, = ,21640, 0
++ 23927, 1, = ,21781, 1
++ 24041, 4, = ,21895, 0
++ 24144, 1, = ,21994, 1
++ 24153, 1, = ,22003, 1
++ 24185, 1, = ,22035, 1
++ 24193, 1, = ,22043, 1
++ 24196, 1, = ,22046, 1
++ 24216, 1, = ,22066, 1
++ 24219, 1, = ,22069, 1
++ 24232, 1, = ,22082, 1
++ 24302, 1, = ,22152, 1
++ 24354, 1, = ,22204, 1
++ 24419, 12, = ,22269, 2
++ 24440, 30, = ,22280, 0
++ 24471, 1, = ,22281, 1
++ 25481, 0, = ,23291, 1
++ 25483, 1, = ,23294, 1
++ 25503, 1, = ,23314, 1
++ 25519, 38, = ,23330, 0
++ 25696, 5, = ,23469, 0
++ 25891, 1, = ,23659, 1
++ 26493, 1, = ,24261, 1
++ 26512, 1, = ,24280, 1
++ 26761, 6, = ,24529, 0
++ 26768, 1, = ,24530, 0
++ 27006, 4, = ,24767, 7
++ 27177, 1, = ,24941, 1
++ 28140, 8, = ,25904, 0
++ 28162, 1, = ,25918, 0
++ 28172, 1, = ,25927, 1
++ 28311, 1, = ,26066, 1
++ 28317, 1, = ,26072, 1
++ 28342, 1, = ,26097, 1
+@ storage/ndb/include/kernel/signaldata/LocalRouteOrd.hpp, 47, 57
+# 2, 1, = ,2, 1
+- 36, 0, = ,36, 10

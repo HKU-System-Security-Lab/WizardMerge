@@ -1,0 +1,186 @@
+@ Zend/Optimizer/block_pass.c, -2, -1
+@ Zend/Optimizer/compact_literals.c, -2, -1
+@ Zend/Optimizer/dce.c, -2, -1
+@ Zend/Optimizer/dfa_pass.c, -2, -1
+@ Zend/Optimizer/escape_analysis.c, -2, -1
+@ Zend/Optimizer/nop_removal.c, -2, -1
+@ Zend/Optimizer/optimize_func_calls.c, -2, -1
+@ Zend/Optimizer/optimize_temp_vars_5.c, -2, -1
+@ Zend/Optimizer/pass1.c, -2, -1
+@ Zend/Optimizer/pass3.c, -2, -1
+@ Zend/Optimizer/sccp.c, -2, -1
+@ Zend/Optimizer/scdf.c, -2, -1
+@ Zend/Optimizer/scdf.h, -2, -1
+@ Zend/Optimizer/ssa_integrity.c, -2, -1
+@ Zend/Optimizer/zend_call_graph.c, -2, -1
+@ Zend/Optimizer/zend_call_graph.h, -2, -1
+@ Zend/Optimizer/zend_cfg.c, -2, -1
+@ Zend/Optimizer/zend_cfg.h, -2, -1
+@ Zend/Optimizer/zend_dfg.c, -2, -1
+@ Zend/Optimizer/zend_dfg.h, -2, -1
+@ Zend/Optimizer/zend_dump.c, -2, -1
+@ Zend/Optimizer/zend_func_info.c, -2, -1
+@ Zend/Optimizer/zend_func_info.h, -2, -1
+@ Zend/Optimizer/zend_func_infos.h, -2, -1
+@ Zend/Optimizer/zend_inference.h, -2, -1
+@ Zend/Optimizer/zend_optimizer.c, -2, -1
+@ Zend/Optimizer/zend_optimizer.h, -2, -1
+@ Zend/Optimizer/zend_optimizer_internal.h, -2, -1
+@ Zend/Optimizer/zend_ssa.c, -2, -1
+@ Zend/Optimizer/zend_ssa.h, -2, -1
+@ Zend/Optimizer/zend_worklist.h, -2, -1
+@ Zend/zend.c, -2, -1
+@ Zend/zend.h, -2, -1
+@ Zend/zend_API.c, -2, -1
+@ Zend/zend_API.h, -2, -1
+@ Zend/zend_alloc.c, -2, -1
+@ Zend/zend_alloc.h, -2, -1
+@ Zend/zend_ast.c, -2, -1
+@ Zend/zend_ast.h, -2, -1
+@ Zend/zend_attributes.c, -2, -1
+@ Zend/zend_attributes.h, -2, -1
+@ Zend/zend_attributes_arginfo.h, -2, -1
+@ Zend/zend_builtin_functions.c, -2, -1
+@ Zend/zend_builtin_functions_arginfo.h, -2, -1
+@ Zend/zend_closures.c, -2, -1
+@ Zend/zend_compile.c, -2, -1
+@ Zend/zend_compile.h, -2, -1
+@ Zend/zend_constants.c, -2, -1
+@ Zend/zend_cpuinfo.c, -2, -1
+@ Zend/zend_enum.c, -2, -1
+@ Zend/zend_enum.h, -2, -1
+@ Zend/zend_exceptions.c, -2, -1
+@ Zend/zend_exceptions_arginfo.h, -2, -1
+@ Zend/zend_execute.c, -2, -1
+@ Zend/zend_execute.h, -2, -1
+@ Zend/zend_execute_API.c, -2, -1
+@ Zend/zend_extensions.c, -2, -1
+@ Zend/zend_extensions.h, -2, -1
+@ Zend/zend_fibers.c, -2, -1
+@ Zend/zend_fibers.h, -2, -1
+@ Zend/zend_gc.c, -2, -1
+@ Zend/zend_generators.c, -2, -1
+@ Zend/zend_globals.h, -2, -1
+@ Zend/zend_hash.c, -2, -1
+@ Zend/zend_hash.h, -2, -1
+@ Zend/zend_inheritance.c, -2, -1
+@ Zend/zend_inheritance.h, -2, -1
+@ Zend/zend_ini.c, -2, -1
+@ Zend/zend_ini.h, -2, -1
+@ Zend/zend_interfaces.c, -2, -1
+@ Zend/zend_interfaces.h, -2, -1
+@ Zend/zend_iterators.h, -2, -1
+@ Zend/zend_list.c, -2, -1
+@ Zend/zend_llist.h, -2, -1
+@ Zend/zend_long.h, -2, -1
+@ Zend/zend_map_ptr.h, -2, -1
+@ Zend/zend_modules.h, -2, -1
+@ Zend/zend_multiply.h, -2, -1
+@ Zend/zend_object_handlers.c, -2, -1
+@ Zend/zend_object_handlers.h, -2, -1
+@ Zend/zend_objects.c, -2, -1
+@ Zend/zend_observer.c, -2, -1
+@ Zend/zend_observer.h, -2, -1
+@ Zend/zend_opcode.c, -2, -1
+@ Zend/zend_operators.c, -2, -1
+@ Zend/zend_operators.h, -2, -1
+@ Zend/zend_portability.h, -2, -1
+@ Zend/zend_ptr_stack.h, -2, -1
+@ Zend/zend_signal.c, -2, -1
+@ Zend/zend_smart_str.h, -2, -1
+@ Zend/zend_smart_str_public.h, -2, -1
+@ Zend/zend_stream.c, -2, -1
+@ Zend/zend_string.c, -2, -1
+@ Zend/zend_string.h, -2, -1
+@ Zend/zend_type_info.h, -2, -1
+@ Zend/zend_types.h, -2, -1
+@ Zend/zend_virtual_cwd.c, -2, -1
+@ Zend/zend_vm.h, -2, -1
+@ Zend/zend_vm_def.h, -2, -1
+@ Zend/zend_vm_execute.h, -2, -1
+@ Zend/zend_vm_handlers.h, -2, -1
+@ Zend/zend_vm_opcodes.c, -2, -1
+@ Zend/zend_vm_opcodes.h, -2, -1
+@ Zend/zend_vm_trace_handlers.h, -2, -1
+@ Zend/zend_vm_trace_map.h, -2, -1
+@ Zend/zend_weakrefs.c, -2, -1
+@ Zend/zend_weakrefs.h, -2, -1
+@ Zend/Optimizer/zend_inference.c, 4931, 5144
+- 80, 2, = ,80, 2
+- 83, 2, = ,83, 3
+- 175, 1, = ,176, 3
+- 177, 0, = ,180, 1
+- 181, 1, = ,185, 1
+- 183, 1, = ,187, 0
+- 196, 2, = ,199, 2
+- 200, 1, = ,203, 1
+- 205, 0, = ,208, 1
+- 206, 1, = ,210, 3
++ 213, 1, = ,219, 1
+- 215, 1, = ,221, 1
+- 218, 2, = ,224, 0
+- 222, 3, = ,226, 0
+- 227, 1, = ,228, 2
+- 229, 2, = ,231, 2
+- 234, 4, = ,236, 6
+- 240, 0, = ,244, 1
+- 244, 3, = ,249, 0
+# 252, 2, = ,254, 1
+# 257, 1, = ,258, 235
++ 268, 1, = ,503, 1
++ 309, 0, = ,544, 2
++ 563, 1, = ,800, 1
++ 848, 1, = ,1085, 1
++ 1020, 0, = ,1257, 9
++ 1029, 1, = ,1275, 1
++ 1393, 1, = ,1639, 1
++ 1421, 1, = ,1667, 1
++ 1434, 1, = ,1680, 1
++ 1466, 1, = ,1712, 1
++ 1490, 1, = ,1736, 1
++ 1600, 1, = ,1846, 1
++ 1714, 0, = ,1960, 2
++ 1857, 3, = ,2105, 0
++ 1862, 28, = ,2107, 0
++ 2123, 0, = ,2340, 3
++ 2150, 2, = ,2370, 1
++ 2239, 1, = ,2458, 1
++ 2284, 1, = ,2503, 1
++ 2314, 7, = ,2533, 1
++ 2331, 10, = ,2544, 1
++ 2481, 3, = ,2685, 1
++ 2485, 1, = ,2687, 1
++ 2488, 1, = ,2690, 1
++ 2493, 1, = ,2695, 0
++ 3093, 1, = ,3294, 1
++ 3104, 2, = ,3305, 2
++ 3414, 3, = ,3615, 0
++ 3445, 2, = ,3643, 1
++ 3492, 1, = ,3689, 1
++ 3497, 1, = ,3694, 0
++ 3533, 2, = ,3729, 1
++ 3539, 1, = ,3734, 0
++ 3607, 18, = ,3801, 1
++ 3719, 1, = ,3896, 1
++ 3777, 12, = ,3954, 1
++ 3819, 1, = ,3985, 1
++ 4042, 1, = ,4208, 1
++ 4086, 1, = ,4252, 1
++ 4095, 1, = ,4261, 1
++ 4137, 2, = ,4303, 0
++ 4222, 1, = ,4386, 1
++ 4246, 1, = ,4410, 46
++ 4314, 1, = ,4523, 1
++ 4329, 1, = ,4538, 1
++ 4347, 1, = ,4556, 1
++ 4482, 0, = ,4691, 1
++ 4484, 1, = ,4694, 1
++ 4513, 1, = ,4723, 3
++ 4515, 1, = ,4727, 3
++ 4517, 1, = ,4731, 1
++ 4525, 1, = ,4739, 1
++ 4709, 0, = ,4923, 1
++ 4820, 4, = ,5035, 5
++ 4826, 4, = ,5042, 0
++ 4831, 0, = ,5043, 1
++ 4927, 1, = ,5140, 1

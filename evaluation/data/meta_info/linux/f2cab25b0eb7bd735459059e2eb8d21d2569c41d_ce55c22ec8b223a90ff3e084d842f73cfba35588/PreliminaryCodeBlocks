@@ -1,0 +1,900 @@
+@ drivers/net/Space.c, -2, -1
+@ drivers/net/bareudp.c, -2, -1
+@ drivers/net/dsa/dsa_loop.c, -2, -1
+@ drivers/net/dsa/lantiq_gswip.c, -2, -1
+@ drivers/net/dsa/mt7530-mmio.c, -2, -1
+@ drivers/net/dsa/mt7530.c, -2, -1
+@ drivers/net/dsa/rzn1_a5psw.c, -2, -1
+@ drivers/net/dsa/vitesse-vsc73xx-core.c, -2, -1
+@ drivers/net/dsa/vitesse-vsc73xx-platform.c, -2, -1
+@ drivers/net/ethernet/dnet.c, -2, -1
+@ drivers/net/ethernet/ethoc.c, -2, -1
+@ drivers/net/ethernet/google/gve/gve_main.c, -2, -1
+@ drivers/net/ethernet/google/gve/gve_rx.c, -1, -2
+@ drivers/net/ethernet/intel/e100.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_adminq.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_adminq.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_adminq_cmd.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_alloc.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_client.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_dcb.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_dcb_nl.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_ddp.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_debugfs.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_diag.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_ethtool.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_hmc.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_hmc.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_lan_hmc.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_main.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_nvm.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_prototype.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_ptp.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_register.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_txrx.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_txrx.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_txrx_common.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_type.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_virtchnl_pf.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_virtchnl_pf.h, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_xsk.c, -2, -1
+@ drivers/net/ethernet/intel/i40e/i40e_xsk.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_adminq_cmd.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_common.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_common.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_ddp.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_ethtool.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_gnss.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_hw_autogen.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_lag.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_ptp.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_ptp.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_ptp_hw.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_ptp_hw.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_sched.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_sched.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_switch.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_txrx_lib.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_type.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_vf_lib.h, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_virtchnl.c, -2, -1
+@ drivers/net/ethernet/intel/ice/ice_xsk.c, -2, -1
+@ drivers/net/ethernet/korina.c, -2, -1
+@ drivers/net/ethernet/lantiq_etop.c, -2, -1
+@ drivers/net/ethernet/lantiq_xrx200.c, -2, -1
+@ drivers/net/ethernet/marvell/mv643xx_eth.c, -2, -1
+@ drivers/net/ethernet/marvell/mvmdio.c, -2, -1
+@ drivers/net/ethernet/marvell/mvneta.c, -2, -1
+@ drivers/net/ethernet/marvell/mvneta_bm.c, -2, -1
+@ drivers/net/ethernet/marvell/octeon_ep/octep_cn9k_pf.c, -2, -1
+@ drivers/net/ethernet/marvell/octeon_ep/octep_config.h, -2, -1
+@ drivers/net/ethernet/marvell/octeon_ep/octep_ctrl_net.c, -2, -1
+@ drivers/net/ethernet/marvell/octeon_ep/octep_ctrl_net.h, -2, -1
+@ drivers/net/ethernet/marvell/octeon_ep/octep_main.h, -2, -1
+@ drivers/net/ethernet/marvell/octeon_ep/octep_regs_cn9k_pf.h, -2, -1
+@ drivers/net/ethernet/marvell/pxa168_eth.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/dev.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/devlink.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en.h, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/devlink.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/fs.h, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/rqt.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/rqt.h, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/rss.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/rss.h, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/rx_res.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/rx_res.h, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun_encap.c, -1, -2
+@ drivers/net/ethernet/mellanox/mlx5/core/en_ethtool.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en_fs.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en_main.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/en_rx.c, -1, -2
+@ drivers/net/ethernet/mellanox/mlx5/core/en_stats.h, -1, -2
+@ drivers/net/ethernet/mellanox/mlx5/core/esw/bridge.c, -1, -2
+@ drivers/net/ethernet/mellanox/mlx5/core/esw/bridge.h, -1, -2
+@ drivers/net/ethernet/mellanox/mlx5/core/esw/bridge_mcast.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/esw/bridge_priv.h, -1, -2
+@ drivers/net/ethernet/mellanox/mlx5/core/esw/qos.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/eswitch.c, -1, -2
+@ drivers/net/ethernet/mellanox/mlx5/core/events.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/fs_core.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/health.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/main.c, -2, -1
+@ drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.h, -2, -1
+@ drivers/net/ethernet/qlogic/qed/qed_debug.c, -2, -1
+@ drivers/net/ethernet/qlogic/qed/qed_ll2.c, -1, -2
+@ drivers/net/ethernet/ti/cpsw_priv.c, -2, -1
+@ drivers/net/ethernet/ti/davinci_emac.c, -2, -1
+@ drivers/net/ethernet/ti/davinci_mdio.c, -2, -1
+@ drivers/net/ethernet/ti/icssg/icssg_prueth.c, -2, -1
+@ drivers/net/ethernet/ti/icssg/icssg_prueth.h, -2, -1
+@ drivers/net/ethernet/ti/icssg/icssg_stats.c, -1, -2
+@ drivers/net/ethernet/ti/k3-cppi-desc-pool.c, -1, -2
+@ drivers/net/ethernet/ti/netcp_core.c, -2, -1
+@ drivers/net/ethernet/ti/netcp_ethss.c, -2, -1
+@ drivers/net/geneve.c, -2, -1
+@ drivers/net/gtp.c, -2, -1
+@ drivers/net/macsec.c, -2, -1
+@ drivers/net/mdio/mdio-aspeed.c, -2, -1
+@ drivers/net/mdio/mdio-bcm-iproc.c, -2, -1
+@ drivers/net/mdio/mdio-bcm-unimac.c, -2, -1
+@ drivers/net/mdio/mdio-gpio.c, -2, -1
+@ drivers/net/mdio/mdio-hisi-femac.c, -2, -1
+@ drivers/net/mdio/mdio-ipq4019.c, -2, -1
+@ drivers/net/mdio/mdio-ipq8064.c, -2, -1
+@ drivers/net/mdio/mdio-moxart.c, -2, -1
+@ drivers/net/mdio/mdio-mscc-miim.c, -2, -1
+@ drivers/net/mdio/mdio-mux-bcm-iproc.c, -2, -1
+@ drivers/net/mdio/mdio-mux-bcm6368.c, -2, -1
+@ drivers/net/mdio/mdio-mux-gpio.c, -2, -1
+@ drivers/net/mdio/mdio-mux-meson-g12a.c, -2, -1
+@ drivers/net/mdio/mdio-mux-meson-gxl.c, -2, -1
+@ drivers/net/mdio/mdio-mux-mmioreg.c, -2, -1
+@ drivers/net/mdio/mdio-mux-multiplexer.c, -2, -1
+@ drivers/net/mdio/mdio-mux.c, -1, -2
+@ drivers/net/mdio/mdio-octeon.c, -2, -1
+@ drivers/net/mdio/mdio-sun4i.c, -2, -1
+@ drivers/net/mdio/mdio-xgene.c, -2, -1
+@ drivers/net/netconsole.c, -2, -1
+@ drivers/net/phy/amd.c, -2, -1
+@ drivers/net/phy/ax88796b.c, -2, -1
+@ drivers/net/phy/bcm7xxx.c, -1, -2
+@ drivers/net/phy/broadcom.c, -2, -1
+@ drivers/net/phy/dp83867.c, -2, -1
+@ drivers/net/phy/nxp-tja11xx.c, -2, -1
+@ drivers/net/phy/phy.c, -2, -1
+@ drivers/net/phy/phylink.c, -2, -1
+@ drivers/net/phy/sfp.c, -2, -1
+@ drivers/net/phy/smsc.c, -2, -1
+@ drivers/net/tun.c, -1, -2
+@ drivers/net/usb/lan78xx.c, -2, -1
+@ drivers/net/usb/r8152.c, -2, -1
+@ drivers/net/usb/smsc95xx.c, -1, -2
+@ drivers/net/usb/sr9800.c, -2, -1
+@ drivers/net/wwan/iosm/iosm_ipc_chnl_cfg.h, -2, -1
+@ drivers/net/wwan/iosm/iosm_ipc_imem.c, -1, -2
+@ drivers/net/wwan/iosm/iosm_ipc_imem.h, -1, -2
+@ drivers/net/wwan/iosm/iosm_ipc_imem_ops.h, -2, -1
+@ drivers/net/wwan/iosm/iosm_ipc_mux.h, -2, -1
+@ drivers/net/wwan/iosm/iosm_ipc_pcie.c, -1, -2
+@ drivers/net/wwan/iosm/iosm_ipc_pm.h, -2, -1
+@ drivers/net/wwan/iosm/iosm_ipc_port.c, -1, -2
+@ drivers/net/wwan/iosm/iosm_ipc_port.h, -2, -1
+@ drivers/net/wwan/iosm/iosm_ipc_trace.c, -1, -2
+@ drivers/net/wwan/iosm/iosm_ipc_trace.h, -2, -1
+@ drivers/net/wwan/iosm/iosm_ipc_wwan.c, -1, -2
+@ drivers/net/wwan/wwan_core.c, -2, -1
+@ include/linux/bpf-cgroup-defs.h, -2, -1
+@ include/linux/bpf-cgroup.h, -2, -1
+@ include/linux/bpf.h, -2, -1
+@ include/linux/bpf_verifier.h, -2, -1
+@ include/linux/brcmphy.h, -2, -1
+@ include/linux/cgroup-defs.h, -1, -2
+@ include/linux/compiler_types.h, -2, -1
+@ include/linux/cpu.h, -1, -2
+@ include/linux/dma-fence.h, -1, -2
+@ include/linux/ethtool.h, -2, -1
+@ include/linux/filter.h, -2, -1
+@ include/linux/fortify-string.h, -2, -1
+@ include/linux/fs.h, -1, -2
+@ include/linux/fs_context.h, -1, -2
+@ include/linux/ieee80211.h, -2, -1
+@ include/linux/igmp.h, -2, -1
+@ include/linux/ipv6.h, -2, -1
+@ include/linux/kasan.h, -2, -1
+@ include/linux/linkmode.h, -2, -1
+@ include/linux/mcb.h, -1, -2
+@ include/linux/mm_types.h, -2, -1
+@ include/linux/netdevice.h, -2, -1
+@ include/linux/netfilter.h, -2, -1
+@ include/linux/overflow.h, -2, -1
+@ include/linux/pci_ids.h, -2, -1
+@ include/linux/phy.h, -2, -1
+@ include/linux/phylink.h, -2, -1
+@ include/linux/posix-clock.h, -2, -1
+@ include/linux/socket.h, -2, -1
+@ include/linux/stmmac.h, -2, -1
+@ include/linux/tcp.h, -2, -1
+@ include/linux/trace_events.h, -2, -1
+@ include/linux/udp.h, -2, -1
+@ include/linux/virtio_net.h, -1, -2
+@ include/linux/virtio_vsock.h, -2, -1
+@ include/net/Space.h, -2, -1
+@ include/net/af_vsock.h, -2, -1
+@ include/net/bluetooth/bluetooth.h, -2, -1
+@ include/net/bluetooth/hci_mon.h, -1, -2
+@ include/net/cfg80211.h, -2, -1
+@ include/net/devlink.h, -2, -1
+@ include/net/dropreason-core.h, -2, -1
+@ include/net/dsa.h, -2, -1
+@ include/net/dst.h, -2, -1
+@ include/net/flow_offload.h, -2, -1
+@ include/net/ieee80211_radiotap.h, -2, -1
+@ include/net/if_inet6.h, -2, -1
+@ include/net/inet_connection_sock.h, -2, -1
+@ include/net/inet_sock.h, -2, -1
+@ include/net/ip.h, -2, -1
+@ include/net/ip6_route.h, -2, -1
+@ include/net/ip_fib.h, -2, -1
+@ include/net/ipv6.h, -2, -1
+@ include/net/ipv6_stubs.h, -2, -1
+@ include/net/mac80211.h, -2, -1
+@ include/net/net_namespace.h, -2, -1
+@ include/net/netns/ipv4.h, -2, -1
+@ include/net/netns/xfrm.h, -1, -2
+@ include/net/nexthop.h, -2, -1
+@ include/net/pkt_cls.h, -2, -1
+@ include/net/pkt_sched.h, -2, -1
+@ include/net/regulatory.h, -2, -1
+@ include/net/route.h, -2, -1
+@ include/net/sch_generic.h, -2, -1
+@ include/net/tls.h, -2, -1
+@ include/net/udp_tunnel.h, -2, -1
+@ include/net/udplite.h, -2, -1
+@ include/net/xdp.h, -2, -1
+@ include/net/xdp_sock.h, -2, -1
+@ include/net/xfrm.h, -2, -1
+@ include/trace/events/mptcp.h, -2, -1
+@ include/trace/events/neigh.h, -1, -2
+@ include/trace/events/vsock_virtio_transport_common.h, -2, -1
+@ kernel/auditsc.c, -1, -2
+@ kernel/trace/bpf_trace.c, -2, -1
+@ kernel/trace/fprobe.c, -1, -2
+@ kernel/trace/trace_kprobe.c, -2, -1
+@ kernel/trace/trace_syscalls.c, -2, -1
+@ kernel/workqueue.c, -1, -2
+@ mm/slab_common.c, -1, -2
+@ net/bluetooth/hci_conn.c, -1, -2
+@ net/bluetooth/hci_event.c, -1, -2
+@ net/bluetooth/hci_sock.c, -1, -2
+@ net/bluetooth/hci_sync.c, -1, -2
+@ net/bluetooth/l2cap_sock.c, -2, -1
+@ net/ceph/messenger.c, -1, -2
+@ net/ceph/mon_client.c, -2, -1
+@ net/core/dev.h, -1, -2
+@ net/core/dst.c, -2, -1
+@ net/core/filter.c, -2, -1
+@ net/core/netclassid_cgroup.c, -2, -1
+@ net/core/netdev-genl.c, -2, -1
+@ net/core/page_pool.c, -2, -1
+@ net/core/skbuff.c, -2, -1
+@ net/core/sock.c, -2, -1
+@ net/core/stream.c, -1, -2
+@ net/core/xdp.c, -2, -1
+@ net/ipv4/datagram.c, -2, -1
+@ net/ipv4/esp4.c, -1, -2
+@ net/ipv4/fib_semantics.c, -1, -2
+@ net/ipv4/igmp.c, -2, -1
+@ net/ipv4/inet_connection_sock.c, -1, -2
+@ net/ipv4/inet_diag.c, -2, -1
+@ net/ipv4/inet_hashtables.c, -1, -2
+@ net/ipv4/ip_forward.c, -2, -1
+@ net/ipv4/ip_output.c, -2, -1
+@ net/ipv4/ip_sockglue.c, -2, -1
+@ net/ipv4/ping.c, -2, -1
+@ net/ipv4/raw.c, -2, -1
+@ net/ipv4/route.c, -2, -1
+@ net/ipv4/sysctl_net_ipv4.c, -2, -1
+@ net/ipv4/tcp_bbr.c, -2, -1
+@ net/ipv4/tcp_bpf.c, -1, -2
+@ net/ipv4/tcp_input.c, -2, -1
+@ net/ipv4/tcp_metrics.c, -2, -1
+@ net/ipv4/tcp_minisocks.c, -2, -1
+@ net/ipv4/tcp_recovery.c, -1, -2
+@ net/ipv4/tcp_timer.c, -2, -1
+@ net/ipv4/udp.c, -2, -1
+@ net/ipv4/udp_offload.c, -2, -1
+@ net/ipv4/udp_tunnel_core.c, -2, -1
+@ net/ipv4/udp_tunnel_nic.c, -2, -1
+@ net/ipv4/udplite.c, -2, -1
+@ net/ipv4/xfrm4_input.c, -2, -1
+@ net/ipv6/addrconf.c, -2, -1
+@ net/ipv6/af_inet6.c, -2, -1
+@ net/ipv6/datagram.c, -2, -1
+@ net/ipv6/esp6.c, -1, -2
+@ net/ipv6/icmp.c, -2, -1
+@ net/ipv6/inet6_connection_sock.c, -2, -1
+@ net/ipv6/ip6_flowlabel.c, -2, -1
+@ net/ipv6/ip6_output.c, -2, -1
+@ net/ipv6/ip6_udp_tunnel.c, -2, -1
+@ net/ipv6/ipv6_sockglue.c, -2, -1
+@ net/ipv6/mcast.c, -2, -1
+@ net/ipv6/ndisc.c, -2, -1
+@ net/ipv6/ping.c, -2, -1
+@ net/ipv6/raw.c, -2, -1
+@ net/ipv6/route.c, -2, -1
+@ net/ipv6/tcp_ipv6.c, -2, -1
+@ net/ipv6/udp.c, -2, -1
+@ net/ipv6/udplite.c, -2, -1
+@ net/ipv6/xfrm6_input.c, -2, -1
+@ net/ipv6/xfrm6_policy.c, -1, -2
+@ net/mac80211/agg-rx.c, -2, -1
+@ net/mac80211/agg-tx.c, -2, -1
+@ net/mac80211/airtime.c, -2, -1
+@ net/mac80211/cfg.c, -2, -1
+@ net/mac80211/chan.c, -2, -1
+@ net/mac80211/debugfs.c, -2, -1
+@ net/mac80211/debugfs_key.c, -2, -1
+@ net/mac80211/debugfs_netdev.c, -2, -1
+@ net/mac80211/debugfs_sta.c, -2, -1
+@ net/mac80211/driver-ops.c, -2, -1
+@ net/mac80211/driver-ops.h, -2, -1
+@ net/mac80211/drop.h, -2, -1
+@ net/mac80211/ethtool.c, -2, -1
+@ net/mac80211/ht.c, -2, -1
+@ net/mac80211/ibss.c, -2, -1
+@ net/mac80211/ieee80211_i.h, -2, -1
+@ net/mac80211/iface.c, -2, -1
+@ net/mac80211/key.h, -2, -1
+@ net/mac80211/link.c, -2, -1
+@ net/mac80211/main.c, -2, -1
+@ net/mac80211/mesh.c, -2, -1
+@ net/mac80211/mesh_pathtbl.c, -2, -1
+@ net/mac80211/mlme.c, -2, -1
+@ net/mac80211/ocb.c, -2, -1
+@ net/mac80211/offchannel.c, -2, -1
+@ net/mac80211/pm.c, -2, -1
+@ net/mac80211/rc80211_minstrel_ht.c, -2, -1
+@ net/mac80211/rx.c, -2, -1
+@ net/mac80211/s1g.c, -2, -1
+@ net/mac80211/scan.c, -2, -1
+@ net/mac80211/spectmgmt.c, -2, -1
+@ net/mac80211/sta_info.c, -2, -1
+@ net/mac80211/sta_info.h, -2, -1
+@ net/mac80211/status.c, -2, -1
+@ net/mac80211/tdls.c, -2, -1
+@ net/mac80211/trace.h, -2, -1
+@ net/mac80211/tx.c, -2, -1
+@ net/mac80211/util.c, -2, -1
+@ net/mac80211/wep.c, -2, -1
+@ net/mac80211/wpa.c, -2, -1
+@ net/mptcp/protocol.c, -1, -2
+@ net/mptcp/sockopt.c, -2, -1
+@ net/netfilter/core.c, -2, -1
+@ net/netfilter/nf_conntrack_core.c, -2, -1
+@ net/netfilter/nf_conntrack_helper.c, -2, -1
+@ net/netfilter/nf_conntrack_proto_tcp.c, -2, -1
+@ net/netfilter/nf_nat_proto.c, -2, -1
+@ net/netfilter/nf_tables_core.c, -2, -1
+@ net/netfilter/nf_tables_trace.c, -2, -1
+@ net/netfilter/nfnetlink_log.c, -1, -2
+@ net/netfilter/nfnetlink_queue.c, -2, -1
+@ net/netfilter/nft_inner.c, -1, -2
+@ net/netfilter/nft_payload.c, -1, -2
+@ net/netfilter/nft_set_pipapo.c, -2, -1
+@ net/netfilter/nft_set_pipapo.h, -1, -2
+@ net/netfilter/nft_set_rbtree.c, -1, -2
+@ net/sched/cls_api.c, -2, -1
+@ net/sched/cls_route.c, -2, -1
+@ net/sched/em_meta.c, -2, -1
+@ net/sched/sch_fq.c, -2, -1
+@ net/sched/sch_frag.c, -2, -1
+@ net/sched/sch_generic.c, -2, -1
+@ net/sched/sch_hfsc.c, -1, -2
+@ net/sched/sch_netem.c, -2, -1
+@ net/smc/smc_ib.c, -1, -2
+@ net/smc/smc_ib.h, -1, -2
+@ net/tls/tls.h, -2, -1
+@ net/tls/tls_device.c, -2, -1
+@ net/tls/tls_device_fallback.c, -2, -1
+@ net/wireless/ap.c, -2, -1
+@ net/wireless/chan.c, -2, -1
+@ net/wireless/core.h, -2, -1
+@ net/wireless/ibss.c, -2, -1
+@ net/wireless/lib80211_crypt_tkip.c, -2, -1
+@ net/wireless/mesh.c, -2, -1
+@ net/wireless/mlme.c, -2, -1
+@ net/wireless/nl80211.c, -2, -1
+@ net/wireless/ocb.c, -2, -1
+@ net/wireless/pmsr.c, -2, -1
+@ net/wireless/rdev-ops.h, -2, -1
+@ net/wireless/reg.c, -2, -1
+@ net/wireless/reg.h, -2, -1
+@ net/wireless/scan.c, -2, -1
+@ net/wireless/sme.c, -2, -1
+@ net/wireless/sysfs.c, -2, -1
+@ net/wireless/trace.h, -2, -1
+@ net/wireless/util.c, -2, -1
+@ net/wireless/wext-compat.c, -2, -1
+@ net/wireless/wext-sme.c, -2, -1
+@ net/xfrm/xfrm_interface_core.c, -1, -2
+@ tools/net/ynl/generated/devlink-user.c, -1, -2
+@ tools/net/ynl/generated/handshake-user.h, -2, -1
+@ tools/net/ynl/generated/netdev-user.c, -2, -1
+@ tools/net/ynl/generated/netdev-user.h, -2, -1
+@ tools/testing/selftests/net/nettest.c, -2, -1
+@ net/xfrm/xfrm_policy.c, 4580, 4585
+- 854, 1, = ,854, 1
+- 1259, 0, = ,1259, 3
+- 1260, 1, = ,1263, 1
+- 1375, 2, = ,1378, 0
+- 1384, 2, = ,1385, 2
+- 1826, 0, = ,1827, 3
+- 1827, 2, = ,1831, 1
+- 1865, 0, = ,1868, 3
+- 1866, 2, = ,1872, 1
++ 2564, 1, = ,2569, 1
+- 3218, 1, = ,3223, 1
+@ net/wireless/core.c, 1752, 1736
++ 8, 1, = ,8, 1
++ 63, 1, = ,63, 1
++ 119, 1, = ,119, 1
++ 824, 1, = ,824, 0
++ 881, 1, = ,880, 2
++ 886, 0, = ,886, 2
++ 1050, 2, = ,1052, 1
++ 1070, 4, = ,1071, 0
++ 1124, 1, = ,1121, 1
++ 1277, 2, = ,1274, 2
++ 1284, 0, = ,1281, 1
++ 1291, 1, = ,1289, 1
++ 1311, 1, = ,1309, 1
++ 1315, 1, = ,1313, 1
++ 1318, 1, = ,1316, 1
++ 1336, 0, = ,1334, 8
++ 1360, 0, = ,1366, 1
++ 1524, 0, = ,1531, 1
++ 1553, 0, = ,1561, 1
++ 1595, 1, = ,1604, 1
+- 1616, 1, = ,1625, 1
++ 1634, 15, = ,1643, 0
++ 1681, 10, = ,1675, 0
+@ net/tls/tls_sw.c, 2764, 2763
++ 63, 1, = ,63, 1
+- 1294, 0, = ,1294, 1
+- 1305, 0, = ,1306, 3
+- 1323, 4, = ,1327, 4
++ 1490, 1, = ,1494, 1
+- 1855, 0, = ,1859, 1
+- 1864, 2, = ,1869, 2
+- 1872, 0, = ,1877, 2
++ 2322, 1, = ,2329, 1
++ 2470, 0, = ,2477, 3
++ 2581, 1, = ,2591, 1
++ 2583, 1, = ,2593, 12
++ 2585, 4, = ,2606, 17
++ 2590, 1, = ,2624, 11
++ 2593, 17, = ,2637, 9
++ 2611, 1, = ,2647, 8
++ 2614, 5, = ,2657, 5
++ 2620, 2, = ,2663, 1
++ 2623, 6, = ,2665, 4
++ 2639, 3, = ,2679, 4
++ 2644, 4, = ,2685, 0
++ 2652, 1, = ,2689, 2
++ 2655, 45, = ,2693, 3
++ 2702, 10, = ,2698, 2
++ 2714, 1, = ,2702, 6
++ 2721, 1, = ,2714, 1
++ 2753, 0, = ,2746, 6
+@ net/tls/tls_main.c, 1150, 1152
++ 62, 2, = ,62, 1
+- 143, 1, = ,142, 0
+- 145, 0, = ,143, 1
+- 158, 2, = ,157, 5
+- 161, 0, = ,163, 1
++ 348, 0, = ,351, 2
++ 583, 25, = ,588, 0
++ 639, 2, = ,619, 4
++ 642, 0, = ,624, 10
++ 649, 0, = ,641, 10
++ 663, 1, = ,665, 1
++ 669, 1, = ,671, 1
++ 683, 1, = ,685, 1
+@ net/smc/af_smc.c, 3602, 3603
++ 496, 1, = ,496, 1
+- 1204, 0, = ,1204, 1
+- 1213, 1, = ,1214, 1
+- 2364, 1, = ,2365, 1
+@ net/netfilter/nf_tables_api.c, 11351, 11354
+- 3169, 1, = ,3169, 1
++ 3319, 1, = ,3319, 1
++ 3444, 1, = ,3444, 0
++ 3447, 1, = ,3446, 0
++ 3454, 1, = ,3452, 2
++ 3456, 1, = ,3455, 0
++ 3459, 0, = ,3457, 1
++ 3467, 1, = ,3466, 1
++ 3469, 0, = ,3468, 4
++ 3479, 1, = ,3482, 1
++ 3491, 1, = ,3494, 1
++ 3501, 1, = ,3504, 1
++ 3508, 0, = ,3511, 4
++ 3517, 1, = ,3524, 1
++ 3520, 1, = ,3527, 1
++ 3532, 1, = ,3539, 1
++ 3540, 1, = ,3547, 1
++ 3544, 1, = ,3551, 1
++ 3550, 1, = ,3557, 1
++ 3556, 1, = ,3563, 0
++ 3558, 0, = ,3564, 1
++ 3559, 11, = ,3566, 3
++ 3571, 0, = ,3570, 17
++ 3573, 2, = ,3589, 0
++ 3576, 0, = ,3590, 1
++ 3581, 1, = ,3596, 1
++ 3583, 2, = ,3598, 5
++ 4239, 5, = ,4257, 1
++ 4248, 1, = ,4262, 1
++ 4684, 2, = ,4698, 1
++ 4687, 1, = ,4700, 0
++ 4704, 0, = ,4716, 4
++ 5485, 1, = ,5501, 1
++ 5493, 1, = ,5509, 1
+- 5543, 1, = ,5559, 0
+- 5579, 9, = ,5594, 5
+- 5602, 3, = ,5613, 0
++ 6012, 2, = ,6020, 1
++ 6015, 1, = ,6022, 0
++ 6908, 2, = ,6914, 1
++ 6911, 1, = ,6916, 0
++ 7186, 2, = ,7190, 1
++ 7189, 1, = ,7192, 0
+- 7608, 0, = ,7610, 10
+- 7622, 0, = ,7634, 1
+- 7624, 0, = ,7637, 1
+- 7636, 0, = ,7650, 1
+- 7651, 5, = ,7666, 0
+- 7657, 15, = ,7667, 9
+- 7673, 0, = ,7677, 1
+- 7677, 0, = ,7682, 4
+- 7678, 1, = ,7687, 0
+- 7783, 1, = ,7791, 1
++ 8685, 1, = ,8693, 0
++ 8711, 2, = ,8718, 1
++ 8714, 1, = ,8720, 0
++ 8718, 2, = ,8723, 1
++ 8721, 1, = ,8725, 0
+@ net/mac80211/key.c, 1482, 1495
++ 56, 0, = ,56, 5
++ 65, 1, = ,70, 1
++ 96, 1, = ,101, 1
++ 112, 1, = ,117, 1
++ 127, 1, = ,132, 0
++ 150, 0, = ,154, 2
++ 239, 0, = ,245, 2
++ 245, 2, = ,253, 0
++ 272, 1, = ,278, 1
++ 297, 1, = ,303, 1
++ 314, 0, = ,320, 1
++ 315, 2, = ,322, 3
++ 353, 1, = ,361, 1
++ 356, 2, = ,364, 1
++ 359, 2, = ,366, 1
++ 379, 2, = ,385, 1
++ 382, 0, = ,387, 1
++ 390, 1, = ,396, 1
++ 394, 2, = ,400, 1
++ 405, 2, = ,410, 1
++ 408, 0, = ,412, 1
++ 416, 1, = ,421, 1
++ 421, 2, = ,426, 1
++ 432, 2, = ,436, 1
++ 435, 0, = ,438, 1
++ 451, 2, = ,455, 0
++ 483, 1, = ,485, 1
++ 511, 1, = ,513, 1
++ 513, 1, = ,515, 2
++ 515, 0, = ,518, 1
++ 540, 2, = ,544, 2
++ 543, 2, = ,547, 2
++ 546, 2, = ,550, 2
++ 549, 2, = ,553, 2
++ 774, 3, = ,778, 2
++ 859, 1, = ,862, 1
++ 864, 4, = ,867, 2
++ 883, 3, = ,884, 5
++ 888, 2, = ,891, 1
++ 892, 2, = ,894, 2
++ 895, 2, = ,897, 2
+# 941, 0, = ,943, 2
++ 966, 0, = ,970, 2
++ 982, 0, = ,988, 2
++ 999, 0, = ,1007, 1
++ 1013, 0, = ,1022, 1
++ 1092, 2, = ,1102, 1
++ 1102, 0, = ,1111, 1
++ 1109, 2, = ,1119, 1
++ 1113, 0, = ,1122, 1
++ 1124, 2, = ,1134, 1
++ 1127, 1, = ,1136, 1
++ 1160, 0, = ,1169, 2
++ 1168, 2, = ,1179, 1
++ 1171, 1, = ,1181, 1
++ 1182, 1, = ,1192, 1
++ 1191, 0, = ,1201, 2
++ 1193, 2, = ,1205, 1
++ 1217, 0, = ,1228, 1
++ 1220, 0, = ,1232, 1
++ 1348, 1, = ,1361, 1
+@ net/ipv4/tcp_output.c, 4249, 4254
++ 173, 1, = ,173, 1
++ 176, 1, = ,176, 1
++ 1079, 2, = ,1079, 1
++ 1104, 0, = ,1103, 10
++ 1117, 2, = ,1126, 0
++ 1203, 1, = ,1210, 1
++ 1327, 1, = ,1334, 1
++ 1975, 1, = ,1982, 1
+- 2538, 0, = ,2545, 12
++ 2556, 1, = ,2575, 1
++ 2564, 2, = ,2583, 1
+- 2576, 1, = ,2594, 1
+- 2581, 1, = ,2599, 1
+- 2785, 1, = ,2803, 1
+- 2809, 1, = ,2827, 1
+- 2811, 1, = ,2829, 1
+- 2813, 1, = ,2831, 2
++ 3981, 14, = ,4000, 0
++ 4030, 1, = ,4035, 1
+@ net/ipv4/tcp_ipv4.c, 3415, 3412
++ 197, 1, = ,197, 1
++ 831, 1, = ,831, 1
++ 1027, 5, = ,1027, 4
+- 1873, 0, = ,1872, 1
++ 3267, 1, = ,3267, 0
++ 3291, 2, = ,3290, 0
+@ net/ipv4/tcp.c, 4720, 4710
+- 834, 1, = ,834, 3
+- 2445, 1, = ,2447, 5
+- 2969, 6, = ,2975, 0
++ 3759, 2, = ,3759, 1
++ 3816, 9, = ,3815, 0
+@ net/ipv4/af_inet.c, 2108, 2113
++ 455, 1, = ,455, 1
+- 600, 1, = ,600, 0
+- 616, 1, = ,615, 0
+- 645, 0, = ,643, 1
+- 699, 0, = ,698, 1
+- 707, 0, = ,707, 5
+- 728, 0, = ,733, 1
++ 791, 1, = ,797, 0
++ 804, 1, = ,809, 1
++ 812, 1, = ,817, 1
++ 817, 1, = ,822, 1
+@ net/core/rtnetlink.c, 6604, 6573
++ 60, 1, = ,60, 0
++ 1059, 9, = ,1058, 0
++ 1124, 1, = ,1114, 0
++ 1788, 22, = ,1777, 0
++ 1952, 3, = ,1919, 0
++ 4370, 0, = ,4334, 7
++ 4390, 4, = ,4361, 2
++ 4416, 4, = ,4385, 0
++ 4427, 0, = ,4392, 4
++ 4440, 1, = ,4409, 2
++ 4461, 1, = ,4431, 2
+- 5535, 2, = ,5506, 0
+- 5541, 1, = ,5510, 1
+@ net/core/pktgen.c, 4088, 4038
++ 203, 1, = ,203, 0
+- 673, 1, = ,672, 1
+- 677, 1, = ,676, 1
+- 679, 3, = ,678, 0
+- 683, 2, = ,679, 2
+- 686, 0, = ,682, 3
++ 1202, 2, = ,1201, 1
++ 1262, 4, = ,1260, 0
++ 1327, 1, = ,1321, 0
++ 1330, 1, = ,1323, 1
++ 1342, 0, = ,1335, 1
++ 1343, 9, = ,1337, 1
++ 1353, 1, = ,1339, 1
++ 1355, 3, = ,1341, 13
++ 1360, 18, = ,1356, 1
++ 3464, 1, = ,3443, 1
++ 3467, 1, = ,3446, 0
++ 3469, 1, = ,3447, 0
++ 3472, 10, = ,3449, 0
++ 3498, 1, = ,3465, 1
++ 3519, 2, = ,3486, 1
++ 3528, 4, = ,3494, 0
++ 3550, 2, = ,3512, 1
++ 3554, 4, = ,3515, 0
++ 3595, 2, = ,3552, 1
++ 3601, 3, = ,3557, 0
++ 3625, 2, = ,3578, 1
++ 3639, 2, = ,3591, 1
++ 3823, 1, = ,3774, 0
+@ net/core/dev.c, 11597, 11588
+- 348, 1, = ,348, 0
+- 367, 0, = ,366, 2
+- 383, 0, = ,384, 1
+- 393, 0, = ,395, 4
+- 404, 0, = ,410, 1
+- 410, 0, = ,417, 3
+- 1089, 1, = ,1099, 2
+- 1126, 0, = ,1137, 20
+- 1163, 1, = ,1194, 2
+- 1165, 11, = ,1197, 4
++ 3917, 2, = ,3942, 1
++ 3930, 1, = ,3954, 0
++ 3937, 1, = ,3960, 0
++ 3987, 1, = ,4009, 0
++ 4005, 1, = ,4026, 1
++ 4022, 1, = ,4043, 1
++ 4043, 1, = ,4064, 0
++ 4057, 1, = ,4077, 1
++ 4066, 1, = ,4086, 1
++ 6535, 1, = ,6555, 1
++ 9035, 22, = ,9055, 0
++ 10509, 2, = ,10507, 1
++ 10523, 17, = ,10520, 1
+- 11084, 0, = ,11065, 1
+- 11085, 0, = ,11067, 1
+- 11111, 1, = ,11094, 1
+- 11115, 0, = ,11098, 5
+- 11182, 0, = ,11170, 3
+@ include/net/tcp.h, 2539, 2534
++ 134, 2, = ,134, 0
+- 146, 0, = ,144, 3
++ 725, 2, = ,726, 0
++ 728, 1, = ,727, 1
++ 738, 1, = ,737, 1
++ 2084, 1, = ,2083, 0
++ 2086, 3, = ,2084, 0
+@ include/net/sock.h, 3013, 3000
+- 339, 1, = ,339, 1
+- 432, 1, = ,432, 1
+- 1192, 2, = ,1192, 1
+- 1203, 2, = ,1202, 1
++ 1826, 2, = ,1824, 2
++ 1829, 2, = ,1827, 3
++ 2010, 4, = ,2009, 1
++ 2020, 4, = ,2016, 1
++ 2028, 5, = ,2021, 2
++ 2034, 3, = ,2024, 0
++ 2156, 1, = ,2143, 1
++ 2163, 1, = ,2150, 1
++ 2185, 1, = ,2172, 1
++ 2202, 1, = ,2189, 1
++ 2215, 1, = ,2202, 1
++ 2253, 1, = ,2240, 1
+@ drivers/net/virtio_net.c, 4818, 4772
+- 610, 3, = ,610, 2
+- 614, 5, = ,613, 3
+- 621, 0, = ,618, 3
++ 1261, 1, = ,1261, 1
++ 1326, 1, = ,1326, 1
++ 1435, 1, = ,1435, 1
++ 1454, 1, = ,1454, 1
++ 1633, 1, = ,1633, 1
++ 1665, 1, = ,1665, 1
++ 1679, 1, = ,1679, 1
++ 1766, 1, = ,1766, 1
++ 1806, 1, = ,1806, 1
++ 2352, 1, = ,2352, 1
++ 2357, 1, = ,2357, 1
++ 2576, 4, = ,2576, 4
++ 2858, 3, = ,2858, 0
++ 2896, 14, = ,2893, 0
++ 2916, 10, = ,2899, 0
++ 3263, 1, = ,3236, 0
++ 3277, 4, = ,3249, 0
++ 3294, 4, = ,3262, 0
++ 3326, 5, = ,3290, 10
++ 3332, 11, = ,3301, 10
++ 3350, 1, = ,3318, 1
++ 3488, 1, = ,3456, 1
++ 4477, 0, = ,4445, 7
++ 4551, 21, = ,4526, 0
+@ drivers/net/ethernet/ti/icssg/icssg_config.c, 472, 458
+- 382, 1, = ,382, 1
+- 384, 1, = ,384, 1
++ 436, 11, = ,436, 0
++ 467, 3, = ,456, 0
+@ drivers/net/ethernet/mellanox/mlx5/core/en_tc.c, 5736, 5735
++ 756, 1, = ,756, 1
++ 759, 5, = ,759, 3
++ 765, 1, = ,763, 1
++ 768, 1, = ,766, 1
++ 770, 1, = ,768, 1
+- 4977, 1, = ,4975, 2
+- 5017, 1, = ,5016, 1
+@ drivers/net/ethernet/mellanox/mlx5/core/en_rep.c, 1710, 1725
+- 704, 1, = ,704, 1
+- 772, 0, = ,772, 1
+- 797, 0, = ,798, 5
+- 799, 0, = ,805, 2
++ 1001, 0, = ,1009, 6
++ 1006, 1, = ,1020, 1
++ 1009, 6, = ,1023, 5
++ 1016, 1, = ,1029, 0
++ 1040, 1, = ,1052, 0
++ 1043, 0, = ,1054, 3
++ 1056, 1, = ,1070, 0
++ 1058, 0, = ,1071, 2
+@ drivers/net/ethernet/mellanox/mlx5/core/en/xdp.c, 908, 908
+- 877, 3, = ,877, 4
+- 881, 1, = ,882, 0
++ 896, 1, = ,896, 1
+@ drivers/net/ethernet/mellanox/mlx5/core/cmd.c, 2388, 2310
++ 528, 1, = ,528, 0
++ 732, 1, = ,731, 0
++ 2095, 68, = ,2093, 0
+- 2259, 2, = ,2189, 0
+- 2262, 2, = ,2190, 0
+- 2265, 14, = ,2191, 0
+- 2284, 2, = ,2196, 0
+- 2290, 2, = ,2200, 1
+- 2297, 8, = ,2206, 0
+- 2313, 3, = ,2214, 0
+- 2320, 0, = ,2218, 2
+- 2322, 0, = ,2222, 1
+- 2354, 0, = ,2255, 8
+- 2356, 2, = ,2265, 5
+- 2370, 0, = ,2282, 1
+- 2373, 0, = ,2286, 6
+- 2379, 1, = ,2298, 0
+- 2381, 0, = ,2299, 4
+@ drivers/net/ethernet/marvell/octeon_ep/octep_main.c, 1465, 1273
++ 158, 1, = ,158, 1
++ 163, 1, = ,163, 1
++ 165, 1, = ,165, 1
++ 169, 136, = ,169, 1
++ 360, 51, = ,225, 3
+- 901, 5, = ,718, 2
+- 911, 0, = ,725, 2
+- 912, 1, = ,728, 2
+- 914, 1, = ,731, 0
++ 1104, 1, = ,920, 1
++ 1106, 1, = ,922, 1
++ 1199, 1, = ,1015, 2
++ 1328, 9, = ,1145, 0
+@ drivers/net/ethernet/intel/ice/ice_main.c, 9291, 9296
+- 9, 0, = ,9, 1
++ 3152, 1, = ,3153, 1
++ 3162, 1, = ,3163, 1
++ 4668, 4, = ,4669, 0
+- 4690, 0, = ,4687, 3
++ 4698, 2, = ,4698, 0
+- 5023, 0, = ,5021, 14
++ 5636, 2, = ,5648, 0
++ 7380, 7, = ,7390, 2
+@ drivers/net/ethernet/intel/ice/ice_lib.c, 4087, 4091
+- 1204, 2, = ,1204, 1
++ 1835, 1, = ,1834, 2
++ 1840, 0, = ,1840, 4
++ 1842, 1, = ,1846, 3
++ 1884, 1, = ,1890, 2
++ 1886, 1, = ,1893, 4
++ 1893, 1, = ,1903, 1
++ 1896, 0, = ,1906, 2
++ 3981, 3, = ,3993, 0
++ 3985, 8, = ,3994, 2
++ 3994, 2, = ,3997, 3
+@ drivers/net/ethernet/intel/i40e/i40e_common.c, 6043, 6030
++ 4, 0, = ,4, 4
++ 5, 7, = ,9, 0
++ 824, 1, = ,821, 1
++ 826, 0, = ,823, 2
++ 827, 3, = ,826, 1
++ 831, 1, = ,828, 2
++ 833, 1, = ,831, 0
++ 837, 3, = ,834, 2
++ 842, 7, = ,838, 3
++ 854, 1, = ,846, 1
++ 860, 1, = ,852, 1
++ 864, 1, = ,856, 1
++ 867, 4, = ,859, 3
++ 873, 5, = ,864, 0
++ 879, 1, = ,865, 1
++ 882, 3, = ,868, 1
++ 887, 2, = ,871, 2
++ 890, 0, = ,874, 3
+- 1098, 1, = ,1085, 1
+- 1108, 1, = ,1095, 1
+@ drivers/net/dsa/bcm_sf2.c, 1616, 1624
+- 620, 2, = ,620, 2
+- 624, 1, = ,624, 0
+- 629, 2, = ,628, 2
+- 687, 4, = ,686, 2
+- 692, 0, = ,689, 8
+- 699, 0, = ,704, 1
++ 1540, 1, = ,1546, 1
++ 1545, 1, = ,1551, 1
++ 1557, 0, = ,1563, 2
++ 1602, 1, = ,1610, 1

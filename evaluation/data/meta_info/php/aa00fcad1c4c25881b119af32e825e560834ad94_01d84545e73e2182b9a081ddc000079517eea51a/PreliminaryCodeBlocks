@@ -1,0 +1,106 @@
+@ Zend/zend.c, -2, -1
+@ Zend/zend.h, -2, -1
+@ Zend/zend_API.c, -2, -1
+@ Zend/zend_API.h, -2, -1
+@ Zend/zend_alloc.c, -2, -1
+@ Zend/zend_alloc.h, -2, -1
+@ Zend/zend_ast.c, -2, -1
+@ Zend/zend_ast.h, -2, -1
+@ Zend/zend_attributes.c, -2, -1
+@ Zend/zend_attributes.h, -2, -1
+@ Zend/zend_attributes_arginfo.h, -2, -1
+@ Zend/zend_builtin_functions.c, -2, -1
+@ Zend/zend_builtin_functions_arginfo.h, -2, -1
+@ Zend/zend_closures.c, -2, -1
+@ Zend/zend_compile.c, -2, -1
+@ Zend/zend_compile.h, -2, -1
+@ Zend/zend_constants.c, -2, -1
+@ Zend/zend_cpuinfo.h, -2, -1
+@ Zend/zend_enum.c, -2, -1
+@ Zend/zend_enum.h, -2, -1
+@ Zend/zend_exceptions.c, -2, -1
+@ Zend/zend_exceptions_arginfo.h, -2, -1
+@ Zend/zend_execute.c, -2, -1
+@ Zend/zend_extensions.c, -2, -1
+@ Zend/zend_extensions.h, -2, -1
+@ Zend/zend_gc.c, -2, -1
+@ Zend/zend_generators.c, -2, -1
+@ Zend/zend_globals.h, -2, -1
+@ Zend/zend_hash.c, -2, -1
+@ Zend/zend_hash.h, -2, -1
+@ Zend/zend_inheritance.c, -2, -1
+@ Zend/zend_inheritance.h, -2, -1
+@ Zend/zend_ini.c, -2, -1
+@ Zend/zend_ini.h, -2, -1
+@ Zend/zend_interfaces.c, -2, -1
+@ Zend/zend_iterators.h, -2, -1
+@ Zend/zend_list.c, -2, -1
+@ Zend/zend_long.h, -2, -1
+@ Zend/zend_map_ptr.h, -2, -1
+@ Zend/zend_modules.h, -2, -1
+@ Zend/zend_object_handlers.c, -2, -1
+@ Zend/zend_objects.c, -2, -1
+@ Zend/zend_observer.c, -2, -1
+@ Zend/zend_opcode.c, -2, -1
+@ Zend/zend_operators.c, -2, -1
+@ Zend/zend_operators.h, -2, -1
+@ Zend/zend_portability.h, -2, -1
+@ Zend/zend_signal.c, -2, -1
+@ Zend/zend_stream.c, -2, -1
+@ Zend/zend_string.c, -2, -1
+@ Zend/zend_string.h, -2, -1
+@ Zend/zend_types.h, -2, -1
+@ Zend/zend_virtual_cwd.c, -2, -1
+@ Zend/zend_vm_def.h, -2, -1
+@ Zend/zend_vm_execute.h, -2, -1
+@ Zend/zend_vm_handlers.h, -2, -1
+@ Zend/zend_vm_opcodes.c, -2, -1
+@ Zend/zend_vm_opcodes.h, -2, -1
+@ Zend/zend_vm_trace_handlers.h, -2, -1
+@ Zend/zend_vm_trace_map.h, -2, -1
+@ Zend/zend_weakrefs.c, -2, -1
+@ Zend/zend_weakrefs.h, -2, -1
+@ ext/zend_test/test_arginfo.h, 495, 473
+# 2, 1, = ,2, 1
++ 13, 6, = ,13, 0
+- 81, 0, = ,75, 7
++ 87, 1, = ,88, 2
++ 120, 1, = ,122, 0
+- 137, 0, = ,138, 1
++ 157, 1, = ,159, 0
+- 174, 0, = ,175, 1
++ 239, 5, = ,241, 0
++ 440, 19, = ,437, 0
+@ ext/zend_test/test.c, 732, 730
+- 29, 0, = ,29, 1
++ 48, 1, = ,49, 0
++ 207, 35, = ,207, 0
+- 316, 0, = ,281, 34
++ 593, 1, = ,592, 0
++ 641, 3, = ,639, 3
+@ Zend/zend_execute_API.c, 1844, 1809
++ 195, 3, = ,195, 0
++ 286, 1, = ,283, 1
++ 297, 1, = ,294, 1
++ 302, 1, = ,299, 1
++ 315, 1, = ,312, 1
++ 329, 1, = ,326, 1
++ 351, 1, = ,348, 1
++ 430, 1, = ,427, 1
++ 437, 1, = ,434, 1
++ 439, 1, = ,436, 1
++ 445, 1, = ,442, 1
++ 468, 2, = ,465, 0
++ 599, 2, = ,594, 10
++ 606, 5, = ,609, 0
++ 626, 5, = ,624, 0
++ 708, 6, = ,701, 1
++ 741, 4, = ,729, 1
++ 756, 8, = ,741, 9
++ 786, 1, = ,772, 1
++ 813, 1, = ,799, 1
+- 938, 5, = ,924, 0
+- 955, 0, = ,936, 5
++ 1034, 22, = ,1020, 0
++ 1254, 1, = ,1218, 1
++ 1820, 1, = ,1784, 2

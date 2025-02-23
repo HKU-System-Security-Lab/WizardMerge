@@ -1,0 +1,89 @@
+@ accessible/base/ARIAMap.cpp, -2, -1
+@ accessible/base/AccAttributes.cpp, -2, -1
+@ accessible/base/AccEvent.cpp, -2, -1
+@ accessible/base/AccEvent.h, -2, -1
+@ accessible/base/AccGroupInfo.h, -2, -1
+@ accessible/base/AccIterator.cpp, -2, -1
+@ accessible/base/Asserts.cpp, -2, -1
+@ accessible/base/CachedTableAccessible.cpp, -2, -1
+@ accessible/base/DocManager.cpp, -2, -1
+@ accessible/base/EventQueue.cpp, -2, -1
+@ accessible/base/EventTree.cpp, -2, -1
+@ accessible/base/Filters.cpp, -2, -1
+@ accessible/base/FocusManager.cpp, -2, -1
+@ accessible/base/HTMLMarkupMap.h, -2, -1
+@ accessible/base/Logging.cpp, -2, -1
+@ accessible/base/Pivot.cpp, -2, -1
+@ accessible/base/Pivot.h, -2, -1
+@ accessible/base/Platform.h, -2, -1
+@ accessible/base/RoleMap.h, -2, -1
+@ accessible/base/SelectionManager.cpp, -2, -1
+@ accessible/base/TextAttrs.cpp, -2, -1
+@ accessible/base/TextLeafRange.cpp, -2, -1
+@ accessible/base/TextRange-inl.h, -2, -1
+@ accessible/base/TextUpdater.cpp, -2, -1
+@ accessible/base/TreeWalker.cpp, -2, -1
+@ accessible/base/nsAccUtils.cpp, -2, -1
+@ accessible/base/nsAccessibilityService.cpp, -2, -1
+@ accessible/base/nsAccessibilityService.h, -2, -1
+@ accessible/base/nsCoreUtils.cpp, -2, -1
+@ accessible/base/nsTextEquivUtils.h, -2, -1
+@ dom/canvas/CanvasImageCache.cpp, -2, -1
+@ dom/canvas/CanvasImageCache.h, -2, -1
+@ dom/canvas/CanvasPath.h, -2, -1
+@ dom/canvas/CanvasRenderingContext2D.cpp, -2, -1
+@ dom/canvas/CanvasRenderingContext2D.h, -2, -1
+@ dom/canvas/ImageBitmap.cpp, -2, -1
+@ dom/canvas/ImageBitmap.h, -2, -1
+@ dom/canvas/ImageBitmapSource.h, -2, -1
+@ dom/canvas/OffscreenCanvas.cpp, -2, -1
+@ dom/canvas/OffscreenCanvasDisplayHelper.cpp, -2, -1
+@ dom/canvas/OffscreenCanvasDisplayHelper.h, -2, -1
+@ dom/fs/parent/datamodel/FileSystemDataManager.h, -2, -1
+@ dom/fs/parent/datamodel/FileSystemDatabaseManagerVersion002.cpp, -2, -1
+@ dom/fs/parent/datamodel/FileSystemFileManager.cpp, -2, -1
+@ dom/indexedDB/Key.cpp, -2, -1
+@ gfx/2d/2D.h, -2, -1
+@ gfx/2d/BaseMargin.h, -2, -1
+@ gfx/2d/BasePoint.h, -2, -1
+@ gfx/2d/BaseSize.h, -2, -1
+@ gfx/2d/Coord.h, -2, -1
+@ gfx/2d/FilterNodeSoftware.cpp, -2, -1
+@ gfx/2d/Logging.h, -2, -1
+@ gfx/2d/Matrix.h, -2, -1
+@ gfx/2d/PathCairo.cpp, -2, -1
+@ gfx/2d/PathCairo.h, -2, -1
+@ gfx/2d/PathD2D.h, -2, -1
+@ gfx/2d/PathRecording.cpp, -2, -1
+@ gfx/2d/PathRecording.h, -2, -1
+@ gfx/2d/PathSkia.h, -2, -1
+@ gfx/2d/Point.h, -2, -1
+@ gfx/2d/RecordedEventImpl.h, -2, -1
+@ gfx/2d/ScaledFontMac.cpp, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_capture_options.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_frame.cc, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_frame.h, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/desktop_frame_unittest.cc, -2, -1
+@ toolkit/components/extensions/WebExtensionPolicy.cpp, -2, -1
+@ toolkit/xre/Bootstrap.h, -2, -1
+@ toolkit/xre/dllservices/mozglue/Authenticode.cpp, -2, -1
+@ toolkit/xre/dllservices/mozglue/WindowsDllBlocklist.cpp, -2, -1
+@ toolkit/xre/dllservices/mozglue/WindowsDllBlocklistInfo.h, -2, -1
+@ toolkit/xre/dllservices/mozglue/nsWindowsDllInterceptor.h, -2, -1
+@ toolkit/xre/nsAppRunner.cpp, -2, -1
+@ third_party/libwebrtc/modules/desktop_capture/linux/wayland/shared_screencast_stream.cc, 1038, 1039
++ 297, 3, = ,297, 4
+@ modules/libpref/Preferences.cpp, 6276, 6277
++ 6114, 0, = ,6114, 1
+@ dom/fs/parent/datamodel/SchemaVersion002.cpp, 619, 376
+# 9, 3, = ,9, 1
++ 18, 1, = ,16, 0
++ 286, 199, = ,283, 0
+# 533, 78, = ,331, 37
+@ dom/fs/parent/datamodel/FileSystemDataManager.cpp, 670, 670
++ 170, 2, = ,170, 2
++ 406, 0, = ,406, 3
++ 411, 3, = ,414, 0
+@ accessible/base/nsTextEquivUtils.cpp, 361, 363
++ 10, 0, = ,10, 1
++ 15, 0, = ,16, 1

@@ -1,0 +1,292 @@
+@ Zend/zend.c, -2, -1
+@ Zend/zend.h, -2, -1
+@ Zend/zend_API.c, -2, -1
+@ Zend/zend_API.h, -2, -1
+@ Zend/zend_alloc.c, -2, -1
+@ Zend/zend_alloc.h, -2, -1
+@ Zend/zend_ast.c, -2, -1
+@ Zend/zend_ast.h, -2, -1
+@ Zend/zend_attributes.c, -2, -1
+@ Zend/zend_attributes.h, -2, -1
+@ Zend/zend_attributes_arginfo.h, -2, -1
+@ Zend/zend_builtin_functions.c, -2, -1
+@ Zend/zend_builtin_functions_arginfo.h, -2, -1
+@ Zend/zend_closures.c, -2, -1
+@ Zend/zend_compile.h, -2, -1
+@ Zend/zend_constants.c, -2, -1
+@ Zend/zend_cpuinfo.c, -2, -1
+@ Zend/zend_enum.c, -2, -1
+@ Zend/zend_enum.h, -2, -1
+@ Zend/zend_exceptions.c, -2, -1
+@ Zend/zend_exceptions_arginfo.h, -2, -1
+@ Zend/zend_execute.c, -2, -1
+@ Zend/zend_execute.h, -2, -1
+@ Zend/zend_execute_API.c, -2, -1
+@ Zend/zend_extensions.c, -2, -1
+@ Zend/zend_extensions.h, -2, -1
+@ Zend/zend_fibers.c, -2, -1
+@ Zend/zend_fibers.h, -2, -1
+@ Zend/zend_gc.c, -2, -1
+@ Zend/zend_generators.c, -2, -1
+@ Zend/zend_globals.h, -2, -1
+@ Zend/zend_hash.c, -2, -1
+@ Zend/zend_hash.h, -2, -1
+@ Zend/zend_inheritance.c, -2, -1
+@ Zend/zend_inheritance.h, -2, -1
+@ Zend/zend_ini.c, -2, -1
+@ Zend/zend_ini.h, -2, -1
+@ Zend/zend_interfaces.c, -2, -1
+@ Zend/zend_interfaces.h, -2, -1
+@ Zend/zend_iterators.h, -2, -1
+@ Zend/zend_list.c, -2, -1
+@ Zend/zend_llist.h, -2, -1
+@ Zend/zend_long.h, -2, -1
+@ Zend/zend_map_ptr.h, -2, -1
+@ Zend/zend_modules.h, -2, -1
+@ Zend/zend_multiply.h, -2, -1
+@ Zend/zend_object_handlers.c, -2, -1
+@ Zend/zend_object_handlers.h, -2, -1
+@ Zend/zend_objects.c, -2, -1
+@ Zend/zend_observer.c, -2, -1
+@ Zend/zend_observer.h, -2, -1
+@ Zend/zend_opcode.c, -2, -1
+@ Zend/zend_operators.c, -2, -1
+@ Zend/zend_operators.h, -2, -1
+@ Zend/zend_portability.h, -2, -1
+@ Zend/zend_ptr_stack.h, -2, -1
+@ Zend/zend_signal.c, -2, -1
+@ Zend/zend_smart_str.h, -2, -1
+@ Zend/zend_smart_str_public.h, -2, -1
+@ Zend/zend_stream.c, -2, -1
+@ Zend/zend_string.c, -2, -1
+@ Zend/zend_string.h, -2, -1
+@ Zend/zend_type_info.h, -2, -1
+@ Zend/zend_types.h, -2, -1
+@ Zend/zend_virtual_cwd.c, -2, -1
+@ Zend/zend_vm.h, -2, -1
+@ Zend/zend_vm_def.h, -2, -1
+@ Zend/zend_vm_execute.h, -2, -1
+@ Zend/zend_vm_handlers.h, -2, -1
+@ Zend/zend_vm_opcodes.c, -2, -1
+@ Zend/zend_vm_opcodes.h, -2, -1
+@ Zend/zend_vm_trace_handlers.h, -2, -1
+@ Zend/zend_vm_trace_map.h, -2, -1
+@ Zend/zend_weakrefs.c, -2, -1
+@ Zend/zend_weakrefs.h, -2, -1
+@ ext/standard/array.c, -2, -1
+@ ext/standard/base64.c, -2, -1
+@ ext/standard/basic_functions.c, -2, -1
+@ ext/standard/basic_functions.h, -2, -1
+@ ext/standard/basic_functions_arginfo.h, -2, -1
+@ ext/standard/browscap.c, -2, -1
+@ ext/standard/crc32.c, -2, -1
+@ ext/standard/credits_ext.h, -2, -1
+@ ext/standard/crypt.c, -2, -1
+@ ext/standard/crypt_freesec.c, -2, -1
+@ ext/standard/crypt_freesec.h, -2, -1
+@ ext/standard/crypt_sha256.c, -2, -1
+@ ext/standard/crypt_sha512.c, -2, -1
+@ ext/standard/css.c, -2, -1
+@ ext/standard/datetime.c, -2, -1
+@ ext/standard/dir.c, -2, -1
+@ ext/standard/dl.c, -2, -1
+@ ext/standard/dns.c, -2, -1
+@ ext/standard/dns_win32.c, -2, -1
+@ ext/standard/exec.c, -2, -1
+@ ext/standard/file.c, -2, -1
+@ ext/standard/file.h, -2, -1
+@ ext/standard/filestat.c, -2, -1
+@ ext/standard/flock_compat.c, -2, -1
+@ ext/standard/flock_compat.h, -2, -1
+@ ext/standard/ftok.c, -2, -1
+@ ext/standard/ftp_fopen_wrapper.c, -2, -1
+@ ext/standard/head.c, -2, -1
+@ ext/standard/hrtime.c, -2, -1
+@ ext/standard/html.c, -2, -1
+@ ext/standard/html.h, -2, -1
+@ ext/standard/http.c, -2, -1
+@ ext/standard/http_fopen_wrapper.c, -2, -1
+@ ext/standard/image.c, -2, -1
+@ ext/standard/info.c, -2, -1
+@ ext/standard/iptc.c, -2, -1
+@ ext/standard/link.c, -2, -1
+@ ext/standard/net.c, -2, -1
+@ ext/standard/pack.c, -2, -1
+@ ext/standard/pageinfo.c, -2, -1
+@ ext/standard/password.c, -2, -1
+@ ext/standard/php_array.h, -2, -1
+@ ext/standard/php_dir.h, -2, -1
+@ ext/standard/php_dns.h, -2, -1
+@ ext/standard/php_fopen_wrapper.c, -2, -1
+@ ext/standard/php_image.h, -2, -1
+@ ext/standard/php_lcg.h, -2, -1
+@ ext/standard/php_mt_rand.h, -2, -1
+@ ext/standard/php_password.h, -2, -1
+@ ext/standard/php_rand.h, -2, -1
+@ ext/standard/php_random.h, -2, -1
+@ ext/standard/php_standard.h, -2, -1
+@ ext/standard/php_string.h, -2, -1
+@ ext/standard/proc_open.c, -2, -1
+@ ext/standard/sha1.c, -2, -1
+@ ext/standard/streamsfuncs.c, -2, -1
+@ ext/standard/string.c, -2, -1
+@ ext/standard/strnatcmp.c, -2, -1
+@ ext/standard/syslog.c, -2, -1
+@ ext/standard/type.c, -2, -1
+@ ext/standard/uniqid.c, -2, -1
+@ ext/standard/user_filters.c, -2, -1
+@ ext/standard/var.c, -2, -1
+@ ext/standard/mail.c, 575, 575
++ 28, 2, = ,28, 2
++ 31, 2, = ,31, 2
++ 36, 1, = ,36, 1
++ 46, 1, = ,46, 1
+- 139, 0, = ,139, 1
+- 160, 0, = ,161, 1
++ 432, 2, = ,434, 0
++ 441, 1, = ,441, 1
++ 515, 2, = ,515, 2
++ 518, 1, = ,518, 1
++ 520, 1, = ,520, 1
+@ Zend/zend_compile.c, 10720, 10584
++ 36, 1, = ,36, 0
++ 84, 1, = ,83, 1
++ 220, 1, = ,219, 0
++ 271, 1, = ,269, 3
++ 727, 1, = ,727, 1
++ 743, 1, = ,743, 1
++ 760, 0, = ,760, 3
++ 761, 1, = ,764, 0
++ 802, 4, = ,804, 0
++ 1044, 0, = ,1042, 9
++ 1052, 2, = ,1059, 4
++ 1096, 1, = ,1105, 0
++ 1120, 1, = ,1128, 0
++ 1127, 1, = ,1134, 0
++ 1199, 28, = ,1205, 0
++ 1230, 6, = ,1208, 1
++ 1237, 0, = ,1210, 1
++ 1238, 6, = ,1212, 0
++ 1246, 1, = ,1214, 1
++ 1274, 0, = ,1242, 3
++ 1293, 2, = ,1264, 0
++ 1305, 2, = ,1274, 1
++ 1336, 1, = ,1304, 1
++ 1360, 0, = ,1328, 67
++ 1601, 6, = ,1636, 1
++ 1780, 1, = ,1810, 1
++ 1856, 1, = ,1886, 0
++ 2316, 1, = ,2345, 1
++ 2324, 1, = ,2353, 1
++ 2331, 3, = ,2360, 0
++ 2377, 1, = ,2403, 0
++ 2383, 17, = ,2408, 1
++ 2796, 1, = ,2805, 1
++ 2824, 9, = ,2833, 2
++ 2852, 3, = ,2854, 0
++ 2861, 0, = ,2860, 1
++ 2862, 1, = ,2862, 1
++ 2865, 1, = ,2865, 1
++ 2892, 7, = ,2892, 0
++ 2925, 1, = ,2918, 1
++ 3239, 1, = ,3232, 1
++ 3409, 1, = ,3402, 1
++ 3454, 1, = ,3447, 1
++ 3564, 3, = ,3557, 0
++ 3669, 1, = ,3659, 0
++ 3672, 1, = ,3661, 1
++ 3679, 1, = ,3668, 1
++ 3693, 1, = ,3682, 1
++ 3730, 1, = ,3719, 0
++ 3749, 1, = ,3737, 1
++ 3758, 1, = ,3746, 1
++ 3762, 1, = ,3750, 1
++ 3792, 1, = ,3780, 1
++ 4088, 1, = ,4076, 1
++ 4123, 1, = ,4111, 1
++ 4450, 1, = ,4438, 1
++ 4459, 1, = ,4447, 1
++ 4461, 1, = ,4449, 1
++ 4478, 1, = ,4466, 1
++ 4490, 1, = ,4478, 1
++ 4509, 1, = ,4497, 1
++ 4540, 1, = ,4528, 1
++ 4573, 1, = ,4561, 1
++ 4670, 1, = ,4658, 1
++ 4702, 1, = ,4690, 1
++ 4829, 1, = ,4817, 1
++ 5145, 0, = ,5133, 2
++ 5148, 2, = ,5138, 0
++ 5775, 4, = ,5763, 0
++ 5879, 1, = ,5863, 1
++ 6214, 1, = ,6198, 0
++ 6226, 9, = ,6209, 0
++ 6274, 39, = ,6248, 6
++ 6314, 40, = ,6255, 2
++ 6356, 0, = ,6259, 2
++ 6359, 1, = ,6264, 1
++ 6362, 2, = ,6267, 2
++ 6370, 2, = ,6275, 0
++ 6379, 34, = ,6282, 1
++ 6418, 3, = ,6288, 0
++ 6429, 6, = ,6296, 0
++ 6439, 1, = ,6300, 1
++ 6455, 1, = ,6316, 8
++ 6471, 9, = ,6339, 0
++ 6495, 8, = ,6354, 0
++ 6521, 1, = ,6372, 8
++ 6526, 20, = ,6384, 4
++ 6550, 0, = ,6392, 4
++ 6551, 0, = ,6397, 5
++ 6552, 1, = ,6403, 8
++ 6556, 7, = ,6414, 5
++ 6573, 0, = ,6429, 9
++ 6590, 0, = ,6455, 3
++ 6593, 3, = ,6461, 2
++ 6621, 1, = ,6488, 0
++ 6624, 11, = ,6490, 0
++ 6679, 5, = ,6534, 18
++ 6685, 0, = ,6553, 1
++ 6686, 20, = ,6555, 4
++ 6840, 4, = ,6693, 1
++ 6861, 0, = ,6711, 9
++ 6892, 1, = ,6751, 0
++ 6919, 4, = ,6777, 0
++ 6949, 1, = ,6803, 1
++ 7122, 1, = ,6976, 1
++ 7171, 1, = ,7025, 1
+# 7306, 3, = ,7160, 7
++ 7310, 11, = ,7168, 5
+# 7322, 1, = ,7174, 2
+# 7334, 1, = ,7187, 1
++ 7349, 0, = ,7202, 3
++ 7383, 1, = ,7239, 1
++ 7419, 13, = ,7275, 0
+# 7437, 1, = ,7280, 6
+- 7439, 0, = ,7287, 1
++ 7446, 0, = ,7295, 1
++ 7452, 6, = ,7302, 0
++ 7474, 1, = ,7318, 1
++ 7546, 4, = ,7390, 0
++ 7570, 1, = ,7410, 1
++ 7606, 0, = ,7446, 5
++ 7631, 1, = ,7476, 1
++ 7808, 0, = ,7653, 3
++ 7893, 1, = ,7741, 1
++ 7944, 1, = ,7792, 0
++ 8020, 0, = ,7867, 1
++ 8021, 2, = ,7869, 0
++ 8027, 4, = ,7873, 54
++ 8033, 1, = ,7929, 1
++ 8051, 1, = ,7947, 1
++ 8126, 6, = ,8022, 0
++ 8924, 4, = ,8814, 1
++ 8953, 4, = ,8840, 1
++ 9396, 1, = ,9280, 1
++ 9572, 1, = ,9456, 0
++ 9698, 11, = ,9581, 1
++ 9842, 2, = ,9715, 1
++ 10367, 1, = ,10239, 1
++ 10411, 1, = ,10283, 1
++ 10621, 1, = ,10493, 1
++ 10704, 8, = ,10576, 0

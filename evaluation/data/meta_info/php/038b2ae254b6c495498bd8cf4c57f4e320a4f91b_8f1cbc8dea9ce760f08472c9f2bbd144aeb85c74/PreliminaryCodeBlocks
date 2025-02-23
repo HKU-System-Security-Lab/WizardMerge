@@ -1,0 +1,41 @@
+@ ext/dom/attr.c, -2, -1
+@ ext/dom/characterdata.c, -2, -1
+@ ext/dom/document.c, -2, -1
+@ ext/dom/documentfragment.c, -2, -1
+@ ext/dom/documenttype.c, -2, -1
+@ ext/dom/dom_iterators.c, -2, -1
+@ ext/dom/dom_properties.h, -2, -1
+@ ext/dom/element.c, -2, -1
+@ ext/dom/namednodemap.c, -2, -1
+@ ext/dom/node.c, -2, -1
+@ ext/dom/nodelist.c, -2, -1
+@ ext/dom/php_dom.c, -2, -1
+@ ext/dom/php_dom.h, -2, -1
+@ ext/dom/php_dom_arginfo.h, -2, -1
+@ ext/dom/processinginstruction.c, -2, -1
+@ ext/dom/text.c, -2, -1
+@ ext/dom/xml_common.h, -2, -1
+@ ext/dom/parentnode.c, 645, 610
++ 127, 1, = ,127, 1
++ 129, 1, = ,129, 1
++ 155, 0, = ,155, 1
++ 168, 1, = ,169, 1
++ 210, 0, = ,211, 2
++ 250, 1, = ,253, 1
+# 280, 1, = ,283, 28
++ 289, 2, = ,319, 0
++ 320, 1, = ,348, 1
+# 333, 3, = ,361, 0
+- 342, 2, = ,367, 1
+- 347, 3, = ,371, 2
+# 359, 28, = ,382, 1
++ 419, 2, = ,415, 0
++ 443, 1, = ,437, 1
++ 476, 2, = ,470, 0
++ 535, 0, = ,527, 1
++ 543, 1, = ,536, 8
++ 545, 1, = ,545, 1
++ 548, 1, = ,548, 1
++ 581, 2, = ,581, 0
++ 594, 2, = ,592, 1
++ 612, 32, = ,609, 0

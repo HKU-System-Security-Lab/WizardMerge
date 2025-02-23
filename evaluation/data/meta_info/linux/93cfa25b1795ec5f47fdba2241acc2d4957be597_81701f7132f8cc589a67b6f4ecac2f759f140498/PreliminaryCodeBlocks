@@ -1,0 +1,16 @@
+@ drivers/hid/hid-cp2112.c, -2, -1
+@ drivers/hid/hid-holtek-kbd.c, -2, -1
+@ drivers/hid/hid-ids.h, -2, -1
+@ drivers/hid/hid-input.c, -2, -1
+@ drivers/hid/hid-lenovo.c, -2, -1
+@ drivers/hid/hid-logitech-hidpp.c, -2, -1
+@ drivers/hid/hid-multitouch.c, -2, -1
+@ drivers/hid/hid-nintendo.c, -2, -1
+@ drivers/hid/hid-quirks.c, -2, -1
+@ drivers/hid/hid-rmi.c, -2, -1
+@ drivers/hid/hid-sony.c, -2, -1
+@ drivers/hid/hid-steelseries.c, -2, -1
+@ drivers/hid/hid-nvidia-shield.c, 1128, 1129
+- 918, 0, = ,918, 9
+# 1076, 6, = ,1085, 2
+- 1093, 5, = ,1098, 1

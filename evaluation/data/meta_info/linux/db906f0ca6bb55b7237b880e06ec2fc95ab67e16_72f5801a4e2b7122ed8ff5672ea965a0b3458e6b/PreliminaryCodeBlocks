@@ -1,0 +1,93 @@
+@ drivers/dma/apple-admac.c, -1, -2
+@ drivers/dma/at_hdmac.c, -1, -2
+@ drivers/dma/bcm-sba-raid.c, -1, -2
+@ drivers/dma/dma-jz4780.c, -1, -2
+@ drivers/dma/dmaengine.c, -1, -2
+@ drivers/dma/ep93xx_dma.c, -1, -2
+@ drivers/dma/fsl-edma-common.c, -1, -2
+@ drivers/dma/fsl-edma-common.h, -1, -2
+@ drivers/dma/fsl-qdma.c, -1, -2
+@ drivers/dma/fsl_raid.c, -1, -2
+@ drivers/dma/fsldma.c, -1, -2
+@ drivers/dma/idxd/dma.c, -2, -1
+@ drivers/dma/idxd/init.c, -2, -1
+@ drivers/dma/idxd/perfmon.c, -1, -2
+@ drivers/dma/img-mdc-dma.c, -1, -2
+@ drivers/dma/imx-dma.c, -1, -2
+@ drivers/dma/imx-sdma.c, -1, -2
+@ drivers/dma/lpc18xx-dmamux.c, -1, -2
+@ drivers/dma/mpc512x_dma.c, -1, -2
+@ drivers/dma/mxs-dma.c, -1, -2
+@ drivers/dma/nbpfaxi.c, -1, -2
+@ drivers/dma/pl330.c, -2, -1
+@ drivers/dma/sprd-dma.c, -1, -2
+@ drivers/dma/ste_dma40.c, -1, -2
+@ drivers/dma/stm32-dma.c, -1, -2
+@ drivers/dma/stm32-dmamux.c, -1, -2
+@ drivers/dma/stm32-mdma.c, -1, -2
+@ drivers/dma/sun6i-dma.c, -1, -2
+@ drivers/dma/tegra186-gpc-dma.c, -1, -2
+@ drivers/dma/tegra20-apb-dma.c, -1, -2
+@ drivers/dma/tegra210-adma.c, -1, -2
+@ drivers/dma/xgene-dma.c, -1, -2
+@ drivers/dma/xilinx/xdma.c, -2, -1
+@ drivers/dma/xilinx/xilinx_dma.c, -1, -2
+@ drivers/dma/xilinx/zynqmp_dma.c, -1, -2
+@ drivers/dma/dw/rzn1-dmamux.c, -1, -2
+@ drivers/dma/dw-axi-dmac/dw-axi-dmac-platform.c, -1, -2
+@ drivers/dma/lgm/lgm-dma.c, -1, -2
+@ drivers/dma/qcom/gpi.c, -1, -2
+@ drivers/dma/qcom/hidma.c, -1, -2
+@ drivers/dma/qcom/hidma_mgmt.c, -1, -2
+@ drivers/dma/sh/rz-dmac.c, -1, -2
+@ drivers/dma/sh/shdmac.c, -1, -2
+@ drivers/dma/ioat/dca.c, -1, -2
+@ drivers/dma/ioat/dma.h, -1, -2
+@ drivers/dma/ioat/init.c, -1, -2
+@ drivers/dma/ti/dma-crossbar.c, -1, -2
+@ drivers/dma/ti/edma.c, -1, -2
+@ drivers/dma/ti/k3-udma-private.c, -1, -2
+@ drivers/dma/ti/k3-udma.c, -1, -2
+@ drivers/dma/ti/omap-dma.c, -1, -2
+@ drivers/dma/ppc4xx/adma.c, -1, -2
+@ drivers/dma/bestcomm/bestcomm.c, -1, -2
+@ drivers/dma/mediatek/mtk-cqdma.c, -1, -2
+@ drivers/dma/mediatek/mtk-hsdma.c, -1, -2
+@ drivers/dma/mediatek/mtk-uart-apdma.c, -1, -2
+@ drivers/dma/owl-dma.c, 1279, 1280
+- 23, 1, = ,23, 1
+- 25, 0, = ,25, 1
++ 195, 1, = ,196, 1
+- 1119, 1, = ,1120, 1
+@ drivers/dma/mcf-edma-main.c, 329, 303
+- 22, 1, = ,22, 0
+- 34, 25, = ,33, 1
+- 79, 2, = ,54, 1
+- 175, 1, = ,149, 1
+- 183, 1, = ,157, 0
+- 185, 1, = ,158, 1
+# 193, 9, = ,166, 3
++ 211, 0, = ,178, 5
+- 230, 1, = ,202, 3
+@ drivers/dma/idxd/sysfs.c, 1942, 1942
++ 951, 0, = ,951, 7
+- 1091, 2, = ,1098, 2
+- 1127, 2, = ,1134, 2
+- 1284, 6, = ,1291, 3
+- 1299, 7, = ,1303, 0
+- 1313, 1, = ,1310, 1
+- 1319, 1, = ,1316, 4
+- 1476, 1, = ,1476, 1
+@ drivers/dma/idxd/idxd.h, 758, 744
++ 476, 9, = ,476, 0
+- 663, 2, = ,654, 0
+- 676, 2, = ,665, 0
+- 722, 1, = ,709, 0
+@ drivers/dma/idxd/device.c, 1602, 1613
++ 302, 0, = ,302, 15
++ 372, 1, = ,387, 3
+- 772, 2, = ,789, 0
++ 1409, 5, = ,1424, 4
++ 1417, 0, = ,1431, 2
++ 1424, 0, = ,1440, 4
++ 1531, 9, = ,1551, 0

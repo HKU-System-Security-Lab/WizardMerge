@@ -1,0 +1,254 @@
+@ storage/ndb/include/ndb_global.h, -2, -1
+@ storage/ndb/include/ndb_init.h, -2, -1
+@ storage/ndb/include/ndb_net.h, -2, -1
+@ storage/ndb/include/ndbapi/Ndb.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbApi.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbBlob.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbDictionary.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbError.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbEventOperation.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbIndexOperation.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbIndexScanOperation.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbIndexStat.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbInterpretedCode.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbOperation.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbPool.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbRecAttr.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbReceiver.hpp, -1, -2
+@ storage/ndb/include/ndbapi/NdbScanFilter.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbScanOperation.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbTransaction.hpp, -2, -1
+@ storage/ndb/include/ndbapi/ndb_cluster_connection.hpp, -2, -1
+@ storage/ndb/include/ndbapi/ndbapi_limits.h, -2, -1
+@ storage/ndb/include/ndbapi/ndberror.h, -2, -1
+@ storage/ndb/src/ndbapi/ClusterMgr.cpp, -2, -1
+@ storage/ndb/src/ndbapi/ClusterMgr.hpp, -2, -1
+@ storage/ndb/src/ndbapi/DictCache.cpp, -2, -1
+@ storage/ndb/src/ndbapi/DictCache.hpp, -2, -1
+@ storage/ndb/src/ndbapi/Ndb.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbApiSignal.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbBlob.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbBlobImpl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbDictionary.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbDictionaryImpl.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbDictionaryImpl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbErrorOut.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbEventOperation.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbEventOperationImpl.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbEventOperationImpl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbImpl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbIndexOperation.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbIndexStat.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbIndexStatImpl.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbIndexStatImpl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfo.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfo.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfoRecAttr.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfoScanNodes.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfoScanNodes.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfoScanOperation.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfoScanVirtual.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfoScanVirtual.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInterpretedCode.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbLinHash.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbOperation.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbOperationDefine.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbOperationExec.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbOperationInt.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbOperationScan.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbOperationSearch.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbPool.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbPoolImpl.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbPoolImpl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbQueryBuilder.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbQueryBuilder.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbQueryBuilderImpl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbQueryOperation.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbRecord.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbScanFilter.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbScanOperation.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbTransaction.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbTransactionScan.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbUtil.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbUtil.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbWaitGroup.cpp, -2, -1
+@ storage/ndb/src/ndbapi/Ndbif.cpp, -2, -1
+@ storage/ndb/src/ndbapi/Ndbinit.cpp, -2, -1
+@ storage/ndb/src/ndbapi/Ndblist.cpp, -2, -1
+@ storage/ndb/src/ndbapi/ObjectMap.cpp, -2, -1
+@ storage/ndb/src/ndbapi/ObjectMap.hpp, -2, -1
+@ storage/ndb/src/ndbapi/SignalSender.cpp, -2, -1
+@ storage/ndb/src/ndbapi/SignalSender.hpp, -2, -1
+@ storage/ndb/src/ndbapi/TransporterFacade.cpp, -2, -1
+@ storage/ndb/src/ndbapi/TransporterFacade.hpp, -2, -1
+@ storage/ndb/src/ndbapi/WakeupHandler.cpp, -2, -1
+@ storage/ndb/src/ndbapi/WakeupHandler.hpp, -2, -1
+@ storage/ndb/src/ndbapi/ndb_cluster_connection.cpp, -2, -1
+@ storage/ndb/src/ndbapi/ndb_cluster_connection_impl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/ndberror_check.cpp, -2, -1
+@ storage/ndb/src/ndbapi/trp_buffer.cpp, -2, -1
+@ storage/ndb/src/ndbapi/trp_buffer.hpp, -2, -1
+@ storage/ndb/src/ndbapi/trp_client.cpp, -2, -1
+@ storage/ndb/src/ndbapi/trp_client.hpp, -2, -1
+@ storage/ndb/src/ndbapi/trp_node.cpp, -2, -1
+@ storage/ndb/src/ndbapi/trp_node.hpp, -2, -1
+@ storage/ndb/src/ndbclient_exports.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbReceiver.cpp, 1383, 1541
+- 2, 1, = ,2, 1
+# 29, 2, = ,29, 1
++ 589, 1, = ,588, 1
++ 771, 1, = ,770, 1
+- 800, 1, = ,799, 0
+- 806, 0, = ,804, 1
+- 807, 6, = ,806, 4
+- 814, 0, = ,811, 2
+- 815, 1, = ,814, 2
+- 823, 2, = ,823, 1
+- 827, 2, = ,826, 3
+- 843, 0, = ,843, 1
+- 844, 4, = ,845, 5
+- 849, 0, = ,851, 1
+- 856, 0, = ,859, 1
+- 859, 1, = ,863, 2
+- 862, 1, = ,867, 1
+- 866, 0, = ,871, 1
+- 873, 5, = ,879, 6
++ 881, 0, = ,888, 8
++ 910, 0, = ,925, 7
++ 922, 1, = ,944, 0
++ 953, 1, = ,974, 1
++ 957, 0, = ,978, 80
++ 958, 4, = ,1059, 3
++ 963, 4, = ,1063, 25
++ 968, 15, = ,1089, 4
++ 984, 4, = ,1094, 11
++ 989, 3, = ,1106, 30
++ 994, 2, = ,1138, 41
++ 997, 31, = ,1180, 2
++ 1029, 1, = ,1183, 4
+- 1226, 0, = ,1383, 1
+- 1227, 0, = ,1385, 1
++ 1247, 5, = ,1406, 4
++ 1254, 2, = ,1412, 2
+@ storage/ndb/src/ndbapi/NdbQueryOperationImpl.hpp, 941, 942
++ 22, 1, = ,22, 1
++ 59, 1, = ,59, 1
++ 98, 3, = ,98, 0
++ 134, 0, = ,131, 5
++ 306, 1, = ,308, 1
++ 308, 1, = ,310, 1
++ 318, 2, = ,320, 2
++ 636, 2, = ,638, 0
++ 676, 0, = ,676, 3
++ 678, 2, = ,681, 2
++ 684, 7, = ,687, 8
++ 788, 1, = ,792, 1
++ 806, 3, = ,810, 0
+- 868, 1, = ,869, 1
+@ storage/ndb/src/ndbapi/NdbQueryOperation.cpp, 6065, 5591
++ 26, 1, = ,26, 0
++ 46, 0, = ,45, 1
++ 67, 12, = ,67, 0
++ 98, 0, = ,86, 6
++ 317, 5, = ,311, 0
++ 323, 4, = ,312, 3
++ 329, 9, = ,317, 0
++ 346, 1, = ,325, 1
++ 391, 13, = ,370, 0
++ 406, 4, = ,372, 0
++ 411, 8, = ,373, 1
++ 503, 2, = ,458, 2
++ 532, 0, = ,487, 1
++ 533, 2, = ,489, 1
++ 546, 1, = ,501, 1
++ 553, 15, = ,508, 3
++ 571, 1, = ,514, 1
++ 573, 1, = ,516, 9
++ 584, 10, = ,535, 0
++ 629, 33, = ,570, 6
++ 677, 1, = ,591, 1
++ 682, 46, = ,596, 2
++ 733, 4, = ,603, 1
++ 785, 45, = ,652, 0
++ 913, 1, = ,735, 0
++ 916, 5, = ,737, 1
++ 927, 16, = ,744, 2
++ 949, 37, = ,752, 1
++ 1063, 1, = ,830, 1
++ 1091, 1, = ,858, 1
++ 1109, 2, = ,876, 2
++ 1123, 1, = ,890, 0
++ 1135, 2, = ,901, 1
++ 1142, 1, = ,907, 0
++ 1174, 1, = ,938, 1
++ 1177, 2, = ,941, 0
++ 1186, 1, = ,948, 0
++ 1196, 1, = ,957, 1
++ 1198, 1, = ,959, 0
++ 1205, 1, = ,965, 1
++ 1209, 3, = ,969, 2
++ 1213, 0, = ,972, 2
++ 1218, 0, = ,979, 1
++ 1221, 2, = ,983, 1
++ 1224, 7, = ,985, 1
++ 1232, 2, = ,987, 9
++ 1237, 6, = ,999, 7
++ 1244, 3, = ,1007, 11
++ 1248, 6, = ,1019, 1
++ 1255, 4, = ,1021, 1
++ 1260, 12, = ,1023, 16
++ 1273, 201, = ,1040, 0
++ 1475, 13, = ,1041, 3
++ 1492, 0, = ,1048, 2
++ 1512, 10, = ,1070, 0
++ 1538, 4, = ,1086, 1
++ 1544, 1, = ,1089, 1
++ 1630, 4, = ,1175, 1
++ 1637, 1, = ,1179, 0
++ 1692, 17, = ,1233, 0
++ 1764, 1, = ,1288, 0
++ 1768, 1, = ,1291, 1
++ 1774, 1, = ,1297, 1
++ 1796, 1, = ,1319, 1
++ 1872, 0, = ,1395, 18
++ 1912, 1, = ,1453, 1
++ 1958, 1, = ,1499, 1
++ 2058, 0, = ,1599, 6
++ 2191, 1, = ,1738, 1
++ 2202, 1, = ,1749, 1
++ 2219, 1, = ,1766, 1
++ 2370, 0, = ,1917, 6
++ 2632, 1, = ,2185, 1
++ 2653, 0, = ,2206, 18
+- 2807, 1, = ,2378, 2
++ 3155, 2, = ,2727, 2
++ 3377, 1, = ,2949, 1
++ 3385, 1, = ,2957, 1
++ 3387, 2, = ,2959, 2
++ 3447, 1, = ,3019, 1
++ 3455, 1, = ,3027, 1
++ 3457, 2, = ,3029, 2
++ 3551, 9, = ,3123, 1
++ 3593, 0, = ,3157, 2
++ 3627, 0, = ,3193, 13
++ 3631, 1, = ,3210, 1
++ 3761, 19, = ,3340, 1
++ 4338, 1, = ,3899, 0
++ 4368, 1, = ,3928, 1
++ 4378, 22, = ,3938, 0
++ 4457, 1, = ,3995, 1
++ 4490, 18, = ,4028, 0
+- 4687, 1, = ,4207, 2
+- 4727, 1, = ,4248, 2
+- 4736, 3, = ,4258, 1
+- 4748, 1, = ,4268, 2
+- 4760, 0, = ,4281, 1
+- 4764, 0, = ,4286, 1
++ 4793, 0, = ,4316, 7
++ 5607, 1, = ,5137, 1
++ 5706, 1, = ,5236, 1
++ 5708, 2, = ,5238, 1
++ 5712, 2, = ,5241, 2
++ 5728, 0, = ,5257, 4
++ 5733, 2, = ,5266, 1
++ 5738, 6, = ,5270, 0

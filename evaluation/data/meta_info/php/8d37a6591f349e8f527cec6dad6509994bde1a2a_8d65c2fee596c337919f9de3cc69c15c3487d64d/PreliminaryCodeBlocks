@@ -1,0 +1,120 @@
+@ Zend/zend.c, -2, -1
+@ Zend/zend.h, -2, -1
+@ Zend/zend_API.c, -2, -1
+@ Zend/zend_API.h, -2, -1
+@ Zend/zend_alloc.h, -2, -1
+@ Zend/zend_ast.c, -2, -1
+@ Zend/zend_ast.h, -2, -1
+@ Zend/zend_attributes.c, -2, -1
+@ Zend/zend_attributes.h, -2, -1
+@ Zend/zend_attributes_arginfo.h, -2, -1
+@ Zend/zend_builtin_functions.c, -2, -1
+@ Zend/zend_builtin_functions_arginfo.h, -2, -1
+@ Zend/zend_closures.c, -2, -1
+@ Zend/zend_compile.c, -2, -1
+@ Zend/zend_compile.h, -2, -1
+@ Zend/zend_constants.c, -2, -1
+@ Zend/zend_cpuinfo.c, -2, -1
+@ Zend/zend_cpuinfo.h, -2, -1
+@ Zend/zend_enum.c, -2, -1
+@ Zend/zend_enum.h, -2, -1
+@ Zend/zend_exceptions.c, -2, -1
+@ Zend/zend_exceptions_arginfo.h, -2, -1
+@ Zend/zend_execute.c, -2, -1
+@ Zend/zend_execute.h, -2, -1
+@ Zend/zend_execute_API.c, -2, -1
+@ Zend/zend_extensions.c, -2, -1
+@ Zend/zend_extensions.h, -2, -1
+@ Zend/zend_fibers.c, -2, -1
+@ Zend/zend_fibers.h, -2, -1
+@ Zend/zend_gc.c, -2, -1
+@ Zend/zend_generators.c, -2, -1
+@ Zend/zend_globals.h, -2, -1
+@ Zend/zend_hash.c, -2, -1
+@ Zend/zend_hash.h, -2, -1
+@ Zend/zend_inheritance.c, -2, -1
+@ Zend/zend_inheritance.h, -2, -1
+@ Zend/zend_ini.c, -2, -1
+@ Zend/zend_ini.h, -2, -1
+@ Zend/zend_interfaces.c, -2, -1
+@ Zend/zend_interfaces.h, -2, -1
+@ Zend/zend_iterators.h, -2, -1
+@ Zend/zend_list.c, -2, -1
+@ Zend/zend_llist.h, -2, -1
+@ Zend/zend_long.h, -2, -1
+@ Zend/zend_map_ptr.h, -2, -1
+@ Zend/zend_modules.h, -2, -1
+@ Zend/zend_multiply.h, -2, -1
+@ Zend/zend_object_handlers.c, -2, -1
+@ Zend/zend_object_handlers.h, -2, -1
+@ Zend/zend_objects.c, -2, -1
+@ Zend/zend_observer.c, -2, -1
+@ Zend/zend_observer.h, -2, -1
+@ Zend/zend_opcode.c, -2, -1
+@ Zend/zend_operators.c, -2, -1
+@ Zend/zend_operators.h, -2, -1
+@ Zend/zend_portability.h, -2, -1
+@ Zend/zend_ptr_stack.h, -2, -1
+@ Zend/zend_signal.c, -2, -1
+@ Zend/zend_smart_str.h, -2, -1
+@ Zend/zend_smart_str_public.h, -2, -1
+@ Zend/zend_stream.c, -2, -1
+@ Zend/zend_string.c, -2, -1
+@ Zend/zend_string.h, -2, -1
+@ Zend/zend_type_info.h, -2, -1
+@ Zend/zend_types.h, -2, -1
+@ Zend/zend_virtual_cwd.c, -2, -1
+@ Zend/zend_vm.h, -2, -1
+@ Zend/zend_vm_def.h, -2, -1
+@ Zend/zend_vm_execute.h, -2, -1
+@ Zend/zend_vm_handlers.h, -2, -1
+@ Zend/zend_vm_opcodes.c, -2, -1
+@ Zend/zend_vm_opcodes.h, -2, -1
+@ Zend/zend_vm_trace_handlers.h, -2, -1
+@ Zend/zend_vm_trace_map.h, -2, -1
+@ Zend/zend_weakrefs.c, -2, -1
+@ Zend/zend_weakrefs.h, -2, -1
+@ Zend/zend_alloc.c, 3130, 3113
++ 60, 1, = ,60, 0
++ 200, 1, = ,199, 1
++ 368, 1, = ,367, 1
+- 420, 0, = ,419, 37
+- 424, 1, = ,460, 14
++ 429, 2, = ,478, 0
+# 436, 2, = ,483, 2
+- 441, 5, = ,488, 1
++ 468, 1, = ,511, 1
++ 470, 8, = ,513, 1
++ 479, 1, = ,515, 0
++ 493, 1, = ,528, 0
+- 498, 17, = ,532, 0
++ 677, 12, = ,694, 0
++ 696, 0, = ,701, 1
++ 697, 1, = ,703, 1
++ 699, 0, = ,705, 1
+- 708, 3, = ,715, 0
+- 712, 2, = ,716, 13
++ 727, 0, = ,742, 1
++ 728, 1, = ,744, 1
++ 730, 0, = ,746, 1
++ 995, 1, = ,1012, 1
++ 997, 1, = ,1014, 1
++ 1813, 1, = ,1830, 1
++ 1815, 1, = ,1832, 1
+- 1870, 5, = ,1887, 1
++ 1925, 1, = ,1938, 1
++ 1935, 1, = ,1948, 1
++ 1954, 1, = ,1967, 1
++ 2038, 1, = ,2051, 1
++ 2051, 1, = ,2064, 1
++ 2662, 1, = ,2675, 0
++ 2673, 1, = ,2685, 1
++ 2740, 8, = ,2752, 0
++ 2753, 6, = ,2757, 0
++ 2794, 5, = ,2792, 1
++ 2840, 1, = ,2834, 1
++ 2883, 1, = ,2877, 1
+- 3020, 5, = ,3014, 1
+- 3067, 5, = ,3057, 1
++ 3087, 0, = ,3073, 6
++ 3115, 9, = ,3107, 0

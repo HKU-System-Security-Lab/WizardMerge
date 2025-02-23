@@ -1,0 +1,380 @@
+@ include/decimal.h, -2, -1
+@ include/errmsg.h, -2, -1
+@ include/field_types.h, -2, -1
+@ include/ft_global.h, -2, -1
+@ include/integer_digits.h, -2, -1
+@ include/jemalloc_win.h, -2, -1
+@ include/lf.h, -2, -1
+@ include/m_string.h, -2, -1
+@ include/map_helpers.h, -2, -1
+@ include/my_compare.h, -2, -1
+@ include/my_compiler.h, -2, -1
+@ include/my_md5.h, -2, -1
+@ include/my_sys.h, -2, -1
+@ include/my_xml.h, -2, -1
+@ include/myisam.h, -2, -1
+@ include/mysql.h, -2, -1
+@ include/mysql_com.h, -2, -1
+@ include/sql_common.h, -2, -1
+@ include/sql_string.h, -2, -1
+@ include/sslopt-case.h, -2, -1
+@ include/sslopt-longopts.h, -2, -1
+@ include/violite.h, -2, -1
+@ sql-common/bind_params.cc, -2, -1
+@ sql-common/client_authentication.cc, -2, -1
+@ sql-common/client_plugin.cc, -2, -1
+@ sql-common/compression.cc, -2, -1
+@ sql-common/get_password.cc, -2, -1
+@ sql-common/json_binary.cc, -2, -1
+@ sql-common/json_dom.cc, -2, -1
+@ sql-common/json_dom.h, -2, -1
+@ sql-common/json_path.cc, -2, -1
+@ sql-common/sql_string.cc, -2, -1
+@ sql/auto_thd.cc, -2, -1
+@ sql/basic_istream.cc, -2, -1
+@ sql/basic_istream.h, -2, -1
+@ sql/basic_ostream.h, -2, -1
+@ sql/binlog.cc, -2, -1
+@ sql/binlog.h, -2, -1
+@ sql/bootstrap.cc, -2, -1
+@ sql/command_service.cc, -2, -1
+@ sql/create_field.cc, -2, -1
+@ sql/create_field.h, -2, -1
+@ sql/dd_sp.cc, -2, -1
+@ sql/dd_sql_view.cc, -2, -1
+@ sql/dd_table_share.cc, -2, -1
+@ sql/dd_table_share.h, -2, -1
+@ sql/debug_sync.cc, -2, -1
+@ sql/debug_sync.h, -2, -1
+@ sql/default_values.cc, -2, -1
+@ sql/derror.cc, -2, -1
+@ sql/dynamic_ids.cc, -2, -1
+@ sql/event_data_objects.cc, -2, -1
+@ sql/event_parse_data.cc, -2, -1
+@ sql/event_queue.cc, -2, -1
+@ sql/event_scheduler.cc, -2, -1
+@ sql/events.cc, -2, -1
+@ sql/field.cc, -2, -1
+@ sql/field.h, -2, -1
+@ sql/field_conv.cc, -2, -1
+@ sql/filesort.cc, -2, -1
+@ sql/gstream.cc, -2, -1
+@ sql/gstream.h, -2, -1
+@ sql/handler.cc, -2, -1
+@ sql/handler.h, -2, -1
+@ sql/hostname_cache.cc, -2, -1
+@ sql/item.cc, -2, -1
+@ sql/item.h, -2, -1
+@ sql/item_cmpfunc.cc, -2, -1
+@ sql/item_create.cc, -2, -1
+@ sql/item_func.cc, -2, -1
+@ sql/item_func.h, -2, -1
+@ sql/item_geofunc.cc, -2, -1
+@ sql/item_geofunc_buffer.cc, -2, -1
+@ sql/item_geofunc_internal.cc, -2, -1
+@ sql/item_inetfunc.cc, -2, -1
+@ sql/item_inetfunc.h, -2, -1
+@ sql/item_json_func.cc, -2, -1
+@ sql/item_json_func.h, -2, -1
+@ sql/item_pfs_func.cc, -2, -1
+@ sql/item_regexp_func.cc, -2, -1
+@ sql/item_regexp_func.h, -2, -1
+@ sql/item_strfunc.cc, -2, -1
+@ sql/item_strfunc.h, -2, -1
+@ sql/item_subselect.cc, -2, -1
+@ sql/item_sum.cc, -2, -1
+@ sql/item_sum.h, -2, -1
+@ sql/item_timefunc.cc, -2, -1
+@ sql/item_timefunc.h, -2, -1
+@ sql/item_xmlfunc.cc, -2, -1
+@ sql/json_diff.cc, -2, -1
+@ sql/key.cc, -2, -1
+@ sql/key_spec.cc, -2, -1
+@ sql/key_spec.h, -2, -1
+@ sql/keycaches.cc, -2, -1
+@ sql/lex.h, -2, -1
+@ sql/lock.cc, -2, -1
+@ sql/locked_tables_list.cc, -2, -1
+@ sql/log.cc, -2, -1
+@ sql/log.h, -2, -1
+@ sql/log_event.cc, -2, -1
+@ sql/log_event.h, -2, -1
+@ sql/mdl.cc, -2, -1
+@ sql/mdl.h, -2, -1
+@ sql/my_decimal.cc, -2, -1
+@ sql/my_decimal.h, -2, -1
+@ sql/mysql_tzinfo_to_sql.cc, -2, -1
+@ sql/mysqld.h, -2, -1
+@ sql/named_pipe.cc, -2, -1
+@ sql/opt_costconstantcache.cc, -2, -1
+@ sql/opt_costconstants.cc, -2, -1
+@ sql/opt_explain.cc, -2, -1
+@ sql/opt_explain.h, -2, -1
+@ sql/opt_explain_format.cc, -2, -1
+@ sql/opt_explain_format.h, -2, -1
+@ sql/opt_explain_json.cc, -2, -1
+@ sql/opt_explain_json.h, -2, -1
+@ sql/opt_explain_traditional.cc, -2, -1
+@ sql/opt_hints.cc, -2, -1
+@ sql/opt_hints.h, -2, -1
+@ sql/opt_trace.cc, -2, -1
+@ sql/opt_trace2server.cc, -2, -1
+@ sql/opt_trace_context.h, -2, -1
+@ sql/parse_file.cc, -2, -1
+@ sql/parse_tree_column_attrs.h, -2, -1
+@ sql/parse_tree_helpers.cc, -2, -1
+@ sql/parse_tree_helpers.h, -2, -1
+@ sql/parse_tree_hints.cc, -2, -1
+@ sql/parse_tree_items.cc, -2, -1
+@ sql/parse_tree_items.h, -2, -1
+@ sql/parse_tree_nodes.cc, -2, -1
+@ sql/parse_tree_nodes.h, -2, -1
+@ sql/parse_tree_partitions.cc, -2, -1
+@ sql/parser_service.cc, -2, -1
+@ sql/partition_info.cc, -2, -1
+@ sql/persisted_variable.h, -1, -2
+@ sql/protocol.h, -2, -1
+@ sql/protocol_callback.cc, -2, -1
+@ sql/protocol_callback.h, -2, -1
+@ sql/protocol_classic.cc, -2, -1
+@ sql/protocol_classic.h, -2, -1
+@ sql/query_result.cc, -2, -1
+@ sql/query_result.h, -2, -1
+@ sql/replication.h, -2, -1
+@ sql/rpl_applier_reader.cc, -2, -1
+@ sql/rpl_async_conn_failover.cc, -2, -1
+@ sql/rpl_async_conn_failover_add_managed_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_add_source_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_delete_managed_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_delete_source_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_table_operations.h, -2, -1
+@ sql/rpl_binlog_sender.cc, -2, -1
+@ sql/rpl_channel_service_interface.cc, -2, -1
+@ sql/rpl_filter.cc, -2, -1
+@ sql/rpl_group_replication.cc, -2, -1
+@ sql/rpl_gtid.h, -2, -1
+@ sql/rpl_gtid_misc.cc, -2, -1
+@ sql/rpl_gtid_mode.cc, -2, -1
+@ sql/rpl_gtid_persist.cc, -2, -1
+@ sql/rpl_gtid_set.cc, -2, -1
+@ sql/rpl_gtid_specification.cc, -2, -1
+@ sql/rpl_handler.cc, -2, -1
+@ sql/rpl_info.cc, -2, -1
+@ sql/rpl_info_factory.cc, -2, -1
+@ sql/rpl_info_file.cc, -2, -1
+@ sql/rpl_info_table.cc, -2, -1
+@ sql/rpl_info_table_access.cc, -2, -1
+@ sql/rpl_mi.cc, -2, -1
+@ sql/rpl_mi.h, -2, -1
+@ sql/rpl_mta_submode.cc, -2, -1
+@ sql/rpl_record.cc, -2, -1
+@ sql/rpl_replica.cc, -2, -1
+@ sql/rpl_replica.h, -2, -1
+@ sql/rpl_replica_commit_order_manager.cc, -2, -1
+@ sql/rpl_replica_until_options.cc, -2, -1
+@ sql/rpl_reporting.h, -2, -1
+@ sql/rpl_rli.cc, -2, -1
+@ sql/rpl_rli.h, -2, -1
+@ sql/rpl_rli_pdb.cc, -2, -1
+@ sql/rpl_rli_pdb.h, -2, -1
+@ sql/rpl_source.cc, -2, -1
+@ sql/rpl_sys_table_access.cc, -2, -1
+@ sql/rpl_sys_table_access.h, -2, -1
+@ sql/rpl_table_access.cc, -2, -1
+@ sql/rpl_transaction_write_set_ctx.cc, -2, -1
+@ sql/rpl_trx_boundary_parser.cc, -2, -1
+@ sql/rpl_utility.cc, -2, -1
+@ sql/rpl_write_set_handler.cc, -2, -1
+@ sql/rules_table_service.cc, -2, -1
+@ sql/session_tracker.cc, -2, -1
+@ sql/set_var.cc, -2, -1
+@ sql/set_var.h, -2, -1
+@ sql/sp.cc, -2, -1
+@ sql/sp_cache.cc, -2, -1
+@ sql/sp_head.cc, -2, -1
+@ sql/sp_head.h, -2, -1
+@ sql/sp_instr.cc, -2, -1
+@ sql/sp_instr.h, -2, -1
+@ sql/sp_pcontext.cc, -2, -1
+@ sql/sp_rcontext.h, -2, -1
+@ sql/spatial.cc, -2, -1
+@ sql/sql_admin.cc, -2, -1
+@ sql/sql_admin.h, -2, -1
+@ sql/sql_alloc_error_handler.cc, -2, -1
+@ sql/sql_alter.cc, -2, -1
+@ sql/sql_alter.h, -2, -1
+@ sql/sql_alter_instance.cc, -2, -1
+@ sql/sql_audit.cc, -2, -1
+@ sql/sql_audit.h, -2, -1
+@ sql/sql_backup_lock.cc, -2, -1
+@ sql/sql_base.cc, -2, -1
+@ sql/sql_base.h, -2, -1
+@ sql/sql_binlog.cc, -2, -1
+@ sql/sql_bitmap.h, -2, -1
+@ sql/sql_call.cc, -2, -1
+@ sql/sql_check_constraint.cc, -2, -1
+@ sql/sql_class.cc, -2, -1
+@ sql/sql_class.h, -2, -1
+@ sql/sql_connect.cc, -2, -1
+@ sql/sql_const_folding.cc, -2, -1
+@ sql/sql_constraint.cc, -2, -1
+@ sql/sql_db.cc, -2, -1
+@ sql/sql_digest.cc, -2, -1
+@ sql/sql_do.cc, -2, -1
+@ sql/sql_error.cc, -2, -1
+@ sql/sql_error.h, -2, -1
+@ sql/sql_executor.cc, -2, -1
+@ sql/sql_get_diagnostics.cc, -2, -1
+@ sql/sql_handler.cc, -2, -1
+@ sql/sql_help.cc, -2, -1
+@ sql/sql_initialize.cc, -2, -1
+@ sql/sql_insert.cc, -2, -1
+@ sql/sql_lex.cc, -2, -1
+@ sql/sql_lex.h, -2, -1
+@ sql/sql_lex_hints.h, -2, -1
+@ sql/sql_load.cc, -2, -1
+@ sql/sql_load.h, -2, -1
+@ sql/sql_locale.cc, -2, -1
+@ sql/sql_manager.cc, -2, -1
+@ sql/sql_optimizer.cc, -2, -1
+@ sql/sql_parse.cc, -2, -1
+@ sql/sql_parse.h, -2, -1
+@ sql/sql_partition.cc, -2, -1
+@ sql/sql_partition_admin.cc, -2, -1
+@ sql/sql_plugin.cc, -2, -1
+@ sql/sql_plugin_var.cc, -2, -1
+@ sql/sql_prepare.cc, -2, -1
+@ sql/sql_profile.cc, -2, -1
+@ sql/sql_query_rewrite.cc, -2, -1
+@ sql/sql_reload.cc, -2, -1
+@ sql/sql_restart_server.cc, -2, -1
+@ sql/sql_rewrite.cc, -2, -1
+@ sql/sql_select.cc, -2, -1
+@ sql/sql_servers.cc, -2, -1
+@ sql/sql_show.cc, -2, -1
+@ sql/sql_show_processlist.cc, -2, -1
+@ sql/sql_show_status.cc, -2, -1
+@ sql/sql_signal.cc, -2, -1
+@ sql/sql_system_table_check.h, -2, -1
+@ sql/sql_table.cc, -2, -1
+@ sql/sql_tablespace.cc, -2, -1
+@ sql/sql_test.cc, -2, -1
+@ sql/sql_thd_api.cc, -2, -1
+@ sql/sql_thd_internal_api.cc, -2, -1
+@ sql/sql_thd_internal_api.h, -2, -1
+@ sql/sql_time.cc, -2, -1
+@ sql/sql_time.h, -2, -1
+@ sql/sql_tmp_table.cc, -2, -1
+@ sql/sql_trigger.cc, -2, -1
+@ sql/sql_truncate.cc, -2, -1
+@ sql/sql_udf.cc, -2, -1
+@ sql/sql_update.cc, -2, -1
+@ sql/sql_view.cc, -2, -1
+@ sql/srv_session.cc, -2, -1
+@ sql/srv_session.h, -2, -1
+@ sql/ssl_acceptor_context_data.cc, -2, -1
+@ sql/ssl_acceptor_context_operator.cc, -2, -1
+@ sql/ssl_init_callback.cc, -2, -1
+@ sql/ssl_init_callback.h, -2, -1
+@ sql/strfunc.cc, -2, -1
+@ sql/strfunc.h, -2, -1
+@ sql/string_service.cc, -2, -1
+@ sql/sys_vars.h, -2, -1
+@ sql/system_variables.h, -2, -1
+@ sql/table.cc, -2, -1
+@ sql/table.h, -2, -1
+@ sql/table_function.cc, -2, -1
+@ sql/table_trigger_dispatcher.cc, -2, -1
+@ sql/tc_log.cc, -2, -1
+@ sql/thr_malloc.cc, -2, -1
+@ sql/time_zone_common.cc, -2, -1
+@ sql/transaction.cc, -2, -1
+@ sql/transaction_info.h, -2, -1
+@ sql/trigger.cc, -2, -1
+@ sql/trigger_chain.cc, -2, -1
+@ sql/trigger_creation_ctx.cc, -2, -1
+@ sql/tztime.cc, -2, -1
+@ sql/window.cc, -2, -1
+@ sql/xa.cc, -2, -1
+@ sql/xa_aux.h, -2, -1
+@ sql/sys_vars.cc, 7719, 7688
++ 56, 0, = ,56, 1
++ 58, 1, = ,59, 0
++ 91, 3, = ,91, 0
++ 95, 1, = ,92, 0
++ 144, 1, = ,140, 0
+- 5002, 17, = ,4997, 0
+- 5024, 3, = ,5002, 4
++ 7709, 10, = ,7688, 0
+@ sql/persisted_variable.cc, 2615, 2649
+- 34, 0, = ,34, 1
++ 43, 0, = ,44, 1
++ 50, 0, = ,52, 1
++ 61, 1, = ,64, 0
++ 66, 1, = ,68, 0
++ 69, 1, = ,70, 0
+- 1840, 0, = ,1840, 31
+- 1924, 1, = ,1955, 4
+@ sql/mysqld.cc, 12544, 12515
++ 105, 0, = ,105, 5
++ 398, 1, = ,403, 0
++ 420, 1, = ,424, 0
++ 712, 0, = ,715, 1
++ 723, 1, = ,727, 0
++ 742, 1, = ,745, 0
++ 754, 2, = ,756, 0
+# 762, 2, = ,762, 1
++ 771, 1, = ,770, 0
+# 817, 3, = ,815, 2
++ 852, 1, = ,849, 0
++ 884, 4, = ,880, 0
++ 890, 1, = ,882, 0
++ 970, 1, = ,961, 0
++ 1903, 1, = ,1893, 0
++ 1911, 1, = ,1900, 3
++ 1913, 0, = ,1904, 1
++ 2110, 1, = ,2102, 0
++ 2297, 1, = ,2288, 1
++ 2477, 4, = ,2468, 2
++ 2593, 2, = ,2582, 0
++ 2709, 4, = ,2696, 0
++ 4924, 0, = ,4907, 1
++ 5157, 0, = ,5141, 5
+- 5396, 1, = ,5385, 1
+- 5410, 3, = ,5399, 0
+- 5418, 0, = ,5404, 8
++ 6166, 1, = ,6160, 1
++ 6168, 7, = ,6162, 0
++ 7049, 3, = ,7036, 2
++ 7054, 4, = ,7040, 3
+- 7548, 1, = ,7533, 4
++ 8168, 3, = ,8156, 0
++ 8176, 3, = ,8161, 2
++ 8269, 3, = ,8253, 3
++ 9562, 11, = ,9546, 0
++ 9990, 2, = ,9963, 0
+@ sql-common/client.cc, 9744, 9648
++ 49, 0, = ,49, 1
++ 52, 1, = ,53, 0
++ 80, 0, = ,80, 1
++ 86, 1, = ,87, 0
++ 90, 1, = ,90, 0
++ 93, 3, = ,92, 0
++ 3451, 1, = ,3447, 0
++ 3477, 1, = ,3472, 0
++ 4484, 2, = ,4478, 1
++ 4489, 9, = ,4482, 2
++ 4657, 4, = ,4643, 3
++ 4677, 10, = ,4662, 2
++ 4796, 67, = ,4773, 0
+- 8666, 1, = ,8576, 4
++ 8813, 4, = ,8726, 0
++ 8849, 2, = ,8758, 1
+- 8934, 1, = ,8842, 1
++ 8972, 4, = ,8880, 0
+@ include/sslopt-vars.h, 161, 159
++ 35, 0, = ,35, 6
++ 39, 7, = ,45, 0
++ 69, 1, = ,68, 0
+- 94, 3, = ,92, 4
++ 98, 1, = ,97, 0

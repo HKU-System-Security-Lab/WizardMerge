@@ -1,0 +1,191 @@
+@ browser/app/nsBrowserApp.cpp, -2, -1
+@ docshell/base/BrowsingContext.cpp, -2, -1
+@ docshell/base/BrowsingContext.h, -2, -1
+@ docshell/base/BrowsingContextWebProgress.cpp, -2, -1
+@ docshell/base/CanonicalBrowsingContext.h, -2, -1
+@ docshell/base/nsDocShell.h, -2, -1
+@ dom/system/PathUtils.cpp, -2, -1
+@ dom/system/PathUtils.h, -2, -1
+@ gfx/thebes/gfxFcPlatformFontList.cpp, -2, -1
+@ gfx/thebes/gfxFont.cpp, -2, -1
+@ gfx/thebes/gfxFont.h, -2, -1
+@ gfx/thebes/gfxMacFont.cpp, -2, -1
+@ gfx/thebes/gfxPlatform.cpp, -2, -1
+@ gfx/thebes/gfxPlatformFontList.cpp, -2, -1
+@ gfx/thebes/gfxTextRun.cpp, -2, -1
+@ gfx/thebes/gfxTextRun.h, -2, -1
+@ modules/libpref/Preferences.cpp, -2, -1
+@ netwerk/dns/DNSPacket.cpp, -2, -1
+@ netwerk/dns/HTTPSSVC.cpp, -2, -1
+@ netwerk/dns/HTTPSSVC.h, -2, -1
+@ netwerk/dns/TRR.h, -2, -1
+@ netwerk/dns/TRRService.h, -2, -1
+@ netwerk/dns/nsDNSService2.cpp, -2, -1
+@ netwerk/dns/nsHostRecord.cpp, -2, -1
+@ netwerk/dns/nsHostResolver.cpp, -2, -1
+@ toolkit/xre/GeckoArgs.h, -2, -1
+@ toolkit/xre/dllservices/mozglue/WindowsDllBlocklist.cpp, -2, -1
+@ toolkit/xre/glxtest.cpp, -2, -1
+@ toolkit/xre/nsAppRunner.cpp, -2, -1
+@ toolkit/xre/nsXREDirProvider.cpp, -2, -1
+@ widget/GfxDriverInfo.h, -2, -1
+@ widget/GfxInfoBase.cpp, -2, -1
+@ widget/InputData.cpp, -2, -1
+@ widget/InputData.h, -2, -1
+@ widget/LookAndFeel.h, -2, -1
+@ widget/MouseEvents.h, -2, -1
+@ widget/ScrollbarDrawingCocoa.h, -2, -1
+@ widget/ScrollbarDrawingWin.cpp, -2, -1
+@ widget/ScrollbarDrawingWin11.cpp, -2, -1
+@ widget/android/AndroidBridge.cpp, -2, -1
+@ widget/android/AndroidBridge.h, -2, -1
+@ widget/android/GeckoViewSupport.h, -2, -1
+@ widget/android/ImageDecoderSupport.cpp, -2, -1
+@ widget/android/WebExecutorSupport.cpp, -2, -1
+@ widget/android/nsAppShell.cpp, -2, -1
+@ widget/android/nsLookAndFeel.cpp, -2, -1
+@ widget/android/nsLookAndFeel.h, -2, -1
+@ widget/android/nsWindow.cpp, -2, -1
+@ widget/android/nsWindow.h, -2, -1
+@ widget/cocoa/NativeMenuMac.h, -2, -1
+@ widget/cocoa/nsCocoaWindow.h, -2, -1
+@ widget/cocoa/nsNativeThemeCocoa.h, -2, -1
+@ widget/gtk/DMABufLibWrapper.cpp, -2, -1
+@ widget/gtk/DMABufLibWrapper.h, -2, -1
+@ widget/gtk/DMABufSurface.cpp, -2, -1
+@ widget/gtk/DMABufSurface.h, -2, -1
+@ widget/gtk/GRefPtr.h, -2, -1
+@ widget/gtk/GfxInfo.cpp, -2, -1
+@ widget/gtk/MozContainer.cpp, -2, -1
+@ widget/gtk/WidgetStyleCache.cpp, -2, -1
+@ widget/gtk/WidgetUtilsGtk.cpp, -2, -1
+@ widget/gtk/WidgetUtilsGtk.h, -2, -1
+@ widget/gtk/WindowSurfaceProvider.cpp, -2, -1
+@ widget/gtk/WindowSurfaceProvider.h, -2, -1
+@ widget/gtk/gtk3drawing.cpp, -2, -1
+@ widget/gtk/gtkdrawing.h, -2, -1
+@ widget/gtk/nsAppShell.cpp, -2, -1
+@ widget/gtk/nsClipboard.cpp, -2, -1
+@ widget/gtk/nsClipboard.h, -2, -1
+@ widget/gtk/nsClipboardWayland.cpp, -2, -1
+@ widget/gtk/nsClipboardWayland.h, -2, -1
+@ widget/gtk/nsClipboardX11.cpp, -2, -1
+@ widget/gtk/nsClipboardX11.h, -2, -1
+@ widget/gtk/nsDeviceContextSpecG.cpp, -2, -1
+@ widget/gtk/nsDragService.cpp, -2, -1
+@ widget/gtk/nsDragService.h, -2, -1
+@ widget/gtk/nsGtkKeyUtils.cpp, -2, -1
+@ widget/gtk/nsLookAndFeel.cpp, -2, -1
+@ widget/gtk/nsLookAndFeel.h, -2, -1
+@ widget/gtk/nsNativeThemeGTK.cpp, -2, -1
+@ widget/gtk/nsNativeThemeGTK.h, -2, -1
+@ widget/gtk/nsWindow.h, -2, -1
+@ widget/nsBaseWidget.cpp, -2, -1
+@ widget/nsBaseWidget.h, -2, -1
+@ widget/nsIWidget.h, -2, -1
+@ widget/nsNativeTheme.cpp, -2, -1
+@ widget/nsNativeTheme.h, -2, -1
+@ widget/nsPrinterCUPS.cpp, -2, -1
+@ widget/nsXPLookAndFeel.cpp, -2, -1
+@ widget/gtk/nsWindow.cpp, 9378, 9367
++ 555, 2, = ,555, 0
++ 2504, 2, = ,2502, 0
++ 3972, 2, = ,3968, 2
++ 4615, 12, = ,4611, 0
++ 4630, 1, = ,4614, 2
++ 4632, 2, = ,4617, 1
++ 4642, 1, = ,4626, 1
++ 4829, 2, = ,4813, 0
++ 4834, 0, = ,4816, 3
++ 4837, 1, = ,4822, 0
++ 4879, 0, = ,4863, 3
++ 4881, 3, = ,4868, 0
++ 4939, 2, = ,4923, 64
++ 4942, 62, = ,4988, 0
++ 5316, 1, = ,5300, 1
++ 6902, 5, = ,6886, 3
++ 6908, 1, = ,6890, 1
++ 6950, 1, = ,6932, 1
++ 7039, 1, = ,7021, 1
++ 7628, 2, = ,7610, 2
++ 7987, 1, = ,7969, 2
++ 8019, 2, = ,8002, 2
++ 8034, 1, = ,8017, 1
++ 8077, 1, = ,8060, 2
++ 8106, 2, = ,8090, 2
++ 8113, 1, = ,8097, 1
++ 8717, 0, = ,8701, 2
++ 8747, 1, = ,8733, 4
++ 8773, 1, = ,8762, 1
+@ widget/android/GfxInfo.cpp, 866, 854
++ 7, 1, = ,7, 0
++ 15, 0, = ,14, 1
++ 18, 2, = ,18, 0
++ 181, 2, = ,179, 2
++ 186, 4, = ,184, 5
++ 191, 4, = ,190, 5
++ 196, 5, = ,196, 5
++ 202, 8, = ,202, 13
++ 211, 2, = ,216, 4
++ 231, 1, = ,238, 0
++ 233, 2, = ,239, 1
++ 554, 1, = ,559, 1
++ 561, 1, = ,566, 1
++ 568, 1, = ,573, 1
++ 667, 17, = ,672, 0
++ 745, 1, = ,733, 1
++ 756, 1, = ,744, 1
++ 767, 1, = ,755, 1
++ 778, 1, = ,766, 1
++ 789, 1, = ,777, 1
++ 800, 1, = ,788, 1
+@ toolkit/xre/nsEmbedFunctions.cpp, 980, 974
++ 66, 1, = ,66, 0
++ 579, 1, = ,578, 0
++ 662, 4, = ,660, 0
+@ netwerk/dns/TRRService.cpp, 1311, 1320
++ 38, 1, = ,38, 2
++ 359, 0, = ,360, 8
++ 846, 2, = ,855, 1
++ 1310, 1, = ,1318, 2
+@ gfx/thebes/gfxWindowsPlatform.cpp, 1907, 1915
++ 1464, 0, = ,1464, 8
+@ dom/system/IOUtils.h, 819, 788
++ 127, 18, = ,127, 0
++ 419, 13, = ,401, 0
+@ dom/system/IOUtils.cpp, 2397, 2338
++ 733, 43, = ,733, 0
++ 1660, 16, = ,1617, 0
+@ docshell/base/nsDocShell.cpp, 13734, 13572
++ 91, 1, = ,91, 0
++ 393, 2, = ,392, 1
++ 792, 5, = ,790, 0
++ 900, 77, = ,893, 0
++ 1019, 3, = ,935, 1
++ 1029, 5, = ,943, 0
++ 1037, 1, = ,946, 1
++ 1039, 18, = ,948, 0
++ 1065, 4, = ,956, 8
++ 1070, 9, = ,965, 1
++ 5664, 1, = ,5551, 0
++ 5674, 11, = ,5560, 0
++ 5688, 1, = ,5563, 1
++ 8932, 1, = ,8807, 0
+# 9014, 11, = ,8888, 8
++ 9031, 1, = ,8902, 1
++ 9033, 0, = ,8904, 1
++ 11084, 23, = ,10956, 0
++ 11874, 5, = ,11723, 0
++ 12028, 2, = ,11872, 0
++ 13540, 1, = ,13382, 1
++ 13553, 2, = ,13395, 1
++ 13578, 3, = ,13419, 0
++ 13590, 1, = ,13428, 1
+@ docshell/base/CanonicalBrowsingContext.cpp, 2863, 2827
++ 311, 5, = ,311, 0
++ 543, 5, = ,538, 0
++ 754, 1, = ,744, 1
++ 768, 3, = ,758, 0
++ 841, 4, = ,828, 0
++ 1036, 4, = ,1019, 0
++ 2447, 15, = ,2426, 0

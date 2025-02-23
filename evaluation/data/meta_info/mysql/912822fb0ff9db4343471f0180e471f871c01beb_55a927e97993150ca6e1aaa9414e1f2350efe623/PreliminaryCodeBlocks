@@ -1,0 +1,57 @@
+@ storage/ndb/src/mgmsrv/Config.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/Config.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/ConfigInfo.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/ConfigInfo.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/ConfigManager.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/ConfigManager.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/ConfigSubscriber.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/Defragger.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/InitConfigFileParser.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/InitConfigFileParser.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/MgmtSrvr.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/MgmtThread.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/Services.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/Services.hpp, -2, -1
+@ storage/ndb/src/mgmsrv/main.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/ndb_mgmd_error.h, -2, -1
+@ storage/ndb/src/mgmsrv/testConfig.cpp, -2, -1
+@ storage/ndb/src/ndbclient_exports.cpp, -2, -1
+@ storage/ndb/src/ndbclient_link_test.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/MgmtSrvr.cpp, 5134, 4900
+# 2, 1, = ,2, 1
++ 63, 1, = ,63, 0
++ 241, 1, = ,240, 1
++ 404, 1, = ,403, 1
++ 420, 1, = ,419, 0
++ 537, 1, = ,535, 0
++ 662, 1, = ,659, 1
++ 1136, 1, = ,1133, 1
++ 1267, 11, = ,1264, 0
++ 1301, 11, = ,1287, 0
++ 1486, 11, = ,1461, 0
++ 1568, 11, = ,1532, 0
++ 1918, 39, = ,1871, 0
++ 2016, 41, = ,1930, 3
++ 2058, 6, = ,1934, 8
++ 2065, 10, = ,1943, 10
++ 2076, 50, = ,1954, 0
++ 2195, 36, = ,2023, 3
++ 2232, 2, = ,2027, 3
++ 2235, 6, = ,2031, 0
++ 2242, 29, = ,2032, 22
++ 2280, 1, = ,2063, 1
++ 2395, 1, = ,2178, 1
++ 2699, 1, = ,2482, 1
+- 3208, 0, = ,2991, 8
+- 3209, 1, = ,3000, 0
++ 3475, 1, = ,3265, 1
++ 3649, 6, = ,3439, 2
++ 3656, 15, = ,3442, 3
++ 3761, 0, = ,3535, 1
++ 3765, 1, = ,3540, 0
++ 3892, 25, = ,3666, 18
++ 3932, 1, = ,3699, 1
++ 4161, 1, = ,3928, 1
++ 4258, 1, = ,4025, 1
++ 4550, 1, = ,4317, 1
++ 4664, 2, = ,4431, 1

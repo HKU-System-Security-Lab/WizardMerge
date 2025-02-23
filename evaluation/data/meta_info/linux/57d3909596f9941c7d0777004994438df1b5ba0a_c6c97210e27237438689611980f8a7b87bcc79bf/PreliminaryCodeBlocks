@@ -1,0 +1,28 @@
+@ drivers/iio/iio_core.h, -2, -1
+@ drivers/iio/light/cm3605.c, -2, -1
+@ drivers/iio/light/hid-sensor-prox.c, -2, -1
+@ drivers/iio/light/lm3533-als.c, -2, -1
+@ drivers/iio/light/opt4001.c, -2, -1
+@ include/linux/hid-sensor-ids.h, -1, -2
+@ tools/iio/iio_event_monitor.c, 449, 449
+# 62, 2, = ,62, 2
+# 178, 2, = ,178, 2
+@ include/uapi/linux/iio/types.h, 129, 129
+# 50, 2, = ,50, 2
+@ drivers/iio/light/hid-sensor-als.c, 389, 489
+- 17, 2, = ,17, 5
+- 27, 1, = ,30, 1
+- 68, 0, = ,71, 34
+- 102, 2, = ,139, 2
+- 106, 0, = ,143, 15
+- 226, 0, = ,278, 12
+- 245, 0, = ,309, 15
+- 247, 3, = ,326, 3
+- 252, 4, = ,331, 2
+- 257, 2, = ,334, 3
+- 260, 1, = ,338, 21
++ 350, 1, = ,448, 1
++ 359, 0, = ,457, 2
++ 381, 1, = ,481, 1
+@ drivers/iio/industrialio-core.c, 2129, 2129
+# 93, 2, = ,93, 2

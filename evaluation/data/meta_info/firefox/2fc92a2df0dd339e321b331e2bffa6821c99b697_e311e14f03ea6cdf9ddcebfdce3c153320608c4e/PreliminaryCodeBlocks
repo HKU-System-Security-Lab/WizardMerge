@@ -1,0 +1,307 @@
+@ docshell/base/BrowsingContext.cpp, -2, -1
+@ docshell/base/BrowsingContext.h, -2, -1
+@ docshell/base/CanonicalBrowsingContext.cpp, -2, -1
+@ docshell/base/SerializedLoadContext.h, -2, -1
+@ docshell/base/SyncedContext.h, -2, -1
+@ docshell/base/SyncedContextInlines.h, -2, -1
+@ docshell/base/WindowContext.cpp, -2, -1
+@ docshell/base/WindowContext.h, -2, -1
+@ docshell/base/nsDSURIContentListener.cpp, -2, -1
+@ docshell/base/nsDocShell.h, -2, -1
+@ docshell/base/nsDocShellTreeOwner.cpp, -2, -1
+@ docshell/base/nsDocShellTreeOwner.h, -2, -1
+@ dom/base/BodyStream.cpp, -2, -1
+@ dom/base/BodyStream.h, -2, -1
+@ dom/base/CCGCScheduler.cpp, -2, -1
+@ dom/base/CCGCScheduler.h, -2, -1
+@ dom/base/ChromeUtils.cpp, -2, -1
+@ dom/base/ContentProcessMessageManager.h, -2, -1
+@ dom/base/DOMIntersectionObserver.cpp, -2, -1
+@ dom/base/Document.cpp, -2, -1
+@ dom/base/Document.h, -2, -1
+@ dom/base/Element.cpp, -2, -1
+@ dom/base/Element.h, -2, -1
+@ dom/base/FragmentOrElement.cpp, -2, -1
+@ dom/base/InProcessBrowserChildMessageManager.h, -2, -1
+@ dom/base/Navigator.cpp, -2, -1
+@ dom/base/Navigator.h, -2, -1
+@ dom/base/RemoteOuterWindowProxy.cpp, -2, -1
+@ dom/base/ResizeObserver.cpp, -2, -1
+@ dom/base/ResizeObserverController.cpp, -2, -1
+@ dom/base/ScreenOrientation.cpp, -2, -1
+@ dom/base/ScreenOrientation.h, -2, -1
+@ dom/base/Selection.cpp, -2, -1
+@ dom/base/Selection.h, -2, -1
+@ dom/base/ShadowIncludingTreeIterator.h, -2, -1
+@ dom/base/StructuredCloneHolder.cpp, -2, -1
+@ dom/base/TextInputProcessor.cpp, -2, -1
+@ dom/base/WindowNamedPropertiesHandler.cpp, -2, -1
+@ dom/base/nsContentAreaDragDrop.cpp, -2, -1
+@ dom/base/nsContentSink.cpp, -2, -1
+@ dom/base/nsContentSink.h, -2, -1
+@ dom/base/nsContentUtils.cpp, -2, -1
+@ dom/base/nsContentUtils.h, -2, -1
+@ dom/base/nsDOMDataChannel.cpp, -2, -1
+@ dom/base/nsDOMNavigationTiming.cpp, -2, -1
+@ dom/base/nsDOMNavigationTiming.h, -2, -1
+@ dom/base/nsDOMWindowUtils.cpp, -2, -1
+@ dom/base/nsDataDocumentContentPolicy.cpp, -2, -1
+@ dom/base/nsFocusManager.cpp, -2, -1
+@ dom/base/nsFrameMessageManager.cpp, -2, -1
+@ dom/base/nsGlobalWindowCommands.cpp, -2, -1
+@ dom/base/nsGlobalWindowInner.cpp, -2, -1
+@ dom/base/nsGlobalWindowInner.h, -2, -1
+@ dom/base/nsGlobalWindowOuter.cpp, -2, -1
+@ dom/base/nsGlobalWindowOuter.h, -2, -1
+@ dom/base/nsINode.cpp, -2, -1
+@ dom/base/nsJSEnvironment.cpp, -2, -1
+@ dom/base/nsJSEnvironment.h, -2, -1
+@ dom/base/nsJSUtils.cpp, -2, -1
+@ dom/base/nsMimeTypeArray.cpp, -2, -1
+@ dom/base/nsMimeTypeArray.h, -2, -1
+@ dom/base/nsNameSpaceManager.cpp, -2, -1
+@ dom/base/nsObjectLoadingContent.cpp, -2, -1
+@ dom/base/nsObjectLoadingContent.h, -2, -1
+@ dom/base/nsPIDOMWindow.h, -2, -1
+@ dom/base/nsPluginArray.cpp, -2, -1
+@ dom/base/nsPluginArray.h, -2, -1
+@ dom/base/nsRange.cpp, -2, -1
+@ dom/base/nsScreen.cpp, -2, -1
+@ dom/base/nsScreen.h, -2, -1
+@ dom/base/nsWrapperCache.h, -2, -1
+@ dom/localstorage/LSDatabase.cpp, -2, -1
+@ dom/localstorage/LSDatabase.h, -2, -1
+@ dom/localstorage/LSObject.cpp, -2, -1
+@ dom/localstorage/LSObject.h, -2, -1
+@ dom/localstorage/LSSnapshot.cpp, -2, -1
+@ dom/localstorage/LSSnapshot.h, -2, -1
+@ dom/localstorage/SerializationHelpers.h, -2, -1
+@ dom/media/ADTSDemuxer.cpp, -2, -1
+@ dom/media/ADTSDemuxer.h, -2, -1
+@ dom/media/AudioChannelFormat.h, -2, -1
+@ dom/media/AudioDriftCorrection.h, -2, -1
+@ dom/media/Benchmark.cpp, -2, -1
+@ dom/media/CrossGraphPort.cpp, -2, -1
+@ dom/media/DeviceInputTrack.cpp, -2, -1
+@ dom/media/DeviceInputTrack.h, -2, -1
+@ dom/media/DynamicResampler.cpp, -2, -1
+@ dom/media/DynamicResampler.h, -2, -1
+@ dom/media/FileBlockCache.cpp, -2, -1
+@ dom/media/FileMediaResource.cpp, -2, -1
+@ dom/media/GraphRunner.h, -2, -1
+@ dom/media/MediaData.h, -2, -1
+@ dom/media/MediaDecoder.h, -2, -1
+@ dom/media/MediaDecoderStateMachine.cpp, -2, -1
+@ dom/media/MediaDecoderStateMachine.h, -2, -1
+@ dom/media/MediaFormatReader.cpp, -2, -1
+@ dom/media/MediaFormatReader.h, -2, -1
+@ dom/media/MediaMIMETypes.cpp, -2, -1
+@ dom/media/MediaMIMETypes.h, -2, -1
+@ dom/media/MediaStreamTrack.h, -2, -1
+@ dom/media/MediaTrackGraph.cpp, -2, -1
+@ dom/media/gmp/GMPChild.cpp, -1, -2
+@ dom/media/gmp/GMPMessageUtils.h, -2, -1
+@ dom/media/gmp/GMPParent.cpp, -2, -1
+@ dom/media/gmp/GMPServiceChild.h, -2, -1
+@ dom/media/gmp/GMPServiceParent.cpp, -2, -1
+@ dom/media/gmp/GMPVideoEncoderParent.cpp, -2, -1
+@ dom/media/gmp/GMPVideoHost.h, -2, -1
+@ dom/media/webrtc/MediaEngineWebRTCAudio.cpp, -2, -1
+@ dom/media/webrtc/MediaEngineWebRTCAudio.h, -2, -1
+@ dom/media/webrtc/MediaTransportParent.h, -2, -1
+@ dom/media/webrtc/WebrtcGlobal.h, -2, -1
+@ dom/media/webrtc/WebrtcIPCTraits.h, -2, -1
+@ dom/media/webrtc/jsapi/MediaTransportHandler.cpp, -2, -1
+@ dom/media/webrtc/jsapi/MediaTransportHandler.h, -2, -1
+@ dom/media/webrtc/jsapi/MediaTransportHandlerIPC.cpp, -2, -1
+@ dom/media/webrtc/jsapi/MediaTransportHandlerIPC.h, -2, -1
+@ dom/media/webrtc/jsapi/MediaTransportParent.cpp, -2, -1
+@ dom/media/webrtc/jsapi/PacketDumper.cpp, -2, -1
+@ dom/media/webrtc/jsapi/PacketDumper.h, -2, -1
+@ dom/media/webrtc/jsapi/PeerConnectionCtx.cpp, -2, -1
+@ dom/media/webrtc/jsapi/PeerConnectionCtx.h, -2, -1
+@ dom/media/webrtc/jsapi/PeerConnectionImpl.cpp, -2, -1
+@ dom/media/webrtc/jsapi/PeerConnectionImpl.h, -2, -1
+@ dom/media/webrtc/jsapi/RTCStatsReport.h, -2, -1
+@ dom/media/webrtc/jsapi/TransceiverImpl.cpp, -2, -1
+@ dom/media/webrtc/jsapi/TransceiverImpl.h, -2, -1
+@ dom/media/webrtc/jsapi/WebrtcGlobalInformation.cpp, -2, -1
+@ dom/media/webrtc/libwebrtcglue/AudioConduit.cpp, -1, -2
+@ dom/media/webrtc/libwebrtcglue/AudioConduit.h, -1, -2
+@ dom/media/webrtc/libwebrtcglue/CallWorkerThread.h, -2, -1
+@ dom/media/webrtc/libwebrtcglue/MediaConduitInterface.h, -1, -2
+@ dom/media/webrtc/libwebrtcglue/TaskQueueWrapper.h, -2, -1
+@ dom/media/webrtc/libwebrtcglue/WebrtcMediaDataDecoderCodec.cpp, -2, -1
+@ dom/xslt/xslt/txMozillaStylesheetCompiler.cpp, -2, -1
+@ dom/xslt/xslt/txXSLTPatterns.cpp, -2, -1
+@ gfx/ipc/D3DMessageUtils.cpp, -2, -1
+@ gfx/ipc/D3DMessageUtils.h, -2, -1
+@ gfx/ipc/GPUChild.cpp, -2, -1
+@ gfx/ipc/GPUParent.cpp, -2, -1
+@ gfx/ipc/GPUParent.h, -2, -1
+@ gfx/ipc/GPUProcessHost.cpp, -2, -1
+@ gfx/ipc/GPUProcessHost.h, -2, -1
+@ gfx/ipc/GPUProcessManager.cpp, -2, -1
+@ gfx/ipc/GPUProcessManager.h, -2, -1
+@ gfx/ipc/GfxMessageUtils.h, -2, -1
+@ media/webrtc/signaling/gtest/MockConduit.h, -1, -2
+@ media/webrtc/signaling/gtest/mediapipeline_unittest.cpp, -2, -1
+@ modules/libpref/Preferences.cpp, -2, -1
+@ modules/libpref/Preferences.h, -2, -1
+@ netwerk/base/DashboardTypes.h, -2, -1
+@ netwerk/base/FuzzySecurityInfo.cpp, -2, -1
+@ netwerk/base/ProxyAutoConfig.cpp, -2, -1
+@ netwerk/base/ProxyAutoConfig.h, -2, -1
+@ netwerk/base/nsBufferedStreams.cpp, -2, -1
+@ netwerk/base/nsIOService.cpp, -2, -1
+@ netwerk/base/nsIOService.h, -2, -1
+@ netwerk/base/nsNetUtil.cpp, -2, -1
+@ netwerk/base/nsStandardURL.cpp, -2, -1
+@ widget/BasicEvents.h, -2, -1
+@ widget/ContentCache.cpp, -2, -1
+@ widget/ContentCache.h, -2, -1
+@ widget/EventForwards.h, -2, -1
+@ widget/GfxDriverInfo.cpp, -2, -1
+@ widget/GfxDriverInfo.h, -2, -1
+@ widget/GfxInfoBase.cpp, -2, -1
+@ widget/GfxInfoBase.h, -2, -1
+@ widget/IMEData.cpp, -2, -1
+@ widget/IMEData.h, -2, -1
+@ widget/InputData.cpp, -2, -1
+@ widget/InputData.h, -2, -1
+@ widget/LookAndFeel.h, -2, -1
+@ widget/NativeMenu.h, -2, -1
+@ widget/PuppetWidget.cpp, -2, -1
+@ widget/PuppetWidget.h, -2, -1
+@ widget/Screen.cpp, -2, -1
+@ widget/Screen.h, -2, -1
+@ widget/ScreenManager.cpp, -2, -1
+@ widget/ScrollbarDrawing.cpp, -2, -1
+@ widget/ScrollbarDrawing.h, -2, -1
+@ widget/ScrollbarDrawingAndroid.h, -2, -1
+@ widget/ScrollbarDrawingCocoa.cpp, -2, -1
+@ widget/ScrollbarDrawingCocoa.h, -2, -1
+@ widget/ScrollbarDrawingGTK.h, -2, -1
+@ widget/ScrollbarDrawingWin.h, -2, -1
+@ widget/ScrollbarDrawingWin11.cpp, -2, -1
+@ widget/ScrollbarDrawingWin11.h, -2, -1
+@ widget/SwipeTracker.cpp, -2, -1
+@ widget/TextEventDispatcher.cpp, -2, -1
+@ widget/TextEventDispatcher.h, -2, -1
+@ widget/TextEvents.h, -2, -1
+@ widget/Theme.cpp, -2, -1
+@ widget/ThemeColors.cpp, -2, -1
+@ widget/ThemeColors.h, -2, -1
+@ widget/ThemeDrawing.cpp, -2, -1
+@ widget/VsyncDispatcher.cpp, -2, -1
+@ widget/VsyncDispatcher.h, -2, -1
+@ widget/WidgetEventImpl.cpp, -2, -1
+@ widget/WidgetUtils.cpp, -2, -1
+@ widget/WidgetUtils.h, -2, -1
+@ widget/nsBaseDragService.cpp, -2, -1
+@ widget/nsBaseWidget.h, -2, -1
+@ widget/nsGUIEventIPC.h, -2, -1
+@ widget/nsIRollupListener.h, -2, -1
+@ widget/nsIWidget.h, -2, -1
+@ widget/nsNativeTheme.cpp, -2, -1
+@ widget/nsNativeTheme.h, -2, -1
+@ widget/nsPrintSettingsService.cpp, -2, -1
+@ widget/nsWidgetInitData.h, -2, -1
+@ widget/nsXPLookAndFeel.cpp, -2, -1
+@ widget/nsBaseWidget.cpp, 3242, 3254
++ 17, 0, = ,17, 1
++ 24, 1, = ,25, 0
++ 127, 0, = ,127, 13
++ 135, 3, = ,148, 1
++ 142, 1, = ,153, 1
+- 354, 2, = ,365, 5
++ 1514, 2, = ,1528, 0
++ 2189, 1, = ,2201, 1
+@ toolkit/components/glean/ipc/FOGIPC.cpp, 379, 346
++ 44, 28, = ,44, 2
++ 83, 3, = ,57, 1
++ 145, 2, = ,117, 0
++ 148, 2, = ,118, 0
++ 158, 2, = ,126, 0
++ 161, 2, = ,127, 0
+- 224, 0, = ,188, 1
++ 225, 2, = ,190, 2
+- 233, 0, = ,198, 1
++ 289, 1, = ,255, 1
++ 336, 2, = ,302, 2
++ 378, 1, = ,344, 2
+@ dom/media/webrtc/jsapi/RTCRtpReceiver.cpp, 854, 840
++ 663, 0, = ,663, 1
++ 664, 12, = ,665, 10
++ 721, 0, = ,720, 1
+# 722, 14, = ,722, 0
+@ dom/localstorage/ActorsParent.cpp, 9036, 8966
++ 507, 3, = ,507, 3
++ 543, 1, = ,543, 1
++ 696, 4, = ,696, 3
++ 748, 3, = ,747, 2
++ 844, 3, = ,842, 2
++ 856, 1, = ,853, 1
++ 885, 2, = ,882, 1
++ 917, 2, = ,913, 1
++ 1556, 2, = ,1551, 0
++ 1583, 1, = ,1576, 1
++ 1586, 1, = ,1579, 1
++ 1596, 1, = ,1589, 1
++ 1632, 2, = ,1625, 0
++ 1944, 7, = ,1935, 0
++ 1959, 3, = ,1943, 2
++ 1963, 2, = ,1946, 2
++ 1975, 1, = ,1958, 1
++ 1988, 1, = ,1971, 0
++ 2008, 6, = ,1990, 0
++ 2033, 1, = ,2009, 1
++ 2036, 1, = ,2012, 1
++ 2039, 3, = ,2015, 1
++ 2053, 0, = ,2027, 2
++ 4550, 14, = ,4526, 0
++ 4572, 2, = ,4534, 0
++ 4586, 2, = ,4546, 0
++ 4966, 1, = ,4924, 1
++ 4968, 2, = ,4926, 1
++ 4974, 1, = ,4931, 1
++ 5283, 18, = ,5240, 0
++ 5563, 1, = ,5502, 1
++ 5565, 1, = ,5504, 1
++ 5574, 1, = ,5513, 0
++ 5578, 2, = ,5516, 2
++ 5586, 1, = ,5524, 1
++ 5589, 1, = ,5527, 0
++ 5699, 1, = ,5636, 1
++ 5702, 2, = ,5639, 1
++ 5752, 1, = ,5688, 1
++ 5755, 2, = ,5691, 1
++ 5819, 1, = ,5754, 1
+# 5823, 15, = ,5758, 1
++ 6070, 0, = ,5991, 9
+@ docshell/base/nsDocShell.cpp, 13806, 13729
++ 235, 1, = ,235, 0
++ 395, 2, = ,394, 1
++ 1339, 2, = ,1337, 1
++ 1578, 2, = ,1575, 1
++ 4888, 1, = ,4884, 1
++ 5634, 8, = ,5630, 0
++ 5669, 2, = ,5657, 1
++ 6754, 2, = ,6741, 1
++ 7573, 2, = ,7559, 1
++ 8852, 1, = ,8837, 0
++ 9473, 1, = ,9457, 1
++ 9476, 1, = ,9460, 1
++ 9479, 1, = ,9463, 1
++ 10130, 8, = ,10114, 0
++ 10279, 22, = ,10255, 0
++ 10306, 11, = ,10260, 0
++ 10400, 0, = ,10343, 17
++ 10432, 24, = ,10392, 0
++ 10523, 2, = ,10459, 1
++ 11147, 1, = ,11082, 1
++ 13604, 2, = ,13539, 1
++ 13612, 2, = ,13546, 0
++ 13636, 6, = ,13568, 0
++ 13645, 1, = ,13571, 0
++ 13655, 8, = ,13580, 6

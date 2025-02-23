@@ -1,0 +1,32 @@
+@ ext/spl/php_spl.c, -2, -1
+@ ext/spl/spl_array.c, -2, -1
+@ ext/spl/spl_array_arginfo.h, -2, -1
+@ ext/spl/spl_directory.c, -2, -1
+@ ext/spl/spl_directory.h, -2, -1
+@ ext/spl/spl_dllist.c, -2, -1
+@ ext/spl/spl_heap.c, -2, -1
+@ ext/spl/spl_heap_arginfo.h, -2, -1
+@ ext/spl/spl_iterators.c, -2, -1
+@ ext/spl/spl_iterators.h, -2, -1
+@ ext/spl/spl_observer.c, -2, -1
+@ ext/spl/spl_fixedarray.c, 992, 1006
++ 51, 0, = ,51, 2
+- 92, 0, = ,94, 1
+# 110, 0, = ,113, 2
+- 120, 1, = ,125, 0
++ 181, 0, = ,185, 1
++ 230, 1, = ,235, 1
++ 232, 2, = ,237, 2
++ 235, 6, = ,240, 16
++ 242, 6, = ,257, 1
++ 249, 14, = ,259, 11
++ 264, 1, = ,271, 5
++ 295, 0, = ,306, 1
++ 305, 2, = ,317, 1
++ 357, 2, = ,368, 1
++ 409, 0, = ,419, 3
++ 432, 0, = ,445, 1
++ 472, 0, = ,486, 1
++ 950, 1, = ,965, 1
++ 974, 1, = ,989, 0
++ 986, 1, = ,1000, 1

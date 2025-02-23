@@ -1,0 +1,2619 @@
+@ storage/ndb/include/ndb_global.h, -2, -1
+@ storage/ndb/include/portlib/NdbSleep.h, -2, -1
+@ storage/ndb/include/portlib/ndb_localtime.h, -2, -1
+@ storage/ndb/include/portlib/ndb_openssl_version.h, -2, -1
+@ storage/ndb/include/portlib/ndb_socket.h, -2, -1
+@ storage/ndb/include/transporter/TransporterDefinitions.hpp, -2, -1
+@ storage/ndb/include/util/File.hpp, -2, -1
+@ storage/ndb/include/util/ndb_openssl3_compat.h, -2, -1
+@ storage/ndb/include/util/ndb_opts.h, -2, -1
+@ storage/ndb/src/common/util/BaseString.cpp, -2, -1
+@ storage/ndb/src/common/util/CharsetMap.cpp, -2, -1
+@ storage/ndb/src/common/util/CharsetMapImpl.cpp, -2, -1
+@ storage/ndb/src/common/util/NdbPack.cpp, -2, -1
+@ storage/ndb/src/common/util/NdbSqlUtil.cpp, -2, -1
+@ storage/ndb/src/common/util/OwnProcessInfo.cpp, -2, -1
+@ storage/ndb/src/common/util/mysql_utils_test.cpp, -2, -1
+@ storage/ndb/src/common/util/ndb_openssl3_compat.cpp, -2, -1
+@ storage/ndb/src/common/util/ndb_zlib.cpp, -2, -1
+@ storage/ndb/src/common/util/version.cpp, -2, -1
+@ storage/ndb/src/mgmapi/mgmapi_error.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/ConfigManager.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/main.cpp, -2, -1
+@ storage/ndb/test/include/ConfigFactory.hpp, -2, -1
+@ storage/ndb/test/include/NDBT.hpp, -2, -1
+@ storage/ndb/test/include/NDBT_Find.hpp, -2, -1
+@ storage/ndb/test/include/NDBT_Workingdir.hpp, -2, -1
+@ storage/ndb/test/include/NdbRestarter.hpp, -2, -1
+@ storage/ndb/test/include/NdbTest.hpp, -2, -1
+@ storage/ndb/test/ndbapi/create_all_tabs.cpp, -2, -1
+@ storage/ndb/test/ndbapi/create_tab.cpp, -2, -1
+@ storage/ndb/test/ndbapi/drop_all_tabs.cpp, -2, -1
+@ storage/ndb/test/ndbapi/flexAsynch.cpp, -2, -1
+@ storage/ndb/test/ndbapi/flexBench.cpp, -2, -1
+@ storage/ndb/test/ndbapi/flexHammer.cpp, -2, -1
+@ storage/ndb/test/ndbapi/flexTT.cpp, -2, -1
+@ storage/ndb/test/ndbapi/slow_select.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testBitfield.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testBlobs.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testDataBuffers.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testDeadlock.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testDict.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testIndex.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testIndexStat.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testLoad.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testMgmDisconnect.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testMgmd.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testNativeDefault.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testNdbApi.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testNodeRestart.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testOIBasic.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testReadPerf.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testScan.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testScanFilter.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testScanPerf.cpp, -2, -1
+@ storage/ndb/test/ndbapi/test_event_merge.cpp, -2, -1
+@ storage/ndb/test/ndbapi/test_event_multi_table.cpp, -2, -1
+@ storage/ndb/test/src/DbUtil.cpp, -2, -1
+@ storage/ndb/test/src/NDBT_Find.cpp, -2, -1
+@ storage/ndb/test/src/NDBT_Tables.cpp, -2, -1
+@ storage/ndb/test/src/NDBT_Test.cpp, -2, -1
+@ storage/ndb/test/src/NdbRestarter.cpp, -2, -1
+@ storage/ndb/test/src/SqlClient.cpp, -2, -1
+@ storage/ndb/src/common/portlib/NdbDir.cpp, -2, -1
+@ storage/ndb/src/common/portlib/NdbMem.cpp, -2, -1
+@ storage/ndb/src/common/portlib/NdbMutex.cpp, -2, -1
+@ storage/ndb/src/common/portlib/NdbThread.cpp, -2, -1
+@ storage/ndb/src/common/portlib/ndb_daemon.cpp, -2, -1
+@ storage/ndb/src/common/portlib/ndb_file_win32.cpp, -2, -1
+@ storage/ndb/src/common/portlib/ndb_nt_servc.cc, -2, -1
+@ components/audit_api_message_emit/audit_api_message_emit.cc, -2, -1
+@ components/keyrings/common/component_helpers/include/keyring_encryption_service_impl_template.h, -2, -1
+@ components/keyrings/common/component_helpers/src/keyring_log_builtins_definition.cc, -2, -1
+@ components/keyrings/common/data/data.cc, -2, -1
+@ components/keyrings/common/data/data.h, -2, -1
+@ components/keyrings/common/data_file/reader.cc, -2, -1
+@ components/keyrings/common/data_file/writer.cc, -2, -1
+@ components/keyrings/common/json_data/json_reader.cc, -2, -1
+@ components/keyrings/common/json_data/json_writer.cc, -2, -1
+@ components/keyrings/keyring_file/backend/backend.cc, -2, -1
+@ components/keyrings/keyring_file/service_implementation/keyring_keys_metadata_iterator_service_definition.cc, -2, -1
+@ components/keyrings/keyring_file/service_implementation/keyring_metadata_query_service_definition.cc, -2, -1
+@ components/keyrings/keyring_file/service_implementation/keyring_reader_service_definition.cc, -2, -1
+@ components/libminchassis/dynamic_loader.cc, -2, -1
+@ components/libminchassis/dynamic_loader_imp.h, -2, -1
+@ components/libminchassis/dynamic_loader_scheme_file_imp.h, -2, -1
+@ components/libminchassis/gunit_harness/include/mock/mysql_cond_v1_native.cc, -2, -1
+@ components/libminchassis/gunit_harness/include/test_harness_suite.h, -2, -1
+@ components/libminchassis/my_metadata.cc, -2, -1
+@ components/libminchassis/registry.cc, -2, -1
+@ components/library_mysys/my_hex_tools.cc, -2, -1
+@ components/logging/log_filter_dragnet.cc, -2, -1
+@ components/logging/log_sink_json.cc, -2, -1
+@ components/logging/log_sink_syseventlog.cc, -2, -1
+@ components/logging/log_sink_test.cc, -2, -1
+@ components/mysqlbackup/mysqlbackup.cc, -2, -1
+@ components/reference_cache/cache.cc, -2, -1
+@ components/reference_cache/cache.h, -2, -1
+@ components/reference_cache/channel.cc, -2, -1
+@ components/reference_cache/channel.h, -2, -1
+@ components/reference_cache/component.cc, -2, -1
+@ components/reference_cache/reference_cache_common.h, -2, -1
+@ components/test/keyring_encryption_test/options.cc, -2, -1
+@ components/test/table_access/test_table_access.cc, -2, -1
+@ components/test/test_audit_api_message.cc, -2, -1
+@ components/test/test_mysql_thd_store_service.cc, -2, -1
+@ components/test/test_sys_var_service.cc, -2, -1
+@ components/test/test_sys_var_service_same.cc, -2, -1
+@ components/test_server_telemetry_traces/required_services.h, -2, -1
+@ components/test_server_telemetry_traces/server_telemetry_component.cc, -2, -1
+@ components/test_server_telemetry_traces/server_telemetry_helpers.cc, -2, -1
+@ components/test_server_telemetry_traces/server_telemetry_helpers.h, -2, -1
+@ components/validate_password/validate_password_imp.cc, -2, -1
+@ libmysql/authentication_kerberos/auth_kerberos_client_plugin.cc, -2, -1
+@ libmysql/authentication_ldap/auth_ldap_sasl_client.cc, -2, -1
+@ libmysql/authentication_ldap/auth_ldap_sasl_mechanism.cc, -2, -1
+@ libmysql/authentication_win/common.cc, -2, -1
+@ libmysql/authentication_win/common.h, -2, -1
+@ libmysql/authentication_win/handshake.cc, -2, -1
+@ libmysql/authentication_win/handshake_client.cc, -2, -1
+@ libmysql/authentication_win/log_client.cc, -2, -1
+@ libmysql/authentication_win/plugin_client.cc, -2, -1
+@ libmysql/dns_srv_data.h, -2, -1
+@ libmysql/errmsg.cc, -2, -1
+@ libmysql/libmysql.cc, -2, -1
+@ libmysql/mysql_trace.cc, -2, -1
+@ libmysql/test_trace_plugin.cc, -2, -1
+@ storage/myisammrg/ha_myisammrg.cc, -2, -1
+@ storage/myisammrg/myrg_create.cc, -2, -1
+@ storage/myisammrg/myrg_open.cc, -2, -1
+@ storage/myisammrg/myrg_static.cc, -2, -1
+@ sql-common/bind_params.cc, -2, -1
+@ sql-common/client.cc, -2, -1
+@ sql-common/client_async_authentication.h, -2, -1
+@ sql-common/client_authentication.cc, -2, -1
+@ sql-common/client_extensions_macros.h, -2, -1
+@ sql-common/client_plugin.cc, -2, -1
+@ sql-common/compression.cc, -2, -1
+@ sql-common/get_password.cc, -2, -1
+@ sql-common/json_binary.cc, -2, -1
+@ sql-common/json_binary.h, -2, -1
+@ sql-common/json_dom.cc, -2, -1
+@ sql-common/json_dom.h, -2, -1
+@ sql-common/json_error_handler.cc, -2, -1
+@ sql-common/json_error_handler.h, -2, -1
+@ sql-common/json_path.cc, -2, -1
+@ sql-common/json_path.h, -2, -1
+@ sql-common/json_syntax_check.cc, -2, -1
+@ sql-common/json_syntax_check.h, -2, -1
+@ sql-common/net_serv.cc, -2, -1
+@ sql-common/oci/utilities.cc, -2, -1
+@ sql-common/sql_string.cc, -2, -1
+@ storage/archive/azio.cc, -2, -1
+@ storage/archive/ha_archive.cc, -2, -1
+@ storage/federated/ha_federated.cc, -2, -1
+@ storage/ndb/include/mgmapi/mgmapi.h, -2, -1
+@ storage/ndb/include/mgmapi/mgmapi_config_parameters.h, -2, -1
+@ storage/ndb/include/mgmapi/mgmapi_debug.h, -2, -1
+@ storage/ndb/include/mgmapi/mgmapi_error.h, -2, -1
+@ storage/ndb/include/mgmcommon/ConfigRetriever.hpp, -2, -1
+@ testclients/mysql_client_fw.cc, -2, -1
+@ testclients/mysql_client_test.cc, -2, -1
+@ libbinlogevents/include/binary_log.h, -2, -1
+@ libbinlogevents/include/binlog_event.h, -2, -1
+@ libbinlogevents/include/byteorder.h, -2, -1
+@ libbinlogevents/include/codecs/base.h, -2, -1
+@ libbinlogevents/include/codecs/binary.h, -2, -1
+@ libbinlogevents/include/codecs/factory.h, -2, -1
+@ libbinlogevents/include/compression/base.h, -2, -1
+@ libbinlogevents/include/compression/compressor.h, -2, -1
+@ libbinlogevents/include/compression/decompressor.h, -2, -1
+@ libbinlogevents/include/compression/factory.h, -2, -1
+@ libbinlogevents/include/compression/none_comp.h, -2, -1
+@ libbinlogevents/include/compression/none_dec.h, -2, -1
+@ libbinlogevents/include/compression/zstd_comp.h, -2, -1
+@ libbinlogevents/include/compression/zstd_dec.h, -2, -1
+@ libbinlogevents/include/control_events.h, -2, -1
+@ libbinlogevents/include/debug_vars.h, -2, -1
+@ libbinlogevents/include/event_reader.h, -2, -1
+@ libbinlogevents/include/event_reader_macros.h, -2, -1
+@ libbinlogevents/include/gtids/global.h, -2, -1
+@ libbinlogevents/include/gtids/gtid.h, -2, -1
+@ libbinlogevents/include/gtids/gtidset.h, -2, -1
+@ libbinlogevents/include/load_data_events.h, -2, -1
+@ libbinlogevents/include/rows_event.h, -2, -1
+@ libbinlogevents/include/statement_events.h, -2, -1
+@ libbinlogevents/include/table_id.h, -2, -1
+@ libbinlogevents/include/trx_boundary_parser.h, -2, -1
+@ libbinlogevents/include/uuid.h, -2, -1
+@ libbinlogevents/include/wrapper_functions.h, -2, -1
+@ storage/ndb/include/logger/LogHandler.hpp, -2, -1
+@ storage/example/ha_example.cc, -2, -1
+@ strings/conf_to_src.cc, -2, -1
+@ strings/ctype-big5.cc, -2, -1
+@ strings/ctype-bin.cc, -2, -1
+@ strings/ctype-cp932.cc, -2, -1
+@ strings/ctype-czech.cc, -2, -1
+@ strings/ctype-euc_kr.cc, -2, -1
+@ strings/ctype-eucjpms.cc, -2, -1
+@ strings/ctype-extra.cc, -2, -1
+@ strings/ctype-gb18030.cc, -2, -1
+@ strings/ctype-gb2312.cc, -2, -1
+@ strings/ctype-gbk.cc, -2, -1
+@ strings/ctype-latin1.cc, -2, -1
+@ strings/ctype-mb.cc, -2, -1
+@ strings/ctype-simple.cc, -2, -1
+@ strings/ctype-sjis.cc, -2, -1
+@ strings/ctype-tis620.cc, -2, -1
+@ strings/ctype-uca.cc, -2, -1
+@ strings/ctype-ucs2.cc, -2, -1
+@ strings/ctype-ujis.cc, -2, -1
+@ strings/ctype-utf8.cc, -2, -1
+@ strings/ctype-win1250ch.cc, -2, -1
+@ strings/ctype.cc, -2, -1
+@ strings/dtoa.cc, -2, -1
+@ strings/int2str.cc, -2, -1
+@ strings/mb_wc.h, -2, -1
+@ strings/my_strchr.cc, -2, -1
+@ strings/my_strtoll10.cc, -2, -1
+@ strings/str_alloc.cc, -2, -1
+@ strings/str_uca_type.h, -2, -1
+@ strings/t_ctype.h, -2, -1
+@ strings/uca9-dump.cc, -2, -1
+@ strings/uca900_data.h, -2, -1
+@ strings/uca900_ja_data.h, -2, -1
+@ strings/uca900_zh_data.h, -2, -1
+@ strings/uca_data.h, -2, -1
+@ strings/xml.cc, -2, -1
+@ utilities/comp_client_err.cc, -2, -1
+@ utilities/comp_err.cc, -2, -1
+@ utilities/ibd2sdi.cc, -2, -1
+@ utilities/innochecksum.cc, -2, -1
+@ utilities/lz4_decompress.cc, -2, -1
+@ utilities/my_print_defaults.cc, -2, -1
+@ utilities/perror.cc, -2, -1
+@ scripts/comp_sql.cc, -2, -1
+@ sql/aggregate_check.cc, -2, -1
+@ sql/aggregate_check.h, -2, -1
+@ sql/auth/acl_table_user.cc, -2, -1
+@ sql/auth/dynamic_privilege_table.cc, -2, -1
+@ sql/auth/dynamic_privilege_table.h, -2, -1
+@ sql/auth/dynamic_privileges_impl.cc, -2, -1
+@ sql/auth/dynamic_privileges_impl.h, -2, -1
+@ sql/auth/partial_revokes.cc, -2, -1
+@ sql/auth/password.cc, -2, -1
+@ sql/auth/password_policy_service.cc, -2, -1
+@ sql/auth/role_tables.cc, -2, -1
+@ sql/auth/roles.cc, -2, -1
+@ sql/auth/service_security_context.cc, -2, -1
+@ sql/auth/sha2_password.cc, -2, -1
+@ sql/auth/sql_auth_cache.cc, -2, -1
+@ sql/auth/sql_auth_cache.h, -2, -1
+@ sql/auth/sql_authentication.cc, -2, -1
+@ sql/auth/sql_authentication.h, -2, -1
+@ sql/auth/sql_authorization.cc, -2, -1
+@ sql/auth/sql_authorization.h, -2, -1
+@ sql/auth/sql_mfa.cc, -2, -1
+@ sql/auth/sql_mfa.h, -2, -1
+@ sql/auth/sql_security_ctx.cc, -2, -1
+@ sql/auth/sql_security_ctx.h, -2, -1
+@ sql/auth/sql_user.cc, -2, -1
+@ sql/auth/sql_user_table.cc, -2, -1
+@ sql/auth/sql_user_table.h, -2, -1
+@ sql/auto_thd.cc, -2, -1
+@ sql/basic_istream.cc, -2, -1
+@ sql/basic_istream.h, -2, -1
+@ sql/basic_ostream.h, -2, -1
+@ sql/binlog.cc, -2, -1
+@ sql/binlog.h, -2, -1
+@ sql/binlog/decompressing_event_object_istream.cc, -2, -1
+@ sql/binlog/decompressing_event_object_istream.h, -2, -1
+@ sql/binlog/monitoring/context.cc, -2, -1
+@ sql/binlog/monitoring/context.h, -2, -1
+@ sql/binlog/recovery.cc, -2, -1
+@ sql/binlog_reader.cc, -2, -1
+@ sql/binlog_reader.h, -2, -1
+@ sql/bootstrap.cc, -2, -1
+@ sql/check_stack.cc, -2, -1
+@ sql/clone_handler.cc, -2, -1
+@ sql/command_service.cc, -2, -1
+@ sql/conn_handler/connection_handler_impl.h, -2, -1
+@ sql/conn_handler/connection_handler_manager.h, -2, -1
+@ sql/conn_handler/connection_handler_per_thread.cc, -2, -1
+@ sql/conn_handler/named_pipe_connection.cc, -2, -1
+@ sql/conn_handler/shared_memory_connection.cc, -2, -1
+@ sql/conn_handler/shared_memory_connection.h, -2, -1
+@ sql/conn_handler/socket_connection.cc, -2, -1
+@ sql/create_def.cc, -2, -1
+@ sql/create_field.cc, -2, -1
+@ sql/create_field.h, -2, -1
+@ sql/dd/dd_event.cc, -2, -1
+@ sql/dd/dd_event.h, -2, -1
+@ sql/dd/dd_routine.cc, -2, -1
+@ sql/dd/dd_schema.cc, -2, -1
+@ sql/dd/dd_table.cc, -2, -1
+@ sql/dd/dd_table.h, -2, -1
+@ sql/dd/dd_trigger.cc, -2, -1
+@ sql/dd/dd_utility.cc, -2, -1
+@ sql/dd/dd_version.h, -2, -1
+@ sql/dd/dd_view.cc, -2, -1
+@ sql/dd/impl/bootstrap/bootstrap_ctx.h, -2, -1
+@ sql/dd/impl/bootstrap/bootstrapper.cc, -2, -1
+@ sql/dd/impl/cache/dictionary_client.cc, -2, -1
+@ sql/dd/impl/cache/shared_multi_map.cc, -2, -1
+@ sql/dd/impl/dictionary_impl.cc, -2, -1
+@ sql/dd/impl/raw/object_keys.cc, -2, -1
+@ sql/dd/impl/raw/object_keys.h, -2, -1
+@ sql/dd/impl/raw/raw_record.cc, -2, -1
+@ sql/dd/impl/raw/raw_table.cc, -2, -1
+@ sql/dd/impl/sdi.cc, -2, -1
+@ sql/dd/impl/sdi_api.cc, -2, -1
+@ sql/dd/impl/sdi_file.cc, -2, -1
+@ sql/dd/impl/sdi_impl.h, -2, -1
+@ sql/dd/impl/system_views/columns_extensions.cc, -2, -1
+@ sql/dd/impl/system_views/events.cc, -2, -1
+@ sql/dd/impl/system_views/routines.cc, -2, -1
+@ sql/dd/impl/system_views/st_units_of_measure.cc, -2, -1
+@ sql/dd/impl/system_views/table_constraints_extensions.cc, -2, -1
+@ sql/dd/impl/system_views/tables_extensions.cc, -2, -1
+@ sql/dd/impl/system_views/tablespaces_extensions.cc, -2, -1
+@ sql/dd/impl/tables/catalogs.h, -2, -1
+@ sql/dd/impl/tables/character_sets.cc, -2, -1
+@ sql/dd/impl/tables/character_sets.h, -2, -1
+@ sql/dd/impl/tables/check_constraints.cc, -2, -1
+@ sql/dd/impl/tables/check_constraints.h, -2, -1
+@ sql/dd/impl/tables/collations.cc, -2, -1
+@ sql/dd/impl/tables/collations.h, -2, -1
+@ sql/dd/impl/tables/columns.cc, -2, -1
+@ sql/dd/impl/tables/columns.h, -2, -1
+@ sql/dd/impl/tables/dd_properties.cc, -2, -1
+@ sql/dd/impl/tables/events.cc, -2, -1
+@ sql/dd/impl/tables/events.h, -2, -1
+@ sql/dd/impl/tables/foreign_keys.cc, -2, -1
+@ sql/dd/impl/tables/foreign_keys.h, -2, -1
+@ sql/dd/impl/tables/indexes.cc, -2, -1
+@ sql/dd/impl/tables/indexes.h, -2, -1
+@ sql/dd/impl/tables/parameters.cc, -2, -1
+@ sql/dd/impl/tables/parameters.h, -2, -1
+@ sql/dd/impl/tables/resource_groups.cc, -2, -1
+@ sql/dd/impl/tables/resource_groups.h, -2, -1
+@ sql/dd/impl/tables/routines.cc, -2, -1
+@ sql/dd/impl/tables/routines.h, -2, -1
+@ sql/dd/impl/tables/schemata.cc, -2, -1
+@ sql/dd/impl/tables/schemata.h, -2, -1
+@ sql/dd/impl/tables/spatial_reference_systems.cc, -2, -1
+@ sql/dd/impl/tables/spatial_reference_systems.h, -2, -1
+@ sql/dd/impl/tables/table_partitions.cc, -2, -1
+@ sql/dd/impl/tables/table_partitions.h, -2, -1
+@ sql/dd/impl/tables/tables.cc, -2, -1
+@ sql/dd/impl/tables/tables.h, -2, -1
+@ sql/dd/impl/tables/triggers.cc, -2, -1
+@ sql/dd/impl/tables/triggers.h, -2, -1
+@ sql/dd/impl/transaction_impl.cc, -2, -1
+@ sql/dd/impl/types/abstract_table_impl.cc, -2, -1
+@ sql/dd/impl/types/check_constraint_impl.cc, -2, -1
+@ sql/dd/impl/types/check_constraint_impl.h, -2, -1
+@ sql/dd/impl/types/column_impl.cc, -2, -1
+@ sql/dd/impl/types/column_statistics_impl.cc, -2, -1
+@ sql/dd/impl/types/column_type_element_impl.cc, -2, -1
+@ sql/dd/impl/types/entity_object_impl.cc, -2, -1
+@ sql/dd/impl/types/foreign_key_element_impl.cc, -2, -1
+@ sql/dd/impl/types/foreign_key_impl.cc, -2, -1
+@ sql/dd/impl/types/foreign_key_impl.h, -2, -1
+@ sql/dd/impl/types/function_impl.h, -2, -1
+@ sql/dd/impl/types/index_element_impl.cc, -2, -1
+@ sql/dd/impl/types/index_element_impl.h, -2, -1
+@ sql/dd/impl/types/index_impl.cc, -2, -1
+@ sql/dd/impl/types/object_table_definition_impl.h, -2, -1
+@ sql/dd/impl/types/parameter_type_element_impl.cc, -2, -1
+@ sql/dd/impl/types/partition_impl.cc, -2, -1
+@ sql/dd/impl/types/partition_index_impl.cc, -2, -1
+@ sql/dd/impl/types/partition_value_impl.cc, -2, -1
+@ sql/dd/impl/types/procedure_impl.h, -2, -1
+@ sql/dd/impl/types/resource_group_impl.cc, -2, -1
+@ sql/dd/impl/types/routine_impl.cc, -2, -1
+@ sql/dd/impl/types/routine_impl.h, -2, -1
+@ sql/dd/impl/types/spatial_reference_system_impl.cc, -2, -1
+@ sql/dd/impl/types/table_impl.cc, -2, -1
+@ sql/dd/impl/types/tablespace_file_impl.cc, -2, -1
+@ sql/dd/impl/types/tablespace_impl.cc, -2, -1
+@ sql/dd/impl/types/trigger_impl.cc, -2, -1
+@ sql/dd/impl/types/view_impl.h, -2, -1
+@ sql/dd/impl/types/weak_object_impl.cc, -2, -1
+@ sql/dd/impl/upgrade/dd.cc, -2, -1
+@ sql/dd/impl/upgrade/server.cc, -2, -1
+@ sql/dd/impl/upgrade/server.h, -2, -1
+@ sql/dd/impl/utils.cc, -2, -1
+@ sql/dd/info_schema/metadata.cc, -2, -1
+@ sql/dd/info_schema/metadata.h, -2, -1
+@ sql/dd/info_schema/show.cc, -2, -1
+@ sql/dd/info_schema/show.h, -2, -1
+@ sql/dd/info_schema/show_query_builder.cc, -2, -1
+@ sql/dd/info_schema/show_query_builder.h, -2, -1
+@ sql/dd/info_schema/table_stats.cc, -2, -1
+@ sql/dd/ndbinfo_schema/init.cc, -2, -1
+@ sql/dd/performance_schema/init.cc, -2, -1
+@ sql/dd/properties.cc, -2, -1
+@ sql/dd/types/event.h, -2, -1
+@ sql/dd/types/index_element.h, -2, -1
+@ sql/dd/types/routine.h, -2, -1
+@ sql/dd/types/tablespace.h, -2, -1
+@ sql/dd/upgrade_57/event.cc, -2, -1
+@ sql/dd/upgrade_57/global.cc, -2, -1
+@ sql/dd/upgrade_57/routine.cc, -2, -1
+@ sql/dd/upgrade_57/schema.cc, -2, -1
+@ sql/dd/upgrade_57/table.cc, -2, -1
+@ sql/dd/upgrade_57/upgrade.cc, -2, -1
+@ sql/dd_sp.cc, -2, -1
+@ sql/dd_sql_view.cc, -2, -1
+@ sql/dd_table_share.cc, -2, -1
+@ sql/dd_table_share.h, -2, -1
+@ sql/debug_lock_order.cc, -2, -1
+@ sql/debug_sync.cc, -2, -1
+@ sql/debug_sync.h, -2, -1
+@ sql/default_values.cc, -2, -1
+@ sql/derror.cc, -2, -1
+@ sql/dynamic_ids.cc, -2, -1
+@ sql/event_data_objects.cc, -2, -1
+@ sql/event_data_objects.h, -2, -1
+@ sql/event_db_repository.cc, -2, -1
+@ sql/event_parse_data.cc, -2, -1
+@ sql/event_parse_data.h, -2, -1
+@ sql/event_queue.cc, -2, -1
+@ sql/event_queue.h, -2, -1
+@ sql/event_scheduler.cc, -2, -1
+@ sql/events.cc, -2, -1
+@ sql/field.cc, -2, -1
+@ sql/field.h, -2, -1
+@ sql/field_conv.cc, -2, -1
+@ sql/filesort.cc, -2, -1
+@ sql/gen_lex_hash.cc, -2, -1
+@ sql/gen_lex_token.cc, -2, -1
+@ sql/gis/srs/srs.cc, -2, -1
+@ sql/gis/st_units_of_measure.cc, -2, -1
+@ sql/gis/transform_functor.h, -2, -1
+@ sql/gstream.cc, -2, -1
+@ sql/gstream.h, -2, -1
+@ sql/handler.cc, -2, -1
+@ sql/handler.h, -2, -1
+@ sql/histograms/equi_height.cc, -2, -1
+@ sql/histograms/equi_height_bucket.cc, -2, -1
+@ sql/histograms/equi_height_bucket.h, -2, -1
+@ sql/histograms/histogram.cc, -2, -1
+@ sql/histograms/histogram.h, -2, -1
+@ sql/histograms/singleton.cc, -2, -1
+@ sql/histograms/singleton.h, -2, -1
+@ sql/histograms/value_map.cc, -2, -1
+@ sql/histograms/value_map.h, -2, -1
+@ sql/hostname_cache.cc, -2, -1
+@ sql/item.cc, -2, -1
+@ sql/item.h, -2, -1
+@ sql/item_buff.cc, -2, -1
+@ sql/item_cmpfunc.cc, -2, -1
+@ sql/item_cmpfunc.h, -2, -1
+@ sql/item_create.cc, -2, -1
+@ sql/item_func.cc, -2, -1
+@ sql/item_func.h, -2, -1
+@ sql/item_geofunc.cc, -2, -1
+@ sql/item_geofunc.h, -2, -1
+@ sql/item_geofunc_buffer.cc, -2, -1
+@ sql/item_geofunc_internal.cc, -2, -1
+@ sql/item_gtid_func.cc, -2, -1
+@ sql/item_gtid_func.h, -2, -1
+@ sql/item_inetfunc.cc, -2, -1
+@ sql/item_inetfunc.h, -2, -1
+@ sql/item_json_func.cc, -2, -1
+@ sql/item_json_func.h, -2, -1
+@ sql/item_pfs_func.cc, -2, -1
+@ sql/item_pfs_func.h, -2, -1
+@ sql/item_regexp_func.cc, -2, -1
+@ sql/item_regexp_func.h, -2, -1
+@ sql/item_row.cc, -2, -1
+@ sql/item_row.h, -2, -1
+@ sql/item_strfunc.cc, -2, -1
+@ sql/item_strfunc.h, -2, -1
+@ sql/item_subselect.cc, -2, -1
+@ sql/item_subselect.h, -2, -1
+@ sql/item_sum.cc, -2, -1
+@ sql/item_sum.h, -2, -1
+@ sql/item_timefunc.cc, -2, -1
+@ sql/item_timefunc.h, -2, -1
+@ sql/item_xmlfunc.cc, -2, -1
+@ sql/iterators/basic_row_iterators.h, -2, -1
+@ sql/iterators/bka_iterator.cc, -2, -1
+@ sql/iterators/composite_iterators.cc, -2, -1
+@ sql/iterators/composite_iterators.h, -2, -1
+@ sql/iterators/hash_join_buffer.cc, -2, -1
+@ sql/iterators/hash_join_buffer.h, -2, -1
+@ sql/iterators/hash_join_chunk.cc, -2, -1
+@ sql/iterators/hash_join_chunk.h, -2, -1
+@ sql/iterators/hash_join_iterator.cc, -2, -1
+@ sql/iterators/hash_join_iterator.h, -2, -1
+@ sql/iterators/ref_row_iterators.cc, -2, -1
+@ sql/join_optimizer/access_path.cc, -2, -1
+@ sql/join_optimizer/access_path.h, -2, -1
+@ sql/join_optimizer/bit_utils.h, -2, -1
+@ sql/join_optimizer/build_interesting_orders.cc, -2, -1
+@ sql/join_optimizer/cost_model.cc, -2, -1
+@ sql/join_optimizer/cost_model.h, -2, -1
+@ sql/join_optimizer/estimate_selectivity.cc, -2, -1
+@ sql/join_optimizer/estimate_selectivity.h, -2, -1
+@ sql/join_optimizer/explain_access_path.cc, -2, -1
+@ sql/join_optimizer/finalize_plan.cc, -2, -1
+@ sql/join_optimizer/graph_simplification.cc, -2, -1
+@ sql/join_optimizer/graph_simplification.h, -2, -1
+@ sql/join_optimizer/hypergraph.cc, -2, -1
+@ sql/join_optimizer/hypergraph.h, -2, -1
+@ sql/join_optimizer/interesting_orders.cc, -2, -1
+@ sql/join_optimizer/join_optimizer.cc, -2, -1
+@ sql/join_optimizer/make_join_hypergraph.cc, -2, -1
+@ sql/join_optimizer/make_join_hypergraph.h, -2, -1
+@ sql/join_optimizer/materialize_path_parameters.h, -2, -1
+@ sql/join_optimizer/overflow_bitset.h, -2, -1
+@ sql/join_optimizer/relational_expression.h, -2, -1
+@ sql/join_optimizer/walk_access_paths.h, -2, -1
+@ sql/json_schema.cc, -2, -1
+@ sql/key.cc, -2, -1
+@ sql/key_spec.cc, -2, -1
+@ sql/key_spec.h, -2, -1
+@ sql/keycaches.cc, -2, -1
+@ sql/lex.h, -2, -1
+@ sql/lock.cc, -2, -1
+@ sql/locked_tables_list.cc, -2, -1
+@ sql/locking_service_udf.cc, -2, -1
+@ sql/log.cc, -2, -1
+@ sql/log.h, -2, -1
+@ sql/log_event.cc, -2, -1
+@ sql/log_event.h, -2, -1
+@ sql/log_resource.cc, -2, -1
+@ sql/mdl.cc, -2, -1
+@ sql/mdl.h, -2, -1
+@ sql/memory/aligned_atomic.h, -2, -1
+@ sql/migrate_keyring.cc, -2, -1
+@ sql/mysql_tzinfo_to_sql.cc, -2, -1
+@ sql/mysqld.cc, -2, -1
+@ sql/mysqld.h, -2, -1
+@ sql/mysqld_thd_manager.cc, -2, -1
+@ sql/mysqld_thd_manager.h, -2, -1
+@ sql/named_pipe.cc, -2, -1
+@ sql/nt_servc.cc, -2, -1
+@ sql/nt_servc.h, -2, -1
+@ sql/opt_costconstantcache.cc, -2, -1
+@ sql/opt_costconstantcache.h, -2, -1
+@ sql/opt_costconstants.cc, -2, -1
+@ sql/opt_costconstants.h, -2, -1
+@ sql/opt_costmodel.cc, -2, -1
+@ sql/opt_costmodel.h, -2, -1
+@ sql/opt_explain.cc, -2, -1
+@ sql/opt_explain.h, -2, -1
+@ sql/opt_explain_format.cc, -2, -1
+@ sql/opt_explain_format.h, -2, -1
+@ sql/opt_explain_json.cc, -2, -1
+@ sql/opt_explain_json.h, -2, -1
+@ sql/opt_explain_traditional.cc, -2, -1
+@ sql/opt_hints.cc, -2, -1
+@ sql/opt_hints.h, -2, -1
+@ sql/opt_sum.cc, -2, -1
+@ sql/opt_trace.cc, -2, -1
+@ sql/opt_trace.h, -2, -1
+@ sql/opt_trace2server.cc, -2, -1
+@ sql/opt_trace_context.h, -2, -1
+@ sql/options_mysqld.h, -2, -1
+@ sql/options_parser.cc, -2, -1
+@ sql/parse_file.cc, -2, -1
+@ sql/parse_location.h, -2, -1
+@ sql/parse_tree_column_attrs.h, -2, -1
+@ sql/parse_tree_handler.cc, -2, -1
+@ sql/parse_tree_handler.h, -2, -1
+@ sql/parse_tree_helpers.cc, -2, -1
+@ sql/parse_tree_helpers.h, -2, -1
+@ sql/parse_tree_hints.cc, -2, -1
+@ sql/parse_tree_hints.h, -2, -1
+@ sql/parse_tree_items.cc, -2, -1
+@ sql/parse_tree_items.h, -2, -1
+@ sql/parse_tree_node_base.cc, -2, -1
+@ sql/parse_tree_node_base.h, -2, -1
+@ sql/parse_tree_nodes.cc, -2, -1
+@ sql/parse_tree_nodes.h, -2, -1
+@ sql/parse_tree_partitions.cc, -2, -1
+@ sql/parse_tree_partitions.h, -2, -1
+@ sql/parse_tree_window.cc, -2, -1
+@ sql/parse_tree_window.h, -2, -1
+@ sql/parser_service.cc, -2, -1
+@ sql/parser_yystype.h, -2, -1
+@ sql/partition_info.cc, -2, -1
+@ sql/partitioning/partition_handler.cc, -2, -1
+@ sql/persisted_variable.cc, -2, -1
+@ sql/protocol.h, -2, -1
+@ sql/protocol_callback.cc, -2, -1
+@ sql/protocol_callback.h, -2, -1
+@ sql/protocol_classic.cc, -2, -1
+@ sql/protocol_classic.h, -2, -1
+@ sql/psi_memory_key.cc, -2, -1
+@ sql/psi_memory_key.h, -2, -1
+@ sql/psi_memory_resource.cc, -2, -1
+@ sql/psi_memory_resource.h, -2, -1
+@ sql/query_result.cc, -2, -1
+@ sql/query_result.h, -2, -1
+@ sql/query_term.cc, -2, -1
+@ sql/query_term.h, -2, -1
+@ sql/range_optimizer/group_index_skip_scan_plan.cc, -2, -1
+@ sql/range_optimizer/index_range_scan.cc, -2, -1
+@ sql/range_optimizer/index_range_scan_plan.cc, -2, -1
+@ sql/range_optimizer/index_skip_scan.cc, -2, -1
+@ sql/range_optimizer/index_skip_scan_plan.cc, -2, -1
+@ sql/range_optimizer/index_skip_scan_plan.h, -2, -1
+@ sql/range_optimizer/range_analysis.cc, -2, -1
+@ sql/range_optimizer/range_optimizer.cc, -2, -1
+@ sql/range_optimizer/rowid_ordered_retrieval.cc, -2, -1
+@ sql/range_optimizer/rowid_ordered_retrieval_plan.cc, -2, -1
+@ sql/range_optimizer/rowid_ordered_retrieval_plan.h, -2, -1
+@ sql/range_optimizer/tree.cc, -2, -1
+@ sql/range_optimizer/tree.h, -2, -1
+@ sql/regexp/regexp_engine.h, -2, -1
+@ sql/regexp/regexp_facade.cc, -2, -1
+@ sql/replication.h, -2, -1
+@ sql/resourcegroups/resource_group_mgr.cc, -2, -1
+@ sql/resourcegroups/resource_group_mgr.h, -2, -1
+@ sql/resourcegroups/resource_group_sql_cmd.cc, -2, -1
+@ sql/restart_monitor_win.cc, -2, -1
+@ sql/rpl_applier_reader.cc, -2, -1
+@ sql/rpl_async_conn_failover.cc, -2, -1
+@ sql/rpl_async_conn_failover_add_managed_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_add_source_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_configuration_propagation.cc, -2, -1
+@ sql/rpl_async_conn_failover_delete_managed_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_delete_source_udf.cc, -2, -1
+@ sql/rpl_async_conn_failover_table_operations.h, -2, -1
+@ sql/rpl_binlog_sender.cc, -2, -1
+@ sql/rpl_binlog_sender.h, -2, -1
+@ sql/rpl_channel_service_interface.cc, -2, -1
+@ sql/rpl_context.cc, -2, -1
+@ sql/rpl_context.h, -2, -1
+@ sql/rpl_filter.cc, -2, -1
+@ sql/rpl_group_replication.cc, -2, -1
+@ sql/rpl_group_replication.h, -2, -1
+@ sql/rpl_gtid.h, -2, -1
+@ sql/rpl_gtid_misc.cc, -2, -1
+@ sql/rpl_gtid_mode.cc, -2, -1
+@ sql/rpl_gtid_persist.cc, -2, -1
+@ sql/rpl_gtid_set.cc, -2, -1
+@ sql/rpl_gtid_sid_map.cc, -2, -1
+@ sql/rpl_gtid_specification.cc, -2, -1
+@ sql/rpl_gtid_state.cc, -2, -1
+@ sql/rpl_handler.cc, -2, -1
+@ sql/rpl_info.cc, -2, -1
+@ sql/rpl_info.h, -2, -1
+@ sql/rpl_info_factory.cc, -2, -1
+@ sql/rpl_info_file.cc, -2, -1
+@ sql/rpl_info_table.cc, -2, -1
+@ sql/rpl_info_table_access.cc, -2, -1
+@ sql/rpl_injector.cc, -2, -1
+@ sql/rpl_injector.h, -2, -1
+@ sql/rpl_log_encryption.cc, -2, -1
+@ sql/rpl_mi.cc, -2, -1
+@ sql/rpl_mi.h, -2, -1
+@ sql/rpl_msr.cc, -2, -1
+@ sql/rpl_mta_submode.cc, -2, -1
+@ sql/rpl_mta_submode.h, -2, -1
+@ sql/rpl_record.cc, -2, -1
+@ sql/rpl_replica.cc, -2, -1
+@ sql/rpl_replica.h, -2, -1
+@ sql/rpl_replica_commit_order_manager.cc, -2, -1
+@ sql/rpl_replica_until_options.cc, -2, -1
+@ sql/rpl_replica_until_options.h, -2, -1
+@ sql/rpl_reporting.h, -2, -1
+@ sql/rpl_rli.cc, -2, -1
+@ sql/rpl_rli.h, -2, -1
+@ sql/rpl_rli_pdb.cc, -2, -1
+@ sql/rpl_rli_pdb.h, -2, -1
+@ sql/rpl_source.cc, -2, -1
+@ sql/rpl_source.h, -2, -1
+@ sql/rpl_sys_table_access.cc, -2, -1
+@ sql/rpl_sys_table_access.h, -2, -1
+@ sql/rpl_table_access.cc, -2, -1
+@ sql/rpl_transaction_write_set_ctx.cc, -2, -1
+@ sql/rpl_trx_boundary_parser.cc, -2, -1
+@ sql/rpl_trx_boundary_parser.h, -2, -1
+@ sql/rpl_trx_tracking.cc, -2, -1
+@ sql/rpl_trx_tracking.h, -2, -1
+@ sql/rpl_utility.cc, -2, -1
+@ sql/rpl_write_set_handler.cc, -2, -1
+@ sql/rules_table_service.cc, -2, -1
+@ sql/sd_notify.cc, -2, -1
+@ sql/server_component/audit_api_connection_service_imp.cc, -2, -1
+@ sql/server_component/audit_api_message_service_imp.cc, -2, -1
+@ sql/server_component/clone_protocol_service.cc, -2, -1
+@ sql/server_component/component_sys_var_service.cc, -2, -1
+@ sql/server_component/dynamic_loader_path_filter.cc, -2, -1
+@ sql/server_component/log_builtins.cc, -2, -1
+@ sql/server_component/log_builtins_filter.cc, -2, -1
+@ sql/server_component/log_sink_buffer.cc, -2, -1
+@ sql/server_component/log_sink_perfschema.cc, -2, -1
+@ sql/server_component/log_sink_trad.cc, -2, -1
+@ sql/server_component/log_source_backtrace.cc, -2, -1
+@ sql/server_component/mysql_audit_print_service_double_data_source_imp.cc, -2, -1
+@ sql/server_component/mysql_audit_print_service_longlong_data_source_imp.cc, -2, -1
+@ sql/server_component/mysql_command_consumer_imp.cc, -2, -1
+@ sql/server_component/mysql_command_delegates.cc, -2, -1
+@ sql/server_component/mysql_command_delegates.h, -2, -1
+@ sql/server_component/mysql_command_services_imp.cc, -2, -1
+@ sql/server_component/mysql_connection_attributes_iterator_imp.cc, -2, -1
+@ sql/server_component/mysql_query_attributes_imp.cc, -2, -1
+@ sql/server_component/mysql_server_keyring_lockable_imp.cc, -2, -1
+@ sql/server_component/mysql_server_keyring_lockable_imp.h, -2, -1
+@ sql/server_component/mysql_simple_error_log_imp.cc, -2, -1
+@ sql/server_component/mysql_string_service.cc, -2, -1
+@ sql/server_component/mysql_system_variable_update_imp.cc, -2, -1
+@ sql/server_component/mysql_thd_attributes_imp.cc, -2, -1
+@ sql/server_component/mysql_thd_store_imp.cc, -2, -1
+@ sql/server_component/mysql_thd_store_imp.h, -2, -1
+@ sql/server_component/ongoing_transaction_query_service.cc, -2, -1
+@ sql/server_component/page_track_service.cc, -2, -1
+@ sql/server_component/persistent_dynamic_loader.cc, -2, -1
+@ sql/server_component/security_context_imp.cc, -2, -1
+@ sql/server_component/server_component.cc, -2, -1
+@ sql/server_component/set_variables_helper.cc, -2, -1
+@ sql/server_component/storing_auto_thd.cc, -2, -1
+@ sql/server_component/table_access_service.cc, -2, -1
+@ sql/server_component/udf_metadata_imp.cc, -2, -1
+@ sql/session_tracker.cc, -2, -1
+@ sql/session_tracker.h, -2, -1
+@ sql/set_var.cc, -2, -1
+@ sql/set_var.h, -2, -1
+@ sql/signal_handler.cc, -2, -1
+@ sql/sort_param.h, -2, -1
+@ sql/sp.cc, -2, -1
+@ sql/sp.h, -2, -1
+@ sql/sp_cache.cc, -2, -1
+@ sql/sp_head.cc, -2, -1
+@ sql/sp_head.h, -2, -1
+@ sql/sp_instr.cc, -2, -1
+@ sql/sp_instr.h, -2, -1
+@ sql/sp_pcontext.cc, -2, -1
+@ sql/sp_rcontext.cc, -2, -1
+@ sql/sp_rcontext.h, -2, -1
+@ sql/spatial.cc, -2, -1
+@ sql/spatial.h, -2, -1
+@ sql/sql_admin.cc, -2, -1
+@ sql/sql_admin.h, -2, -1
+@ sql/sql_alloc_error_handler.cc, -2, -1
+@ sql/sql_alter.cc, -2, -1
+@ sql/sql_alter.h, -2, -1
+@ sql/sql_alter_instance.cc, -2, -1
+@ sql/sql_audit.cc, -2, -1
+@ sql/sql_audit.h, -2, -1
+@ sql/sql_backup_lock.cc, -2, -1
+@ sql/sql_base.cc, -2, -1
+@ sql/sql_base.h, -2, -1
+@ sql/sql_binlog.cc, -2, -1
+@ sql/sql_bitmap.h, -2, -1
+@ sql/sql_bootstrap.cc, -2, -1
+@ sql/sql_call.cc, -2, -1
+@ sql/sql_check_constraint.cc, -2, -1
+@ sql/sql_class.cc, -2, -1
+@ sql/sql_class.h, -2, -1
+@ sql/sql_cmd.h, -2, -1
+@ sql/sql_cmd_ddl.h, -2, -1
+@ sql/sql_cmd_ddl_table.cc, -2, -1
+@ sql/sql_cmd_ddl_table.h, -2, -1
+@ sql/sql_cmd_dml.h, -2, -1
+@ sql/sql_cmd_srs.cc, -2, -1
+@ sql/sql_component.cc, -2, -1
+@ sql/sql_connect.cc, -2, -1
+@ sql/sql_const.h, -2, -1
+@ sql/sql_const_folding.cc, -2, -1
+@ sql/sql_constraint.cc, -2, -1
+@ sql/sql_cursor.cc, -2, -1
+@ sql/sql_db.cc, -2, -1
+@ sql/sql_delete.cc, -2, -1
+@ sql/sql_derived.cc, -2, -1
+@ sql/sql_digest.cc, -2, -1
+@ sql/sql_digest.h, -2, -1
+@ sql/sql_do.cc, -2, -1
+@ sql/sql_do.h, -2, -1
+@ sql/sql_error.cc, -2, -1
+@ sql/sql_error.h, -2, -1
+@ sql/sql_executor.cc, -2, -1
+@ sql/sql_executor.h, -2, -1
+@ sql/sql_get_diagnostics.cc, -2, -1
+@ sql/sql_gipk.cc, -2, -1
+@ sql/sql_gipk.h, -2, -1
+@ sql/sql_handler.cc, -2, -1
+@ sql/sql_help.cc, -2, -1
+@ sql/sql_import.cc, -2, -1
+@ sql/sql_initialize.cc, -2, -1
+@ sql/sql_insert.cc, -2, -1
+@ sql/sql_insert.h, -2, -1
+@ sql/sql_lex.cc, -2, -1
+@ sql/sql_lex.h, -2, -1
+@ sql/sql_lex_hash.cc, -2, -1
+@ sql/sql_lex_hints.cc, -2, -1
+@ sql/sql_lex_hints.h, -2, -1
+@ sql/sql_list.h, -2, -1
+@ sql/sql_load.cc, -2, -1
+@ sql/sql_load.h, -2, -1
+@ sql/sql_locale.cc, -2, -1
+@ sql/sql_manager.cc, -2, -1
+@ sql/sql_optimizer.cc, -2, -1
+@ sql/sql_optimizer.h, -2, -1
+@ sql/sql_parse.cc, -2, -1
+@ sql/sql_parse.h, -2, -1
+@ sql/sql_partition.cc, -2, -1
+@ sql/sql_partition_admin.cc, -2, -1
+@ sql/sql_planner.cc, -2, -1
+@ sql/sql_plugin.cc, -2, -1
+@ sql/sql_plugin_var.cc, -2, -1
+@ sql/sql_plugin_var.h, -2, -1
+@ sql/sql_prepare.cc, -2, -1
+@ sql/sql_profile.cc, -2, -1
+@ sql/sql_query_rewrite.cc, -2, -1
+@ sql/sql_reload.cc, -2, -1
+@ sql/sql_resolver.cc, -2, -1
+@ sql/sql_restart_server.cc, -2, -1
+@ sql/sql_rewrite.cc, -2, -1
+@ sql/sql_select.cc, -2, -1
+@ sql/sql_select.h, -2, -1
+@ sql/sql_servers.cc, -2, -1
+@ sql/sql_show.cc, -2, -1
+@ sql/sql_show.h, -2, -1
+@ sql/sql_show_processlist.cc, -2, -1
+@ sql/sql_show_status.cc, -2, -1
+@ sql/sql_signal.cc, -2, -1
+@ sql/sql_state.cc, -2, -1
+@ sql/sql_system_table_check.h, -2, -1
+@ sql/sql_table.cc, -2, -1
+@ sql/sql_tablespace.cc, -2, -1
+@ sql/sql_test.cc, -2, -1
+@ sql/sql_thd_api.cc, -2, -1
+@ sql/sql_thd_internal_api.cc, -2, -1
+@ sql/sql_thd_internal_api.h, -2, -1
+@ sql/sql_time.cc, -2, -1
+@ sql/sql_time.h, -2, -1
+@ sql/sql_timer.cc, -2, -1
+@ sql/sql_tmp_table.cc, -2, -1
+@ sql/sql_trigger.cc, -2, -1
+@ sql/sql_truncate.cc, -2, -1
+@ sql/sql_truncate.h, -2, -1
+@ sql/sql_udf.cc, -2, -1
+@ sql/sql_union.cc, -2, -1
+@ sql/sql_update.cc, -2, -1
+@ sql/sql_view.cc, -2, -1
+@ sql/srv_session.cc, -2, -1
+@ sql/srv_session.h, -2, -1
+@ sql/srv_session_info_service.cc, -2, -1
+@ sql/srv_session_service.cc, -2, -1
+@ sql/ssl_acceptor_context_data.cc, -2, -1
+@ sql/ssl_acceptor_context_operator.cc, -2, -1
+@ sql/ssl_init_callback.cc, -2, -1
+@ sql/ssl_init_callback.h, -2, -1
+@ sql/ssl_wrapper_service.cc, -2, -1
+@ sql/stream_cipher.cc, -2, -1
+@ sql/strfunc.cc, -2, -1
+@ sql/strfunc.h, -2, -1
+@ sql/string_service.cc, -2, -1
+@ sql/sys_vars.cc, -2, -1
+@ sql/sys_vars.h, -2, -1
+@ sql/system_variables.h, -2, -1
+@ sql/table.cc, -2, -1
+@ sql/table.h, -2, -1
+@ sql/table_cache.h, -2, -1
+@ sql/table_function.cc, -2, -1
+@ sql/table_trigger_dispatcher.cc, -2, -1
+@ sql/tc_log.cc, -2, -1
+@ sql/tc_log.h, -2, -1
+@ sql/thd_raii.h, -2, -1
+@ sql/thr_malloc.cc, -2, -1
+@ sql/time_zone_common.cc, -2, -1
+@ sql/transaction.cc, -2, -1
+@ sql/transaction_info.cc, -2, -1
+@ sql/transaction_info.h, -2, -1
+@ sql/trigger.cc, -2, -1
+@ sql/trigger.h, -2, -1
+@ sql/trigger_chain.cc, -2, -1
+@ sql/trigger_creation_ctx.cc, -2, -1
+@ sql/tztime.cc, -2, -1
+@ sql/udf_example.cc, -2, -1
+@ sql/uniques.cc, -2, -1
+@ sql/window.cc, -2, -1
+@ sql/window.h, -2, -1
+@ sql/xa.cc, -2, -1
+@ sql/xa.h, -2, -1
+@ sql/xa/recovery.cc, -2, -1
+@ sql/xa/transaction_cache.cc, -2, -1
+@ sql/xa_aux.h, -2, -1
+@ storage/ndb/test/crund/schema_driven_load_unfinished/tws_cpp/NdbApiTwsDriver.cpp, -2, -1
+@ storage/ndb/test/crund/src/cpp/NdbapiAB.cpp, -2, -1
+@ storage/ndb/test/crund/src/cpp/NdbapiTwsDriver.cpp, -2, -1
+@ storage/ndb/test/ndbapi/bench/userInterface.cpp, -2, -1
+@ storage/temptable/include/temptable/allocator.h, -2, -1
+@ storage/temptable/include/temptable/cell_calculator.h, -2, -1
+@ storage/temptable/include/temptable/indexed_column.h, -2, -1
+@ storage/temptable/include/temptable/lock_free_type.h, -2, -1
+@ storage/temptable/src/row.cc, -2, -1
+@ storage/temptable/src/table.cc, -2, -1
+@ mysql-test/lib/My/SafeProcess/safe_kill_win.cc, -2, -1
+@ mysql-test/lib/My/SafeProcess/safe_process.cc, -2, -1
+@ mysql-test/lib/My/SafeProcess/safe_process_win.cc, -2, -1
+@ storage/ndb/plugin/ha_ndb_ddl_fk.cc, -2, -1
+@ storage/ndb/plugin/ha_ndb_index_stat.cc, -2, -1
+@ storage/ndb/plugin/ha_ndbcluster.cc, -2, -1
+@ storage/ndb/plugin/ha_ndbcluster.h, -2, -1
+@ storage/ndb/plugin/ha_ndbcluster_binlog.cc, -2, -1
+@ storage/ndb/plugin/ha_ndbcluster_binlog.h, -2, -1
+@ storage/ndb/plugin/ha_ndbcluster_cond.cc, -2, -1
+@ storage/ndb/plugin/ha_ndbcluster_connection.cc, -2, -1
+@ storage/ndb/plugin/ha_ndbinfo.cc, -2, -1
+@ storage/ndb/plugin/ha_ndbinfo_sql.cc, -2, -1
+@ storage/ndb/plugin/ha_query_plan.cc, -2, -1
+@ storage/ndb/plugin/ndb_applier.h, -2, -1
+@ storage/ndb/plugin/ndb_binlog_extra_row_info.h, -2, -1
+@ storage/ndb/plugin/ndb_binlog_thread.cc, -2, -1
+@ storage/ndb/plugin/ndb_conflict.cc, -2, -1
+@ storage/ndb/plugin/ndb_conflict.h, -2, -1
+@ storage/ndb/plugin/ndb_dd_sync.cc, -2, -1
+@ storage/ndb/plugin/ndb_dd_upgrade_table.cc, -2, -1
+@ storage/ndb/plugin/ndb_metadata_change_monitor.cc, -2, -1
+@ storage/ndb/plugin/ndb_metadata_sync.cc, -2, -1
+@ storage/ndb/plugin/ndb_plugin_reference.cc, -2, -1
+@ storage/ndb/plugin/ndb_repl_tab.cc, -2, -1
+@ storage/ndb/plugin/ndb_replica.h, -2, -1
+@ storage/ndb/plugin/ndb_share.cc, -2, -1
+@ storage/ndb/plugin/ndb_share.h, -2, -1
+@ storage/ndb/plugin/ndb_stored_grants.cc, -2, -1
+@ storage/ndb/include/ndbapi/Ndb.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbBlob.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbDictionary.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbError.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbEventOperation.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbInterpretedCode.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbOperation.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbRecAttr.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbScanOperation.hpp, -2, -1
+@ storage/ndb/include/ndbapi/NdbTransaction.hpp, -2, -1
+@ storage/ndb/include/ndbapi/ndb_cluster_connection.hpp, -2, -1
+@ mysys/charset.cc, -2, -1
+@ mysys/crypt_genhash_impl.cc, -2, -1
+@ mysys/dbug.cc, -2, -1
+@ mysys/errors.cc, -2, -1
+@ mysys/keyring_operations_helper.cc, -2, -1
+@ mysys/kqueue_timers.cc, -2, -1
+@ mysys/lf_dynarray.cc, -2, -1
+@ mysys/lf_hash.cc, -2, -1
+@ mysys/mf_cache.cc, -2, -1
+@ mysys/mf_dirname.cc, -2, -1
+@ mysys/mf_format.cc, -2, -1
+@ mysys/mf_iocache.cc, -2, -1
+@ mysys/mf_iocache2.cc, -2, -1
+@ mysys/mf_keycache.cc, -2, -1
+@ mysys/mf_keycaches.cc, -2, -1
+@ mysys/mf_loadpath.cc, -2, -1
+@ mysys/mf_pack.cc, -2, -1
+@ mysys/mf_path.cc, -2, -1
+@ mysys/mf_tempdir.cc, -2, -1
+@ mysys/mf_tempfile.cc, -2, -1
+@ mysys/mf_unixpath.cc, -2, -1
+@ mysys/my_access.cc, -2, -1
+@ mysys/my_aligned_malloc.cc, -2, -1
+@ mysys/my_alloc.cc, -2, -1
+@ mysys/my_bitmap.cc, -2, -1
+@ mysys/my_compare.cc, -2, -1
+@ mysys/my_conio.cc, -2, -1
+@ mysys/my_default.cc, -2, -1
+@ mysys/my_delete.cc, -2, -1
+@ mysys/my_error.cc, -2, -1
+@ mysys/my_fopen.cc, -2, -1
+@ mysys/my_gethwaddr.cc, -2, -1
+@ mysys/my_getopt.cc, -2, -1
+@ mysys/my_getwd.cc, -2, -1
+@ mysys/my_init.cc, -2, -1
+@ mysys/my_kdf.h, -2, -1
+@ mysys/my_largepage.cc, -2, -1
+@ mysys/my_lib.cc, -2, -1
+@ mysys/my_malloc.cc, -2, -1
+@ mysys/my_md5.cc, -2, -1
+@ mysys/my_mmap.cc, -2, -1
+@ mysys/my_once.cc, -2, -1
+@ mysys/my_open.cc, -2, -1
+@ mysys/my_openssl_fips.cc, -2, -1
+@ mysys/my_rnd.cc, -2, -1
+@ mysys/my_static.cc, -2, -1
+@ mysys/my_string.cc, -2, -1
+@ mysys/my_symlink.cc, -2, -1
+@ mysys/my_sync.cc, -2, -1
+@ mysys/my_syslog.cc, -2, -1
+@ mysys/my_systime.cc, -2, -1
+@ mysys/my_thr_init.cc, -2, -1
+@ mysys/my_thread.cc, -2, -1
+@ mysys/my_time.cc, -2, -1
+@ mysys/my_user.cc, -2, -1
+@ mysys/my_windac.cc, -2, -1
+@ mysys/my_winfile.cc, -2, -1
+@ mysys/mysys_priv.h, -2, -1
+@ mysys/print_version.cc, -2, -1
+@ mysys/psi_noop.cc, -2, -1
+@ mysys/stacktrace.cc, -2, -1
+@ mysys/thr_lock.cc, -2, -1
+@ mysys/thr_mutex.cc, -2, -1
+@ mysys/thr_rwlock.cc, -2, -1
+@ mysys/tree.cc, -2, -1
+@ mysys/typelib.cc, -2, -1
+@ mysys/unhex.cc, -2, -1
+@ mysys/win_timers.cc, -2, -1
+@ include/base64.h, -2, -1
+@ include/big_endian.h, -2, -1
+@ include/crypt_genhash_impl.h, -2, -1
+@ include/decimal.h, -2, -1
+@ include/dh_ecdh_config.h, -2, -1
+@ include/errmsg.h, -2, -1
+@ include/field_types.h, -2, -1
+@ include/ft_global.h, -2, -1
+@ include/integer_digits.h, -2, -1
+@ include/jemalloc_win.h, -2, -1
+@ include/lf.h, -2, -1
+@ include/m_string.h, -2, -1
+@ include/manifest.h, -2, -1
+@ include/map_helpers.h, -2, -1
+@ include/mem_root_deque.h, -2, -1
+@ include/my_alloc.h, -2, -1
+@ include/my_bit.h, -2, -1
+@ include/my_compare.h, -2, -1
+@ include/my_compiler.h, -2, -1
+@ include/my_dbug.h, -2, -1
+@ include/my_default.h, -2, -1
+@ include/my_double2ulonglong.h, -2, -1
+@ include/my_md5.h, -2, -1
+@ include/my_psi_config.h, -2, -1
+@ include/my_rnd.h, -2, -1
+@ include/my_sharedlib.h, -2, -1
+@ include/my_sqlcommand.h, -2, -1
+@ include/my_sys.h, -2, -1
+@ include/my_tree.h, -2, -1
+@ include/my_xml.h, -2, -1
+@ include/myisam.h, -2, -1
+@ include/myisampack.h, -2, -1
+@ include/mysql.h, -2, -1
+@ include/mysql/client_plugin.h, -2, -1
+@ include/mysql/components/library_mysys/instrumented_mutex.h, -2, -1
+@ include/mysql/components/services/bits/my_thread_bits.h, -2, -1
+@ include/mysql/components/services/component_sys_var_service.h, -2, -1
+@ include/mysql/components/services/dynamic_privilege.h, -2, -1
+@ include/mysql/components/services/log_builtins_filter.h, -2, -1
+@ include/mysql/components/services/log_shared.h, -2, -1
+@ include/mysql/components/services/my_host_application_signal.h, -2, -1
+@ include/mysql/components/services/mysql_scheduler.h, -2, -1
+@ include/mysql/components/services/mysql_thd_attributes.h, -2, -1
+@ include/mysql/components/services/mysql_thd_store_service.h, -2, -1
+@ include/mysql/components/services/pfs_plugin_table_service.h, -2, -1
+@ include/mysql/components/services/reference_caching.h, -2, -1
+@ include/mysql/group_replication_priv.h, -2, -1
+@ include/mysql/plugin.h, -2, -1
+@ include/mysql/plugin_audit.h, -2, -1
+@ include/mysql/plugin_ftparser.h, -2, -1
+@ include/mysql/psi/mysql_file.h, -2, -1
+@ include/mysql/psi/mysql_memory.h, -2, -1
+@ include/mysql/psi/mysql_socket.h, -2, -1
+@ include/mysql/psi/psi_data_lock.h, -2, -1
+@ include/mysql/service_command.h, -2, -1
+@ include/mysql/service_locking.h, -2, -1
+@ include/mysql/service_my_plugin_log.h, -2, -1
+@ include/mysql/service_mysql_keyring.h, -2, -1
+@ include/mysql/service_rules_table.h, -2, -1
+@ include/mysql/service_srv_session_info.h, -2, -1
+@ include/mysql_com.h, -2, -1
+@ include/password.h, -2, -1
+@ include/sql_common.h, -2, -1
+@ include/sql_string.h, -2, -1
+@ include/sslopt-case.h, -2, -1
+@ include/sslopt-longopts.h, -2, -1
+@ include/sslopt-vars.h, -2, -1
+@ include/template_utils.h, -2, -1
+@ include/thr_cond.h, -2, -1
+@ include/tls_ciphers.h, -2, -1
+@ include/violite.h, -2, -1
+@ storage/myisam/ft_boolean_search.cc, -2, -1
+@ storage/myisam/ft_nlq_search.cc, -2, -1
+@ storage/myisam/ft_parser.cc, -2, -1
+@ storage/myisam/ft_static.cc, -2, -1
+@ storage/myisam/ft_stopwords.cc, -2, -1
+@ storage/myisam/ft_update.cc, -2, -1
+@ storage/myisam/ftdefs.h, -2, -1
+@ storage/myisam/ha_myisam.cc, -2, -1
+@ storage/myisam/mi_check.cc, -2, -1
+@ storage/myisam/mi_create.cc, -2, -1
+@ storage/myisam/mi_dbug.cc, -2, -1
+@ storage/myisam/mi_key.cc, -2, -1
+@ storage/myisam/mi_open.cc, -2, -1
+@ storage/myisam/mi_search.cc, -2, -1
+@ storage/myisam/mi_static.cc, -2, -1
+@ storage/myisam/mi_unique.cc, -2, -1
+@ storage/myisam/myisam_ftdump.cc, -2, -1
+@ storage/myisam/myisamchk.cc, -2, -1
+@ storage/myisam/myisamdef.h, -2, -1
+@ storage/myisam/myisamlog.cc, -2, -1
+@ storage/myisam/myisampack.cc, -2, -1
+@ storage/myisam/sp_key.cc, -2, -1
+@ storage/ndb/src/mgmclient/CommandInterpreter.cpp, -2, -1
+@ storage/ndb/src/mgmclient/main.cpp, -2, -1
+@ storage/ndb/src/mgmclient/ndb_mgmclient.hpp, -2, -1
+@ storage/ndb/include/kernel/signaldata/DictTabInfo.hpp, -2, -1
+@ storage/ndb/src/ndbjtie/NdbApiWrapper.hpp, -2, -1
+@ storage/ndb/src/ndbjtie/ndbapi_jtie.hpp, -2, -1
+@ storage/innobase/api/api0api.cc, -2, -1
+@ storage/innobase/btr/btr0btr.cc, -2, -1
+@ storage/innobase/btr/btr0cur.cc, -2, -1
+@ storage/innobase/btr/btr0load.cc, -2, -1
+@ storage/innobase/btr/btr0pcur.cc, -2, -1
+@ storage/innobase/buf/buf0buf.cc, -2, -1
+@ storage/innobase/buf/buf0dblwr.cc, -2, -1
+@ storage/innobase/buf/buf0flu.cc, -2, -1
+@ storage/innobase/buf/buf0lru.cc, -2, -1
+@ storage/innobase/buf/buf0rea.cc, -2, -1
+@ storage/innobase/buf/checksum.cc, -2, -1
+@ storage/innobase/clone/clone0api.cc, -2, -1
+@ storage/innobase/clone/clone0repl.cc, -2, -1
+@ storage/innobase/data/data0data.cc, -2, -1
+@ storage/innobase/ddl/ddl0builder.cc, -2, -1
+@ storage/innobase/ddl/ddl0loader.cc, -2, -1
+@ storage/innobase/dict/dict0dd.cc, -2, -1
+@ storage/innobase/dict/dict0dict.cc, -2, -1
+@ storage/innobase/dict/dict0mem.cc, -2, -1
+@ storage/innobase/dict/dict0sdi.cc, -2, -1
+@ storage/innobase/dict/dict0stats.cc, -2, -1
+@ storage/innobase/fil/fil0fil.cc, -2, -1
+@ storage/innobase/fsp/fsp0fsp.cc, -2, -1
+@ storage/innobase/fsp/fsp0sysspace.cc, -2, -1
+@ storage/innobase/fts/fts0fts.cc, -2, -1
+@ storage/innobase/fts/fts0opt.cc, -2, -1
+@ storage/innobase/fts/fts0plugin.cc, -2, -1
+@ storage/innobase/fts/fts0que.cc, -2, -1
+@ storage/innobase/handler/ha_innodb.cc, -2, -1
+@ storage/innobase/handler/ha_innodb.h, -2, -1
+@ storage/innobase/handler/ha_innopart.cc, -2, -1
+@ storage/innobase/handler/ha_innopart.h, -2, -1
+@ storage/innobase/handler/handler0alter.cc, -2, -1
+@ storage/innobase/handler/i_s.cc, -2, -1
+@ storage/innobase/handler/p_s.cc, -2, -1
+@ storage/innobase/include/arch0arch.h, -2, -1
+@ storage/innobase/include/btr0btr.h, -2, -1
+@ storage/innobase/include/buf0buf.h, -2, -1
+@ storage/innobase/include/buf0dblwr.h, -2, -1
+@ storage/innobase/include/buf0flu.h, -2, -1
+@ storage/innobase/include/buf0rea.h, -2, -1
+@ storage/innobase/include/data0data.h, -2, -1
+@ storage/innobase/include/data0type.h, -2, -1
+@ storage/innobase/include/db0err.h, -2, -1
+@ storage/innobase/include/ddl0impl-buffer.h, -2, -1
+@ storage/innobase/include/ddl0impl-builder.h, -2, -1
+@ storage/innobase/include/detail/ut/large_page_alloc-osx.h, -2, -1
+@ storage/innobase/include/dict0dd.h, -2, -1
+@ storage/innobase/include/dict0mem.h, -2, -1
+@ storage/innobase/include/fil0fil.h, -2, -1
+@ storage/innobase/include/fil0types.h, -2, -1
+@ storage/innobase/include/fsp0fsp.h, -2, -1
+@ storage/innobase/include/fts0ast.h, -2, -1
+@ storage/innobase/include/fts0fts.h, -2, -1
+@ storage/innobase/include/fts0priv.h, -2, -1
+@ storage/innobase/include/fts0tokenize.h, -2, -1
+@ storage/innobase/include/fts0types.h, -2, -1
+@ storage/innobase/include/ha_prototypes.h, -2, -1
+@ storage/innobase/include/log0ddl.h, -2, -1
+@ storage/innobase/include/log0recv.h, -2, -1
+@ storage/innobase/include/log0sys.h, -2, -1
+@ storage/innobase/include/mem0mem.h, -2, -1
+@ storage/innobase/include/mtr0log.h, -2, -1
+@ storage/innobase/include/os0file.h, -2, -1
+@ storage/innobase/include/os0numa.h, -2, -1
+@ storage/innobase/include/os0thread.h, -2, -1
+@ storage/innobase/include/page0page.h, -2, -1
+@ storage/innobase/include/read0read.h, -2, -1
+@ storage/innobase/include/row0pread-adapter.h, -2, -1
+@ storage/innobase/include/srv0srv.h, -2, -1
+@ storage/innobase/include/sync0rw.h, -2, -1
+@ storage/innobase/include/sync0sync.h, -2, -1
+@ storage/innobase/include/sync0types.h, -2, -1
+@ storage/innobase/include/trx0i_s.h, -2, -1
+@ storage/innobase/include/trx0purge.h, -2, -1
+@ storage/innobase/include/ut0core.h, -2, -1
+@ storage/innobase/include/ut0dbg.h, -2, -1
+@ storage/innobase/include/ut0log.h, -2, -1
+@ storage/innobase/include/ut0mutex.h, -2, -1
+@ storage/innobase/include/ut0new.h, -2, -1
+@ storage/innobase/include/ut0rnd.h, -2, -1
+@ storage/innobase/include/ut0test.h, -2, -1
+@ storage/innobase/include/ut0ut.h, -2, -1
+@ storage/innobase/lob/lob0lob.cc, -2, -1
+@ storage/innobase/log/log0ddl.cc, -2, -1
+@ storage/innobase/log/log0files_governor.cc, -2, -1
+@ storage/innobase/log/log0log.cc, -2, -1
+@ storage/innobase/log/log0meb.cc, -2, -1
+@ storage/innobase/log/log0recv.cc, -2, -1
+@ storage/innobase/mtr/mtr0log.cc, -2, -1
+@ storage/innobase/mtr/mtr0mtr.cc, -2, -1
+@ storage/innobase/os/os0file.cc, -2, -1
+@ storage/innobase/page/page0page.cc, -2, -1
+@ storage/innobase/read/read0read.cc, -2, -1
+@ storage/innobase/rem/rec.h, -2, -1
+@ storage/innobase/rem/rem0cmp.cc, -2, -1
+@ storage/innobase/rem/rem0rec.cc, -2, -1
+@ storage/innobase/row/row0import.cc, -2, -1
+@ storage/innobase/row/row0ins.cc, -2, -1
+@ storage/innobase/row/row0mysql.cc, -2, -1
+@ storage/innobase/row/row0pread-adapter.cc, -2, -1
+@ storage/innobase/row/row0pread-histogram.cc, -2, -1
+@ storage/innobase/row/row0purge.cc, -2, -1
+@ storage/innobase/row/row0quiesce.cc, -2, -1
+@ storage/innobase/srv/srv0mon.cc, -2, -1
+@ storage/innobase/srv/srv0start.cc, -2, -1
+@ storage/innobase/sync/sync0debug.cc, -2, -1
+@ storage/innobase/sync/sync0rw.cc, -2, -1
+@ storage/innobase/sync/sync0sync.cc, -2, -1
+@ storage/innobase/trx/trx0i_s.cc, -2, -1
+@ storage/innobase/trx/trx0purge.cc, -2, -1
+@ storage/innobase/trx/trx0sys.cc, -2, -1
+@ storage/innobase/trx/trx0undo.cc, -2, -1
+@ storage/innobase/ut/crc32.cc, -2, -1
+@ storage/innobase/ut/ut0test.cc, -2, -1
+@ storage/innobase/ut/ut0ut.cc, -2, -1
+@ storage/ndb/tools/NdbImportCsv.cpp, -2, -1
+@ storage/ndb/tools/NdbImportImpl.cpp, -2, -1
+@ storage/ndb/tools/NdbImportUtil.cpp, -2, -1
+@ storage/ndb/tools/delete_all.cpp, -2, -1
+@ storage/ndb/tools/desc.cpp, -2, -1
+@ storage/ndb/tools/drop_index.cpp, -2, -1
+@ storage/ndb/tools/drop_tab.cpp, -2, -1
+@ storage/ndb/tools/listTables.cpp, -2, -1
+@ storage/ndb/tools/ndb_blob_tool.cpp, -2, -1
+@ storage/ndb/tools/ndb_config.cpp, -2, -1
+@ storage/ndb/tools/ndb_import.cpp, -2, -1
+@ storage/ndb/tools/ndb_index_stat.cpp, -2, -1
+@ storage/ndb/tools/ndb_lib_move_data.cpp, -2, -1
+@ storage/ndb/tools/ndb_move_data.cpp, -2, -1
+@ storage/ndb/tools/ndb_top.cpp, -2, -1
+@ storage/ndb/tools/ndbinfo_select_all.cpp, -2, -1
+@ storage/ndb/tools/restore/consumer_restore.cpp, -2, -1
+@ storage/ndb/tools/restore/consumer_restore.hpp, -2, -1
+@ storage/ndb/tools/restore/consumer_restorem.cpp, -2, -1
+@ storage/ndb/tools/restore/restore_main.cpp, -2, -1
+@ storage/ndb/tools/select_all.cpp, -2, -1
+@ storage/ndb/tools/select_count.cpp, -2, -1
+@ storage/ndb/tools/waiter.cpp, -2, -1
+@ plugin/audit_null/audit_null.cc, -2, -1
+@ plugin/clone/include/clone_client.h, -2, -1
+@ plugin/clone/src/clone_client.cc, -2, -1
+@ plugin/clone/src/clone_os.cc, -2, -1
+@ plugin/clone/src/clone_plugin.cc, -2, -1
+@ plugin/clone/src/clone_server.cc, -2, -1
+@ plugin/clone/src/clone_status.cc, -2, -1
+@ plugin/connection_control/connection_control.cc, -2, -1
+@ plugin/connection_control/connection_control_memory.h, -2, -1
+@ plugin/connection_control/connection_delay.cc, -2, -1
+@ plugin/connection_control/connection_delay.h, -2, -1
+@ plugin/connection_control/security_context_wrapper.cc, -2, -1
+@ plugin/daemon_example/daemon_example.cc, -2, -1
+@ plugin/ddl_rewriter/ddl_rewriter.cc, -2, -1
+@ plugin/ddl_rewriter/ddl_rewriter_plugin.cc, -2, -1
+@ plugin/fulltext/example/plugin_example.cc, -2, -1
+@ plugin/fulltext/mecab_parser/plugin_mecab.cc, -2, -1
+@ plugin/fulltext/ngram_parser/plugin_ngram.cc, -2, -1
+@ plugin/group_replication/include/applier.h, -2, -1
+@ plugin/group_replication/include/certifier.h, -2, -1
+@ plugin/group_replication/include/compatibility_module.h, -2, -1
+@ plugin/group_replication/include/consistency_manager.h, -2, -1
+@ plugin/group_replication/include/gcs_event_handlers.h, -2, -1
+@ plugin/group_replication/include/gcs_mysql_network_provider.h, -2, -1
+@ plugin/group_replication/include/gcs_operations.h, -2, -1
+@ plugin/group_replication/include/gcs_plugin_messages.h, -2, -1
+@ plugin/group_replication/include/handlers/applier_handler.h, -2, -1
+@ plugin/group_replication/include/handlers/certification_handler.h, -2, -1
+@ plugin/group_replication/include/handlers/event_cataloger.h, -2, -1
+@ plugin/group_replication/include/member_info.h, -2, -1
+@ plugin/group_replication/include/pipeline_interfaces.h, -2, -1
+@ plugin/group_replication/include/pipeline_stats.h, -2, -1
+@ plugin/group_replication/include/plugin.h, -2, -1
+@ plugin/group_replication/include/plugin_constants.h, -2, -1
+@ plugin/group_replication/include/plugin_handlers/consensus_leaders_handler.h, -2, -1
+@ plugin/group_replication/include/plugin_handlers/server_ongoing_transactions_handler.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/group_action_message.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/group_service_message.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/group_validation_message.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/recovery_message.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/single_primary_message.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/sync_before_execution_message.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/transaction_message.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/transaction_prepared_message.h, -2, -1
+@ plugin/group_replication/include/plugin_messages/transaction_with_guarantee_message.h, -2, -1
+@ plugin/group_replication/include/plugin_observers/group_transaction_observation_manager.h, -2, -1
+@ plugin/group_replication/include/plugin_psi.h, -2, -1
+@ plugin/group_replication/include/plugin_utils.h, -2, -1
+@ plugin/group_replication/include/plugin_variables.h, -2, -1
+@ plugin/group_replication/include/recovery.h, -2, -1
+@ plugin/group_replication/include/recovery_state_transfer.h, -2, -1
+@ plugin/group_replication/include/replication_threads_api.h, -2, -1
+@ plugin/group_replication/include/sql_service/sql_resultset.h, -2, -1
+@ plugin/group_replication/include/sql_service/sql_service_context.h, -2, -1
+@ plugin/group_replication/include/sql_service/sql_service_context_base.h, -2, -1
+@ plugin/group_replication/include/sql_service/sql_service_interface.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/include/mysql/gcs/gcs_logging_system.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/include/mysql/gcs/gcs_statistics_interface.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_communication_interface.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_communication_interface.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_control_interface.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_control_interface.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_interface.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_interface.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_proxy.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_proxy.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_statistics_interface.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/gcs_xcom_statistics_interface.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/network/include/network_provider.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/network/network_provider_manager.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/network/network_provider_manager.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/network/xcom_network_provider.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/network/xcom_network_provider_ssl_native_lib.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/sock_probe_win32.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/task.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/task.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/task_os.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/xcom_base.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/xcom_cfg.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/xcom_cfg.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/xcom_memory.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/xcom_transport.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/bindings/xcom/xcom/xdr_utils.h, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/interface/gcs_message.cc, -2, -1
+@ plugin/group_replication/libmysqlgcs/src/interface/gcs_psi.cc, -2, -1
+@ plugin/group_replication/src/applier.cc, -2, -1
+@ plugin/group_replication/src/autorejoin.cc, -2, -1
+@ plugin/group_replication/src/certifier.cc, -2, -1
+@ plugin/group_replication/src/compatibility_module.cc, -2, -1
+@ plugin/group_replication/src/consistency_manager.cc, -2, -1
+@ plugin/group_replication/src/gcs_event_handlers.cc, -2, -1
+@ plugin/group_replication/src/gcs_mysql_network_provider.cc, -2, -1
+@ plugin/group_replication/src/gcs_operations.cc, -2, -1
+@ plugin/group_replication/src/gcs_plugin_messages.cc, -2, -1
+@ plugin/group_replication/src/group_actions/group_action_coordinator.cc, -2, -1
+@ plugin/group_replication/src/group_actions/primary_election_action.cc, -2, -1
+@ plugin/group_replication/src/handlers/applier_handler.cc, -2, -1
+@ plugin/group_replication/src/handlers/certification_handler.cc, -2, -1
+@ plugin/group_replication/src/handlers/event_cataloger.cc, -2, -1
+@ plugin/group_replication/src/leave_group_on_failure.cc, -2, -1
+@ plugin/group_replication/src/member_info.cc, -2, -1
+@ plugin/group_replication/src/observer_trans.cc, -2, -1
+@ plugin/group_replication/src/perfschema/table_communication_information.cc, -2, -1
+@ plugin/group_replication/src/pipeline_stats.cc, -2, -1
+@ plugin/group_replication/src/plugin.cc, -2, -1
+@ plugin/group_replication/src/plugin_handlers/remote_clone_handler.cc, -2, -1
+@ plugin/group_replication/src/plugin_handlers/server_ongoing_transactions_handler.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/group_action_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/group_service_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/group_validation_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/recovery_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/single_primary_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/sync_before_execution_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/transaction_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/transaction_prepared_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_messages/transaction_with_guarantee_message.cc, -2, -1
+@ plugin/group_replication/src/plugin_psi.cc, -2, -1
+@ plugin/group_replication/src/plugin_variables/recovery_endpoints.cc, -2, -1
+@ plugin/group_replication/src/ps_information.cc, -2, -1
+@ plugin/group_replication/src/recovery.cc, -2, -1
+@ plugin/group_replication/src/recovery_channel_state_observer.cc, -2, -1
+@ plugin/group_replication/src/recovery_state_transfer.cc, -2, -1
+@ plugin/group_replication/src/replication_threads_api.cc, -2, -1
+@ plugin/group_replication/src/services/message_service/message_service.cc, -2, -1
+@ plugin/group_replication/src/sql_service/sql_service_context.cc, -2, -1
+@ plugin/group_replication/src/sql_service/sql_service_interface.cc, -2, -1
+@ plugin/group_replication/src/udf/udf_member_actions.cc, -2, -1
+@ plugin/group_replication/src/udf/udf_multi_primary.cc, -2, -1
+@ plugin/group_replication/src/udf/udf_single_primary.cc, -2, -1
+@ plugin/group_replication/src/udf/udf_utils.cc, -2, -1
+@ plugin/innodb_memcached/daemon_memcached/daemon/memcached_mysql.cc, -2, -1
+@ plugin/keyring/buffered_file_io.cc, -2, -1
+@ plugin/keyring/checker/checker.cc, -2, -1
+@ plugin/keyring/common/keyring_impl.cc, -2, -1
+@ plugin/keyring/common/keyring_key.cc, -2, -1
+@ plugin/keyring/common/keyring_memory.h, -2, -1
+@ plugin/keyring/common/keys_container.cc, -2, -1
+@ plugin/keyring/common/keys_container.h, -2, -1
+@ plugin/keyring/converter.cc, -2, -1
+@ plugin/keyring/digest.cc, -2, -1
+@ plugin/keyring/digest.h, -2, -1
+@ plugin/keyring/file_io.cc, -2, -1
+@ plugin/keyring/keyring.cc, -2, -1
+@ plugin/keyring_udf/keyring_udf.cc, -2, -1
+@ plugin/password_validation/validate_password.cc, -2, -1
+@ plugin/pfs_table_plugin/pfs_example_plugin_employee.cc, -2, -1
+@ plugin/replication_observers_example/gr_message_service_example.cc, -2, -1
+@ plugin/replication_observers_example/replication_observers_example.cc, -2, -1
+@ plugin/rewrite_example/rewrite_example.cc, -2, -1
+@ plugin/rewriter/rewriter.cc, -2, -1
+@ plugin/semisync/semisync_replica.cc, -2, -1
+@ plugin/semisync/semisync_source.cc, -2, -1
+@ plugin/semisync/semisync_source_plugin.cc, -2, -1
+@ plugin/semisync/semisync_source_socket_listener.h, -2, -1
+@ plugin/test_service_sql_api/test_session_detach.cc, -2, -1
+@ plugin/test_service_sql_api/test_session_in_thd.cc, -2, -1
+@ plugin/test_service_sql_api/test_session_info.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_2_sessions.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_all_col_types.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_cmds_1.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_commit.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_complex.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_errors.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_lock.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_processlist.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_replication.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_reset_connection.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_shutdown.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_sleep_is_connected.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_sqlmode.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_stmt.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_stored_procedures_functions.cc, -2, -1
+@ plugin/test_service_sql_api/test_sql_views_triggers.cc, -2, -1
+@ plugin/test_service_sql_api/test_x_sessions_deinit.cc, -2, -1
+@ plugin/test_service_sql_api/test_x_sessions_init.cc, -2, -1
+@ plugin/test_services/test_services_command_services.cc, -2, -1
+@ plugin/test_services/test_services_threaded.cc, -2, -1
+@ plugin/udf_services/services_required.cc, -2, -1
+@ plugin/udf_services/test_udf_extension.cc, -2, -1
+@ plugin/version_token/version_token.cc, -2, -1
+@ plugin/x/client/xconnection_impl.cc, -2, -1
+@ plugin/x/client/xrow_impl.cc, -2, -1
+@ plugin/x/protocol/stream/compression/compression_algorithm_zlib.h, -2, -1
+@ plugin/x/protocol/stream/compression/decompression_algorithm_zlib.h, -2, -1
+@ plugin/x/src/callback_command_delegate.cc, -2, -1
+@ plugin/x/src/callback_command_delegate.h, -2, -1
+@ plugin/x/src/helper/generate_hash.cc, -2, -1
+@ plugin/x/src/helper/to_string.h, -2, -1
+@ plugin/x/src/io/xpl_listener_unix_socket.cc, -2, -1
+@ plugin/x/src/module_mysqlx.cc, -2, -1
+@ plugin/x/src/mysql_function_names.cc, -2, -1
+@ plugin/x/src/mysql_variables.cc, -2, -1
+@ plugin/x/src/mysql_variables.h, -2, -1
+@ plugin/x/src/native_verification.cc, -2, -1
+@ plugin/x/src/ngs/command_delegate.h, -2, -1
+@ plugin/x/src/ngs/protocol/metadata_builder.h, -2, -1
+@ plugin/x/src/ngs/protocol_flusher_compression.cc, -2, -1
+@ plugin/x/src/ngs/socket_events.cc, -2, -1
+@ plugin/x/src/query_formatter.cc, -2, -1
+@ plugin/x/src/query_string_builder.cc, -2, -1
+@ plugin/x/src/streaming_command_delegate.cc, -2, -1
+@ plugin/x/src/streaming_command_delegate.h, -2, -1
+@ plugin/x/src/variables/status_variables.cc, -2, -1
+@ plugin/x/src/variables/status_variables.h, -2, -1
+@ plugin/x/src/xpl_performance_schema.cc, -2, -1
+@ plugin/x/tests/driver/connector/connection_manager.cc, -2, -1
+@ plugin/x/tests/driver/mysqlxtest.cc, -2, -1
+@ storage/ndb/src/ndbapi/DictCache.cpp, -2, -1
+@ storage/ndb/src/ndbapi/Ndb.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbBlob.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbDictionary.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbDictionaryImpl.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbDictionaryImpl.hpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbEventOperationImpl.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbIndexStatImpl.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfo.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbInfoScanVirtual.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbScanOperation.cpp, -2, -1
+@ storage/ndb/src/ndbapi/NdbTransaction.cpp, -2, -1
+@ storage/ndb/src/ndbapi/SectionIterators.cpp, -2, -1
+@ storage/ndb/src/ndbapi/TransporterFacade.cpp, -2, -1
+@ storage/ndb/src/ndbapi/TransporterFacade.hpp, -2, -1
+@ storage/ndb/src/ndbapi/ndb_cluster_connection.cpp, -2, -1
+@ storage/ndb/src/ndbapi/ndb_cluster_connection_impl.hpp, -2, -1
+@ client/base/abstract_connection_program.cc, -2, -1
+@ client/base/abstract_connection_program.h, -2, -1
+@ client/base/abstract_options_provider.cc, -2, -1
+@ client/base/abstract_program.cc, -2, -1
+@ client/base/help_options.cc, -2, -1
+@ client/base/message_data.cc, -2, -1
+@ client/base/mysql_connection_options.cc, -2, -1
+@ client/base/mysql_connection_options.h, -2, -1
+@ client/base/mysql_query_runner.cc, -2, -1
+@ client/base/ssl_options.cc, -2, -1
+@ client/check/mysqlcheck.cc, -2, -1
+@ client/check/mysqlcheck_core.cc, -2, -1
+@ client/client_priv.h, -2, -1
+@ client/client_query_attributes.cc, -2, -1
+@ client/client_query_attributes.h, -2, -1
+@ client/common/user_registration.cc, -2, -1
+@ client/dump/abstract_mysql_chain_element_extension.cc, -2, -1
+@ client/dump/abstract_mysql_chain_element_extension.h, -2, -1
+@ client/dump/mysqldump_tool_chain_maker.cc, -2, -1
+@ client/dump/mysqldump_tool_chain_maker_options.cc, -2, -1
+@ client/dump/row_group_dump_task.cc, -2, -1
+@ client/dump/sql_formatter.cc, -2, -1
+@ client/dump/sql_formatter_options.h, -2, -1
+@ client/include/user_registration.h, -2, -1
+@ client/json_binlog_main.cc, -2, -1
+@ client/json_client_library_main.cc, -2, -1
+@ client/logger.cc, -2, -1
+@ client/migrate_keyring/components.cc, -2, -1
+@ client/migrate_keyring/migrate_keyring.cc, -2, -1
+@ client/migrate_keyring/options.cc, -2, -1
+@ client/multi_factor_passwordopt-vars.cc, -2, -1
+@ client/mysql.cc, -2, -1
+@ client/mysql_config_editor.cc, -2, -1
+@ client/mysql_secure_installation.cc, -2, -1
+@ client/mysql_ssl_rsa_setup.cc, -2, -1
+@ client/mysqladmin.cc, -2, -1
+@ client/mysqlbinlog.cc, -2, -1
+@ client/mysqldump.cc, -2, -1
+@ client/mysqlimport.cc, -2, -1
+@ client/mysqlshow.cc, -2, -1
+@ client/mysqlslap.cc, -2, -1
+@ client/mysqltest.cc, -2, -1
+@ client/mysqltest/regular_expressions.cc, -2, -1
+@ client/pattern_matcher.cc, -2, -1
+@ client/pattern_matcher.h, -2, -1
+@ client/readline.cc, -2, -1
+@ storage/blackhole/ha_blackhole.cc, -2, -1
+@ storage/ndb/src/common/logger/EventLogHandler.cpp, -2, -1
+@ storage/ndb/test/tools/connect.cpp, -2, -1
+@ storage/ndb/test/tools/copy_tab.cpp, -2, -1
+@ storage/ndb/test/tools/create_fk.cpp, -2, -1
+@ storage/ndb/test/tools/create_index.cpp, -2, -1
+@ storage/ndb/test/tools/drop_fk.cpp, -2, -1
+@ storage/ndb/test/tools/hugoFill.cpp, -2, -1
+@ storage/ndb/test/tools/hugoJoin.cpp, -2, -1
+@ storage/ndb/test/tools/hugoLoad.cpp, -2, -1
+@ storage/ndb/test/tools/hugoLockRecords.cpp, -2, -1
+@ storage/ndb/test/tools/hugoPkDelete.cpp, -2, -1
+@ storage/ndb/test/tools/hugoPkRead.cpp, -2, -1
+@ storage/ndb/test/tools/hugoPkReadRecord.cpp, -2, -1
+@ storage/ndb/test/tools/hugoPkUpdate.cpp, -2, -1
+@ storage/ndb/test/tools/hugoScanRead.cpp, -2, -1
+@ storage/ndb/test/tools/hugoScanUpdate.cpp, -2, -1
+@ storage/ndb/test/tools/listen.cpp, -2, -1
+@ storage/ndb/test/tools/log_listner.cpp, -2, -1
+@ storage/ndb/test/tools/rep_latency.cpp, -2, -1
+@ storage/ndb/test/tools/spj_performance_test.cpp, -2, -1
+@ storage/ndb/test/tools/spj_sanity_test.cpp, -2, -1
+@ storage/ndb/test/tools/test_spj.cpp, -2, -1
+@ storage/ndb/test/tools/verify_index.cpp, -2, -1
+@ unittest/gunit/base_mock_handler.h, -2, -1
+@ unittest/gunit/binlogevents/gno_intervals-t.cc, -2, -1
+@ unittest/gunit/binlogevents/grow_calculator-t.cc, -2, -1
+@ unittest/gunit/binlogevents/gtids-t.cc, -2, -1
+@ unittest/gunit/binlogevents/heartbeat_codec-t.cc, -2, -1
+@ unittest/gunit/binlogevents/managed_buffer-t.cc, -2, -1
+@ unittest/gunit/binlogevents/managed_buffer_sequence-t.cc, -2, -1
+@ unittest/gunit/binlogevents/payload_event_buffer_istream-t.cc, -2, -1
+@ unittest/gunit/binlogevents/rw_buffer_sequence-t.cc, -2, -1
+@ unittest/gunit/binlogevents/transaction_compression-t.cc, -2, -1
+@ unittest/gunit/binlogevents/transaction_payload_codec-t.cc, -2, -1
+@ unittest/gunit/changestreams/cstreams_reader_state-t.cc, -2, -1
+@ unittest/gunit/changestreams/cstreams_reader_state_codec_pb-t.cc, -2, -1
+@ unittest/gunit/character_set_deprecation-t.cc, -2, -1
+@ unittest/gunit/charset_bug28956360-t.cc, -2, -1
+@ unittest/gunit/charset_bug32788301-t.cc, -2, -1
+@ unittest/gunit/collation_loader-t.cc, -2, -1
+@ unittest/gunit/compare_access_paths-t.cc, -2, -1
+@ unittest/gunit/components/mysql_server/dynamic_loader-t.cc, -2, -1
+@ unittest/gunit/components/mysql_server/unit_test_common.cc, -2, -1
+@ unittest/gunit/dd.h, -2, -1
+@ unittest/gunit/dd_info_schema_native_func-t.cc, -2, -1
+@ unittest/gunit/dd_schema-t.cc, -2, -1
+@ unittest/gunit/decimal-t.cc, -2, -1
+@ unittest/gunit/decoy_user-t.cc, -2, -1
+@ unittest/gunit/dphyp-t.cc, -2, -1
+@ unittest/gunit/explain_filename-t.cc, -2, -1
+@ unittest/gunit/fake_costmodel.cc, -2, -1
+@ unittest/gunit/fake_costmodel.h, -2, -1
+@ unittest/gunit/fake_string_iterator.h, -2, -1
+@ unittest/gunit/fake_table.h, -2, -1
+@ unittest/gunit/field-t.cc, -2, -1
+@ unittest/gunit/field_date-t.cc, -2, -1
+@ unittest/gunit/field_datetime-t.cc, -2, -1
+@ unittest/gunit/field_long-t.cc, -2, -1
+@ unittest/gunit/field_newdecimal-t.cc, -2, -1
+@ unittest/gunit/get_diagnostics-t.cc, -2, -1
+@ unittest/gunit/gis_algos-t.cc, -2, -1
+@ unittest/gunit/gis_transform-t.cc, -2, -1
+@ unittest/gunit/graph_simplification-t.cc, -2, -1
+@ unittest/gunit/group_replication/group_replication_compatibility_module-t.cc, -2, -1
+@ unittest/gunit/group_replication/group_replication_gcs_mysql_network_provider-t.cc, -2, -1
+@ unittest/gunit/gunit_test_main.cc, -2, -1
+@ unittest/gunit/handler-t.h, -2, -1
+@ unittest/gunit/hash_join-t.cc, -2, -1
+@ unittest/gunit/histogram_selectivity-t.cc, -2, -1
+@ unittest/gunit/histograms-t.cc, -2, -1
+@ unittest/gunit/hypergraph_optimizer-t.cc, -2, -1
+@ unittest/gunit/innodb/lob/ut0dbg.h, -2, -1
+@ unittest/gunit/innodb/ut0new-t.cc, -2, -1
+@ unittest/gunit/innodb/ut0rnd-t.cc, -2, -1
+@ unittest/gunit/item-t.cc, -2, -1
+@ unittest/gunit/item_filter-t.cc, -2, -1
+@ unittest/gunit/item_func_regexp-t.cc, -2, -1
+@ unittest/gunit/item_json_func-t.cc, -2, -1
+@ unittest/gunit/item_like-t.cc, -2, -1
+@ unittest/gunit/item_timefunc-t.cc, -2, -1
+@ unittest/gunit/join_tab_sort-t.cc, -2, -1
+@ unittest/gunit/json_binary-t.cc, -2, -1
+@ unittest/gunit/json_dom-t.cc, -2, -1
+@ unittest/gunit/json_path-t.cc, -2, -1
+@ unittest/gunit/libmysqlgcs/xcom/gcs_message_stage_fragmentation-t.cc, -2, -1
+@ unittest/gunit/libmysqlgcs/xcom/gcs_xcom_communication_interface-t.cc, -2, -1
+@ unittest/gunit/libmysqlgcs/xcom/gcs_xcom_control_interface-t.cc, -2, -1
+@ unittest/gunit/libmysqlgcs/xcom/gcs_xcom_statistics_interface-t.cc, -2, -1
+@ unittest/gunit/like_range-t.cc, -2, -1
+@ unittest/gunit/locks/shared_spin_lock-t.cc, -2, -1
+@ unittest/gunit/log_event_status_size-t.cc, -2, -1
+@ unittest/gunit/m_string-t.cc, -2, -1
+@ unittest/gunit/mdl-t.cc, -2, -1
+@ unittest/gunit/mock_parse_tree.h, -2, -1
+@ unittest/gunit/my_alloc-t.cc, -2, -1
+@ unittest/gunit/my_decimal-t.cc, -2, -1
+@ unittest/gunit/my_gcvt-t.cc, -2, -1
+@ unittest/gunit/my_thread-t.cc, -2, -1
+@ unittest/gunit/opt_costconstants-t.cc, -2, -1
+@ unittest/gunit/opt_costmodel-t.cc, -2, -1
+@ unittest/gunit/opt_range-t.cc, -2, -1
+@ unittest/gunit/opt_ref-t.cc, -2, -1
+@ unittest/gunit/opt_trace-t.cc, -2, -1
+@ unittest/gunit/optimizer_test.h, -2, -1
+@ unittest/gunit/partitioned_rwlock-t.cc, -2, -1
+@ unittest/gunit/pattern_matcher-t.cc, -2, -1
+@ unittest/gunit/persisted_variables-t.cc, -2, -1
+@ unittest/gunit/protocol_classic-t.cc, -2, -1
+@ unittest/gunit/rpl_group_set-t.cc, -2, -1
+@ unittest/gunit/security_context-t.cc, -2, -1
+@ unittest/gunit/segfault-t.cc, -2, -1
+@ unittest/gunit/sha2_password-t.cc, -2, -1
+@ unittest/gunit/skip_trailing.h, -2, -1
+@ unittest/gunit/sql_list-t.cc, -2, -1
+@ unittest/gunit/string-tests.cc, -2, -1
+@ unittest/gunit/strings_strnxfrm-t.cc, -2, -1
+@ unittest/gunit/strings_utf8-t.cc, -2, -1
+@ unittest/gunit/strings_valid_check-t.cc, -2, -1
+@ unittest/gunit/strnxfrm.cc, -2, -1
+@ unittest/gunit/strnxfrm.h, -2, -1
+@ unittest/gunit/strtod-t.cc, -2, -1
+@ unittest/gunit/strtoll-t.cc, -2, -1
+@ unittest/gunit/temptable/cell_calculator-t.cc, -2, -1
+@ unittest/gunit/temptable_allocator-t.cc, -2, -1
+@ unittest/gunit/test_utils.cc, -2, -1
+@ unittest/gunit/value_map-t.cc, -2, -1
+@ unittest/gunit/wild_case_compare-t.cc, -2, -1
+@ unittest/gunit/win_tests-t.cc, -2, -1
+@ unittest/gunit/xplugin/test_main.cc, -2, -1
+@ unittest/gunit/xplugin/xpl/stubs/command_service.cc, -2, -1
+@ unittest/gunit/xplugin/xpl/user_password_verification_t.cc, -2, -1
+@ extra/rapidjson/include/rapidjson/pointer.h, -2, -1
+@ storage/ndb/test/run-test/db.cpp, -2, -1
+@ storage/ndb/test/run-test/main.cpp, -2, -1
+@ storage/ndb/test/run-test/process_management.cpp, -2, -1
+@ storage/ndb/test/run-test/process_management.hpp, -2, -1
+@ storage/ndb/test/ndbapi/bank/Bank.cpp, -2, -1
+@ storage/ndb/test/ndbapi/bank/bankCreator.cpp, -2, -1
+@ storage/ndb/test/ndbapi/bank/bankMakeGL.cpp, -2, -1
+@ storage/ndb/test/ndbapi/bank/bankSumAccounts.cpp, -2, -1
+@ storage/ndb/test/ndbapi/bank/bankTimer.cpp, -2, -1
+@ storage/ndb/test/ndbapi/bank/bankTransactionMaker.cpp, -2, -1
+@ storage/ndb/test/ndbapi/bank/bankValidateAllGLs.cpp, -2, -1
+@ storage/secondary_engine_mock/ha_mock.cc, -2, -1
+@ storage/secondary_engine_mock/ha_mock.h, -2, -1
+@ storage/ndb/src/common/debugger/NdbinfoTables.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbdict/Dbdict.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/Dbtup.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupMeta.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtup/DbtupRoutines.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/dbtux/DbtuxMeta.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.cpp, -2, -1
+@ storage/ndb/src/kernel/main.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CArray.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyDescriptor.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbSeqLock.hpp, -2, -1
+@ router/src/destination_status/src/unreachable_destinations_quarantine.h, -2, -1
+@ router/src/harness/include/mysql/harness/config_option.h, -2, -1
+@ router/src/harness/include/mysql/harness/event_state_tracker.h, -2, -1
+@ router/src/harness/include/mysql/harness/net_ts/buffer.h, -2, -1
+@ router/src/harness/include/mysql/harness/net_ts/executor.h, -2, -1
+@ router/src/harness/include/mysql/harness/net_ts/impl/linux_epoll_io_service.h, -2, -1
+@ router/src/harness/include/mysql/harness/net_ts/impl/netif.h, -2, -1
+@ router/src/harness/include/mysql/harness/net_ts/socket.h, -2, -1
+@ router/src/harness/include/mysql/harness/net_ts/win32_named_pipe.h, -2, -1
+@ router/src/harness/include/mysql/harness/tls_client_context.h, -2, -1
+@ router/src/harness/include/mysql/harness/tls_server_context.h, -2, -1
+@ router/src/harness/include/mysql_router_thread.h, -2, -1
+@ router/src/harness/src/access_rights.cc, -2, -1
+@ router/src/harness/src/filesystem-posix.cc, -2, -1
+@ router/src/harness/src/logging/eventlog_plugin.cc, -2, -1
+@ router/src/harness/src/mysql_router_thread.cc, -2, -1
+@ router/src/harness/src/process_launcher.cc, -2, -1
+@ router/src/harness/src/tls_client_context.cc, -2, -1
+@ router/src/harness/src/tls_server_context.cc, -2, -1
+@ router/src/harness/src/utilities.h, -2, -1
+@ router/src/harness/tests/acl_cli.cc, -2, -1
+@ router/src/harness/tests/mock_io_service.h, -2, -1
+@ router/src/harness/tests/mock_socket_service.h, -2, -1
+@ router/src/harness/tests/test_common.cc, -2, -1
+@ router/src/harness/tests/test_dim_and_unique_ptr.cc, -2, -1
+@ router/src/harness/tests/test_net_ts_buffer.cc, -2, -1
+@ router/src/harness/tests/test_net_ts_internet.cc, -2, -1
+@ router/src/harness/tests/test_net_ts_timer.cc, -2, -1
+@ router/src/http/src/http_auth_backend.cc, -2, -1
+@ router/src/http/src/http_auth_backend.h, -2, -1
+@ router/src/http/tests/test_passwd.cc, -2, -1
+@ router/src/metadata_cache/include/mysqlrouter/metadata.h, -2, -1
+@ router/src/metadata_cache/include/mysqlrouter/metadata_cache.h, -2, -1
+@ router/src/metadata_cache/include/mysqlrouter/metadata_cache_datatypes.h, -2, -1
+@ router/src/metadata_cache/src/cluster_metadata.cc, -2, -1
+@ router/src/metadata_cache/src/cluster_metadata.h, -2, -1
+@ router/src/metadata_cache/src/cluster_metadata_ar.cc, -2, -1
+@ router/src/metadata_cache/src/cluster_metadata_gr.cc, -2, -1
+@ router/src/metadata_cache/src/cluster_metadata_gr.h, -2, -1
+@ router/src/metadata_cache/src/gr_notifications_listener.cc, -2, -1
+@ router/src/metadata_cache/src/group_replication_metadata.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache_ar.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache_gr.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache_plugin.cc, -2, -1
+@ router/src/metadata_cache/tests/helper/mock_metadata.h, -2, -1
+@ router/src/metadata_cache/tests/test_cache_plugin.cc, -2, -1
+@ router/src/mock_server/src/classic_mock_session.cc, -2, -1
+@ router/src/mock_server/src/classic_mock_session.h, -2, -1
+@ router/src/mock_server/src/duktape_statement_reader.cc, -2, -1
+@ router/src/mock_server/src/duktape_statement_reader.h, -2, -1
+@ router/src/mock_server/src/mock_server_plugin.cc, -2, -1
+@ router/src/mock_server/src/mysql_server_mock.cc, -2, -1
+@ router/src/mock_server/src/statement_reader.h, -2, -1
+@ router/src/mock_server/src/x_mock_session.cc, -2, -1
+@ router/src/mock_server/src/x_mock_session.h, -2, -1
+@ router/src/mysql_protocol/include/mysqlrouter/classic_protocol_codec_binary.h, -2, -1
+@ router/src/mysql_protocol/include/mysqlrouter/classic_protocol_codec_message.h, -2, -1
+@ router/src/mysql_protocol/include/mysqlrouter/classic_protocol_message.h, -2, -1
+@ router/src/mysql_protocol/include/mysqlrouter/classic_protocol_session_track.h, -2, -1
+@ router/src/router/include/mysqlrouter/cluster_metadata.h, -2, -1
+@ router/src/router/include/mysqlrouter/datatypes.h, -2, -1
+@ router/src/router/include/mysqlrouter/mysql_session.h, -2, -1
+@ router/src/router/include/mysqlrouter/windows/service_operations.h, -2, -1
+@ router/src/router/src/cluster_metadata.cc, -2, -1
+@ router/src/router/src/cluster_metadata.h, -2, -1
+@ router/src/router/src/common/mysql_session.cc, -2, -1
+@ router/src/router/src/config_generator.cc, -2, -1
+@ router/src/router/src/config_generator.h, -2, -1
+@ router/src/router/src/default_paths.cc, -2, -1
+@ router/src/router/src/router_app.cc, -2, -1
+@ router/src/router/src/utils.cc, -2, -1
+@ router/src/router/src/windows/main-windows.cc, -2, -1
+@ router/src/router/src/windows/nt_servc.cc, -2, -1
+@ router/src/router/src/windows/nt_servc.h, -2, -1
+@ router/src/router/src/windows/password_vault.cc, -2, -1
+@ router/src/router/src/windows/service_operations.cc, -2, -1
+@ router/src/router/tests/test_keyring_frontend.cc, -2, -1
+@ router/src/router/tests/test_log_filter.cc, -2, -1
+@ router/src/router/tests/test_mysqlrouter_app.cc, -2, -1
+@ router/src/routing/include/mysqlrouter/destination.h, -2, -1
+@ router/src/routing/include/mysqlrouter/routing.h, -2, -1
+@ router/src/routing/include/mysqlrouter/supported_routing_options.h, -2, -1
+@ router/src/routing/src/classic_auth_caching_sha2_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_auth_native_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_auth_native_forwarder.h, -2, -1
+@ router/src/routing/src/classic_binlog_dump_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_binlog_dump_forwarder.h, -2, -1
+@ router/src/routing/src/classic_change_user_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_change_user_forwarder.h, -2, -1
+@ router/src/routing/src/classic_change_user_sender.cc, -2, -1
+@ router/src/routing/src/classic_change_user_sender.h, -2, -1
+@ router/src/routing/src/classic_clone_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_command.cc, -2, -1
+@ router/src/routing/src/classic_connect.cc, -2, -1
+@ router/src/routing/src/classic_connect.h, -2, -1
+@ router/src/routing/src/classic_connection.cc, -2, -1
+@ router/src/routing/src/classic_connection_base.cc, -2, -1
+@ router/src/routing/src/classic_connection_base.h, -2, -1
+@ router/src/routing/src/classic_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_frame.cc, -2, -1
+@ router/src/routing/src/classic_frame.h, -2, -1
+@ router/src/routing/src/classic_greeting_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_greeting_forwarder.h, -2, -1
+@ router/src/routing/src/classic_greeting_receiver.cc, -2, -1
+@ router/src/routing/src/classic_greeting_receiver.h, -2, -1
+@ router/src/routing/src/classic_init_schema_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_init_schema_forwarder.h, -2, -1
+@ router/src/routing/src/classic_kill_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_kill_forwarder.h, -2, -1
+@ router/src/routing/src/classic_lazy_connect.cc, -2, -1
+@ router/src/routing/src/classic_lazy_connect.h, -2, -1
+@ router/src/routing/src/classic_list_fields_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_list_fields_forwarder.h, -2, -1
+@ router/src/routing/src/classic_ping_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_ping_forwarder.h, -2, -1
+@ router/src/routing/src/classic_query_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_query_forwarder.h, -2, -1
+@ router/src/routing/src/classic_query_sender.cc, -2, -1
+@ router/src/routing/src/classic_register_replica_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_reload_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_reload_forwarder.h, -2, -1
+@ router/src/routing/src/classic_reset_connection_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_reset_connection_sender.cc, -2, -1
+@ router/src/routing/src/classic_reset_connection_sender.h, -2, -1
+@ router/src/routing/src/classic_set_option_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_set_option_forwarder.h, -2, -1
+@ router/src/routing/src/classic_statistics_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_statistics_forwarder.h, -2, -1
+@ router/src/routing/src/classic_stmt_execute_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_stmt_execute_forwarder.h, -2, -1
+@ router/src/routing/src/classic_stmt_param_append_data_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_stmt_prepare_forwarder.cc, -2, -1
+@ router/src/routing/src/classic_stmt_prepare_forwarder.h, -2, -1
+@ router/src/routing/src/connection.cc, -2, -1
+@ router/src/routing/src/connection.h, -2, -1
+@ router/src/routing/src/connection_container.cc, -2, -1
+@ router/src/routing/src/context.h, -2, -1
+@ router/src/routing/src/dest_metadata_cache.cc, -2, -1
+@ router/src/routing/src/dest_metadata_cache.h, -2, -1
+@ router/src/routing/src/destination_ssl_context.cc, -2, -1
+@ router/src/routing/src/destination_ssl_context.h, -2, -1
+@ router/src/routing/src/forwarding_processor.cc, -2, -1
+@ router/src/routing/src/forwarding_processor.h, -2, -1
+@ router/src/routing/src/mysql_routing.cc, -2, -1
+@ router/src/routing/src/mysql_routing.h, -2, -1
+@ router/src/routing/src/mysql_routing_base.h, -2, -1
+@ router/src/routing/src/plugin_config.cc, -2, -1
+@ router/src/routing/src/processor.cc, -2, -1
+@ router/src/routing/src/processor.h, -2, -1
+@ router/src/routing/src/routing.cc, -2, -1
+@ router/src/routing/src/routing_component.cc, -2, -1
+@ router/src/routing/src/routing_config.h, -2, -1
+@ router/src/routing/src/routing_plugin.cc, -2, -1
+@ router/src/routing/src/show_warnings_parser.h, -2, -1
+@ router/src/routing/src/sql_exec_context.h, -2, -1
+@ router/src/routing/src/sql_lexer.cc, -2, -1
+@ router/src/routing/src/sql_lexer_error.h, -2, -1
+@ router/src/routing/src/sql_lexer_input_stream.h, -2, -1
+@ router/src/routing/src/sql_lexer_thd.h, -2, -1
+@ router/src/routing/src/sql_parser.h, -2, -1
+@ router/src/routing/src/sql_value.h, -2, -1
+@ router/src/routing/src/stmt_classifier.h, -2, -1
+@ router/src/routing/src/x_connection.cc, -2, -1
+@ router/src/routing/src/x_connection.h, -2, -1
+@ router/src/routing/tests/fuzz_show_warnings.cc, -2, -1
+@ router/src/routing/tests/fuzz_sql_lexer.cc, -2, -1
+@ router/src/routing/tests/mysql_client.h, -2, -1
+@ router/src/routing/tests/test_classic_reset_connection_sender.cc, -2, -1
+@ router/src/routing/tests/test_connection.cc, -2, -1
+@ router/src/routing/tests/test_metadata_cache_group.cc, -2, -1
+@ router/src/routing/tests/test_routing.cc, -2, -1
+@ router/tests/component/rest_signal/src/rest_signal_abort.cc, -2, -1
+@ router/tests/component/signal_me.cc, -2, -1
+@ router/tests/component/test_async_replicaset.cc, -2, -1
+@ router/tests/component/test_bootstrap.cc, -2, -1
+@ router/tests/component/test_bootstrap_account.cc, -2, -1
+@ router/tests/component/test_bootstrap_clusterset.cc, -2, -1
+@ router/tests/component/test_clusterset.cc, -2, -1
+@ router/tests/component/test_config.cc, -2, -1
+@ router/tests/component/test_config_overwrites.cc, -2, -1
+@ router/tests/component/test_gr_notifications.cc, -2, -1
+@ router/tests/component/test_logging_eventlog.cc, -2, -1
+@ router/tests/component/test_metadata_http_auth_backend.cc, -2, -1
+@ router/tests/component/test_metadata_ttl.cc, -2, -1
+@ router/tests/component/test_mock_server.cc, -2, -1
+@ router/tests/component/test_rest_api_enable.cc, -2, -1
+@ router/tests/component/test_rest_metadata_cache.cc, -2, -1
+@ router/tests/component/test_rest_routing.cc, -2, -1
+@ router/tests/component/test_router_stacktrace.cc, -2, -1
+@ router/tests/component/test_routing.cc, -2, -1
+@ router/tests/component/test_routing_connection_errors.cc, -2, -1
+@ router/tests/component/test_routing_sharing.cc, -2, -1
+@ router/tests/component/test_routing_splicer.cc, -2, -1
+@ router/tests/component/test_routing_strategy.cc, -2, -1
+@ router/tests/component/test_socket_close.cc, -2, -1
+@ router/tests/component/test_state_file.cc, -2, -1
+@ router/tests/helpers/core_finder.cc, -2, -1
+@ router/tests/helpers/mock_server_testutils.cc, -2, -1
+@ router/tests/helpers/mock_server_testutils.h, -2, -1
+@ router/tests/helpers/process_manager.h, -2, -1
+@ router/tests/helpers/router_component_clusterset.cc, -2, -1
+@ router/tests/helpers/router_component_clusterset.h, -2, -1
+@ router/tests/helpers/router_component_test.cc, -2, -1
+@ router/tests/helpers/router_component_test.h, -2, -1
+@ router/tests/helpers/shared_server.cc, -2, -1
+@ router/tests/helpers/shared_server.h, -2, -1
+@ router/tests/helpers/tcp_port_pool.cc, -2, -1
+@ router/tests/integration/test_routing_direct.cc, -2, -1
+@ router/tests/integration/test_routing_reuse.cc, -2, -1
+@ router/tests/integration/test_routing_sharing.cc, -2, -1
+@ router/tests/integration/test_routing_sharing_constrained_pools.cc, -2, -1
+@ router/tests/integration/test_routing_sharing_restart.cc, -2, -1
+@ storage/csv/ha_tina.cc, -2, -1
+@ storage/heap/heapdef.h, -2, -1
+@ storage/heap/hp_hash.cc, -2, -1
+@ storage/heap/hp_static.cc, -2, -1
+@ storage/heap/hp_test2.cc, -2, -1
+@ storage/ndb/include/debugger/Ndbinfo.hpp, -2, -1
+@ storage/ndb/nodejs/jones-ndb/impl/include/common/AsyncMethodCall.h, -2, -1
+@ storage/ndb/nodejs/jones-ndb/impl/include/common/NativeCFunctionCall.h, -2, -1
+@ storage/ndb/nodejs/jones-ndb/impl/include/common/NativeMethodCall.h, -2, -1
+@ storage/ndb/nodejs/jones-ndb/impl/include/common/SharedList.h, -2, -1
+@ storage/ndb/nodejs/jones-ndb/impl/src/ndb/EncoderCharset.cpp, -2, -1
+@ vio/vio.cc, -2, -1
+@ vio/viopipe.cc, -2, -1
+@ vio/viosocket.cc, -2, -1
+@ vio/viossl.cc, -2, -1
+@ vio/viosslfactories.cc, -2, -1
+@ storage/perfschema/ha_perfschema.cc, -2, -1
+@ storage/perfschema/pfs.cc, -2, -1
+@ storage/perfschema/pfs_autosize.cc, -2, -1
+@ storage/perfschema/pfs_buffer_container.h, -2, -1
+@ storage/perfschema/pfs_builtin_memory.cc, -2, -1
+@ storage/perfschema/pfs_builtin_memory.h, -2, -1
+@ storage/perfschema/pfs_column_types.cc, -2, -1
+@ storage/perfschema/pfs_column_values.cc, -2, -1
+@ storage/perfschema/pfs_column_values.h, -2, -1
+@ storage/perfschema/pfs_data_lock.cc, -2, -1
+@ storage/perfschema/pfs_data_lock.h, -2, -1
+@ storage/perfschema/pfs_dd_version.h, -2, -1
+@ storage/perfschema/pfs_digest.cc, -2, -1
+@ storage/perfschema/pfs_engine_table.cc, -2, -1
+@ storage/perfschema/pfs_events_stages.cc, -2, -1
+@ storage/perfschema/pfs_events_statements.cc, -2, -1
+@ storage/perfschema/pfs_events_transactions.cc, -2, -1
+@ storage/perfschema/pfs_events_waits.cc, -2, -1
+@ storage/perfschema/pfs_global.cc, -2, -1
+@ storage/perfschema/pfs_instr.cc, -2, -1
+@ storage/perfschema/pfs_instr.h, -2, -1
+@ storage/perfschema/pfs_instr_class.cc, -2, -1
+@ storage/perfschema/pfs_instr_class.h, -2, -1
+@ storage/perfschema/pfs_name.cc, -2, -1
+@ storage/perfschema/pfs_name.h, -2, -1
+@ storage/perfschema/pfs_program.cc, -2, -1
+@ storage/perfschema/pfs_server.cc, -2, -1
+@ storage/perfschema/pfs_server.h, -2, -1
+@ storage/perfschema/pfs_services.h, -2, -1
+@ storage/perfschema/pfs_variable.cc, -2, -1
+@ storage/perfschema/service_pfs_notification.cc, -2, -1
+@ storage/perfschema/service_pfs_resource_group.cc, -2, -1
+@ storage/perfschema/table_binary_log_transaction_compression_stats.cc, -2, -1
+@ storage/perfschema/table_data_lock_waits.cc, -2, -1
+@ storage/perfschema/table_data_locks.cc, -2, -1
+@ storage/perfschema/table_events_waits.cc, -2, -1
+@ storage/perfschema/table_global_variables.cc, -2, -1
+@ storage/perfschema/table_helper.cc, -2, -1
+@ storage/perfschema/table_helper.h, -2, -1
+@ storage/perfschema/table_log_status.cc, -2, -1
+@ storage/perfschema/table_session_connect.cc, -2, -1
+@ storage/perfschema/table_session_connect.h, -2, -1
+@ storage/perfschema/table_setup_actors.cc, -2, -1
+@ storage/perfschema/table_setup_consumers.cc, -2, -1
+@ storage/perfschema/table_setup_objects.cc, -2, -1
+@ storage/perfschema/terminology_use_previous_enum.h, -2, -1
+@ storage/perfschema/unittest/pfs-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_account-oom-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_connect_attr-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_host-oom-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_instr-oom-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_instr-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_instr_class-oom-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_instr_class-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_misc-t.cc, -2, -1
+@ storage/perfschema/unittest/pfs_server_stubs.cc, -2, -1
+@ storage/perfschema/unittest/pfs_user-oom-t.cc, -2, -1
+@ storage/perfschema/unittest/stub_pfs_global.h, -2, -1
+@ storage/perfschema/unittest/stub_print_error.h, -2, -1
+@ libchangestreams/include/mysql/cs/reader/binary/mysqlproto.h, -2, -1
+@ libchangestreams/include/mysql/cs/reader/binary/tracker.h, -2, -1
+@ libchangestreams/include/mysql/cs/reader/state.h, -2, -1
+@ libchangestreams/src/lib/mysql/cs/codec/pb/reader_state_codec_pb.cpp, -2, -1
+@ libchangestreams/src/lib/mysql/cs/reader/binary/mysqlproto.cpp, -2, -1
+@ libchangestreams/src/lib/mysql/cs/reader/binary/tracker.cpp, -2, -1
+@ libchangestreams/src/lib/mysql/cs/reader/state.cpp, -2, -1
+@ libchangestreams/src/tests/cs-test-mysql-proto-reader-mtr.cpp, -2, -1
+@ storage/ndb/src/common/mgmcommon/ConfigInfo.cpp, -2, -1
+@ storage/ndb/src/common/mgmcommon/ConfigRetriever.cpp, -2, -1
+@ storage/ndb/src/common/mgmcommon/IPCConfig.cpp, -2, -1
+@ storage/ndb/include/ndb_global.h, -2, -1
+@ storage/ndb/include/portlib/NdbSleep.h, -2, -1
+@ storage/ndb/include/portlib/ndb_localtime.h, -2, -1
+@ storage/ndb/include/portlib/ndb_openssl_version.h, -2, -1
+@ storage/ndb/include/portlib/ndb_socket.h, -2, -1
+@ storage/ndb/include/transporter/TransporterDefinitions.hpp, -2, -1
+@ storage/ndb/include/util/File.hpp, -2, -1
+@ storage/ndb/include/util/ndb_openssl3_compat.h, -2, -1
+@ storage/ndb/include/util/ndb_opts.h, -2, -1
+@ storage/ndb/src/common/util/BaseString.cpp, -2, -1
+@ storage/ndb/src/common/util/CharsetMap.cpp, -2, -1
+@ storage/ndb/src/common/util/CharsetMapImpl.cpp, -2, -1
+@ storage/ndb/src/common/util/NdbPack.cpp, -2, -1
+@ storage/ndb/src/common/util/NdbSqlUtil.cpp, -2, -1
+@ storage/ndb/src/common/util/OwnProcessInfo.cpp, -2, -1
+@ storage/ndb/src/common/util/mysql_utils_test.cpp, -2, -1
+@ storage/ndb/src/common/util/ndb_openssl3_compat.cpp, -2, -1
+@ storage/ndb/src/common/util/ndb_zlib.cpp, -2, -1
+@ storage/ndb/src/common/util/version.cpp, -2, -1
+@ storage/ndb/src/mgmapi/mgmapi_error.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/ConfigManager.cpp, -2, -1
+@ storage/ndb/src/mgmsrv/main.cpp, -2, -1
+@ storage/ndb/test/include/ConfigFactory.hpp, -2, -1
+@ storage/ndb/test/include/NDBT.hpp, -2, -1
+@ storage/ndb/test/include/NDBT_Find.hpp, -2, -1
+@ storage/ndb/test/include/NDBT_Workingdir.hpp, -2, -1
+@ storage/ndb/test/include/NdbRestarter.hpp, -2, -1
+@ storage/ndb/test/include/NdbTest.hpp, -2, -1
+@ storage/ndb/test/ndbapi/create_all_tabs.cpp, -2, -1
+@ storage/ndb/test/ndbapi/create_tab.cpp, -2, -1
+@ storage/ndb/test/ndbapi/drop_all_tabs.cpp, -2, -1
+@ storage/ndb/test/ndbapi/flexAsynch.cpp, -2, -1
+@ storage/ndb/test/ndbapi/flexBench.cpp, -2, -1
+@ storage/ndb/test/ndbapi/flexHammer.cpp, -2, -1
+@ storage/ndb/test/ndbapi/flexTT.cpp, -2, -1
+@ storage/ndb/test/ndbapi/slow_select.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testBitfield.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testBlobs.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testDataBuffers.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testDeadlock.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testDict.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testIndex.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testIndexStat.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testLoad.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testMgmDisconnect.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testMgmd.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testNativeDefault.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testNdbApi.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testNodeRestart.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testOIBasic.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testReadPerf.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testScan.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testScanFilter.cpp, -2, -1
+@ storage/ndb/test/ndbapi/testScanPerf.cpp, -2, -1
+@ storage/ndb/test/ndbapi/test_event_merge.cpp, -2, -1
+@ storage/ndb/test/ndbapi/test_event_multi_table.cpp, -2, -1
+@ storage/ndb/test/src/DbUtil.cpp, -2, -1
+@ storage/ndb/test/src/NDBT_Find.cpp, -2, -1
+@ storage/ndb/test/src/NDBT_Tables.cpp, -2, -1
+@ storage/ndb/test/src/NDBT_Test.cpp, -2, -1
+@ storage/ndb/test/src/NdbRestarter.cpp, -2, -1
+@ storage/ndb/test/src/SqlClient.cpp, -2, -1
+@ storage/ndb/test/ndbapi/test_event.cpp, 7220, 7219
++ 73, 1, = ,73, 1
++ 78, 1, = ,78, 1
++ 83, 1, = ,83, 1
++ 97, 1, = ,97, 1
++ 102, 1, = ,102, 1
++ 110, 1, = ,110, 1
++ 116, 1, = ,116, 1
++ 118, 1, = ,118, 1
++ 127, 1, = ,127, 1
++ 144, 1, = ,144, 1
++ 150, 1, = ,150, 1
++ 157, 1, = ,157, 1
++ 219, 1, = ,219, 1
++ 283, 1, = ,283, 1
++ 319, 1, = ,319, 1
++ 437, 1, = ,437, 1
++ 472, 1, = ,472, 1
++ 763, 1, = ,763, 1
++ 811, 1, = ,811, 1
++ 852, 1, = ,852, 1
++ 896, 1, = ,896, 1
++ 914, 1, = ,914, 1
++ 1023, 1, = ,1023, 1
++ 1075, 1, = ,1075, 1
++ 1097, 2, = ,1097, 2
++ 1110, 1, = ,1110, 1
++ 1203, 1, = ,1203, 1
++ 1217, 1, = ,1217, 1
++ 1227, 1, = ,1227, 1
++ 1235, 1, = ,1235, 1
++ 1245, 1, = ,1245, 1
++ 1248, 1, = ,1248, 1
++ 1417, 1, = ,1417, 1
++ 1423, 1, = ,1423, 1
++ 1435, 1, = ,1435, 1
++ 1442, 1, = ,1442, 1
++ 1467, 3, = ,1467, 3
++ 1474, 1, = ,1474, 1
++ 1479, 2, = ,1479, 2
++ 1486, 1, = ,1486, 1
++ 1607, 1, = ,1607, 1
++ 1668, 1, = ,1668, 1
++ 1680, 1, = ,1680, 1
++ 1687, 1, = ,1687, 1
++ 1699, 1, = ,1699, 1
++ 1704, 1, = ,1704, 1
++ 1723, 1, = ,1723, 1
++ 1732, 1, = ,1732, 1
++ 1778, 1, = ,1778, 1
++ 1799, 1, = ,1799, 1
++ 2163, 1, = ,2163, 1
++ 2219, 1, = ,2219, 1
++ 2241, 1, = ,2241, 1
++ 2286, 1, = ,2286, 1
++ 2312, 1, = ,2312, 1
++ 2324, 1, = ,2324, 1
++ 2326, 1, = ,2326, 1
++ 2330, 1, = ,2330, 1
++ 2347, 1, = ,2347, 1
++ 2363, 1, = ,2363, 1
++ 2369, 1, = ,2369, 1
++ 2371, 1, = ,2371, 1
++ 2379, 1, = ,2379, 1
++ 2386, 1, = ,2386, 1
++ 2398, 1, = ,2398, 1
++ 2417, 1, = ,2417, 1
++ 2429, 1, = ,2429, 1
++ 2432, 1, = ,2432, 1
++ 2440, 1, = ,2440, 1
++ 2445, 1, = ,2445, 1
++ 2466, 1, = ,2466, 1
++ 2475, 1, = ,2475, 1
++ 2624, 1, = ,2624, 1
++ 2756, 1, = ,2756, 1
++ 2776, 1, = ,2776, 1
++ 2791, 1, = ,2791, 1
++ 2794, 1, = ,2794, 1
++ 2799, 1, = ,2799, 1
++ 2808, 1, = ,2808, 0
++ 3006, 1, = ,3005, 1
++ 3025, 1, = ,3024, 1
++ 3029, 1, = ,3028, 1
++ 3032, 1, = ,3031, 1
++ 3035, 1, = ,3034, 1
++ 3039, 1, = ,3038, 1
++ 3043, 1, = ,3042, 1
++ 3046, 1, = ,3045, 1
++ 3053, 1, = ,3052, 1
++ 3057, 1, = ,3056, 1
++ 3062, 1, = ,3061, 1
++ 3065, 1, = ,3064, 1
++ 3068, 1, = ,3067, 1
++ 3072, 1, = ,3071, 1
++ 3075, 1, = ,3074, 1
++ 3851, 1, = ,3850, 1
++ 3854, 1, = ,3853, 1
++ 3858, 1, = ,3857, 1
++ 3863, 1, = ,3862, 1
++ 3872, 1, = ,3871, 1
++ 3879, 1, = ,3878, 1
++ 3883, 1, = ,3882, 1
++ 3896, 1, = ,3895, 1
++ 3947, 1, = ,3946, 1
++ 3952, 1, = ,3951, 1
++ 3959, 1, = ,3958, 1
++ 3961, 1, = ,3960, 1
++ 3963, 1, = ,3962, 1
++ 3967, 1, = ,3966, 1
++ 3991, 1, = ,3990, 1
++ 3995, 1, = ,3994, 1
++ 4000, 1, = ,3999, 1
++ 4004, 1, = ,4003, 1
++ 4014, 1, = ,4013, 1
++ 4027, 1, = ,4026, 1
++ 4039, 1, = ,4038, 1
++ 4046, 2, = ,4045, 2
++ 4049, 1, = ,4048, 1
++ 4056, 1, = ,4055, 1
++ 4065, 1, = ,4064, 1
++ 4088, 1, = ,4087, 1
++ 4093, 1, = ,4092, 1
++ 4097, 3, = ,4096, 3
++ 4101, 1, = ,4100, 1
++ 4123, 1, = ,4122, 1
++ 4137, 1, = ,4136, 1
++ 4161, 1, = ,4160, 1
++ 4165, 1, = ,4164, 1
++ 4212, 1, = ,4211, 1
++ 4214, 1, = ,4213, 1
++ 4217, 2, = ,4216, 2
++ 4224, 1, = ,4223, 1
++ 4233, 2, = ,4232, 2
++ 4240, 1, = ,4239, 1
++ 4243, 1, = ,4242, 1
++ 4246, 1, = ,4245, 1
++ 4248, 1, = ,4247, 1
++ 4251, 1, = ,4250, 1
++ 4265, 1, = ,4264, 1
++ 4274, 1, = ,4273, 1
++ 4280, 1, = ,4279, 1
++ 4311, 1, = ,4310, 1
++ 4313, 7, = ,4312, 7
++ 4322, 2, = ,4321, 2
++ 4333, 1, = ,4332, 1
++ 4338, 1, = ,4337, 1
++ 4341, 1, = ,4340, 1
++ 4345, 1, = ,4344, 1
++ 4348, 1, = ,4347, 1
++ 4354, 1, = ,4353, 1
++ 4442, 1, = ,4441, 1
++ 4455, 1, = ,4454, 1
++ 4647, 1, = ,4646, 1
++ 4650, 1, = ,4649, 1
++ 4659, 1, = ,4658, 1
++ 4665, 1, = ,4664, 1
++ 4672, 1, = ,4671, 1
++ 4685, 1, = ,4684, 1
++ 4698, 1, = ,4697, 1
++ 4722, 1, = ,4721, 1
++ 5057, 1, = ,5056, 1
++ 5380, 1, = ,5379, 1
++ 5430, 1, = ,5429, 1
++ 5440, 1, = ,5439, 1
++ 5649, 1, = ,5648, 1
++ 5763, 1, = ,5762, 1
+# 6155, 2, = ,6154, 2
++ 6414, 1, = ,6413, 1
++ 6712, 1, = ,6711, 1
++ 6728, 1, = ,6727, 1
++ 6735, 1, = ,6734, 1
++ 6744, 1, = ,6743, 1
++ 6756, 1, = ,6755, 1
++ 6783, 1, = ,6782, 1
++ 6796, 1, = ,6795, 1
++ 6810, 1, = ,6809, 1
++ 6822, 1, = ,6821, 1
++ 6834, 1, = ,6833, 1
++ 6839, 1, = ,6838, 1
++ 6846, 1, = ,6845, 1
++ 6873, 1, = ,6872, 1
++ 6979, 1, = ,6978, 1
+@ storage/ndb/test/ndbapi/testMgm.cpp, 4053, 4024
++ 36, 1, = ,36, 0
++ 51, 3, = ,50, 0
++ 56, 1, = ,52, 0
++ 58, 1, = ,53, 1
++ 71, 2, = ,66, 1
++ 142, 3, = ,136, 0
+# 148, 2, = ,139, 1
++ 158, 1, = ,148, 1
++ 201, 1, = ,191, 1
++ 267, 3, = ,257, 0
++ 273, 1, = ,260, 0
++ 280, 1, = ,266, 1
++ 368, 3, = ,354, 0
++ 374, 1, = ,357, 0
++ 381, 1, = ,363, 1
++ 464, 3, = ,446, 0
++ 470, 1, = ,449, 0
++ 477, 1, = ,455, 1
+# 510, 1, = ,488, 2
++ 584, 3, = ,563, 0
++ 590, 1, = ,566, 0
++ 597, 1, = ,572, 2
++ 699, 3, = ,675, 0
++ 705, 1, = ,678, 0
++ 707, 1, = ,679, 1
++ 3174, 1, = ,3146, 1
++ 3178, 1, = ,3150, 1
++ 3182, 1, = ,3154, 1
++ 3188, 1, = ,3160, 1
++ 3194, 1, = ,3166, 1
++ 3205, 2, = ,3177, 2
++ 3221, 1, = ,3193, 1
++ 3223, 3, = ,3195, 3
++ 3484, 1, = ,3456, 1
++ 3784, 1, = ,3756, 0
+@ storage/ndb/test/ndbapi/testLcp.cpp, 572, 571
++ 33, 1, = ,33, 1
++ 37, 1, = ,37, 1
++ 91, 1, = ,91, 1
++ 98, 1, = ,98, 1
++ 101, 1, = ,101, 1
++ 106, 1, = ,106, 1
++ 114, 1, = ,114, 1
++ 116, 1, = ,116, 1
++ 129, 1, = ,129, 1
++ 135, 1, = ,135, 1
++ 149, 1, = ,149, 1
++ 151, 1, = ,151, 1
++ 168, 1, = ,168, 1
++ 188, 1, = ,188, 1
++ 227, 1, = ,227, 1
++ 234, 1, = ,234, 1
++ 240, 1, = ,240, 1
++ 254, 1, = ,254, 1
++ 261, 1, = ,261, 1
++ 267, 1, = ,267, 1
++ 274, 1, = ,274, 0
++ 322, 1, = ,321, 1
++ 338, 1, = ,337, 1
++ 341, 1, = ,340, 1
++ 349, 1, = ,348, 1
+# 389, 2, = ,388, 2
++ 396, 1, = ,395, 1
++ 431, 1, = ,430, 1
++ 437, 1, = ,436, 1
++ 449, 2, = ,448, 2
++ 453, 1, = ,452, 1
++ 455, 1, = ,454, 1
++ 468, 2, = ,467, 2
++ 472, 1, = ,471, 1
++ 474, 1, = ,473, 1
+# 485, 3, = ,484, 3
++ 493, 1, = ,492, 1
++ 520, 1, = ,519, 1
++ 534, 1, = ,533, 1
++ 538, 1, = ,537, 1
++ 565, 1, = ,564, 1
+@ storage/ndb/test/include/NdbMgmd.hpp, 681, 660
++ 45, 1, = ,45, 0
++ 153, 1, = ,152, 1
++ 155, 5, = ,154, 0
++ 166, 1, = ,160, 0
++ 180, 10, = ,173, 1
++ 215, 5, = ,199, 0
++ 450, 2, = ,429, 2
+# 466, 4, = ,445, 4
++ 488, 1, = ,467, 1
++ 502, 1, = ,481, 1
++ 565, 1, = ,544, 1
+@ storage/ndb/src/mgmsrv/Services.hpp, 190, 179
++ 41, 1, = ,41, 0
++ 54, 2, = ,53, 0
++ 59, 1, = ,56, 0
++ 81, 4, = ,77, 0
++ 119, 1, = ,111, 0
++ 149, 2, = ,140, 0
+@ storage/ndb/src/mgmsrv/Services.cpp, 2831, 2646
++ 25, 2, = ,25, 0
++ 29, 1, = ,27, 0
++ 40, 1, = ,37, 0
++ 50, 1, = ,46, 0
++ 66, 1, = ,61, 0
++ 69, 1, = ,63, 1
++ 78, 1, = ,72, 1
++ 91, 0, = ,85, 11
++ 102, 4, = ,107, 10
++ 107, 2, = ,118, 10
++ 112, 1, = ,131, 1
++ 118, 1, = ,137, 1
++ 124, 1, = ,143, 1
++ 137, 1, = ,156, 1
++ 139, 1, = ,158, 1
++ 144, 1, = ,163, 1
++ 147, 1, = ,166, 2
++ 149, 3, = ,169, 1
++ 157, 1, = ,175, 1
++ 164, 1, = ,182, 1
++ 169, 1, = ,187, 1
++ 174, 1, = ,192, 1
++ 178, 1, = ,196, 1
++ 184, 1, = ,202, 1
++ 187, 1, = ,205, 1
++ 190, 1, = ,208, 1
++ 194, 1, = ,212, 1
++ 203, 1, = ,221, 1
++ 206, 1, = ,224, 1
++ 210, 1, = ,228, 1
++ 215, 1, = ,233, 1
++ 219, 1, = ,237, 1
++ 222, 1, = ,240, 1
++ 224, 1, = ,242, 2
++ 227, 1, = ,246, 1
++ 229, 1, = ,248, 1
++ 231, 1, = ,250, 1
++ 233, 3, = ,252, 1
++ 240, 1, = ,257, 1
++ 245, 1, = ,262, 1
++ 249, 1, = ,266, 1
++ 255, 1, = ,272, 1
++ 262, 1, = ,279, 1
++ 267, 2, = ,284, 2
++ 272, 1, = ,289, 1
++ 274, 1, = ,291, 1
++ 276, 1, = ,293, 1
++ 278, 1, = ,295, 1
++ 280, 1, = ,297, 1
++ 284, 1, = ,301, 1
++ 286, 1, = ,303, 1
++ 288, 5, = ,305, 1
++ 295, 1, = ,308, 1
++ 300, 1, = ,313, 1
++ 305, 1, = ,318, 1
++ 308, 1, = ,321, 1
++ 311, 1, = ,324, 1
++ 316, 1, = ,329, 1
++ 321, 1, = ,334, 1
++ 323, 1, = ,336, 1
++ 327, 1, = ,340, 1
++ 334, 27, = ,347, 0
++ 383, 2, = ,369, 0
++ 417, 6, = ,401, 0
++ 524, 39, = ,502, 0
++ 1510, 64, = ,1449, 0
++ 2145, 33, = ,2020, 0
++ 2190, 3, = ,2032, 0
++ 2236, 23, = ,2075, 0
++ 2292, 1, = ,2108, 0
+@ storage/ndb/src/mgmsrv/MgmtSrvr.hpp, 654, 626
++ 28, 2, = ,28, 0
++ 99, 2, = ,97, 0
++ 119, 0, = ,115, 1
++ 122, 5, = ,119, 0
++ 153, 1, = ,145, 0
++ 336, 3, = ,327, 0
++ 467, 10, = ,455, 0
++ 549, 3, = ,527, 0
++ 612, 3, = ,587, 0
+@ storage/ndb/src/mgmsrv/MgmtSrvr.cpp, 5711, 5645
++ 28, 1, = ,28, 0
++ 63, 1, = ,62, 0
++ 101, 3, = ,99, 0
++ 257, 2, = ,252, 0
++ 400, 0, = ,393, 9
++ 407, 8, = ,409, 0
++ 438, 4, = ,432, 2
++ 443, 1, = ,435, 0
++ 467, 1, = ,458, 1
++ 469, 1, = ,460, 1
++ 493, 12, = ,484, 0
++ 506, 7, = ,485, 0
++ 602, 22, = ,574, 0
++ 638, 4, = ,588, 0
++ 1351, 2, = ,1297, 1
++ 5215, 2, = ,5160, 1
++ 5694, 10, = ,5638, 0
+@ storage/ndb/src/mgmapi/ndb_logevent.cpp, 702, 705
++ 38, 0, = ,38, 4
+# 77, 3, = ,81, 2
++ 106, 2, = ,109, 2
++ 111, 1, = ,114, 1
++ 438, 1, = ,441, 1
+@ storage/ndb/src/mgmapi/mgmapi_internal.h, 130, 130
+# 122, 7, = ,122, 7
+@ storage/ndb/src/mgmapi/mgmapi.cpp, 4616, 4341
++ 55, 1, = ,55, 1
++ 62, 1, = ,62, 1
++ 66, 1, = ,66, 1
++ 72, 2, = ,72, 2
++ 76, 2, = ,76, 2
++ 83, 2, = ,83, 2
++ 117, 1, = ,117, 0
++ 204, 1, = ,203, 1
++ 215, 1, = ,214, 1
++ 245, 1, = ,244, 1
++ 257, 1, = ,256, 0
++ 473, 31, = ,471, 0
++ 553, 1, = ,520, 1
++ 588, 1, = ,555, 1
++ 618, 1, = ,585, 1
++ 627, 2, = ,594, 2
++ 632, 1, = ,599, 1
++ 637, 2, = ,604, 2
++ 640, 8, = ,607, 0
++ 670, 1, = ,629, 1
++ 842, 6, = ,801, 0
++ 1305, 1, = ,1258, 1
++ 1307, 1, = ,1260, 1
++ 1310, 1, = ,1263, 1
++ 1324, 1, = ,1277, 1
++ 1335, 1, = ,1288, 1
++ 1347, 1, = ,1300, 1
++ 1364, 1, = ,1317, 1
++ 1369, 1, = ,1322, 1
++ 1371, 7, = ,1324, 1
++ 1380, 1, = ,1327, 1
++ 1383, 1, = ,1330, 1
++ 1387, 1, = ,1334, 1
++ 1389, 1, = ,1336, 1
++ 1396, 1, = ,1343, 1
++ 1398, 1, = ,1345, 1
++ 1403, 1, = ,1350, 1
++ 1416, 1, = ,1363, 1
++ 1437, 1, = ,1384, 1
++ 1457, 1, = ,1404, 1
++ 1464, 1, = ,1411, 1
++ 1484, 1, = ,1431, 1
++ 1490, 1, = ,1437, 1
++ 1492, 1, = ,1439, 1
++ 1529, 1, = ,1476, 1
++ 1531, 1, = ,1478, 1
++ 1534, 1, = ,1481, 1
++ 1548, 1, = ,1495, 1
++ 1559, 1, = ,1506, 1
++ 1571, 1, = ,1518, 1
++ 1588, 1, = ,1535, 1
++ 1602, 1, = ,1549, 1
++ 1604, 7, = ,1551, 1
++ 1613, 1, = ,1554, 1
++ 1616, 1, = ,1557, 1
++ 1620, 1, = ,1561, 1
++ 1622, 1, = ,1563, 1
++ 1629, 1, = ,1570, 1
++ 1631, 1, = ,1572, 1
++ 1636, 1, = ,1577, 1
++ 1649, 1, = ,1590, 1
++ 1671, 1, = ,1612, 1
++ 1690, 1, = ,1631, 1
++ 1697, 1, = ,1638, 1
++ 1717, 1, = ,1658, 1
++ 1723, 1, = ,1664, 1
++ 1725, 1, = ,1666, 1
++ 2194, 1, = ,2135, 1
++ 2209, 1, = ,2150, 1
++ 2214, 1, = ,2155, 1
++ 2359, 1, = ,2300, 1
++ 2379, 1, = ,2320, 1
++ 2384, 1, = ,2325, 1
+# 2473, 1, = ,2414, 1
+# 2570, 4, = ,2511, 10
+# 2575, 12, = ,2522, 0
+# 2596, 3, = ,2531, 3
++ 2657, 94, = ,2592, 0
++ 3217, 1, = ,3058, 1
++ 3219, 1, = ,3060, 1
++ 3222, 1, = ,3063, 1
++ 3248, 1, = ,3089, 1
++ 3270, 1, = ,3111, 1
++ 3349, 1, = ,3190, 1
+# 3674, 3, = ,3515, 2
+# 3806, 1, = ,3646, 8
+# 3893, 2, = ,3740, 1
++ 4011, 1, = ,3857, 0
++ 4055, 4, = ,3900, 0
+# 4229, 117, = ,4070, 1
++ 4390, 1, = ,4115, 1
++ 4392, 1, = ,4117, 1
++ 4417, 1, = ,4142, 1
++ 4425, 1, = ,4150, 1
++ 4435, 1, = ,4160, 1
++ 4449, 1, = ,4174, 1
++ 4458, 1, = ,4183, 1
++ 4473, 1, = ,4198, 1
++ 4482, 1, = ,4207, 1
+@ storage/ndb/src/common/util/SocketClient.cpp, 226, 221
+# 207, 18, = ,207, 13
+@ storage/ndb/src/common/util/SocketAuthenticator.cpp, 216, 81
+# 25, 26, = ,25, 8
+# 66, 1, = ,48, 1
+# 71, 1, = ,53, 1
+# 73, 1, = ,55, 1
+# 85, 1, = ,67, 1
+# 90, 1, = ,72, 1
+# 96, 118, = ,78, 1
+@ storage/ndb/src/common/util/NdbSocket.cpp, 576, 541
++ 30, 1, = ,30, 0
++ 32, 1, = ,31, 2
++ 34, 1, = ,34, 0
++ 37, 0, = ,36, 2
++ 38, 1, = ,39, 2
+# 132, 0, = ,134, 9
++ 136, 9, = ,147, 5
+# 146, 8, = ,153, 19
++ 183, 43, = ,201, 0
+# 249, 20, = ,224, 13
++ 273, 1, = ,241, 0
+# 275, 4, = ,242, 4
++ 280, 2, = ,247, 0
++ 284, 0, = ,249, 2
++ 292, 1, = ,259, 0
+# 294, 4, = ,260, 4
++ 299, 2, = ,265, 0
++ 303, 0, = ,267, 2
+# 314, 4, = ,280, 4
+# 337, 2, = ,303, 1
+@ storage/ndb/src/common/util/InputStream.cpp, 106, 90
++ 30, 1, = ,30, 0
++ 91, 15, = ,90, 0
+@ storage/ndb/src/common/transporter/TransporterRegistry.cpp, 4206, 4136
+# 126, 28, = ,126, 7
++ 167, 1, = ,146, 1
++ 170, 1, = ,149, 1
+# 521, 11, = ,500, 1
+# 828, 19, = ,797, 1
++ 3454, 5, = ,3405, 2
++ 3610, 1, = ,3558, 1
++ 3617, 2, = ,3565, 0
++ 3622, 1, = ,3568, 0
++ 3635, 1, = ,3580, 0
++ 3640, 1, = ,3584, 0
+# 3664, 2, = ,3607, 2
++ 3762, 6, = ,3705, 0
+# 3868, 8, = ,3805, 1
+@ storage/ndb/src/common/transporter/Transporter.hpp, 566, 562
++ 196, 1, = ,196, 0
++ 243, 1, = ,242, 0
++ 304, 1, = ,302, 1
++ 327, 2, = ,325, 0
+@ storage/ndb/src/common/transporter/Transporter.cpp, 731, 678
++ 87, 2, = ,87, 0
++ 166, 10, = ,164, 0
++ 214, 1, = ,202, 0
+# 274, 15, = ,261, 8
+# 314, 1, = ,294, 1
+# 360, 42, = ,340, 9
+@ storage/ndb/src/common/transporter/TCP_Transporter.hpp, 212, 212
+# 119, 8, = ,119, 8
+@ storage/ndb/src/common/transporter/TCP_Transporter.cpp, 618, 591
++ 99, 5, = ,99, 0
++ 140, 4, = ,135, 0
++ 176, 1, = ,167, 0
++ 222, 8, = ,212, 0
++ 478, 1, = ,460, 0
++ 480, 7, = ,461, 0
++ 502, 1, = ,476, 2
++ 507, 1, = ,482, 2
+# 613, 4, = ,589, 1
+@ storage/ndb/src/common/transporter/Multi_Transporter.hpp, 167, 165
++ 106, 2, = ,106, 0
+@ storage/ndb/src/common/transporter/Multi_Transporter.cpp, 218, 211
++ 211, 7, = ,211, 0
+@ storage/ndb/include/util/SocketAuthenticator.hpp, 80, 59
+# 40, 13, = ,40, 5
++ 65, 13, = ,57, 0
+@ storage/ndb/include/util/NdbSocket.h, 332, 329
+# 39, 7, = ,39, 6
+# 47, 1, = ,46, 0
++ 115, 1, = ,113, 1
++ 117, 2, = ,115, 1
+@ storage/ndb/include/util/InputStream.hpp, 90, 75
+# 74, 15, = ,74, 0
+@ storage/ndb/include/transporter/TransporterRegistry.hpp, 922, 907
++ 57, 1, = ,57, 0
++ 244, 7, = ,243, 0
++ 540, 1, = ,532, 0
++ 544, 1, = ,535, 1
++ 551, 1, = ,542, 0
++ 576, 2, = ,566, 0
++ 719, 3, = ,707, 0
+@ storage/ndb/include/portlib/ndb_socket_win32.h, 163, 163
++ 68, 1, = ,68, 1
++ 72, 2, = ,72, 2
++ 143, 1, = ,143, 1

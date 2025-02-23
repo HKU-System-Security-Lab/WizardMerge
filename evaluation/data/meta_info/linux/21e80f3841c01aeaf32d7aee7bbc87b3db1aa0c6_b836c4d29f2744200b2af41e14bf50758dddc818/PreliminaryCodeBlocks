@@ -1,0 +1,48 @@
+@ crypto/asymmetric_keys/public_key.c, -2, -1
+@ crypto/asymmetric_keys/restrict.c, -1, -2
+@ fs/attr.c, -2, -1
+@ fs/bad_inode.c, -2, -1
+@ fs/binfmt_elf.c, -2, -1
+@ fs/binfmt_elf_fdpic.c, -2, -1
+@ fs/binfmt_misc.c, -2, -1
+@ fs/char_dev.c, -2, -1
+@ fs/dcache.c, -2, -1
+@ fs/file.c, -2, -1
+@ fs/file_table.c, -2, -1
+@ fs/fs-writeback.c, -2, -1
+@ fs/fs_context.c, -2, -1
+@ fs/fsopen.c, -2, -1
+@ fs/init.c, -2, -1
+@ fs/inode.c, -2, -1
+@ fs/internal.h, -2, -1
+@ fs/libfs.c, -2, -1
+@ fs/locks.c, -2, -1
+@ fs/namei.c, -2, -1
+@ fs/namespace.c, -2, -1
+@ fs/nsfs.c, -2, -1
+@ fs/open.c, -2, -1
+@ fs/overlayfs/file.c, -2, -1
+@ fs/overlayfs/inode.c, -2, -1
+@ fs/overlayfs/params.c, -2, -1
+@ fs/overlayfs/util.c, -2, -1
+@ fs/pipe.c, -2, -1
+@ fs/stack.c, -2, -1
+@ fs/stat.c, -2, -1
+@ fs/super.c, -2, -1
+@ fs/xattr.c, -2, -1
+@ security/commoncap.c, -2, -1
+@ security/inode.c, -2, -1
+@ security/integrity/iint.c, -1, -2
+@ security/integrity/ima/ima_api.c, -1, -2
+@ security/integrity/ima/ima_main.c, -1, -2
+@ security/integrity/ima/ima_modsig.c, -2, -1
+@ security/integrity/integrity.h, -1, -2
+@ security/security.c, -2, -1
+@ fs/overlayfs/super.c, 1584, 1568
++ 37, 8, = ,37, 1
++ 47, 2, = ,40, 0
++ 51, 2, = ,42, 3
++ 498, 1, = ,490, 1
++ 504, 1, = ,496, 1
++ 1499, 1, = ,1491, 0
+# 1501, 8, = ,1492, 1

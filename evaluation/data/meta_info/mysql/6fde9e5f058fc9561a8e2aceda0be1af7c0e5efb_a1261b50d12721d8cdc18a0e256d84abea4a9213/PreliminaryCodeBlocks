@@ -1,0 +1,225 @@
+@ storage/ndb/src/kernel/SimBlockList.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/mutexes.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Filename.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Filename.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/MemoryChannel.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/MemoryChannel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Ndbfs.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/OpenFiles.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Pool.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/VoidFs.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Win32AsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Win32AsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/print_file.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/record_types.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.hpp, -2, -1
+@ storage/ndb/src/kernel/main.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArenaPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArenaPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Array.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArrayPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CArray.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Callback.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ClusterConfiguration.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ClusterConfiguration.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingSemaphore.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLCHashTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLHashTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLHashTable2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DataBuffer.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DataBuffer2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DynArr256.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/DynArr256.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Emulator.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Emulator.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/FastScheduler.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/GlobalData.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/GlobalData.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/IntrusiveList.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/IntrusiveList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyDescriptor.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable2Ref.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LHLevel.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LHLevel.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LinearPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LockQueue.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LockQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignalImpl.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Mutex.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Mutex.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbSeqLock.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbdSuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbdSuperPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Ndbinfo.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Ndbinfo.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbinfoTables.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Pool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Pool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Prio.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/RWPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/RWPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/RequestTracker.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Rope.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Rope.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeCounter.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeCounter.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeMutex.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeMutex.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SectionReader.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SectionReader.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SegmentList.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SegmentList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SignalCounter.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimBlockList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimplePropertiesSection_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SuperPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ThreadConfig.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ThreadConfig.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TimeQueue.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TimeQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallbackKernel.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/TransporterCallback_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/VMSignal.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/VMSignal.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WOPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/WOPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WaitQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WatchDog.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/WatchDog.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/bench_pool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/dummy_mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/dummy_nonmt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt-asm.h, -2, -1
+@ storage/ndb/src/kernel/vm/mt-lock.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt-send-t.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt_thr_config.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt_thr_config.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc_impl.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc_impl.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/pc.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/testSuperPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/test_context.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/test_context.hpp, -2, -1
+@ storage/ndb/src/ndbclient_exports.cpp, -2, -1
+@ storage/ndb/src/ndbclient_link_test.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock.hpp, 2031, 1970
+# 2, 1, = ,2, 1
++ 130, 10, = ,130, 0
++ 505, 1, = ,495, 0
++ 605, 1, = ,594, 0
++ 613, 11, = ,601, 0
++ 626, 21, = ,603, 0
++ 648, 4, = ,604, 1
+- 1020, 0, = ,973, 17
++ 1040, 1, = ,1010, 1
++ 1073, 3, = ,1043, 0
+- 1100, 4, = ,1067, 3
++ 1317, 2, = ,1283, 1
++ 1422, 26, = ,1387, 0
+@ storage/ndb/src/kernel/vm/SimulatedBlock.cpp, 4855, 4710
+# 2, 1, = ,2, 1
++ 86, 1, = ,86, 0
++ 142, 5, = ,141, 0
++ 281, 1, = ,275, 0
++ 540, 2, = ,533, 2
++ 543, 1, = ,536, 0
++ 545, 1, = ,537, 3
++ 548, 135, = ,542, 0
+- 1857, 0, = ,1716, 5
+- 1858, 1, = ,1722, 1
+- 1860, 0, = ,1724, 7
+- 1861, 1, = ,1732, 3
+- 1863, 4, = ,1736, 1
+- 1868, 9, = ,1738, 14
++ 2035, 2, = ,1910, 1
++ 2047, 11, = ,1921, 4
++ 4665, 14, = ,4532, 2
+@ storage/ndb/src/kernel/blocks/ndbfs/Ndbfs.cpp, 1835, 1798
+# 2, 1, = ,2, 1
+- 275, 0, = ,275, 1
++ 363, 1, = ,364, 1
++ 365, 6, = ,366, 1
+- 428, 0, = ,424, 1
++ 489, 2, = ,486, 0
+- 510, 0, = ,505, 1
+- 513, 1, = ,509, 0
+- 517, 0, = ,512, 1
+- 603, 0, = ,599, 1
+- 609, 0, = ,606, 1
+- 656, 0, = ,654, 1
+- 661, 0, = ,660, 1
+- 704, 0, = ,704, 1
+- 721, 0, = ,722, 1
+- 725, 1, = ,727, 1
+- 751, 6, = ,753, 1
+- 900, 0, = ,897, 1
+- 924, 0, = ,922, 1
+- 938, 0, = ,937, 1
+- 943, 0, = ,943, 1
+- 971, 0, = ,972, 1
+- 997, 0, = ,999, 2
+- 1003, 0, = ,1007, 1
+- 1007, 2, = ,1012, 6
+# 1014, 11, = ,1023, 0
+- 1037, 6, = ,1035, 0
+- 1082, 0, = ,1074, 1
+- 1083, 1, = ,1076, 0
+- 1089, 0, = ,1081, 1
+- 1108, 0, = ,1101, 1
+- 1114, 0, = ,1108, 1
++ 1183, 3, = ,1178, 1
+- 1640, 0, = ,1633, 1
+- 1668, 0, = ,1662, 7
+- 1681, 0, = ,1682, 2
++ 1734, 33, = ,1737, 0
++ 1793, 8, = ,1763, 1

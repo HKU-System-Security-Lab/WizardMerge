@@ -1,0 +1,264 @@
+@ include/sound/cs35l41.h, -2, -1
+@ include/sound/cs35l56.h, -2, -1
+@ include/sound/graph_card.h, -2, -1
+@ include/sound/max9768.h, -2, -1
+@ include/sound/simple_card.h, -2, -1
+@ include/sound/simple_card_utils.h, -2, -1
+@ include/sound/soc-acpi-intel-match.h, -2, -1
+@ include/sound/soc-acpi.h, -2, -1
+@ include/sound/soc-card.h, -2, -1
+@ include/sound/soc-dai.h, -1, -2
+@ include/sound/soc-dapm.h, -2, -1
+@ include/sound/soc.h, -2, -1
+@ include/sound/sof.h, -2, -1
+@ include/sound/tas2781-dsp.h, -2, -1
+@ sound/soc/codecs/88pm860x-codec.c, -2, -1
+@ sound/soc/codecs/adau1373.c, -2, -1
+@ sound/soc/codecs/adau1701.c, -2, -1
+@ sound/soc/codecs/adau1977-spi.c, -2, -1
+@ sound/soc/codecs/adav80x.c, -2, -1
+@ sound/soc/codecs/ak4104.c, -2, -1
+@ sound/soc/codecs/ak4118.c, -2, -1
+@ sound/soc/codecs/ak4375.c, -2, -1
+@ sound/soc/codecs/ak4458.c, -2, -1
+@ sound/soc/codecs/ak4613.c, -2, -1
+@ sound/soc/codecs/ak4642.c, -2, -1
+@ sound/soc/codecs/ak5386.c, -2, -1
+@ sound/soc/codecs/ak5558.c, -2, -1
+@ sound/soc/codecs/audio-iio-aux.c, -2, -1
+@ sound/soc/codecs/aw88261.c, -2, -1
+@ sound/soc/codecs/aw88261.h, -2, -1
+@ sound/soc/codecs/cs35l32.c, -2, -1
+@ sound/soc/codecs/cs35l33.c, -2, -1
+@ sound/soc/codecs/cs35l34.c, -2, -1
+@ sound/soc/codecs/cs35l35.c, -2, -1
+@ sound/soc/codecs/cs35l36.c, -2, -1
+@ sound/soc/codecs/cs35l41-i2c.c, -2, -1
+@ sound/soc/codecs/cs35l41-lib.c, -2, -1
+@ sound/soc/codecs/cs35l41-spi.c, -2, -1
+@ sound/soc/codecs/cs35l41.c, -2, -1
+@ sound/soc/codecs/cs35l41.h, -2, -1
+@ sound/soc/codecs/cs35l45-tables.c, -2, -1
+@ sound/soc/codecs/cs35l45.c, -2, -1
+@ sound/soc/codecs/cs35l45.h, -2, -1
+@ sound/soc/codecs/cs35l56-i2c.c, -2, -1
+@ sound/soc/codecs/cs35l56-sdw.c, -2, -1
+@ sound/soc/codecs/cs35l56-shared.c, -2, -1
+@ sound/soc/codecs/cs35l56-spi.c, -2, -1
+@ sound/soc/codecs/cs35l56.c, -2, -1
+@ sound/soc/codecs/cs4270.c, -2, -1
+@ sound/soc/codecs/cs4271.c, -2, -1
+@ sound/soc/codecs/cs42l42.c, -2, -1
+@ sound/soc/codecs/cs42l43-jack.c, -2, -1
+@ sound/soc/codecs/cs42l43-sdw.c, -2, -1
+@ sound/soc/codecs/cs42l43.c, -2, -1
+@ sound/soc/codecs/cs42l56.c, -2, -1
+@ sound/soc/codecs/cs42xx8-i2c.c, -2, -1
+@ sound/soc/codecs/cs43130.c, -2, -1
+@ sound/soc/codecs/cs4349.c, -2, -1
+@ sound/soc/codecs/cs47l15.c, -2, -1
+@ sound/soc/codecs/cs47l24.c, -2, -1
+@ sound/soc/codecs/cs47l35.c, -2, -1
+@ sound/soc/codecs/cs47l85.c, -2, -1
+@ sound/soc/codecs/cs47l90.c, -2, -1
+@ sound/soc/codecs/cs47l92.c, -2, -1
+@ sound/soc/codecs/da7213.c, -2, -1
+@ sound/soc/codecs/da7213.h, -2, -1
+@ sound/soc/codecs/da7218.c, -2, -1
+@ sound/soc/codecs/da7218.h, -2, -1
+@ sound/soc/codecs/da7219.c, -2, -1
+@ sound/soc/codecs/da9055.c, -2, -1
+@ sound/soc/codecs/es8316.c, -2, -1
+@ sound/soc/codecs/es8316.h, -2, -1
+@ sound/soc/codecs/es8328.c, -2, -1
+@ sound/soc/codecs/gtm601.c, -2, -1
+@ sound/soc/codecs/hdac_hda.c, -2, -1
+@ sound/soc/codecs/hdac_hda.h, -2, -1
+@ sound/soc/codecs/hdac_hdmi.c, -2, -1
+@ sound/soc/codecs/lpass-macro-common.c, -2, -1
+@ sound/soc/codecs/lpass-macro-common.h, -2, -1
+@ sound/soc/codecs/lpass-rx-macro.c, -2, -1
+@ sound/soc/codecs/lpass-tx-macro.c, -2, -1
+@ sound/soc/codecs/lpass-wsa-macro.c, -2, -1
+@ sound/soc/codecs/max9768.c, -2, -1
+@ sound/soc/codecs/max98357a.c, -2, -1
+@ sound/soc/codecs/max98373-i2c.c, -2, -1
+@ sound/soc/codecs/max98373.c, -2, -1
+@ sound/soc/codecs/max98373.h, -2, -1
+@ sound/soc/codecs/max98388.c, -2, -1
+@ sound/soc/codecs/max98396.c, -2, -1
+@ sound/soc/codecs/max98520.c, -2, -1
+@ sound/soc/codecs/max9867.c, -2, -1
+@ sound/soc/codecs/max98927.c, -2, -1
+@ sound/soc/codecs/mt6351.c, -2, -1
+@ sound/soc/codecs/mt6358.c, -2, -1
+@ sound/soc/codecs/mt6359-accdet.c, -2, -1
+@ sound/soc/codecs/mt6359.c, -2, -1
+@ sound/soc/codecs/nau8540.c, -2, -1
+@ sound/soc/codecs/nau8821.c, -2, -1
+@ sound/soc/codecs/pcm1681.c, -2, -1
+@ sound/soc/codecs/pcm512x-i2c.c, -2, -1
+@ sound/soc/codecs/pcm512x.c, -2, -1
+@ sound/soc/codecs/rt1015.c, -2, -1
+@ sound/soc/codecs/rt298.c, -2, -1
+@ sound/soc/codecs/rt5677-spi.c, -2, -1
+@ sound/soc/codecs/rt5682s.c, -2, -1
+@ sound/soc/codecs/rt715-sdca.c, -2, -1
+@ sound/soc/codecs/rt715.c, -2, -1
+@ sound/soc/codecs/sgtl5000.c, -2, -1
+@ sound/soc/codecs/sigmadsp.c, -2, -1
+@ sound/soc/codecs/sma1303.c, -2, -1
+@ sound/soc/codecs/sta32x.c, -2, -1
+@ sound/soc/codecs/sta350.c, -2, -1
+@ sound/soc/codecs/tas2781-fmwlib.c, -2, -1
+@ sound/soc/codecs/tas5086.c, -2, -1
+@ sound/soc/codecs/tas571x.c, -2, -1
+@ sound/soc/codecs/tlv320aic31xx.c, -2, -1
+@ sound/soc/codecs/tlv320aic32x4-i2c.c, -2, -1
+@ sound/soc/codecs/tlv320aic32x4-spi.c, -2, -1
+@ sound/soc/codecs/tlv320aic32x4.c, -2, -1
+@ sound/soc/codecs/tlv320aic32x4.h, -2, -1
+@ sound/soc/codecs/uda1334.c, -2, -1
+@ sound/soc/codecs/wcd9335.c, -2, -1
+@ sound/soc/codecs/wcd938x.c, -2, -1
+@ sound/soc/codecs/wm5110.c, -2, -1
+@ sound/soc/codecs/wm8510.c, -2, -1
+@ sound/soc/codecs/wm8523.c, -2, -1
+@ sound/soc/codecs/wm8524.c, -2, -1
+@ sound/soc/codecs/wm8580.c, -2, -1
+@ sound/soc/codecs/wm8711.c, -2, -1
+@ sound/soc/codecs/wm8728.c, -2, -1
+@ sound/soc/codecs/wm8731-i2c.c, -2, -1
+@ sound/soc/codecs/wm8731-spi.c, -2, -1
+@ sound/soc/codecs/wm8737.c, -2, -1
+@ sound/soc/codecs/wm8741.c, -2, -1
+@ sound/soc/codecs/wm8750.c, -2, -1
+@ sound/soc/codecs/wm8753.c, -2, -1
+@ sound/soc/codecs/wm8770.c, -2, -1
+@ sound/soc/codecs/wm8776.c, -2, -1
+@ sound/soc/codecs/wm8782.c, -2, -1
+@ sound/soc/codecs/wm8804.c, -2, -1
+@ sound/soc/codecs/wm8962.c, -2, -1
+@ sound/soc/codecs/wm8994.c, -2, -1
+@ sound/soc/codecs/wm8995.c, -2, -1
+@ sound/soc/codecs/wm_adsp.c, -2, -1
+@ sound/soc/codecs/wsa883x.c, -1, -2
+@ sound/soc/fsl/efika-audio-fabric.c, -2, -1
+@ sound/soc/fsl/eukrea-tlv320.c, -2, -1
+@ sound/soc/fsl/fsl-asoc-card.c, -2, -1
+@ sound/soc/fsl/fsl_asrc_dma.c, -2, -1
+@ sound/soc/fsl/fsl_aud2htx.c, -2, -1
+@ sound/soc/fsl/fsl_dma.c, -2, -1
+@ sound/soc/fsl/fsl_easrc.c, -1, -2
+@ sound/soc/fsl/fsl_mqs.c, -2, -1
+@ sound/soc/fsl/fsl_rpmsg.c, -2, -1
+@ sound/soc/fsl/fsl_sai.c, -2, -1
+@ sound/soc/fsl/fsl_spdif.c, -2, -1
+@ sound/soc/fsl/fsl_ssi.c, -2, -1
+@ sound/soc/fsl/imx-audmix.c, -2, -1
+@ sound/soc/fsl/imx-audmux.c, -2, -1
+@ sound/soc/fsl/imx-card.c, -2, -1
+@ sound/soc/fsl/imx-hdmi.c, -2, -1
+@ sound/soc/fsl/imx-pcm-rpmsg.c, -2, -1
+@ sound/soc/fsl/imx-rpmsg.c, -2, -1
+@ sound/soc/fsl/imx-sgtl5000.c, -2, -1
+@ sound/soc/fsl/imx-spdif.c, -2, -1
+@ sound/soc/fsl/mpc5200_dma.c, -2, -1
+@ sound/soc/fsl/mpc5200_psc_ac97.c, -2, -1
+@ sound/soc/fsl/mpc5200_psc_i2s.c, -2, -1
+@ sound/soc/fsl/mpc8610_hpcd.c, -2, -1
+@ sound/soc/fsl/p1022_ds.c, -2, -1
+@ sound/soc/fsl/p1022_rdk.c, -2, -1
+@ sound/soc/fsl/pcm030-audio-fabric.c, -2, -1
+@ sound/soc/intel/skylake/skl-pcm.c, -2, -1
+@ sound/soc/intel/skylake/skl-sst-utils.c, -1, -2
+@ sound/soc/intel/skylake/skl.c, -2, -1
+@ sound/soc/soc-component.c, -2, -1
+@ sound/soc/soc-compress.c, -2, -1
+@ sound/soc/soc-core.c, -2, -1
+@ sound/soc/soc-dapm.c, -2, -1
+@ sound/soc/soc-generic-dmaengine-pcm.c, -2, -1
+@ sound/soc/soc-link.c, -2, -1
+@ sound/soc/soc-topology.c, -2, -1
+@ sound/soc/soc-utils.c, -2, -1
+@ sound/soc/sof/ipc.c, -2, -1
+@ sound/soc/sof/ipc3-dtrace.c, -2, -1
+@ sound/soc/sof/ipc3-pcm.c, -2, -1
+@ sound/soc/sof/ipc4-control.c, -2, -1
+@ sound/soc/sof/ipc4-mtrace.c, -2, -1
+@ sound/soc/sof/ipc4-pcm.c, -2, -1
+@ sound/soc/sof/ipc4-priv.h, -2, -1
+@ sound/soc/sof/ipc4-topology.c, -2, -1
+@ sound/soc/sof/ipc4-topology.h, -2, -1
+@ sound/soc/sof/ipc4.c, -2, -1
+@ sound/soc/sof/nocodec.c, -2, -1
+@ sound/soc/sof/ops.h, -2, -1
+@ sound/soc/sof/pcm.c, -2, -1
+@ sound/soc/sof/sof-acpi-dev.c, -2, -1
+@ sound/soc/sof/sof-acpi-dev.h, -2, -1
+@ sound/soc/sof/sof-audio.c, -2, -1
+@ sound/soc/sof/sof-client-ipc-msg-injector.c, -2, -1
+@ sound/soc/sof/sof-client-probes.c, -2, -1
+@ sound/soc/sof/sof-client.c, -2, -1
+@ sound/soc/sof/sof-of-dev.c, -2, -1
+@ sound/soc/sof/sof-of-dev.h, -2, -1
+@ sound/soc/sof/sof-priv.h, -2, -1
+@ sound/soc/sof/sof-pci-dev.c, 366, 365
++ 49, 1, = ,49, 1
+- 148, 0, = ,148, 7
++ 217, 8, = ,224, 0
+@ sound/soc/soc-pcm.c, 3120, 3117
++ 74, 1, = ,74, 1
++ 78, 1, = ,78, 1
++ 187, 1, = ,187, 1
++ 389, 1, = ,389, 1
++ 422, 1, = ,422, 1
++ 455, 1, = ,455, 1
++ 476, 1, = ,476, 1
++ 490, 1, = ,490, 1
++ 639, 1, = ,639, 1
++ 655, 1, = ,655, 1
++ 675, 1, = ,675, 1
++ 701, 0, = ,701, 4
+# 702, 5, = ,706, 5
++ 739, 1, = ,743, 1
++ 749, 1, = ,753, 1
++ 855, 1, = ,859, 1
+- 899, 2, = ,903, 4
++ 909, 1, = ,915, 1
++ 937, 9, = ,943, 0
++ 975, 1, = ,972, 1
++ 1095, 1, = ,1092, 1
++ 1120, 1, = ,1117, 1
++ 1407, 1, = ,1404, 1
++ 1680, 1, = ,1677, 1
++ 1714, 1, = ,1711, 1
++ 1751, 1, = ,1748, 1
++ 1790, 1, = ,1787, 1
++ 1799, 1, = ,1796, 1
++ 1838, 1, = ,1835, 1
++ 1865, 1, = ,1862, 1
++ 1884, 1, = ,1881, 1
++ 1921, 1, = ,1918, 1
++ 1987, 1, = ,1984, 1
++ 2090, 1, = ,2087, 1
++ 2293, 1, = ,2290, 1
++ 2324, 1, = ,2321, 1
++ 2411, 1, = ,2408, 1
++ 2465, 1, = ,2462, 1
++ 2642, 1, = ,2639, 1
++ 2652, 2, = ,2649, 2
++ 2657, 2, = ,2654, 2
++ 2716, 1, = ,2713, 1
++ 2731, 1, = ,2728, 1
++ 2745, 1, = ,2742, 1
++ 2829, 1, = ,2826, 1
++ 2831, 1, = ,2828, 1
++ 2842, 1, = ,2839, 1
+@ sound/soc/soc-dai.c, 858, 865
++ 613, 1, = ,613, 1
++ 649, 1, = ,649, 1
+- 661, 0, = ,661, 4
+- 671, 0, = ,675, 3
++ 684, 1, = ,691, 1
++ 705, 1, = ,712, 1

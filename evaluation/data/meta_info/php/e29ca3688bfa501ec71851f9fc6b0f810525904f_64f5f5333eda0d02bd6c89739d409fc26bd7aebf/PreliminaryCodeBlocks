@@ -1,0 +1,859 @@
+@ ext/date/lib/parse_iso_intervals.c, -2, -1
+@ ext/date/lib/parse_tz.c, -2, -1
+@ ext/date/lib/tm2unixtime.c, -2, -1
+@ ext/date/lib/unixtime2tm.c, -2, -1
+@ ext/date/php_date.c, -2, -1
+@ ext/date/php_date.h, -2, -1
+@ ext/date/php_date_arginfo.h, -2, -1
+@ ext/posix/posix.c, -2, -1
+@ ext/posix/posix_arginfo.h, -2, -1
+@ ext/pdo_sqlite/sqlite_driver.c, -2, -1
+@ ext/pdo_sqlite/sqlite_driver_arginfo.h, -2, -1
+@ ext/xmlreader/php_xmlreader.c, -2, -1
+@ ext/xmlreader/php_xmlreader.h, -2, -1
+@ ext/xmlreader/php_xmlreader_arginfo.h, -2, -1
+@ ext/com_dotnet/com_com.c, -2, -1
+@ ext/com_dotnet/com_extension.c, -2, -1
+@ ext/com_dotnet/com_extension_arginfo.h, -2, -1
+@ ext/com_dotnet/com_handlers.c, -2, -1
+@ ext/com_dotnet/com_iterator.c, -2, -1
+@ ext/com_dotnet/com_misc.c, -2, -1
+@ ext/com_dotnet/com_olechar.c, -2, -1
+@ ext/com_dotnet/com_persist.c, -2, -1
+@ ext/com_dotnet/com_saproxy.c, -2, -1
+@ ext/com_dotnet/com_typeinfo.c, -2, -1
+@ ext/com_dotnet/com_variant.c, -2, -1
+@ ext/com_dotnet/com_wrapper.c, -2, -1
+@ ext/com_dotnet/php_com_dotnet_internal.h, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_7bit.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_base64.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_big5.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_cp5022x.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_cp5022x.h, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_cp51932.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_cp932.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_cp936.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_euc_cn.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_euc_jp.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_euc_jp_2004.h, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_euc_jp_win.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_euc_kr.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_euc_tw.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_gb18030.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_htmlent.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_hz.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_iso2022_jp_ms.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_iso2022_kr.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_iso2022jp_2004.h, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_iso2022jp_mobile.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_iso2022jp_mobile.h, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_jis.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_qprint.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_singlebyte.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_sjis.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_sjis_2004.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_sjis_mac.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_sjis_mobile.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_ucs2.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_ucs4.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_uhc.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_utf16.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_utf32.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_utf7.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_utf7imap.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_utf8.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_utf8_mobile.c, -2, -1
+@ ext/mbstring/libmbfl/filters/mbfilter_uuencode.c, -2, -1
+@ ext/mbstring/libmbfl/filters/sjis_mac2uni.h, -2, -1
+@ ext/mbstring/libmbfl/filters/translit_kana_jisx0201_jisx0208.h, -2, -1
+@ ext/mbstring/libmbfl/filters/unicode_table_jis2004.h, -2, -1
+@ ext/mbstring/libmbfl/mbfl/eaw_table.h, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfilter.c, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfilter.h, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfilter_8bit.c, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfilter_pass.c, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfilter_wchar.c, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfl_consts.h, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfl_convert.c, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfl_convert.h, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfl_encoding.h, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfl_language.c, -2, -1
+@ ext/mbstring/libmbfl/mbfl/mbfl_language.h, -2, -1
+@ ext/mbstring/libmbfl/nls/nls_de.c, -2, -1
+@ ext/mbstring/libmbfl/nls/nls_uni.c, -2, -1
+@ ext/mbstring/mb_gpc.c, -2, -1
+@ ext/mbstring/mb_gpc.h, -2, -1
+@ ext/mbstring/mbstring.c, -2, -1
+@ ext/mbstring/mbstring.h, -2, -1
+@ ext/mbstring/mbstring_arginfo.h, -2, -1
+@ ext/mbstring/php_mbregex.c, -2, -1
+@ ext/mbstring/php_mbregex.h, -2, -1
+@ ext/mbstring/php_unicode.c, -2, -1
+@ ext/simplexml/simplexml.c, -2, -1
+@ ext/sqlite3/php_sqlite3_structs.h, -2, -1
+@ ext/sqlite3/sqlite3.c, -2, -1
+@ ext/sqlite3/sqlite3_arginfo.h, -2, -1
+@ ext/skeleton/skeleton_arginfo.h, -2, -1
+@ TSRM/TSRM.c, -2, -1
+@ TSRM/TSRM.h, -2, -1
+@ TSRM/tsrm_win32.c, -2, -1
+@ TSRM/tsrm_win32.h, -2, -1
+@ ext/libxml/libxml.c, -2, -1
+@ ext/libxml/libxml_arginfo.h, -2, -1
+@ ext/libxml/php_libxml.h, -2, -1
+@ ext/pspell/pspell.c, -2, -1
+@ ext/pspell/pspell_arginfo.h, -2, -1
+@ ext/enchant/enchant.c, -2, -1
+@ ext/enchant/enchant_arginfo.h, -2, -1
+@ ext/pdo_firebird/firebird_driver.c, -2, -1
+@ ext/pdo_firebird/firebird_statement.c, -2, -1
+@ ext/curl/curl_arginfo.h, -2, -1
+@ ext/curl/curl_file.c, -2, -1
+@ ext/curl/curl_private.h, -2, -1
+@ ext/curl/interface.c, -2, -1
+@ ext/curl/multi.c, -2, -1
+@ ext/curl/share.c, -2, -1
+@ ext/hash/hash.c, -2, -1
+@ ext/hash/hash_arginfo.h, -2, -1
+@ ext/hash/xxhash/xxhash.h, -2, -1
+@ win32/codepage.c, -2, -1
+@ win32/glob.c, -2, -1
+@ win32/registry.c, -2, -1
+@ win32/sendmail.c, -2, -1
+@ win32/signal.c, -2, -1
+@ win32/winutil.c, -2, -1
+@ ext/sysvmsg/php_sysvmsg.h, -2, -1
+@ ext/sysvmsg/sysvmsg.c, -2, -1
+@ ext/sysvmsg/sysvmsg_arginfo.h, -2, -1
+@ ext/snmp/php_snmp.h, -2, -1
+@ ext/snmp/snmp.c, -2, -1
+@ ext/snmp/snmp_arginfo.h, -2, -1
+@ ext/filter/callback_filter.c, -2, -1
+@ ext/filter/filter.c, -2, -1
+@ ext/filter/filter_arginfo.h, -2, -1
+@ ext/filter/filter_private.h, -2, -1
+@ ext/filter/logical_filters.c, -2, -1
+@ ext/filter/sanitizing_filters.c, -2, -1
+@ ext/imap/php_imap.c, -2, -1
+@ ext/imap/php_imap_arginfo.h, -2, -1
+@ ext/xmlwriter/php_xmlwriter.c, -2, -1
+@ ext/standard/array.c, -2, -1
+@ ext/standard/base64.c, -2, -1
+@ ext/standard/basic_functions.c, -2, -1
+@ ext/standard/basic_functions.h, -2, -1
+@ ext/standard/basic_functions_arginfo.h, -2, -1
+@ ext/standard/browscap.c, -2, -1
+@ ext/standard/crc32.c, -2, -1
+@ ext/standard/crc32_x86.c, -2, -1
+@ ext/standard/credits_ext.h, -2, -1
+@ ext/standard/crypt.c, -2, -1
+@ ext/standard/crypt_freesec.c, -2, -1
+@ ext/standard/crypt_freesec.h, -2, -1
+@ ext/standard/crypt_sha256.c, -2, -1
+@ ext/standard/crypt_sha512.c, -2, -1
+@ ext/standard/css.c, -2, -1
+@ ext/standard/datetime.c, -2, -1
+@ ext/standard/dir.c, -2, -1
+@ ext/standard/dl.c, -2, -1
+@ ext/standard/dns.c, -2, -1
+@ ext/standard/dns_win32.c, -2, -1
+@ ext/standard/exec.c, -2, -1
+@ ext/standard/file.c, -2, -1
+@ ext/standard/file.h, -2, -1
+@ ext/standard/filestat.c, -2, -1
+@ ext/standard/flock_compat.c, -2, -1
+@ ext/standard/flock_compat.h, -2, -1
+@ ext/standard/ftok.c, -2, -1
+@ ext/standard/ftp_fopen_wrapper.c, -2, -1
+@ ext/standard/head.c, -2, -1
+@ ext/standard/hrtime.c, -2, -1
+@ ext/standard/html.c, -2, -1
+@ ext/standard/html.h, -2, -1
+@ ext/standard/http.c, -2, -1
+@ ext/standard/http_fopen_wrapper.c, -2, -1
+@ ext/standard/image.c, -2, -1
+@ ext/standard/info.c, -2, -1
+@ ext/standard/iptc.c, -2, -1
+@ ext/standard/link.c, -2, -1
+@ ext/standard/mail.c, -2, -1
+@ ext/standard/net.c, -2, -1
+@ ext/standard/pack.c, -2, -1
+@ ext/standard/pageinfo.c, -2, -1
+@ ext/standard/password.c, -2, -1
+@ ext/standard/php_array.h, -2, -1
+@ ext/standard/php_dir.h, -2, -1
+@ ext/standard/php_dns.h, -2, -1
+@ ext/standard/php_fopen_wrapper.c, -2, -1
+@ ext/standard/php_image.h, -2, -1
+@ ext/standard/php_lcg.h, -2, -1
+@ ext/standard/php_mt_rand.h, -2, -1
+@ ext/standard/php_password.h, -2, -1
+@ ext/standard/php_rand.h, -2, -1
+@ ext/standard/php_random.h, -2, -1
+@ ext/standard/php_standard.h, -2, -1
+@ ext/standard/php_string.h, -2, -1
+@ ext/standard/proc_open.c, -2, -1
+@ ext/standard/sha1.c, -2, -1
+@ ext/standard/streamsfuncs.c, -2, -1
+@ ext/standard/string.c, -2, -1
+@ ext/standard/strnatcmp.c, -2, -1
+@ ext/standard/syslog.c, -2, -1
+@ ext/standard/type.c, -2, -1
+@ ext/standard/uniqid.c, -2, -1
+@ ext/standard/user_filters.c, -2, -1
+@ ext/standard/var.c, -2, -1
+@ ext/opcache/ZendAccelerator.c, -2, -1
+@ ext/opcache/ZendAccelerator.h, -2, -1
+@ ext/opcache/jit/vtune/jitprofiling.h, -2, -1
+@ ext/opcache/jit/zend_jit.c, -2, -1
+@ ext/opcache/jit/zend_jit.h, -2, -1
+@ ext/opcache/jit/zend_jit_disasm.c, -2, -1
+@ ext/opcache/jit/zend_jit_helpers.c, -2, -1
+@ ext/opcache/jit/zend_jit_internal.h, -2, -1
+@ ext/opcache/jit/zend_jit_perf_dump.c, -2, -1
+@ ext/opcache/jit/zend_jit_trace.c, -2, -1
+@ ext/opcache/shared_alloc_mmap.c, -2, -1
+@ ext/opcache/zend_accelerator_hash.h, -2, -1
+@ ext/opcache/zend_accelerator_module.c, -2, -1
+@ ext/opcache/zend_accelerator_util_funcs.c, -2, -1
+@ ext/opcache/zend_accelerator_util_funcs.h, -2, -1
+@ ext/opcache/zend_file_cache.c, -2, -1
+@ ext/opcache/zend_file_cache.h, -2, -1
+@ ext/opcache/zend_persist.c, -2, -1
+@ ext/opcache/zend_persist_calc.c, -2, -1
+@ ext/opcache/zend_shared_alloc.c, -2, -1
+@ ext/opcache/zend_shared_alloc.h, -2, -1
+@ ext/gmp/gmp.c, -2, -1
+@ ext/gmp/gmp_arginfo.h, -2, -1
+@ ext/spl/php_spl.c, -2, -1
+@ ext/spl/php_spl_arginfo.h, -2, -1
+@ ext/spl/spl_array.c, -2, -1
+@ ext/spl/spl_array.h, -2, -1
+@ ext/spl/spl_array_arginfo.h, -2, -1
+@ ext/spl/spl_directory.c, -2, -1
+@ ext/spl/spl_directory.h, -2, -1
+@ ext/spl/spl_directory_arginfo.h, -2, -1
+@ ext/spl/spl_dllist.c, -2, -1
+@ ext/spl/spl_dllist.h, -2, -1
+@ ext/spl/spl_dllist_arginfo.h, -2, -1
+@ ext/spl/spl_fixedarray.c, -2, -1
+@ ext/spl/spl_fixedarray_arginfo.h, -2, -1
+@ ext/spl/spl_functions.c, -2, -1
+@ ext/spl/spl_functions.h, -2, -1
+@ ext/spl/spl_heap.c, -2, -1
+@ ext/spl/spl_heap.h, -2, -1
+@ ext/spl/spl_heap_arginfo.h, -2, -1
+@ ext/spl/spl_iterators.c, -2, -1
+@ ext/spl/spl_iterators.h, -2, -1
+@ ext/spl/spl_iterators_arginfo.h, -2, -1
+@ ext/spl/spl_observer.c, -2, -1
+@ ext/spl/spl_observer.h, -2, -1
+@ ext/spl/spl_observer_arginfo.h, -2, -1
+@ ext/soap/php_encoding.c, -2, -1
+@ ext/soap/php_http.c, -2, -1
+@ ext/soap/php_schema.c, -2, -1
+@ ext/soap/php_sdl.c, -2, -1
+@ ext/soap/soap.c, -2, -1
+@ ext/soap/soap_arginfo.h, -2, -1
+@ ext/tokenizer/php_tokenizer.h, -2, -1
+@ ext/tokenizer/tokenizer.c, -2, -1
+@ ext/tokenizer/tokenizer_arginfo.h, -2, -1
+@ ext/tokenizer/tokenizer_data.c, -2, -1
+@ ext/bz2/bz2.c, -2, -1
+@ ext/zend_test/fiber_arginfo.h, -2, -1
+@ ext/zend_test/observer.c, -2, -1
+@ ext/zend_test/observer.h, -2, -1
+@ ext/zend_test/php_test.h, -2, -1
+@ ext/zend_test/test.c, -2, -1
+@ ext/zend_test/test_arginfo.h, -2, -1
+@ ext/pcntl/pcntl.c, -2, -1
+@ ext/pcntl/pcntl_arginfo.h, -2, -1
+@ ext/pcntl/php_pcntl.h, -2, -1
+@ ext/bcmath/bcmath.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2.h, -2, -1
+@ ext/pcre/pcre2lib/pcre2_auto_possess.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_compile.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_dfa_match.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_error.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_extuni.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_internal.h, -2, -1
+@ ext/pcre/pcre2lib/pcre2_intmodedep.h, -2, -1
+@ ext/pcre/pcre2lib/pcre2_jit_compile.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_jit_match.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_jit_misc.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_jit_simd_inc.h, -2, -1
+@ ext/pcre/pcre2lib/pcre2_match.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_printint.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_script_run.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_string_utils.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_study.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_substitute.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_tables.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_ucd.c, -2, -1
+@ ext/pcre/pcre2lib/pcre2_ucp.h, -2, -1
+@ ext/pcre/pcre2lib/pcre2_xclass.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitConfigInternal.h, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitExecAllocator.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitLir.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitLir.h, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeARM_32.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeARM_64.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeARM_T2_32.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeMIPS_32.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeMIPS_64.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeMIPS_common.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativePPC_32.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativePPC_64.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativePPC_common.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeS390X.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeSPARC_32.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeSPARC_common.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeX86_32.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeX86_64.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitNativeX86_common.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitProtExecAllocator.c, -2, -1
+@ ext/pcre/pcre2lib/sljit/sljitUtils.c, -2, -1
+@ ext/pcre/php_pcre.c, -2, -1
+@ ext/pcre/php_pcre_arginfo.h, -2, -1
+@ ext/zip/php_zip.c, -2, -1
+@ ext/zip/php_zip.h, -2, -1
+@ ext/zip/php_zip_arginfo.h, -2, -1
+@ ext/zip/zip_stream.c, -2, -1
+@ ext/fileinfo/fileinfo.c, -2, -1
+@ ext/fileinfo/fileinfo_arginfo.h, -2, -1
+@ ext/fileinfo/libmagic/apprentice.c, -2, -1
+@ ext/fileinfo/libmagic/magic.c, -2, -1
+@ ext/fileinfo/libmagic/softmagic.c, -2, -1
+@ ext/fileinfo/libmagic/strcasestr.c, -2, -1
+@ sapi/apache2handler/apache_config.c, -2, -1
+@ sapi/apache2handler/mod_php.c, -2, -1
+@ sapi/apache2handler/php_functions.c, -2, -1
+@ sapi/apache2handler/sapi_apache2.c, -2, -1
+@ sapi/cgi/cgi_main.c, -2, -1
+@ sapi/cli/mime_type_map.h, -2, -1
+@ sapi/cli/php_cli.c, -2, -1
+@ sapi/cli/php_cli_process_title.c, -2, -1
+@ sapi/cli/php_cli_server.c, -2, -1
+@ sapi/cli/php_http_parser.h, -2, -1
+@ sapi/cli/ps_title.c, -2, -1
+@ sapi/cli/ps_title.h, -2, -1
+@ sapi/embed/php_embed.c, -2, -1
+@ sapi/fpm/fpm/fpm_arrays.h, -2, -1
+@ sapi/fpm/fpm/fpm_atomic.h, -2, -1
+@ sapi/fpm/fpm/fpm_conf.c, -2, -1
+@ sapi/fpm/fpm/fpm_conf.h, -2, -1
+@ sapi/fpm/fpm/fpm_config.h, -2, -1
+@ sapi/fpm/fpm/fpm_log.c, -2, -1
+@ sapi/fpm/fpm/fpm_main.c, -2, -1
+@ sapi/fpm/fpm/fpm_request.c, -2, -1
+@ sapi/fpm/fpm/fpm_sockets.c, -2, -1
+@ sapi/fpm/fpm/fpm_sockets.h, -2, -1
+@ sapi/fpm/fpm/fpm_stdio.c, -2, -1
+@ sapi/fpm/fpm/fpm_trace_pread.c, -2, -1
+@ sapi/fpm/fpm/fpm_unix.c, -2, -1
+@ sapi/fpm/fpm/fpm_worker_pool.c, -2, -1
+@ sapi/fpm/fpm/fpm_worker_pool.h, -2, -1
+@ sapi/fpm/fpm/zlog.c, -2, -1
+@ sapi/fuzzer/fuzzer-execute.c, -2, -1
+@ sapi/fuzzer/fuzzer-exif.c, -2, -1
+@ sapi/fuzzer/fuzzer-json.c, -2, -1
+@ sapi/fuzzer/fuzzer-mbstring.c, -2, -1
+@ sapi/fuzzer/fuzzer-parser.c, -2, -1
+@ sapi/fuzzer/fuzzer-sapi.c, -2, -1
+@ sapi/fuzzer/fuzzer-sapi.h, -2, -1
+@ sapi/fuzzer/fuzzer-unserialize.c, -2, -1
+@ sapi/fuzzer/fuzzer-unserializehash.c, -2, -1
+@ sapi/litespeed/lsapi_main.c, -2, -1
+@ sapi/phpdbg/phpdbg.c, -2, -1
+@ sapi/phpdbg/phpdbg.h, -2, -1
+@ sapi/phpdbg/phpdbg_arginfo.h, -2, -1
+@ sapi/phpdbg/phpdbg_bp.c, -2, -1
+@ sapi/phpdbg/phpdbg_info.c, -2, -1
+@ sapi/phpdbg/phpdbg_list.c, -2, -1
+@ sapi/phpdbg/phpdbg_print.c, -2, -1
+@ sapi/phpdbg/phpdbg_prompt.c, -2, -1
+@ sapi/phpdbg/phpdbg_watch.c, -2, -1
+@ ext/pgsql/pgsql.c, -2, -1
+@ ext/pgsql/pgsql_arginfo.h, -2, -1
+@ ext/mysqlnd/mysqlnd.h, -2, -1
+@ ext/mysqlnd/mysqlnd_connection.c, -2, -1
+@ ext/mysqlnd/mysqlnd_debug.c, -2, -1
+@ ext/mysqlnd/mysqlnd_driver.c, -2, -1
+@ ext/mysqlnd/mysqlnd_plugin.c, -2, -1
+@ ext/mysqlnd/mysqlnd_portability.h, -2, -1
+@ ext/mysqlnd/mysqlnd_protocol_frame_codec.c, -2, -1
+@ ext/mysqlnd/mysqlnd_result.c, -2, -1
+@ ext/mysqlnd/mysqlnd_reverse_api.c, -2, -1
+@ ext/mysqlnd/mysqlnd_structs.h, -2, -1
+@ ext/mysqlnd/mysqlnd_vio.c, -2, -1
+@ ext/mysqlnd/mysqlnd_wireprotocol.c, -2, -1
+@ ext/mysqlnd/php_mysqlnd.c, -2, -1
+@ ext/exif/exif.c, -2, -1
+@ ext/exif/exif_arginfo.h, -2, -1
+@ ext/ftp/ftp.c, -2, -1
+@ ext/ftp/ftp_arginfo.h, -2, -1
+@ ext/ftp/php_ftp.c, -2, -1
+@ ext/mysqli/mysqli.c, -2, -1
+@ ext/mysqli/mysqli_api.c, -2, -1
+@ ext/mysqli/mysqli_arginfo.h, -2, -1
+@ ext/mysqli/mysqli_driver.c, -2, -1
+@ ext/mysqli/mysqli_nonapi.c, -2, -1
+@ ext/mysqli/mysqli_priv.h, -2, -1
+@ ext/mysqli/mysqli_prop.c, -2, -1
+@ ext/mysqli/mysqli_result_iterator.c, -2, -1
+@ ext/mysqli/mysqli_warning.c, -2, -1
+@ ext/mysqli/php_mysqli_structs.h, -2, -1
+@ ext/calendar/calendar.c, -2, -1
+@ ext/calendar/calendar_arginfo.h, -2, -1
+@ ext/calendar/easter.c, -2, -1
+@ ext/openssl/openssl.c, -2, -1
+@ ext/openssl/openssl_arginfo.h, -2, -1
+@ ext/openssl/php_openssl.h, -2, -1
+@ ext/openssl/xp_ssl.c, -2, -1
+@ ext/iconv/iconv.c, -2, -1
+@ ext/iconv/iconv_arginfo.h, -2, -1
+@ ext/iconv/php_iconv.h, -2, -1
+@ ext/tidy/tidy.c, -2, -1
+@ ext/tidy/tidy_arginfo.h, -2, -1
+@ ext/pdo_odbc/odbc_driver.c, -2, -1
+@ ext/pdo_odbc/odbc_stmt.c, -2, -1
+@ main/SAPI.c, -2, -1
+@ main/SAPI.h, -2, -1
+@ main/fastcgi.c, -2, -1
+@ main/internal_functions_win32.c, -2, -1
+@ main/main.c, -2, -1
+@ main/network.c, -2, -1
+@ main/output.c, -2, -1
+@ main/php.h, -2, -1
+@ main/php_globals.h, -2, -1
+@ main/php_ini.c, -2, -1
+@ main/php_main.h, -2, -1
+@ main/php_output.h, -2, -1
+@ main/php_streams.h, -2, -1
+@ main/php_variables.c, -2, -1
+@ main/php_variables.h, -2, -1
+@ main/php_version.h, -2, -1
+@ main/reentrancy.c, -2, -1
+@ main/rfc1867.c, -2, -1
+@ main/snprintf.c, -2, -1
+@ main/spprintf.c, -2, -1
+@ main/streams/cast.c, -2, -1
+@ main/streams/glob_wrapper.c, -2, -1
+@ main/streams/memory.c, -2, -1
+@ main/streams/php_stream_context.h, -2, -1
+@ main/streams/php_stream_plain_wrapper.h, -2, -1
+@ main/streams/php_streams_int.h, -2, -1
+@ main/streams/plain_wrapper.c, -2, -1
+@ main/streams/streams.c, -2, -1
+@ main/streams/userspace.c, -2, -1
+@ main/streams/xp_socket.c, -2, -1
+@ main/strlcat.c, -2, -1
+@ main/strlcpy.c, -2, -1
+@ ext/pdo_dblib/dblib_stmt.c, -2, -1
+@ ext/session/mod_files.c, -2, -1
+@ ext/session/mod_mm.c, -2, -1
+@ ext/session/mod_user.c, -2, -1
+@ ext/session/mod_user_class.c, -2, -1
+@ ext/session/php_session.h, -2, -1
+@ ext/session/session.c, -2, -1
+@ ext/session/session_arginfo.h, -2, -1
+@ ext/sockets/conversions.c, -2, -1
+@ ext/sockets/conversions.h, -2, -1
+@ ext/sockets/php_sockets.h, -2, -1
+@ ext/sockets/sendrecvmsg.c, -2, -1
+@ ext/sockets/sendrecvmsg.h, -2, -1
+@ ext/sockets/sockets.c, -2, -1
+@ ext/sockets/sockets_arginfo.h, -2, -1
+@ ext/dom/documenttype.c, -2, -1
+@ ext/dom/node.c, -2, -1
+@ ext/dom/php_dom.c, -2, -1
+@ ext/dom/php_dom_arginfo.h, -2, -1
+@ ext/sodium/libsodium.c, -2, -1
+@ ext/sodium/libsodium_arginfo.h, -2, -1
+@ ext/sodium/php_libsodium.h, -2, -1
+@ Zend/Optimizer/block_pass.c, -2, -1
+@ Zend/Optimizer/compact_literals.c, -2, -1
+@ Zend/Optimizer/dce.c, -2, -1
+@ Zend/Optimizer/dfa_pass.c, -2, -1
+@ Zend/Optimizer/escape_analysis.c, -2, -1
+@ Zend/Optimizer/nop_removal.c, -2, -1
+@ Zend/Optimizer/optimize_func_calls.c, -2, -1
+@ Zend/Optimizer/optimize_temp_vars_5.c, -2, -1
+@ Zend/Optimizer/pass1.c, -2, -1
+@ Zend/Optimizer/pass3.c, -2, -1
+@ Zend/Optimizer/sccp.c, -2, -1
+@ Zend/Optimizer/scdf.c, -2, -1
+@ Zend/Optimizer/scdf.h, -2, -1
+@ Zend/Optimizer/ssa_integrity.c, -2, -1
+@ Zend/Optimizer/zend_call_graph.c, -2, -1
+@ Zend/Optimizer/zend_call_graph.h, -2, -1
+@ Zend/Optimizer/zend_cfg.c, -2, -1
+@ Zend/Optimizer/zend_cfg.h, -2, -1
+@ Zend/Optimizer/zend_dfg.c, -2, -1
+@ Zend/Optimizer/zend_dfg.h, -2, -1
+@ Zend/Optimizer/zend_dump.c, -2, -1
+@ Zend/Optimizer/zend_func_info.c, -2, -1
+@ Zend/Optimizer/zend_func_info.h, -2, -1
+@ Zend/Optimizer/zend_func_infos.h, -2, -1
+@ Zend/Optimizer/zend_inference.c, -2, -1
+@ Zend/Optimizer/zend_inference.h, -2, -1
+@ Zend/Optimizer/zend_optimizer.c, -2, -1
+@ Zend/Optimizer/zend_optimizer.h, -2, -1
+@ Zend/Optimizer/zend_optimizer_internal.h, -2, -1
+@ Zend/Optimizer/zend_ssa.c, -2, -1
+@ Zend/Optimizer/zend_ssa.h, -2, -1
+@ Zend/Optimizer/zend_worklist.h, -2, -1
+@ Zend/zend.c, -2, -1
+@ Zend/zend.h, -2, -1
+@ Zend/zend_API.c, -2, -1
+@ Zend/zend_API.h, -2, -1
+@ Zend/zend_alloc.c, -2, -1
+@ Zend/zend_alloc.h, -2, -1
+@ Zend/zend_ast.c, -2, -1
+@ Zend/zend_ast.h, -2, -1
+@ Zend/zend_attributes.c, -2, -1
+@ Zend/zend_attributes.h, -2, -1
+@ Zend/zend_attributes_arginfo.h, -2, -1
+@ Zend/zend_builtin_functions.c, -2, -1
+@ Zend/zend_builtin_functions_arginfo.h, -2, -1
+@ Zend/zend_closures.c, -2, -1
+@ Zend/zend_compile.c, -2, -1
+@ Zend/zend_compile.h, -2, -1
+@ Zend/zend_constants.c, -2, -1
+@ Zend/zend_cpuinfo.c, -2, -1
+@ Zend/zend_cpuinfo.h, -2, -1
+@ Zend/zend_enum.c, -2, -1
+@ Zend/zend_enum.h, -2, -1
+@ Zend/zend_exceptions.c, -2, -1
+@ Zend/zend_exceptions_arginfo.h, -2, -1
+@ Zend/zend_execute.c, -2, -1
+@ Zend/zend_execute.h, -2, -1
+@ Zend/zend_execute_API.c, -2, -1
+@ Zend/zend_extensions.c, -2, -1
+@ Zend/zend_extensions.h, -2, -1
+@ Zend/zend_fibers.c, -2, -1
+@ Zend/zend_fibers.h, -2, -1
+@ Zend/zend_gc.c, -2, -1
+@ Zend/zend_generators.c, -2, -1
+@ Zend/zend_globals.h, -2, -1
+@ Zend/zend_hash.c, -2, -1
+@ Zend/zend_hash.h, -2, -1
+@ Zend/zend_inheritance.c, -2, -1
+@ Zend/zend_inheritance.h, -2, -1
+@ Zend/zend_ini.c, -2, -1
+@ Zend/zend_ini.h, -2, -1
+@ Zend/zend_interfaces.c, -2, -1
+@ Zend/zend_interfaces.h, -2, -1
+@ Zend/zend_iterators.h, -2, -1
+@ Zend/zend_list.c, -2, -1
+@ Zend/zend_llist.h, -2, -1
+@ Zend/zend_long.h, -2, -1
+@ Zend/zend_map_ptr.h, -2, -1
+@ Zend/zend_modules.h, -2, -1
+@ Zend/zend_multiply.h, -2, -1
+@ Zend/zend_object_handlers.c, -2, -1
+@ Zend/zend_object_handlers.h, -2, -1
+@ Zend/zend_objects.c, -2, -1
+@ Zend/zend_observer.c, -2, -1
+@ Zend/zend_observer.h, -2, -1
+@ Zend/zend_opcode.c, -2, -1
+@ Zend/zend_operators.c, -2, -1
+@ Zend/zend_operators.h, -2, -1
+@ Zend/zend_portability.h, -2, -1
+@ Zend/zend_ptr_stack.h, -2, -1
+@ Zend/zend_signal.c, -2, -1
+@ Zend/zend_smart_str.h, -2, -1
+@ Zend/zend_smart_str_public.h, -2, -1
+@ Zend/zend_stream.c, -2, -1
+@ Zend/zend_string.c, -2, -1
+@ Zend/zend_string.h, -2, -1
+@ Zend/zend_type_info.h, -2, -1
+@ Zend/zend_types.h, -2, -1
+@ Zend/zend_virtual_cwd.c, -2, -1
+@ Zend/zend_vm.h, -2, -1
+@ Zend/zend_vm_def.h, -2, -1
+@ Zend/zend_vm_execute.h, -2, -1
+@ Zend/zend_vm_handlers.h, -2, -1
+@ Zend/zend_vm_opcodes.c, -2, -1
+@ Zend/zend_vm_opcodes.h, -2, -1
+@ Zend/zend_vm_trace_handlers.h, -2, -1
+@ Zend/zend_vm_trace_map.h, -2, -1
+@ Zend/zend_weakrefs.c, -2, -1
+@ Zend/zend_weakrefs.h, -2, -1
+@ ext/pdo_pgsql/pgsql_driver.c, -2, -1
+@ ext/pdo_pgsql/pgsql_driver_arginfo.h, -2, -1
+@ ext/pdo_mysql/mysql_driver.c, -2, -1
+@ ext/dl_test/dl_test.c, -2, -1
+@ ext/dl_test/dl_test_arginfo.h, -2, -1
+@ ext/dba/dba.c, -2, -1
+@ ext/dba/dba_arginfo.h, -2, -1
+@ ext/dba/dba_cdb.c, -2, -1
+@ ext/dba/dba_db1.c, -2, -1
+@ ext/dba/dba_db2.c, -2, -1
+@ ext/dba/dba_db3.c, -2, -1
+@ ext/dba/dba_db4.c, -2, -1
+@ ext/dba/dba_dbm.c, -2, -1
+@ ext/dba/dba_flatfile.c, -2, -1
+@ ext/dba/dba_gdbm.c, -2, -1
+@ ext/dba/dba_inifile.c, -2, -1
+@ ext/dba/dba_lmdb.c, -2, -1
+@ ext/dba/dba_ndbm.c, -2, -1
+@ ext/dba/dba_qdbm.c, -2, -1
+@ ext/dba/dba_tcadb.c, -2, -1
+@ ext/dba/php_cdb.h, -2, -1
+@ ext/dba/php_db1.h, -2, -1
+@ ext/dba/php_db2.h, -2, -1
+@ ext/dba/php_db3.h, -2, -1
+@ ext/dba/php_db4.h, -2, -1
+@ ext/dba/php_dba.h, -2, -1
+@ ext/dba/php_dbm.h, -2, -1
+@ ext/dba/php_flatfile.h, -2, -1
+@ ext/dba/php_gdbm.h, -2, -1
+@ ext/dba/php_inifile.h, -2, -1
+@ ext/dba/php_lmdb.h, -2, -1
+@ ext/dba/php_ndbm.h, -2, -1
+@ ext/dba/php_qdbm.h, -2, -1
+@ ext/dba/php_tcadb.h, -2, -1
+@ ext/oci8/oci8.c, -2, -1
+@ ext/oci8/oci8_arginfo.h, -2, -1
+@ ext/oci8/oci8_interface.c, -2, -1
+@ ext/oci8/oci8_statement.c, -2, -1
+@ ext/oci8/php_oci8.h, -2, -1
+@ ext/oci8/php_oci8_int.h, -2, -1
+@ ext/phar/phar.c, -2, -1
+@ ext/phar/phar_object.c, -2, -1
+@ ext/phar/phar_object_arginfo.h, -2, -1
+@ ext/phar/stream.c, -2, -1
+@ ext/phar/tar.c, -2, -1
+@ ext/phar/util.c, -2, -1
+@ ext/phar/zip.c, -2, -1
+@ ext/odbc/odbc_arginfo.h, -2, -1
+@ ext/odbc/php_odbc.c, -2, -1
+@ ext/odbc/php_odbc_includes.h, -2, -1
+@ ext/intl/breakiterator/breakiterator_arginfo.h, -2, -1
+@ ext/intl/breakiterator/breakiterator_class.cpp, -2, -1
+@ ext/intl/breakiterator/breakiterator_iterators.cpp, -2, -1
+@ ext/intl/breakiterator/breakiterator_iterators_arginfo.h, -2, -1
+@ ext/intl/breakiterator/codepointiterator_internal.h, -2, -1
+@ ext/intl/breakiterator/rulebasedbreakiterator_methods.cpp, -2, -1
+@ ext/intl/calendar/calendar_arginfo.h, -2, -1
+@ ext/intl/calendar/calendar_class.cpp, -2, -1
+@ ext/intl/calendar/calendar_methods.cpp, -2, -1
+@ ext/intl/collator/collator.h, -2, -1
+@ ext/intl/collator/collator_arginfo.h, -2, -1
+@ ext/intl/collator/collator_class.c, -2, -1
+@ ext/intl/collator/collator_class.h, -2, -1
+@ ext/intl/common/common_arginfo.h, -2, -1
+@ ext/intl/common/common_enum.cpp, -2, -1
+@ ext/intl/common/common_enum.h, -2, -1
+@ ext/intl/common/common_error.c, -2, -1
+@ ext/intl/converter/converter.c, -2, -1
+@ ext/intl/converter/converter_arginfo.h, -2, -1
+@ ext/intl/dateformat/dateformat.c, -2, -1
+@ ext/intl/dateformat/dateformat.h, -2, -1
+@ ext/intl/dateformat/dateformat_arginfo.h, -2, -1
+@ ext/intl/dateformat/dateformat_create.h, -2, -1
+@ ext/intl/dateformat/dateformat_format_object.cpp, -2, -1
+@ ext/intl/dateformat/datepatterngenerator_arginfo.h, -2, -1
+@ ext/intl/formatter/formatter_arginfo.h, -2, -1
+@ ext/intl/grapheme/grapheme.h, -2, -1
+@ ext/intl/grapheme/grapheme_string.c, -2, -1
+@ ext/intl/grapheme/grapheme_util.c, -2, -1
+@ ext/intl/idn/idn.c, -2, -1
+@ ext/intl/idn/idn.h, -2, -1
+@ ext/intl/intl_convert.c, -2, -1
+@ ext/intl/locale/locale.c, -2, -1
+@ ext/intl/locale/locale.h, -2, -1
+@ ext/intl/locale/locale_arginfo.h, -2, -1
+@ ext/intl/locale/locale_methods.c, -2, -1
+@ ext/intl/msgformat/msgformat_arginfo.h, -2, -1
+@ ext/intl/normalizer/normalizer.h, -2, -1
+@ ext/intl/normalizer/normalizer_arginfo.h, -2, -1
+@ ext/intl/normalizer/normalizer_class.c, -2, -1
+@ ext/intl/php_intl.c, -2, -1
+@ ext/intl/php_intl_arginfo.h, -2, -1
+@ ext/intl/resourcebundle/resourcebundle_arginfo.h, -2, -1
+@ ext/intl/resourcebundle/resourcebundle_class.c, -2, -1
+@ ext/intl/spoofchecker/spoofchecker_arginfo.h, -2, -1
+@ ext/intl/timezone/timezone_arginfo.h, -2, -1
+@ ext/intl/timezone/timezone_class.cpp, -2, -1
+@ ext/intl/transliterator/transliterator.h, -2, -1
+@ ext/intl/transliterator/transliterator_arginfo.h, -2, -1
+@ ext/intl/transliterator/transliterator_class.c, -2, -1
+@ ext/intl/uchar/uchar.c, -2, -1
+@ ext/intl/uchar/uchar_arginfo.h, -2, -1
+@ ext/xml/php_xml.h, -2, -1
+@ ext/xml/xml.c, -2, -1
+@ ext/xml/xml_arginfo.h, -2, -1
+@ ext/xsl/php_xsl.c, -2, -1
+@ ext/xsl/php_xsl_arginfo.h, -2, -1
+@ ext/xsl/xsltprocessor.c, -2, -1
+@ ext/json/json.c, -2, -1
+@ ext/json/json_arginfo.h, -2, -1
+@ ext/json/json_encoder.c, -2, -1
+@ ext/json/php_json.h, -2, -1
+@ ext/json/php_json_encoder.h, -2, -1
+@ ext/ldap/ldap.c, -2, -1
+@ ext/ldap/ldap_arginfo.h, -2, -1
+@ ext/readline/php_readline.h, -2, -1
+@ ext/readline/readline.c, -2, -1
+@ ext/readline/readline_arginfo.h, -2, -1
+@ ext/readline/readline_cli.c, -2, -1
+@ ext/gd/gd.c, -2, -1
+@ ext/gd/gd_arginfo.h, -2, -1
+@ ext/gd/libgd/gd_webp.c, -2, -1
+@ ext/gd/libgd/gdft.c, -2, -1
+@ ext/gd/php_gd.h, -2, -1
+@ ext/reflection/php_reflection.c, -2, -1
+@ ext/reflection/php_reflection_arginfo.h, -2, -1
+@ ext/ffi/ffi.c, -2, -1
+@ ext/ffi/ffi_arginfo.h, -2, -1
+@ ext/ffi/php_ffi.h, -2, -1
+@ ext/zlib/zlib.c, -2, -1
+@ ext/zlib/zlib_arginfo.h, -2, -1
+@ ext/zlib/zlib_fopen_wrapper.c, -2, -1
+@ ext/pdo/pdo.c, -2, -1
+@ ext/pdo/pdo_arginfo.h, -2, -1
+@ ext/pdo/pdo_dbh.c, -2, -1
+@ ext/pdo/pdo_dbh_arginfo.h, -2, -1
+@ ext/pdo/pdo_stmt.c, -2, -1
+@ ext/pdo/php_pdo.h, -2, -1
+@ ext/pdo/php_pdo_driver.h, -2, -1
+@ ext/pdo/php_pdo_int.h, -2, -1
+@ ext/date/lib/parse_iso_intervals.c, -2, -1
+@ ext/date/lib/parse_tz.c, -2, -1
+@ ext/date/lib/tm2unixtime.c, -2, -1
+@ ext/date/lib/unixtime2tm.c, -2, -1
+@ ext/date/php_date.c, -2, -1
+@ ext/date/php_date.h, -2, -1
+@ ext/date/php_date_arginfo.h, -2, -1
+@ ext/date/lib/timelib.h, 1104, 1090
+# 33, 3, = ,33, 3
++ 441, 1, = ,441, 0
++ 797, 13, = ,796, 0
+@ ext/date/lib/parse_date.c, 26711, 26679
+# 1, 1, = ,1, 1
++ 489, 1, = ,489, 0
++ 547, 6, = ,546, 1
++ 557, 16, = ,551, 0
++ 578, 2, = ,556, 5
++ 581, 2, = ,562, 0
++ 584, 6, = ,563, 1
+- 785, 1, = ,759, 6
+# 981, 1, = ,960, 1
+# 985, 1, = ,964, 1
+# 1123, 1, = ,1102, 1
+# 1136, 1, = ,1115, 1
+# 1443, 1, = ,1422, 1
+# 1448, 1, = ,1427, 1
+# 2692, 1, = ,2671, 1
+# 2696, 1, = ,2675, 1
+# 2705, 1, = ,2684, 1
+# 2710, 1, = ,2689, 1
+# 3132, 1, = ,3111, 1
+# 3147, 1, = ,3126, 1
+# 4156, 1, = ,4135, 1
+# 4173, 1, = ,4152, 1
+# 4719, 1, = ,4698, 1
+# 4728, 1, = ,4707, 1
+# 4977, 1, = ,4956, 1
+# 4990, 1, = ,4969, 1
+# 5117, 1, = ,5096, 1
+# 5146, 1, = ,5125, 1
+# 5444, 1, = ,5423, 1
+# 5467, 1, = ,5446, 1
+# 6145, 1, = ,6124, 1
+# 6158, 1, = ,6137, 1
+# 6389, 1, = ,6368, 1
+# 6402, 1, = ,6381, 1
+# 6984, 1, = ,6963, 1
+# 7004, 1, = ,6983, 1
+# 8793, 1, = ,8772, 1
+# 8804, 1, = ,8783, 1
+# 8926, 1, = ,8905, 1
+# 8937, 1, = ,8916, 1
+# 9691, 1, = ,9670, 1
+# 9702, 1, = ,9681, 1
+# 9843, 1, = ,9822, 1
+# 9859, 1, = ,9838, 1
+# 9872, 1, = ,9851, 1
+# 9899, 1, = ,9878, 1
+# 10212, 1, = ,10191, 1
+# 10231, 1, = ,10210, 1
+# 10337, 1, = ,10316, 1
+# 10351, 1, = ,10330, 1
+# 11087, 1, = ,11066, 1
+# 11098, 1, = ,11077, 1
+# 11134, 1, = ,11113, 1
+# 11147, 1, = ,11126, 1
+# 11788, 1, = ,11767, 1
+# 11801, 1, = ,11780, 1
+# 11907, 1, = ,11886, 1
+# 11922, 1, = ,11901, 1
+# 12156, 1, = ,12135, 1
+# 12176, 1, = ,12155, 1
+# 12796, 1, = ,12775, 1
+# 12809, 1, = ,12788, 1
+# 12848, 1, = ,12827, 1
+# 12861, 1, = ,12840, 1
+# 13026, 1, = ,13005, 1
+# 13034, 1, = ,13013, 1
+# 13239, 1, = ,13218, 1
+# 13252, 1, = ,13231, 1
+# 13473, 1, = ,13452, 1
+# 13491, 1, = ,13470, 1
+# 13501, 1, = ,13480, 1
+# 13519, 1, = ,13498, 1
+# 13591, 1, = ,13570, 1
+# 13604, 1, = ,13583, 1
+# 13707, 1, = ,13686, 1
+# 13732, 1, = ,13711, 1
+# 14028, 1, = ,14007, 1
+# 14039, 1, = ,14018, 1
+# 14961, 1, = ,14940, 1
+# 14974, 1, = ,14953, 1
+# 16182, 1, = ,16161, 1
+# 16204, 1, = ,16183, 1
+# 16304, 1, = ,16283, 1
+# 16323, 1, = ,16302, 1
+# 17299, 1, = ,17278, 1
+# 17315, 1, = ,17294, 1
+# 17381, 1, = ,17360, 1
+# 17402, 1, = ,17381, 1
+# 17542, 1, = ,17521, 1
+# 17565, 1, = ,17544, 1
+# 20514, 1, = ,20493, 1
+# 20536, 1, = ,20515, 1
+# 20835, 1, = ,20814, 1
+# 20851, 1, = ,20830, 1
+# 22373, 1, = ,22352, 1
+# 22398, 1, = ,22377, 1
+# 22406, 1, = ,22385, 1
+# 22445, 1, = ,22424, 1
+# 22914, 1, = ,22893, 1
+# 22925, 1, = ,22904, 1
+# 22960, 1, = ,22939, 1
+# 22969, 1, = ,22948, 1
+# 25064, 1, = ,25043, 1
+# 25072, 1, = ,25051, 1
+# 25211, 1, = ,25190, 1
+# 25222, 1, = ,25201, 1
+# 25755, 1, = ,25734, 1
+# 25766, 1, = ,25745, 1
+# 25939, 1, = ,25918, 1
++ 26031, 1, = ,26010, 1
++ 26106, 2, = ,26085, 0
++ 26296, 9, = ,26273, 0
+@ ext/date/lib/interval.c, 441, 443
+- 65, 1, = ,65, 1
++ 93, 3, = ,93, 2
++ 121, 6, = ,120, 3
++ 131, 0, = ,127, 3
++ 149, 1, = ,148, 1
++ 152, 3, = ,151, 3
++ 162, 1, = ,161, 1
++ 165, 4, = ,164, 4
++ 176, 2, = ,175, 2
++ 179, 4, = ,178, 3
++ 194, 0, = ,192, 4
+- 201, 1, = ,203, 1

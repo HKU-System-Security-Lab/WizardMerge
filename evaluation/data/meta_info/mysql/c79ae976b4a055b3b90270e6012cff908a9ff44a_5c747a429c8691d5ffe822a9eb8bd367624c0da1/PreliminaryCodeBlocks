@@ -1,0 +1,187 @@
+@ storage/ndb/src/kernel/blocks/LocalProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/VoidFs.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Win32AsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/print_file.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/record_types.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.hpp, -2, -1
+@ storage/ndb/src/kernel/main.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArenaPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArenaPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ArrayPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Configuration.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/CountingPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLCHashTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLHashTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DLHashTable2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DataBuffer.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/DynArr256.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/DynArr256.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Emulator.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Emulator.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/GlobalData.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/IntrusiveList.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/IntrusiveList.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/KeyTable2.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LHLevel.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LockQueue.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LockQueue.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/LongSignal.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Mutex.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Ndbinfo.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/NdbinfoTables.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Pool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Pool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/RWPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/RWPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/Rope.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/Rope.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeCounter.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SafeCounter.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/SegmentList.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/WOPool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/WOPool.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/WatchDog.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/bench_pool.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt-asm.h, -2, -1
+@ storage/ndb/src/kernel/vm/mt-send-t.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt_thr_config.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/mt_thr_config.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc_impl.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/ndbd_malloc_impl.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/pc.hpp, -2, -1
+@ storage/ndb/src/kernel/vm/test_context.cpp, -2, -1
+@ storage/ndb/src/kernel/vm/SimulatedBlock.hpp, 2094, 2047
+- 2, 1, = ,2, 1
++ 42, 1, = ,42, 0
++ 51, 0, = ,50, 1
++ 431, 1, = ,431, 0
++ 499, 1, = ,498, 0
++ 554, 1, = ,552, 0
++ 595, 3, = ,592, 1
++ 608, 2, = ,603, 2
++ 739, 15, = ,734, 0
++ 758, 11, = ,738, 10
++ 959, 3, = ,938, 1
++ 1000, 2, = ,977, 0
+- 1045, 0, = ,1020, 17
+- 1125, 4, = ,1117, 3
++ 1207, 2, = ,1198, 1
++ 1256, 2, = ,1246, 2
++ 1277, 2, = ,1267, 2
++ 1281, 3, = ,1271, 3
++ 1315, 2, = ,1305, 0
++ 1321, 1, = ,1309, 1
++ 1339, 2, = ,1327, 2
++ 1408, 1, = ,1396, 0
++ 1433, 4, = ,1420, 4
++ 1443, 1, = ,1430, 0
++ 1554, 0, = ,1540, 3
++ 1607, 6, = ,1596, 0
++ 1768, 12, = ,1751, 0
++ 1802, 2, = ,1773, 2
++ 1810, 5, = ,1781, 5
++ 1934, 17, = ,1905, 0
++ 1994, 4, = ,1948, 4
++ 2045, 1, = ,1999, 0
++ 2047, 1, = ,2000, 1
+@ storage/ndb/src/kernel/vm/SimulatedBlock.cpp, 4864, 4871
+- 2, 1, = ,2, 1
++ 96, 2, = ,96, 1
++ 138, 0, = ,137, 6
++ 164, 2, = ,169, 0
++ 203, 0, = ,206, 6
++ 276, 8, = ,285, 0
+- 1856, 0, = ,1857, 5
+- 1857, 1, = ,1863, 1
+- 1859, 0, = ,1865, 7
+- 1860, 1, = ,1873, 3
+- 1862, 4, = ,1877, 1
+- 1867, 9, = ,1879, 14
++ 2384, 2, = ,2401, 2
++ 2407, 1, = ,2424, 0
++ 2416, 7, = ,2432, 1
++ 2789, 1, = ,2799, 1
++ 2849, 1, = ,2859, 1
++ 2853, 1, = ,2863, 1
++ 2992, 1, = ,3002, 1
++ 3938, 1, = ,3948, 2
++ 3942, 3, = ,3953, 2
++ 3950, 3, = ,3960, 4
++ 3956, 5, = ,3967, 7
++ 3964, 5, = ,3977, 6
++ 3971, 7, = ,3985, 0
+@ storage/ndb/src/kernel/blocks/ndbfs/Ndbfs.cpp, 1908, 1855
+- 2, 1, = ,2, 1
+- 275, 0, = ,275, 1
++ 315, 16, = ,316, 0
++ 356, 16, = ,341, 0
++ 385, 11, = ,354, 0
++ 400, 7, = ,358, 0
++ 409, 1, = ,360, 0
+- 479, 0, = ,429, 1
+- 561, 0, = ,512, 1
+- 564, 1, = ,516, 0
+- 568, 0, = ,519, 1
++ 586, 1, = ,538, 1
++ 600, 1, = ,552, 1
+- 654, 0, = ,606, 1
+- 660, 0, = ,613, 1
+- 707, 0, = ,661, 1
+- 712, 0, = ,667, 1
+- 755, 0, = ,711, 1
++ 759, 1, = ,716, 0
+- 773, 0, = ,729, 1
+- 777, 1, = ,734, 1
+- 803, 6, = ,760, 1
++ 887, 14, = ,839, 1
+- 965, 0, = ,904, 1
+- 989, 0, = ,929, 1
++ 992, 2, = ,933, 0
++ 995, 1, = ,934, 0
++ 997, 2, = ,935, 0
++ 1000, 1, = ,936, 0
+- 1009, 0, = ,944, 1
+- 1014, 0, = ,950, 1
+- 1042, 0, = ,979, 1
+- 1068, 0, = ,1006, 2
+- 1074, 0, = ,1014, 1
+- 1078, 2, = ,1019, 6
+- 1085, 3, = ,1030, 0
+- 1108, 6, = ,1050, 0
+- 1153, 0, = ,1089, 1
+- 1154, 1, = ,1091, 0
+- 1160, 0, = ,1096, 1
+- 1179, 0, = ,1116, 1
+- 1185, 0, = ,1123, 1
++ 1195, 1, = ,1134, 1
++ 1208, 1, = ,1147, 1
++ 1482, 3, = ,1421, 1
++ 1574, 1, = ,1511, 1
+- 1713, 0, = ,1650, 1
+# 1741, 1, = ,1679, 8
+- 1754, 0, = ,1699, 2

@@ -1,0 +1,320 @@
+@ include/linux/acpi.h, -2, -1
+@ include/linux/acpi_iort.h, -2, -1
+@ include/linux/arm-smccc.h, -2, -1
+@ include/linux/arm_sdei.h, -2, -1
+@ include/linux/backing-dev.h, -2, -1
+@ include/linux/bio.h, -2, -1
+@ include/linux/blk-crypto-profile.h, -2, -1
+@ include/linux/blk-mq.h, -2, -1
+@ include/linux/blk_types.h, -2, -1
+@ include/linux/blkdev.h, -2, -1
+@ include/linux/bpf-cgroup.h, -2, -1
+@ include/linux/bpf.h, -2, -1
+@ include/linux/bpf_mem_alloc.h, -2, -1
+@ include/linux/bpf_verifier.h, -2, -1
+@ include/linux/brcmphy.h, -2, -1
+@ include/linux/btf.h, -2, -1
+@ include/linux/btf_ids.h, -2, -1
+@ include/linux/buffer_head.h, -2, -1
+@ include/linux/cacheflush.h, -2, -1
+@ include/linux/cgroup-defs.h, -2, -1
+@ include/linux/clk.h, -2, -1
+@ include/linux/compiler_attributes.h, -2, -1
+@ include/linux/compiler_types.h, -2, -1
+@ include/linux/completion.h, -2, -1
+@ include/linux/connector.h, -2, -1
+@ include/linux/cpu.h, -2, -1
+@ include/linux/cpufreq.h, -2, -1
+@ include/linux/cpuhotplug.h, -2, -1
+@ include/linux/cpumask.h, -2, -1
+@ include/linux/crash_core.h, -2, -1
+@ include/linux/cred.h, -1, -2
+@ include/linux/damon.h, -2, -1
+@ include/linux/dax.h, -2, -1
+@ include/linux/device.h, -2, -1
+@ include/linux/dm-verity-loadpin.h, -2, -1
+@ include/linux/dma-fence.h, -2, -1
+@ include/linux/dma-map-ops.h, -2, -1
+@ include/linux/dma-mapping.h, -2, -1
+@ include/linux/dnotify.h, -2, -1
+@ include/linux/efi.h, -2, -1
+@ include/linux/evm.h, -1, -2
+@ include/linux/filelock.h, -2, -1
+@ include/linux/filter.h, -2, -1
+@ include/linux/fs.h, -2, -1
+@ include/linux/fs_context.h, -2, -1
+@ include/linux/fs_stack.h, -2, -1
+@ include/linux/ftrace.h, -2, -1
+@ include/linux/genl_magic_func.h, -2, -1
+@ include/linux/genl_magic_struct.h, -2, -1
+@ include/linux/highmem.h, -2, -1
+@ include/linux/hisi_acc_qm.h, -2, -1
+@ include/linux/huge_mm.h, -2, -1
+@ include/linux/hugetlb.h, -2, -1
+@ include/linux/hyperv.h, -2, -1
+@ include/linux/icmpv6.h, -2, -1
+@ include/linux/ieee80211.h, -2, -1
+@ include/linux/if_arp.h, -2, -1
+@ include/linux/if_team.h, -2, -1
+@ include/linux/if_vlan.h, -2, -1
+@ include/linux/intel_rapl.h, -2, -1
+@ include/linux/io_uring.h, -2, -1
+@ include/linux/io_uring_types.h, -2, -1
+@ include/linux/iomap.h, -2, -1
+@ include/linux/ipv6.h, -2, -1
+@ include/linux/ism.h, -2, -1
+@ include/linux/jbd2.h, -2, -1
+@ include/linux/kernel.h, -2, -1
+@ include/linux/kexec.h, -2, -1
+@ include/linux/kfence.h, -2, -1
+@ include/linux/ksm.h, -2, -1
+@ include/linux/kthread.h, -2, -1
+@ include/linux/limits.h, -2, -1
+@ include/linux/list.h, -2, -1
+@ include/linux/lockdep.h, -2, -1
+@ include/linux/lsm_hooks.h, -1, -2
+@ include/linux/maple_tree.h, -2, -1
+@ include/linux/marvell_phy.h, -2, -1
+@ include/linux/math.h, -2, -1
+@ include/linux/mdio.h, -2, -1
+@ include/linux/memblock.h, -2, -1
+@ include/linux/memcontrol.h, -2, -1
+@ include/linux/memory-tiers.h, -2, -1
+@ include/linux/memory.h, -2, -1
+@ include/linux/memory_hotplug.h, -2, -1
+@ include/linux/minmax.h, -2, -1
+@ include/linux/mm.h, -2, -1
+@ include/linux/mm_inline.h, -2, -1
+@ include/linux/mm_types.h, -2, -1
+@ include/linux/mm_types_task.h, -2, -1
+@ include/linux/mmap_lock.h, -2, -1
+@ include/linux/mmu_notifier.h, -2, -1
+@ include/linux/mmzone.h, -2, -1
+@ include/linux/module_symbol.h, -2, -1
+@ include/linux/moduleloader.h, -2, -1
+@ include/linux/net.h, -2, -1
+@ include/linux/net_tstamp.h, -2, -1
+@ include/linux/netdevice.h, -2, -1
+@ include/linux/netfilter.h, -2, -1
+@ include/linux/netlink.h, -2, -1
+@ include/linux/nls.h, -2, -1
+@ include/linux/nmi.h, -2, -1
+@ include/linux/notifier.h, -2, -1
+@ include/linux/nsproxy.h, -2, -1
+@ include/linux/nvme.h, -2, -1
+@ include/linux/page-flags.h, -2, -1
+@ include/linux/page_ext.h, -2, -1
+@ include/linux/page_idle.h, -2, -1
+@ include/linux/page_table_check.h, -2, -1
+@ include/linux/pagemap.h, -2, -1
+@ include/linux/pagewalk.h, -2, -1
+@ include/linux/pci.h, -2, -1
+@ include/linux/pci_ids.h, -2, -1
+@ include/linux/percpu.h, -2, -1
+@ include/linux/perf_event.h, -2, -1
+@ include/linux/pgtable.h, -2, -1
+@ include/linux/phy.h, -2, -1
+@ include/linux/phylink.h, -2, -1
+@ include/linux/pid_namespace.h, -2, -1
+@ include/linux/pipe_fs_i.h, -2, -1
+@ include/linux/pm_opp.h, -2, -1
+@ include/linux/pm_runtime.h, -2, -1
+@ include/linux/pm_wakeirq.h, -2, -1
+@ include/linux/pm_wakeup.h, -2, -1
+@ include/linux/prefetch.h, -2, -1
+@ include/linux/psi.h, -2, -1
+@ include/linux/psi_types.h, -2, -1
+@ include/linux/psp-platform-access.h, -2, -1
+@ include/linux/raid_class.h, -2, -1
+@ include/linux/range.h, -2, -1
+@ include/linux/rbtree_augmented.h, -2, -1
+@ include/linux/rculist_nulls.h, -2, -1
+@ include/linux/rcupdate_trace.h, -2, -1
+@ include/linux/rcupdate_wait.h, -2, -1
+@ include/linux/rcutiny.h, -2, -1
+@ include/linux/rcutree.h, -2, -1
+@ include/linux/regmap.h, -2, -1
+@ include/linux/rethook.h, -2, -1
+@ include/linux/rmap.h, -2, -1
+@ include/linux/sched.h, -2, -1
+@ include/linux/secretmem.h, -2, -1
+@ include/linux/sed-opal.h, -2, -1
+@ include/linux/seq_file.h, -2, -1
+@ include/linux/serial_core.h, -2, -1
+@ include/linux/shmem_fs.h, -2, -1
+@ include/linux/skbuff.h, -2, -1
+@ include/linux/skmsg.h, -2, -1
+@ include/linux/slab.h, -2, -1
+@ include/linux/smscphy.h, -2, -1
+@ include/linux/srcutiny.h, -2, -1
+@ include/linux/stmmac.h, -2, -1
+@ include/linux/swait.h, -2, -1
+@ include/linux/swap.h, -2, -1
+@ include/linux/swapfile.h, -2, -1
+@ include/linux/swapops.h, -2, -1
+@ include/linux/swiotlb.h, -2, -1
+@ include/linux/syscalls.h, -2, -1
+@ include/linux/sysctl.h, -2, -1
+@ include/linux/tcp.h, -2, -1
+@ include/linux/thermal.h, -2, -1
+@ include/linux/torture.h, -2, -1
+@ include/linux/tpm.h, -2, -1
+@ include/linux/trace_events.h, -2, -1
+@ include/linux/uio.h, -2, -1
+@ include/linux/userfaultfd_k.h, -2, -1
+@ include/linux/virtio_net.h, -2, -1
+@ include/linux/wait.h, -2, -1
+@ include/linux/writeback.h, -2, -1
+@ include/linux/xattr.h, -2, -1
+@ kernel/acct.c, -2, -1
+@ kernel/audit.c, -2, -1
+@ kernel/audit.h, -2, -1
+@ kernel/auditfilter.c, -2, -1
+@ kernel/auditsc.c, -2, -1
+@ kernel/capability.c, -1, -2
+@ kernel/cpu.c, -2, -1
+@ kernel/crash_core.c, -2, -1
+@ kernel/cred.c, -2, -1
+@ kernel/fork.c, -2, -1
+@ kernel/iomem.c, -2, -1
+@ kernel/kallsyms.c, -2, -1
+@ kernel/kallsyms_selftest.c, -2, -1
+@ kernel/kexec.c, -2, -1
+@ kernel/kexec_core.c, -2, -1
+@ kernel/kexec_file.c, -2, -1
+@ kernel/kprobes.c, -2, -1
+@ kernel/ksysfs.c, -2, -1
+@ kernel/kthread.c, -2, -1
+@ kernel/nsproxy.c, -2, -1
+@ kernel/panic.c, -2, -1
+@ kernel/params.c, -2, -1
+@ kernel/pid.c, -2, -1
+@ kernel/pid_namespace.c, -2, -1
+@ kernel/pid_sysctl.h, -2, -1
+@ kernel/relay.c, -2, -1
+@ kernel/scftorture.c, -2, -1
+@ kernel/seccomp.c, -2, -1
+@ kernel/signal.c, -2, -1
+@ kernel/smp.c, -2, -1
+@ kernel/softirq.c, -2, -1
+@ kernel/sys.c, -2, -1
+@ kernel/torture.c, -2, -1
+@ kernel/ucount.c, -2, -1
+@ kernel/watchdog.c, -2, -1
+@ kernel/workqueue.c, -2, -1
+@ security/apparmor/apparmorfs.c, -2, -1
+@ security/apparmor/lsm.c, -1, -2
+@ security/apparmor/policy_unpack.c, -2, -1
+@ security/commoncap.c, -1, -2
+@ security/inode.c, -2, -1
+@ security/integrity/digsig.c, -2, -1
+@ security/integrity/evm/evm.h, -1, -2
+@ security/integrity/evm/evm_crypto.c, -1, -2
+@ security/integrity/evm/evm_main.c, -1, -2
+@ security/integrity/integrity.h, -2, -1
+@ security/selinux/avc.c, -2, -1
+@ security/selinux/netif.c, -2, -1
+@ security/selinux/netlabel.c, -2, -1
+@ security/selinux/nlmsgtab.c, -2, -1
+@ security/selinux/selinuxfs.c, -2, -1
+@ security/selinux/status.c, -2, -1
+@ security/selinux/xfrm.c, -2, -1
+@ security/smack/smack.h, -1, -2
+@ security/smack/smack_lsm.c, 5161, 5122
+- 55, 0, = ,55, 9
++ 618, 50, = ,627, 0
+- 976, 3, = ,935, 2
+- 983, 2, = ,941, 2
+- 987, 1, = ,945, 0
+- 991, 0, = ,948, 1
+- 993, 4, = ,951, 1
+- 1017, 0, = ,972, 2
+- 1025, 1, = ,982, 12
+- 1028, 2, = ,996, 2
+- 1032, 1, = ,1000, 2
+- 3571, 14, = ,3540, 6
+- 4922, 0, = ,4883, 1
++ 4929, 1, = ,4891, 0
+@ security/selinux/hooks.c, 7384, 7372
++ 3, 1, = ,3, 1
++ 7, 1, = ,7, 1
+- 107, 0, = ,107, 2
++ 227, 25, = ,229, 0
++ 1153, 1, = ,1130, 1
+- 1717, 1, = ,1694, 1
+- 1978, 1, = ,1955, 1
+- 2053, 1, = ,2030, 1
+- 2108, 1, = ,2085, 1
++ 2773, 21, = ,2750, 0
+- 2896, 2, = ,2852, 1
+- 2901, 0, = ,2856, 1
+- 2927, 4, = ,2883, 1
+- 2935, 2, = ,2888, 3
++ 2966, 1, = ,2920, 1
++ 3811, 1, = ,3765, 2
++ 3814, 1, = ,3769, 3
++ 4545, 1, = ,4502, 1
++ 4550, 1, = ,4507, 3
++ 4943, 1, = ,4902, 1
++ 4946, 1, = ,4905, 3
++ 4973, 1, = ,4934, 1
++ 4975, 1, = ,4936, 3
++ 5011, 1, = ,4974, 1
++ 5014, 1, = ,4977, 4
++ 5036, 1, = ,5002, 1
++ 5041, 1, = ,5007, 1
++ 5043, 0, = ,5009, 2
++ 5063, 1, = ,5031, 4
++ 5199, 1, = ,5170, 1
++ 5204, 1, = ,5175, 1
++ 5233, 1, = ,5204, 1
++ 5269, 1, = ,5240, 3
++ 5500, 1, = ,5473, 1
++ 5503, 2, = ,5476, 2
++ 5614, 1, = ,5587, 1
++ 5630, 1, = ,5603, 4
++ 5710, 1, = ,5686, 1
++ 5718, 1, = ,5694, 4
++ 5743, 1, = ,5722, 1
++ 5840, 1, = ,5819, 4
++ 5993, 1, = ,5975, 2
++ 6016, 1, = ,5999, 2
++ 6121, 1, = ,6105, 2
++ 6148, 1, = ,6133, 2
+- 6735, 1, = ,6721, 1
+- 6832, 0, = ,6818, 1
++ 6917, 1, = ,6904, 1
++ 6956, 0, = ,6943, 4
++ 7195, 1, = ,7186, 0
++ 7255, 2, = ,7245, 0
+@ security/security.c, 5308, 5326
+- 34, 2, = ,34, 0
+- 215, 0, = ,213, 2
+- 381, 0, = ,381, 1
+- 843, 1, = ,844, 1
+- 896, 1, = ,897, 1
++ 1142, 14, = ,1143, 0
+- 1608, 5, = ,1595, 1
+- 1614, 2, = ,1597, 12
+- 1621, 3, = ,1614, 3
+- 1628, 10, = ,1621, 27
+- 1640, 2, = ,1650, 2
+- 1646, 2, = ,1656, 3
+- 2734, 1, = ,2745, 1
+# 4413, 1, = ,4424, 8
+@ include/linux/security.h, 2126, 2120
+- 148, 1, = ,148, 2
+- 271, 1, = ,272, 1
+- 274, 1, = ,275, 1
++ 296, 1, = ,297, 0
+- 541, 1, = ,541, 1
+- 557, 1, = ,557, 1
++ 633, 5, = ,633, 0
++ 1448, 2, = ,1443, 1
++ 1607, 1, = ,1601, 1
+@ include/linux/lsm_hook_defs.h, 422, 421
+- 35, 1, = ,35, 1
+- 39, 1, = ,39, 1
++ 57, 1, = ,57, 0
+- 115, 3, = ,114, 3
++ 320, 1, = ,319, 1

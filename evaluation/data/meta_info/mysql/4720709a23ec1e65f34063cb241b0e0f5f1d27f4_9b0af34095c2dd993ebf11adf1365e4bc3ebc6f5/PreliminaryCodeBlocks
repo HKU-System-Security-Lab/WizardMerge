@@ -1,0 +1,160 @@
+@ router/src/metadata_cache/src/cluster_metadata_gr.h, -2, -1
+@ router/src/metadata_cache/src/gr_notifications_listener.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache_ar.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache_gr.cc, -2, -1
+@ router/src/router/src/cluster_metadata.h, -2, -1
+@ router/src/router/src/config_generator.cc, -2, -1
+@ sql/dd/dd_routine.cc, -2, -1
+@ sql/dd/impl/system_views/routines.cc, -2, -1
+@ sql/dd/impl/types/function_impl.h, -2, -1
+@ sql/dd/impl/types/procedure_impl.h, -2, -1
+@ sql/dd/impl/types/routine_impl.cc, -2, -1
+@ sql/dd/impl/types/routine_impl.h, -2, -1
+@ sql/dd/info_schema/metadata.h, -2, -1
+@ sql/dd/info_schema/show.cc, -2, -1
+@ sql/dd/info_schema/show.h, -2, -1
+@ sql/dd/types/routine.h, -2, -1
+@ sql/dd_sp.cc, -2, -1
+@ sql/item_cmpfunc.cc, -2, -1
+@ sql/join_optimizer/build_interesting_orders.cc, -2, -1
+@ sql/join_optimizer/build_interesting_orders.h, -2, -1
+@ sql/join_optimizer/join_optimizer.cc, -2, -1
+@ sql/join_optimizer/make_join_hypergraph.cc, -2, -1
+@ sql/join_optimizer/make_join_hypergraph.h, -2, -1
+@ sql/mysqld.cc, -2, -1
+@ sql/sp.cc, -2, -1
+@ sql/sp_head.cc, -2, -1
+@ sql/sp_head.h, -2, -1
+@ sql/sql_cmd_ddl_table.cc, -2, -1
+@ sql/sql_executor.cc, -2, -1
+@ sql/sql_lex.cc, -2, -1
+@ sql/sql_lex.h, -2, -1
+@ sql/sql_optimizer.cc, -2, -1
+@ sql/sql_optimizer.h, -2, -1
+@ sql/sql_parse.cc, -2, -1
+@ sql/sql_prepare.cc, -2, -1
+@ router/src/router/include/mysqlrouter/cluster_metadata.h, -2, -1
+@ router/src/metadata_cache/include/mysqlrouter/metadata_cache.h, -2, -1
+@ router/src/metadata_cache/include/mysqlrouter/metadata_cache_datatypes.h, -2, -1
+@ mysys/sql_chars.cc, -2, -1
+@ include/my_dbug.h, -2, -1
+@ include/sql_chars.h, -2, -1
+@ libbinlogevents/include/wrapper_functions.h, -2, -1
+@ router/src/routing/src/dest_metadata_cache.cc, -2, -1
+@ router/src/routing/src/sql_lexer.cc, -2, -1
+@ router/src/routing/tests/test_metadata_cache_group.cc, -2, -1
+@ unittest/gunit/hypergraph_optimizer-t.cc, -2, -1
+@ unittest/gunit/temptable_allocator-t.cc, -2, -1
+@ router/tests/component/test_bootstrap_clusterset.cc, -2, -1
+@ router/tests/component/test_clusterset.cc, -2, -1
+@ router/tests/component/test_config_overwrites.cc, -2, -1
+@ router/tests/component/test_rest_routing.cc, -2, -1
+@ router/tests/component/test_routing_splicer.cc, -2, -1
+@ router/tests/helpers/router_component_clusterset.cc, -2, -1
+@ router/tests/helpers/router_component_clusterset.h, -2, -1
+@ router/tests/helpers/router_component_test.h, -2, -1
+@ storage/innobase/btr/btr0btr.cc, -2, -1
+@ storage/innobase/btr/btr0load.cc, -2, -1
+@ storage/innobase/buf/buf0buf.cc, -2, -1
+@ storage/innobase/buf/buf0flu.cc, -2, -1
+@ storage/innobase/ddl/ddl0builder.cc, -2, -1
+@ storage/innobase/ddl/ddl0fts.cc, -2, -1
+@ storage/innobase/ddl/ddl0loader.cc, -2, -1
+@ storage/innobase/include/btr0load.h, -2, -1
+@ storage/innobase/include/buf0buf.h, -2, -1
+@ storage/innobase/include/buf0flu.h, -2, -1
+@ storage/innobase/include/ddl0impl-builder.h, -2, -1
+@ storage/innobase/ut/ut0test.cc, -2, -1
+@ storage/perfschema/pfs.cc, -2, -1
+@ storage/temptable/include/temptable/allocator.h, -2, -1
+@ router/src/metadata_cache/tests/helper/mock_metadata.h, -2, -1
+@ router/src/metadata_cache/src/cluster_metadata_gr.h, -2, -1
+@ router/src/metadata_cache/src/gr_notifications_listener.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache_ar.cc, -2, -1
+@ router/src/metadata_cache/src/metadata_cache_gr.cc, -2, -1
+@ router/src/router/src/cluster_metadata.h, -2, -1
+@ router/src/router/src/config_generator.cc, -2, -1
+@ router/src/router/src/cluster_metadata.cc, 1399, 1329
++ 35, 1, = ,35, 0
+- 66, 1, = ,65, 1
++ 351, 1, = ,350, 1
++ 693, 12, = ,692, 0
++ 714, 1, = ,701, 1
++ 722, 1, = ,709, 1
++ 733, 2, = ,720, 1
++ 756, 5, = ,742, 0
+- 762, 4, = ,743, 4
+- 770, 1, = ,751, 1
++ 791, 18, = ,772, 0
+- 878, 4, = ,841, 4
++ 887, 1, = ,850, 1
+# 903, 18, = ,866, 12
+- 1186, 1, = ,1143, 1
++ 1371, 27, = ,1328, 0
+@ router/src/metadata_cache/src/cluster_metadata_gr.cc, 1700, 1600
++ 32, 1, = ,32, 0
++ 40, 1, = ,39, 1
++ 42, 1, = ,41, 0
++ 47, 1, = ,45, 0
++ 220, 3, = ,217, 1
++ 340, 1, = ,335, 1
++ 346, 10, = ,341, 0
++ 360, 2, = ,345, 2
++ 366, 4, = ,351, 4
++ 383, 1, = ,368, 1
++ 411, 3, = ,396, 3
++ 418, 2, = ,403, 2
++ 477, 1, = ,462, 2
++ 482, 2, = ,468, 2
++ 512, 1, = ,498, 1
++ 514, 1, = ,500, 1
++ 559, 1, = ,545, 1
++ 563, 1, = ,549, 1
++ 571, 2, = ,557, 2
++ 577, 2, = ,563, 2
++ 592, 2, = ,578, 2
++ 597, 2, = ,583, 2
++ 605, 2, = ,591, 2
++ 727, 1, = ,713, 1
++ 751, 31, = ,737, 0
++ 790, 1, = ,745, 1
++ 802, 11, = ,757, 0
++ 831, 1, = ,775, 1
++ 838, 1, = ,782, 0
++ 850, 4, = ,793, 0
+# 1040, 2, = ,979, 3
+# 1120, 2, = ,1060, 2
+# 1127, 2, = ,1067, 3
++ 1132, 14, = ,1073, 0
++ 1343, 4, = ,1270, 2
++ 1348, 4, = ,1273, 2
++ 1353, 1, = ,1276, 2
+# 1355, 10, = ,1279, 2
++ 1366, 1, = ,1282, 0
++ 1440, 1, = ,1355, 1
++ 1451, 1, = ,1366, 1
++ 1515, 4, = ,1430, 3
++ 1558, 11, = ,1472, 0
++ 1597, 3, = ,1500, 0
++ 1639, 1, = ,1539, 1
+@ router/src/metadata_cache/src/cluster_metadata_ar.cc, 241, 227
++ 27, 1, = ,27, 0
++ 33, 1, = ,32, 0
+# 194, 2, = ,192, 2
+# 209, 14, = ,207, 1
++ 224, 0, = ,209, 1
+@ router/src/metadata_cache/src/cluster_metadata.h, 173, 177
++ 172, 0, = ,172, 4
+@ router/src/metadata_cache/src/cluster_metadata.cc, 517, 609
++ 41, 1, = ,41, 0
++ 46, 1, = ,45, 0
++ 54, 1, = ,52, 0
++ 58, 1, = ,55, 0
++ 450, 0, = ,446, 123
++ 452, 0, = ,571, 1
++ 456, 6, = ,576, 11
++ 464, 0, = ,589, 2
++ 465, 11, = ,592, 15
++ 477, 39, = ,608, 0

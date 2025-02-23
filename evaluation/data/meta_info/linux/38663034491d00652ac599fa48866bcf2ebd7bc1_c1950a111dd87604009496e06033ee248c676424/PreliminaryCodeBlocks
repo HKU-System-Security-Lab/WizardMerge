@@ -1,0 +1,165 @@
+@ fs/aio.c, -2, -1
+@ fs/attr.c, -2, -1
+@ fs/bad_inode.c, -2, -1
+@ fs/binfmt_misc.c, -2, -1
+@ fs/buffer.c, -2, -1
+@ fs/dax.c, -2, -1
+@ fs/dcache.c, -2, -1
+@ fs/drop_caches.c, -2, -1
+@ fs/eventfd.c, -2, -1
+@ fs/eventpoll.c, -2, -1
+@ fs/exec.c, -2, -1
+@ fs/fcntl.c, -2, -1
+@ fs/file.c, -2, -1
+@ fs/file_table.c, -2, -1
+@ fs/fs-writeback.c, -2, -1
+@ fs/fs_context.c, -2, -1
+@ fs/fs_struct.c, -2, -1
+@ fs/fsopen.c, -2, -1
+@ fs/inode.c, -2, -1
+@ fs/internal.h, -2, -1
+@ fs/ioctl.c, -2, -1
+@ fs/kernel_read_file.c, -2, -1
+@ fs/libfs.c, -2, -1
+@ fs/locks.c, -2, -1
+@ fs/namei.c, -2, -1
+@ fs/nsfs.c, -2, -1
+@ fs/open.c, -2, -1
+@ fs/pipe.c, -2, -1
+@ fs/posix_acl.c, -2, -1
+@ fs/read_write.c, -2, -1
+@ fs/splice.c, -2, -1
+@ fs/stack.c, -2, -1
+@ fs/stat.c, -2, -1
+@ fs/super.c, -2, -1
+@ fs/userfaultfd.c, -2, -1
+@ fs/xattr.c, -2, -1
+@ fs/xfs/libxfs/xfs_fs.h, -1, -2
+@ fs/xfs/libxfs/xfs_inode_buf.c, -2, -1
+@ fs/xfs/libxfs/xfs_trans_inode.c, -2, -1
+@ fs/xfs/scrub/agheader_repair.c, -1, -2
+@ fs/xfs/scrub/bitmap.c, -1, -2
+@ fs/xfs/scrub/bitmap.h, -1, -2
+@ fs/xfs/scrub/bmap.c, -1, -2
+@ fs/xfs/scrub/common.c, -1, -2
+@ fs/xfs/scrub/common.h, -1, -2
+@ fs/xfs/scrub/fscounters.c, -2, -1
+@ fs/xfs/scrub/health.c, -1, -2
+@ fs/xfs/scrub/ialloc.c, -1, -2
+@ fs/xfs/scrub/inode.c, -1, -2
+@ fs/xfs/scrub/parent.c, -1, -2
+@ fs/xfs/scrub/quota.c, -1, -2
+@ fs/xfs/scrub/repair.c, -1, -2
+@ fs/xfs/scrub/repair.h, -1, -2
+@ fs/xfs/scrub/rtbitmap.c, -1, -2
+@ fs/xfs/scrub/trace.c, -1, -2
+@ fs/xfs/xfs_acl.c, -2, -1
+@ fs/xfs/xfs_bmap_util.c, -2, -1
+@ fs/xfs/xfs_buf.h, -1, -2
+@ fs/xfs/xfs_dquot.c, -1, -2
+@ fs/xfs/xfs_file.c, -2, -1
+@ fs/xfs/xfs_icache.c, -1, -2
+@ fs/xfs/xfs_icache.h, -1, -2
+@ fs/xfs/xfs_inode.c, -2, -1
+@ fs/xfs/xfs_inode_item.c, -2, -1
+@ fs/xfs/xfs_iops.c, -2, -1
+@ fs/xfs/xfs_itable.c, -2, -1
+@ fs/xfs/xfs_linux.h, -1, -2
+@ fs/xfs/xfs_mount.c, -1, -2
+@ fs/xfs/xfs_mount.h, -1, -2
+@ fs/xfs/xfs_super.h, -1, -2
+@ fs/xfs/xfs_trace.h, 4423, 4434
+- 25, 0, = ,25, 3
++ 805, 0, = ,808, 4
++ 809, 2, = ,816, 3
++ 814, 1, = ,822, 1
++ 820, 1, = ,828, 1
++ 823, 1, = ,831, 1
++ 826, 1, = ,834, 4
+@ fs/xfs/xfs_super.c, 2469, 2488
+- 45, 0, = ,45, 1
+- 52, 0, = ,53, 1
++ 380, 0, = ,382, 11
++ 388, 2, = ,401, 2
++ 399, 1, = ,412, 10
++ 402, 26, = ,424, 0
++ 429, 2, = ,425, 4
++ 433, 2, = ,431, 4
++ 436, 2, = ,436, 1
++ 454, 2, = ,453, 1
++ 460, 6, = ,458, 0
++ 471, 1, = ,463, 1
++ 509, 4, = ,501, 1
++ 520, 2, = ,509, 1
++ 524, 2, = ,512, 2
+# 775, 11, = ,763, 1
++ 1161, 0, = ,1139, 4
+- 1166, 0, = ,1148, 1
++ 1171, 1, = ,1154, 4
+- 1500, 0, = ,1486, 15
++ 1513, 1, = ,1514, 1
++ 1540, 1, = ,1541, 1
+- 1542, 0, = ,1543, 7
++ 1544, 1, = ,1552, 1
+- 1568, 1, = ,1576, 1
+- 1572, 0, = ,1580, 4
+- 1749, 0, = ,1761, 2
++ 1758, 2, = ,1772, 5
++ 1952, 2, = ,1969, 1
++ 2022, 8, = ,2038, 0
++ 2035, 2, = ,2043, 2
+- 2380, 0, = ,2388, 2
+- 2383, 1, = ,2393, 1
+- 2399, 0, = ,2409, 4
+- 2403, 1, = ,2417, 1
+- 2420, 1, = ,2434, 1
+- 2422, 0, = ,2436, 2
+- 2427, 1, = ,2443, 2
+- 2451, 0, = ,2468, 1
+- 2454, 0, = ,2472, 1
+@ fs/xfs/xfs_buf.c, 2370, 2374
+- 484, 1, = ,484, 2
+- 562, 0, = ,563, 4
+- 685, 0, = ,690, 2
++ 1941, 2, = ,1948, 0
++ 1948, 0, = ,1953, 2
++ 1949, 3, = ,1956, 0
+@ fs/xfs/xfs_aops.c, 596, 596
+- 481, 1, = ,481, 1
++ 581, 1, = ,581, 1
+@ fs/xfs/scrub/trace.h, 1015, 1316
+- 19, 0, = ,19, 4
+- 97, 1, = ,101, 2
++ 101, 1, = ,106, 0
+- 639, 0, = ,643, 22
++ 697, 25, = ,723, 0
+- 754, 0, = ,755, 290
+- 758, 3, = ,1049, 2
+- 768, 2, = ,1058, 2
+- 781, 4, = ,1071, 5
+- 787, 0, = ,1078, 32
+- 856, 22, = ,1179, 0
+@ fs/xfs/scrub/scrub.h, 195, 198
+- 91, 0, = ,91, 4
++ 109, 1, = ,113, 0
+@ fs/xfs/scrub/scrub.c, 605, 617
+- 25, 0, = ,25, 2
+- 169, 2, = ,171, 0
+- 181, 4, = ,181, 2
++ 187, 2, = ,185, 1
+# 190, 1, = ,187, 4
+- 325, 1, = ,325, 1
+- 332, 1, = ,332, 1
+- 412, 0, = ,412, 5
+- 466, 0, = ,471, 1
+- 468, 0, = ,474, 1
++ 510, 2, = ,517, 0
+- 524, 0, = ,529, 1
+- 525, 0, = ,531, 1
+- 536, 1, = ,543, 5
+- 539, 2, = ,550, 2
+- 542, 3, = ,553, 0
+- 558, 1, = ,566, 1
+- 586, 0, = ,594, 2
+- 592, 0, = ,602, 1
+- 603, 0, = ,614, 1

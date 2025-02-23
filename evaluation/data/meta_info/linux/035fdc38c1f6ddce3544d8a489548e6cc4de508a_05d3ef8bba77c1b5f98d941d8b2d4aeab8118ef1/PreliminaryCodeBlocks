@@ -1,0 +1,1733 @@
+@ arch/ia64/include/asm/cpu.h, -1, -2
+@ arch/ia64/include/asm/fb.h, -2, -1
+@ arch/powerpc/include/asm/fb.h, -2, -1
+@ arch/sparc/include/asm/fb.h, -2, -1
+@ arch/sparc/include/asm/hugetlb.h, -1, -2
+@ arch/x86/include/asm/cpu.h, -1, -2
+@ arch/x86/include/asm/fb.h, -2, -1
+@ arch/x86/include/asm/kvm_host.h, -1, -2
+@ arch/x86/include/asm/linkage.h, -1, -2
+@ arch/x86/include/asm/mmu_context.h, -1, -2
+@ arch/x86/include/asm/mshyperv.h, -1, -2
+@ arch/x86/include/asm/msr-index.h, -1, -2
+@ arch/x86/include/asm/paravirt_types.h, -1, -2
+@ arch/x86/include/asm/pgtable.h, -1, -2
+@ arch/x86/include/asm/processor.h, -1, -2
+@ arch/x86/include/asm/smp.h, -1, -2
+@ arch/x86/include/asm/svm.h, -1, -2
+@ drivers/accel/drm_accel.c, -2, -1
+@ drivers/accel/ivpu/ivpu_debugfs.c, -2, -1
+@ drivers/accel/ivpu/ivpu_debugfs.h, -2, -1
+@ drivers/accel/ivpu/ivpu_fw.h, -2, -1
+@ drivers/accel/ivpu/ivpu_hw.h, -1, -2
+@ drivers/accel/ivpu/ivpu_hw_37xx_reg.h, -2, -1
+@ drivers/accel/ivpu/ivpu_hw_40xx_reg.h, -1, -2
+@ drivers/accel/ivpu/ivpu_mmu.c, -2, -1
+@ drivers/accel/ivpu/ivpu_mmu_context.h, -2, -1
+@ drivers/accel/ivpu/ivpu_pm.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/aldebaran.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v11.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gpuvm.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_bo_list.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_bo_list.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_cs.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_discovery.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_discovery.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_display.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_doorbell.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_fdinfo.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_fence.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_fru_eeprom.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_gem.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_gfx.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_gfx.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_gmc.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_gmc.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ids.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ih.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_kms.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_mca.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_mca.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_mes.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_nbio.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_object.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ras.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ras_eeprom.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_res_cursor.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_reset.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_reset.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ring.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ring.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_sdma.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_smuio.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ttm.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ucode.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ucode.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_umc.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_umc.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_uvd.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_uvd.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_vcn.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_vcn.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_virt.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_vkms.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_vm.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_vm_pt.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_vram_mgr.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_xcp.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_xcp.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_xgmi.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/aqua_vanjaram.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/athub_v1_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/athub_v2_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/athub_v2_1.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/athub_v3_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/atom.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/atombios_encoders.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/cik_sdma.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/dce_v10_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/dce_v11_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/dce_v6_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/dce_v8_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfx_v10_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfx_v11_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfx_v9_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfx_v9_4_2.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfx_v9_4_3.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfxhub_v1_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfxhub_v1_2.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfxhub_v2_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfxhub_v2_1.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfxhub_v3_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gfxhub_v3_0_3.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gmc_v10_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gmc_v11_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gmc_v6_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/gmc_v9_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/hdp_v4_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/hdp_v6_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/ih_v6_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/imu_v11_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/jpeg_v2_5.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/jpeg_v3_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/jpeg_v4_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/jpeg_v4_0_3.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mes_v10_1.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mes_v11_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v1_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v1_7.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v1_8.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v2_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v2_3.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v3_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v3_0_1.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v3_0_2.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmhub_v9_4.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mmsch_v4_0.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/mxgpu_ai.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/navi10_ih.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/nbio_v2_3.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/nbio_v4_3.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/nbio_v7_2.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/nbio_v7_4.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/nbio_v7_9.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/nv.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/psp_gfx_if.h, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/psp_v10_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/psp_v11_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/psp_v13_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/psp_v13_0_4.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/sdma_v2_4.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/sdma_v3_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/sdma_v4_4_2.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/sdma_v5_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/sdma_v5_2.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/sdma_v6_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/sienna_cichlid.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/smu_v13_0_10.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/smuio_v13_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/smuio_v13_0_3.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/soc15.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/soc21.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/uvd_v3_1.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/uvd_v4_2.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/uvd_v5_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/uvd_v6_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/uvd_v7_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/vcn_v2_5.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/vcn_v3_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/vcn_v4_0.c, -2, -1
+@ drivers/gpu/drm/amd/amdgpu/vega20_ih.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_chardev.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_crat.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_device.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_doorbell.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_int_process_v10.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_int_process_v11.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_int_process_v9.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_migrate.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_migrate.h, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_packet_manager_v9.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_priv.h, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_process_queue_manager.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_svm.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_svm.h, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_topology.c, -2, -1
+@ drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.h, -2, -1
+@ drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_debugfs.c, -2, -1
+@ drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_hdcp.c, -2, -1
+@ drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_helpers.c, -2, -1
+@ drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c, -2, -1
+@ drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_plane.c, -2, -1
+@ drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_replay.c, -2, -1
+@ drivers/gpu/drm/amd/display/amdgpu_dm/dc_fpu.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/clk_mgr/clk_mgr.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/clk_mgr/dcn32/dalsmc.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/clk_mgr/dcn32/dcn32_clk_mgr_smu_msg.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/core/dc_debug.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/core/dc_hw_sequencer.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/core/dc_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/core/dc_stream.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dc.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dc_dmub_srv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dc_dmub_srv.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dc_dp_types.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dc_helper.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dc_hw_types.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dc_stream.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dc_types.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce110/dce110_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn20/dcn20_dccg.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn20/dcn20_hubp.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn20/dcn20_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn20/dcn20_vmid.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_dccg.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_hubbub.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_hubbub.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_mmhubbub.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_mpc.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_optc.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_optc.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_resource.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn32/dcn32_resource_helpers.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/os_types.h, -2, -1
+@ drivers/gpu/drm/amd/pm/amdgpu_dpm.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/amdgpu_smu.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu11/arcturus_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu11/navi10_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu11/smu_v11_0.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu11/vangogh_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu_cmn.c, -2, -1
+@ drivers/gpu/drm/bridge/chipone-icn6211.c, -2, -1
+@ drivers/gpu/drm/bridge/ite-it66121.c, -2, -1
+@ drivers/gpu/drm/bridge/lontium-lt8912b.c, -2, -1
+@ drivers/gpu/drm/bridge/lontium-lt9211.c, -2, -1
+@ drivers/gpu/drm/bridge/lontium-lt9611uxc.c, -2, -1
+@ drivers/gpu/drm/bridge/lvds-codec.c, -2, -1
+@ drivers/gpu/drm/bridge/panel.c, -2, -1
+@ drivers/gpu/drm/bridge/samsung-dsim.c, -2, -1
+@ drivers/gpu/drm/bridge/tc358767.c, -2, -1
+@ drivers/gpu/drm/bridge/tc358768.c, -2, -1
+@ drivers/gpu/drm/bridge/ti-dlpc3433.c, -2, -1
+@ drivers/gpu/drm/bridge/ti-sn65dsi83.c, -2, -1
+@ drivers/gpu/drm/bridge/ti-sn65dsi86.c, -1, -2
+@ drivers/gpu/drm/drm_atomic.c, -2, -1
+@ drivers/gpu/drm/drm_auth.c, -2, -1
+@ drivers/gpu/drm/drm_bridge.c, -2, -1
+@ drivers/gpu/drm/drm_bridge_connector.c, -2, -1
+@ drivers/gpu/drm/drm_buddy.c, -2, -1
+@ drivers/gpu/drm/drm_client.c, -2, -1
+@ drivers/gpu/drm/drm_connector.c, -2, -1
+@ drivers/gpu/drm/drm_crtc_internal.h, -2, -1
+@ drivers/gpu/drm/drm_debugfs.c, -2, -1
+@ drivers/gpu/drm/drm_drv.c, -2, -1
+@ drivers/gpu/drm/drm_file.c, -2, -1
+@ drivers/gpu/drm/drm_framebuffer.c, -2, -1
+@ drivers/gpu/drm/drm_gem.c, -1, -2
+@ drivers/gpu/drm/drm_internal.h, -2, -1
+@ drivers/gpu/drm/drm_ioctl.c, -2, -1
+@ drivers/gpu/drm/drm_mode_config.c, -2, -1
+@ drivers/gpu/drm/drm_panel_orientation_quirks.c, -1, -2
+@ drivers/gpu/drm/drm_sysfs.c, -2, -1
+@ drivers/gpu/drm/drm_vblank_work.c, -2, -1
+@ drivers/gpu/drm/i915/display/g4x_dp.c, -2, -1
+@ drivers/gpu/drm/i915/display/g4x_dp.h, -2, -1
+@ drivers/gpu/drm/i915/display/g4x_hdmi.c, -2, -1
+@ drivers/gpu/drm/i915/display/g4x_hdmi.h, -2, -1
+@ drivers/gpu/drm/i915/display/hsw_ips.c, -2, -1
+@ drivers/gpu/drm/i915/display/hsw_ips.h, -2, -1
+@ drivers/gpu/drm/i915/display/i9xx_plane.c, -2, -1
+@ drivers/gpu/drm/i915/display/i9xx_plane.h, -2, -1
+@ drivers/gpu/drm/i915/display/i9xx_wm.h, -2, -1
+@ drivers/gpu/drm/i915/display/icl_dsi.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_acpi.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_atomic.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_atomic_plane.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_audio.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_audio.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_bios.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_cdclk.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_color.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_color.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_combo_phy.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_connector.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_connector.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_crt.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_crt.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_crtc.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_crtc.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_crtc_state_dump.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_cx0_phy.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_cx0_phy_regs.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_ddi.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_core.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_debugfs.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_device.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_device.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_driver.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_irq.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_power.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_power.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_power_map.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_power_well.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_power_well.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_display_types.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dmc.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dp.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dp.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dp_aux.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dp_aux_backlight.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dp_aux_regs.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dp_hdcp.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dp_link_training.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dp_mst.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dpio_phy.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dpll.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dpll_mgr.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dpll_mgr.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dpt.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_drrs.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dsb.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dsb.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dsb_regs.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dsi_vbt.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dvo.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_dvo.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_fb.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_fb_pin.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_fbc.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_fbc.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_fdi.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_fdi.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_frontbuffer.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_frontbuffer.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_gmbus.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_hdcp.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_hdcp_gsc.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_hdcp_gsc.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_hdmi.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_hotplug.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_hotplug_irq.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_lpe_audio.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_lspcon.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_lvds.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_lvds.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_modeset_verify.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_modeset_verify.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_overlay.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_overlay.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_panel.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_pch_display.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_pch_refclk.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_pch_refclk.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_plane_initial.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_pmdemand.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_psr.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_psr.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_sdvo.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_sdvo.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_sdvo_regs.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_snps_phy.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_snps_phy.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_sprite.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_sprite.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_tc.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_tc.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_tv.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_tv.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_vblank.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_vblank.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_vdsc.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_vdsc_regs.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_vga.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_vrr.c, -2, -1
+@ drivers/gpu/drm/i915/display/intel_vrr.h, -2, -1
+@ drivers/gpu/drm/i915/display/intel_wm.c, -2, -1
+@ drivers/gpu/drm/i915/display/skl_universal_plane.c, -2, -1
+@ drivers/gpu/drm/i915/display/skl_watermark.c, -2, -1
+@ drivers/gpu/drm/i915/display/skl_watermark.h, -2, -1
+@ drivers/gpu/drm/i915/display/vlv_dsi.c, -2, -1
+@ drivers/gpu/drm/i915/display/vlv_dsi.h, -2, -1
+@ drivers/gpu/drm/i915/display/vlv_dsi_pll.h, -2, -1
+@ drivers/gpu/drm/i915/gem/i915_gem_clflush.c, -2, -1
+@ drivers/gpu/drm/i915/gem/i915_gem_create.c, -2, -1
+@ drivers/gpu/drm/i915/gem/i915_gem_domain.c, -2, -1
+@ drivers/gpu/drm/i915/gem/i915_gem_execbuffer.c, -2, -1
+@ drivers/gpu/drm/i915/gem/i915_gem_object.c, -2, -1
+@ drivers/gpu/drm/i915/gem/i915_gem_object.h, -2, -1
+@ drivers/gpu/drm/i915/gem/i915_gem_phys.c, -2, -1
+@ drivers/gpu/drm/i915/gem/i915_gem_shrinker.c, -2, -1
+@ drivers/gpu/drm/i915/gt/gen8_ppgtt.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_engine.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_engine_pm.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_engine_regs.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_engine_types.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_engine_user.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gsc.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt_mcr.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt_mcr.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt_pm.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt_pm.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt_pm_debugfs.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt_print.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gt_regs.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gtt.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_gtt.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_mocs.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_rc6.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_reset.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_reset.h, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_rps.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_tlb.c, -2, -1
+@ drivers/gpu/drm/i915/gt/intel_workarounds.c, -2, -1
+@ drivers/gpu/drm/i915/gt/selftest_migrate.c, -2, -1
+@ drivers/gpu/drm/i915/gt/selftest_tlb.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_gsc_uc.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_gsc_uc_heci_cmd_submit.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_gsc_uc_heci_cmd_submit.h, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_guc.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_guc.h, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_guc_capture.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_guc_ct.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_guc_ct.h, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_guc_fwif.h, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_guc_slpc.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_guc_slpc.h, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_uc.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/intel_uc_fw.c, -2, -1
+@ drivers/gpu/drm/i915/i915_debugfs.c, -2, -1
+@ drivers/gpu/drm/i915/i915_driver.c, -2, -1
+@ drivers/gpu/drm/i915/i915_driver.h, -2, -1
+@ drivers/gpu/drm/i915/i915_drv.h, -2, -1
+@ drivers/gpu/drm/i915/i915_getparam.c, -2, -1
+@ drivers/gpu/drm/i915/i915_gpu_error.c, -2, -1
+@ drivers/gpu/drm/i915/i915_irq.c, -2, -1
+@ drivers/gpu/drm/i915/i915_params.c, -2, -1
+@ drivers/gpu/drm/i915/i915_params.h, -2, -1
+@ drivers/gpu/drm/i915/i915_pci.c, -2, -1
+@ drivers/gpu/drm/i915/i915_perf.c, -2, -1
+@ drivers/gpu/drm/i915/i915_perf_types.h, -2, -1
+@ drivers/gpu/drm/i915/i915_pmu.c, -2, -1
+@ drivers/gpu/drm/i915/i915_reg.h, -2, -1
+@ drivers/gpu/drm/i915/i915_scatterlist.h, -2, -1
+@ drivers/gpu/drm/i915/i915_ttm_buddy_manager.c, -2, -1
+@ drivers/gpu/drm/i915/i915_vma.c, -2, -1
+@ drivers/gpu/drm/i915/i915_vma_resource.c, -2, -1
+@ drivers/gpu/drm/i915/intel_clock_gating.c, -2, -1
+@ drivers/gpu/drm/i915/intel_device_info.c, -2, -1
+@ drivers/gpu/drm/i915/intel_device_info.h, -2, -1
+@ drivers/gpu/drm/i915/intel_gvt_mmio_table.c, -2, -1
+@ drivers/gpu/drm/i915/intel_runtime_pm.c, -2, -1
+@ drivers/gpu/drm/i915/intel_runtime_pm.h, -2, -1
+@ drivers/gpu/drm/i915/intel_step.c, -2, -1
+@ drivers/gpu/drm/i915/intel_step.h, -2, -1
+@ drivers/gpu/drm/i915/intel_wakeref.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_disp_aal.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_disp_drv.h, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_disp_gamma.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_dp.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_dp_reg.h, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_dpi.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_drm_crtc.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_drm_crtc.h, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_drm_ddp_comp.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_drm_ddp_comp.h, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_drm_drv.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_drm_drv.h, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_drm_plane.c, -2, -1
+@ drivers/gpu/drm/mediatek/mtk_dsi.c, -2, -1
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_hw_interrupts.h, -2, -1
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_kms.c, -2, -1
+@ drivers/gpu/drm/msm/disp/dpu1/dpu_plane.c, -1, -2
+@ drivers/gpu/drm/msm/dp/dp_ctrl.c, -1, -2
+@ drivers/gpu/drm/msm/dp/dp_display.c, -2, -1
+@ drivers/gpu/drm/msm/dp/dp_link.c, -1, -2
+@ drivers/gpu/drm/msm/dsi/dsi.c, -2, -1
+@ drivers/gpu/drm/msm/dsi/dsi_host.c, -1, -2
+@ drivers/gpu/drm/msm/msm_drv.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_abi16.c, -1, -2
+@ drivers/gpu/drm/nouveau/nouveau_backlight.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_bios.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_chan.c, -1, -2
+@ drivers/gpu/drm/nouveau/nouveau_connector.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_connector.h, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_debugfs.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_display.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_dma.h, -1, -2
+@ drivers/gpu/drm/nouveau/nouveau_dp.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_drm.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_encoder.h, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_exec.h, -1, -2
+@ drivers/gpu/drm/nouveau/nouveau_fence.c, -1, -2
+@ drivers/gpu/drm/nouveau/nouveau_sched.c, -1, -2
+@ drivers/gpu/drm/nouveau/nouveau_uvmm.c, -2, -1
+@ drivers/gpu/drm/nouveau/nouveau_uvmm.h, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/base.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/conn.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/conn.h, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/g84.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/g94.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/ga102.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/gf119.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/gk104.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/gm107.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/gm200.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/gp100.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/gt215.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/gv100.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/ior.h, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/mcp89.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/nv50.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/outp.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/outp.h, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/tu102.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/uoutp.c, -2, -1
+@ drivers/gpu/drm/panel/panel-arm-versatile.c, -2, -1
+@ drivers/gpu/drm/panel/panel-asus-z00t-tm5p5-n35596.c, -2, -1
+@ drivers/gpu/drm/panel/panel-boe-bf060y8m-aj0.c, -2, -1
+@ drivers/gpu/drm/panel/panel-boe-tv101wum-nl6.c, -1, -2
+@ drivers/gpu/drm/panel/panel-edp.c, -1, -2
+@ drivers/gpu/drm/panel/panel-ilitek-ili9322.c, -2, -1
+@ drivers/gpu/drm/panel/panel-jdi-fhd-r63452.c, -2, -1
+@ drivers/gpu/drm/panel/panel-jdi-lt070me05000.c, -2, -1
+@ drivers/gpu/drm/panel/panel-leadtek-ltk050h3146w.c, -2, -1
+@ drivers/gpu/drm/panel/panel-newvision-nv3051d.c, -2, -1
+@ drivers/gpu/drm/panel/panel-novatek-nt35950.c, -2, -1
+@ drivers/gpu/drm/panel/panel-novatek-nt36523.c, -2, -1
+@ drivers/gpu/drm/panel/panel-orisetech-otm8009a.c, -2, -1
+@ drivers/gpu/drm/panel/panel-raydium-rm68200.c, -2, -1
+@ drivers/gpu/drm/panel/panel-samsung-s6e63m0.c, -2, -1
+@ drivers/gpu/drm/panel/panel-samsung-s6e88a0-ams452ef01.c, -2, -1
+@ drivers/gpu/drm/panel/panel-samsung-sofef00.c, -2, -1
+@ drivers/gpu/drm/panel/panel-sharp-ls060t1sx01.c, -2, -1
+@ drivers/gpu/drm/panel/panel-sony-td4353-jdi.c, -2, -1
+@ drivers/gpu/drm/panel/panel-sony-tulip-truly-nt35521.c, -2, -1
+@ drivers/gpu/drm/panel/panel-startek-kd070fhfid015.c, -2, -1
+@ drivers/gpu/drm/panel/panel-tpo-tpg110.c, -2, -1
+@ drivers/gpu/drm/panel/panel-truly-nt35597.c, -2, -1
+@ drivers/gpu/drm/panel/panel-visionox-r66451.c, -2, -1
+@ drivers/gpu/drm/panel/panel-visionox-rm69299.c, -2, -1
+@ drivers/gpu/drm/panel/panel-visionox-vtdr6130.c, -2, -1
+@ drivers/gpu/drm/tests/drm_format_helper_test.c, -2, -1
+@ drivers/gpu/drm/tests/drm_kunit_helpers.c, -1, -2
+@ drivers/gpu/drm/tests/drm_mm_test.c, -1, -2
+@ drivers/gpu/drm/tiny/bochs.c, -2, -1
+@ drivers/gpu/drm/tiny/cirrus.c, -2, -1
+@ drivers/gpu/drm/tiny/repaper.c, -2, -1
+@ drivers/gpu/drm/virtio/virtgpu_drv.h, -2, -1
+@ drivers/gpu/drm/virtio/virtgpu_submit.c, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_bo.c, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_bo.h, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_cotable.c, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_drv.h, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_execbuf.c, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_kms.c, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_overlay.c, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_resource.c, -1, -2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_shader.c, -1, -2
+@ drivers/hid/hid-holtek-kbd.c, -1, -2
+@ drivers/hid/hid-ids.h, -1, -2
+@ drivers/hid/hid-input.c, -1, -2
+@ drivers/hid/hid-logitech-hidpp.c, -1, -2
+@ drivers/hid/hid-multitouch.c, -1, -2
+@ drivers/hid/hid-nintendo.c, -1, -2
+@ drivers/hid/hid-nvidia-shield.c, -1, -2
+@ drivers/hid/hid-picolcd_fb.c, -2, -1
+@ drivers/hid/hid-sony.c, -1, -2
+@ drivers/hid/hid-steelseries.c, -1, -2
+@ drivers/video/fbdev/au1200fb.c, -2, -1
+@ drivers/video/fbdev/bw2.c, -2, -1
+@ drivers/video/fbdev/cg14.c, -2, -1
+@ drivers/video/fbdev/cg3.c, -2, -1
+@ drivers/video/fbdev/cg6.c, -2, -1
+@ drivers/video/fbdev/core/cfbcopyarea.c, -1, -2
+@ drivers/video/fbdev/core/fb_chrdev.c, -2, -1
+@ drivers/video/fbdev/core/fb_internal.h, -2, -1
+@ drivers/video/fbdev/core/fbcon.c, -2, -1
+@ drivers/video/fbdev/core/fbmem.c, -2, -1
+@ drivers/video/fbdev/core/syscopyarea.c, -1, -2
+@ drivers/video/fbdev/ffb.c, -2, -1
+@ drivers/video/fbdev/hyperv_fb.c, -2, -1
+@ drivers/video/fbdev/leo.c, -2, -1
+@ drivers/video/fbdev/p9100.c, -2, -1
+@ drivers/video/fbdev/sa1100fb.c, -1, -2
+@ drivers/video/fbdev/sbuslib.h, -2, -1
+@ drivers/video/fbdev/smscufx.c, -2, -1
+@ drivers/video/fbdev/tcx.c, -2, -1
+@ drivers/video/fbdev/udlfb.c, -2, -1
+@ drivers/video/fbdev/uvesafb.c, -1, -2
+@ include/asm-generic/fb.h, -2, -1
+@ include/asm-generic/hugetlb.h, -1, -2
+@ include/asm-generic/mshyperv.h, -1, -2
+@ include/asm-generic/vmlinux.lds.h, -1, -2
+@ include/drm/drm_accel.h, -2, -1
+@ include/drm/drm_atomic.h, -2, -1
+@ include/drm/drm_bridge.h, -2, -1
+@ include/drm/drm_buddy.h, -2, -1
+@ include/drm/drm_client.h, -2, -1
+@ include/drm/drm_connector.h, -2, -1
+@ include/drm/drm_debugfs.h, -2, -1
+@ include/drm/drm_device.h, -2, -1
+@ include/drm/drm_drv.h, -2, -1
+@ include/drm/drm_edid.h, -2, -1
+@ include/drm/drm_file.h, -2, -1
+@ include/drm/drm_fourcc.h, -2, -1
+@ include/drm/drm_framebuffer.h, -2, -1
+@ include/drm/drm_gem.h, -2, -1
+@ include/drm/gpu_scheduler.h, -1, -2
+@ include/drm/i915_pciids.h, -2, -1
+@ include/linux/acpi.h, -1, -2
+@ include/linux/aer.h, -1, -2
+@ include/linux/arm-smccc.h, -1, -2
+@ include/linux/bpf.h, -1, -2
+@ include/linux/btf_ids.h, -1, -2
+@ include/linux/cgroup-defs.h, -1, -2
+@ include/linux/cpu.h, -1, -2
+@ include/linux/cpuhotplug.h, -1, -2
+@ include/linux/dma-fence.h, -1, -2
+@ include/linux/fb.h, -2, -1
+@ include/linux/fs.h, -1, -2
+@ include/linux/fs_context.h, -1, -2
+@ include/linux/hugetlb.h, -1, -2
+@ include/linux/if_team.h, -1, -2
+@ include/linux/interrupt.h, -1, -2
+@ include/linux/iosys-map.h, -2, -1
+@ include/linux/kasan.h, -1, -2
+@ include/linux/libata.h, -1, -2
+@ include/linux/maple_tree.h, -1, -2
+@ include/linux/mcb.h, -1, -2
+@ include/linux/memcontrol.h, -1, -2
+@ include/linux/nfs_fs_sb.h, -1, -2
+@ include/linux/nfs_page.h, -1, -2
+@ include/linux/perf_event.h, -1, -2
+@ include/linux/pgtable.h, -1, -2
+@ include/linux/quota.h, -1, -2
+@ include/linux/quotaops.h, -1, -2
+@ include/linux/resume_user_mode.h, -1, -2
+@ include/linux/seqlock.h, -1, -2
+@ include/linux/skbuff.h, -1, -2
+@ include/linux/swiotlb.h, -1, -2
+@ include/linux/virtio_net.h, -1, -2
+@ include/trace/events/habanalabs.h, -2, -1
+@ include/trace/events/neigh.h, -1, -2
+@ include/trace/events/xen.h, -1, -2
+@ include/uapi/drm/amdgpu_drm.h, -2, -1
+@ include/uapi/drm/habanalabs_accel.h, -2, -1
+@ include/uapi/drm/i915_drm.h, -2, -1
+@ include/uapi/drm/ivpu_accel.h, -2, -1
+@ include/uapi/drm/nouveau_drm.h, -1, -2
+@ include/uapi/drm/qaic_accel.h, -2, -1
+@ include/uapi/linux/bpf.h, -1, -2
+@ include/uapi/linux/if_packet.h, -1, -2
+@ include/uapi/linux/kfd_ioctl.h, -2, -1
+@ include/uapi/linux/stddef.h, -1, -2
+@ drivers/gpu/drm/amd/display/dc/dce112/dce112_resource.c, -2, -1
+@ drivers/gpu/drm/bridge/synopsys/dw-hdmi-cec.c, -2, -1
+@ drivers/gpu/drm/bridge/synopsys/dw-hdmi.c, -2, -1
+@ drivers/gpu/drm/bridge/synopsys/dw-mipi-dsi.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvif/client.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvif/conn.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvif/disp.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvif/outp.c, -2, -1
+@ drivers/gpu/drm/solomon/ssd130x.c, -2, -1
+@ drivers/gpu/drm/solomon/ssd130x.h, -2, -1
+@ drivers/gpu/drm/amd/include/amd_shared.h, -2, -1
+@ drivers/gpu/drm/amd/include/asic_reg/mp/mp_13_0_6_sh_mask.h, -2, -1
+@ drivers/gpu/drm/amd/include/asic_reg/vcn/vcn_4_0_0_offset.h, -2, -1
+@ drivers/gpu/drm/amd/include/asic_reg/vcn/vcn_4_0_0_sh_mask.h, -2, -1
+@ drivers/gpu/drm/amd/include/kgd_kfd_interface.h, -2, -1
+@ drivers/gpu/drm/amd/include/kgd_pp_interface.h, -2, -1
+@ drivers/gpu/drm/amd/include/pptable.h, -2, -1
+@ drivers/gpu/drm/amd/include/soc15_hw_ip.h, -2, -1
+@ drivers/gpu/drm/amd/include/soc15_ih_clientid.h, -2, -1
+@ include/drm/bridge/samsung-dsim.h, -2, -1
+@ drivers/gpu/drm/logicvc/logicvc_drm.c, -2, -1
+@ drivers/gpu/drm/bridge/adv7511/adv7511_drv.c, -2, -1
+@ drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c, -2, -1
+@ drivers/gpu/drm/i915/selftests/i915_request.c, -2, -1
+@ drivers/gpu/drm/i915/selftests/igt_spinner.c, -2, -1
+@ drivers/gpu/drm/i915/selftests/mock_gem_device.c, -2, -1
+@ drivers/gpu/drm/msm/disp/mdp5/mdp5_kms.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/pm/base.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/pm/priv.h, -2, -1
+@ drivers/gpu/drm/hisilicon/hibmc/hibmc_drm_drv.c, -2, -1
+@ drivers/gpu/drm/hisilicon/kirin/kirin_drm_drv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn201/dcn201_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn201/dcn201_resource.c, -2, -1
+@ drivers/gpu/drm/nouveau/dispnv04/disp.c, -2, -1
+@ drivers/gpu/drm/atmel-hlcdc/atmel_hlcdc_dc.c, -2, -1
+@ drivers/gpu/drm/omapdrm/omap_drv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn30/dcn30_cm_common.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn30/dcn30_dpp.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn30/dcn30_dwb.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn30/dcn30_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn30/dcn30_mpc.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn30/dcn30_mpc.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn30/dcn30_optc.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn30/dcn30_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn31/dcn31_hpo_dp_link_encoder.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn31/dcn31_hubbub.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn31/dcn31_hubp.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn31/dcn31_hubp.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn31/dcn31_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn31/dcn31_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn302/dcn302_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn302/dcn302_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn303/dcn303_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn303/dcn303_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn301/dcn301_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn301/dcn301_resource.c, -2, -1
+@ drivers/accel/qaic/qaic.h, -2, -1
+@ drivers/accel/qaic/qaic_data.c, -2, -1
+@ drivers/accel/qaic/qaic_drv.c, -2, -1
+@ drivers/gpu/drm/renesas/shmobile/shmob_drm_drv.c, -2, -1
+@ drivers/gpu/drm/ingenic/ingenic-drm-drv.c, -2, -1
+@ drivers/gpu/drm/ingenic/ingenic-ipu.c, -2, -1
+@ drivers/gpu/drm/arm/display/komeda/d71/d71_dev.c, -2, -1
+@ drivers/gpu/drm/arm/display/komeda/komeda_drv.c, -2, -1
+@ drivers/gpu/drm/arm/display/komeda/komeda_kms.c, -2, -1
+@ drivers/gpu/drm/arm/display/komeda/komeda_kms.h, -2, -1
+@ drivers/gpu/drm/arm/display/komeda/komeda_pipeline_state.c, -2, -1
+@ drivers/gpu/drm/arm/hdlcd_drv.c, -2, -1
+@ drivers/gpu/drm/arm/malidp_drv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dmub/dmub_srv.h, -2, -1
+@ drivers/gpu/drm/amd/display/dmub/inc/dmub_cmd.h, -2, -1
+@ drivers/gpu/drm/amd/display/dmub/src/dmub_dcn32.c, -2, -1
+@ drivers/gpu/drm/amd/display/dmub/src/dmub_dcn32.h, -2, -1
+@ drivers/gpu/drm/amd/display/dmub/src/dmub_srv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/accessories/link_dp_cts.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/hwss/link_hwss_dpia.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/link_detection.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/link_dpms.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/link_factory.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/protocols/link_ddc.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/protocols/link_dp_capability.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/protocols/link_dp_irq_handler.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/protocols/link_dp_phy.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/protocols/link_edp_panel_control.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/link/protocols/link_edp_panel_control.h, -2, -1
+@ drivers/gpu/drm/tilcdc/tilcdc_drv.c, -2, -1
+@ drivers/gpu/drm/mcde/mcde_drv.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu13/aldebaran_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu13/smu_v13_0.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu13/smu_v13_0_0_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu13/smu_v13_0_4_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu13/smu_v13_0_5_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu13/smu_v13_0_6_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu13/smu_v13_0_7_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu13/yellow_carp_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/smu12/renoir_ppt.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/clk_mgr/dce120/dce120_clk_mgr.c, -2, -1
+@ drivers/gpu/drm/sti/sti_drv.c, -2, -1
+@ drivers/video/fbdev/mmp/fb/mmpfb.c, -2, -1
+@ drivers/gpu/drm/stm/drv.c, -2, -1
+@ drivers/gpu/drm/armada/armada_drv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce/dce_abm.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce/dce_audio.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce/dce_clock_source.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce/dce_dmcu.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce/dce_i2c_hw.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce/dce_i2c_hw.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce/dmub_psr.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/core/firmware.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/core/memory.c, -2, -1
+@ drivers/gpu/drm/amd/pm/legacy-dpm/si_dpm.c, -2, -1
+@ arch/mips/include/asm/fb.h, -2, -1
+@ drivers/gpu/drm/loongson/lsdc_drv.c, -2, -1
+@ drivers/gpu/drm/loongson/lsdc_pixpll.c, -2, -1
+@ drivers/gpu/drm/nouveau/dispnv50/disp.c, -2, -1
+@ drivers/gpu/drm/nouveau/dispnv50/disp.h, -2, -1
+@ drivers/gpu/drm/nouveau/dispnv50/head.h, -2, -1
+@ drivers/gpu/drm/nouveau/dispnv50/headc57d.c, -2, -1
+@ drivers/gpu/drm/imx/dcss/dcss-drv.c, -2, -1
+@ drivers/gpu/drm/imx/dcss/dcss-kms.c, -2, -1
+@ drivers/gpu/drm/imx/dcss/dcss-kms.h, -2, -1
+@ drivers/gpu/drm/imx/ipuv3/dw_hdmi-imx.c, -2, -1
+@ drivers/gpu/drm/imx/ipuv3/imx-drm-core.c, -2, -1
+@ drivers/gpu/drm/imx/ipuv3/imx-ldb.c, -2, -1
+@ drivers/gpu/drm/imx/ipuv3/imx-tve.c, -2, -1
+@ drivers/gpu/drm/imx/ipuv3/ipuv3-crtc.c, -2, -1
+@ drivers/gpu/drm/imx/ipuv3/parallel-display.c, -2, -1
+@ drivers/gpu/drm/radeon/evergreen.c, -2, -1
+@ drivers/gpu/drm/radeon/pptable.h, -2, -1
+@ drivers/gpu/drm/radeon/radeon.h, -2, -1
+@ drivers/gpu/drm/radeon/radeon_connectors.c, -2, -1
+@ drivers/gpu/drm/radeon/radeon_drv.c, -2, -1
+@ drivers/gpu/drm/radeon/radeon_fence.c, -2, -1
+@ drivers/gpu/drm/radeon/radeon_gem.c, -2, -1
+@ drivers/gpu/drm/radeon/radeon_ttm.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce80/dce80_resource.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/subdev/devinit/tu102.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/subdev/instmem/base.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/subdev/instmem/priv.h, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/subdev/mmu/vmmgp100.c, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/subdev/mmu/vmmtu102.c, -2, -1
+@ drivers/gpu/drm/tegra/dc.c, -2, -1
+@ drivers/gpu/drm/tegra/drm.h, -2, -1
+@ drivers/gpu/drm/tegra/dsi.c, -2, -1
+@ drivers/gpu/drm/tegra/gem.c, -2, -1
+@ drivers/gpu/drm/tegra/hdmi.c, -2, -1
+@ drivers/gpu/drm/tegra/hub.c, -2, -1
+@ drivers/gpu/drm/tegra/rgb.c, -2, -1
+@ drivers/gpu/drm/tegra/sor.c, -2, -1
+@ drivers/gpu/drm/i915/gem/selftests/i915_gem_client_blt.c, -2, -1
+@ drivers/gpu/drm/i915/gem/selftests/mock_context.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn315/dcn315_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn314/dcn314_dccg.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn314/dcn314_dccg.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn314/dcn314_dio_stream_encoder.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn314/dcn314_dio_stream_encoder.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn314/dcn314_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn314/dcn314_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn316/dcn316_resource.c, -2, -1
+@ include/drm/display/drm_dp_helper.h, -2, -1
+@ include/drm/display/drm_dp_mst_helper.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce60/dce60_hw_sequencer.c, -2, -1
+@ drivers/gpu/host1x/channel.c, -2, -1
+@ drivers/gpu/host1x/channel.h, -2, -1
+@ drivers/gpu/host1x/context.c, -2, -1
+@ drivers/gpu/host1x/dev.c, -2, -1
+@ drivers/gpu/host1x/dev.h, -2, -1
+@ drivers/gpu/host1x/hw/intr_hw.c, -2, -1
+@ drivers/gpu/drm/qxl/qxl_drv.c, -2, -1
+@ drivers/gpu/drm/vc4/vc4_drv.c, -2, -1
+@ drivers/gpu/drm/vc4/vc4_drv.h, -2, -1
+@ drivers/gpu/drm/amd/display/modules/color/color_gamma.c, -2, -1
+@ drivers/gpu/drm/amd/display/modules/freesync/freesync.c, -2, -1
+@ drivers/gpu/drm/amd/display/modules/inc/mod_stats.h, -2, -1
+@ drivers/gpu/drm/amd/display/modules/power/power_helpers.c, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/inc/amdgpu_smu.h, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if/smu13_driver_if_v13_0_6.h, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if/smu_v13_0_6_pmfw.h, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if/smu_v13_0_6_ppsmc.h, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/inc/smu_types.h, -2, -1
+@ drivers/gpu/drm/amd/pm/swsmu/inc/smu_v13_0.h, -2, -1
+@ drivers/staging/fbtft/fbtft-core.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn21/dcn21_hubp.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn21/dcn21_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn21/dcn21_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/include/dal_types.h, -2, -1
+@ drivers/gpu/drm/amd/display/include/ddc_service_types.h, -2, -1
+@ drivers/gpu/drm/amd/display/include/logger_types.h, -2, -1
+@ drivers/gpu/drm/amd/pm/powerplay/hwmgr/pptable_v1_0.h, -2, -1
+@ drivers/gpu/drm/amd/pm/powerplay/hwmgr/smu10_hwmgr.h, -2, -1
+@ drivers/gpu/drm/amd/pm/powerplay/hwmgr/smu7_thermal.c, -2, -1
+@ drivers/gpu/drm/amd/pm/powerplay/hwmgr/vega10_thermal.c, -2, -1
+@ drivers/gpu/drm/amd/pm/powerplay/hwmgr/vega20_thermal.c, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp.c, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp.h, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp_cmd_interface_43.h, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp_gsccs.c, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp_gsccs.h, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp_huc.c, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp_pm.c, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp_pm.h, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp_tee.c, -2, -1
+@ drivers/gpu/drm/i915/pxp/intel_pxp_types.h, -2, -1
+@ drivers/gpu/drm/bridge/analogix/analogix-anx78xx.c, -2, -1
+@ drivers/gpu/drm/bridge/analogix/anx7625.c, -2, -1
+@ drivers/gpu/drm/display/drm_dp_cec.c, -2, -1
+@ drivers/gpu/drm/display/drm_dp_helper.c, -2, -1
+@ drivers/gpu/drm/display/drm_dp_mst_topology.c, -2, -1
+@ drivers/gpu/drm/i915/gt/uc/abi/guc_actions_abi.h, -2, -1
+@ drivers/gpu/drm/aspeed/aspeed_gfx_drv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce120/dce120_resource.c, -2, -1
+@ drivers/gpu/drm/mgag200/mgag200_drv.c, -2, -1
+@ drivers/gpu/drm/hyperv/hyperv_drm_drv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dce110/irq_service_dce110.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dce120/irq_service_dce120.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dce60/irq_service_dce60.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dce80/irq_service_dce80.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn10/irq_service_dcn10.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn20/irq_service_dcn20.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn201/irq_service_dcn201.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn21/irq_service_dcn21.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn30/irq_service_dcn30.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn302/irq_service_dcn302.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn303/irq_service_dcn303.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn31/irq_service_dcn31.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn314/irq_service_dcn314.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn315/irq_service_dcn315.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/dcn32/irq_service_dcn32.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/irq/irq_service.h, -2, -1
+@ drivers/gpu/drm/tve200/tve200_drv.c, -2, -1
+@ drivers/gpu/drm/msm/adreno/adreno_device.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/bios/bios_parser.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/bios/bios_parser2.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/bios/command_table_helper2.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hubbub.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn10/dcn10_hw_sequencer_debug.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn10/dcn10_init.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn10/dcn10_link_encoder.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn10/dcn10_resource.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/clk_mgr/dcn201/dcn201_clk_mgr.c, -2, -1
+@ drivers/gpu/drm/pl111/pl111_drv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dcn321/dcn321_resource.c, -2, -1
+@ drivers/gpu/drm/i915/gvt/gvt.h, -2, -1
+@ drivers/gpu/drm/i915/gvt/interrupt.c, -2, -1
+@ drivers/gpu/drm/i915/gvt/interrupt.h, -2, -1
+@ drivers/gpu/drm/i915/gvt/mmio_context.c, -2, -1
+@ drivers/gpu/drm/i915/gvt/mmio_context.h, -2, -1
+@ drivers/accel/habanalabs/common/command_buffer.c, -2, -1
+@ drivers/accel/habanalabs/common/command_submission.c, -2, -1
+@ drivers/accel/habanalabs/common/context.c, -2, -1
+@ drivers/accel/habanalabs/common/debugfs.c, -2, -1
+@ drivers/accel/habanalabs/common/device.c, -2, -1
+@ drivers/accel/habanalabs/common/firmware_if.c, -2, -1
+@ drivers/accel/habanalabs/common/habanalabs.h, -2, -1
+@ drivers/accel/habanalabs/common/habanalabs_drv.c, -2, -1
+@ drivers/accel/habanalabs/common/habanalabs_ioctl.c, -2, -1
+@ drivers/accel/habanalabs/common/irq.c, -2, -1
+@ drivers/accel/habanalabs/common/memory.c, -2, -1
+@ drivers/accel/habanalabs/gaudi/gaudi.c, -2, -1
+@ drivers/accel/habanalabs/gaudi/gaudiP.h, -2, -1
+@ drivers/accel/habanalabs/gaudi/gaudi_coresight.c, -2, -1
+@ drivers/accel/habanalabs/gaudi2/gaudi2.c, -2, -1
+@ drivers/accel/habanalabs/gaudi2/gaudi2P.h, -2, -1
+@ drivers/accel/habanalabs/gaudi2/gaudi2_coresight.c, -2, -1
+@ drivers/accel/habanalabs/gaudi2/gaudi2_security.c, -2, -1
+@ drivers/accel/habanalabs/goya/goya.c, -2, -1
+@ drivers/accel/habanalabs/goya/goyaP.h, -2, -1
+@ drivers/accel/habanalabs/goya/goya_coresight.c, -2, -1
+@ drivers/accel/habanalabs/include/gaudi/gaudi_fw_if.h, -2, -1
+@ drivers/accel/habanalabs/include/gaudi2/gaudi2_async_events.h, -2, -1
+@ drivers/accel/habanalabs/include/gaudi2/gaudi2_async_ids_map_extended.h, -2, -1
+@ drivers/gpu/drm/vboxvideo/vbox_drv.c, -2, -1
+@ drivers/gpu/drm/msm/hdmi/hdmi.c, -2, -1
+@ drivers/gpu/drm/msm/hdmi/hdmi_phy.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/core_types.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/hw/clk_mgr.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/hw/clk_mgr_internal.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/hw/dccg.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/hw/dchubbub.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/hw/mpc.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/hw/stream_encoder.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/hw/timing_generator.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/link.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/inc/resource.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/gpio/hw_factory.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/gpio/hw_translate.c, -2, -1
+@ drivers/gpu/drm/fsl-dcu/fsl_dcu_drm_drv.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dml/dcn20/dcn20_fpu.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dml/dcn20/dcn20_fpu.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dml/dcn314/display_mode_vba_314.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dml/dcn32/dcn32_fpu.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dml/dcn32/dcn32_fpu.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dml/dcn32/display_mode_vba_util_32.c, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dml/dcn321/dcn321_fpu.c, -2, -1
+@ drivers/gpu/drm/v3d/v3d_drv.h, -2, -1
+@ drivers/gpu/drm/i915/soc/intel_gmch.c, -2, -1
+@ drivers/gpu/drm/i915/soc/intel_gmch.h, -2, -1
+@ drivers/gpu/drm/i915/soc/intel_pch.c, -2, -1
+@ drivers/gpu/drm/i915/soc/intel_pch.h, -2, -1
+@ drivers/gpu/drm/nouveau/nvkm/engine/gr/gf100.c, -2, -1
+@ drivers/media/cec/core/cec-adap.c, -2, -1
+@ drivers/media/cec/core/cec-notifier.c, -2, -1
+@ drivers/gpu/drm/exynos/exynos_drm_dsi.c, -2, -1
+@ drivers/gpu/drm/nouveau/include/nvif/conn.h, -2, -1
+@ drivers/gpu/drm/nouveau/include/nvif/if0011.h, -2, -1
+@ drivers/gpu/drm/nouveau/include/nvif/if0012.h, -2, -1
+@ drivers/gpu/drm/nouveau/include/nvif/outp.h, -2, -1
+@ drivers/gpu/drm/nouveau/include/nvkm/core/memory.h, -2, -1
+@ drivers/gpu/drm/nouveau/include/nvkm/subdev/instmem.h, -2, -1
+@ drivers/gpu/drm/gma500/gma_display.h, -2, -1
+@ drivers/gpu/drm/gma500/oaktrail_lvds_i2c.c, -2, -1
+@ drivers/gpu/drm/gma500/psb_drv.h, -2, -1
+@ drivers/gpu/drm/gma500/psb_intel_drv.h, -2, -1
+@ drivers/gpu/drm/gma500/psb_irq.c, -2, -1
+@ drivers/gpu/drm/sun4i/sun4i_drv.c, -2, -1
+@ drivers/gpu/drm/ast/ast_drv.c, -2, -1
+@ arch/m68k/include/asm/fb.h, -2, -1
+@ drivers/gpu/drm/rockchip/cdn-dp-core.c, -2, -1
+@ drivers/gpu/drm/rockchip/dw-mipi-dsi-rockchip.c, -2, -1
+@ drivers/gpu/drm/rockchip/rockchip_drm_vop.c, -2, -1
+@ drivers/gpu/drm/rockchip/rockchip_drm_vop2.c, -2, -1
+@ drivers/gpu/drm/rockchip/rockchip_lvds.c, -2, -1
+@ drivers/gpu/drm/rockchip/rockchip_vop2_reg.c, -2, -1
+@ drivers/gpu/drm/rockchip/rockchip_vop_reg.c, -2, -1
+@ drivers/gpu/drm/amd/pm/inc/amdgpu_dpm.h, -2, -1
+@ drivers/gpu/drm/amd/display/dc/dce100/dce100_resource.c, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_devfreq.c, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_devfreq.h, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_device.c, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_device.h, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_drv.c, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_gem.c, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_gem.h, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_gpu.c, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_gpu.h, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_job.c, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_job.h, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_mmu.c, -2, -1
+@ drivers/gpu/drm/panfrost/panfrost_regs.h, -2, -1
+@ arch/x86/video/fbdev.c, -2, -1
+@ drivers/usb/typec/altmodes/displayport.c, 650, 654
++ 156, 5, = ,156, 5
++ 176, 2, = ,176, 1
+- 308, 0, = ,307, 5
++ 622, 2, = ,626, 2
+@ drivers/gpu/drm/vmwgfx/vmwgfx_surface.c, 2116, 2109
++ 80, 1, = ,80, 1
+- 689, 3, = ,689, 0
+- 858, 1, = ,855, 7
+- 860, 5, = ,863, 3
+- 869, 6, = ,870, 0
+- 1515, 1, = ,1510, 1
+- 1529, 2, = ,1524, 0
+@ drivers/gpu/drm/vmwgfx/vmwgfx_gem.c, 278, 288
+- 114, 0, = ,114, 14
+- 129, 1, = ,143, 1
+- 133, 2, = ,147, 0
++ 235, 1, = ,247, 0
++ 245, 3, = ,256, 2
+@ drivers/gpu/drm/tiny/simpledrm.c, 1023, 918
++ 9, 1, = ,9, 0
++ 231, 6, = ,230, 0
++ 478, 95, = ,471, 0
++ 758, 3, = ,656, 0
+- 853, 1, = ,748, 1
+@ drivers/gpu/drm/panel/panel-simple.c, 4940, 4893
++ 43, 1, = ,43, 0
++ 553, 45, = ,552, 0
++ 650, 7, = ,604, 0
+- 975, 0, = ,922, 32
++ 2849, 26, = ,2828, 0
+- 4185, 0, = ,4138, 3
++ 4404, 3, = ,4360, 0
+@ drivers/gpu/drm/nouveau/nvkm/engine/disp/uconn.c, 187, 214
+- 65, 0, = ,65, 12
+- 104, 1, = ,116, 1
++ 112, 0, = ,124, 40
++ 127, 0, = ,179, 1
++ 154, 26, = ,207, 0
+@ drivers/gpu/drm/nouveau/nouveau_exec.c, 430, 431
++ 110, 2, = ,110, 2
+- 216, 1, = ,216, 1
+- 382, 1, = ,382, 1
+- 407, 1, = ,407, 2
+- 409, 1, = ,410, 1
+@ drivers/gpu/drm/nouveau/nouveau_drv.h, 359, 359
+# 195, 3, = ,195, 3
+@ drivers/gpu/drm/msm/msm_mdss.c, 647, 649
++ 500, 1, = ,500, 1
++ 507, 0, = ,507, 2
+- 512, 1, = ,514, 1
++ 630, 1, = ,632, 1
+@ drivers/gpu/drm/mediatek/mtk_drm_gem.c, 282, 279
++ 124, 8, = ,124, 1
+- 249, 0, = ,242, 1
+- 258, 0, = ,252, 1
+- 262, 1, = ,257, 1
+- 264, 0, = ,259, 2
+@ drivers/gpu/drm/i915/i915_gem.c, 1363, 1363
++ 43, 0, = ,43, 1
++ 48, 1, = ,49, 0
+@ drivers/gpu/drm/i915/gt/uc/intel_guc_submission.c, 5811, 5584
++ 35, 1, = ,35, 0
++ 1694, 1, = ,1693, 3
++ 1800, 14, = ,1801, 0
++ 1939, 6, = ,1926, 0
++ 1967, 6, = ,1948, 0
++ 1978, 48, = ,1953, 0
++ 2044, 4, = ,1971, 0
++ 2052, 1, = ,1975, 1
++ 2061, 2, = ,1984, 0
++ 2065, 0, = ,1986, 1
++ 2077, 1, = ,1999, 0
++ 4381, 1, = ,4302, 1
++ 4708, 148, = ,4629, 0
++ 5034, 2, = ,4807, 0
++ 5038, 2, = ,4809, 1
++ 5044, 1, = ,4814, 1
++ 5047, 0, = ,4817, 3
+@ drivers/gpu/drm/i915/gt/intel_lrc.c, 1926, 1920
++ 848, 21, = ,848, 0
++ 884, 2, = ,863, 0
++ 1343, 0, = ,1320, 23
++ 1360, 9, = ,1360, 0
++ 1375, 0, = ,1366, 5
++ 1376, 1, = ,1372, 2
++ 1381, 4, = ,1378, 0
++ 1386, 2, = ,1379, 2
++ 1401, 1, = ,1394, 2
+@ drivers/gpu/drm/i915/gt/intel_ggtt.c, 1599, 1350
++ 18, 1, = ,18, 0
++ 20, 1, = ,19, 0
++ 24, 1, = ,22, 0
++ 27, 1, = ,24, 0
++ 34, 1, = ,30, 0
++ 209, 12, = ,204, 0
++ 224, 1, = ,207, 0
++ 228, 4, = ,210, 4
++ 235, 4, = ,217, 3
++ 274, 139, = ,255, 0
++ 433, 15, = ,275, 0
++ 487, 44, = ,314, 0
++ 552, 21, = ,335, 0
++ 1249, 12, = ,1011, 1
+@ drivers/gpu/drm/i915/gt/intel_execlists_submission.c, 4181, 4183
++ 3004, 1, = ,3004, 3
+@ drivers/gpu/drm/i915/gt/intel_engine_cs.c, 2574, 2546
++ 319, 3, = ,319, 4
++ 790, 1, = ,791, 1
++ 798, 1, = ,799, 2
++ 809, 1, = ,811, 1
++ 812, 1, = ,814, 2
++ 838, 1, = ,841, 1
++ 866, 2, = ,869, 2
++ 907, 1, = ,910, 2
++ 1096, 1, = ,1100, 2
++ 1417, 14, = ,1422, 0
++ 1453, 1, = ,1444, 1
++ 1469, 13, = ,1460, 0
++ 1485, 1, = ,1463, 1
++ 1489, 1, = ,1467, 0
++ 1493, 4, = ,1470, 1
++ 1566, 4, = ,1540, 0
++ 1649, 1, = ,1619, 3
+@ drivers/gpu/drm/i915/gt/gen8_engine_cs.c, 851, 848
++ 7, 0, = ,7, 1
++ 9, 1, = ,10, 0
++ 229, 2, = ,229, 2
+# 274, 11, = ,274, 10
++ 812, 1, = ,811, 0
++ 816, 0, = ,814, 1
++ 821, 3, = ,820, 0
++ 825, 1, = ,821, 2
+@ drivers/gpu/drm/i915/display/intel_cx0_phy.c, 3056, 3046
++ 34, 1, = ,34, 1
++ 49, 16, = ,49, 0
++ 74, 12, = ,58, 0
++ 91, 3, = ,63, 0
++ 97, 1, = ,66, 0
++ 102, 4, = ,70, 1
++ 154, 7, = ,119, 0
++ 404, 1, = ,362, 0
++ 417, 1, = ,374, 1
++ 419, 1, = ,376, 1
++ 423, 1, = ,380, 1
++ 431, 3, = ,388, 1
++ 435, 2, = ,390, 2
++ 438, 1, = ,393, 1
++ 442, 1, = ,397, 1
++ 446, 1, = ,401, 1
++ 453, 1, = ,408, 1
++ 458, 1, = ,413, 1
++ 2582, 9, = ,2537, 11
++ 2609, 1, = ,2566, 3
++ 2613, 1, = ,2572, 3
++ 2635, 2, = ,2596, 1
++ 2638, 1, = ,2598, 0
++ 2642, 1, = ,2601, 1
++ 2647, 4, = ,2606, 5
++ 2652, 3, = ,2612, 43
++ 2657, 12, = ,2657, 9
++ 2671, 1, = ,2668, 1
++ 2726, 7, = ,2723, 1
++ 2739, 1, = ,2730, 1
++ 2745, 1, = ,2736, 1
++ 2750, 1, = ,2741, 1
++ 2757, 1, = ,2748, 1
++ 2764, 1, = ,2755, 1
++ 2773, 1, = ,2764, 1
++ 3007, 1, = ,2998, 1
++ 3010, 4, = ,3001, 3
+@ drivers/gpu/drm/drm_edid.c, 7364, 7341
++ 32, 1, = ,32, 0
+- 127, 0, = ,126, 3
++ 3114, 1, = ,3116, 1
++ 3500, 13, = ,3502, 5
++ 6204, 2, = ,6198, 0
++ 6484, 2, = ,6476, 0
++ 6535, 1, = ,6525, 1
++ 7351, 13, = ,7341, 0
+@ drivers/gpu/drm/drm_atomic_helper.c, 3756, 3762
+- 293, 1, = ,293, 2
+- 342, 0, = ,343, 4
+- 344, 1, = ,349, 1
+- 623, 1, = ,628, 4
+- 688, 1, = ,696, 2
++ 3342, 3, = ,3351, 0
+@ drivers/gpu/drm/amd/pm/swsmu/smu11/sienna_cichlid_ppt.c, 4462, 4482
++ 76, 10, = ,76, 6
++ 98, 1, = ,94, 1
++ 316, 1, = ,312, 1
++ 441, 1, = ,437, 1
++ 454, 1, = ,450, 1
++ 732, 1, = ,728, 1
++ 1282, 0, = ,1278, 1
++ 1390, 3, = ,1387, 3
++ 1500, 1, = ,1497, 1
++ 1951, 2, = ,1948, 1
++ 1961, 2, = ,1957, 1
++ 1986, 1, = ,1981, 1
++ 1997, 0, = ,1992, 2
+- 2088, 0, = ,2085, 2
++ 2089, 2, = ,2088, 2
+# 2094, 4, = ,2093, 4
+# 2100, 12, = ,2099, 12
++ 2149, 0, = ,2148, 1
++ 2155, 2, = ,2155, 3
++ 2234, 0, = ,2235, 1
++ 2386, 3, = ,2388, 3
++ 2458, 0, = ,2460, 1
++ 2463, 1, = ,2466, 2
++ 3109, 2, = ,3113, 1
++ 3915, 1, = ,3918, 1
++ 4031, 4, = ,4034, 2
++ 4055, 0, = ,4056, 1
++ 4057, 1, = ,4059, 5
++ 4123, 0, = ,4129, 1
++ 4127, 0, = ,4134, 3
++ 4129, 1, = ,4139, 1
++ 4141, 1, = ,4151, 1
++ 4160, 0, = ,4170, 7
++ 4164, 1, = ,4181, 1
++ 4244, 1, = ,4261, 1
++ 4311, 0, = ,4328, 1
++ 4315, 0, = ,4333, 2
+@ drivers/gpu/drm/amd/pm/amdgpu_pm.c, 4505, 3688
++ 38, 38, = ,38, 0
++ 684, 0, = ,646, 4
++ 685, 4, = ,651, 4
++ 690, 2, = ,656, 2
++ 723, 6, = ,689, 13
++ 730, 4, = ,703, 4
++ 986, 9, = ,959, 1
++ 1505, 3, = ,1470, 3
++ 1994, 64, = ,1959, 0
++ 2093, 1, = ,1994, 0
++ 2100, 2, = ,2000, 2
++ 2190, 5, = ,2090, 1
++ 2880, 2, = ,2776, 2
++ 2902, 1, = ,2798, 1
++ 2908, 1, = ,2804, 1
++ 2915, 1, = ,2811, 1
++ 2921, 1, = ,2817, 1
++ 2998, 1, = ,2894, 1
++ 3286, 1, = ,3182, 1
++ 3426, 10, = ,3322, 4
++ 3438, 2, = ,3328, 3
++ 3469, 692, = ,3360, 0
++ 4163, 0, = ,3362, 1
++ 4164, 1, = ,3364, 0
++ 4203, 7, = ,3402, 1
++ 4214, 8, = ,3407, 0
++ 4226, 2, = ,3411, 0
++ 4264, 2, = ,3447, 2
+@ drivers/gpu/drm/amd/display/dc/hwss/dcn20/dcn20_hwseq.c, 2964, 2938
++ 32, 1, = ,32, 1
++ 35, 2, = ,35, 2
++ 59, 4, = ,59, 1
++ 100, 1, = ,97, 1
++ 620, 2, = ,617, 0
++ 676, 31, = ,671, 0
++ 854, 17, = ,818, 0
++ 1436, 1, = ,1383, 1
++ 1438, 1, = ,1385, 5
++ 1541, 5, = ,1492, 0
++ 1702, 10, = ,1648, 1
++ 1713, 1, = ,1650, 0
++ 1790, 5, = ,1726, 1
++ 1854, 17, = ,1786, 0
++ 1881, 2, = ,1796, 8
++ 1912, 8, = ,1833, 1
++ 1921, 1, = ,1835, 0
++ 2019, 0, = ,1932, 2
++ 2729, 0, = ,2644, 31
+# 2768, 1, = ,2714, 2
++ 2889, 1, = ,2836, 1
++ 2952, 0, = ,2899, 27
+@ drivers/gpu/drm/amd/display/dc/hwss/dce110/dce110_hwseq.c, 3202, 3199
++ 33, 2, = ,33, 1
++ 38, 1, = ,37, 1
++ 66, 1, = ,65, 1
++ 68, 1, = ,67, 1
++ 86, 4, = ,85, 1
++ 1048, 2, = ,1044, 1
++ 1182, 1, = ,1177, 1
+# 1186, 5, = ,1181, 6
+# 1192, 2, = ,1188, 2
++ 1233, 1, = ,1229, 1
++ 2009, 0, = ,2005, 3
++ 2464, 1, = ,2463, 0
++ 2508, 1, = ,2506, 0
++ 2554, 1, = ,2551, 0
++ 2700, 0, = ,2696, 1
+@ drivers/gpu/drm/amd/display/dc/core/dc.c, 5481, 5287
++ 27, 2, = ,27, 0
++ 80, 2, = ,78, 0
++ 835, 1, = ,831, 0
++ 876, 1, = ,871, 0
++ 879, 9, = ,873, 0
++ 1008, 2, = ,993, 1
++ 1088, 0, = ,1072, 47
++ 1178, 2, = ,1209, 1
++ 1343, 1, = ,1373, 0
++ 1862, 1, = ,1891, 1
++ 1969, 1, = ,1998, 1
++ 2216, 1, = ,2245, 1
++ 2243, 5, = ,2272, 0
++ 2257, 3, = ,2281, 0
++ 2265, 11, = ,2286, 0
++ 2314, 6, = ,2324, 0
++ 2487, 1, = ,2491, 0
++ 2520, 6, = ,2523, 0
++ 2563, 1, = ,2560, 1
++ 3018, 28, = ,3015, 0
++ 3069, 1, = ,3038, 1
++ 3172, 8, = ,3141, 0
++ 3184, 1, = ,3145, 0
++ 3556, 1, = ,3516, 1
++ 3599, 1, = ,3559, 0
++ 3615, 1, = ,3574, 1
++ 3949, 6, = ,3908, 0
++ 3962, 1, = ,3915, 0
++ 3979, 1, = ,3931, 0
++ 4050, 101, = ,4001, 0
++ 4172, 2, = ,4022, 4
++ 4180, 0, = ,4032, 7
++ 4204, 1, = ,4063, 1
++ 4206, 2, = ,4065, 2
++ 4220, 1, = ,4079, 2
++ 4222, 0, = ,4082, 1
++ 4223, 6, = ,4084, 27
++ 4230, 3, = ,4112, 0
++ 4234, 1, = ,4113, 0
++ 4237, 0, = ,4115, 12
++ 4408, 45, = ,4298, 0
++ 4470, 1, = ,4315, 0
++ 4473, 2, = ,4317, 0
++ 4478, 1, = ,4320, 0
++ 4525, 13, = ,4366, 0
++ 4539, 1, = ,4367, 2
++ 4548, 7, = ,4377, 0
++ 4784, 0, = ,4606, 3
++ 4803, 0, = ,4628, 15
++ 4805, 0, = ,4645, 7
++ 5429, 1, = ,5276, 1
++ 5432, 2, = ,5279, 2
++ 5437, 42, = ,5284, 1
+@ drivers/gpu/drm/amd/display/dc/clk_mgr/dcn32/dcn32_clk_mgr.c, 1096, 1032
++ 56, 8, = ,56, 0
++ 461, 52, = ,453, 0
++ 709, 4, = ,649, 0
+@ drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c, 11079, 10989
++ 145, 3, = ,145, 0
++ 416, 1, = ,413, 0
++ 427, 1, = ,423, 1
++ 434, 4, = ,430, 5
++ 503, 3, = ,500, 3
++ 535, 3, = ,532, 3
++ 588, 3, = ,585, 2
++ 1076, 1, = ,1072, 0
++ 1098, 4, = ,1093, 0
++ 1177, 1, = ,1168, 1
++ 1180, 1, = ,1171, 0
++ 1259, 1, = ,1249, 1
++ 1610, 1, = ,1600, 1
++ 1629, 4, = ,1619, 31
++ 1634, 12, = ,1651, 2
++ 1666, 1, = ,1673, 1
++ 1676, 1, = ,1683, 0
++ 1689, 1, = ,1695, 2
++ 2000, 1, = ,2007, 1
++ 2016, 1, = ,2023, 0
++ 2090, 1, = ,2096, 1
++ 2125, 3, = ,2131, 0
++ 2462, 1, = ,2465, 1
++ 2648, 2, = ,2651, 0
++ 2687, 1, = ,2688, 0
++ 2737, 1, = ,2737, 1
++ 2747, 1, = ,2747, 1
++ 2760, 1, = ,2760, 1
++ 2779, 1, = ,2779, 1
++ 2825, 4, = ,2825, 0
++ 2854, 1, = ,2850, 0
++ 2903, 1, = ,2898, 1
++ 3232, 2, = ,3227, 1
++ 4419, 1, = ,4413, 1
++ 4429, 1, = ,4423, 0
++ 4437, 1, = ,4430, 1
++ 4442, 1, = ,4435, 1
++ 4450, 1, = ,4443, 0
++ 4575, 1, = ,4567, 1
++ 4593, 1, = ,4585, 0
++ 4601, 1, = ,4592, 1
++ 4684, 1, = ,4675, 1
++ 4691, 1, = ,4682, 1
++ 4724, 3, = ,4715, 0
++ 4732, 0, = ,4720, 2
++ 4819, 1, = ,4809, 1
++ 4849, 1, = ,4839, 0
++ 4856, 1, = ,4845, 1
++ 5445, 18, = ,5434, 0
++ 5597, 1, = ,5568, 0
+- 6131, 2, = ,6101, 0
++ 6148, 4, = ,6116, 4
++ 6447, 1, = ,6415, 0
++ 6452, 9, = ,6419, 1
++ 6462, 1, = ,6421, 0
++ 6464, 0, = ,6422, 2
++ 6498, 2, = ,6458, 0
++ 6506, 10, = ,6464, 14
++ 6518, 0, = ,6480, 2
++ 6804, 8, = ,6768, 0
++ 7448, 5, = ,7404, 0
++ 7875, 3, = ,7826, 2
++ 8120, 1, = ,8070, 1
++ 8708, 3, = ,8658, 1
++ 8744, 11, = ,8692, 0
++ 9958, 11, = ,9895, 0
++ 9973, 2, = ,9899, 1
++ 9978, 1, = ,9903, 2
++ 9986, 27, = ,9912, 2
++ 10015, 15, = ,9916, 3
++ 10040, 2, = ,9929, 4
++ 10944, 2, = ,10835, 1
++ 10959, 2, = ,10849, 1
++ 11070, 0, = ,10959, 21
+@ drivers/gpu/drm/amd/amdkfd/kfd_device_queue_manager.c, 3280, 3253
++ 95, 1, = ,95, 1
++ 230, 4, = ,230, 2
++ 237, 2, = ,235, 2
++ 249, 1, = ,247, 1
++ 251, 1, = ,249, 1
++ 277, 1, = ,275, 1
++ 279, 1, = ,277, 1
++ 289, 1, = ,287, 0
++ 300, 1, = ,297, 1
++ 413, 2, = ,410, 1
++ 450, 1, = ,446, 0
++ 462, 1, = ,457, 1
++ 518, 2, = ,513, 0
++ 523, 1, = ,516, 1
++ 718, 1, = ,711, 1
++ 739, 1, = ,732, 1
++ 831, 1, = ,824, 0
++ 842, 1, = ,834, 1
++ 861, 1, = ,853, 0
++ 887, 1, = ,878, 1
++ 906, 1, = ,897, 1
++ 1100, 1, = ,1091, 0
++ 1134, 1, = ,1124, 1
++ 1238, 1, = ,1228, 0
++ 1279, 1, = ,1268, 1
++ 1488, 1, = ,1477, 0
++ 1493, 1, = ,1481, 1
++ 1500, 1, = ,1488, 1
++ 1519, 1, = ,1507, 1
++ 1525, 1, = ,1513, 1
++ 1577, 1, = ,1565, 0
++ 1582, 1, = ,1569, 1
++ 1598, 1, = ,1585, 1
++ 1641, 1, = ,1628, 0
++ 1688, 1, = ,1674, 1
++ 1897, 3, = ,1883, 3
++ 1902, 2, = ,1888, 0
++ 1907, 1, = ,1891, 1
++ 1926, 1, = ,1910, 0
++ 1939, 1, = ,1922, 1
++ 1954, 1, = ,1937, 1
++ 1956, 1, = ,1939, 0
++ 1979, 2, = ,1961, 2
++ 1982, 1, = ,1964, 1
++ 1997, 1, = ,1979, 1
++ 2007, 1, = ,1989, 1
++ 2081, 1, = ,2063, 0
++ 2089, 1, = ,2070, 1
++ 2370, 1, = ,2351, 0
++ 2404, 1, = ,2384, 1
++ 2459, 1, = ,2439, 0
++ 2465, 1, = ,2444, 1
++ 2575, 1, = ,2554, 1
++ 2613, 1, = ,2592, 1
++ 2672, 1, = ,2651, 0
++ 2676, 1, = ,2654, 1
++ 2683, 1, = ,2661, 1
++ 2719, 1, = ,2697, 0
++ 2725, 1, = ,2702, 1
++ 2732, 1, = ,2709, 1
++ 2869, 1, = ,2846, 0
++ 2920, 1, = ,2896, 1
++ 2972, 1, = ,2948, 0
++ 3021, 1, = ,2996, 1
++ 3108, 1, = ,3083, 0
++ 3112, 1, = ,3086, 1
++ 3130, 1, = ,3104, 0
++ 3134, 1, = ,3107, 1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_vm.c, 2783, 2734
++ 888, 1, = ,888, 1
++ 893, 1, = ,893, 1
+- 1093, 1, = ,1093, 2
++ 1406, 1, = ,1407, 1
++ 2062, 1, = ,2063, 1
++ 2733, 50, = ,2734, 0
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c, 3590, 3332
++ 155, 1, = ,155, 1
++ 157, 1, = ,157, 0
++ 174, 4, = ,173, 0
++ 188, 2, = ,183, 0
++ 211, 2, = ,204, 2
++ 621, 2, = ,614, 2
++ 779, 4, = ,772, 3
++ 1025, 96, = ,1017, 0
++ 1127, 2, = ,1023, 1
++ 1133, 4, = ,1028, 0
++ 1144, 2, = ,1035, 1
++ 1165, 1, = ,1055, 40
++ 1167, 4, = ,1096, 1
++ 1178, 1, = ,1104, 4
++ 1181, 1, = ,1110, 1
++ 1184, 3, = ,1113, 0
++ 1285, 2, = ,1211, 2
++ 1446, 16, = ,1372, 0
++ 1471, 1, = ,1381, 1
++ 1476, 2, = ,1386, 0
++ 1553, 1, = ,1461, 1
++ 1665, 2, = ,1573, 0
++ 1676, 4, = ,1582, 0
++ 1688, 2, = ,1590, 0
++ 1698, 2, = ,1598, 0
++ 1702, 0, = ,1600, 1
++ 1704, 8, = ,1603, 0
++ 1820, 1, = ,1711, 1
++ 1826, 4, = ,1717, 0
++ 1846, 2, = ,1733, 0
++ 2023, 2, = ,1908, 1
++ 2029, 6, = ,1913, 3
++ 2522, 1, = ,2403, 1
++ 2532, 1, = ,2413, 1
++ 2606, 4, = ,2487, 2
++ 2643, 1, = ,2522, 1
++ 2709, 8, = ,2588, 0
++ 2759, 1, = ,2630, 0
++ 2767, 1, = ,2637, 1
++ 2815, 3, = ,2685, 0
++ 3465, 125, = ,3332, 0
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_fru_eeprom.c, 391, 305
++ 45, 1, = ,45, 0
++ 47, 1, = ,46, 1
++ 61, 17, = ,60, 11
++ 80, 1, = ,73, 8
++ 95, 11, = ,95, 0
++ 113, 1, = ,102, 0
++ 122, 13, = ,110, 0
++ 204, 1, = ,179, 2
++ 206, 1, = ,182, 1
++ 209, 2, = ,185, 3
++ 212, 10, = ,189, 1
++ 227, 2, = ,195, 3
++ 230, 1, = ,199, 1
++ 239, 15, = ,208, 4
++ 276, 1, = ,234, 1
++ 298, 1, = ,256, 1
++ 320, 1, = ,278, 1
++ 325, 42, = ,283, 0
++ 371, 2, = ,287, 0
++ 378, 1, = ,292, 1
++ 386, 1, = ,300, 1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_doorbell_mgr.c, 240, 235
++ 116, 2, = ,116, 1
++ 122, 3, = ,121, 2
++ 130, 5, = ,128, 2
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_dma_buf.c, 500, 502
++ 334, 1, = ,334, 0
+- 407, 1, = ,406, 4
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_device.c, 6350, 6061
++ 165, 68, = ,165, 0
++ 578, 1, = ,510, 0
++ 643, 1, = ,574, 1
++ 710, 50, = ,641, 0
++ 799, 1, = ,680, 1
++ 864, 49, = ,745, 0
++ 990, 7, = ,822, 0
++ 1014, 7, = ,839, 0
++ 1074, 2, = ,892, 2
++ 1430, 31, = ,1248, 0
++ 1763, 1, = ,1550, 0
++ 2948, 1, = ,2734, 1
++ 3201, 4, = ,2987, 2
++ 3695, 2, = ,3479, 2
++ 3761, 2, = ,3545, 0
++ 3818, 2, = ,3600, 0
++ 3916, 2, = ,3696, 1
++ 4057, 0, = ,3836, 16
++ 4085, 21, = ,3880, 0
++ 4110, 5, = ,3884, 0
++ 4278, 3, = ,4047, 0
++ 4340, 35, = ,4106, 0
++ 4394, 0, = ,4125, 5
++ 5062, 6, = ,4798, 1
++ 5072, 1, = ,4803, 1
++ 5086, 2, = ,4817, 2
++ 5089, 2, = ,4820, 2
++ 5092, 1, = ,4823, 1
++ 5094, 1, = ,4825, 1
++ 5097, 1, = ,4828, 1
++ 5099, 2, = ,4830, 2
++ 5108, 1, = ,4839, 0
++ 5111, 2, = ,4841, 1
++ 5114, 1, = ,4843, 0
++ 5117, 17, = ,4845, 2
++ 5185, 1, = ,4898, 1
++ 5238, 3, = ,4951, 9
++ 5250, 5, = ,4969, 0
++ 5472, 2, = ,5186, 1
++ 5611, 3, = ,5324, 2
++ 5638, 2, = ,5350, 1
++ 6316, 1, = ,6027, 1
+@ drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c, 994, 994
++ 45, 1, = ,45, 0
+- 51, 1, = ,50, 0
+- 59, 0, = ,57, 1
+- 68, 1, = ,67, 2
+@ drivers/accel/ivpu/ivpu_pm.c, 328, 329
+- 264, 1, = ,264, 2
++ 285, 1, = ,286, 1
++ 289, 1, = ,290, 0
++ 297, 0, = ,297, 2
++ 298, 1, = ,300, 3
++ 300, 1, = ,304, 1
++ 302, 4, = ,306, 1
+@ drivers/accel/ivpu/ivpu_mmu_context.c, 527, 512
+- 14, 0, = ,14, 1
+- 331, 6, = ,332, 2
++ 430, 2, = ,427, 1
++ 433, 1, = ,429, 0
++ 472, 10, = ,467, 0
++ 503, 1, = ,488, 1
++ 509, 1, = ,494, 1
+@ drivers/accel/ivpu/ivpu_ipc.c, 514, 506
+- 212, 4, = ,212, 4
+- 223, 3, = ,223, 0
++ 429, 1, = ,426, 1
++ 432, 4, = ,429, 2
++ 438, 3, = ,433, 1
++ 442, 1, = ,435, 0
+@ drivers/accel/ivpu/ivpu_hw_40xx.c, 1186, 1199
+- 60, 2, = ,60, 1
++ 129, 4, = ,128, 0
++ 142, 1, = ,137, 0
++ 148, 1, = ,142, 0
++ 154, 1, = ,147, 0
+- 206, 0, = ,198, 8
+- 566, 0, = ,566, 6
+- 1056, 2, = ,1062, 0
+- 1102, 0, = ,1106, 3
+- 1113, 0, = ,1120, 2
+- 1116, 0, = ,1125, 3
+- 1170, 0, = ,1182, 1
+@ drivers/accel/ivpu/ivpu_hw_37xx.c, 1055, 1049
++ 107, 5, = ,107, 0
++ 121, 1, = ,116, 0
++ 127, 1, = ,121, 0
++ 355, 1, = ,348, 1
++ 357, 2, = ,350, 2
++ 366, 1, = ,359, 1
++ 368, 2, = ,361, 2
++ 377, 1, = ,370, 1
++ 379, 2, = ,372, 2
++ 433, 1, = ,426, 1
++ 435, 2, = ,428, 2
++ 438, 2, = ,431, 2
++ 441, 1, = ,434, 1
++ 573, 2, = ,566, 2
++ 576, 2, = ,569, 2
++ 579, 2, = ,572, 2
++ 582, 2, = ,575, 2
++ 787, 2, = ,780, 2
++ 791, 2, = ,784, 2
++ 795, 3, = ,788, 3
++ 844, 2, = ,837, 2
++ 847, 1, = ,840, 1
++ 864, 1, = ,857, 1
+- 1039, 0, = ,1032, 1
+@ drivers/accel/ivpu/ivpu_fw.c, 500, 501
++ 304, 2, = ,304, 0
++ 319, 1, = ,317, 1
++ 336, 0, = ,334, 2
+- 435, 0, = ,435, 1
+@ drivers/accel/ivpu/ivpu_drv.h, 219, 214
+- 26, 0, = ,26, 1
++ 31, 5, = ,32, 4
++ 37, 1, = ,37, 1
++ 79, 5, = ,79, 0
++ 113, 1, = ,108, 0
++ 127, 1, = ,121, 0
+- 161, 0, = ,154, 1
+- 176, 0, = ,170, 1
+@ drivers/accel/ivpu/ivpu_drv.c, 676, 709
+- 330, 1, = ,330, 1
+- 370, 1, = ,370, 1
+- 372, 2, = ,372, 0
+- 378, 0, = ,376, 7
++ 398, 0, = ,403, 4
++ 517, 1, = ,526, 2
++ 519, 0, = ,529, 1
++ 521, 1, = ,532, 2
++ 523, 0, = ,535, 1
++ 526, 1, = ,539, 2
++ 528, 0, = ,542, 1
++ 531, 1, = ,546, 2
++ 533, 0, = ,549, 1
++ 535, 1, = ,552, 2
++ 537, 0, = ,555, 1
++ 539, 5, = ,558, 2
++ 545, 0, = ,561, 1
++ 547, 2, = ,564, 4
++ 551, 1, = ,570, 2
++ 553, 0, = ,573, 1
++ 554, 1, = ,575, 5
++ 557, 1, = ,582, 2
++ 559, 0, = ,585, 7
++ 561, 1, = ,594, 2
++ 563, 0, = ,597, 1
++ 574, 2, = ,609, 0
++ 599, 1, = ,632, 0
+- 610, 0, = ,642, 1
++ 627, 1, = ,660, 2
++ 629, 2, = ,663, 1

@@ -1,0 +1,360 @@
+@ fs/anon_inodes.c, -2, -1
+@ fs/bcachefs/alloc_background.c, -1, -2
+@ fs/bcachefs/alloc_background.h, -1, -2
+@ fs/bcachefs/alloc_foreground.c, -1, -2
+@ fs/bcachefs/backpointers.c, -1, -2
+@ fs/bcachefs/backpointers.h, -1, -2
+@ fs/bcachefs/bbpos.h, -1, -2
+@ fs/bcachefs/bcachefs.h, -1, -2
+@ fs/bcachefs/bcachefs_format.h, -1, -2
+@ fs/bcachefs/bkey.h, -1, -2
+@ fs/bcachefs/bkey_methods.c, -1, -2
+@ fs/bcachefs/bkey_methods.h, -1, -2
+@ fs/bcachefs/bkey_sort.c, -1, -2
+@ fs/bcachefs/btree_cache.h, -1, -2
+@ fs/bcachefs/btree_gc.c, -1, -2
+@ fs/bcachefs/btree_io.c, -1, -2
+@ fs/bcachefs/btree_iter.c, -1, -2
+@ fs/bcachefs/btree_iter.h, -1, -2
+@ fs/bcachefs/btree_locking.c, -1, -2
+@ fs/bcachefs/btree_locking.h, -1, -2
+@ fs/bcachefs/btree_trans_commit.c, -1, -2
+@ fs/bcachefs/btree_update_interior.c, -1, -2
+@ fs/bcachefs/btree_update_interior.h, -1, -2
+@ fs/bcachefs/buckets.c, -1, -2
+@ fs/bcachefs/buckets.h, -1, -2
+@ fs/bcachefs/chardev.c, -1, -2
+@ fs/bcachefs/compress.c, -1, -2
+@ fs/bcachefs/compress.h, -1, -2
+@ fs/bcachefs/darray.h, -1, -2
+@ fs/bcachefs/data_update.c, -1, -2
+@ fs/bcachefs/data_update.h, -1, -2
+@ fs/bcachefs/debug.c, -1, -2
+@ fs/bcachefs/dirent.c, -1, -2
+@ fs/bcachefs/dirent.h, -1, -2
+@ fs/bcachefs/disk_groups.c, -1, -2
+@ fs/bcachefs/disk_groups.h, -1, -2
+@ fs/bcachefs/ec.c, -1, -2
+@ fs/bcachefs/ec.h, -1, -2
+@ fs/bcachefs/errcode.h, -1, -2
+@ fs/bcachefs/error.c, -1, -2
+@ fs/bcachefs/error.h, -1, -2
+@ fs/bcachefs/extents.c, -1, -2
+@ fs/bcachefs/extents.h, -1, -2
+@ fs/bcachefs/fs-common.c, -1, -2
+@ fs/bcachefs/fs-io-buffered.c, -1, -2
+@ fs/bcachefs/fs-io-direct.c, -1, -2
+@ fs/bcachefs/fs-ioctl.c, -1, -2
+@ fs/bcachefs/fs-ioctl.h, -1, -2
+@ fs/bcachefs/fsck.c, -1, -2
+@ fs/bcachefs/fsck.h, -1, -2
+@ fs/bcachefs/inode.c, -1, -2
+@ fs/bcachefs/inode.h, -1, -2
+@ fs/bcachefs/io_misc.c, -1, -2
+@ fs/bcachefs/io_misc.h, -1, -2
+@ fs/bcachefs/io_read.c, -1, -2
+@ fs/bcachefs/io_write.c, -1, -2
+@ fs/bcachefs/journal.c, -1, -2
+@ fs/bcachefs/journal.h, -1, -2
+@ fs/bcachefs/journal_io.c, -1, -2
+@ fs/bcachefs/lru.c, -1, -2
+@ fs/bcachefs/lru.h, -1, -2
+@ fs/bcachefs/move.c, -1, -2
+@ fs/bcachefs/move.h, -1, -2
+@ fs/bcachefs/move_types.h, -1, -2
+@ fs/bcachefs/movinggc.c, -1, -2
+@ fs/bcachefs/opts.c, -1, -2
+@ fs/bcachefs/opts.h, -1, -2
+@ fs/bcachefs/printbuf.c, -1, -2
+@ fs/bcachefs/quota.c, -1, -2
+@ fs/bcachefs/quota.h, -1, -2
+@ fs/bcachefs/rebalance.c, -1, -2
+@ fs/bcachefs/rebalance.h, -1, -2
+@ fs/bcachefs/rebalance_types.h, -1, -2
+@ fs/bcachefs/recovery.c, -1, -2
+@ fs/bcachefs/recovery_types.h, -1, -2
+@ fs/bcachefs/reflink.c, -1, -2
+@ fs/bcachefs/reflink.h, -1, -2
+@ fs/bcachefs/replicas.c, -1, -2
+@ fs/bcachefs/sb-clean.c, -1, -2
+@ fs/bcachefs/sb-members.c, -1, -2
+@ fs/bcachefs/sb-members.h, -1, -2
+@ fs/bcachefs/six.c, -1, -2
+@ fs/bcachefs/snapshot.c, -1, -2
+@ fs/bcachefs/snapshot.h, -1, -2
+@ fs/bcachefs/subvolume.c, -1, -2
+@ fs/bcachefs/subvolume.h, -1, -2
+@ fs/bcachefs/super-io.c, -1, -2
+@ fs/bcachefs/super-io.h, -1, -2
+@ fs/bcachefs/super.c, -1, -2
+@ fs/bcachefs/super_types.h, -1, -2
+@ fs/bcachefs/trace.c, -1, -2
+@ fs/bcachefs/trace.h, -1, -2
+@ fs/bcachefs/util.c, -1, -2
+@ fs/bcachefs/util.h, -1, -2
+@ fs/bcachefs/xattr.c, -1, -2
+@ fs/bcachefs/xattr.h, -1, -2
+@ fs/binfmt_elf.c, -2, -1
+@ fs/binfmt_elf_fdpic.c, -2, -1
+@ fs/binfmt_misc.c, -2, -1
+@ fs/buffer.c, -2, -1
+@ fs/char_dev.c, -2, -1
+@ fs/dax.c, -2, -1
+@ fs/dcache.c, -2, -1
+@ fs/direct-io.c, -2, -1
+@ fs/eventpoll.c, -2, -1
+@ fs/exec.c, -2, -1
+@ fs/fcntl.c, -2, -1
+@ fs/file_table.c, -2, -1
+@ fs/inode.c, -2, -1
+@ fs/locks.c, -2, -1
+@ fs/mbcache.c, -2, -1
+@ fs/mpage.c, -2, -1
+@ fs/namespace.c, -2, -1
+@ fs/pipe.c, -2, -1
+@ fs/super.c, -2, -1
+@ fs/userfaultfd.c, -2, -1
+@ include/linux/acpi.h, -2, -1
+@ include/linux/aer.h, -2, -1
+@ include/linux/arm_ffa.h, -2, -1
+@ include/linux/badblocks.h, -2, -1
+@ include/linux/binfmts.h, -2, -1
+@ include/linux/bitmap.h, -2, -1
+@ include/linux/blk-mq.h, -2, -1
+@ include/linux/bootmem_info.h, -2, -1
+@ include/linux/bpf-cgroup-defs.h, -2, -1
+@ include/linux/bpf-cgroup.h, -2, -1
+@ include/linux/bpf.h, -2, -1
+@ include/linux/bpf_mem_alloc.h, -2, -1
+@ include/linux/bpf_verifier.h, -2, -1
+@ include/linux/brcmphy.h, -2, -1
+@ include/linux/btf.h, -2, -1
+@ include/linux/buffer_head.h, -2, -1
+@ include/linux/buildid.h, -2, -1
+@ include/linux/cacheinfo.h, -2, -1
+@ include/linux/cgroup-defs.h, -2, -1
+@ include/linux/cgroup.h, -2, -1
+@ include/linux/clk-provider.h, -2, -1
+@ include/linux/closure.h, -1, -2
+@ include/linux/compat.h, -2, -1
+@ include/linux/compiler-clang.h, -2, -1
+@ include/linux/compiler-gcc.h, -2, -1
+@ include/linux/compiler.h, -2, -1
+@ include/linux/compiler_types.h, -2, -1
+@ include/linux/console.h, -2, -1
+@ include/linux/const.h, -2, -1
+@ include/linux/cpufreq.h, -2, -1
+@ include/linux/cpuhotplug.h, -2, -1
+@ include/linux/cpumask.h, -2, -1
+@ include/linux/crash_core.h, -2, -1
+@ include/linux/crash_dump.h, -2, -1
+@ include/linux/cred.h, -2, -1
+@ include/linux/crypto.h, -2, -1
+@ include/linux/damon.h, -2, -1
+@ include/linux/dax.h, -2, -1
+@ include/linux/device.h, -2, -1
+@ include/linux/dmaengine.h, -2, -1
+@ include/linux/efi.h, -2, -1
+@ include/linux/ethtool.h, -2, -1
+@ include/linux/f2fs_fs.h, -2, -1
+@ include/linux/fb.h, -2, -1
+@ include/linux/filter.h, -2, -1
+@ include/linux/fortify-string.h, -2, -1
+@ include/linux/fs.h, -2, -1
+@ include/linux/fwnode.h, -2, -1
+@ include/linux/gfp.h, -2, -1
+@ include/linux/hid-sensor-ids.h, -2, -1
+@ include/linux/hid.h, -2, -1
+@ include/linux/highmem.h, -2, -1
+@ include/linux/hisi_acc_qm.h, -2, -1
+@ include/linux/hugetlb.h, -2, -1
+@ include/linux/hugetlb_cgroup.h, -2, -1
+@ include/linux/hw_random.h, -2, -1
+@ include/linux/ieee80211.h, -2, -1
+@ include/linux/igmp.h, -2, -1
+@ include/linux/init.h, -2, -1
+@ include/linux/intel_tpmi.h, -2, -1
+@ include/linux/interrupt.h, -2, -1
+@ include/linux/io-pgtable.h, -2, -1
+@ include/linux/io_uring.h, -2, -1
+@ include/linux/io_uring_types.h, -2, -1
+@ include/linux/iommu.h, -2, -1
+@ include/linux/ioport.h, -2, -1
+@ include/linux/iosys-map.h, -2, -1
+@ include/linux/iova_bitmap.h, -2, -1
+@ include/linux/ipv6.h, -2, -1
+@ include/linux/irq.h, -2, -1
+@ include/linux/irqdomain.h, -2, -1
+@ include/linux/jbd2.h, -2, -1
+@ include/linux/kasan.h, -2, -1
+@ include/linux/kernel.h, -2, -1
+@ include/linux/kernfs.h, -2, -1
+@ include/linux/kexec.h, -2, -1
+@ include/linux/key.h, -2, -1
+@ include/linux/kprobes.h, -2, -1
+@ include/linux/kstrtox.h, -2, -1
+@ include/linux/kthread.h, -2, -1
+@ include/linux/kvm_host.h, -2, -1
+@ include/linux/libata.h, -2, -1
+@ include/linux/linkmode.h, -2, -1
+@ include/linux/logic_pio.h, -2, -1
+@ include/linux/lsm_hook_defs.h, -2, -1
+@ include/linux/mei_cl_bus.h, -2, -1
+@ include/linux/memblock.h, -2, -1
+@ include/linux/memcontrol.h, -2, -1
+@ include/linux/memory-tiers.h, -2, -1
+@ include/linux/mempolicy.h, -2, -1
+@ include/linux/micrel_phy.h, -2, -1
+@ include/linux/migrate.h, -2, -1
+@ include/linux/minmax.h, -2, -1
+@ include/linux/mm.h, -2, -1
+@ include/linux/mm_inline.h, -2, -1
+@ include/linux/mm_types.h, -2, -1
+@ include/linux/mmu_notifier.h, -2, -1
+@ include/linux/mmzone.h, -2, -1
+@ include/linux/mod_devicetable.h, -2, -1
+@ include/linux/module_symbol.h, -2, -1
+@ include/linux/moduleparam.h, -2, -1
+@ include/linux/msi.h, -2, -1
+@ include/linux/netdevice.h, -2, -1
+@ include/linux/netfilter.h, -2, -1
+@ include/linux/numa.h, -2, -1
+@ include/linux/nvme-auth.h, -2, -1
+@ include/linux/nvme-tcp.h, -2, -1
+@ include/linux/nvme.h, -2, -1
+@ include/linux/nvmem-consumer.h, -2, -1
+@ include/linux/nvmem-provider.h, -2, -1
+@ include/linux/oid_registry.h, -2, -1
+@ include/linux/overflow.h, -2, -1
+@ include/linux/page-flags.h, -2, -1
+@ include/linux/pagemap.h, -2, -1
+@ include/linux/parport.h, -2, -1
+@ include/linux/pci.h, -2, -1
+@ include/linux/pci_ids.h, -2, -1
+@ include/linux/percpu.h, -2, -1
+@ include/linux/percpu_counter.h, -2, -1
+@ include/linux/perf_event.h, -2, -1
+@ include/linux/phy.h, -2, -1
+@ include/linux/phylink.h, -2, -1
+@ include/linux/pm.h, -2, -1
+@ include/linux/pm_domain.h, -2, -1
+@ include/linux/pm_opp.h, -2, -1
+@ include/linux/pnp.h, -2, -1
+@ include/linux/posix-clock.h, -2, -1
+@ include/linux/power_supply.h, -2, -1
+@ include/linux/property.h, -2, -1
+@ include/linux/rcupdate.h, -2, -1
+@ include/linux/rcutiny.h, -2, -1
+@ include/linux/rcutree.h, -2, -1
+@ include/linux/reboot.h, -2, -1
+@ include/linux/rethook.h, -2, -1
+@ include/linux/rmap.h, -2, -1
+@ include/linux/rtc.h, -2, -1
+@ include/linux/sched.h, -2, -1
+@ include/linux/scmi_protocol.h, -2, -1
+@ include/linux/security.h, -2, -1
+@ include/linux/seq_buf.h, -2, -1
+@ include/linux/seq_file.h, -2, -1
+@ include/linux/serial_core.h, -2, -1
+@ include/linux/shmem_fs.h, -2, -1
+@ include/linux/shrinker.h, -2, -1
+@ include/linux/slab.h, -2, -1
+@ include/linux/smp.h, -2, -1
+@ include/linux/socket.h, -2, -1
+@ include/linux/sockptr.h, -2, -1
+@ include/linux/spmi.h, -2, -1
+@ include/linux/stmmac.h, -2, -1
+@ include/linux/string.h, -2, -1
+@ include/linux/stringify.h, -2, -1
+@ include/linux/syscalls.h, -2, -1
+@ include/linux/sysctl.h, -2, -1
+@ include/linux/sysfs.h, -2, -1
+@ include/linux/tcp.h, -2, -1
+@ include/linux/thermal.h, -2, -1
+@ include/linux/thunderbolt.h, -2, -1
+@ include/linux/tick.h, -2, -1
+@ include/linux/timer.h, -2, -1
+@ include/linux/torture.h, -2, -1
+@ include/linux/trace_events.h, -2, -1
+@ include/linux/trace_seq.h, -2, -1
+@ include/linux/tracefs.h, -2, -1
+@ include/linux/tty.h, -2, -1
+@ include/linux/ucs2_string.h, -2, -1
+@ include/linux/udp.h, -2, -1
+@ include/linux/units.h, -2, -1
+@ include/linux/usb.h, -2, -1
+@ include/linux/user_namespace.h, -2, -1
+@ include/linux/userfaultfd_k.h, -2, -1
+@ include/linux/vdpa.h, -2, -1
+@ include/linux/verification.h, -2, -1
+@ include/linux/virtio_pci_modern.h, -2, -1
+@ include/linux/virtio_vsock.h, -2, -1
+@ include/linux/wait.h, -2, -1
+@ include/linux/workqueue.h, -2, -1
+@ lib/bitmap.c, -2, -1
+@ lib/closure.c, -1, -2
+@ lib/cpumask.c, -2, -1
+@ lib/debugobjects.c, -2, -1
+@ lib/decompress_unxz.c, -2, -1
+@ lib/kobject_uevent.c, -2, -1
+@ lib/nlattr.c, -2, -1
+@ lib/percpu_counter.c, -2, -1
+@ lib/seq_buf.c, -2, -1
+@ lib/test_bitmap.c, -2, -1
+@ lib/test_bpf.c, -2, -1
+@ lib/ucs2_string.c, -2, -1
+@ lib/vsprintf.c, -2, -1
+@ fs/bcachefs/sysfs.c, 1032, 1035
+- 152, 1, = ,152, 3
+- 215, 1, = ,217, 1
+- 344, 1, = ,346, 1
+- 389, 2, = ,391, 2
++ 497, 1, = ,499, 1
+- 649, 1, = ,651, 1
+- 710, 4, = ,712, 2
+- 885, 1, = ,885, 1
+- 913, 7, = ,913, 2
+- 933, 2, = ,928, 5
+- 1001, 0, = ,999, 3
+- 1018, 1, = ,1019, 3
+@ fs/bcachefs/fs.c, 1981, 1978
+- 767, 1, = ,767, 1
+- 771, 1, = ,771, 1
+- 775, 1, = ,775, 1
+- 1216, 3, = ,1216, 0
++ 1907, 1, = ,1904, 1
+@ fs/bcachefs/btree_types.h, 740, 757
++ 166, 1, = ,166, 1
+- 231, 0, = ,231, 2
++ 324, 1, = ,326, 1
+- 427, 0, = ,429, 1
+- 639, 1, = ,642, 2
+- 642, 1, = ,646, 1
+- 648, 1, = ,652, 1
+- 657, 0, = ,661, 2
+- 658, 6, = ,664, 6
+- 666, 4, = ,672, 4
+- 677, 1, = ,683, 1
+- 683, 1, = ,689, 1
+- 693, 1, = ,699, 1
+- 707, 0, = ,713, 11
+@ fs/bcachefs/btree_key_cache.c, 1076, 1073
+- 327, 1, = ,327, 1
+- 410, 1, = ,410, 1
+- 512, 1, = ,512, 1
++ 837, 1, = ,837, 2
++ 934, 1, = ,935, 2
++ 954, 1, = ,956, 1
++ 1028, 1, = ,1030, 0
+# 1041, 2, = ,1042, 4
++ 1044, 6, = ,1047, 0
+@ fs/bcachefs/btree_cache.c, 1205, 1216
++ 288, 1, = ,288, 2
++ 386, 1, = ,387, 2
++ 401, 1, = ,403, 1
++ 455, 1, = ,457, 0
+# 475, 2, = ,476, 5
++ 478, 6, = ,482, 0
+- 788, 1, = ,786, 1
+- 793, 1, = ,791, 1
+- 1156, 2, = ,1154, 15

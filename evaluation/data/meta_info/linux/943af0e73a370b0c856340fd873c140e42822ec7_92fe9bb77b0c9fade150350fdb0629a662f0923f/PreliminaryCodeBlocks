@@ -1,0 +1,422 @@
+@ arch/x86/events/amd/core.c, -2, -1
+@ arch/x86/events/core.c, -2, -1
+@ arch/x86/events/intel/core.c, -2, -1
+@ arch/x86/events/intel/cstate.c, -2, -1
+@ arch/x86/events/intel/ds.c, -2, -1
+@ arch/x86/events/intel/pt.c, -2, -1
+@ arch/x86/events/intel/uncore.c, -1, -2
+@ arch/x86/events/perf_event.h, -2, -1
+@ arch/x86/events/rapl.c, -2, -1
+@ arch/x86/events/utils.c, -2, -1
+@ arch/x86/hyperv/hv_init.c, -2, -1
+@ arch/x86/hyperv/ivm.c, -1, -2
+@ arch/x86/include/asm/alternative.h, -2, -1
+@ arch/x86/include/asm/apic.h, -1, -2
+@ arch/x86/include/asm/bitops.h, -2, -1
+@ arch/x86/include/asm/boot.h, -2, -1
+@ arch/x86/include/asm/cacheinfo.h, -1, -2
+@ arch/x86/include/asm/cmpxchg.h, -2, -1
+@ arch/x86/include/asm/cpu.h, -2, -1
+@ arch/x86/include/asm/efi.h, -2, -1
+@ arch/x86/include/asm/elf.h, -2, -1
+@ arch/x86/include/asm/hw_irq.h, -2, -1
+@ arch/x86/include/asm/i8259.h, -2, -1
+@ arch/x86/include/asm/ia32.h, -2, -1
+@ arch/x86/include/asm/init.h, -2, -1
+@ arch/x86/include/asm/intel-family.h, -2, -1
+@ arch/x86/include/asm/kvm_host.h, -2, -1
+@ arch/x86/include/asm/linkage.h, -2, -1
+@ arch/x86/include/asm/local.h, -2, -1
+@ arch/x86/include/asm/mce.h, -2, -1
+@ arch/x86/include/asm/mem_encrypt.h, -2, -1
+@ arch/x86/include/asm/mmu_context.h, -2, -1
+@ arch/x86/include/asm/mpspec.h, -1, -2
+@ arch/x86/include/asm/msr-index.h, -2, -1
+@ arch/x86/include/asm/nospec-branch.h, -2, -1
+@ arch/x86/include/asm/numa.h, -2, -1
+@ arch/x86/include/asm/paravirt_types.h, -2, -1
+@ arch/x86/include/asm/percpu.h, -2, -1
+@ arch/x86/include/asm/perf_event.h, -2, -1
+@ arch/x86/include/asm/pgtable.h, -2, -1
+@ arch/x86/include/asm/preempt.h, -2, -1
+@ arch/x86/include/asm/prom.h, -2, -1
+@ arch/x86/include/asm/proto.h, -2, -1
+@ arch/x86/include/asm/sparsemem.h, -2, -1
+@ arch/x86/include/asm/spec-ctrl.h, -2, -1
+@ arch/x86/include/asm/svm.h, -2, -1
+@ arch/x86/include/asm/syscall.h, -2, -1
+@ arch/x86/include/asm/topology.h, -1, -2
+@ arch/x86/include/asm/uaccess.h, -2, -1
+@ arch/x86/include/asm/x86_init.h, -1, -2
+@ arch/x86/kernel/alternative.c, -2, -1
+@ arch/x86/kernel/apic/apic.c, -1, -2
+@ arch/x86/kernel/apic/apic_common.c, -1, -2
+@ arch/x86/kernel/apic/apic_flat_64.c, -1, -2
+@ arch/x86/kernel/apic/apic_noop.c, -1, -2
+@ arch/x86/kernel/apic/apic_numachip.c, -1, -2
+@ arch/x86/kernel/apic/bigsmp_32.c, -1, -2
+@ arch/x86/kernel/apic/ipi.c, -1, -2
+@ arch/x86/kernel/apic/local.h, -1, -2
+@ arch/x86/kernel/apic/msi.c, -2, -1
+@ arch/x86/kernel/apic/probe_32.c, -1, -2
+@ arch/x86/kernel/apic/x2apic_phys.c, -1, -2
+@ arch/x86/kernel/callthunks.c, -2, -1
+@ arch/x86/kernel/cpu/bugs.c, -2, -1
+@ arch/x86/kernel/cpu/cacheinfo.c, -1, -2
+@ arch/x86/kernel/cpu/cpu.h, -1, -2
+@ arch/x86/kernel/cpu/intel.c, -1, -2
+@ arch/x86/kernel/cpu/mce/amd.c, -2, -1
+@ arch/x86/kernel/cpu/mce/apei.c, -1, -2
+@ arch/x86/kernel/cpu/mce/intel.c, -2, -1
+@ arch/x86/kernel/cpu/mce/internal.h, -2, -1
+@ arch/x86/kernel/cpu/proc.c, -1, -2
+@ arch/x86/kernel/cpu/topology.c, -1, -2
+@ arch/x86/kernel/cpu/zhaoxin.c, -1, -2
+@ arch/x86/kernel/devicetree.c, -2, -1
+@ arch/x86/kernel/head64.c, -2, -1
+@ arch/x86/kernel/hpet.c, -2, -1
+@ arch/x86/kernel/i8259.c, -2, -1
+@ arch/x86/kernel/idt.c, -2, -1
+@ arch/x86/kernel/kgdb.c, -2, -1
+@ arch/x86/kernel/kvm.c, -1, -2
+@ arch/x86/kernel/nmi.c, -2, -1
+@ arch/x86/kernel/paravirt.c, -2, -1
+@ arch/x86/kernel/process.c, -2, -1
+@ arch/x86/kernel/setup.c, -2, -1
+@ arch/x86/kernel/sev-shared.c, -2, -1
+@ arch/x86/kernel/shstk.c, -2, -1
+@ arch/x86/kernel/smp.c, -2, -1
+@ arch/x86/kernel/topology.c, -2, -1
+@ arch/x86/kernel/tsc_sync.c, -2, -1
+@ arch/x86/kernel/unwind_orc.c, -2, -1
+@ arch/x86/kernel/vsmp_64.c, -1, -2
+@ arch/x86/mm/maccess.c, -2, -1
+@ arch/x86/mm/mem_encrypt.c, -2, -1
+@ arch/x86/mm/mem_encrypt_amd.c, -2, -1
+@ arch/x86/mm/pti.c, -2, -1
+@ arch/x86/xen/apic.c, -1, -2
+@ arch/x86/xen/efi.c, -2, -1
+@ arch/x86/xen/enlighten.c, -2, -1
+@ arch/x86/xen/enlighten_hvm.c, -2, -1
+@ arch/x86/xen/enlighten_pv.c, -2, -1
+@ arch/x86/xen/mmu_pv.c, -2, -1
+@ arch/x86/xen/multicalls.h, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_crat.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_crat.h, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_device_queue_manager.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_doorbell.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager.h, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager_cik.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager_v10.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager_v11.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager_v9.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager_vi.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_packet_manager_v9.c, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_priv.h, -2, -1
+@ drivers/gpu/drm/amd/amdkfd/kfd_topology.h, -2, -1
+@ drivers/gpu/drm/drm_atomic_helper.c, -2, -1
+@ drivers/gpu/drm/drm_connector.c, -2, -1
+@ drivers/gpu/drm/drm_edid.c, -2, -1
+@ drivers/gpu/drm/drm_exec.c, -2, -1
+@ drivers/gpu/drm/drm_gem.c, -2, -1
+@ drivers/gpu/drm/drm_panel_orientation_quirks.c, -2, -1
+@ drivers/hwmon/fam15h_power.c, -1, -2
+@ drivers/hwmon/nct6775-core.c, -2, -1
+@ drivers/scsi/iscsi_tcp.c, -2, -1
+@ drivers/scsi/lpfc/lpfc_debugfs.c, -2, -1
+@ drivers/scsi/lpfc/lpfc_hbadisc.c, -2, -1
+@ drivers/scsi/lpfc/lpfc_init.c, -1, -2
+@ drivers/scsi/lpfc/lpfc_nvme.c, -2, -1
+@ drivers/scsi/ppa.c, -2, -1
+@ drivers/scsi/scsi.c, -2, -1
+@ drivers/scsi/scsi_scan.c, -2, -1
+@ drivers/scsi/sd.c, -2, -1
+@ drivers/scsi/sd.h, -2, -1
+@ kernel/acct.c, -2, -1
+@ kernel/auditsc.c, -2, -1
+@ kernel/crash_core.c, -2, -1
+@ kernel/fork.c, -2, -1
+@ kernel/freezer.c, -2, -1
+@ kernel/kcmp.c, -2, -1
+@ kernel/panic.c, -2, -1
+@ kernel/pid.c, -2, -1
+@ kernel/signal.c, -2, -1
+@ kernel/smp.c, -2, -1
+@ kernel/stacktrace.c, -2, -1
+@ kernel/sys_ni.c, -2, -1
+@ kernel/sysctl.c, -2, -1
+@ kernel/task_work.c, -2, -1
+@ kernel/up.c, -2, -1
+@ kernel/workqueue.c, -2, -1
+@ kernel/cpu.c, 3228, 3233
+- 662, 1, = ,662, 1
+- 667, 0, = ,667, 8
+- 688, 1, = ,696, 1
+- 791, 1, = ,799, 1
+- 794, 1, = ,802, 1
++ 1518, 2, = ,1526, 0
++ 1521, 5, = ,1527, 4
+- 1747, 1, = ,1752, 1
+@ drivers/gpu/drm/amd/amdkfd/kfd_topology.c, 2293, 2284
++ 453, 1, = ,453, 2
++ 1599, 2, = ,1600, 1
++ 1604, 1, = ,1604, 1
++ 1607, 3, = ,1607, 1
++ 1644, 8, = ,1642, 7
++ 1653, 3, = ,1650, 2
++ 1673, 1, = ,1669, 1
++ 1707, 3, = ,1703, 0
++ 1713, 4, = ,1706, 3
++ 1718, 2, = ,1710, 2
++ 1722, 2, = ,1714, 2
++ 1725, 11, = ,1717, 3
++ 1737, 0, = ,1721, 7
++ 1742, 1, = ,1733, 1
+- 2221, 1, = ,2212, 1
+@ arch/x86/mm/numa.c, 1041, 965
++ 6, 1, = ,6, 0
++ 15, 1, = ,14, 0
+- 61, 1, = ,59, 1
++ 606, 0, = ,604, 7
++ 731, 2, = ,736, 0
+- 786, 1, = ,789, 1
++ 961, 79, = ,964, 0
+@ arch/x86/kernel/smpboot.c, 1629, 1655
++ 90, 1, = ,90, 0
+- 128, 1, = ,127, 14
+- 341, 4, = ,353, 2
+- 359, 1, = ,369, 1
+- 362, 5, = ,372, 3
+- 391, 1, = ,399, 3
+- 414, 1, = ,424, 3
+- 425, 2, = ,437, 2
+- 480, 4, = ,492, 4
+- 486, 3, = ,498, 3
+- 492, 3, = ,504, 3
+- 503, 2, = ,515, 2
+- 514, 1, = ,526, 1
+- 518, 1, = ,530, 1
+- 531, 1, = ,543, 1
+- 564, 1, = ,576, 1
+- 568, 1, = ,580, 1
++ 583, 0, = ,595, 1
++ 606, 8, = ,619, 1
++ 644, 1, = ,650, 1
++ 650, 1, = ,656, 1
+- 813, 1, = ,819, 1
+- 839, 1, = ,845, 1
+- 986, 1, = ,992, 1
+- 1054, 1, = ,1060, 1
+# 1244, 0, = ,1250, 27
+- 1409, 1, = ,1442, 1
++ 1600, 4, = ,1633, 0
++ 1606, 3, = ,1635, 0
+@ arch/x86/kernel/sev.c, 2262, 2233
++ 527, 27, = ,527, 0
++ 898, 1, = ,871, 2
+- 969, 1, = ,943, 1
++ 1538, 3, = ,1512, 0
+@ arch/x86/kernel/cpu/mce/core.c, 2862, 2872
+- 126, 2, = ,126, 2
++ 456, 1, = ,456, 7
++ 459, 1, = ,465, 1
++ 461, 3, = ,467, 4
++ 465, 3, = ,472, 2
++ 469, 3, = ,475, 7
+@ arch/x86/kernel/cpu/hygon.c, 402, 392
+- 66, 2, = ,66, 0
+- 75, 1, = ,73, 1
+- 77, 1, = ,75, 1
+- 90, 2, = ,88, 6
+- 93, 1, = ,95, 1
+- 98, 3, = ,100, 2
+- 115, 1, = ,116, 0
+- 119, 1, = ,119, 1
+- 121, 3, = ,121, 3
+- 131, 1, = ,131, 1
+- 135, 1, = ,135, 1
+- 164, 1, = ,164, 1
++ 293, 2, = ,293, 0
+- 306, 1, = ,304, 1
++ 325, 8, = ,323, 0
+@ arch/x86/kernel/cpu/common.c, 2427, 2411
++ 65, 1, = ,65, 0
+- 78, 12, = ,77, 0
+- 918, 1, = ,905, 1
+- 926, 2, = ,913, 2
++ 1118, 1, = ,1105, 0
++ 1120, 5, = ,1106, 1
++ 1129, 14, = ,1111, 0
++ 1144, 0, = ,1112, 4
++ 1145, 1, = ,1117, 0
++ 1323, 1, = ,1294, 1
++ 1599, 0, = ,1570, 11
++ 1610, 0, = ,1592, 1
++ 1625, 2, = ,1608, 0
+- 1771, 1, = ,1752, 1
+- 1774, 1, = ,1755, 1
+- 1776, 1, = ,1757, 1
+- 1779, 1, = ,1760, 1
+- 1809, 1, = ,1790, 2
+- 1813, 1, = ,1795, 1
+- 1815, 1, = ,1797, 1
+- 1817, 2, = ,1799, 2
+- 1820, 1, = ,1802, 1
+- 1839, 1, = ,1821, 3
+- 1865, 1, = ,1849, 1
++ 2084, 18, = ,2068, 18
+@ arch/x86/kernel/cpu/amd.c, 1340, 1329
++ 83, 4, = ,83, 0
+- 385, 1, = ,381, 1
+- 397, 1, = ,393, 1
+- 408, 2, = ,404, 0
+- 417, 1, = ,411, 1
+- 420, 1, = ,414, 1
+- 423, 1, = ,417, 1
+- 437, 1, = ,431, 1
+- 443, 3, = ,437, 2
+- 462, 1, = ,455, 0
+- 466, 1, = ,458, 1
+- 468, 1, = ,460, 1
+- 470, 1, = ,462, 1
+- 484, 1, = ,476, 1
+- 488, 1, = ,480, 1
+- 518, 1, = ,510, 1
++ 773, 9, = ,765, 0
++ 1017, 0, = ,1000, 1
++ 1046, 2, = ,1030, 0
+- 1064, 1, = ,1046, 1
++ 1099, 8, = ,1081, 0
++ 1165, 4, = ,1139, 0
++ 1330, 0, = ,1300, 19
+@ arch/x86/kernel/apic/x2apic_uv_x.c, 1873, 1874
++ 113, 1, = ,113, 1
+- 704, 1, = ,704, 1
+- 782, 1, = ,782, 1
+- 792, 1, = ,792, 1
++ 1536, 1, = ,1536, 1
++ 1587, 3, = ,1587, 3
++ 1591, 1, = ,1591, 1
++ 1595, 0, = ,1595, 1
+@ arch/x86/kernel/amd_nb.c, 544, 536
++ 30, 1, = ,30, 0
++ 47, 1, = ,46, 0
++ 67, 1, = ,65, 0
++ 99, 1, = ,96, 0
++ 119, 3, = ,115, 0
++ 125, 1, = ,118, 0
+- 397, 1, = ,389, 1
+- 423, 1, = ,415, 1
+@ arch/x86/kernel/acpi/boot.c, 1904, 1901
++ 151, 3, = ,151, 0
+- 365, 1, = ,362, 1
+- 862, 1, = ,859, 1
+@ arch/x86/include/asm/smp.h, 199, 198
+- 20, 2, = ,20, 0
+- 23, 1, = ,21, 1
++ 132, 0, = ,130, 1
+@ arch/x86/include/asm/processor.h, 730, 763
+- 78, 3, = ,78, 1
+- 83, 0, = ,81, 27
+- 99, 1, = ,124, 0
+- 115, 0, = ,139, 1
+- 128, 2, = ,153, 0
+- 133, 8, = ,156, 0
++ 402, 1, = ,417, 1
+- 681, 1, = ,696, 9
++ 686, 0, = ,709, 1
++ 691, 0, = ,715, 1
++ 727, 0, = ,752, 8
+@ arch/x86/include/asm/mshyperv.h, 352, 350
+- 279, 1, = ,279, 1
+- 283, 1, = ,283, 1
++ 343, 1, = ,343, 0
++ 346, 1, = ,345, 0
+@ arch/x86/hyperv/hv_vtl.c, 233, 234
+- 199, 1, = ,199, 1
++ 218, 1, = ,218, 1
++ 233, 0, = ,233, 1
+@ arch/x86/events/amd/uncore.c, 1118, 790
++ 29, 2, = ,29, 0
++ 36, 0, = ,34, 3
++ 37, 1, = ,38, 4
++ 40, 0, = ,44, 5
++ 44, 10, = ,53, 2
++ 55, 4, = ,56, 2
++ 60, 2, = ,59, 2
++ 63, 24, = ,62, 1
++ 88, 1, = ,64, 16
++ 103, 10, = ,94, 1
++ 139, 1, = ,121, 1
++ 147, 2, = ,129, 1
++ 152, 1, = ,133, 1
++ 155, 2, = ,136, 2
++ 164, 2, = ,145, 2
++ 175, 3, = ,156, 3
++ 180, 2, = ,161, 9
++ 184, 1, = ,172, 1
++ 192, 2, = ,180, 1
++ 196, 1, = ,183, 1
++ 198, 2, = ,185, 2
++ 206, 0, = ,193, 25
++ 208, 2, = ,220, 1
++ 211, 0, = ,222, 1
++ 215, 7, = ,227, 2
++ 231, 1, = ,238, 1
++ 234, 0, = ,241, 14
++ 238, 1, = ,259, 1
++ 260, 2, = ,281, 2
++ 263, 1, = ,284, 8
++ 290, 1, = ,318, 1
++ 300, 1, = ,328, 0
++ 317, 7, = ,344, 0
++ 361, 5, = ,381, 0
++ 384, 4, = ,399, 12
++ 390, 2, = ,413, 16
++ 393, 2, = ,430, 2
++ 397, 2, = ,434, 2
++ 400, 2, = ,437, 2
++ 404, 2, = ,441, 1
++ 407, 3, = ,443, 1
++ 411, 24, = ,445, 16
++ 436, 1, = ,462, 0
++ 438, 57, = ,463, 16
++ 500, 1, = ,484, 9
++ 505, 1, = ,497, 3
++ 507, 3, = ,501, 2
++ 511, 2, = ,504, 2
++ 514, 4, = ,507, 1
++ 520, 5, = ,510, 2
++ 526, 7, = ,513, 4
++ 535, 0, = ,519, 3
++ 539, 0, = ,526, 1
++ 540, 1, = ,528, 0
+# 542, 3, = ,529, 15
++ 550, 0, = ,549, 23
++ 552, 2, = ,574, 2
++ 555, 5, = ,577, 2
++ 564, 0, = ,583, 26
++ 566, 2, = ,611, 2
++ 569, 3, = ,614, 16
++ 574, 1, = ,632, 1
++ 579, 2, = ,637, 2
++ 582, 4, = ,640, 2
++ 590, 64, = ,646, 1
++ 656, 130, = ,649, 0
++ 787, 99, = ,650, 0
++ 887, 125, = ,651, 0
++ 1013, 1, = ,652, 0
++ 1025, 2, = ,663, 14
++ 1028, 4, = ,678, 7
++ 1033, 2, = ,686, 2
++ 1036, 1, = ,689, 1
++ 1038, 1, = ,691, 41
++ 1043, 5, = ,736, 4
++ 1049, 4, = ,741, 3
++ 1054, 6, = ,745, 4
++ 1061, 1, = ,750, 0
++ 1068, 8, = ,756, 6
++ 1082, 4, = ,768, 0
++ 1090, 4, = ,772, 5
++ 1095, 15, = ,778, 4

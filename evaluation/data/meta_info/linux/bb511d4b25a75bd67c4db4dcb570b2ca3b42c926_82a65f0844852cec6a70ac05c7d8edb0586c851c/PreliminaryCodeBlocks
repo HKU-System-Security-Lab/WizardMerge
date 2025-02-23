@@ -1,0 +1,280 @@
+@ drivers/firmware/arm_sdei.c, -2, -1
+@ drivers/firmware/mtk-adsp-ipc.c, -2, -1
+@ drivers/firmware/qcom_scm.c, -2, -1
+@ drivers/firmware/raspberrypi.c, -2, -1
+@ drivers/firmware/scpi_pm_domain.c, -2, -1
+@ drivers/firmware/stratix10-rsu.c, -2, -1
+@ drivers/firmware/ti_sci.c, -2, -1
+@ drivers/pinctrl/core.c, -1, -2
+@ drivers/pinctrl/pinctrl-amd.h, -2, -1
+@ drivers/pinctrl/pinctrl-at91-pio4.c, -1, -2
+@ drivers/pinctrl/pinctrl-at91.c, -1, -2
+@ drivers/pinctrl/pinctrl-axp209.c, -1, -2
+@ drivers/pinctrl/pinctrl-cy8c95x0.c, -1, -2
+@ drivers/pinctrl/pinctrl-k210.c, -1, -2
+@ drivers/pinctrl/pinctrl-lpc18xx.c, -1, -2
+@ drivers/pinctrl/pinctrl-mcp23s08_spi.c, -1, -2
+@ drivers/pinctrl/pinctrl-mlxbf3.c, -1, -2
+@ drivers/pinctrl/pinctrl-ocelot.c, -1, -2
+@ drivers/pinctrl/pinctrl-palmas.c, -1, -2
+@ drivers/pinctrl/pinctrl-pic32.c, -1, -2
+@ drivers/pinctrl/pinctrl-rockchip.c, -1, -2
+@ drivers/pinctrl/pinctrl-single.c, -1, -2
+@ drivers/pinctrl/pinctrl-stmfx.c, -1, -2
+@ drivers/pinctrl/pinctrl-sx150x.c, -1, -2
+@ drivers/pinctrl/pinctrl-zynqmp.c, -1, -2
+@ drivers/pinctrl/pinmux.c, -1, -2
+@ drivers/pinctrl/qcom/pinctrl-ipq5018.c, -1, -2
+@ drivers/pinctrl/qcom/pinctrl-lpass-lpi.c, -1, -2
+@ drivers/pinctrl/qcom/pinctrl-msm.c, -2, -1
+@ drivers/pinctrl/qcom/pinctrl-msm.h, -2, -1
+@ drivers/pinctrl/qcom/pinctrl-sa8775p.c, -2, -1
+@ drivers/pinctrl/qcom/pinctrl-sdx75.c, -1, -2
+@ drivers/pinctrl/qcom/pinctrl-spmi-gpio.c, -1, -2
+@ drivers/pinctrl/qcom/pinctrl-ssbi-gpio.c, -1, -2
+@ drivers/pinctrl/qcom/pinctrl-ssbi-mpp.c, -1, -2
+@ drivers/pinctrl/renesas/core.c, -1, -2
+@ drivers/pinctrl/renesas/pinctrl-rza1.c, -1, -2
+@ include/dt-bindings/gpio/meson-g12a-gpio.h, -2, -1
+@ include/linux/acpi.h, -2, -1
+@ include/linux/acpi_iort.h, -2, -1
+@ include/linux/arm-smccc.h, -2, -1
+@ include/linux/arm_sdei.h, -2, -1
+@ include/linux/backing-dev.h, -2, -1
+@ include/linux/bio.h, -2, -1
+@ include/linux/blk-crypto-profile.h, -2, -1
+@ include/linux/blk-mq.h, -2, -1
+@ include/linux/blk_types.h, -2, -1
+@ include/linux/blkdev.h, -2, -1
+@ include/linux/bpf-cgroup.h, -2, -1
+@ include/linux/bpf.h, -2, -1
+@ include/linux/bpf_mem_alloc.h, -2, -1
+@ include/linux/bpf_verifier.h, -2, -1
+@ include/linux/brcmphy.h, -2, -1
+@ include/linux/btf.h, -2, -1
+@ include/linux/btf_ids.h, -2, -1
+@ include/linux/buffer_head.h, -2, -1
+@ include/linux/cacheflush.h, -2, -1
+@ include/linux/cfi.h, -2, -1
+@ include/linux/cgroup-defs.h, -2, -1
+@ include/linux/clk.h, -2, -1
+@ include/linux/compiler_attributes.h, -2, -1
+@ include/linux/compiler_types.h, -2, -1
+@ include/linux/completion.h, -2, -1
+@ include/linux/connector.h, -2, -1
+@ include/linux/cpu.h, -2, -1
+@ include/linux/cpufreq.h, -2, -1
+@ include/linux/cpuhotplug.h, -2, -1
+@ include/linux/cpumask.h, -2, -1
+@ include/linux/crash_core.h, -2, -1
+@ include/linux/cred.h, -2, -1
+@ include/linux/damon.h, -2, -1
+@ include/linux/dax.h, -2, -1
+@ include/linux/device.h, -2, -1
+@ include/linux/dm-verity-loadpin.h, -2, -1
+@ include/linux/dma-fence.h, -2, -1
+@ include/linux/dma-map-ops.h, -2, -1
+@ include/linux/dma-mapping.h, -2, -1
+@ include/linux/dnotify.h, -2, -1
+@ include/linux/efi.h, -2, -1
+@ include/linux/evm.h, -2, -1
+@ include/linux/fb.h, -2, -1
+@ include/linux/filelock.h, -2, -1
+@ include/linux/filter.h, -2, -1
+@ include/linux/firmware/xlnx-zynqmp.h, -1, -2
+@ include/linux/fs.h, -2, -1
+@ include/linux/fs_context.h, -2, -1
+@ include/linux/fs_stack.h, -2, -1
+@ include/linux/fsnotify_backend.h, -2, -1
+@ include/linux/ftrace.h, -2, -1
+@ include/linux/genl_magic_func.h, -2, -1
+@ include/linux/genl_magic_struct.h, -2, -1
+@ include/linux/highmem.h, -2, -1
+@ include/linux/hisi_acc_qm.h, -2, -1
+@ include/linux/huge_mm.h, -2, -1
+@ include/linux/hugetlb.h, -2, -1
+@ include/linux/hyperv.h, -2, -1
+@ include/linux/icmpv6.h, -2, -1
+@ include/linux/ieee80211.h, -2, -1
+@ include/linux/if_arp.h, -2, -1
+@ include/linux/if_team.h, -2, -1
+@ include/linux/if_vlan.h, -2, -1
+@ include/linux/intel_rapl.h, -2, -1
+@ include/linux/io_uring.h, -2, -1
+@ include/linux/io_uring_types.h, -2, -1
+@ include/linux/iomap.h, -2, -1
+@ include/linux/ipv6.h, -2, -1
+@ include/linux/ism.h, -2, -1
+@ include/linux/jbd2.h, -2, -1
+@ include/linux/kernel.h, -2, -1
+@ include/linux/kexec.h, -2, -1
+@ include/linux/kfence.h, -2, -1
+@ include/linux/ksm.h, -2, -1
+@ include/linux/kthread.h, -2, -1
+@ include/linux/limits.h, -2, -1
+@ include/linux/list.h, -2, -1
+@ include/linux/lockdep.h, -2, -1
+@ include/linux/lsm_hook_defs.h, -2, -1
+@ include/linux/lsm_hooks.h, -2, -1
+@ include/linux/maple_tree.h, -2, -1
+@ include/linux/marvell_phy.h, -2, -1
+@ include/linux/math.h, -2, -1
+@ include/linux/mdio.h, -2, -1
+@ include/linux/memblock.h, -2, -1
+@ include/linux/memcontrol.h, -2, -1
+@ include/linux/memory-tiers.h, -2, -1
+@ include/linux/memory.h, -2, -1
+@ include/linux/memory_hotplug.h, -2, -1
+@ include/linux/minmax.h, -2, -1
+@ include/linux/mm.h, -2, -1
+@ include/linux/mm_inline.h, -2, -1
+@ include/linux/mm_types.h, -2, -1
+@ include/linux/mm_types_task.h, -2, -1
+@ include/linux/mmap_lock.h, -2, -1
+@ include/linux/mmu_notifier.h, -2, -1
+@ include/linux/mmzone.h, -2, -1
+@ include/linux/module_symbol.h, -2, -1
+@ include/linux/moduleloader.h, -2, -1
+@ include/linux/net.h, -2, -1
+@ include/linux/net_tstamp.h, -2, -1
+@ include/linux/netdevice.h, -2, -1
+@ include/linux/netfilter.h, -2, -1
+@ include/linux/netlink.h, -2, -1
+@ include/linux/nls.h, -2, -1
+@ include/linux/nmi.h, -2, -1
+@ include/linux/notifier.h, -2, -1
+@ include/linux/nsproxy.h, -2, -1
+@ include/linux/nvme.h, -2, -1
+@ include/linux/of.h, -2, -1
+@ include/linux/of_platform.h, -2, -1
+@ include/linux/page-flags.h, -2, -1
+@ include/linux/page_ext.h, -2, -1
+@ include/linux/page_idle.h, -2, -1
+@ include/linux/page_table_check.h, -2, -1
+@ include/linux/pagemap.h, -2, -1
+@ include/linux/pagewalk.h, -2, -1
+@ include/linux/pci.h, -2, -1
+@ include/linux/pci_ids.h, -2, -1
+@ include/linux/percpu.h, -2, -1
+@ include/linux/perf_event.h, -2, -1
+@ include/linux/pgtable.h, -2, -1
+@ include/linux/phy.h, -2, -1
+@ include/linux/phylink.h, -2, -1
+@ include/linux/pid_namespace.h, -2, -1
+@ include/linux/pipe_fs_i.h, -2, -1
+@ include/linux/platform_device.h, -2, -1
+@ include/linux/pm.h, -1, -2
+@ include/linux/pm_opp.h, -2, -1
+@ include/linux/pm_runtime.h, -2, -1
+@ include/linux/pm_wakeirq.h, -2, -1
+@ include/linux/pm_wakeup.h, -2, -1
+@ include/linux/prefetch.h, -2, -1
+@ include/linux/psi.h, -2, -1
+@ include/linux/psi_types.h, -2, -1
+@ include/linux/psp-platform-access.h, -2, -1
+@ include/linux/raid_class.h, -2, -1
+@ include/linux/range.h, -2, -1
+@ include/linux/rbtree_augmented.h, -2, -1
+@ include/linux/rculist_nulls.h, -2, -1
+@ include/linux/rcupdate_trace.h, -2, -1
+@ include/linux/rcupdate_wait.h, -2, -1
+@ include/linux/rcutiny.h, -2, -1
+@ include/linux/rcutree.h, -2, -1
+@ include/linux/regmap.h, -2, -1
+@ include/linux/rethook.h, -2, -1
+@ include/linux/rmap.h, -2, -1
+@ include/linux/sched.h, -2, -1
+@ include/linux/secretmem.h, -2, -1
+@ include/linux/security.h, -2, -1
+@ include/linux/sed-opal.h, -2, -1
+@ include/linux/seq_file.h, -2, -1
+@ include/linux/serial_core.h, -2, -1
+@ include/linux/shmem_fs.h, -2, -1
+@ include/linux/skbuff.h, -2, -1
+@ include/linux/skmsg.h, -2, -1
+@ include/linux/slab.h, -2, -1
+@ include/linux/smscphy.h, -2, -1
+@ include/linux/srcutiny.h, -2, -1
+@ include/linux/stmmac.h, -2, -1
+@ include/linux/swait.h, -2, -1
+@ include/linux/swap.h, -2, -1
+@ include/linux/swapfile.h, -2, -1
+@ include/linux/swapops.h, -2, -1
+@ include/linux/swiotlb.h, -2, -1
+@ include/linux/syscalls.h, -2, -1
+@ include/linux/sysctl.h, -2, -1
+@ include/linux/sysfb.h, -2, -1
+@ include/linux/tcp.h, -2, -1
+@ include/linux/thermal.h, -2, -1
+@ include/linux/torture.h, -2, -1
+@ include/linux/tpm.h, -2, -1
+@ include/linux/trace_events.h, -2, -1
+@ include/linux/uio.h, -2, -1
+@ include/linux/userfaultfd_k.h, -2, -1
+@ include/linux/virtio_net.h, -2, -1
+@ include/linux/wait.h, -2, -1
+@ include/linux/writeback.h, -2, -1
+@ include/linux/xattr.h, -2, -1
+@ drivers/pinctrl/renesas/pinctrl-rzv2m.c, 1141, 1111
+# 17, 2, = ,17, 2
+- 122, 1, = ,122, 0
++ 127, 2, = ,126, 1
++ 327, 2, = ,325, 0
++ 333, 1, = ,329, 1
++ 347, 2, = ,343, 0
++ 360, 2, = ,354, 0
+- 1050, 5, = ,1042, 0
+- 1058, 0, = ,1045, 1
+- 1074, 6, = ,1062, 4
++ 1082, 1, = ,1068, 0
+- 1086, 15, = ,1071, 0
+@ drivers/pinctrl/renesas/pinctrl-rzg2l.c, 1594, 1564
+# 14, 2, = ,14, 1
+- 17, 0, = ,16, 1
+- 148, 1, = ,148, 0
++ 153, 1, = ,152, 1
++ 156, 2, = ,155, 1
++ 367, 2, = ,365, 0
++ 373, 1, = ,369, 1
++ 387, 2, = ,383, 0
++ 400, 2, = ,394, 0
+- 1481, 5, = ,1473, 0
+- 1489, 0, = ,1476, 1
+- 1511, 6, = ,1499, 4
++ 1520, 1, = ,1506, 0
+- 1524, 15, = ,1509, 0
+@ drivers/pinctrl/renesas/pinctrl-rza2.c, 530, 518
+# 17, 2, = ,17, 1
+- 20, 0, = ,19, 1
++ 50, 1, = ,50, 0
++ 363, 2, = ,362, 0
++ 367, 4, = ,364, 2
++ 399, 2, = ,394, 0
++ 409, 3, = ,402, 0
++ 487, 2, = ,477, 0
+@ drivers/pinctrl/pinctrl-amd.c, 1207, 1192
++ 119, 2, = ,119, 2
++ 125, 0, = ,125, 4
++ 127, 5, = ,131, 3
++ 183, 0, = ,185, 1
++ 187, 0, = ,190, 12
++ 208, 0, = ,223, 1
++ 315, 1, = ,331, 6
++ 317, 1, = ,338, 1
++ 743, 1, = ,764, 1
+- 751, 1, = ,772, 1
++ 762, 1, = ,783, 1
++ 780, 2, = ,801, 3
++ 789, 0, = ,811, 2
++ 790, 1, = ,814, 1
+- 801, 1, = ,825, 1
++ 808, 1, = ,832, 0
++ 850, 8, = ,873, 0
++ 865, 27, = ,880, 0
++ 1129, 3, = ,1117, 0
+@ drivers/firmware/xilinx/zynqmp.c, 1994, 2042
++ 21, 1, = ,21, 0
+- 343, 0, = ,342, 2
+- 409, 0, = ,410, 33
+- 1125, 0, = ,1159, 9
+- 1923, 0, = ,1966, 5

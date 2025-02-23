@@ -1,0 +1,88 @@
+@ drivers/clk/clk-asm9260.c, -1, -2
+@ drivers/clk/clk-fractional-divider.c, -2, -1
+@ drivers/clk/clk-gate.c, -1, -2
+@ drivers/clk/clk-gate_test.c, -2, -1
+@ drivers/clk/clk-lochnagar.c, -1, -2
+@ drivers/clk/clk-npcm7xx.c, -1, -2
+@ drivers/clk/clk-renesas-pcie.c, -1, -2
+@ drivers/clk/clk-si514.c, -2, -1
+@ drivers/clk/clk-si5341.c, -2, -1
+@ drivers/clk/clk-versaclock3.c, -2, -1
+@ drivers/clk/clk-versaclock5.c, -2, -1
+@ drivers/clk/clk-versaclock7.c, -2, -1
+@ drivers/clk/clk.c, -2, -1
+@ drivers/clk/clk_test.c, -2, -1
+@ drivers/clk/qcom/apss-ipq-pll.c, -2, -1
+@ drivers/clk/qcom/apss-ipq6018.c, -2, -1
+@ drivers/clk/qcom/clk-alpha-pll.c, -2, -1
+@ drivers/clk/qcom/clk-alpha-pll.h, -2, -1
+@ drivers/clk/qcom/clk-cbf-8996.c, -2, -1
+@ drivers/clk/qcom/clk-hfpll.c, -2, -1
+@ drivers/clk/qcom/clk-hfpll.h, -2, -1
+@ drivers/clk/qcom/clk-rcg2.c, -2, -1
+@ drivers/clk/qcom/clk-rpmh.c, -2, -1
+@ drivers/clk/qcom/clk-smd-rpm.c, -2, -1
+@ drivers/clk/qcom/gcc-ipq5018.c, -2, -1
+@ drivers/clk/qcom/gcc-ipq5332.c, -2, -1
+@ drivers/clk/qcom/gcc-ipq6018.c, -2, -1
+@ drivers/clk/qcom/gcc-ipq8074.c, -2, -1
+@ drivers/clk/qcom/gcc-ipq9574.c, -2, -1
+@ drivers/clk/qcom/gcc-msm8960.c, -1, -2
+@ drivers/clk/qcom/gcc-msm8974.c, -1, -2
+@ drivers/clk/qcom/gcc-msm8996.c, -2, -1
+@ drivers/clk/qcom/gcc-sm8150.c, -2, -1
+@ drivers/clk/qcom/gpucc-sm8550.c, -2, -1
+@ drivers/clk/qcom/hfpll.c, -2, -1
+@ drivers/clk/qcom/kpss-xcc.c, -1, -2
+@ drivers/clk/qcom/krait-cc.c, -1, -2
+@ drivers/clk/qcom/mmcc-msm8960.c, -1, -2
+@ drivers/clk/qcom/mmcc-msm8974.c, -2, -1
+@ drivers/clk/qcom/mmcc-msm8998.c, -2, -1
+@ drivers/clk/qcom/mmcc-sdm660.c, -1, -2
+@ drivers/clk/qcom/videocc-sm8550.c, -2, -1
+@ drivers/clk/clk-si570.c, 522, 531
+- 53, 0, = ,53, 10
+- 57, 1, = ,67, 1
+- 69, 1, = ,79, 1
+- 79, 5, = ,89, 0
+- 344, 1, = ,349, 1
++ 395, 1, = ,400, 1
+- 401, 9, = ,406, 0
+- 414, 1, = ,410, 0
+- 418, 1, = ,413, 0
+- 430, 1, = ,424, 2
+- 441, 4, = ,436, 0
+- 499, 0, = ,490, 18
+- 500, 5, = ,509, 5
+@ drivers/clk/clk-si544.c, 531, 510
+- 59, 6, = ,59, 0
+- 69, 1, = ,63, 1
+- 199, 2, = ,193, 0
+- 204, 13, = ,196, 1
++ 449, 1, = ,429, 1
+- 454, 8, = ,434, 0
+- 466, 1, = ,438, 0
+- 478, 1, = ,449, 1
+- 510, 0, = ,481, 8
+- 511, 4, = ,490, 4
+@ drivers/clk/clk-si5351.c, 1674, 1674
++ 209, 1, = ,209, 1
+- 1388, 2, = ,1388, 1
+- 1397, 0, = ,1396, 1
+@ drivers/clk/clk-si521xx.c, 397, 396
++ 99, 1, = ,99, 1
++ 149, 1, = ,149, 1
+- 282, 1, = ,282, 1
+# 284, 2, = ,284, 2
++ 287, 1, = ,287, 0
++ 312, 1, = ,311, 1
+- 319, 1, = ,318, 1
+@ drivers/clk/clk-cdce925.c, 847, 852
+- 28, 7, = ,28, 0
+- 40, 7, = ,33, 0
+- 624, 9, = ,610, 0
+- 637, 1, = ,614, 0
++ 650, 1, = ,626, 1
+- 668, 1, = ,644, 1
+- 825, 0, = ,801, 29
+- 826, 5, = ,831, 5

@@ -1,0 +1,60 @@
+@ storage/ndb/src/kernel/SimBlockList.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.cpp, -2, -1
+@ storage/ndb/src/kernel/angel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/LocalProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/PgmanProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/RestoreProxy.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/diskpage.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/lgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/mutexes.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/AsyncIoThread.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Filename.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Filename.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/MemoryChannel.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Ndbfs.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Ndbfs.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/OpenFiles.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Pool.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/VoidFs.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Win32AsyncFile.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/Win32AsyncFile.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/pgman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/print_file.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/record_types.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/restore.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/thrman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/trpman.hpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/tsman.hpp, -2, -1
+@ storage/ndb/src/kernel/main.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.cpp, -2, -1
+@ storage/ndb/src/kernel/ndbd.hpp, -2, -1
+@ storage/ndb/src/ndbclient_exports.cpp, -2, -1
+@ storage/ndb/src/ndbclient_link_test.cpp, -2, -1
+@ storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.cpp, 138, 1085
++ 26, 3, = ,26, 2
++ 30, 1, = ,29, 3
++ 32, 0, = ,33, 1
++ 34, 1, = ,36, 0
++ 46, 0, = ,47, 2
++ 52, 0, = ,55, 1
++ 54, 2, = ,58, 4
+# 57, 0, = ,63, 922
++ 62, 1, = ,990, 2
++ 73, 1, = ,1002, 1
++ 88, 1, = ,1017, 1
++ 120, 1, = ,1049, 1
++ 124, 0, = ,1053, 18
