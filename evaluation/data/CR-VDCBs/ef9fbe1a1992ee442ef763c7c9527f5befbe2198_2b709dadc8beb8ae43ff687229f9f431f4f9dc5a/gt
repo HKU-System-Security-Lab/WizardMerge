@@ -1,0 +1,11 @@
+@ storage/innobase/row/row0sel.cc, 6416, 6450
+# 3396, 2, = ,3431, 2
+# 3448, 2, = ,3483, 2
+@ storage/innobase/row/row0mysql.cc, 4799, 4803
+# 3264, 1, = ,3264, 2
+# 3943, 5, = ,3945, 6
+@ storage/innobase/include/lob0lob.h, 1625, 1641
+# 1473, 2, = ,1475, 2
+@ storage/innobase/dict/dict0dd.cc, 7614, 6991
+# 1539, 3, = ,1478, 3
+# 2816, 3, = ,2402, 3

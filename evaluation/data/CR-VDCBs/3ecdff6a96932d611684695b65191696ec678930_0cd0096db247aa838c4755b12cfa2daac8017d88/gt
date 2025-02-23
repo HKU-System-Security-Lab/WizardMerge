@@ -1,0 +1,6 @@
+@ storage/ndb/src/ndbapi/NdbInfoScanVirtual.cpp, 911, 773
+# 437, 135, = ,407, 37
+@ storage/ndb/src/kernel/vm/NdbinfoTables.cpp, 983, 1119
+# 141, 2, = ,170, 5
+@ storage/ndb/src/kernel/vm/Ndbinfo.hpp, 267, 279
+# 91, 5, = ,91, 16

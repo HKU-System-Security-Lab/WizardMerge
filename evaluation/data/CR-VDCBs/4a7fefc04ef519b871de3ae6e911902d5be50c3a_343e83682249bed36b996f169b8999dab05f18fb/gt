@@ -1,0 +1,6 @@
+@ storage/ndb/include/transporter/TransporterRegistry.hpp, 856, 840
++ 531, 1, = ,522, 0
+@ storage/ndb/src/kernel/blocks/trpman.cpp, 1086, 1131
++ 505, 5, = ,517, 0
+@ storage/ndb/src/common/transporter/TransporterRegistry.cpp, 3597, 3412
+# 3257, 2, = ,3033, 4

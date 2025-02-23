@@ -1,0 +1,17 @@
+@ sql/rpl_context.h, 501, 498
+# 281, 1, = ,279, 0
+- 296, 1, = ,293, 0
+@ sql/log_event.cc, 14341, 14343
+# 78, 1, = ,73, 1
+# 13996, 2, = ,13999, 2
+@ sql/binlog/decompressing_event_object_istream.h, 332, 319
+# 28, 3, = ,28, 2
+# 78, 1, = ,77, 0
+@ libbinlogevents/include/compression/zstd_dec.h, 32, 85 
+# 31, 1, = ,19, 66
+@ libbinlogevents/include/compression/zstd_comp.h, 32, 152 
+# 31, 1, = ,19, 133
+@ libbinlogevents/include/compression/factory.h, 32, 41 
+# 31, 1, = ,19, 22
+@ libbinlogevents/include/compression/base.h, 32, 58 
+# 31, 1, = ,19, 39

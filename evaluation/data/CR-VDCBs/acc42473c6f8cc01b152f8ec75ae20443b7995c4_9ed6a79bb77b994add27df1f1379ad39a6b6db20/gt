@@ -1,0 +1,22 @@
+@ storage/ndb/src/ndbapi/NdbScanOperation.cpp, 4260, 4254
+# 2371, 1, = ,2367, 1
+# 2389, 1, = ,2385, 1
+# 2451, 1, = ,2447, 1
+@ storage/ndb/src/ndbapi/NdbReceiver.cpp, 1542, 1542
+# 144, 1, = ,144, 1
+# 609, 1, = ,609, 1
+# 655, 1, = ,655, 1
+# 661, 1, = ,661, 1
+# 674, 1, = ,674, 1
+# 687, 1, = ,687, 1
+# 724, 1, = ,724, 1
+# 732, 1, = ,732, 1
+@ storage/ndb/src/ndbapi/NdbQueryOperationImpl.hpp, 942, 928
+# 768, 1, = ,755, 1
+@ storage/ndb/src/ndbapi/NdbQueryOperation.cpp, 5591, 5424
+# 781, 2, = ,773, 2
+# 4710, 1, = ,4604, 29
+# 5544, 5, = ,5380, 4
+@ storage/ndb/include/ndbapi/NdbReceiver.hpp, 352, 352
+# 149, 1, = ,149, 1
+# 161, 2, = ,161, 2

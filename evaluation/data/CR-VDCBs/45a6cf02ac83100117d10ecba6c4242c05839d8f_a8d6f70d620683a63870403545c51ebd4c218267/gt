@@ -1,0 +1,16 @@
+@ storage/ndb/tools/ndb_import.cpp, 995, 1001
+# 67, 256, = ,67, 262
+@ storage/ndb/tools/NdbImportUtil.hpp, 930, 928 
+# 2, 1, = ,2, 1
+@ storage/ndb/tools/NdbImportUtil.cpp, 3993, 4067 
+# 2, 1, = ,2, 1
+@ storage/ndb/tools/NdbImportImpl.hpp, 842, 841 
+# 2, 1, = ,2, 1
+@ storage/ndb/tools/NdbImportImpl.cpp, 4290, 4297
+# 3098, 12, = ,3117, 18
+@ storage/ndb/tools/NdbImportCsv.hpp, 425, 442
+# 2, 1, = ,2, 1
+@ storage/ndb/tools/NdbImportCsv.cpp, 3178, 3318
+# 2, 1, = ,2, 1
+# 2123, 3, = ,2260, 4
+# 2148, 3, = ,2286, 4

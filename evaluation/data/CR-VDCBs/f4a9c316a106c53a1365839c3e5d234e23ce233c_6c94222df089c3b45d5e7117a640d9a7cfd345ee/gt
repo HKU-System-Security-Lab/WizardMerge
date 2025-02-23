@@ -1,0 +1,41 @@
+@ storage/innobase/sync/sync0rw.cc, 1009, 1057
+# 512, 1, = ,521, 2
+@ storage/innobase/os/os0event.cc, 650, 649
+# 142, 2, = ,142, 1
+@ storage/innobase/include/ut0new.h, 2860, 2864
+# 2511, 1, = ,2514, 1
+# 2594, 1, = ,2597, 1
+# 2618, 4, = ,2621, 4
+# 2767, 1, = ,2771, 1
+@ storage/innobase/include/sync0rw.h, 820, 828
+# 151, 3, = ,300, 2
+# 187, 17, = ,343, 20
+# 212, 5, = ,371, 7
+@ storage/innobase/include/rem0rec.h, 757, 757
+# 125, 1, = ,125, 1
+# 137, 2, = ,137, 2
+# 189, 2, = ,189, 2
+@ storage/innobase/include/page0zip.h, 378, 379
+# 123, 5, = ,124, 5
+# 177, 1, = ,178, 1
+# 185, 1, = ,186, 1
+@ storage/innobase/include/fts0priv.h, 407, 407
+# 353, 1, = ,353, 1
+# 372, 2, = ,372, 2
+@ storage/innobase/include/fsp0fsp.h, 1030, 1057
+# 180, 1, = ,189, 1
+@ storage/innobase/include/dict0dict.h, 1692, 1695
+# 727, 1, = ,730, 1
+# 732, 2, = ,735, 2
+@ storage/innobase/include/buf0buf.h, 2604, 2586
+# 1037, 2, = ,1039, 2
+@ storage/innobase/include/btr0cur.h, 767, 808
+# 297, 11, = ,312, 17
+@ storage/innobase/include/btr0btr.h, 576, 602
+# 181, 4, = ,177, 5
+@ storage/innobase/dict/dict0dict.cc, 6014, 6029
+# 854, 2, = ,858, 2
+@ storage/innobase/buf/buf0buf.cc, 6723, 6724
+# 2746, 2, = ,2747, 2
+@ storage/innobase/btr/btr0cur.cc, 5557, 5573
+# 3257, 2, = ,3253, 4

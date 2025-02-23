@@ -1,0 +1,19 @@
+@ router/tests/helpers/mock_server_testutils.h, 159, 146
+# 51, 7, = ,51, 6
+# 67, 2, = ,65, 1
+@ router/tests/helpers/mock_server_testutils.cc, 170, 188
+# 58, 2, = ,58, 1
+# 69, 2, = ,68, 1
+# 145, 0, = ,156, 17
+@ router/tests/component/test_metadata_ttl.cc, 381, 2894
+# 320, 0, = ,446, 138
+# 375, 0, = ,639, 2249
+@ router/tests/component/test_bootstrap.cc, 2815, 2786
+# 123, 2, = ,123, 1
+# 1742, 1, = ,1718, 1
+@ router/src/metadata_cache/src/cluster_metadata_gr.cc, 1660, 1580
+# 396, 1, = ,420, 5
+# 536, 0, = ,523, 2
+# 548, 6, = ,537, 8
+# 562, 2, = ,553, 2
+# 585, 3, = ,576, 2
