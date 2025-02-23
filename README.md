@@ -15,6 +15,18 @@ make -j8
 ## Test & Evaluation
 We have provided some conflict pairs to test WizardMerge in `evaluation/conflict_commit_pairs`.
 
+As an alternative way, if you want to collect the conflict tuple (i.e. (resolved_commit, commit_a, commit_b)), you can change directory to the root of the targeted Git project, and execute:
+
+```shell
+python3 find_merge_conflict_tuple.py <tuple_list_path>
+```
+
+Please refer to `compile_all_targets.py` to see how to compile and dump definition indicator & LLVM IR for each project automatically.
+
+Please refer to `statical_test.py` to see how we calculate the arguments for `Statistical Confirmation` section.
+
+We also provide part of the ground truth of CR-violated DCBs for your reference.
+
 ## Usage
 
 ### Use patched git to obtain preliminary code blocks
