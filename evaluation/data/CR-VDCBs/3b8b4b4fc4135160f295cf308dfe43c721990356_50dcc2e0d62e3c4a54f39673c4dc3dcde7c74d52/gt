@@ -1,0 +1,18 @@
+@ drivers/firmware/efi/libstub/x86-stub.c, 987, 956
+    - 452, 3, = ,452, 2
+    - 472, 21, = ,471, 1
+    - 495, 1, = ,474, 0
+    - 504, 2, = ,482, 2
+    - 507, 11, = ,485, 1
+    - 521, 2, = ,489, 0
+@ arch/x86/include/asm/boot.h: 
+    - 88, 0, = ,71, 2
+@ arch/x86/boot/compressed/sev.c: 
+    - 618, 1, = ,608, 1
+@ arch/x86/boot/compressed/ident_map_64.c, 388, 381
+    - 162, 2, = ,154, 3
+    - 171, 1, = ,164, 1
+@ arch/x86/boot/compressed/misc.c, 502, 502
+    - 1, 502, = ,1, 502
+@ arch/x86/boot/compressed/misc.h, 258, 257
+    - 1, 258, = ,1, 257
