@@ -1,0 +1,6 @@
+storage/ndb/src/kernel/blocks/dbdih/DbdihMain.cpp
+    26909, 0 = 25938, 1 
+    26922, 1 = 25952, 2
+
+storage/ndb/src/kernel/blocks/dbdih/Sysfile.hpp
+    168, 8 = 139, 6

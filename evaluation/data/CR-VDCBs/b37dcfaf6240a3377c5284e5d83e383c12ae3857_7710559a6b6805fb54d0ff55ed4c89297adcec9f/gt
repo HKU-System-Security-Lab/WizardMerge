@@ -1,0 +1,5 @@
+storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.hpp
+    47, 0 = 72, 49
+
+storage/ndb/src/kernel/blocks/ndbfs/PosixAsyncFile.cpp
+    54, 2 = 58, 4

@@ -1,0 +1,8 @@
+sql/mysqld.h
+    765, 4, = 1015, 4
+
+storage/innobase/handler/ha_innodb.cc
+    1597, 1 = 1399, 1
+
+sql/binlog.cc
+    7034, 3, = 7575, 4

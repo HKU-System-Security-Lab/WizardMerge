@@ -1,0 +1,15 @@
+storage/ndb/src/kernel/blocks/dbinfo/Dbinfo.hpp
+    36, 1, = 36, 1
+
+storage/ndb/include/kernel/signaldata/ReadConfig.hpp
+    35, 1, = 35, 1
+
+storage/ndb/src/kernel/vm/NdbinfoTables.cpp
+    318, 0 = 308, 3
+    480, 0 = 470, 3
+    594, 9 = 584, 8
+    761, 0 = 746, 3
+    791, 0, = 778, 3
+
+storage/ndb/src/ndbapi/NdbInfoScanVirtual.cpp
+    716, 0 = 544, 38

@@ -1,0 +1,9 @@
+storage/ndb/src/ndbapi/NdbEventOperationImpl.cpp
+    1063, 1, = 1165, 2
+    1011, 2, = 1113, 2
+
+sql/join_optimizer/make_join_hypergraph.cc
+    2839, 1, = 2832, 1
+    3509, 1, = 3502, 1
+    3740, 1, = 3733, 1
+

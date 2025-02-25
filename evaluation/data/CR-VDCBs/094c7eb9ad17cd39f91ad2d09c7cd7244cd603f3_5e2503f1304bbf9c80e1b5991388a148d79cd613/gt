@@ -1,0 +1,12 @@
+dom/base/Document.h
+    4023, 4, = 4058, 3
+    4529, 1, = 4559, 1
+
+dom/base/Document.cpp
+    4294, 2, = 4289, 3
+    16723, 1, = 16722, 1
+
+layout/tables/nsTableRowGroupFrame.cpp
+    344, 5, = 354, 7
+    416, 5, = 433, 7
+

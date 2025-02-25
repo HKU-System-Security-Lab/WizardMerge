@@ -1,0 +1,15 @@
+gfx/layers/ScrollbarData.h
+    50, 1, = 49, 0
+    111, 2, = 110, 2
+    121, 1, = 120, 0
+
+dom/media/systemservices/video_engine/desktop_capture_impl.cc
+    547, 5, = 526, 7
+    513, 6, = 518, 3
+    386, 3, = 382, 1
+
+js/src/jit/CodeGenerator.cpp
+    5209, 16, = 5228, 4
+
+accessible/base/nsAccessibilityService.cpp
+    108, 4, = 109, 0

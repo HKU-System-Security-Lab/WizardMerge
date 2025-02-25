@@ -1,0 +1,11 @@
+dom/media/platforms/PDMFactory.cpp,
+    65, 4, = 64, 0
+    797, 1, = 814, 1
+    799, 1, = 816, 1
+    813, 1, = 830, 1
+
+dom/media/platforms/MediaCodecsSupport.h
+    36, 16, = 13, 1
+
+dom/media/ipc/RemoteDecoderManagerChild.cpp
+    796, 9 = 900, 10

@@ -1,0 +1,6 @@
+storage/innobase/srv/srv0start.cc
+    2620, 4 = 2354, 3
+
+storage/innobase/trx/trx0rseg.cc
+    107, 1 = 104, 2
+    244, 1 = 222 ,6

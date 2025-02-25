@@ -1,0 +1,13 @@
+sql/rpl_msr.cc
+    132, 4 = 135, 4
+    167, 1 = 181, 2
+
+sql/rpl_info_table.cc
+    118, 1 = 104, 1
+
+sql/rpl_info_factory.cc
+    1366, 1 = 1367, 1
+
+sql/rpl_msr.h
+    201, 1 = 196, 1
+    218, 0 = 214, 5

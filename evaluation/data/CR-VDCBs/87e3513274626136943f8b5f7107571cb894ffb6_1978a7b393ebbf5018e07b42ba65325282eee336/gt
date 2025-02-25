@@ -1,0 +1,6 @@
+Zend/zend_execute_API.c
+    712, 5, = 722, 0
+    683, 1 = 682, 2
+
+Zend/zend_vm_execute.h
+    3847, 2 = 3825, 0

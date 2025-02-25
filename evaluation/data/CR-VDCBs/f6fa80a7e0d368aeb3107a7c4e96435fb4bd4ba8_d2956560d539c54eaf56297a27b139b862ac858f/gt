@@ -1,0 +1,14 @@
+dom/canvas/CanvasRenderingContext2D.h
+    333, 0, = 346, 1
+    335, 8, = 349, 1
+    360, 1, = 373, 2
+
+dom/canvas/CanvasRenderingContext2D.cpp
+    3650, 0, = 3587, 1
+
+layout/style/Loader.h
+    545, 1, = 547, 1
+    547, 2, = 549, 5
+
+dom/fs/api/FileSystemWritableFileStream.cpp
+    493, 8, = 479, 0

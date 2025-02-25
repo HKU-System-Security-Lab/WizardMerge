@@ -1,0 +1,9 @@
+storage/innobase/log/log0recv.cc
+    676, 0, = 1038, 48
+    609, 4 = 951, 8
+    1224, 4, = 1700, 20
+    3443, 12 = 3681, 1
+    3845, 4 = 4495, 5
+
+storage/innobase/log/log0log.cc
+    1293, 9, = 1898, 19

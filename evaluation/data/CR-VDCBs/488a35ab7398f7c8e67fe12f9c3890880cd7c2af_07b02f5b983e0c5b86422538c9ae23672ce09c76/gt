@@ -1,0 +1,14 @@
+js/src/jit/CodeGenerator.cpp
+    2144, 4, = 2142, 5 
+    2409, 3, = 2408, 1
+    2418, 3, = 2415, 0
+
+dom/media/gtest/MockCubeb.cpp
+    243, 8, = 246, 0
+    263, 1, = 259, 0
+
+dom/events/EventStateManager.cpp
+    3445, 2, = 3382, 0
+
+dom/events/Event.cpp
+    470, 3, = 447, 0

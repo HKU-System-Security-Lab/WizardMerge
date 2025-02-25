@@ -1,0 +1,104 @@
+storage/perfschema/pfs_instr.h
+    675, 2, = 635, 1
+    
+sql/sql_parse.cc
+    3635, 2, = 3713, 3
+    4576, 1, = 4840, 7
+
+storage/perfschema/pfs_instr.cc
+    682, 2, = 584, 2
+
+include/mysql/psi/mysql_thread.h
+    175, 1, = 1331, 0
+
+sql/sql_connect.cc
+    469, 11, = 527, 17
+
+sql/table.h
+    591, 0, = 507, 2
+    598, 3, = 516, 3
+    2759, 88, = 1813, 11
+    3824, 0, = 2635, 2
+
+sql/sql_class.h
+    153, 4, = 66, 5
+
+include/thr_lock.h
+    146, 8, = 129, 9
+
+sql/auth/auth_common.h
+    124, 1, = 89, 1
+
+storage/perfschema/table_events_statements.h
+    219, 0, = 203, 2
+
+storage/perfschema/table_events_waits.h
+    171, 0, = 162, 2
+
+storage/perfschema/table_setup_instruments.h
+    63, 3, = 70, 8
+
+storage/perfschema/table_events_stages.h
+    133, 0 = 117, 2
+
+storage/perfschema/table_file_summary_by_instance.h
+    54, 0, = 52, 1
+
+storage/perfschema/table_events_transactions.h
+    161, 0, = 144, 2
+
+storage/perfschema/pfs_lock.h
+    70, 0, = 71, 2
+
+storage/perfschema/pfs_instr_class.cc
+    1571, 0, = 1496, 2
+
+storage/perfschema/table_setup_objects.cc
+    85, 1, = 102, 0
+
+include/my_bitmap.h
+    96, 1, = 109, 1
+
+storage/perfschema/pfs_engine_table.cc
+    814, 2, = 699, 137
+
+sql/parse_tree_node_base.h
+    114, 1, = 115, 14
+
+storage/perfschema/unittest/pfs_server_stubs.cc
+    61, 18, = 50, 2
+
+sql/parse_tree_nodes.h
+    146, 6, = 41, 4
+    2007, 994, = 2686, 3
+    3531, 1658, = 2712, 0
+
+sql/auth/sql_security_ctx.h
+    239, 10, = 346, 5
+
+sql/event_scheduler.cc
+    274, 11, = 264, 4
+
+sql/parse_tree_nodes.cc
+    1128, 1634, = 982, 0
+    2790, 1384, = 995, 5
+    4094, 9, = 995, 5
+    4204, 155, = 1019, 3
+    
+storage/perfschema/table_replication_applier_status.cc
+    91, 4, = 97, 0
+
+storage/perfschema/table_md_locks.cc
+    99, 48, = 120, 2
+
+storage/perfschema/table_esms_by_account_by_event_name.cc
+    124, 10, = 206, 3
+
+storage/perfschema/ha_perfschema.cc
+    1361, 42, = 82, 7
+
+storage/perfschema/pfs_engine_table.h
+    65, 0 = 53, 30  
+
+storage/perfschema/pfs.cc
+    8260, 19, = 7138, 8

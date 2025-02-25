@@ -1,0 +1,5 @@
+drivers/acpi/nfit/core.c
+    3342, 10, = 3342, 0
+    
+drivers/acpi/bus.c
+    564, 0, = 564, 1

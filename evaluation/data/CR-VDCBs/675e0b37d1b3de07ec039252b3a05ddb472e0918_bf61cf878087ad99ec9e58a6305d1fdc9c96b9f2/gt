@@ -1,0 +1,8 @@
+storage/ndb/plugin/ha_ndbcluster_binlog.cc
+    6286, 1, = 6344, 1
+    6714, 1, = 6787, 1
+    7222, 1, = 7293, 1
+    7513, 1, = 7598, 1
+
+storage/ndb/src/ndbapi/NdbEventOperationImpl.cpp
+    1922, 13, = 1924, 13

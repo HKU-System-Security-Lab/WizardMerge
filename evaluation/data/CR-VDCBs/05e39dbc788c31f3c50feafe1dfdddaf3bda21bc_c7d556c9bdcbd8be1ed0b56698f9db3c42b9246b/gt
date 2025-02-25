@@ -1,0 +1,13 @@
+storage/innobase/os/os0file.cc
+    6010, 4 = 5999, 0
+
+storage/innobase/buf/buf0dblwr.cc
+    1747, 24 = 1241, 1
+    2723, 38 = 1939, 0
+
+storage/innobase/srv/srv0srv.cc
+    248, 0 = 241, 10
+
+storage/innobase/fil/fil0fil.cc
+    3028, 0 = 3113, 4
+    8107, 0 = 8507, 3

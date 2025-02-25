@@ -1,0 +1,12 @@
+storage/innobase/handler/ha_innopart.cc
+    592, 1 = 599, 97
+    1138, 3 = 1333, 3
+    1356, 3, = 1575, 3
+    3961, 4, = 4182, 4
+    4087, 2, = 4311, 2
+
+storage/innobase/handler/ha_innodb.h
+    263, 1 = 240, 1
+
+storage/innobase/handler/ha_innopart.h
+    166, 35, = 173, 8

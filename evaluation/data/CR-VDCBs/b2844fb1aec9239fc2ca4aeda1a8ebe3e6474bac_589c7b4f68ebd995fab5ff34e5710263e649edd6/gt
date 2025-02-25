@@ -1,0 +1,14 @@
+sql/sql_class.h
+    927, 16, = 1465, 7
+
+sql/rpl_mi.h
+    86, 2, = 72, 3
+
+sql/sql_connect.cc
+    705, 1, = 759, 1
+
+include/mysql_com_server.h
+    67, 7, = , 54, 1
+
+sql/protocol_classic.cc
+    3061, 7, = 1073, 4
